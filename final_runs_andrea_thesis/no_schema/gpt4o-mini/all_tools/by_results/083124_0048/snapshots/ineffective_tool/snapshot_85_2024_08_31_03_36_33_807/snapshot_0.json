@@ -1,0 +1,7 @@
+{"type":"node","id":"47","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}}
+{"type":"node","id":"48","labels":["Function"],"properties":{"expression":"3x^2 + 8x - 3","name":"f_prime"}}
+{"type":"node","id":"49","labels":["InitialGuess"],"properties":{"value":-5}}
+{"type":"node","id":"50","labels":["Iteration"],"properties":{"count":1}}
+{"type":"relationship","id":"3","label":"INITIALIZED","start":{"id":"49","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"47","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}}}
+{"type":"relationship","id":"4","label":"DERIVED","start":{"id":"49","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"48","labels":["Function"],"properties":{"expression":"3x^2 + 8x - 3","name":"f_prime"}}}
+{"type":"relationship","id":"5","label":"ITERATED","start":{"id":"47","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}},"end":{"id":"50","labels":["Iteration"],"properties":{"count":1}}}

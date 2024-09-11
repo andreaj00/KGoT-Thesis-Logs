@@ -1,0 +1,11 @@
+{"type":"node","id":"13","labels":["Astronaut"],"properties":{"name":"John Young"}}
+{"type":"node","id":"14","labels":["Astronaut"],"properties":{"name":"Charles Duke"}}
+{"type":"node","id":"15","labels":["NASA_Astronaut_Group"],"properties":{"name":"NASA Astronaut Group 5","nickname":"The Original 19"}}
+{"type":"node","id":"16","labels":["Event"],"properties":{"date":"2006-01-21","name":"NASA Astronomy Picture of the Day"}}
+{"type":"node","id":"17","labels":["Astronaut"],"properties":{"name":"Bruce McCandless II"}}
+{"type":"node","id":"18","labels":["NASA_Astronaut_Group"],"properties":{"name":"NASA Astronaut Group 6","nickname":"The Original 19","selection_year":1967}}
+{"type":"relationship","id":"112","label":"VISIBLE_IN","start":{"id":"14","labels":["Astronaut"],"properties":{"name":"Charles Duke"}},"end":{"id":"16","labels":["Event"],"properties":{"date":"2006-01-21","name":"NASA Astronomy Picture of the Day"}}}
+{"type":"relationship","id":"113","label":"BELONGS_TO","start":{"id":"17","labels":["Astronaut"],"properties":{"name":"Bruce McCandless II"}},"end":{"id":"18","labels":["NASA_Astronaut_Group"],"properties":{"name":"NASA Astronaut Group 6","nickname":"The Original 19","selection_year":1967}}}
+{"type":"relationship","id":"114","label":"VISIBLE_IN","start":{"id":"17","labels":["Astronaut"],"properties":{"name":"Bruce McCandless II"}},"end":{"id":"16","labels":["Event"],"properties":{"date":"2006-01-21","name":"NASA Astronomy Picture of the Day"}}}
+{"type":"relationship","id":"110","label":"BELONGS_TO","start":{"id":"14","labels":["Astronaut"],"properties":{"name":"Charles Duke"}},"end":{"id":"15","labels":["NASA_Astronaut_Group"],"properties":{"name":"NASA Astronaut Group 5","nickname":"The Original 19"}}}
+{"type":"relationship","id":"111","label":"VISIBLE_IN","start":{"id":"13","labels":["Astronaut"],"properties":{"name":"John Young"}},"end":{"id":"16","labels":["Event"],"properties":{"date":"2006-01-21","name":"NASA Astronomy Picture of the Day"}}}

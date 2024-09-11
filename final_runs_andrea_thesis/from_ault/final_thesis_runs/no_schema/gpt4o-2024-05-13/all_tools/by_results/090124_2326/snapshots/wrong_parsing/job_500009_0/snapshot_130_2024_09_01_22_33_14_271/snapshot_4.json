@@ -1,0 +1,15 @@
+{"type":"node","id":"1","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}
+{"type":"node","id":"2","labels":["President"],"properties":{"name":"James Madison"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}
+{"type":"node","id":"4","labels":["President"],"properties":{"name":"James Monroe"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}
+{"type":"node","id":"41","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}
+{"type":"node","id":"43","labels":["President"],"properties":{"name":"John Adams"}}
+{"type":"node","id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}
+{"type":"node","id":"45","labels":["President"],"properties":{"name":"Thomas Jefferson"}}
+{"type":"relationship","id":"21","label":"BORN_IN","start":{"id":"41","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}}
+{"type":"relationship","id":"22","label":"BORN_IN","start":{"id":"43","labels":["President"],"properties":{"name":"John Adams"}},"end":{"id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}}
+{"type":"relationship","id":"23","label":"BORN_IN","start":{"id":"45","labels":["President"],"properties":{"name":"Thomas Jefferson"}},"end":{"id":"1","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}}
+{"type":"relationship","id":"24","label":"BORN_IN","start":{"id":"2","labels":["President"],"properties":{"name":"James Madison"}},"end":{"id":"3","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}}
+{"type":"relationship","id":"25","label":"BORN_IN","start":{"id":"4","labels":["President"],"properties":{"name":"James Monroe"}},"end":{"id":"5","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}}

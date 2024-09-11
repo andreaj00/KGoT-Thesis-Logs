@@ -1,0 +1,5 @@
+{"type":"node","id":"0","labels":["Gender"],"properties":{"type":"Women"}}
+{"type":"node","id":"1","labels":["Gender"],"properties":{"type":"Men"}}
+{"type":"node","id":"81","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}
+{"type":"relationship","id":"99","label":"COMPLETED_TERTIARY_EDUCATION","properties":{"percentage":57.5},"start":{"id":"0","labels":["Gender"],"properties":{"type":"Women"}},"end":{"id":"81","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}}
+{"type":"relationship","id":"100","label":"COMPLETED_TERTIARY_EDUCATION","properties":{"percentage":42.5},"start":{"id":"1","labels":["Gender"],"properties":{"type":"Men"}},"end":{"id":"81","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}}

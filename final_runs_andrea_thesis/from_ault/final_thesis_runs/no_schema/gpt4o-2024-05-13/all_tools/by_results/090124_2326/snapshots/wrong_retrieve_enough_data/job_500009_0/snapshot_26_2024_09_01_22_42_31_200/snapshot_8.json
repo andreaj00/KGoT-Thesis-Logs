@@ -1,0 +1,27 @@
+{"type":"node","id":"6","labels":["Contributor"],"properties":{"name":"Gary Bradski"}}
+{"type":"node","id":"7","labels":["Contributor"],"properties":{"name":"Adrian Kaehler"}}
+{"type":"node","id":"8","labels":["Contributor"],"properties":{"name":"Vadim Pisarevski"}}
+{"type":"node","id":"9","labels":["Organization"],"properties":{"name":"Intel"}}
+{"type":"node","id":"10","labels":["Organization"],"properties":{"name":"Willow Garage"}}
+{"type":"node","id":"11","labels":["Organization"],"properties":{"name":"Itseez"}}
+{"type":"node","id":"12","labels":["Organization"],"properties":{"name":"OpenCV.org"}}
+{"type":"node","id":"13","labels":["Organization"],"properties":{"name":"Intel Russia"}}
+{"type":"node","id":"14","labels":["Organization"],"properties":{"name":"Intel Performance Library Team"}}
+{"type":"node","id":"15","labels":["Organization"],"properties":{"name":"Independent Russian Team"}}
+{"type":"node","id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}
+{"type":"node","id":"17","labels":["Model"],"properties":{"name":"Mask-RCNN"}}
+{"type":"node","id":"18","labels":["HeadOfGovernment"],"properties":{"name":"Mao Zedong"}}
+{"type":"node","id":"19","labels":["HeadOfGovernment"],"properties":{"name":"Liu Shaoqi"}}
+{"type":"node","id":"20","labels":["HeadOfGovernment"],"properties":{"name":"Soong Ching-ling"}}
+{"type":"node","id":"21","labels":["HeadOfGovernment"],"properties":{"name":"Dong Biwu"}}
+{"type":"relationship","id":"80","label":"SUPPORTED","start":{"id":"14","labels":["Organization"],"properties":{"name":"Intel Performance Library Team"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"81","label":"SUPPORTED","start":{"id":"15","labels":["Organization"],"properties":{"name":"Independent Russian Team"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"71","label":"SUPPORTS","start":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}},"end":{"id":"17","labels":["Model"],"properties":{"name":"Mask-RCNN"}}}
+{"type":"relationship","id":"72","label":"CONTRIBUTED_TO","start":{"id":"6","labels":["Contributor"],"properties":{"name":"Gary Bradski"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"73","label":"CONTRIBUTED_TO","start":{"id":"7","labels":["Contributor"],"properties":{"name":"Adrian Kaehler"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"74","label":"CONTRIBUTED_TO","start":{"id":"8","labels":["Contributor"],"properties":{"name":"Vadim Pisarevski"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"75","label":"SUPPORTED","start":{"id":"9","labels":["Organization"],"properties":{"name":"Intel"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"76","label":"SUPPORTED","start":{"id":"10","labels":["Organization"],"properties":{"name":"Willow Garage"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"77","label":"SUPPORTED","start":{"id":"11","labels":["Organization"],"properties":{"name":"Itseez"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"78","label":"SUPPORTED","start":{"id":"12","labels":["Organization"],"properties":{"name":"OpenCV.org"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}
+{"type":"relationship","id":"79","label":"SUPPORTED","start":{"id":"13","labels":["Organization"],"properties":{"name":"Intel Russia"}},"end":{"id":"16","labels":["Version"],"properties":{"name":"OpenCV 3"}}}

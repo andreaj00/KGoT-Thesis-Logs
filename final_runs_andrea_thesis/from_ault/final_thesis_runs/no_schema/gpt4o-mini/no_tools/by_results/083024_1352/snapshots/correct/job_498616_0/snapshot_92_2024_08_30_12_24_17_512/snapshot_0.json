@@ -1,0 +1,26 @@
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Wharvton"}}
+{"type":"node","id":"4","labels":["City"],"properties":{"name":"Algrimand"}}
+{"type":"node","id":"5","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1983}}
+{"type":"node","id":"6","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2008}}
+{"type":"node","id":"7","labels":["MenuItem"],"properties":{"name":"Salads","sales":2014}}
+{"type":"node","id":"8","labels":["MenuItem"],"properties":{"name":"Fries","sales":2015}}
+{"type":"node","id":"9","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2017}}
+{"type":"node","id":"10","labels":["MenuItem"],"properties":{"name":"Soda","sales":2018}}
+{"type":"node","id":"11","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1958}}
+{"type":"node","id":"12","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1971}}
+{"type":"node","id":"13","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}
+{"type":"node","id":"14","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}
+{"type":"node","id":"15","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1998}}
+{"type":"node","id":"16","labels":["MenuItem"],"properties":{"name":"Soda","sales":2009}}
+{"type":"relationship","id":"0","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"12","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1971}}}
+{"type":"relationship","id":"1","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"13","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}}
+{"type":"relationship","id":"2","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"14","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}}
+{"type":"relationship","id":"3","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"15","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1998}}}
+{"type":"relationship","id":"4","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"16","labels":["MenuItem"],"properties":{"name":"Soda","sales":2009}}}
+{"type":"relationship","id":"23","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"5","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1983}}}
+{"type":"relationship","id":"24","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"6","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2008}}}
+{"type":"relationship","id":"25","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"7","labels":["MenuItem"],"properties":{"name":"Salads","sales":2014}}}
+{"type":"relationship","id":"26","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"8","labels":["MenuItem"],"properties":{"name":"Fries","sales":2015}}}
+{"type":"relationship","id":"27","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"9","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2017}}}
+{"type":"relationship","id":"28","label":"HAS_SOLD","start":{"id":"3","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"10","labels":["MenuItem"],"properties":{"name":"Soda","sales":2018}}}
+{"type":"relationship","id":"29","label":"HAS_SOLD","start":{"id":"4","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"11","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1958}}}

@@ -1,0 +1,3 @@
+{"type":"node","id":"17","labels":["Catastrophe"],"properties":{"date":"2013-02-15","explosive_force_kilotons":470,"name":"Chelyabinsk meteor"}}
+{"type":"node","id":"18","labels":["NuclearTest"],"properties":{"yield_kilotons":15000,"last_word":"Bravo","name":"Castle Bravo"}}
+{"type":"relationship","id":"23","label":"HAS_SAME_YIELD","start":{"id":"17","labels":["Catastrophe"],"properties":{"date":"2013-02-15","explosive_force_kilotons":470,"name":"Chelyabinsk meteor"}},"end":{"id":"18","labels":["NuclearTest"],"properties":{"yield_kilotons":15000,"last_word":"Bravo","name":"Castle Bravo"}}}

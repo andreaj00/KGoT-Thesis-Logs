@@ -1,0 +1,5 @@
+{"type":"node","id":"49","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}
+{"type":"node","id":"50","labels":["Gender"],"properties":{"type":"Female"}}
+{"type":"node","id":"51","labels":["Gender"],"properties":{"type":"Male"}}
+{"type":"relationship","id":"158","label":"COMPLETED_TERTIARY_EDUCATION","properties":{"count":785000},"start":{"id":"50","labels":["Gender"],"properties":{"type":"Female"}},"end":{"id":"49","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}}
+{"type":"relationship","id":"159","label":"COMPLETED_TERTIARY_EDUCATION","properties":{"count":563743},"start":{"id":"51","labels":["Gender"],"properties":{"type":"Male"}},"end":{"id":"49","labels":["Census"],"properties":{"country":"Bulgaria","year":2011}}}

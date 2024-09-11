@@ -1,0 +1,11 @@
+{"type":"node","id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}}
+{"type":"node","id":"19","labels":["Stanza"],"properties":{"number":2,"hasIndentedLines":true,"description":"The indentation in this stanza serves to create a visual distinction and emphasizes the emotional weight of the lines."}}
+{"type":"node","id":"20","labels":["Theme"],"properties":{"name":"Identity"}}
+{"type":"node","id":"21","labels":["Theme"],"properties":{"name":"Family"}}
+{"type":"node","id":"22","labels":["Theme"],"properties":{"name":"Complexities of Relationships"}}
+{"type":"node","id":"23","labels":["Structure"],"properties":{"description":"The poem uses a mix of free verse and structured elements.","type":"Free Verse"}}
+{"type":"relationship","id":"37","label":"CONTAINS","start":{"id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"19","labels":["Stanza"],"properties":{"number":2,"hasIndentedLines":true,"description":"The indentation in this stanza serves to create a visual distinction and emphasizes the emotional weight of the lines."}}}
+{"type":"relationship","id":"38","label":"EXPLORES","start":{"id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"20","labels":["Theme"],"properties":{"name":"Identity"}}}
+{"type":"relationship","id":"39","label":"EXPLORES","start":{"id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"21","labels":["Theme"],"properties":{"name":"Family"}}}
+{"type":"relationship","id":"40","label":"EXPLORES","start":{"id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"22","labels":["Theme"],"properties":{"name":"Complexities of Relationships"}}}
+{"type":"relationship","id":"41","label":"HAS_STRUCTURE","start":{"id":"18","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"23","labels":["Structure"],"properties":{"description":"The poem uses a mix of free verse and structured elements.","type":"Free Verse"}}}

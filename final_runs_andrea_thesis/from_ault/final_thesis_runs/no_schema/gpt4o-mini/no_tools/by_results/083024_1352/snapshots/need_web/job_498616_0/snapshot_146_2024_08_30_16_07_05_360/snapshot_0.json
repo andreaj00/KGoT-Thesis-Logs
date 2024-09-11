@@ -1,0 +1,3 @@
+{"type":"node","id":"31","labels":["Article"],"properties":{"author":"Carolyn Collins Petersen","publication_date":"2023-06-06","source":"Universe Today","title":"Observations by R. G. Arendt"}}
+{"type":"node","id":"32","labels":["Paper"],"properties":{"author":"R. G. Arendt","title":"Observations Paper","nasa_award_number":"N/A"}}
+{"type":"relationship","id":"47","label":"MENTIONS","start":{"id":"31","labels":["Article"],"properties":{"author":"Carolyn Collins Petersen","publication_date":"2023-06-06","source":"Universe Today","title":"Observations by R. G. Arendt"}},"end":{"id":"32","labels":["Paper"],"properties":{"author":"R. G. Arendt","title":"Observations Paper","nasa_award_number":"N/A"}}}

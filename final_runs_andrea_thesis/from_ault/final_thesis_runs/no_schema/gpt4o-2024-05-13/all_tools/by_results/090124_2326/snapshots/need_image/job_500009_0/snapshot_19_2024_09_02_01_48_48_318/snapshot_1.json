@@ -1,0 +1,11 @@
+{"type":"node","id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}
+{"type":"node","id":"20","labels":["Author"],"properties":{"name":"Pragya Kandari"}}
+{"type":"node","id":"21","labels":["Author"],"properties":{"name":"Ajay Jain"}}
+{"type":"node","id":"22","labels":["Author"],"properties":{"name":"Jenny Preece"}}
+{"type":"node","id":"23","labels":["Author"],"properties":{"name":"Helen Sharp"}}
+{"type":"node","id":"24","labels":["Author"],"properties":{"name":"Yvonne Rogers"}}
+{"type":"relationship","id":"24","label":"AUTHORED","start":{"id":"20","labels":["Author"],"properties":{"name":"Pragya Kandari"}},"end":{"id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"25","label":"AUTHORED","start":{"id":"21","labels":["Author"],"properties":{"name":"Ajay Jain"}},"end":{"id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"26","label":"AUTHORED","start":{"id":"22","labels":["Author"],"properties":{"name":"Jenny Preece"}},"end":{"id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"27","label":"AUTHORED","start":{"id":"23","labels":["Author"],"properties":{"name":"Helen Sharp"}},"end":{"id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"28","label":"AUTHORED","start":{"id":"24","labels":["Author"],"properties":{"name":"Yvonne Rogers"}},"end":{"id":"19","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}

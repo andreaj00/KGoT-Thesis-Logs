@@ -1,0 +1,5 @@
+{"type":"node","id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}}
+{"type":"node","id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}
+{"type":"node","id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}
+{"type":"relationship","id":"80","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}}
+{"type":"relationship","id":"79","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}}

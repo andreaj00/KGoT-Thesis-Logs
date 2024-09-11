@@ -1,0 +1,11 @@
+{"type":"node","id":"17","labels":["Composer"],"properties":{"name":"Pharrell Williams"}}
+{"type":"node","id":"18","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}}
+{"type":"node","id":"19","labels":["Song"],"properties":{"title":"Unknown"}}
+{"type":"node","id":"20","labels":["Song"],"properties":{"title":"Happy"}}
+{"type":"node","id":"21","labels":["Composer"],"properties":{"name":"Hampton the Hamster"}}
+{"type":"node","id":"22","labels":["Song"],"properties":{"title":"The Hamster Dance"}}
+{"type":"node","id":"23","labels":["Song"],"properties":{"title":"Whistle Stop"}}
+{"type":"relationship","id":"0","label":"COMPOSED","start":{"id":"17","labels":["Composer"],"properties":{"name":"Pharrell Williams"}},"end":{"id":"20","labels":["Song"],"properties":{"title":"Happy"}}}
+{"type":"relationship","id":"1","label":"COMPOSED","start":{"id":"21","labels":["Composer"],"properties":{"name":"Hampton the Hamster"}},"end":{"id":"22","labels":["Song"],"properties":{"title":"The Hamster Dance"}}}
+{"type":"relationship","id":"2","label":"COMPOSED","start":{"id":"23","labels":["Song"],"properties":{"title":"Whistle Stop"}},"end":{"id":"22","labels":["Song"],"properties":{"title":"The Hamster Dance"}}}
+{"type":"relationship","id":"62","label":"COMPOSED","start":{"id":"18","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}},"end":{"id":"19","labels":["Song"],"properties":{"title":"Unknown"}}}

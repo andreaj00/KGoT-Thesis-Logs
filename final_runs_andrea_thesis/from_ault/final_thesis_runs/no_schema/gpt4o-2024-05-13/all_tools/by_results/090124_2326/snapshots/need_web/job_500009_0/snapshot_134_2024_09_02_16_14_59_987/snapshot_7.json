@@ -1,0 +1,28 @@
+{"type":"node","id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}}
+{"type":"node","id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}
+{"type":"node","id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}
+{"type":"node","id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}
+{"type":"node","id":"6","labels":["Chef"],"properties":{"name":"Mashama Bailey"}}
+{"type":"node","id":"7","labels":["Restaurant"],"properties":{"name":"The Grey"}}
+{"type":"node","id":"8","labels":["Restaurant"],"properties":{"name":"Chai Pani"}}
+{"type":"node","id":"9","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Restaurant"}}
+{"type":"node","id":"10","labels":["Chef"],"properties":{"name":"Edgar Rico"}}
+{"type":"node","id":"11","labels":["Restaurant"],"properties":{"name":"Nixta Taqueria"}}
+{"type":"node","id":"12","labels":["Restaurant"],"properties":{"name":"Owamni"}}
+{"type":"node","id":"13","labels":["Award"],"properties":{"year":2022,"name":"Best New Restaurant"}}
+{"type":"node","id":"14","labels":["Chef"],"properties":{"name":"Warda Bouguettaya"}}
+{"type":"node","id":"15","labels":["Restaurant"],"properties":{"name":"Warda Pâtisserie"}}
+{"type":"node","id":"16","labels":["Chef"],"properties":{"name":"Don Guerra"}}
+{"type":"node","id":"17","labels":["Restaurant"],"properties":{"name":"Barrio Bread"}}
+{"type":"node","id":"18","labels":["Restaurant"],"properties":{"name":"Cúrate"}}
+{"type":"node","id":"19","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Hospitality"}}
+{"type":"relationship","id":"112","label":"OWNS","start":{"id":"14","labels":["Chef"],"properties":{"name":"Warda Bouguettaya"}},"end":{"id":"15","labels":["Restaurant"],"properties":{"name":"Warda Pâtisserie"}}}
+{"type":"relationship","id":"113","label":"OWNS","start":{"id":"16","labels":["Chef"],"properties":{"name":"Don Guerra"}},"end":{"id":"17","labels":["Restaurant"],"properties":{"name":"Barrio Bread"}}}
+{"type":"relationship","id":"114","label":"AWARDED","start":{"id":"18","labels":["Restaurant"],"properties":{"name":"Cúrate"}},"end":{"id":"19","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Hospitality"}}}
+{"type":"relationship","id":"105","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}}
+{"type":"relationship","id":"106","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}}
+{"type":"relationship","id":"107","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}}
+{"type":"relationship","id":"108","label":"OWNS","start":{"id":"6","labels":["Chef"],"properties":{"name":"Mashama Bailey"}},"end":{"id":"7","labels":["Restaurant"],"properties":{"name":"The Grey"}}}
+{"type":"relationship","id":"109","label":"AWARDED","start":{"id":"8","labels":["Restaurant"],"properties":{"name":"Chai Pani"}},"end":{"id":"9","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Restaurant"}}}
+{"type":"relationship","id":"110","label":"OWNS","start":{"id":"10","labels":["Chef"],"properties":{"name":"Edgar Rico"}},"end":{"id":"11","labels":["Restaurant"],"properties":{"name":"Nixta Taqueria"}}}
+{"type":"relationship","id":"111","label":"AWARDED","start":{"id":"12","labels":["Restaurant"],"properties":{"name":"Owamni"}},"end":{"id":"13","labels":["Award"],"properties":{"year":2022,"name":"Best New Restaurant"}}}

@@ -1,0 +1,6 @@
+{"type":"node","id":"32","labels":["Word"],"properties":{"text":"Maktay","type":"verb","tense":"present"}}
+{"type":"node","id":"33","labels":["Word"],"properties":{"text":"Zapple","type":"noun","case":"accusative"}}
+{"type":"node","id":"34","labels":["Word"],"properties":{"accusative":"Mato","text":"Pa","genitive":"Sing","type":"pronoun","case":"nominative","nominative":"Pa"}}
+{"type":"node","id":"35","labels":["Word"],"properties":{"accusative":"Zapple","text":"Apple","genitive":"Izapple","type":"noun","nominative":"Apple"}}
+{"type":"relationship","id":"8","label":"DIRECT_OBJECT","start":{"id":"32","labels":["Word"],"properties":{"text":"Maktay","type":"verb","tense":"present"}},"end":{"id":"33","labels":["Word"],"properties":{"text":"Zapple","type":"noun","case":"accusative"}}}
+{"type":"relationship","id":"9","label":"SUBJECT","start":{"id":"32","labels":["Word"],"properties":{"text":"Maktay","type":"verb","tense":"present"}},"end":{"id":"34","labels":["Word"],"properties":{"accusative":"Mato","text":"Pa","genitive":"Sing","type":"pronoun","case":"nominative","nominative":"Pa"}}}

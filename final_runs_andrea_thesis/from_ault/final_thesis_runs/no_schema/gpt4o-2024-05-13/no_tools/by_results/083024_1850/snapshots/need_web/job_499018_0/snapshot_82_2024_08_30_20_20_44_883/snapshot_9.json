@@ -1,0 +1,30 @@
+{"type":"node","id":"61","labels":["County"],"properties":{"name":"Adams County"}}
+{"type":"node","id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}}
+{"type":"node","id":"63","labels":["County"],"properties":{"name":"Asotin County"}}
+{"type":"node","id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}}
+{"type":"node","id":"65","labels":["County"],"properties":{"name":"Benton County"}}
+{"type":"node","id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}}
+{"type":"node","id":"67","labels":["County"],"properties":{"name":"Chelan County"}}
+{"type":"node","id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee"}}
+{"type":"node","id":"69","labels":["County"],"properties":{"name":"Clallam County"}}
+{"type":"node","id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles"}}
+{"type":"node","id":"71","labels":["County"],"properties":{"name":"Clark County"}}
+{"type":"node","id":"72","labels":["CountySeat"],"properties":{"name":"Vancouver"}}
+{"type":"node","id":"73","labels":["County"],"properties":{"name":"Columbia County"}}
+{"type":"node","id":"74","labels":["CountySeat"],"properties":{"name":"Dayton"}}
+{"type":"node","id":"75","labels":["County"],"properties":{"name":"Cowlitz County"}}
+{"type":"node","id":"76","labels":["CountySeat"],"properties":{"name":"Kelso"}}
+{"type":"node","id":"77","labels":["County"],"properties":{"name":"Douglas County"}}
+{"type":"node","id":"78","labels":["CountySeat"],"properties":{"name":"Waterville"}}
+{"type":"node","id":"79","labels":["County"],"properties":{"name":"Ferry County"}}
+{"type":"node","id":"80","labels":["CountySeat"],"properties":{"name":"Republic"}}
+{"type":"relationship","id":"64","label":"SEAT_OF","start":{"id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}},"end":{"id":"65","labels":["County"],"properties":{"name":"Benton County"}}}
+{"type":"relationship","id":"65","label":"SEAT_OF","start":{"id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee"}},"end":{"id":"67","labels":["County"],"properties":{"name":"Chelan County"}}}
+{"type":"relationship","id":"66","label":"SEAT_OF","start":{"id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles"}},"end":{"id":"69","labels":["County"],"properties":{"name":"Clallam County"}}}
+{"type":"relationship","id":"67","label":"SEAT_OF","start":{"id":"72","labels":["CountySeat"],"properties":{"name":"Vancouver"}},"end":{"id":"71","labels":["County"],"properties":{"name":"Clark County"}}}
+{"type":"relationship","id":"68","label":"SEAT_OF","start":{"id":"74","labels":["CountySeat"],"properties":{"name":"Dayton"}},"end":{"id":"73","labels":["County"],"properties":{"name":"Columbia County"}}}
+{"type":"relationship","id":"69","label":"SEAT_OF","start":{"id":"76","labels":["CountySeat"],"properties":{"name":"Kelso"}},"end":{"id":"75","labels":["County"],"properties":{"name":"Cowlitz County"}}}
+{"type":"relationship","id":"70","label":"SEAT_OF","start":{"id":"78","labels":["CountySeat"],"properties":{"name":"Waterville"}},"end":{"id":"77","labels":["County"],"properties":{"name":"Douglas County"}}}
+{"type":"relationship","id":"71","label":"SEAT_OF","start":{"id":"80","labels":["CountySeat"],"properties":{"name":"Republic"}},"end":{"id":"79","labels":["County"],"properties":{"name":"Ferry County"}}}
+{"type":"relationship","id":"62","label":"SEAT_OF","start":{"id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}},"end":{"id":"61","labels":["County"],"properties":{"name":"Adams County"}}}
+{"type":"relationship","id":"63","label":"SEAT_OF","start":{"id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}},"end":{"id":"63","labels":["County"],"properties":{"name":"Asotin County"}}}

@@ -1,0 +1,7 @@
+{"type":"node","id":"28","labels":["Actor"],"properties":{"name":"Bartłomiej Kasprzykowski"}}
+{"type":"node","id":"29","labels":["Character"],"properties":{"name":"Roman","show":"Wszyscy kochają Romana"}}
+{"type":"node","id":"30","labels":["Show"],"properties":{"language":"Polish","title":"Wszyscy kochają Romana"}}
+{"type":"node","id":"31","labels":["OriginalShow"],"properties":{"language":"English","title":"Everybody Loves Raymond"}}
+{"type":"relationship","id":"98","label":"PLAYED","start":{"id":"28","labels":["Actor"],"properties":{"name":"Bartłomiej Kasprzykowski"}},"end":{"id":"29","labels":["Character"],"properties":{"name":"Roman","show":"Wszyscy kochają Romana"}}}
+{"type":"relationship","id":"99","label":"APPEARS_IN","start":{"id":"29","labels":["Character"],"properties":{"name":"Roman","show":"Wszyscy kochają Romana"}},"end":{"id":"30","labels":["Show"],"properties":{"language":"Polish","title":"Wszyscy kochają Romana"}}}
+{"type":"relationship","id":"100","label":"ADAPTATION_OF","start":{"id":"30","labels":["Show"],"properties":{"language":"Polish","title":"Wszyscy kochają Romana"}},"end":{"id":"31","labels":["OriginalShow"],"properties":{"language":"English","title":"Everybody Loves Raymond"}}}

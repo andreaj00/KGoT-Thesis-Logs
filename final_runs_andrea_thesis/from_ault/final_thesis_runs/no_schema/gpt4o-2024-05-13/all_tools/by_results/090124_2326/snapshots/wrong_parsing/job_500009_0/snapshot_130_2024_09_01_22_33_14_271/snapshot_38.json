@@ -1,0 +1,113 @@
+{"type":"node","id":"0","labels":["City"],"properties":{"name":"Charles City County","state":"Virginia"}}
+{"type":"node","id":"1","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}
+{"type":"node","id":"2","labels":["President"],"properties":{"name":"James Madison"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}
+{"type":"node","id":"4","labels":["President"],"properties":{"name":"James Monroe"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}
+{"type":"node","id":"6","labels":["President"],"properties":{"name":"Andrew Jackson"}}
+{"type":"node","id":"7","labels":["City"],"properties":{"name":"Waxhaws Region","state":"South Carolina"}}
+{"type":"node","id":"8","labels":["President"],"properties":{"name":"John Quincy Adams"}}
+{"type":"node","id":"9","labels":["President"],"properties":{"name":"William Henry Harrison"}}
+{"type":"node","id":"10","labels":["President"],"properties":{"name":"Martin Van Buren"}}
+{"type":"node","id":"11","labels":["City"],"properties":{"name":"Kinderhook","state":"New York"}}
+{"type":"node","id":"12","labels":["President"],"properties":{"name":"Zachary Taylor"}}
+{"type":"node","id":"13","labels":["City"],"properties":{"name":"Barboursville","state":"Virginia"}}
+{"type":"node","id":"14","labels":["President"],"properties":{"name":"John Tyler"}}
+{"type":"node","id":"15","labels":["President"],"properties":{"name":"James Buchanan"}}
+{"type":"node","id":"16","labels":["City"],"properties":{"name":"Cove Gap","state":"Pennsylvania"}}
+{"type":"node","id":"17","labels":["President"],"properties":{"name":"James K. Polk"}}
+{"type":"node","id":"18","labels":["City"],"properties":{"name":"Pineville","state":"North Carolina"}}
+{"type":"node","id":"19","labels":["President"],"properties":{"name":"Millard Fillmore"}}
+{"type":"node","id":"20","labels":["City"],"properties":{"name":"Summerhill","state":"New York"}}
+{"type":"node","id":"21","labels":["President"],"properties":{"name":"Franklin Pierce"}}
+{"type":"node","id":"22","labels":["City"],"properties":{"name":"Hillsborough","state":"New Hampshire"}}
+{"type":"node","id":"23","labels":["President"],"properties":{"name":"Andrew Johnson"}}
+{"type":"node","id":"24","labels":["City"],"properties":{"name":"Raleigh","state":"North Carolina"}}
+{"type":"node","id":"25","labels":["President"],"properties":{"name":"Abraham Lincoln"}}
+{"type":"node","id":"26","labels":["City"],"properties":{"name":"Hodgenville","state":"Kentucky"}}
+{"type":"node","id":"27","labels":["President"],"properties":{"name":"Ulysses S. Grant"}}
+{"type":"node","id":"28","labels":["City"],"properties":{"name":"Point Pleasant","state":"Ohio"}}
+{"type":"node","id":"29","labels":["President"],"properties":{"name":"Rutherford B. Hayes"}}
+{"type":"node","id":"30","labels":["City"],"properties":{"name":"Delaware","state":"Ohio"}}
+{"type":"node","id":"31","labels":["President"],"properties":{"name":"Chester A. Arthur"}}
+{"type":"node","id":"32","labels":["City"],"properties":{"name":"Fairfield","state":"Vermont"}}
+{"type":"node","id":"33","labels":["President"],"properties":{"name":"James A. Garfield"}}
+{"type":"node","id":"34","labels":["City"],"properties":{"name":"Moreland Hills","state":"Ohio"}}
+{"type":"node","id":"35","labels":["President"],"properties":{"name":"Benjamin Harrison"}}
+{"type":"node","id":"36","labels":["City"],"properties":{"name":"North Bend","state":"Ohio"}}
+{"type":"node","id":"37","labels":["President"],"properties":{"name":"Grover Cleveland"}}
+{"type":"node","id":"38","labels":["City"],"properties":{"name":"Caldwell","state":"New Jersey"}}
+{"type":"node","id":"39","labels":["President"],"properties":{"name":"William McKinley"}}
+{"type":"node","id":"40","labels":["City"],"properties":{"name":"Niles","state":"Ohio"}}
+{"type":"node","id":"41","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}
+{"type":"node","id":"43","labels":["President"],"properties":{"name":"John Adams"}}
+{"type":"node","id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}
+{"type":"node","id":"45","labels":["President"],"properties":{"name":"Thomas Jefferson"}}
+{"type":"node","id":"46","labels":["President"],"properties":{"name":"Woodrow Wilson"}}
+{"type":"node","id":"47","labels":["City"],"properties":{"name":"Staunton","state":"Virginia"}}
+{"type":"node","id":"48","labels":["President"],"properties":{"name":"William Howard Taft"}}
+{"type":"node","id":"49","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}
+{"type":"node","id":"50","labels":["President"],"properties":{"name":"Theodore Roosevelt"}}
+{"type":"node","id":"51","labels":["City"],"properties":{"name":"Gramercy Park","state":"New York"}}
+{"type":"node","id":"52","labels":["President"],"properties":{"name":"Warren G. Harding"}}
+{"type":"node","id":"53","labels":["City"],"properties":{"name":"Blooming Grove","state":"Ohio"}}
+{"type":"node","id":"54","labels":["President"],"properties":{"name":"Calvin Coolidge"}}
+{"type":"node","id":"55","labels":["City"],"properties":{"name":"Plymouth","state":"Vermont"}}
+{"type":"node","id":"56","labels":["President"],"properties":{"name":"Herbert Hoover"}}
+{"type":"node","id":"57","labels":["City"],"properties":{"name":"West Branch","state":"Iowa"}}
+{"type":"node","id":"58","labels":["President"],"properties":{"name":"Franklin D. Roosevelt"}}
+{"type":"node","id":"59","labels":["City"],"properties":{"name":"Hyde Park","state":"New York"}}
+{"type":"node","id":"60","labels":["President"],"properties":{"name":"Harry S. Truman"}}
+{"type":"node","id":"61","labels":["City"],"properties":{"name":"Lamar","state":"Missouri"}}
+{"type":"node","id":"62","labels":["President"],"properties":{"name":"Dwight D. Eisenhower"}}
+{"type":"node","id":"63","labels":["City"],"properties":{"name":"Denison","state":"Texas"}}
+{"type":"node","id":"64","labels":["President"],"properties":{"name":"John F. Kennedy"}}
+{"type":"node","id":"65","labels":["City"],"properties":{"name":"Brookline","state":"Massachusetts"}}
+{"type":"node","id":"66","labels":["President"],"properties":{"name":"Lyndon B. Johnson"}}
+{"type":"node","id":"67","labels":["City"],"properties":{"name":"Stonewall","state":"Texas"}}
+{"type":"node","id":"68","labels":["President"],"properties":{"name":"Ronald Reagan"}}
+{"type":"node","id":"69","labels":["City"],"properties":{"name":"Tampico","state":"Illinois"}}
+{"type":"node","id":"70","labels":["President"],"properties":{"name":"Richard Nixon"}}
+{"type":"node","id":"71","labels":["City"],"properties":{"name":"Yorba Linda","state":"California"}}
+{"type":"node","id":"72","labels":["President"],"properties":{"name":"Gerald Ford"}}
+{"type":"node","id":"73","labels":["City"],"properties":{"name":"Omaha","state":"Nebraska"}}
+{"type":"relationship","id":"21","label":"BORN_IN","start":{"id":"41","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}}
+{"type":"relationship","id":"22","label":"BORN_IN","start":{"id":"43","labels":["President"],"properties":{"name":"John Adams"}},"end":{"id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}}
+{"type":"relationship","id":"23","label":"BORN_IN","start":{"id":"45","labels":["President"],"properties":{"name":"Thomas Jefferson"}},"end":{"id":"1","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}}
+{"type":"relationship","id":"24","label":"BORN_IN","start":{"id":"2","labels":["President"],"properties":{"name":"James Madison"}},"end":{"id":"3","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}}
+{"type":"relationship","id":"25","label":"BORN_IN","start":{"id":"4","labels":["President"],"properties":{"name":"James Monroe"}},"end":{"id":"5","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}}
+{"type":"relationship","id":"26","label":"BORN_IN","start":{"id":"6","labels":["President"],"properties":{"name":"Andrew Jackson"}},"end":{"id":"7","labels":["City"],"properties":{"name":"Waxhaws Region","state":"South Carolina"}}}
+{"type":"relationship","id":"27","label":"BORN_IN","start":{"id":"8","labels":["President"],"properties":{"name":"John Quincy Adams"}},"end":{"id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}}
+{"type":"relationship","id":"28","label":"BORN_IN","start":{"id":"9","labels":["President"],"properties":{"name":"William Henry Harrison"}},"end":{"id":"0","labels":["City"],"properties":{"name":"Charles City County","state":"Virginia"}}}
+{"type":"relationship","id":"29","label":"BORN_IN","start":{"id":"10","labels":["President"],"properties":{"name":"Martin Van Buren"}},"end":{"id":"11","labels":["City"],"properties":{"name":"Kinderhook","state":"New York"}}}
+{"type":"relationship","id":"30","label":"BORN_IN","start":{"id":"12","labels":["President"],"properties":{"name":"Zachary Taylor"}},"end":{"id":"13","labels":["City"],"properties":{"name":"Barboursville","state":"Virginia"}}}
+{"type":"relationship","id":"31","label":"BORN_IN","start":{"id":"14","labels":["President"],"properties":{"name":"John Tyler"}},"end":{"id":"0","labels":["City"],"properties":{"name":"Charles City County","state":"Virginia"}}}
+{"type":"relationship","id":"32","label":"BORN_IN","start":{"id":"15","labels":["President"],"properties":{"name":"James Buchanan"}},"end":{"id":"16","labels":["City"],"properties":{"name":"Cove Gap","state":"Pennsylvania"}}}
+{"type":"relationship","id":"33","label":"BORN_IN","start":{"id":"17","labels":["President"],"properties":{"name":"James K. Polk"}},"end":{"id":"18","labels":["City"],"properties":{"name":"Pineville","state":"North Carolina"}}}
+{"type":"relationship","id":"34","label":"BORN_IN","start":{"id":"19","labels":["President"],"properties":{"name":"Millard Fillmore"}},"end":{"id":"20","labels":["City"],"properties":{"name":"Summerhill","state":"New York"}}}
+{"type":"relationship","id":"35","label":"BORN_IN","start":{"id":"21","labels":["President"],"properties":{"name":"Franklin Pierce"}},"end":{"id":"22","labels":["City"],"properties":{"name":"Hillsborough","state":"New Hampshire"}}}
+{"type":"relationship","id":"36","label":"BORN_IN","start":{"id":"23","labels":["President"],"properties":{"name":"Andrew Johnson"}},"end":{"id":"24","labels":["City"],"properties":{"name":"Raleigh","state":"North Carolina"}}}
+{"type":"relationship","id":"37","label":"BORN_IN","start":{"id":"25","labels":["President"],"properties":{"name":"Abraham Lincoln"}},"end":{"id":"26","labels":["City"],"properties":{"name":"Hodgenville","state":"Kentucky"}}}
+{"type":"relationship","id":"38","label":"BORN_IN","start":{"id":"27","labels":["President"],"properties":{"name":"Ulysses S. Grant"}},"end":{"id":"28","labels":["City"],"properties":{"name":"Point Pleasant","state":"Ohio"}}}
+{"type":"relationship","id":"39","label":"BORN_IN","start":{"id":"29","labels":["President"],"properties":{"name":"Rutherford B. Hayes"}},"end":{"id":"30","labels":["City"],"properties":{"name":"Delaware","state":"Ohio"}}}
+{"type":"relationship","id":"40","label":"BORN_IN","start":{"id":"31","labels":["President"],"properties":{"name":"Chester A. Arthur"}},"end":{"id":"32","labels":["City"],"properties":{"name":"Fairfield","state":"Vermont"}}}
+{"type":"relationship","id":"41","label":"BORN_IN","start":{"id":"33","labels":["President"],"properties":{"name":"James A. Garfield"}},"end":{"id":"34","labels":["City"],"properties":{"name":"Moreland Hills","state":"Ohio"}}}
+{"type":"relationship","id":"42","label":"BORN_IN","start":{"id":"35","labels":["President"],"properties":{"name":"Benjamin Harrison"}},"end":{"id":"36","labels":["City"],"properties":{"name":"North Bend","state":"Ohio"}}}
+{"type":"relationship","id":"43","label":"BORN_IN","start":{"id":"37","labels":["President"],"properties":{"name":"Grover Cleveland"}},"end":{"id":"38","labels":["City"],"properties":{"name":"Caldwell","state":"New Jersey"}}}
+{"type":"relationship","id":"44","label":"BORN_IN","start":{"id":"39","labels":["President"],"properties":{"name":"William McKinley"}},"end":{"id":"40","labels":["City"],"properties":{"name":"Niles","state":"Ohio"}}}
+{"type":"relationship","id":"45","label":"BORN_IN","start":{"id":"46","labels":["President"],"properties":{"name":"Woodrow Wilson"}},"end":{"id":"47","labels":["City"],"properties":{"name":"Staunton","state":"Virginia"}}}
+{"type":"relationship","id":"46","label":"BORN_IN","start":{"id":"48","labels":["President"],"properties":{"name":"William Howard Taft"}},"end":{"id":"49","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}}
+{"type":"relationship","id":"47","label":"BORN_IN","start":{"id":"50","labels":["President"],"properties":{"name":"Theodore Roosevelt"}},"end":{"id":"51","labels":["City"],"properties":{"name":"Gramercy Park","state":"New York"}}}
+{"type":"relationship","id":"48","label":"BORN_IN","start":{"id":"52","labels":["President"],"properties":{"name":"Warren G. Harding"}},"end":{"id":"53","labels":["City"],"properties":{"name":"Blooming Grove","state":"Ohio"}}}
+{"type":"relationship","id":"49","label":"BORN_IN","start":{"id":"54","labels":["President"],"properties":{"name":"Calvin Coolidge"}},"end":{"id":"55","labels":["City"],"properties":{"name":"Plymouth","state":"Vermont"}}}
+{"type":"relationship","id":"50","label":"BORN_IN","start":{"id":"56","labels":["President"],"properties":{"name":"Herbert Hoover"}},"end":{"id":"57","labels":["City"],"properties":{"name":"West Branch","state":"Iowa"}}}
+{"type":"relationship","id":"51","label":"BORN_IN","start":{"id":"58","labels":["President"],"properties":{"name":"Franklin D. Roosevelt"}},"end":{"id":"59","labels":["City"],"properties":{"name":"Hyde Park","state":"New York"}}}
+{"type":"relationship","id":"52","label":"BORN_IN","start":{"id":"60","labels":["President"],"properties":{"name":"Harry S. Truman"}},"end":{"id":"61","labels":["City"],"properties":{"name":"Lamar","state":"Missouri"}}}
+{"type":"relationship","id":"53","label":"BORN_IN","start":{"id":"62","labels":["President"],"properties":{"name":"Dwight D. Eisenhower"}},"end":{"id":"63","labels":["City"],"properties":{"name":"Denison","state":"Texas"}}}
+{"type":"relationship","id":"54","label":"BORN_IN","start":{"id":"64","labels":["President"],"properties":{"name":"John F. Kennedy"}},"end":{"id":"65","labels":["City"],"properties":{"name":"Brookline","state":"Massachusetts"}}}
+{"type":"relationship","id":"55","label":"BORN_IN","start":{"id":"66","labels":["President"],"properties":{"name":"Lyndon B. Johnson"}},"end":{"id":"67","labels":["City"],"properties":{"name":"Stonewall","state":"Texas"}}}
+{"type":"relationship","id":"56","label":"BORN_IN","start":{"id":"68","labels":["President"],"properties":{"name":"Ronald Reagan"}},"end":{"id":"69","labels":["City"],"properties":{"name":"Tampico","state":"Illinois"}}}
+{"type":"relationship","id":"57","label":"BORN_IN","start":{"id":"70","labels":["President"],"properties":{"name":"Richard Nixon"}},"end":{"id":"71","labels":["City"],"properties":{"name":"Yorba Linda","state":"California"}}}
+{"type":"relationship","id":"58","label":"BORN_IN","start":{"id":"72","labels":["President"],"properties":{"name":"Gerald Ford"}},"end":{"id":"73","labels":["City"],"properties":{"name":"Omaha","state":"Nebraska"}}}
+{"type":"relationship","id":"59","label":"BORN_IN","start":{"id":"64","labels":["President"],"properties":{"name":"John F. Kennedy"}},"end":{"id":"65","labels":["City"],"properties":{"name":"Brookline","state":"Massachusetts"}}}

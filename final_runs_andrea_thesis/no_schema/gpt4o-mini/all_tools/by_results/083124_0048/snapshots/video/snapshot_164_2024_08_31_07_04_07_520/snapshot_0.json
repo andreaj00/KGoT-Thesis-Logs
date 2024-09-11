@@ -1,0 +1,9 @@
+{"type":"node","id":"9","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}}
+{"type":"node","id":"10","labels":["Mode"],"properties":{"name":"150cc"}}
+{"type":"node","id":"11","labels":["Source"],"properties":{"url":"https://www.twingalaxies.com/showthread.php/266873-Nintendo-Switch-Mario-Kart-8-Deluxe-Excitebike-Arena-Fastest-Lap-150cc-34-679"}}
+{"type":"node","id":"12","labels":["Source"],"properties":{"url":"https://www.mkleaderboards.com/mk8dx"}}
+{"type":"node","id":"13","labels":["Source"],"properties":{"url":"https://www.speedrun.com/mk8dx"}}
+{"type":"relationship","id":"69","label":"HAS_MODE","start":{"id":"9","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}},"end":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}}}
+{"type":"relationship","id":"70","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"11","labels":["Source"],"properties":{"url":"https://www.twingalaxies.com/showthread.php/266873-Nintendo-Switch-Mario-Kart-8-Deluxe-Excitebike-Arena-Fastest-Lap-150cc-34-679"}}}
+{"type":"relationship","id":"71","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"12","labels":["Source"],"properties":{"url":"https://www.mkleaderboards.com/mk8dx"}}}
+{"type":"relationship","id":"72","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"13","labels":["Source"],"properties":{"url":"https://www.speedrun.com/mk8dx"}}}

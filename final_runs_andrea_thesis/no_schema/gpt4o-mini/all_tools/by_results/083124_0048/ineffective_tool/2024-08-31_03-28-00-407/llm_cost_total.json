@@ -1,0 +1,164 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 289615,
+        "TotalCompletionTokens": 8869,
+        "TotalCost": 0.04875,
+        "TotalDuration": 186.96240305900574
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 12198,
+        "TotalCompletionTokens": 1022,
+        "TotalCost": 0.0024389999999999998,
+        "TotalDuration": 19.060843467712402
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 84598,
+        "TotalCompletionTokens": 2587,
+        "TotalCost": 0.014242,
+        "TotalDuration": 43.8790545463562
+    },
+    "load_documents_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 3.2277109622955322
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 33654,
+        "TotalCompletionTokens": 3945,
+        "TotalCost": 0.007413999999999999,
+        "TotalDuration": 51.050010681152344
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 11175,
+        "TotalCompletionTokens": 3835,
+        "TotalCost": 0.003980999999999998,
+        "TotalDuration": 65.35669469833374
+    },
+    "MultiModalQuestionTool._run": {
+        "TotalPromptTokens": 1395,
+        "TotalCompletionTokens": 503,
+        "TotalCost": 0.000511,
+        "TotalDuration": 7.0739357471466064
+    },
+    "load_documents_and_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 7.318456172943115
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 56004,
+        "TotalCompletionTokens": 514,
+        "TotalCost": 0.008712000000000001,
+        "TotalDuration": 34.137229919433594
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 162775,
+        "TotalCompletionTokens": 25230,
+        "TotalCost": 0.7145550000000002,
+        "TotalDuration": 584.7728743553162
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 143565,
+        "TotalCompletionTokens": 3114,
+        "TotalCost": 0.023408000000000064,
+        "TotalDuration": 114.41289472579956
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 13299,
+        "TotalCompletionTokens": 228,
+        "TotalCost": 0.002131,
+        "TotalDuration": 9.195675373077393
+    },
+    "ask_llm_for_sources": {
+        "TotalPromptTokens": 1752,
+        "TotalCompletionTokens": 76,
+        "TotalCost": 0.000308,
+        "TotalDuration": 1.2181792259216309
+    },
+    "run": {
+        "TotalPromptTokens": 27632,
+        "TotalCompletionTokens": 593,
+        "TotalCost": 0.004501,
+        "TotalDuration": 75.51237082481384
+    },
+    "OCRLoader.extract_text_from_image": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 6.207007884979248
+    },
+    "ImageQuestion._run": {
+        "TotalPromptTokens": 43447,
+        "TotalCompletionTokens": 394,
+        "TotalCost": 0.006754,
+        "TotalDuration": 16.22929358482361
+    },
+    "ask_llm_for_more_sources": {
+        "TotalPromptTokens": 2670,
+        "TotalCompletionTokens": 8,
+        "TotalCost": 0.000405,
+        "TotalDuration": 0.5348606109619141
+    },
+    "web_crawler_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 88.27995872497559
+    },
+    "ask_LLM_which_article_to_explore": {
+        "TotalPromptTokens": 14079,
+        "TotalCompletionTokens": 105,
+        "TotalCost": 0.002174,
+        "TotalDuration": 3.181104898452759
+    },
+    "get_page_content": {
+        "TotalPromptTokens": 186671,
+        "TotalCompletionTokens": 1763,
+        "TotalCost": 0.029059,
+        "TotalDuration": 38.581467628479004
+    },
+    "wikipedia_search_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 270.3010630607605
+    },
+    "run_python_code_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 8.484245300292969
+    },
+    "define_retrieve_query": {
+        "TotalPromptTokens": 7020,
+        "TotalCompletionTokens": 1035,
+        "TotalCost": 0.001673,
+        "TotalDuration": 13.08762001991272
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 90,
+        "TotalCompletionTokens": 50,
+        "TotalCost": 4.3e-05,
+        "TotalDuration": 1.1713967323303223
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 1.1737332344055176
+    },
+    "image_question_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 13.185499668121338
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 1091639,
+        "TotalCompletionTokens": 53871,
+        "TotalCost": 0.8710600000000001,
+        "TotalDuration": 1663.5955851078033
+    }
+}

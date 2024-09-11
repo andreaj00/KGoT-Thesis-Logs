@@ -1,0 +1,3 @@
+{"type":"node","id":"75","labels":["Document"],"properties":{"name":"NIH translation of the original 1913 Michaelis-Menten Paper"}}
+{"type":"node","id":"76","labels":["Equation"],"properties":{"description":"final equation in the paper"}}
+{"type":"relationship","id":"143","label":"CONTAINS","start":{"id":"75","labels":["Document"],"properties":{"name":"NIH translation of the original 1913 Michaelis-Menten Paper"}},"end":{"id":"76","labels":["Equation"],"properties":{"description":"final equation in the paper"}}}

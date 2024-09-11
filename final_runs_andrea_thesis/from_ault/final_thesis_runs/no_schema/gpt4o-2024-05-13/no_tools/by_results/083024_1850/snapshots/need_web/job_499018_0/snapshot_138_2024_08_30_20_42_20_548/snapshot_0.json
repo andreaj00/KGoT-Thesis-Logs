@@ -1,0 +1,3 @@
+{"type":"node","id":"73","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}}
+{"type":"node","id":"74","labels":["Stanza"],"properties":{"number":4,"indented":true}}
+{"type":"relationship","id":"94","label":"CONTAINS","start":{"id":"73","labels":["Poem"],"properties":{"author":"Audre Lorde","title":"Father Son and Holy Ghost"}},"end":{"id":"74","labels":["Stanza"],"properties":{"number":4,"indented":true}}}

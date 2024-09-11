@@ -1,0 +1,13 @@
+{"type":"node","id":"60","labels":["Person"],"properties":{"name":"Tom Ridge"}}
+{"type":"node","id":"61","labels":["Person"],"properties":{"name":"Michael Chertoff"}}
+{"type":"node","id":"62","labels":["Person"],"properties":{"name":"Janet Napolitano"}}
+{"type":"node","id":"63","labels":["Person"],"properties":{"name":"Jeh Johnson"}}
+{"type":"node","id":"64","labels":["Person"],"properties":{"name":"John F. Kelly"}}
+{"type":"node","id":"65","labels":["Person"],"properties":{"name":"Kirstjen Nielsen"}}
+{"type":"node","id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}
+{"type":"relationship","id":"80","label":"HELD_POSITION","properties":{"end_date":"2017-01-20","start_date":"2013-12-23"},"start":{"id":"63","labels":["Person"],"properties":{"name":"Jeh Johnson"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"81","label":"HELD_POSITION","properties":{"end_date":"2017-07-31","start_date":"2017-01-20"},"start":{"id":"64","labels":["Person"],"properties":{"name":"John F. Kelly"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"82","label":"HELD_POSITION","properties":{"end_date":"2019-04-01","start_date":"2017-12-06"},"start":{"id":"65","labels":["Person"],"properties":{"name":"Kirstjen Nielsen"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"77","label":"HELD_POSITION","properties":{"end_date":"2005-02-01","start_date":"2003-01-24"},"start":{"id":"60","labels":["Person"],"properties":{"name":"Tom Ridge"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"78","label":"HELD_POSITION","properties":{"end_date":"2009-01-21","start_date":"2005-02-15"},"start":{"id":"61","labels":["Person"],"properties":{"name":"Michael Chertoff"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"79","label":"HELD_POSITION","properties":{"end_date":"2013-09-06","start_date":"2009-01-21"},"start":{"id":"62","labels":["Person"],"properties":{"name":"Janet Napolitano"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}

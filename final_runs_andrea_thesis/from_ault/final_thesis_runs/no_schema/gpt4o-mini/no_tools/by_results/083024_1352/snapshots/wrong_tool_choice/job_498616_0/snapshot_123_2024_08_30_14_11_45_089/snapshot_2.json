@@ -1,0 +1,15 @@
+{"type":"node","id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}}
+{"type":"node","id":"13","labels":["Box"],"properties":{"coins":6,"name":"Box2","counter":1}}
+{"type":"node","id":"14","labels":["Box"],"properties":{"coins":0,"name":"Box3","counter":1}}
+{"type":"node","id":"15","labels":["Box"],"properties":{"coins":22,"name":"Box1","counter":1}}
+{"type":"node","id":"16","labels":["Box"],"properties":{"coins":7,"name":"Box2","counter":1}}
+{"type":"node","id":"17","labels":["Box"],"properties":{"coins":1,"name":"Box3","counter":1}}
+{"type":"node","id":"18","labels":["Box"],"properties":{"coins":20,"name":"Box1","counter":1}}
+{"type":"node","id":"19","labels":["Box"],"properties":{"coins":8,"name":"Box2","counter":1}}
+{"type":"node","id":"20","labels":["Box"],"properties":{"coins":2,"name":"Box3","counter":1}}
+{"type":"relationship","id":"25","label":"CONTAINS","start":{"id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}},"end":{"id":"13","labels":["Box"],"properties":{"coins":6,"name":"Box2","counter":1}}}
+{"type":"relationship","id":"26","label":"CONTAINS","start":{"id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}},"end":{"id":"14","labels":["Box"],"properties":{"coins":0,"name":"Box3","counter":1}}}
+{"type":"relationship","id":"27","label":"CONTAINS","start":{"id":"15","labels":["Box"],"properties":{"coins":22,"name":"Box1","counter":1}},"end":{"id":"16","labels":["Box"],"properties":{"coins":7,"name":"Box2","counter":1}}}
+{"type":"relationship","id":"28","label":"CONTAINS","start":{"id":"15","labels":["Box"],"properties":{"coins":22,"name":"Box1","counter":1}},"end":{"id":"17","labels":["Box"],"properties":{"coins":1,"name":"Box3","counter":1}}}
+{"type":"relationship","id":"29","label":"CONTAINS","start":{"id":"18","labels":["Box"],"properties":{"coins":20,"name":"Box1","counter":1}},"end":{"id":"19","labels":["Box"],"properties":{"coins":8,"name":"Box2","counter":1}}}
+{"type":"relationship","id":"30","label":"CONTAINS","start":{"id":"18","labels":["Box"],"properties":{"coins":20,"name":"Box1","counter":1}},"end":{"id":"20","labels":["Box"],"properties":{"coins":2,"name":"Box3","counter":1}}}

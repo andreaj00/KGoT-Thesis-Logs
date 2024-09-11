@@ -1,0 +1,744 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_retrieve_enough_data/2024-09-01_21-52-51-354/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_retrieve_enough_data/2024-09-01_21-52-51-354/llm_cost_zero_shot.json
+
+
+
+Solving question 3:
+Query: In Unlambda, what exact charcter or text needs to be added to correct the following code to output "For penguins"? If what is needed is a character, answer with the name of the character. If there are different names for the character, use the shortest. The text location is not needed. Code:
+
+`r```````````.F.o.r. .p.e.n.g.u.i.n.si
+Docs: []
+Query with Attached Docs: In Unlambda, what exact charcter or text needs to be added to correct the following code to output "For penguins"? If what is needed is a character, answer with the name of the character. If there are different names for the character, use the shortest. The text location is not needed. Code:
+
+`r```````````.F.o.r. .p.e.n.g.u.i.n.si
+<attached_docs>
+
+</attached_docs>
+Row 3: Incorrect (Expected: backtick, Got: The character needed to correct the given Unlambda code to output "For penguins" is the **backtick** character, also known as the **grave accent**.)
+
+
+
+Solving question 13:
+Query: In April of 1977, who was the Prime Minister of the first place mentioned by name in the Book of Esther (in the New International Version)?
+Docs: []
+Query with Attached Docs: In April of 1977, who was the Prime Minister of the first place mentioned by name in the Book of Esther (in the New International Version)?
+<attached_docs>
+
+</attached_docs>
+Row 13: Incorrect (Expected: Morarji Desai, Got: The first place mentioned by name in the Book of Esther in the New International Version (NIV) is Susa, the capital of the ancient Persian Empire. In April of 1977, the Prime Minister of Iran, where Susa is located in modern times, was Amir-Abbas Hoveyda. However, it is important to note that Hoveyda was dismissed from his position on August 7, 1977, and was succeeded by Jamshid Amouzegar.)
+
+
+
+Solving question 26:
+Query: Which contributor to the version of OpenCV where support was added for the Mask-RCNN model has the same name as a former Chinese head of government when the names are transliterated to the Latin alphabet?
+Docs: []
+Query with Attached Docs: Which contributor to the version of OpenCV where support was added for the Mask-RCNN model has the same name as a former Chinese head of government when the names are transliterated to the Latin alphabet?
+<attached_docs>
+
+</attached_docs>
+Row 26: Incorrect (Expected: Li Peng, Got: I don't have access to the attached documents, but I can provide some general information that might help you identify the contributor. 
+
+The former Chinese head of government you are referring to is likely Wen Jiabao, who served as the Premier of the People's Republic of China from 2003 to 2013.
+
+To find the contributor to the version of OpenCV where support was added for the Mask-RCNN model, you would need to look at the commit history or the release notes of the relevant OpenCV version. Contributors are often listed in these documents, and you can check if any of the names match "Wen Jiabao" when transliterated to the Latin alphabet.
+
+If you have access to the commit history or release notes, you can search for names that match or are similar to "Wen Jiabao." If you find a match, that would be the contributor you are looking for.)
+
+
+
+Solving question 28:
+Query: An office held a Secret Santa gift exchange where each of its twelve employees was assigned one other employee in the group to present with a gift. Each employee filled out a profile including three likes or hobbies. On the day of the gift exchange, only eleven gifts were given, each one specific to one of the recipient's interests. Based on the information in the document, who did not give a gift?
+File Path: GAIA/dataset/attachments/validation and File Name: cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx'}, page_content='Employees\n\n\n\nHarry\n\nRebecca\n\nGeorgette\n\nMicah\n\nPerry\n\nTyson\n\nLucy\n\nJun\n\nSara\n\n Miguel\n\n Fred\n\n Alex\n\n\n\n\nGift Assignments\n\n\n\nGiftee\n\nRecipient\n\nHarry\n\nMiguel\n\nRebecca\n\nMicah\n\nGeorgette\n\nLucy\n\nMicah\n\nJun\n\nPerry\n\nGeorgette\n\nTyson\n\nFred\n\nLucy\n\nAlex\n\nJun\n\nHarry\n\nSara\n\nPerry\n\nFred\n\nRebecca\n\nMiguel\n\nSara\n\nAlex\n\nTyson\n\n\n\n\n\n\nProfiles\n\n\n\nHarry: Fishing, Camping, Wine\n\nRebecca: Cars, Dogs, Chocolate\n\nGeorgette: Yoga, Cooking, Green Energy\n\nMicah: Knitting, Rainy Weather, Books\n\nPerry: Old Movies, Rats, Journaling\n\nTyson: Historical Fiction Novels, Biking, Parakeets\n\nLucy: Coffee, Physics, Board Games \n\nJun: Woodworking, Barbecue, JavaScript\n\nSara: Tabletop RPGs, Spas, Music\n\nMiguel: Astronomy, Decorative Washi Tape, Ketchup\n\nFred: Chemistry, Perl, Cats\n\nAlex: Surfing, Audrey Hepburn, Manga\n\n\n\n\nGifts:\n\n\n\nGalileo Galilei biography\n\nFishing reel\n\nRaku programming guide\n\nChisel set\n\nCustom dice\n\n“War and Peace” American film copy\n\nYarn\n\n“One Piece” graphic novel\n\n“War and Peace” novel\n\nStarbucks gift card\n\nFoam exercise mat')]
+Query with Attached Docs: An office held a Secret Santa gift exchange where each of its twelve employees was assigned one other employee in the group to present with a gift. Each employee filled out a profile including three likes or hobbies. On the day of the gift exchange, only eleven gifts were given, each one specific to one of the recipient's interests. Based on the information in the document, who did not give a gift?
+<attached_docs>
+<doc>
+Employees
+
+
+
+Harry
+
+Rebecca
+
+Georgette
+
+Micah
+
+Perry
+
+Tyson
+
+Lucy
+
+Jun
+
+Sara
+
+ Miguel
+
+ Fred
+
+ Alex
+
+
+
+
+Gift Assignments
+
+
+
+Giftee
+
+Recipient
+
+Harry
+
+Miguel
+
+Rebecca
+
+Micah
+
+Georgette
+
+Lucy
+
+Micah
+
+Jun
+
+Perry
+
+Georgette
+
+Tyson
+
+Fred
+
+Lucy
+
+Alex
+
+Jun
+
+Harry
+
+Sara
+
+Perry
+
+Fred
+
+Rebecca
+
+Miguel
+
+Sara
+
+Alex
+
+Tyson
+
+
+
+
+
+
+Profiles
+
+
+
+Harry: Fishing, Camping, Wine
+
+Rebecca: Cars, Dogs, Chocolate
+
+Georgette: Yoga, Cooking, Green Energy
+
+Micah: Knitting, Rainy Weather, Books
+
+Perry: Old Movies, Rats, Journaling
+
+Tyson: Historical Fiction Novels, Biking, Parakeets
+
+Lucy: Coffee, Physics, Board Games 
+
+Jun: Woodworking, Barbecue, JavaScript
+
+Sara: Tabletop RPGs, Spas, Music
+
+Miguel: Astronomy, Decorative Washi Tape, Ketchup
+
+Fred: Chemistry, Perl, Cats
+
+Alex: Surfing, Audrey Hepburn, Manga
+
+
+
+
+Gifts:
+
+
+
+Galileo Galilei biography
+
+Fishing reel
+
+Raku programming guide
+
+Chisel set
+
+Custom dice
+
+“War and Peace” American film copy
+
+Yarn
+
+“One Piece” graphic novel
+
+“War and Peace” novel
+
+Starbucks gift card
+
+Foam exercise mat
+</doc>
+</attached_docs>
+Row 28: Incorrect (Expected: Fred, Got: To determine who did not give a gift, we need to match each gift to the recipient based on their interests and then see which employee is left without a gift to give. Here are the profiles and the gifts:
+
+1. **Harry**: Fishing, Camping, Wine
+2. **Rebecca**: Cars, Dogs, Chocolate
+3. **Georgette**: Yoga, Cooking, Green Energy
+4. **Micah**: Knitting, Rainy Weather, Books
+5. **Perry**: Old Movies, Rats, Journaling
+6. **Tyson**: Historical Fiction Novels, Biking, Parakeets
+7. **Lucy**: Coffee, Physics, Board Games
+8. **Jun**: Woodworking, Barbecue, JavaScript
+9. **Sara**: Tabletop RPGs, Spas, Music
+10. **Miguel**: Astronomy, Decorative Washi Tape, Ketchup
+11. **Fred**: Chemistry, Perl, Cats
+12. **Alex**: Surfing, Audrey Hepburn, Manga
+
+And the gifts:
+
+1. Galileo Galilei biography
+2. Fishing reel
+3. Raku programming guide
+4. Chisel set
+5. Custom dice
+6. “War and Peace” American film copy
+7. Yarn
+8. “One Piece” graphic novel
+9. “War and Peace” novel
+10. Starbucks gift card
+11. Foam exercise mat
+
+Now, let's match the gifts to the recipients based on their interests:
+
+1. **Galileo Galilei biography** - likely for someone interested in Astronomy (Miguel)
+2. **Fishing reel** - Harry (Fishing)
+3. **Raku programming guide** - Fred (Perl)
+4. **Chisel set** - Jun (Woodworking)
+5. **Custom dice** - Sara (Tabletop RPGs)
+6. **“War and Peace” American film copy** - Perry (Old Movies)
+7. **Yarn** - Micah (Knitting)
+8. **“One Piece” graphic novel** - Alex (Manga)
+9. **“War and Peace” novel** - Tyson (Historical Fiction Novels)
+10. **Starbucks gift card** - Lucy (Coffee)
+11. **Foam exercise mat** - Georgette (Yoga)
+
+Now, let's check the gift assignments to see who gave each gift:
+
+1. **Harry** gave to Miguel - Galileo Galilei biography
+2. **Rebecca** gave to Micah - Yarn
+3. **Georgette** gave to Lucy - Starbucks gift card
+4. **Micah** gave to Jun - Chisel set
+5. **Perry** gave to Georgette - Foam exercise mat
+6. **Tyson** gave to Fred - Raku programming guide
+7. **Lucy** gave to Alex - “One Piece” graphic novel
+8. **Jun** gave to Harry - Fishing reel
+9. **Sara** gave to Perry - “War and Peace” American film copy
+10. **Fred** gave to Rebecca - (no gift matches Rebecca's interests)
+11. **Miguel** gave to Sara - Custom dice
+12. **Alex** gave to Tyson - “War and Peace” novel
+
+From the above, we see that Fred was supposed to give a gift to Rebecca, but there is no gift that matches Rebecca's interests (Cars, Dogs, Chocolate). Therefore, Fred did not give a gift.)
+
+
+
+Solving question 37:
+Query: Which of the text elements under CATEGORIES in the XML would contain the one food in the spreadsheet that does not appear a second time under a different name?
+File Path: GAIA/dataset/attachments/validation and File Name: 9b54f9d9-35ee-4a14-b62f-d130ea00317f.zip
+Row 37: Incorrect (Expected: Soups and Stews, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/9b54f9d9-35ee-4a14-b62f-d130ea00317f.zip
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/9b54f9d9-35ee-4a14-b62f-d130ea00317f.zip
+)
+
+
+
+Solving question 41:
+Query: In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?
+Docs: []
+Query with Attached Docs: In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?
+<attached_docs>
+
+</attached_docs>
+Row 41: Incorrect (Expected: fluffy, Got: The journal you are referring to is "Fafnir – Nordic Journal of Science Fiction and Fantasy Research," named after Fafnir, one of Hreidmar's sons who guarded his house. In Emily Midkiff's June 2014 article in this journal, the word "cliché" was quoted from two different authors in distaste for the nature of dragon depictions.)
+
+
+
+Solving question 45:
+Query: Compute the check digit the Tropicos ID for the Order Helotiales would have if it were an ISBN-10 number.
+Docs: []
+Query with Attached Docs: Compute the check digit the Tropicos ID for the Order Helotiales would have if it were an ISBN-10 number.
+<attached_docs>
+
+</attached_docs>
+Row 45: Incorrect (Expected: 3, Got: To compute the check digit for the Tropicos ID of the Order Helotiales as if it were an ISBN-10 number, we need to follow the ISBN-10 check digit calculation method. The ISBN-10 check digit is calculated using a weighted sum of the first 9 digits, with weights decreasing from 10 to 2, and then taking the modulus 11 of the sum. The check digit is the value that, when added to this sum, makes it divisible by 11. If the result is 10, the check digit is represented by 'X'.
+
+Let's assume the Tropicos ID for the Order Helotiales is 123456789 (since the actual ID is not provided in the attached documents).
+
+Here are the steps to calculate the check digit:
+
+1. Multiply each of the first 9 digits by its weight (from 10 to 2).
+2. Sum these products.
+3. Compute the modulus 11 of the sum.
+4. Subtract the result from 11 to get the check digit. If the result is 10, the check digit is 'X'.
+
+Let's go through the calculation:
+
+1. Write down the ID: 1 2 3 4 5 6 7 8 9
+2. Assign weights: 10 9 8 7 6 5 4 3 2
+3. Multiply each digit by its weight:
+   - 1 * 10 = 10
+   - 2 * 9 = 18
+   - 3 * 8 = 24
+   - 4 * 7 = 28
+   - 5 * 6 = 30
+   - 6 * 5 = 30
+   - 7 * 4 = 28
+   - 8 * 3 = 24
+   - 9 * 2 = 18
+
+4. Sum these products:
+   10 + 18 + 24 + 28 + 30 + 30 + 28 + 24 + 18 = 210
+
+5. Compute the modulus 11 of the sum:
+   210 % 11 = 1
+
+6. Subtract the result from 11 to get the check digit:
+   11 - 1 = 10
+
+Since the result is 10, the check digit is 'X'.
+
+Therefore, if the Tropicos ID for the Order Helotiales were 123456789, the check digit would be 'X', making the complete ISBN-10 number 123456789X.)
+
+
+
+Solving question 68:
+Query: What is the volume in milliliters of a system comprised of 0.312 kg Freon-12 refrigerant when placed at the bottom of the Marianas Trench and allowed to stabilize at the Trench's peak temperature, rounded to the nearest mL? Provide your answer as just an integer value.
+Docs: []
+Query with Attached Docs: What is the volume in milliliters of a system comprised of 0.312 kg Freon-12 refrigerant when placed at the bottom of the Marianas Trench and allowed to stabilize at the Trench's peak temperature, rounded to the nearest mL? Provide your answer as just an integer value.
+<attached_docs>
+
+</attached_docs>
+Row 68: Incorrect (Expected: 55, Got: To determine the volume of 0.312 kg of Freon-12 (CCl2F2) at the bottom of the Marianas Trench, we need to consider the conditions at that location, specifically the pressure and temperature. The Marianas Trench is the deepest part of the world's oceans, with a depth of about 11,000 meters. The pressure at this depth is approximately 1100 atmospheres (atm), and the temperature is around 2°C (275.15 K).
+
+First, we need the density of Freon-12 under these conditions. However, since we don't have the exact density at 1100 atm and 2°C, we can use the general properties of Freon-12 and apply the ideal gas law as an approximation, though it may not be perfectly accurate under such extreme conditions.
+
+The ideal gas law is given by:
+\[ PV = nRT \]
+
+Where:
+- \( P \) is the pressure (in atm)
+- \( V \) is the volume (in liters)
+- \( n \) is the number of moles
+- \( R \) is the ideal gas constant (0.0821 L·atm/(mol·K))
+- \( T \) is the temperature (in Kelvin)
+
+First, we need to find the number of moles of Freon-12. The molar mass of Freon-12 (CCl2F2) is:
+\[ 12.01 \, (\text{C}) + 2 \times 35.45 \, (\text{Cl}) + 2 \times 19.00 \, (\text{F}) = 120.91 \, \text{g/mol} \]
+
+Given the mass of Freon-12 is 0.312 kg (312 grams), the number of moles \( n \) is:
+\[ n = \frac{312 \, \text{g}}{120.91 \, \text{g/mol}} \approx 2.58 \, \text{mol} \]
+
+Now, we can use the ideal gas law to find the volume \( V \):
+\[ V = \frac{nRT}{P} \]
+
+Substituting the values:
+\[ V = \frac{2.58 \, \text{mol} \times 0.0821 \, \text{L·atm/(mol·K)} \times 275.15 \, \text{K}}{1100 \, \text{atm}} \]
+
+\[ V \approx \frac{58.34}{1100} \]
+
+\[ V \approx 0.053 \, \text{L} \]
+
+Converting liters to milliliters (1 L = 1000 mL):
+\[ V \approx 0.053 \, \text{L} \times 1000 \, \text{mL/L} \]
+
+\[ V \approx 53 \, \text{mL} \]
+
+Therefore, the volume of 0.312 kg of Freon-12 at the bottom of the Marianas Trench, rounded to the nearest milliliter, is approximately 53 mL.)
+
+
+
+Solving question 83:
+Query: How many slides in this PowerPoint presentation mention crustaceans?
+File Path: GAIA/dataset/attachments/validation and File Name: a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx'}, page_content='Animals\n\nThat are awesome and aquatic\n\n\n\ncrayfish\n\n\n\nnematodes\n\n\n\nisopods\n\n\n\neels\n\n\n\nYeti crab\n\n\n\nSpider crab\n\n\n\njellyfish')]
+Query with Attached Docs: How many slides in this PowerPoint presentation mention crustaceans?
+<attached_docs>
+<doc>
+Animals
+
+That are awesome and aquatic
+
+
+
+crayfish
+
+
+
+nematodes
+
+
+
+isopods
+
+
+
+eels
+
+
+
+Yeti crab
+
+
+
+Spider crab
+
+
+
+jellyfish
+</doc>
+</attached_docs>
+Row 83: Incorrect (Expected: 4, Got: The PowerPoint presentation mentions crustaceans on four slides. The crustaceans mentioned are crayfish, isopods, Yeti crab, and Spider crab.)
+
+
+
+Solving question 111:
+Query: It's May 2023, and I'm about to drive across the U.S. from California to Maine. I always recycle my water bottles at the end of a trip, and I drink 5 12-ounce water bottles for every 100 miles I travel, rounded to the nearest 100. Assuming I follow I-40 from Los Angeles to Cincinnati, then take I-90 from Cincinnati to Augusta, how many dollars will I get back according to Wikipedia?
+Docs: []
+Query with Attached Docs: It's May 2023, and I'm about to drive across the U.S. from California to Maine. I always recycle my water bottles at the end of a trip, and I drink 5 12-ounce water bottles for every 100 miles I travel, rounded to the nearest 100. Assuming I follow I-40 from Los Angeles to Cincinnati, then take I-90 from Cincinnati to Augusta, how many dollars will I get back according to Wikipedia?
+<attached_docs>
+
+</attached_docs>
+Row 111: Incorrect (Expected: 8, Got: To determine how many dollars you will get back from recycling your water bottles, we need to follow these steps:
+
+1. **Calculate the total distance of your trip:**
+   - From Los Angeles, CA to Cincinnati, OH via I-40: approximately 2,200 miles.
+   - From Cincinnati, OH to Augusta, ME via I-90: approximately 900 miles.
+   - Total distance: 2,200 miles + 900 miles = 3,100 miles.
+
+2. **Determine the number of 100-mile segments:**
+   - Total distance: 3,100 miles.
+   - Number of 100-mile segments: 3,100 miles / 100 miles = 31 segments.
+
+3. **Calculate the total number of water bottles consumed:**
+   - You drink 5 water bottles for every 100 miles.
+   - Total water bottles: 5 bottles/100 miles * 31 segments = 155 bottles.
+
+4. **Determine the recycling refund value:**
+   - According to Wikipedia, the refund value for recycling water bottles varies by state. The states you will pass through with bottle deposit laws include California (CA), New York (NY), and Maine (ME).
+   - California: $0.05 per bottle.
+   - New York: $0.05 per bottle.
+   - Maine: $0.05 per bottle.
+
+5. **Calculate the total refund value:**
+   - Since you will be recycling all your bottles at the end of the trip, let's assume you recycle them in Maine.
+   - Total refund value: 155 bottles * $0.05 per bottle = $7.75.
+
+Therefore, you will get back $7.75 from recycling your water bottles at the end of your trip.)
+
+
+
+Solving question 115:
+Query: This spreadsheet contains a list of clients for a retractable awning company. Each client has ordered a new awning for the back of their house within the last 90 days. The company makes different designs depending on whether the awning is made to block sunrises or sunsets. In this region, houses with odd-numbered street addresses face east, and houses with even-numbered street addresses face west. How many of these clients will be receiving the sunset awning design?
+File Path: GAIA/dataset/attachments/validation and File Name: 4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx'}, page_content='\n\n\nID\nFirst Name\nLast Name\nStreet Address\nCity\nZip\nPhone\nEmail\nCarrier Pigeon\n\n\n1\nMichael\nScott\n8602 Begonia Drive\nPalmetto\n41671\n202-310-1001\nmscott@gmail.com\nY\n\n\n2\nJim\nHalpert\n6233 Plumeria Lane\nPalmetto\n41671\n202-248-4803\nwormsarecool@aol.com\nN\n\n\n3\nPam\nBeasley\n6232 Plumeria Lane\nPalmetto\n41671\n202-307-9281\npbeasley@hotmail.com\nN\n\n\n4\nDwight\nSchrute\n451 Rafflesia Street\nPalmetto\n41671\n202-591-2452\ndks@gmail.com\nY\n\n\n5\nRyan\nHoward\n3033 Rafflesia Street\nCoconut\n45352\n456-457-5001\nbetterthanu@aol.com\nN\n\n\n6\nAndy\nBernard\n1001 Rafflesia Street\nCoconut\n45352\n456-321-3482\nnarddog@gmail.com\nY\n\n\n7\nAngela\nMartin\n3565 Rafflesia Street\nCoconut\n45352\n456-123-4124\namartin@hotmail.com\nY\n\n\n8\nCreed\nBratton\n2024 Orchid Avenue\nFan\n40350\n123-012-4510\nbillschneider@gmail.com\nN\n\n\n9\nWilliam\nSchneider\n2024 Orchid Avenue\nFan\n40350\n123-012-4510\nbillschneider@gmail.com\nN\n\n\n10\nKevin\nMalone\n4015 Orchid Avenue\nDate\n12271\n246-113-1381\neaglesrule@hotmail.com\nY\n\n\n11\nMeredith\nPalmer\n4033 Orchid Avenue\nDate\n12271\n246-332-3454\nmeredithp@gmail.com\nY\n\n\n12\nToby\nFlenderson\n1239 Orchid Avenue\nCypress\n11813\n243-345-4045\ntobiasflenderson@coldmail.com\nN\n\n\n')]
+Query with Attached Docs: This spreadsheet contains a list of clients for a retractable awning company. Each client has ordered a new awning for the back of their house within the last 90 days. The company makes different designs depending on whether the awning is made to block sunrises or sunsets. In this region, houses with odd-numbered street addresses face east, and houses with even-numbered street addresses face west. How many of these clients will be receiving the sunset awning design?
+<attached_docs>
+<doc>
+
+
+
+ID
+First Name
+Last Name
+Street Address
+City
+Zip
+Phone
+Email
+Carrier Pigeon
+
+
+1
+Michael
+Scott
+8602 Begonia Drive
+Palmetto
+41671
+202-310-1001
+mscott@gmail.com
+Y
+
+
+2
+Jim
+Halpert
+6233 Plumeria Lane
+Palmetto
+41671
+202-248-4803
+wormsarecool@aol.com
+N
+
+
+3
+Pam
+Beasley
+6232 Plumeria Lane
+Palmetto
+41671
+202-307-9281
+pbeasley@hotmail.com
+N
+
+
+4
+Dwight
+Schrute
+451 Rafflesia Street
+Palmetto
+41671
+202-591-2452
+dks@gmail.com
+Y
+
+
+5
+Ryan
+Howard
+3033 Rafflesia Street
+Coconut
+45352
+456-457-5001
+betterthanu@aol.com
+N
+
+
+6
+Andy
+Bernard
+1001 Rafflesia Street
+Coconut
+45352
+456-321-3482
+narddog@gmail.com
+Y
+
+
+7
+Angela
+Martin
+3565 Rafflesia Street
+Coconut
+45352
+456-123-4124
+amartin@hotmail.com
+Y
+
+
+8
+Creed
+Bratton
+2024 Orchid Avenue
+Fan
+40350
+123-012-4510
+billschneider@gmail.com
+N
+
+
+9
+William
+Schneider
+2024 Orchid Avenue
+Fan
+40350
+123-012-4510
+billschneider@gmail.com
+N
+
+
+10
+Kevin
+Malone
+4015 Orchid Avenue
+Date
+12271
+246-113-1381
+eaglesrule@hotmail.com
+Y
+
+
+11
+Meredith
+Palmer
+4033 Orchid Avenue
+Date
+12271
+246-332-3454
+meredithp@gmail.com
+Y
+
+
+12
+Toby
+Flenderson
+1239 Orchid Avenue
+Cypress
+11813
+243-345-4045
+tobiasflenderson@coldmail.com
+N
+
+
+
+</doc>
+</attached_docs>
+Row 115: Incorrect (Expected: 8, Got: To determine how many clients will be receiving the sunset awning design, we need to identify the clients with even-numbered street addresses, as these houses face west and will require the sunset awning design.
+
+Here are the clients and their street addresses:
+
+1. Michael Scott - 8602 Begonia Drive (Even)
+2. Jim Halpert - 6233 Plumeria Lane (Odd)
+3. Pam Beasley - 6232 Plumeria Lane (Even)
+4. Dwight Schrute - 451 Rafflesia Street (Odd)
+5. Ryan Howard - 3033 Rafflesia Street (Odd)
+6. Andy Bernard - 1001 Rafflesia Street (Odd)
+7. Angela Martin - 3565 Rafflesia Street (Odd)
+8. Creed Bratton - 2024 Orchid Avenue (Even)
+9. William Schneider - 2024 Orchid Avenue (Even)
+10. Kevin Malone - 4015 Orchid Avenue (Odd)
+11. Meredith Palmer - 4033 Orchid Avenue (Odd)
+12. Toby Flenderson - 1239 Orchid Avenue (Odd)
+
+Now, let's count the clients with even-numbered street addresses:
+
+1. Michael Scott - 8602 Begonia Drive
+2. Pam Beasley - 6232 Plumeria Lane
+3. Creed Bratton - 2024 Orchid Avenue
+4. William Schneider - 2024 Orchid Avenue
+
+There are 4 clients with even-numbered street addresses, so 4 clients will be receiving the sunset awning design.)
+
+
+
+Solving question 136:
+Query: How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?
+Docs: []
+Query with Attached Docs: How many at bats did the Yankee with the most walks in the 1977 regular season have that same season?
+<attached_docs>
+
+</attached_docs>
+Row 136: Incorrect (Expected: 519, Got: I'm sorry, but it seems there are no documents attached to your message. However, I can still help you with your question. 
+
+In the 1977 regular season, the New York Yankees player with the most walks was Reggie Jackson, who had 86 walks. He had 582 at-bats that season. 
+
+If you have any more questions or need further assistance, feel free to ask!)
+
+
+
+Solving question 145:
+Query: A 5-man group made up of one tank, one healer, and three DPS is doing a dungeon that was just released in World of Warcraft. Two are plate wearers and two are cloth wearers. At the final boss, both the tank and the healer are casting holy spells. Ice and fire are being used, each one by a different DPS. A bear from the group is attacking the boss. Metamorphosis is cast. The Kilt of the Forgotten One drops as loot, but no one can use it. If all classes were using their class abilities and all classes are unique, what are the five classes in the group in alphabetical order separated by commas?
+Docs: []
+Query with Attached Docs: A 5-man group made up of one tank, one healer, and three DPS is doing a dungeon that was just released in World of Warcraft. Two are plate wearers and two are cloth wearers. At the final boss, both the tank and the healer are casting holy spells. Ice and fire are being used, each one by a different DPS. A bear from the group is attacking the boss. Metamorphosis is cast. The Kilt of the Forgotten One drops as loot, but no one can use it. If all classes were using their class abilities and all classes are unique, what are the five classes in the group in alphabetical order separated by commas?
+<attached_docs>
+
+</attached_docs>
+Row 145: Incorrect (Expected: Death Knight, Hunter, Paladin, Priest, Warlock, Got: To determine the five classes in the group, let's break down the information provided:
+
+1. **Roles and Armor Types:**
+   - One tank
+   - One healer
+   - Three DPS
+   - Two plate wearers
+   - Two cloth wearers
+
+2. **Abilities and Spells:**
+   - Both the tank and the healer are casting holy spells.
+   - Ice and fire are being used by two different DPS.
+   - A bear is attacking the boss.
+   - Metamorphosis is cast.
+
+3. **Loot:**
+   - The Kilt of the Forgotten One drops, but no one can use it. This suggests that the kilt is for a class not present in the group.
+
+4. **Class Abilities:**
+   - Holy spells for tanking and healing suggest a Paladin (tank) and a Priest (healer).
+   - Ice and fire spells suggest a Mage (DPS) for ice and a Warlock (DPS) for fire.
+   - A bear attacking suggests a Druid (DPS) in bear form.
+   - Metamorphosis is a spell used by Demon Hunters (DPS).
+
+Given these details, let's identify the classes:
+
+- **Tank:** Paladin (plate wearer, holy spells)
+- **Healer:** Priest (cloth wearer, holy spells)
+- **DPS 1:** Mage (cloth wearer, ice spells)
+- **DPS 2:** Warlock (cloth wearer, fire spells)
+- **DPS 3:** Druid (leather wearer, bear form)
+
+Since the Kilt of the Forgotten One is not usable by anyone in the group, it likely belongs to a class not present, such as a Shaman or a Monk.
+
+Therefore, the five classes in the group in alphabetical order are:
+
+**Demon Hunter, Druid, Mage, Paladin, Priest.**)
+
+
+
+Solving question 151:
+Query: I'd like to learn more about some popular reality television competition shows. As of the end of the 44th season of the American version of Survivor, how many more unique winners have there been compared to the number of winners of American Idol?
+Docs: []
+Query with Attached Docs: I'd like to learn more about some popular reality television competition shows. As of the end of the 44th season of the American version of Survivor, how many more unique winners have there been compared to the number of winners of American Idol?
+<attached_docs>
+
+</attached_docs>
+Row 151: Incorrect (Expected: 21, Got: As of the end of the 44th season of the American version of "Survivor," there have been 44 unique winners, as each season typically crowns a new winner.
+
+For "American Idol," as of the end of its 21st season, there have been 21 unique winners, as each season also typically crowns a new winner.
+
+To find the difference in the number of unique winners between "Survivor" and "American Idol":
+
+- "Survivor" has 44 unique winners.
+- "American Idol" has 21 unique winners.
+
+The difference is:
+44 (Survivor) - 21 (American Idol) = 23
+
+So, there have been 23 more unique winners of "Survivor" compared to "American Idol.")
+
+Total questions: 14
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_retrieve_enough_data/2024-09-01_21-52-51-354/llm_cost_zero_shot_total.json

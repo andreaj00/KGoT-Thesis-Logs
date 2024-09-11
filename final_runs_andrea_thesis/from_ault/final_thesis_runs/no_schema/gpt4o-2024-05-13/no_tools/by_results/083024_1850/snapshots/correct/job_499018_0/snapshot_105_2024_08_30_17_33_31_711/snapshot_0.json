@@ -1,0 +1,11 @@
+{"type":"node","id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}}
+{"type":"node","id":"23","labels":["Ingredient"],"properties":{"name":"ripe strawberries"}}
+{"type":"node","id":"24","labels":["Ingredient"],"properties":{"name":"granulated sugar"}}
+{"type":"node","id":"25","labels":["Ingredient"],"properties":{"name":"freshly squeezed lemon juice"}}
+{"type":"node","id":"26","labels":["Ingredient"],"properties":{"name":"cornstarch"}}
+{"type":"node","id":"27","labels":["Ingredient"],"properties":{"name":"pure vanilla extract"}}
+{"type":"relationship","id":"54","label":"CONTAINS","start":{"id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}},"end":{"id":"23","labels":["Ingredient"],"properties":{"name":"ripe strawberries"}}}
+{"type":"relationship","id":"55","label":"CONTAINS","start":{"id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}},"end":{"id":"24","labels":["Ingredient"],"properties":{"name":"granulated sugar"}}}
+{"type":"relationship","id":"56","label":"CONTAINS","start":{"id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}},"end":{"id":"25","labels":["Ingredient"],"properties":{"name":"freshly squeezed lemon juice"}}}
+{"type":"relationship","id":"57","label":"CONTAINS","start":{"id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}},"end":{"id":"26","labels":["Ingredient"],"properties":{"name":"cornstarch"}}}
+{"type":"relationship","id":"58","label":"CONTAINS","start":{"id":"22","labels":["Recipe"],"properties":{"name":"Strawberry Pie"}},"end":{"id":"27","labels":["Ingredient"],"properties":{"name":"pure vanilla extract"}}}

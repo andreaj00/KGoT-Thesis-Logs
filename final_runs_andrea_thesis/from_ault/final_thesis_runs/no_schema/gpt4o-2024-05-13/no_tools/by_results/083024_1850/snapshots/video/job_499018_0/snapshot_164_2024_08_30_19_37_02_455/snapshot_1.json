@@ -1,0 +1,5 @@
+{"type":"node","id":"48","labels":["YouTubeVideo"],"properties":{"channel":"GameGrumps","title":"GameGrumps Mario Kart 8 Deluxe Playthrough","upload_date":"2017-05-14"}}
+{"type":"node","id":"49","labels":["Racetrack"],"properties":{"game":"Mario Kart 8 Deluxe","name":"Excitebike Arena"}}
+{"type":"node","id":"50","labels":["WorldRecord"],"properties":{"date":"2023-06-07","mode":"150cc","time":"1:01.001"}}
+{"type":"relationship","id":"93","label":"FEATURES_RACETRACK","properties":{"timestamp":"00:02:00"},"start":{"id":"48","labels":["YouTubeVideo"],"properties":{"channel":"GameGrumps","title":"GameGrumps Mario Kart 8 Deluxe Playthrough","upload_date":"2017-05-14"}},"end":{"id":"49","labels":["Racetrack"],"properties":{"game":"Mario Kart 8 Deluxe","name":"Excitebike Arena"}}}
+{"type":"relationship","id":"94","label":"HAS_WORLD_RECORD","start":{"id":"49","labels":["Racetrack"],"properties":{"game":"Mario Kart 8 Deluxe","name":"Excitebike Arena"}},"end":{"id":"50","labels":["WorldRecord"],"properties":{"date":"2023-06-07","mode":"150cc","time":"1:01.001"}}}

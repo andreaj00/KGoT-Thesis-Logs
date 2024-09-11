@@ -1,0 +1,8 @@
+{"type":"node","id":"6","labels":["YouTubeChannel"],"properties":{"name":"Game Grumps"}}
+{"type":"node","id":"7","labels":["Game"],"properties":{"title":"Sonic the Hedgehog (2006)"}}
+{"type":"node","id":"41","labels":["Episode"],"properties":{"number":1,"year":2012}}
+{"type":"node","id":"42","labels":["Phrase"],"properties":{"color":"white","background":"red","time":30,"text":"Sonic '06"}}
+{"type":"relationship","id":"80","label":"RELEASED","start":{"id":"6","labels":["YouTubeChannel"],"properties":{"name":"Game Grumps"}},"end":{"id":"41","labels":["Episode"],"properties":{"number":1,"year":2012}}}
+{"type":"relationship","id":"81","label":"FEATURED","start":{"id":"41","labels":["Episode"],"properties":{"number":1,"year":2012}},"end":{"id":"7","labels":["Game"],"properties":{"title":"Sonic the Hedgehog (2006)"}}}
+{"type":"relationship","id":"82","label":"DISPLAYED","start":{"id":"41","labels":["Episode"],"properties":{"number":1,"year":2012}},"end":{"id":"42","labels":["Phrase"],"properties":{"color":"white","background":"red","time":30,"text":"Sonic '06"}}}
+{"type":"relationship","id":"79","label":"PLAYED","start":{"id":"6","labels":["YouTubeChannel"],"properties":{"name":"Game Grumps"}},"end":{"id":"7","labels":["Game"],"properties":{"title":"Sonic the Hedgehog (2006)"}}}

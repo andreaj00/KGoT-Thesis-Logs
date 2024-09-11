@@ -1,0 +1,29 @@
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"16","labels":["Game"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"17","labels":["Box"],"properties":{"coins":14,"total_coins":30,"name":"Box 1","min_coins":2}}
+{"type":"node","id":"18","labels":["Box"],"properties":{"coins":8,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}
+{"type":"node","id":"19","labels":["Box"],"properties":{"coins":8,"total_coins":30,"name":"Box 3"}}
+{"type":"node","id":"20","labels":["Distribution"],"properties":{"a":6,"b":0,"c":24}}
+{"type":"node","id":"21","labels":["Distribution"],"properties":{"a":7,"b":1,"c":22}}
+{"type":"node","id":"22","labels":["Distribution"],"properties":{"a":8,"b":2,"c":20}}
+{"type":"node","id":"23","labels":["Distribution"],"properties":{"a":9,"b":3,"c":18}}
+{"type":"node","id":"24","labels":["Distribution"],"properties":{"a":10,"b":4,"c":16}}
+{"type":"node","id":"25","labels":["Distribution"],"properties":{"a":11,"b":5,"c":14}}
+{"type":"node","id":"26","labels":["Distribution"],"properties":{"a":12,"b":6,"c":12}}
+{"type":"node","id":"27","labels":["Distribution"],"properties":{"a":13,"b":7,"c":10}}
+{"type":"node","id":"28","labels":["Distribution"],"properties":{"a":14,"b":8,"c":8}}
+{"type":"node","id":"29","labels":["Distribution"],"properties":{"a":15,"b":9,"c":6}}
+{"type":"node","id":"30","labels":["Distribution"],"properties":{"a":16,"b":10,"c":4}}
+{"type":"node","id":"31","labels":["Distribution"],"properties":{"a":17,"b":11,"c":2}}
+{"type":"node","id":"32","labels":["Distribution"],"properties":{"a":18,"b":12,"c":0}}
+{"type":"relationship","id":"112","label":"GUESSES","properties":{"coins":12},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"18","labels":["Box"],"properties":{"coins":8,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}}
+{"type":"relationship","id":"113","label":"GUESSES","properties":{"coins":12},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"19","labels":["Box"],"properties":{"coins":8,"total_coins":30,"name":"Box 3"}}}
+{"type":"relationship","id":"114","label":"GUESSES","properties":{"coins":6},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"18","labels":["Box"],"properties":{"coins":8,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}}
+{"type":"relationship","id":"115","label":"GUESSES","properties":{"coins":6},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"19","labels":["Box"],"properties":{"coins":8,"total_coins":30,"name":"Box 3"}}}
+{"type":"relationship","id":"106","label":"PARTICIPATES_IN","start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"107","label":"HOSTS","start":{"id":"15","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"108","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"17","labels":["Box"],"properties":{"coins":14,"total_coins":30,"name":"Box 1","min_coins":2}}}
+{"type":"relationship","id":"109","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"18","labels":["Box"],"properties":{"coins":8,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}}
+{"type":"relationship","id":"110","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"19","labels":["Box"],"properties":{"coins":8,"total_coins":30,"name":"Box 3"}}}
+{"type":"relationship","id":"111","label":"GUESSES","properties":{"coins":6},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"17","labels":["Box"],"properties":{"coins":14,"total_coins":30,"name":"Box 1","min_coins":2}}}

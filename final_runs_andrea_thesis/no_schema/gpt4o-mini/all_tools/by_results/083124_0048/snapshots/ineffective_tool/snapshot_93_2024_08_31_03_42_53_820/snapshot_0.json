@@ -1,0 +1,5 @@
+{"type":"node","id":"4","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}}
+{"type":"node","id":"5","labels":["Animal"],"properties":{"type":"rooster"}}
+{"type":"node","id":"6","labels":["Animal"],"properties":{"type":"hamster"}}
+{"type":"relationship","id":"16","label":"PERFORMED","start":{"id":"6","labels":["Animal"],"properties":{"type":"hamster"}},"end":{"id":"4","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}}}
+{"type":"relationship","id":"15","label":"PERFORMED","start":{"id":"5","labels":["Animal"],"properties":{"type":"rooster"}},"end":{"id":"4","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}}}

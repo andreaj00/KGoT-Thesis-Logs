@@ -1,0 +1,5 @@
+{"type":"node","id":"2","labels":["MetroStation"],"properties":{"name":"Smithsonian Metro Station"}}
+{"type":"node","id":"3","labels":["MetroStation"],"properties":{"name":"National Airport Metro Station"}}
+{"type":"node","id":"4","labels":["MetroStation"],"properties":{"name":"Cleveland Elementary School Station"}}
+{"type":"relationship","id":"34","label":"LEADS_TO","start":{"id":"2","labels":["MetroStation"],"properties":{"name":"Smithsonian Metro Station"}},"end":{"id":"3","labels":["MetroStation"],"properties":{"name":"National Airport Metro Station"}}}
+{"type":"relationship","id":"35","label":"CLOSEST_TO","start":{"id":"4","labels":["MetroStation"],"properties":{"name":"Cleveland Elementary School Station"}},"end":{"id":"2","labels":["MetroStation"],"properties":{"name":"Smithsonian Metro Station"}}}

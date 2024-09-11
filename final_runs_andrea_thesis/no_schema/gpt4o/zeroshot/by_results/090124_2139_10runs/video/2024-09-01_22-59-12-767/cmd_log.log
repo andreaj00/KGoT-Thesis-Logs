@@ -1,0 +1,132 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/video/2024-09-01_22-59-12-767/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/video/2024-09-01_22-59-12-767/llm_cost_zero_shot.json
+
+
+
+Solving question 18:
+Query: In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?
+Docs: []
+Query with Attached Docs: In the video https://www.youtube.com/watch?v=L1vXCYZAYYM, what is the highest number of bird species to be on camera simultaneously?
+<attached_docs>
+
+</attached_docs>
+Row 18: Incorrect (Expected: 3, Got: I'm unable to directly view or analyze videos, including the one you mentioned. However, you can watch the video and count the number of bird species that appear on camera at the same time. If you need help identifying the bird species, you can take screenshots and compare them with bird identification guides or use bird identification apps. If you provide descriptions or images of the birds, I can also help you identify them.)
+
+
+
+Solving question 29:
+Query: What is the maximum length in meters of #9 in the first National Geographic short on YouTube that was ever released according to the Monterey Bay Aquarium website? Just give the number.
+Docs: []
+Query with Attached Docs: What is the maximum length in meters of #9 in the first National Geographic short on YouTube that was ever released according to the Monterey Bay Aquarium website? Just give the number.
+<attached_docs>
+
+</attached_docs>
+Row 29: Incorrect (Expected: 1.8, Got: 18)
+
+
+
+Solving question 87:
+Query: Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.
+
+What does Teal'c say in response to the question "Isn't that hot?"
+Docs: []
+Query with Attached Docs: Examine the video at https://www.youtube.com/watch?v=1htKBjuUWec.
+
+What does Teal'c say in response to the question "Isn't that hot?"
+<attached_docs>
+
+</attached_docs>
+Row 87: Incorrect (Expected: Extremely, Got: I'm unable to directly view or analyze content from external links, including YouTube videos. However, if you provide a transcript or describe the scene, I can help you understand or analyze the dialogue.)
+
+
+
+Solving question 114:
+Query: The YouTube channel Game Grumps began a Let’s Play of the game Sonic the Hedgehog (2006) in the year 2012. Thirty seconds into the first episode, a phrase is shown on the screen in white letters on a red background. How many times does the letter "E" appear in this phrase?
+Docs: []
+Query with Attached Docs: The YouTube channel Game Grumps began a Let’s Play of the game Sonic the Hedgehog (2006) in the year 2012. Thirty seconds into the first episode, a phrase is shown on the screen in white letters on a red background. How many times does the letter "E" appear in this phrase?
+<attached_docs>
+
+</attached_docs>
+Row 114: Incorrect (Expected: 4, Got: The phrase that appears thirty seconds into the first episode of the Game Grumps' Let's Play of Sonic the Hedgehog (2006) is "THIS GAME MAKES ME WANT TO DIE." 
+
+To determine how many times the letter "E" appears in this phrase, let's count:
+
+- "THIS" has no E's.
+- "GAME" has one E.
+- "MAKES" has one E.
+- "ME" has one E.
+- "WANT" has no E's.
+- "TO" has no E's.
+- "DIE" has one E.
+
+Adding them up, we get:
+
+1 (from "GAME") + 1 (from "MAKES") + 1 (from "ME") + 1 (from "DIE") = 4
+
+So, the letter "E" appears 4 times in the phrase "THIS GAME MAKES ME WANT TO DIE.")
+
+
+
+Solving question 116:
+Query: On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?
+Docs: []
+Query with Attached Docs: On the BBC Earth YouTube video of the Top 5 Silliest Animal Moments, what species of bird is featured?
+<attached_docs>
+
+</attached_docs>
+Row 116: Incorrect (Expected: Rockhopper penguin, Got: I'm sorry, but I can't view or access external content such as YouTube videos or attached documents. However, I can help you identify the bird if you provide a description or some details about its appearance and behavior in the video. Alternatively, you can check the video description or comments section, as they often contain information about the featured animals.)
+
+
+
+Solving question 159:
+Query: In the YouTube 360 VR video from March 2018 narrated by the voice actor of Lord of the Rings' Gollum, what number was mentioned by the narrator directly after dinosaurs were first shown in the video?
+Docs: []
+Query with Attached Docs: In the YouTube 360 VR video from March 2018 narrated by the voice actor of Lord of the Rings' Gollum, what number was mentioned by the narrator directly after dinosaurs were first shown in the video?
+<attached_docs>
+
+</attached_docs>
+Row 159: Incorrect (Expected: 100000000, Got: I'm sorry, but I can't directly access or view external documents or videos. However, I can help you with information or answer questions based on the text you provide. If you can share the relevant text or details from the video, I'd be happy to assist you further!)
+
+
+
+Solving question 161:
+Query: In the film Goldfinger, what color was the object that James Bond concealed himself and his companion Pussy Galore at the end of the film? If there are multiple colors, put them in a comma-separated list in alphabetical order.
+Docs: []
+Query with Attached Docs: In the film Goldfinger, what color was the object that James Bond concealed himself and his companion Pussy Galore at the end of the film? If there are multiple colors, put them in a comma-separated list in alphabetical order.
+<attached_docs>
+
+</attached_docs>
+Row 161: Incorrect (Expected: orange, white, Got: In the film "Goldfinger," James Bond and Pussy Galore conceal themselves under a **yellow** parachute at the end of the film.)
+
+
+
+Solving question 164:
+Query: At the two-minute mark in the YouTube video uploaded by the channel “GameGrumps” on May 14, 2017 as part of their playthrough of the game Mario Kart 8 Deluxe, the shows’ hosts are competing on one of the game’s racetracks. What was the world record time for that track in the game’s 150cc mode as of June 7, 2023? Express your answer in minutes and seconds, rounding the seconds to the nearest hundredth, e.g. 1:01.001.
+Docs: []
+Query with Attached Docs: At the two-minute mark in the YouTube video uploaded by the channel “GameGrumps” on May 14, 2017 as part of their playthrough of the game Mario Kart 8 Deluxe, the shows’ hosts are competing on one of the game’s racetracks. What was the world record time for that track in the game’s 150cc mode as of June 7, 2023? Express your answer in minutes and seconds, rounding the seconds to the nearest hundredth, e.g. 1:01.001.
+<attached_docs>
+
+</attached_docs>
+Row 164: Incorrect (Expected: 1:41.614, Got: To find the world record time for the specific track in Mario Kart 8 Deluxe's 150cc mode as of June 7, 2023, you would need to identify the track being played at the two-minute mark in the GameGrumps video uploaded on May 14, 2017. Once the track is identified, you can look up the world record time for that track.
+
+Here are the steps to follow:
+
+1. **Identify the Track**: Watch the GameGrumps video and note the track they are racing on at the two-minute mark.
+2. **Look Up the World Record**: Visit a reliable source for Mario Kart 8 Deluxe world records, such as the Mario Kart 8 Deluxe section on the website "mkwrs.com" (Mario Kart World Records) or other reputable leaderboards.
+
+Since I don't have the ability to watch the video or access external websites directly, I can guide you on how to do it:
+
+- **Watch the Video**: Go to the GameGrumps YouTube channel and find the video uploaded on May 14, 2017, where they play Mario Kart 8 Deluxe. Skip to the two-minute mark to see which track they are racing on.
+- **Check the World Record**: Once you know the track, go to a site like "mkwrs.com" and find the 150cc world record for that specific track as of June 7, 2023.
+
+For example, if the track at the two-minute mark is "Rainbow Road," you would look up the 150cc world record for Rainbow Road on the specified date.
+
+If you provide the name of the track, I can help you find the specific world record time.)
+
+Total questions: 8
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/video/2024-09-01_22-59-12-767/llm_cost_zero_shot_total.json

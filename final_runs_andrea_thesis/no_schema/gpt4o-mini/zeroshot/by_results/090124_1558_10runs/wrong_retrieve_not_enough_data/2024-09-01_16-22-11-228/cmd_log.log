@@ -1,0 +1,5566 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-22-11-228/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-22-11-228/llm_cost_zero_shot.json
+
+
+
+Solving question 4:
+Query: If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.
+Docs: []
+Query with Attached Docs: If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.
+<attached_docs>
+
+</attached_docs>
+Row 4: Incorrect (Expected: 17, Got: To calculate how many thousand hours it would take Eliud Kipchoge to run the distance between the Earth and the Moon at his marathon pace, we need to follow these steps:
+
+1. **Find the distance from the Earth to the Moon at its closest approach (perigee)**: According to the Wikipedia page, the minimum perigee distance is approximately 363,300 kilometers.
+
+2. **Determine Eliud Kipchoge's marathon pace**: Eliud Kipchoge's world record marathon time is 2 hours, 1 minute, and 39 seconds, which is equivalent to 2.0275 hours. The marathon distance is 42.195 kilometers. Therefore, his pace in kilometers per hour (km/h) can be calculated as follows:
+
+   \[
+   \text{Pace} = \frac{42.195 \text{ km}}{2.0275 \text{ hours}} \approx 20.82 \text{ km/h}
+   \]
+
+3. **Calculate the time it would take to run the distance to the Moon**: We can use the formula:
+
+   \[
+   \text{Time} = \frac{\text{Distance}}{\text{Speed}}
+   \]
+
+   Plugging in the values:
+
+   \[
+   \text{Time} = \frac{363,300 \text{ km}}{20.82 \text{ km/h}} \approx 17,426.5 \text{ hours}
+   \]
+
+4. **Convert hours to thousand hours**: 
+
+   \[
+   \text{Thousand hours} = \frac{17,426.5 \text{ hours}}{1000} \approx 17.4265
+   \]
+
+5. **Round to the nearest 1000 hours**: Rounding 17.4265 to the nearest whole number gives us 17.
+
+Thus, it would take Eliud Kipchoge approximately **17 thousand hours** to run the distance between the Earth and the Moon at his marathon pace.)
+
+
+
+Solving question 23:
+Query: In terms of geographical distance between capital cities, which 2 countries are the furthest from each other within the ASEAN bloc according to wikipedia? Answer using a comma separated list, ordering the countries by alphabetical order.
+Docs: []
+Query with Attached Docs: In terms of geographical distance between capital cities, which 2 countries are the furthest from each other within the ASEAN bloc according to wikipedia? Answer using a comma separated list, ordering the countries by alphabetical order.
+<attached_docs>
+
+</attached_docs>
+Row 23: Incorrect (Expected: Indonesia, Myanmar, Got: Brunei, Vietnam)
+
+
+
+Solving question 47:
+Query: Could you help me out with this assignment? Our professor sprung it on us at the end of class Friday, and I'm still trying to figure it out. The question he asked us was about an anagram. I've attached an audio recording of the question that he asked, so if you could please take a listen and give me the answer, I'd really appreciate the help. Please limit your response to the anagram text that could be generated from the original line which fulfills the professor's request, without any other commentary. Also, please don't include any punctuation in your response.
+File Path: GAIA/dataset/attachments/validation and File Name: 2b3ef98c-cc05-450b-a719-711aee40ac65.mp3
+Row 47: Incorrect (Expected: To be or not to be that is the question whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/2b3ef98c-cc05-450b-a719-711aee40ac65.mp3
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/2b3ef98c-cc05-450b-a719-711aee40ac65.mp3
+)
+
+
+
+Solving question 84:
+Query: What percentage of the total penguin population according to the upper estimates on english Wikipedia at the end of 2012 is made up by the penguins in this file that don't live on Dream Island or have beaks longer than 42mm? Round to the nearest five decimal places.
+File Path: GAIA/dataset/attachments/validation and File Name: 8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 0}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.1\nbill_depth_mm: 18.7\nflipper_length_mm: 181\nbody_mass_g: 3750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 1}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.5\nbill_depth_mm: 17.4\nflipper_length_mm: 186\nbody_mass_g: 3800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 2}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 40.3\nbill_depth_mm: 18\nflipper_length_mm: 195\nbody_mass_g: 3250\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 3}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: \nbill_depth_mm: \nflipper_length_mm: \nbody_mass_g: \nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 4}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 36.7\nbill_depth_mm: 19.3\nflipper_length_mm: 193\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 5}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.3\nbill_depth_mm: 20.6\nflipper_length_mm: 190\nbody_mass_g: 3650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 6}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.9\nbill_depth_mm: 17.8\nflipper_length_mm: 181\nbody_mass_g: 3625\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 7}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.2\nbill_depth_mm: 19.6\nflipper_length_mm: 195\nbody_mass_g: 4675\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 8}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 34.1\nbill_depth_mm: 18.1\nflipper_length_mm: 193\nbody_mass_g: 3475\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 9}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 42\nbill_depth_mm: 20.2\nflipper_length_mm: 190\nbody_mass_g: 4250\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 10}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 37.8\nbill_depth_mm: 17.1\nflipper_length_mm: 186\nbody_mass_g: 3300\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 11}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 37.8\nbill_depth_mm: 17.3\nflipper_length_mm: 180\nbody_mass_g: 3700\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 12}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 41.1\nbill_depth_mm: 17.6\nflipper_length_mm: 182\nbody_mass_g: 3200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 13}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.6\nbill_depth_mm: 21.2\nflipper_length_mm: 191\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 14}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 34.6\nbill_depth_mm: 21.1\nflipper_length_mm: 198\nbody_mass_g: 4400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 15}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 36.6\nbill_depth_mm: 17.8\nflipper_length_mm: 185\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 16}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.7\nbill_depth_mm: 19\nflipper_length_mm: 195\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 17}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 42.5\nbill_depth_mm: 20.7\nflipper_length_mm: 197\nbody_mass_g: 4500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 18}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 34.4\nbill_depth_mm: 18.4\nflipper_length_mm: 184\nbody_mass_g: 3325\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 19}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 46\nbill_depth_mm: 21.5\nflipper_length_mm: 194\nbody_mass_g: 4200\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 20}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.8\nbill_depth_mm: 18.3\nflipper_length_mm: 174\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 21}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.7\nbill_depth_mm: 18.7\nflipper_length_mm: 180\nbody_mass_g: 3600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 22}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35.9\nbill_depth_mm: 19.2\nflipper_length_mm: 189\nbody_mass_g: 3800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 23}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.2\nbill_depth_mm: 18.1\nflipper_length_mm: 185\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 24}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.8\nbill_depth_mm: 17.2\nflipper_length_mm: 180\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 25}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35.3\nbill_depth_mm: 18.9\nflipper_length_mm: 187\nbody_mass_g: 3800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 26}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 40.6\nbill_depth_mm: 18.6\nflipper_length_mm: 183\nbody_mass_g: 3550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 27}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 40.5\nbill_depth_mm: 17.9\nflipper_length_mm: 187\nbody_mass_g: 3200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 28}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.9\nbill_depth_mm: 18.6\nflipper_length_mm: 172\nbody_mass_g: 3150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 29}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 40.5\nbill_depth_mm: 18.9\nflipper_length_mm: 180\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 30}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.5\nbill_depth_mm: 16.7\nflipper_length_mm: 178\nbody_mass_g: 3250\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 31}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.2\nbill_depth_mm: 18.1\nflipper_length_mm: 178\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 32}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.5\nbill_depth_mm: 17.8\nflipper_length_mm: 188\nbody_mass_g: 3300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 33}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.9\nbill_depth_mm: 18.9\nflipper_length_mm: 184\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 34}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.4\nbill_depth_mm: 17\nflipper_length_mm: 195\nbody_mass_g: 3325\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 35}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.2\nbill_depth_mm: 21.1\nflipper_length_mm: 196\nbody_mass_g: 4150\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 36}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 38.8\nbill_depth_mm: 20\nflipper_length_mm: 190\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 37}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 42.2\nbill_depth_mm: 18.5\nflipper_length_mm: 180\nbody_mass_g: 3550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 38}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.6\nbill_depth_mm: 19.3\nflipper_length_mm: 181\nbody_mass_g: 3300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 39}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.8\nbill_depth_mm: 19.1\nflipper_length_mm: 184\nbody_mass_g: 4650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 40}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.5\nbill_depth_mm: 18\nflipper_length_mm: 182\nbody_mass_g: 3150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 41}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.8\nbill_depth_mm: 18.4\nflipper_length_mm: 195\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 42}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36\nbill_depth_mm: 18.5\nflipper_length_mm: 186\nbody_mass_g: 3100\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 43}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 44.1\nbill_depth_mm: 19.7\nflipper_length_mm: 196\nbody_mass_g: 4400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 44}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37\nbill_depth_mm: 16.9\nflipper_length_mm: 185\nbody_mass_g: 3000\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 45}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.6\nbill_depth_mm: 18.8\nflipper_length_mm: 190\nbody_mass_g: 4600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 46}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 41.1\nbill_depth_mm: 19\nflipper_length_mm: 182\nbody_mass_g: 3425\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 47}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.5\nbill_depth_mm: 18.9\nflipper_length_mm: 179\nbody_mass_g: 2975\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 48}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36\nbill_depth_mm: 17.9\nflipper_length_mm: 190\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 49}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 42.3\nbill_depth_mm: 21.2\nflipper_length_mm: 191\nbody_mass_g: 4150\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 50}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 39.6\nbill_depth_mm: 17.7\nflipper_length_mm: 186\nbody_mass_g: 3500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 51}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 40.1\nbill_depth_mm: 18.9\nflipper_length_mm: 188\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 52}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35\nbill_depth_mm: 17.9\nflipper_length_mm: 190\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 53}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 42\nbill_depth_mm: 19.5\nflipper_length_mm: 200\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 54}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 34.5\nbill_depth_mm: 18.1\nflipper_length_mm: 187\nbody_mass_g: 2900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 55}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41.4\nbill_depth_mm: 18.6\nflipper_length_mm: 191\nbody_mass_g: 3700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 56}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 39\nbill_depth_mm: 17.5\nflipper_length_mm: 186\nbody_mass_g: 3550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 57}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 40.6\nbill_depth_mm: 18.8\nflipper_length_mm: 193\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 58}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 36.5\nbill_depth_mm: 16.6\nflipper_length_mm: 181\nbody_mass_g: 2850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 59}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.6\nbill_depth_mm: 19.1\nflipper_length_mm: 194\nbody_mass_g: 3750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 60}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35.7\nbill_depth_mm: 16.9\nflipper_length_mm: 185\nbody_mass_g: 3150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 61}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41.3\nbill_depth_mm: 21.1\nflipper_length_mm: 195\nbody_mass_g: 4400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 62}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.6\nbill_depth_mm: 17\nflipper_length_mm: 185\nbody_mass_g: 3600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 63}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41.1\nbill_depth_mm: 18.2\nflipper_length_mm: 192\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 64}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 36.4\nbill_depth_mm: 17.1\nflipper_length_mm: 184\nbody_mass_g: 2850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 65}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41.6\nbill_depth_mm: 18\nflipper_length_mm: 192\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 66}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35.5\nbill_depth_mm: 16.2\nflipper_length_mm: 195\nbody_mass_g: 3350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 67}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41.1\nbill_depth_mm: 19.1\nflipper_length_mm: 188\nbody_mass_g: 4100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 68}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 35.9\nbill_depth_mm: 16.6\nflipper_length_mm: 190\nbody_mass_g: 3050\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 69}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 41.8\nbill_depth_mm: 19.4\nflipper_length_mm: 198\nbody_mass_g: 4450\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 70}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 33.5\nbill_depth_mm: 19\nflipper_length_mm: 190\nbody_mass_g: 3600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 71}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.7\nbill_depth_mm: 18.4\nflipper_length_mm: 190\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 72}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39.6\nbill_depth_mm: 17.2\nflipper_length_mm: 196\nbody_mass_g: 3550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 73}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 45.8\nbill_depth_mm: 18.9\nflipper_length_mm: 197\nbody_mass_g: 4150\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 74}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 35.5\nbill_depth_mm: 17.5\nflipper_length_mm: 190\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 75}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 42.8\nbill_depth_mm: 18.5\nflipper_length_mm: 195\nbody_mass_g: 4250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 76}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 40.9\nbill_depth_mm: 16.8\nflipper_length_mm: 191\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 77}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 37.2\nbill_depth_mm: 19.4\nflipper_length_mm: 184\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 78}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 36.2\nbill_depth_mm: 16.1\nflipper_length_mm: 187\nbody_mass_g: 3550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 79}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 42.1\nbill_depth_mm: 19.1\nflipper_length_mm: 195\nbody_mass_g: 4000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 80}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 34.6\nbill_depth_mm: 17.2\nflipper_length_mm: 189\nbody_mass_g: 3200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 81}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 42.9\nbill_depth_mm: 17.6\nflipper_length_mm: 196\nbody_mass_g: 4700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 82}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 36.7\nbill_depth_mm: 18.8\nflipper_length_mm: 187\nbody_mass_g: 3800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 83}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 35.1\nbill_depth_mm: 19.4\nflipper_length_mm: 193\nbody_mass_g: 4200\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 84}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.3\nbill_depth_mm: 17.8\nflipper_length_mm: 191\nbody_mass_g: 3350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 85}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 41.3\nbill_depth_mm: 20.3\nflipper_length_mm: 194\nbody_mass_g: 3550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 86}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.3\nbill_depth_mm: 19.5\nflipper_length_mm: 190\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 87}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.9\nbill_depth_mm: 18.6\nflipper_length_mm: 189\nbody_mass_g: 3500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 88}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 38.3\nbill_depth_mm: 19.2\nflipper_length_mm: 189\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 89}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 38.9\nbill_depth_mm: 18.8\nflipper_length_mm: 190\nbody_mass_g: 3600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 90}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 35.7\nbill_depth_mm: 18\nflipper_length_mm: 202\nbody_mass_g: 3550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 91}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 41.1\nbill_depth_mm: 18.1\nflipper_length_mm: 205\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 92}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 34\nbill_depth_mm: 17.1\nflipper_length_mm: 185\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 93}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.6\nbill_depth_mm: 18.1\nflipper_length_mm: 186\nbody_mass_g: 4450\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 94}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.2\nbill_depth_mm: 17.3\nflipper_length_mm: 187\nbody_mass_g: 3300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 95}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.8\nbill_depth_mm: 18.9\nflipper_length_mm: 208\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 96}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 38.1\nbill_depth_mm: 18.6\nflipper_length_mm: 190\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 97}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.3\nbill_depth_mm: 18.5\nflipper_length_mm: 196\nbody_mass_g: 4350\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 98}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 33.1\nbill_depth_mm: 16.1\nflipper_length_mm: 178\nbody_mass_g: 2900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 99}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 43.2\nbill_depth_mm: 18.5\nflipper_length_mm: 192\nbody_mass_g: 4100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 100}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 35\nbill_depth_mm: 17.9\nflipper_length_mm: 192\nbody_mass_g: 3725\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 101}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 41\nbill_depth_mm: 20\nflipper_length_mm: 203\nbody_mass_g: 4725\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 102}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.7\nbill_depth_mm: 16\nflipper_length_mm: 183\nbody_mass_g: 3075\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 103}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.8\nbill_depth_mm: 20\nflipper_length_mm: 190\nbody_mass_g: 4250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 104}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 37.9\nbill_depth_mm: 18.6\nflipper_length_mm: 193\nbody_mass_g: 2925\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 105}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 39.7\nbill_depth_mm: 18.9\nflipper_length_mm: 184\nbody_mass_g: 3550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 106}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.6\nbill_depth_mm: 17.2\nflipper_length_mm: 199\nbody_mass_g: 3750\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 107}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.2\nbill_depth_mm: 20\nflipper_length_mm: 190\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 108}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.1\nbill_depth_mm: 17\nflipper_length_mm: 181\nbody_mass_g: 3175\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 109}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 43.2\nbill_depth_mm: 19\nflipper_length_mm: 197\nbody_mass_g: 4775\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 110}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 38.1\nbill_depth_mm: 16.5\nflipper_length_mm: 198\nbody_mass_g: 3825\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 111}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 45.6\nbill_depth_mm: 20.3\nflipper_length_mm: 191\nbody_mass_g: 4600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 112}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 39.7\nbill_depth_mm: 17.7\nflipper_length_mm: 193\nbody_mass_g: 3200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 113}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 42.2\nbill_depth_mm: 19.5\nflipper_length_mm: 197\nbody_mass_g: 4275\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 114}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 39.6\nbill_depth_mm: 20.7\nflipper_length_mm: 191\nbody_mass_g: 3900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 115}, page_content='species: Adelie\nisland: Biscoe\nbill_length_mm: 42.7\nbill_depth_mm: 18.3\nflipper_length_mm: 196\nbody_mass_g: 4075\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 116}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.6\nbill_depth_mm: 17\nflipper_length_mm: 188\nbody_mass_g: 2900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 117}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 37.3\nbill_depth_mm: 20.5\nflipper_length_mm: 199\nbody_mass_g: 3775\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 118}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 35.7\nbill_depth_mm: 17\nflipper_length_mm: 189\nbody_mass_g: 3350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 119}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 41.1\nbill_depth_mm: 18.6\nflipper_length_mm: 189\nbody_mass_g: 3325\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 120}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 36.2\nbill_depth_mm: 17.2\nflipper_length_mm: 187\nbody_mass_g: 3150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 121}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 37.7\nbill_depth_mm: 19.8\nflipper_length_mm: 198\nbody_mass_g: 3500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 122}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 40.2\nbill_depth_mm: 17\nflipper_length_mm: 176\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 123}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 41.4\nbill_depth_mm: 18.5\nflipper_length_mm: 202\nbody_mass_g: 3875\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 124}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 35.2\nbill_depth_mm: 15.9\nflipper_length_mm: 186\nbody_mass_g: 3050\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 125}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 40.6\nbill_depth_mm: 19\nflipper_length_mm: 199\nbody_mass_g: 4000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 126}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.8\nbill_depth_mm: 17.6\nflipper_length_mm: 191\nbody_mass_g: 3275\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 127}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 41.5\nbill_depth_mm: 18.3\nflipper_length_mm: 195\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 128}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 39\nbill_depth_mm: 17.1\nflipper_length_mm: 191\nbody_mass_g: 3050\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 129}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 44.1\nbill_depth_mm: 18\nflipper_length_mm: 210\nbody_mass_g: 4000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 130}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 38.5\nbill_depth_mm: 17.9\nflipper_length_mm: 190\nbody_mass_g: 3325\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 131}, page_content='species: Adelie\nisland: Torgersen\nbill_length_mm: 43.1\nbill_depth_mm: 19.2\nflipper_length_mm: 197\nbody_mass_g: 3500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 132}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.8\nbill_depth_mm: 18.5\nflipper_length_mm: 193\nbody_mass_g: 3500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 133}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.5\nbill_depth_mm: 18.5\nflipper_length_mm: 199\nbody_mass_g: 4475\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 134}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 38.1\nbill_depth_mm: 17.6\nflipper_length_mm: 187\nbody_mass_g: 3425\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 135}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 41.1\nbill_depth_mm: 17.5\nflipper_length_mm: 190\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 136}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 35.6\nbill_depth_mm: 17.5\nflipper_length_mm: 191\nbody_mass_g: 3175\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 137}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.2\nbill_depth_mm: 20.1\nflipper_length_mm: 200\nbody_mass_g: 3975\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 138}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37\nbill_depth_mm: 16.5\nflipper_length_mm: 185\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 139}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.7\nbill_depth_mm: 17.9\nflipper_length_mm: 193\nbody_mass_g: 4250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 140}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.2\nbill_depth_mm: 17.1\nflipper_length_mm: 193\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 141}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.6\nbill_depth_mm: 17.2\nflipper_length_mm: 187\nbody_mass_g: 3475\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 142}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 32.1\nbill_depth_mm: 15.5\nflipper_length_mm: 188\nbody_mass_g: 3050\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 143}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 40.7\nbill_depth_mm: 17\nflipper_length_mm: 190\nbody_mass_g: 3725\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 144}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.3\nbill_depth_mm: 16.8\nflipper_length_mm: 192\nbody_mass_g: 3000\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 145}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39\nbill_depth_mm: 18.7\nflipper_length_mm: 185\nbody_mass_g: 3650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 146}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 39.2\nbill_depth_mm: 18.6\nflipper_length_mm: 190\nbody_mass_g: 4250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 147}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36.6\nbill_depth_mm: 18.4\nflipper_length_mm: 184\nbody_mass_g: 3475\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 148}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36\nbill_depth_mm: 17.8\nflipper_length_mm: 195\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 149}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 37.8\nbill_depth_mm: 18.1\nflipper_length_mm: 193\nbody_mass_g: 3750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 150}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 36\nbill_depth_mm: 17.1\nflipper_length_mm: 187\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 151}, page_content='species: Adelie\nisland: Dream\nbill_length_mm: 41.5\nbill_depth_mm: 18.5\nflipper_length_mm: 201\nbody_mass_g: 4000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 152}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.5\nbill_depth_mm: 17.9\nflipper_length_mm: 192\nbody_mass_g: 3500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 153}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50\nbill_depth_mm: 19.5\nflipper_length_mm: 196\nbody_mass_g: 3900\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 154}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.3\nbill_depth_mm: 19.2\nflipper_length_mm: 193\nbody_mass_g: 3650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 155}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.4\nbill_depth_mm: 18.7\nflipper_length_mm: 188\nbody_mass_g: 3525\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 156}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52.7\nbill_depth_mm: 19.8\nflipper_length_mm: 197\nbody_mass_g: 3725\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 157}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.2\nbill_depth_mm: 17.8\nflipper_length_mm: 198\nbody_mass_g: 3950\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 158}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.1\nbill_depth_mm: 18.2\nflipper_length_mm: 178\nbody_mass_g: 3250\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 159}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.3\nbill_depth_mm: 18.2\nflipper_length_mm: 197\nbody_mass_g: 3750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 160}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46\nbill_depth_mm: 18.9\nflipper_length_mm: 195\nbody_mass_g: 4150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 161}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.3\nbill_depth_mm: 19.9\nflipper_length_mm: 198\nbody_mass_g: 3700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 162}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.6\nbill_depth_mm: 17.8\nflipper_length_mm: 193\nbody_mass_g: 3800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 163}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.7\nbill_depth_mm: 20.3\nflipper_length_mm: 194\nbody_mass_g: 3775\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 164}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 47\nbill_depth_mm: 17.3\nflipper_length_mm: 185\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 165}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52\nbill_depth_mm: 18.1\nflipper_length_mm: 201\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 166}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.9\nbill_depth_mm: 17.1\nflipper_length_mm: 190\nbody_mass_g: 3575\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 167}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.5\nbill_depth_mm: 19.6\nflipper_length_mm: 201\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 168}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.3\nbill_depth_mm: 20\nflipper_length_mm: 197\nbody_mass_g: 3300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 169}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 58\nbill_depth_mm: 17.8\nflipper_length_mm: 181\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 170}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.4\nbill_depth_mm: 18.6\nflipper_length_mm: 190\nbody_mass_g: 3450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 171}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.2\nbill_depth_mm: 18.2\nflipper_length_mm: 195\nbody_mass_g: 4400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 172}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 42.4\nbill_depth_mm: 17.3\nflipper_length_mm: 181\nbody_mass_g: 3600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 173}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 48.5\nbill_depth_mm: 17.5\nflipper_length_mm: 191\nbody_mass_g: 3400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 174}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 43.2\nbill_depth_mm: 16.6\nflipper_length_mm: 187\nbody_mass_g: 2900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 175}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.6\nbill_depth_mm: 19.4\nflipper_length_mm: 193\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 176}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.7\nbill_depth_mm: 17.9\nflipper_length_mm: 195\nbody_mass_g: 3300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 177}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52\nbill_depth_mm: 19\nflipper_length_mm: 197\nbody_mass_g: 4150\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 178}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.5\nbill_depth_mm: 18.4\nflipper_length_mm: 200\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 179}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.5\nbill_depth_mm: 19\nflipper_length_mm: 200\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 180}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.4\nbill_depth_mm: 17.8\nflipper_length_mm: 191\nbody_mass_g: 3700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 181}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52.8\nbill_depth_mm: 20\nflipper_length_mm: 205\nbody_mass_g: 4550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 182}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 40.9\nbill_depth_mm: 16.6\nflipper_length_mm: 187\nbody_mass_g: 3200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 183}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 54.2\nbill_depth_mm: 20.8\nflipper_length_mm: 201\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 184}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 42.5\nbill_depth_mm: 16.7\nflipper_length_mm: 187\nbody_mass_g: 3350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 185}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51\nbill_depth_mm: 18.8\nflipper_length_mm: 203\nbody_mass_g: 4100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 186}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.7\nbill_depth_mm: 18.6\nflipper_length_mm: 195\nbody_mass_g: 3600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 187}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 47.5\nbill_depth_mm: 16.8\nflipper_length_mm: 199\nbody_mass_g: 3900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 188}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 47.6\nbill_depth_mm: 18.3\nflipper_length_mm: 195\nbody_mass_g: 3850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 189}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52\nbill_depth_mm: 20.7\nflipper_length_mm: 210\nbody_mass_g: 4800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 190}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.9\nbill_depth_mm: 16.6\nflipper_length_mm: 192\nbody_mass_g: 2700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 191}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 53.5\nbill_depth_mm: 19.9\nflipper_length_mm: 205\nbody_mass_g: 4500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 192}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49\nbill_depth_mm: 19.5\nflipper_length_mm: 210\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 193}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.2\nbill_depth_mm: 17.5\nflipper_length_mm: 187\nbody_mass_g: 3650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 194}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.9\nbill_depth_mm: 19.1\nflipper_length_mm: 196\nbody_mass_g: 3550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 195}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.5\nbill_depth_mm: 17\nflipper_length_mm: 196\nbody_mass_g: 3500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 196}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.9\nbill_depth_mm: 17.9\nflipper_length_mm: 196\nbody_mass_g: 3675\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 197}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.8\nbill_depth_mm: 18.5\nflipper_length_mm: 201\nbody_mass_g: 4450\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 198}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.1\nbill_depth_mm: 17.9\nflipper_length_mm: 190\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 199}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49\nbill_depth_mm: 19.6\nflipper_length_mm: 212\nbody_mass_g: 4300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 200}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.5\nbill_depth_mm: 18.7\nflipper_length_mm: 187\nbody_mass_g: 3250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 201}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.8\nbill_depth_mm: 17.3\nflipper_length_mm: 198\nbody_mass_g: 3675\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 202}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 48.1\nbill_depth_mm: 16.4\nflipper_length_mm: 199\nbody_mass_g: 3325\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 203}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.4\nbill_depth_mm: 19\nflipper_length_mm: 201\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 204}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.7\nbill_depth_mm: 17.3\nflipper_length_mm: 193\nbody_mass_g: 3600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 205}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.7\nbill_depth_mm: 19.7\nflipper_length_mm: 203\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 206}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 42.5\nbill_depth_mm: 17.3\nflipper_length_mm: 187\nbody_mass_g: 3350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 207}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 52.2\nbill_depth_mm: 18.8\nflipper_length_mm: 197\nbody_mass_g: 3450\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 208}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.2\nbill_depth_mm: 16.6\nflipper_length_mm: 191\nbody_mass_g: 3250\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 209}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.3\nbill_depth_mm: 19.9\nflipper_length_mm: 203\nbody_mass_g: 4050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 210}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.2\nbill_depth_mm: 18.8\nflipper_length_mm: 202\nbody_mass_g: 3800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 211}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.6\nbill_depth_mm: 19.4\nflipper_length_mm: 194\nbody_mass_g: 3525\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 212}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 51.9\nbill_depth_mm: 19.5\nflipper_length_mm: 206\nbody_mass_g: 3950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 213}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 46.8\nbill_depth_mm: 16.5\nflipper_length_mm: 189\nbody_mass_g: 3650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 214}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 45.7\nbill_depth_mm: 17\nflipper_length_mm: 195\nbody_mass_g: 3650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 215}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 55.8\nbill_depth_mm: 19.8\nflipper_length_mm: 207\nbody_mass_g: 4000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 216}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 43.5\nbill_depth_mm: 18.1\nflipper_length_mm: 202\nbody_mass_g: 3400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 217}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 49.6\nbill_depth_mm: 18.2\nflipper_length_mm: 193\nbody_mass_g: 3775\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 218}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.8\nbill_depth_mm: 19\nflipper_length_mm: 210\nbody_mass_g: 4100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 219}, page_content='species: Chinstrap\nisland: Dream\nbill_length_mm: 50.2\nbill_depth_mm: 18.7\nflipper_length_mm: 198\nbody_mass_g: 3775\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 220}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.1\nbill_depth_mm: 13.2\nflipper_length_mm: 211\nbody_mass_g: 4500\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 221}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50\nbill_depth_mm: 16.3\nflipper_length_mm: 230\nbody_mass_g: 5700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 222}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.7\nbill_depth_mm: 14.1\nflipper_length_mm: 210\nbody_mass_g: 4450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 223}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50\nbill_depth_mm: 15.2\nflipper_length_mm: 218\nbody_mass_g: 5700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 224}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.6\nbill_depth_mm: 14.5\nflipper_length_mm: 215\nbody_mass_g: 5400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 225}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.5\nbill_depth_mm: 13.5\nflipper_length_mm: 210\nbody_mass_g: 4550\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 226}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.4\nbill_depth_mm: 14.6\nflipper_length_mm: 211\nbody_mass_g: 4800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 227}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.7\nbill_depth_mm: 15.3\nflipper_length_mm: 219\nbody_mass_g: 5200\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 228}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.3\nbill_depth_mm: 13.4\nflipper_length_mm: 209\nbody_mass_g: 4400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 229}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.8\nbill_depth_mm: 15.4\nflipper_length_mm: 215\nbody_mass_g: 5150\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 230}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 40.9\nbill_depth_mm: 13.7\nflipper_length_mm: 214\nbody_mass_g: 4650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 231}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49\nbill_depth_mm: 16.1\nflipper_length_mm: 216\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 232}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.5\nbill_depth_mm: 13.7\nflipper_length_mm: 214\nbody_mass_g: 4650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 233}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.4\nbill_depth_mm: 14.6\nflipper_length_mm: 213\nbody_mass_g: 5850\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 234}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.8\nbill_depth_mm: 14.6\nflipper_length_mm: 210\nbody_mass_g: 4200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 235}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.3\nbill_depth_mm: 15.7\nflipper_length_mm: 217\nbody_mass_g: 5850\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 236}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 42\nbill_depth_mm: 13.5\nflipper_length_mm: 210\nbody_mass_g: 4150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 237}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.2\nbill_depth_mm: 15.2\nflipper_length_mm: 221\nbody_mass_g: 6300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 238}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.2\nbill_depth_mm: 14.5\nflipper_length_mm: 209\nbody_mass_g: 4800\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 239}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.7\nbill_depth_mm: 15.1\nflipper_length_mm: 222\nbody_mass_g: 5350\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 240}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.2\nbill_depth_mm: 14.3\nflipper_length_mm: 218\nbody_mass_g: 5700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 241}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.1\nbill_depth_mm: 14.5\nflipper_length_mm: 215\nbody_mass_g: 5000\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 242}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.5\nbill_depth_mm: 14.5\nflipper_length_mm: 213\nbody_mass_g: 4400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 243}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.3\nbill_depth_mm: 15.8\nflipper_length_mm: 215\nbody_mass_g: 5050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 244}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 42.9\nbill_depth_mm: 13.1\nflipper_length_mm: 215\nbody_mass_g: 5000\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 245}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.1\nbill_depth_mm: 15.1\nflipper_length_mm: 215\nbody_mass_g: 5100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 246}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.5\nbill_depth_mm: 14.3\nflipper_length_mm: 216\nbody_mass_g: 4100\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 247}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.8\nbill_depth_mm: 15\nflipper_length_mm: 215\nbody_mass_g: 5650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 248}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.2\nbill_depth_mm: 14.3\nflipper_length_mm: 210\nbody_mass_g: 4600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 249}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50\nbill_depth_mm: 15.3\nflipper_length_mm: 220\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 250}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.3\nbill_depth_mm: 15.3\nflipper_length_mm: 222\nbody_mass_g: 5250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 251}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 42.8\nbill_depth_mm: 14.2\nflipper_length_mm: 209\nbody_mass_g: 4700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 252}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.1\nbill_depth_mm: 14.5\nflipper_length_mm: 207\nbody_mass_g: 5050\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 253}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 59.6\nbill_depth_mm: 17\nflipper_length_mm: 230\nbody_mass_g: 6050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 254}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.1\nbill_depth_mm: 14.8\nflipper_length_mm: 220\nbody_mass_g: 5150\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 255}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.4\nbill_depth_mm: 16.3\nflipper_length_mm: 220\nbody_mass_g: 5400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 256}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 42.6\nbill_depth_mm: 13.7\nflipper_length_mm: 213\nbody_mass_g: 4950\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 257}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.4\nbill_depth_mm: 17.3\nflipper_length_mm: 219\nbody_mass_g: 5250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 258}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44\nbill_depth_mm: 13.6\nflipper_length_mm: 208\nbody_mass_g: 4350\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 259}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.7\nbill_depth_mm: 15.7\nflipper_length_mm: 208\nbody_mass_g: 5350\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 260}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 42.7\nbill_depth_mm: 13.7\nflipper_length_mm: 208\nbody_mass_g: 3950\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 261}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.6\nbill_depth_mm: 16\nflipper_length_mm: 225\nbody_mass_g: 5700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 262}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.3\nbill_depth_mm: 13.7\nflipper_length_mm: 210\nbody_mass_g: 4300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 263}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.6\nbill_depth_mm: 15\nflipper_length_mm: 216\nbody_mass_g: 4750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 264}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.5\nbill_depth_mm: 15.9\nflipper_length_mm: 222\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 265}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.6\nbill_depth_mm: 13.9\nflipper_length_mm: 217\nbody_mass_g: 4900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 266}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.5\nbill_depth_mm: 13.9\nflipper_length_mm: 210\nbody_mass_g: 4200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 267}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.5\nbill_depth_mm: 15.9\nflipper_length_mm: 225\nbody_mass_g: 5400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 268}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.9\nbill_depth_mm: 13.3\nflipper_length_mm: 213\nbody_mass_g: 5100\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 269}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.2\nbill_depth_mm: 15.8\nflipper_length_mm: 215\nbody_mass_g: 5300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 270}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.6\nbill_depth_mm: 14.2\nflipper_length_mm: 210\nbody_mass_g: 4850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 271}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.5\nbill_depth_mm: 14.1\nflipper_length_mm: 220\nbody_mass_g: 5300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 272}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.1\nbill_depth_mm: 14.4\nflipper_length_mm: 210\nbody_mass_g: 4400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 273}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.1\nbill_depth_mm: 15\nflipper_length_mm: 225\nbody_mass_g: 5000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 274}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.5\nbill_depth_mm: 14.4\nflipper_length_mm: 217\nbody_mass_g: 4900\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 275}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45\nbill_depth_mm: 15.4\nflipper_length_mm: 220\nbody_mass_g: 5050\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 276}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.8\nbill_depth_mm: 13.9\nflipper_length_mm: 208\nbody_mass_g: 4300\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 277}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.5\nbill_depth_mm: 15\nflipper_length_mm: 220\nbody_mass_g: 5000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 278}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.2\nbill_depth_mm: 14.5\nflipper_length_mm: 208\nbody_mass_g: 4450\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 279}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.4\nbill_depth_mm: 15.3\nflipper_length_mm: 224\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 280}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.3\nbill_depth_mm: 13.8\nflipper_length_mm: 208\nbody_mass_g: 4200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 281}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.2\nbill_depth_mm: 14.9\nflipper_length_mm: 221\nbody_mass_g: 5300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 282}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.7\nbill_depth_mm: 13.9\nflipper_length_mm: 214\nbody_mass_g: 4400\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 283}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 54.3\nbill_depth_mm: 15.7\nflipper_length_mm: 231\nbody_mass_g: 5650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 284}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.8\nbill_depth_mm: 14.2\nflipper_length_mm: 219\nbody_mass_g: 4700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 285}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.8\nbill_depth_mm: 16.8\nflipper_length_mm: 230\nbody_mass_g: 5700\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 286}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.2\nbill_depth_mm: 14.4\nflipper_length_mm: 214\nbody_mass_g: 4650\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 287}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.5\nbill_depth_mm: 16.2\nflipper_length_mm: 229\nbody_mass_g: 5800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 288}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.5\nbill_depth_mm: 14.2\nflipper_length_mm: 220\nbody_mass_g: 4700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 289}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.7\nbill_depth_mm: 15\nflipper_length_mm: 223\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 290}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.7\nbill_depth_mm: 15\nflipper_length_mm: 216\nbody_mass_g: 4750\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 291}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.4\nbill_depth_mm: 15.6\nflipper_length_mm: 221\nbody_mass_g: 5000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 292}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.2\nbill_depth_mm: 15.6\nflipper_length_mm: 221\nbody_mass_g: 5100\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 293}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.5\nbill_depth_mm: 14.8\nflipper_length_mm: 217\nbody_mass_g: 5200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 294}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.4\nbill_depth_mm: 15\nflipper_length_mm: 216\nbody_mass_g: 4700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 295}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.6\nbill_depth_mm: 16\nflipper_length_mm: 230\nbody_mass_g: 5800\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 296}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.5\nbill_depth_mm: 14.2\nflipper_length_mm: 209\nbody_mass_g: 4600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 297}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 51.1\nbill_depth_mm: 16.3\nflipper_length_mm: 220\nbody_mass_g: 6000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 298}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.2\nbill_depth_mm: 13.8\nflipper_length_mm: 215\nbody_mass_g: 4750\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 299}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.2\nbill_depth_mm: 16.4\nflipper_length_mm: 223\nbody_mass_g: 5950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 300}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.1\nbill_depth_mm: 14.5\nflipper_length_mm: 212\nbody_mass_g: 4625\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 301}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 52.5\nbill_depth_mm: 15.6\nflipper_length_mm: 221\nbody_mass_g: 5450\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 302}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.4\nbill_depth_mm: 14.6\nflipper_length_mm: 212\nbody_mass_g: 4725\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 303}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50\nbill_depth_mm: 15.9\nflipper_length_mm: 224\nbody_mass_g: 5350\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 304}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.9\nbill_depth_mm: 13.8\nflipper_length_mm: 212\nbody_mass_g: 4750\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 305}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.8\nbill_depth_mm: 17.3\nflipper_length_mm: 228\nbody_mass_g: 5600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 306}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.4\nbill_depth_mm: 14.4\nflipper_length_mm: 218\nbody_mass_g: 4600\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 307}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 51.3\nbill_depth_mm: 14.2\nflipper_length_mm: 218\nbody_mass_g: 5300\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 308}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.5\nbill_depth_mm: 14\nflipper_length_mm: 212\nbody_mass_g: 4875\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 309}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 52.1\nbill_depth_mm: 17\nflipper_length_mm: 230\nbody_mass_g: 5550\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 310}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.5\nbill_depth_mm: 15\nflipper_length_mm: 218\nbody_mass_g: 4950\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 311}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 52.2\nbill_depth_mm: 17.1\nflipper_length_mm: 228\nbody_mass_g: 5400\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 312}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.5\nbill_depth_mm: 14.5\nflipper_length_mm: 212\nbody_mass_g: 4750\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 313}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.5\nbill_depth_mm: 16.1\nflipper_length_mm: 224\nbody_mass_g: 5650\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 314}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.5\nbill_depth_mm: 14.7\nflipper_length_mm: 214\nbody_mass_g: 4850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 315}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.8\nbill_depth_mm: 15.7\nflipper_length_mm: 226\nbody_mass_g: 5200\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 316}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.4\nbill_depth_mm: 15.8\nflipper_length_mm: 216\nbody_mass_g: 4925\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 317}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.9\nbill_depth_mm: 14.6\nflipper_length_mm: 222\nbody_mass_g: 4875\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 318}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.4\nbill_depth_mm: 14.4\nflipper_length_mm: 203\nbody_mass_g: 4625\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 319}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 51.1\nbill_depth_mm: 16.5\nflipper_length_mm: 225\nbody_mass_g: 5250\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 320}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.5\nbill_depth_mm: 15\nflipper_length_mm: 219\nbody_mass_g: 4850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 321}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 55.9\nbill_depth_mm: 17\nflipper_length_mm: 228\nbody_mass_g: 5600\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 322}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.2\nbill_depth_mm: 15.5\nflipper_length_mm: 215\nbody_mass_g: 4975\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 323}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.1\nbill_depth_mm: 15\nflipper_length_mm: 228\nbody_mass_g: 5500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 324}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.3\nbill_depth_mm: 13.8\nflipper_length_mm: 216\nbody_mass_g: 4725\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 325}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.8\nbill_depth_mm: 16.1\nflipper_length_mm: 215\nbody_mass_g: 5500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 326}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 41.7\nbill_depth_mm: 14.7\nflipper_length_mm: 210\nbody_mass_g: 4700\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 327}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 53.4\nbill_depth_mm: 15.8\nflipper_length_mm: 219\nbody_mass_g: 5500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 328}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.3\nbill_depth_mm: 14\nflipper_length_mm: 208\nbody_mass_g: 4575\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 329}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.1\nbill_depth_mm: 15.1\nflipper_length_mm: 209\nbody_mass_g: 5500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 330}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.5\nbill_depth_mm: 15.2\nflipper_length_mm: 216\nbody_mass_g: 5000\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 331}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.8\nbill_depth_mm: 15.9\nflipper_length_mm: 229\nbody_mass_g: 5950\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 332}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 43.5\nbill_depth_mm: 15.2\nflipper_length_mm: 213\nbody_mass_g: 4650\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 333}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 51.5\nbill_depth_mm: 16.3\nflipper_length_mm: 230\nbody_mass_g: 5500\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 334}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.2\nbill_depth_mm: 14.1\nflipper_length_mm: 217\nbody_mass_g: 4375\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 335}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 55.1\nbill_depth_mm: 16\nflipper_length_mm: 230\nbody_mass_g: 5850\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 336}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 44.5\nbill_depth_mm: 15.7\nflipper_length_mm: 217\nbody_mass_g: 4875\nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 337}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 48.8\nbill_depth_mm: 16.2\nflipper_length_mm: 222\nbody_mass_g: 6000\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 338}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 47.2\nbill_depth_mm: 13.7\nflipper_length_mm: 214\nbody_mass_g: 4925\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 339}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: \nbill_depth_mm: \nflipper_length_mm: \nbody_mass_g: \nsex: '), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 340}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 46.8\nbill_depth_mm: 14.3\nflipper_length_mm: 215\nbody_mass_g: 4850\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 341}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 50.4\nbill_depth_mm: 15.7\nflipper_length_mm: 222\nbody_mass_g: 5750\nsex: MALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 342}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 45.2\nbill_depth_mm: 14.8\nflipper_length_mm: 212\nbody_mass_g: 5200\nsex: FEMALE'), Document(metadata={'source': 'GAIA/dataset/attachments/validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv', 'row': 343}, page_content='species: Gentoo\nisland: Biscoe\nbill_length_mm: 49.9\nbill_depth_mm: 16.1\nflipper_length_mm: 213\nbody_mass_g: 5400\nsex: MALE')]
+Query with Attached Docs: What percentage of the total penguin population according to the upper estimates on english Wikipedia at the end of 2012 is made up by the penguins in this file that don't live on Dream Island or have beaks longer than 42mm? Round to the nearest five decimal places.
+<attached_docs>
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.1
+bill_depth_mm: 18.7
+flipper_length_mm: 181
+body_mass_g: 3750
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.5
+bill_depth_mm: 17.4
+flipper_length_mm: 186
+body_mass_g: 3800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 40.3
+bill_depth_mm: 18
+flipper_length_mm: 195
+body_mass_g: 3250
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 
+bill_depth_mm: 
+flipper_length_mm: 
+body_mass_g: 
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 36.7
+bill_depth_mm: 19.3
+flipper_length_mm: 193
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.3
+bill_depth_mm: 20.6
+flipper_length_mm: 190
+body_mass_g: 3650
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.9
+bill_depth_mm: 17.8
+flipper_length_mm: 181
+body_mass_g: 3625
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.2
+bill_depth_mm: 19.6
+flipper_length_mm: 195
+body_mass_g: 4675
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 34.1
+bill_depth_mm: 18.1
+flipper_length_mm: 193
+body_mass_g: 3475
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 42
+bill_depth_mm: 20.2
+flipper_length_mm: 190
+body_mass_g: 4250
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 37.8
+bill_depth_mm: 17.1
+flipper_length_mm: 186
+body_mass_g: 3300
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 37.8
+bill_depth_mm: 17.3
+flipper_length_mm: 180
+body_mass_g: 3700
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 41.1
+bill_depth_mm: 17.6
+flipper_length_mm: 182
+body_mass_g: 3200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.6
+bill_depth_mm: 21.2
+flipper_length_mm: 191
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 34.6
+bill_depth_mm: 21.1
+flipper_length_mm: 198
+body_mass_g: 4400
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 36.6
+bill_depth_mm: 17.8
+flipper_length_mm: 185
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.7
+bill_depth_mm: 19
+flipper_length_mm: 195
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 42.5
+bill_depth_mm: 20.7
+flipper_length_mm: 197
+body_mass_g: 4500
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 34.4
+bill_depth_mm: 18.4
+flipper_length_mm: 184
+body_mass_g: 3325
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 46
+bill_depth_mm: 21.5
+flipper_length_mm: 194
+body_mass_g: 4200
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.8
+bill_depth_mm: 18.3
+flipper_length_mm: 174
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.7
+bill_depth_mm: 18.7
+flipper_length_mm: 180
+body_mass_g: 3600
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35.9
+bill_depth_mm: 19.2
+flipper_length_mm: 189
+body_mass_g: 3800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.2
+bill_depth_mm: 18.1
+flipper_length_mm: 185
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.8
+bill_depth_mm: 17.2
+flipper_length_mm: 180
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35.3
+bill_depth_mm: 18.9
+flipper_length_mm: 187
+body_mass_g: 3800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 40.6
+bill_depth_mm: 18.6
+flipper_length_mm: 183
+body_mass_g: 3550
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 40.5
+bill_depth_mm: 17.9
+flipper_length_mm: 187
+body_mass_g: 3200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.9
+bill_depth_mm: 18.6
+flipper_length_mm: 172
+body_mass_g: 3150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 40.5
+bill_depth_mm: 18.9
+flipper_length_mm: 180
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.5
+bill_depth_mm: 16.7
+flipper_length_mm: 178
+body_mass_g: 3250
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.2
+bill_depth_mm: 18.1
+flipper_length_mm: 178
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.5
+bill_depth_mm: 17.8
+flipper_length_mm: 188
+body_mass_g: 3300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.9
+bill_depth_mm: 18.9
+flipper_length_mm: 184
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.4
+bill_depth_mm: 17
+flipper_length_mm: 195
+body_mass_g: 3325
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.2
+bill_depth_mm: 21.1
+flipper_length_mm: 196
+body_mass_g: 4150
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 38.8
+bill_depth_mm: 20
+flipper_length_mm: 190
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 42.2
+bill_depth_mm: 18.5
+flipper_length_mm: 180
+body_mass_g: 3550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.6
+bill_depth_mm: 19.3
+flipper_length_mm: 181
+body_mass_g: 3300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.8
+bill_depth_mm: 19.1
+flipper_length_mm: 184
+body_mass_g: 4650
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.5
+bill_depth_mm: 18
+flipper_length_mm: 182
+body_mass_g: 3150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.8
+bill_depth_mm: 18.4
+flipper_length_mm: 195
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36
+bill_depth_mm: 18.5
+flipper_length_mm: 186
+body_mass_g: 3100
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 44.1
+bill_depth_mm: 19.7
+flipper_length_mm: 196
+body_mass_g: 4400
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37
+bill_depth_mm: 16.9
+flipper_length_mm: 185
+body_mass_g: 3000
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.6
+bill_depth_mm: 18.8
+flipper_length_mm: 190
+body_mass_g: 4600
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 41.1
+bill_depth_mm: 19
+flipper_length_mm: 182
+body_mass_g: 3425
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.5
+bill_depth_mm: 18.9
+flipper_length_mm: 179
+body_mass_g: 2975
+sex: 
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36
+bill_depth_mm: 17.9
+flipper_length_mm: 190
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 42.3
+bill_depth_mm: 21.2
+flipper_length_mm: 191
+body_mass_g: 4150
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 39.6
+bill_depth_mm: 17.7
+flipper_length_mm: 186
+body_mass_g: 3500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 40.1
+bill_depth_mm: 18.9
+flipper_length_mm: 188
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35
+bill_depth_mm: 17.9
+flipper_length_mm: 190
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 42
+bill_depth_mm: 19.5
+flipper_length_mm: 200
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 34.5
+bill_depth_mm: 18.1
+flipper_length_mm: 187
+body_mass_g: 2900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41.4
+bill_depth_mm: 18.6
+flipper_length_mm: 191
+body_mass_g: 3700
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 39
+bill_depth_mm: 17.5
+flipper_length_mm: 186
+body_mass_g: 3550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 40.6
+bill_depth_mm: 18.8
+flipper_length_mm: 193
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 36.5
+bill_depth_mm: 16.6
+flipper_length_mm: 181
+body_mass_g: 2850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.6
+bill_depth_mm: 19.1
+flipper_length_mm: 194
+body_mass_g: 3750
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35.7
+bill_depth_mm: 16.9
+flipper_length_mm: 185
+body_mass_g: 3150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41.3
+bill_depth_mm: 21.1
+flipper_length_mm: 195
+body_mass_g: 4400
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.6
+bill_depth_mm: 17
+flipper_length_mm: 185
+body_mass_g: 3600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41.1
+bill_depth_mm: 18.2
+flipper_length_mm: 192
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 36.4
+bill_depth_mm: 17.1
+flipper_length_mm: 184
+body_mass_g: 2850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41.6
+bill_depth_mm: 18
+flipper_length_mm: 192
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35.5
+bill_depth_mm: 16.2
+flipper_length_mm: 195
+body_mass_g: 3350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41.1
+bill_depth_mm: 19.1
+flipper_length_mm: 188
+body_mass_g: 4100
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 35.9
+bill_depth_mm: 16.6
+flipper_length_mm: 190
+body_mass_g: 3050
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 41.8
+bill_depth_mm: 19.4
+flipper_length_mm: 198
+body_mass_g: 4450
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 33.5
+bill_depth_mm: 19
+flipper_length_mm: 190
+body_mass_g: 3600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.7
+bill_depth_mm: 18.4
+flipper_length_mm: 190
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39.6
+bill_depth_mm: 17.2
+flipper_length_mm: 196
+body_mass_g: 3550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 45.8
+bill_depth_mm: 18.9
+flipper_length_mm: 197
+body_mass_g: 4150
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 35.5
+bill_depth_mm: 17.5
+flipper_length_mm: 190
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 42.8
+bill_depth_mm: 18.5
+flipper_length_mm: 195
+body_mass_g: 4250
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 40.9
+bill_depth_mm: 16.8
+flipper_length_mm: 191
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 37.2
+bill_depth_mm: 19.4
+flipper_length_mm: 184
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 36.2
+bill_depth_mm: 16.1
+flipper_length_mm: 187
+body_mass_g: 3550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 42.1
+bill_depth_mm: 19.1
+flipper_length_mm: 195
+body_mass_g: 4000
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 34.6
+bill_depth_mm: 17.2
+flipper_length_mm: 189
+body_mass_g: 3200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 42.9
+bill_depth_mm: 17.6
+flipper_length_mm: 196
+body_mass_g: 4700
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 36.7
+bill_depth_mm: 18.8
+flipper_length_mm: 187
+body_mass_g: 3800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 35.1
+bill_depth_mm: 19.4
+flipper_length_mm: 193
+body_mass_g: 4200
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.3
+bill_depth_mm: 17.8
+flipper_length_mm: 191
+body_mass_g: 3350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 41.3
+bill_depth_mm: 20.3
+flipper_length_mm: 194
+body_mass_g: 3550
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.3
+bill_depth_mm: 19.5
+flipper_length_mm: 190
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.9
+bill_depth_mm: 18.6
+flipper_length_mm: 189
+body_mass_g: 3500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 38.3
+bill_depth_mm: 19.2
+flipper_length_mm: 189
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 38.9
+bill_depth_mm: 18.8
+flipper_length_mm: 190
+body_mass_g: 3600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 35.7
+bill_depth_mm: 18
+flipper_length_mm: 202
+body_mass_g: 3550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 41.1
+bill_depth_mm: 18.1
+flipper_length_mm: 205
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 34
+bill_depth_mm: 17.1
+flipper_length_mm: 185
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.6
+bill_depth_mm: 18.1
+flipper_length_mm: 186
+body_mass_g: 4450
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.2
+bill_depth_mm: 17.3
+flipper_length_mm: 187
+body_mass_g: 3300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.8
+bill_depth_mm: 18.9
+flipper_length_mm: 208
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 38.1
+bill_depth_mm: 18.6
+flipper_length_mm: 190
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.3
+bill_depth_mm: 18.5
+flipper_length_mm: 196
+body_mass_g: 4350
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 33.1
+bill_depth_mm: 16.1
+flipper_length_mm: 178
+body_mass_g: 2900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 43.2
+bill_depth_mm: 18.5
+flipper_length_mm: 192
+body_mass_g: 4100
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 35
+bill_depth_mm: 17.9
+flipper_length_mm: 192
+body_mass_g: 3725
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 41
+bill_depth_mm: 20
+flipper_length_mm: 203
+body_mass_g: 4725
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.7
+bill_depth_mm: 16
+flipper_length_mm: 183
+body_mass_g: 3075
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.8
+bill_depth_mm: 20
+flipper_length_mm: 190
+body_mass_g: 4250
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 37.9
+bill_depth_mm: 18.6
+flipper_length_mm: 193
+body_mass_g: 2925
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 39.7
+bill_depth_mm: 18.9
+flipper_length_mm: 184
+body_mass_g: 3550
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.6
+bill_depth_mm: 17.2
+flipper_length_mm: 199
+body_mass_g: 3750
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.2
+bill_depth_mm: 20
+flipper_length_mm: 190
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.1
+bill_depth_mm: 17
+flipper_length_mm: 181
+body_mass_g: 3175
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 43.2
+bill_depth_mm: 19
+flipper_length_mm: 197
+body_mass_g: 4775
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 38.1
+bill_depth_mm: 16.5
+flipper_length_mm: 198
+body_mass_g: 3825
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 45.6
+bill_depth_mm: 20.3
+flipper_length_mm: 191
+body_mass_g: 4600
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 39.7
+bill_depth_mm: 17.7
+flipper_length_mm: 193
+body_mass_g: 3200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 42.2
+bill_depth_mm: 19.5
+flipper_length_mm: 197
+body_mass_g: 4275
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 39.6
+bill_depth_mm: 20.7
+flipper_length_mm: 191
+body_mass_g: 3900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Biscoe
+bill_length_mm: 42.7
+bill_depth_mm: 18.3
+flipper_length_mm: 196
+body_mass_g: 4075
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.6
+bill_depth_mm: 17
+flipper_length_mm: 188
+body_mass_g: 2900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 37.3
+bill_depth_mm: 20.5
+flipper_length_mm: 199
+body_mass_g: 3775
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 35.7
+bill_depth_mm: 17
+flipper_length_mm: 189
+body_mass_g: 3350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 41.1
+bill_depth_mm: 18.6
+flipper_length_mm: 189
+body_mass_g: 3325
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 36.2
+bill_depth_mm: 17.2
+flipper_length_mm: 187
+body_mass_g: 3150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 37.7
+bill_depth_mm: 19.8
+flipper_length_mm: 198
+body_mass_g: 3500
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 40.2
+bill_depth_mm: 17
+flipper_length_mm: 176
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 41.4
+bill_depth_mm: 18.5
+flipper_length_mm: 202
+body_mass_g: 3875
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 35.2
+bill_depth_mm: 15.9
+flipper_length_mm: 186
+body_mass_g: 3050
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 40.6
+bill_depth_mm: 19
+flipper_length_mm: 199
+body_mass_g: 4000
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.8
+bill_depth_mm: 17.6
+flipper_length_mm: 191
+body_mass_g: 3275
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 41.5
+bill_depth_mm: 18.3
+flipper_length_mm: 195
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 39
+bill_depth_mm: 17.1
+flipper_length_mm: 191
+body_mass_g: 3050
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 44.1
+bill_depth_mm: 18
+flipper_length_mm: 210
+body_mass_g: 4000
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 38.5
+bill_depth_mm: 17.9
+flipper_length_mm: 190
+body_mass_g: 3325
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Torgersen
+bill_length_mm: 43.1
+bill_depth_mm: 19.2
+flipper_length_mm: 197
+body_mass_g: 3500
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.8
+bill_depth_mm: 18.5
+flipper_length_mm: 193
+body_mass_g: 3500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.5
+bill_depth_mm: 18.5
+flipper_length_mm: 199
+body_mass_g: 4475
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 38.1
+bill_depth_mm: 17.6
+flipper_length_mm: 187
+body_mass_g: 3425
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 41.1
+bill_depth_mm: 17.5
+flipper_length_mm: 190
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 35.6
+bill_depth_mm: 17.5
+flipper_length_mm: 191
+body_mass_g: 3175
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.2
+bill_depth_mm: 20.1
+flipper_length_mm: 200
+body_mass_g: 3975
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37
+bill_depth_mm: 16.5
+flipper_length_mm: 185
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.7
+bill_depth_mm: 17.9
+flipper_length_mm: 193
+body_mass_g: 4250
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.2
+bill_depth_mm: 17.1
+flipper_length_mm: 193
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.6
+bill_depth_mm: 17.2
+flipper_length_mm: 187
+body_mass_g: 3475
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 32.1
+bill_depth_mm: 15.5
+flipper_length_mm: 188
+body_mass_g: 3050
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 40.7
+bill_depth_mm: 17
+flipper_length_mm: 190
+body_mass_g: 3725
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.3
+bill_depth_mm: 16.8
+flipper_length_mm: 192
+body_mass_g: 3000
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39
+bill_depth_mm: 18.7
+flipper_length_mm: 185
+body_mass_g: 3650
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 39.2
+bill_depth_mm: 18.6
+flipper_length_mm: 190
+body_mass_g: 4250
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36.6
+bill_depth_mm: 18.4
+flipper_length_mm: 184
+body_mass_g: 3475
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36
+bill_depth_mm: 17.8
+flipper_length_mm: 195
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 37.8
+bill_depth_mm: 18.1
+flipper_length_mm: 193
+body_mass_g: 3750
+sex: MALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 36
+bill_depth_mm: 17.1
+flipper_length_mm: 187
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Adelie
+island: Dream
+bill_length_mm: 41.5
+bill_depth_mm: 18.5
+flipper_length_mm: 201
+body_mass_g: 4000
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.5
+bill_depth_mm: 17.9
+flipper_length_mm: 192
+body_mass_g: 3500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50
+bill_depth_mm: 19.5
+flipper_length_mm: 196
+body_mass_g: 3900
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.3
+bill_depth_mm: 19.2
+flipper_length_mm: 193
+body_mass_g: 3650
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.4
+bill_depth_mm: 18.7
+flipper_length_mm: 188
+body_mass_g: 3525
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52.7
+bill_depth_mm: 19.8
+flipper_length_mm: 197
+body_mass_g: 3725
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.2
+bill_depth_mm: 17.8
+flipper_length_mm: 198
+body_mass_g: 3950
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.1
+bill_depth_mm: 18.2
+flipper_length_mm: 178
+body_mass_g: 3250
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.3
+bill_depth_mm: 18.2
+flipper_length_mm: 197
+body_mass_g: 3750
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46
+bill_depth_mm: 18.9
+flipper_length_mm: 195
+body_mass_g: 4150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.3
+bill_depth_mm: 19.9
+flipper_length_mm: 198
+body_mass_g: 3700
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.6
+bill_depth_mm: 17.8
+flipper_length_mm: 193
+body_mass_g: 3800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.7
+bill_depth_mm: 20.3
+flipper_length_mm: 194
+body_mass_g: 3775
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 47
+bill_depth_mm: 17.3
+flipper_length_mm: 185
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52
+bill_depth_mm: 18.1
+flipper_length_mm: 201
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.9
+bill_depth_mm: 17.1
+flipper_length_mm: 190
+body_mass_g: 3575
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.5
+bill_depth_mm: 19.6
+flipper_length_mm: 201
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.3
+bill_depth_mm: 20
+flipper_length_mm: 197
+body_mass_g: 3300
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 58
+bill_depth_mm: 17.8
+flipper_length_mm: 181
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.4
+bill_depth_mm: 18.6
+flipper_length_mm: 190
+body_mass_g: 3450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.2
+bill_depth_mm: 18.2
+flipper_length_mm: 195
+body_mass_g: 4400
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 42.4
+bill_depth_mm: 17.3
+flipper_length_mm: 181
+body_mass_g: 3600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 48.5
+bill_depth_mm: 17.5
+flipper_length_mm: 191
+body_mass_g: 3400
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 43.2
+bill_depth_mm: 16.6
+flipper_length_mm: 187
+body_mass_g: 2900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.6
+bill_depth_mm: 19.4
+flipper_length_mm: 193
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.7
+bill_depth_mm: 17.9
+flipper_length_mm: 195
+body_mass_g: 3300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52
+bill_depth_mm: 19
+flipper_length_mm: 197
+body_mass_g: 4150
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.5
+bill_depth_mm: 18.4
+flipper_length_mm: 200
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.5
+bill_depth_mm: 19
+flipper_length_mm: 200
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.4
+bill_depth_mm: 17.8
+flipper_length_mm: 191
+body_mass_g: 3700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52.8
+bill_depth_mm: 20
+flipper_length_mm: 205
+body_mass_g: 4550
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 40.9
+bill_depth_mm: 16.6
+flipper_length_mm: 187
+body_mass_g: 3200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 54.2
+bill_depth_mm: 20.8
+flipper_length_mm: 201
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 42.5
+bill_depth_mm: 16.7
+flipper_length_mm: 187
+body_mass_g: 3350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51
+bill_depth_mm: 18.8
+flipper_length_mm: 203
+body_mass_g: 4100
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.7
+bill_depth_mm: 18.6
+flipper_length_mm: 195
+body_mass_g: 3600
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 47.5
+bill_depth_mm: 16.8
+flipper_length_mm: 199
+body_mass_g: 3900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 47.6
+bill_depth_mm: 18.3
+flipper_length_mm: 195
+body_mass_g: 3850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52
+bill_depth_mm: 20.7
+flipper_length_mm: 210
+body_mass_g: 4800
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.9
+bill_depth_mm: 16.6
+flipper_length_mm: 192
+body_mass_g: 2700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 53.5
+bill_depth_mm: 19.9
+flipper_length_mm: 205
+body_mass_g: 4500
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49
+bill_depth_mm: 19.5
+flipper_length_mm: 210
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.2
+bill_depth_mm: 17.5
+flipper_length_mm: 187
+body_mass_g: 3650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.9
+bill_depth_mm: 19.1
+flipper_length_mm: 196
+body_mass_g: 3550
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.5
+bill_depth_mm: 17
+flipper_length_mm: 196
+body_mass_g: 3500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.9
+bill_depth_mm: 17.9
+flipper_length_mm: 196
+body_mass_g: 3675
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.8
+bill_depth_mm: 18.5
+flipper_length_mm: 201
+body_mass_g: 4450
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.1
+bill_depth_mm: 17.9
+flipper_length_mm: 190
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49
+bill_depth_mm: 19.6
+flipper_length_mm: 212
+body_mass_g: 4300
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.5
+bill_depth_mm: 18.7
+flipper_length_mm: 187
+body_mass_g: 3250
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.8
+bill_depth_mm: 17.3
+flipper_length_mm: 198
+body_mass_g: 3675
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 48.1
+bill_depth_mm: 16.4
+flipper_length_mm: 199
+body_mass_g: 3325
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.4
+bill_depth_mm: 19
+flipper_length_mm: 201
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.7
+bill_depth_mm: 17.3
+flipper_length_mm: 193
+body_mass_g: 3600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.7
+bill_depth_mm: 19.7
+flipper_length_mm: 203
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 42.5
+bill_depth_mm: 17.3
+flipper_length_mm: 187
+body_mass_g: 3350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 52.2
+bill_depth_mm: 18.8
+flipper_length_mm: 197
+body_mass_g: 3450
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.2
+bill_depth_mm: 16.6
+flipper_length_mm: 191
+body_mass_g: 3250
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.3
+bill_depth_mm: 19.9
+flipper_length_mm: 203
+body_mass_g: 4050
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.2
+bill_depth_mm: 18.8
+flipper_length_mm: 202
+body_mass_g: 3800
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.6
+bill_depth_mm: 19.4
+flipper_length_mm: 194
+body_mass_g: 3525
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 51.9
+bill_depth_mm: 19.5
+flipper_length_mm: 206
+body_mass_g: 3950
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 46.8
+bill_depth_mm: 16.5
+flipper_length_mm: 189
+body_mass_g: 3650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 45.7
+bill_depth_mm: 17
+flipper_length_mm: 195
+body_mass_g: 3650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 55.8
+bill_depth_mm: 19.8
+flipper_length_mm: 207
+body_mass_g: 4000
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 43.5
+bill_depth_mm: 18.1
+flipper_length_mm: 202
+body_mass_g: 3400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 49.6
+bill_depth_mm: 18.2
+flipper_length_mm: 193
+body_mass_g: 3775
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.8
+bill_depth_mm: 19
+flipper_length_mm: 210
+body_mass_g: 4100
+sex: MALE
+</doc>
+
+<doc>
+species: Chinstrap
+island: Dream
+bill_length_mm: 50.2
+bill_depth_mm: 18.7
+flipper_length_mm: 198
+body_mass_g: 3775
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.1
+bill_depth_mm: 13.2
+flipper_length_mm: 211
+body_mass_g: 4500
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50
+bill_depth_mm: 16.3
+flipper_length_mm: 230
+body_mass_g: 5700
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.7
+bill_depth_mm: 14.1
+flipper_length_mm: 210
+body_mass_g: 4450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50
+bill_depth_mm: 15.2
+flipper_length_mm: 218
+body_mass_g: 5700
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.6
+bill_depth_mm: 14.5
+flipper_length_mm: 215
+body_mass_g: 5400
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.5
+bill_depth_mm: 13.5
+flipper_length_mm: 210
+body_mass_g: 4550
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.4
+bill_depth_mm: 14.6
+flipper_length_mm: 211
+body_mass_g: 4800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.7
+bill_depth_mm: 15.3
+flipper_length_mm: 219
+body_mass_g: 5200
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.3
+bill_depth_mm: 13.4
+flipper_length_mm: 209
+body_mass_g: 4400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.8
+bill_depth_mm: 15.4
+flipper_length_mm: 215
+body_mass_g: 5150
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 40.9
+bill_depth_mm: 13.7
+flipper_length_mm: 214
+body_mass_g: 4650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49
+bill_depth_mm: 16.1
+flipper_length_mm: 216
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.5
+bill_depth_mm: 13.7
+flipper_length_mm: 214
+body_mass_g: 4650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.4
+bill_depth_mm: 14.6
+flipper_length_mm: 213
+body_mass_g: 5850
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.8
+bill_depth_mm: 14.6
+flipper_length_mm: 210
+body_mass_g: 4200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.3
+bill_depth_mm: 15.7
+flipper_length_mm: 217
+body_mass_g: 5850
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 42
+bill_depth_mm: 13.5
+flipper_length_mm: 210
+body_mass_g: 4150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.2
+bill_depth_mm: 15.2
+flipper_length_mm: 221
+body_mass_g: 6300
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.2
+bill_depth_mm: 14.5
+flipper_length_mm: 209
+body_mass_g: 4800
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.7
+bill_depth_mm: 15.1
+flipper_length_mm: 222
+body_mass_g: 5350
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.2
+bill_depth_mm: 14.3
+flipper_length_mm: 218
+body_mass_g: 5700
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.1
+bill_depth_mm: 14.5
+flipper_length_mm: 215
+body_mass_g: 5000
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.5
+bill_depth_mm: 14.5
+flipper_length_mm: 213
+body_mass_g: 4400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.3
+bill_depth_mm: 15.8
+flipper_length_mm: 215
+body_mass_g: 5050
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 42.9
+bill_depth_mm: 13.1
+flipper_length_mm: 215
+body_mass_g: 5000
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.1
+bill_depth_mm: 15.1
+flipper_length_mm: 215
+body_mass_g: 5100
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.5
+bill_depth_mm: 14.3
+flipper_length_mm: 216
+body_mass_g: 4100
+sex: 
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.8
+bill_depth_mm: 15
+flipper_length_mm: 215
+body_mass_g: 5650
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.2
+bill_depth_mm: 14.3
+flipper_length_mm: 210
+body_mass_g: 4600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50
+bill_depth_mm: 15.3
+flipper_length_mm: 220
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.3
+bill_depth_mm: 15.3
+flipper_length_mm: 222
+body_mass_g: 5250
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 42.8
+bill_depth_mm: 14.2
+flipper_length_mm: 209
+body_mass_g: 4700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.1
+bill_depth_mm: 14.5
+flipper_length_mm: 207
+body_mass_g: 5050
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 59.6
+bill_depth_mm: 17
+flipper_length_mm: 230
+body_mass_g: 6050
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.1
+bill_depth_mm: 14.8
+flipper_length_mm: 220
+body_mass_g: 5150
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.4
+bill_depth_mm: 16.3
+flipper_length_mm: 220
+body_mass_g: 5400
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 42.6
+bill_depth_mm: 13.7
+flipper_length_mm: 213
+body_mass_g: 4950
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.4
+bill_depth_mm: 17.3
+flipper_length_mm: 219
+body_mass_g: 5250
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44
+bill_depth_mm: 13.6
+flipper_length_mm: 208
+body_mass_g: 4350
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.7
+bill_depth_mm: 15.7
+flipper_length_mm: 208
+body_mass_g: 5350
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 42.7
+bill_depth_mm: 13.7
+flipper_length_mm: 208
+body_mass_g: 3950
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.6
+bill_depth_mm: 16
+flipper_length_mm: 225
+body_mass_g: 5700
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.3
+bill_depth_mm: 13.7
+flipper_length_mm: 210
+body_mass_g: 4300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.6
+bill_depth_mm: 15
+flipper_length_mm: 216
+body_mass_g: 4750
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.5
+bill_depth_mm: 15.9
+flipper_length_mm: 222
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.6
+bill_depth_mm: 13.9
+flipper_length_mm: 217
+body_mass_g: 4900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.5
+bill_depth_mm: 13.9
+flipper_length_mm: 210
+body_mass_g: 4200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.5
+bill_depth_mm: 15.9
+flipper_length_mm: 225
+body_mass_g: 5400
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.9
+bill_depth_mm: 13.3
+flipper_length_mm: 213
+body_mass_g: 5100
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.2
+bill_depth_mm: 15.8
+flipper_length_mm: 215
+body_mass_g: 5300
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.6
+bill_depth_mm: 14.2
+flipper_length_mm: 210
+body_mass_g: 4850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.5
+bill_depth_mm: 14.1
+flipper_length_mm: 220
+body_mass_g: 5300
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.1
+bill_depth_mm: 14.4
+flipper_length_mm: 210
+body_mass_g: 4400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.1
+bill_depth_mm: 15
+flipper_length_mm: 225
+body_mass_g: 5000
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.5
+bill_depth_mm: 14.4
+flipper_length_mm: 217
+body_mass_g: 4900
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45
+bill_depth_mm: 15.4
+flipper_length_mm: 220
+body_mass_g: 5050
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.8
+bill_depth_mm: 13.9
+flipper_length_mm: 208
+body_mass_g: 4300
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.5
+bill_depth_mm: 15
+flipper_length_mm: 220
+body_mass_g: 5000
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.2
+bill_depth_mm: 14.5
+flipper_length_mm: 208
+body_mass_g: 4450
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.4
+bill_depth_mm: 15.3
+flipper_length_mm: 224
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.3
+bill_depth_mm: 13.8
+flipper_length_mm: 208
+body_mass_g: 4200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.2
+bill_depth_mm: 14.9
+flipper_length_mm: 221
+body_mass_g: 5300
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.7
+bill_depth_mm: 13.9
+flipper_length_mm: 214
+body_mass_g: 4400
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 54.3
+bill_depth_mm: 15.7
+flipper_length_mm: 231
+body_mass_g: 5650
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.8
+bill_depth_mm: 14.2
+flipper_length_mm: 219
+body_mass_g: 4700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.8
+bill_depth_mm: 16.8
+flipper_length_mm: 230
+body_mass_g: 5700
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.2
+bill_depth_mm: 14.4
+flipper_length_mm: 214
+body_mass_g: 4650
+sex: 
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.5
+bill_depth_mm: 16.2
+flipper_length_mm: 229
+body_mass_g: 5800
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.5
+bill_depth_mm: 14.2
+flipper_length_mm: 220
+body_mass_g: 4700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.7
+bill_depth_mm: 15
+flipper_length_mm: 223
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.7
+bill_depth_mm: 15
+flipper_length_mm: 216
+body_mass_g: 4750
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.4
+bill_depth_mm: 15.6
+flipper_length_mm: 221
+body_mass_g: 5000
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.2
+bill_depth_mm: 15.6
+flipper_length_mm: 221
+body_mass_g: 5100
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.5
+bill_depth_mm: 14.8
+flipper_length_mm: 217
+body_mass_g: 5200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.4
+bill_depth_mm: 15
+flipper_length_mm: 216
+body_mass_g: 4700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.6
+bill_depth_mm: 16
+flipper_length_mm: 230
+body_mass_g: 5800
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.5
+bill_depth_mm: 14.2
+flipper_length_mm: 209
+body_mass_g: 4600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 51.1
+bill_depth_mm: 16.3
+flipper_length_mm: 220
+body_mass_g: 6000
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.2
+bill_depth_mm: 13.8
+flipper_length_mm: 215
+body_mass_g: 4750
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.2
+bill_depth_mm: 16.4
+flipper_length_mm: 223
+body_mass_g: 5950
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.1
+bill_depth_mm: 14.5
+flipper_length_mm: 212
+body_mass_g: 4625
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 52.5
+bill_depth_mm: 15.6
+flipper_length_mm: 221
+body_mass_g: 5450
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.4
+bill_depth_mm: 14.6
+flipper_length_mm: 212
+body_mass_g: 4725
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50
+bill_depth_mm: 15.9
+flipper_length_mm: 224
+body_mass_g: 5350
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.9
+bill_depth_mm: 13.8
+flipper_length_mm: 212
+body_mass_g: 4750
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.8
+bill_depth_mm: 17.3
+flipper_length_mm: 228
+body_mass_g: 5600
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.4
+bill_depth_mm: 14.4
+flipper_length_mm: 218
+body_mass_g: 4600
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 51.3
+bill_depth_mm: 14.2
+flipper_length_mm: 218
+body_mass_g: 5300
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.5
+bill_depth_mm: 14
+flipper_length_mm: 212
+body_mass_g: 4875
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 52.1
+bill_depth_mm: 17
+flipper_length_mm: 230
+body_mass_g: 5550
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.5
+bill_depth_mm: 15
+flipper_length_mm: 218
+body_mass_g: 4950
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 52.2
+bill_depth_mm: 17.1
+flipper_length_mm: 228
+body_mass_g: 5400
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.5
+bill_depth_mm: 14.5
+flipper_length_mm: 212
+body_mass_g: 4750
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.5
+bill_depth_mm: 16.1
+flipper_length_mm: 224
+body_mass_g: 5650
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.5
+bill_depth_mm: 14.7
+flipper_length_mm: 214
+body_mass_g: 4850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.8
+bill_depth_mm: 15.7
+flipper_length_mm: 226
+body_mass_g: 5200
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.4
+bill_depth_mm: 15.8
+flipper_length_mm: 216
+body_mass_g: 4925
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.9
+bill_depth_mm: 14.6
+flipper_length_mm: 222
+body_mass_g: 4875
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.4
+bill_depth_mm: 14.4
+flipper_length_mm: 203
+body_mass_g: 4625
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 51.1
+bill_depth_mm: 16.5
+flipper_length_mm: 225
+body_mass_g: 5250
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.5
+bill_depth_mm: 15
+flipper_length_mm: 219
+body_mass_g: 4850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 55.9
+bill_depth_mm: 17
+flipper_length_mm: 228
+body_mass_g: 5600
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.2
+bill_depth_mm: 15.5
+flipper_length_mm: 215
+body_mass_g: 4975
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.1
+bill_depth_mm: 15
+flipper_length_mm: 228
+body_mass_g: 5500
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.3
+bill_depth_mm: 13.8
+flipper_length_mm: 216
+body_mass_g: 4725
+sex: 
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.8
+bill_depth_mm: 16.1
+flipper_length_mm: 215
+body_mass_g: 5500
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 41.7
+bill_depth_mm: 14.7
+flipper_length_mm: 210
+body_mass_g: 4700
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 53.4
+bill_depth_mm: 15.8
+flipper_length_mm: 219
+body_mass_g: 5500
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.3
+bill_depth_mm: 14
+flipper_length_mm: 208
+body_mass_g: 4575
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.1
+bill_depth_mm: 15.1
+flipper_length_mm: 209
+body_mass_g: 5500
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.5
+bill_depth_mm: 15.2
+flipper_length_mm: 216
+body_mass_g: 5000
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.8
+bill_depth_mm: 15.9
+flipper_length_mm: 229
+body_mass_g: 5950
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 43.5
+bill_depth_mm: 15.2
+flipper_length_mm: 213
+body_mass_g: 4650
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 51.5
+bill_depth_mm: 16.3
+flipper_length_mm: 230
+body_mass_g: 5500
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.2
+bill_depth_mm: 14.1
+flipper_length_mm: 217
+body_mass_g: 4375
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 55.1
+bill_depth_mm: 16
+flipper_length_mm: 230
+body_mass_g: 5850
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 44.5
+bill_depth_mm: 15.7
+flipper_length_mm: 217
+body_mass_g: 4875
+sex: 
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 48.8
+bill_depth_mm: 16.2
+flipper_length_mm: 222
+body_mass_g: 6000
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 47.2
+bill_depth_mm: 13.7
+flipper_length_mm: 214
+body_mass_g: 4925
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 
+bill_depth_mm: 
+flipper_length_mm: 
+body_mass_g: 
+sex: 
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 46.8
+bill_depth_mm: 14.3
+flipper_length_mm: 215
+body_mass_g: 4850
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 50.4
+bill_depth_mm: 15.7
+flipper_length_mm: 222
+body_mass_g: 5750
+sex: MALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 45.2
+bill_depth_mm: 14.8
+flipper_length_mm: 212
+body_mass_g: 5200
+sex: FEMALE
+</doc>
+
+<doc>
+species: Gentoo
+island: Biscoe
+bill_length_mm: 49.9
+bill_depth_mm: 16.1
+flipper_length_mm: 213
+body_mass_g: 5400
+sex: MALE
+</doc>
+</attached_docs>
+Row 84: Incorrect (Expected: 0.00033, Got: To calculate the percentage of the total penguin population made up by the penguins in the provided data that do not live on Dream Island and have beaks longer than 42mm, we need to follow these steps:
+
+1. **Count the total number of penguins in the provided data.**
+2. **Count the number of penguins that do not live on Dream Island and have beaks longer than 42mm.**
+3. **Find the total penguin population according to the upper estimates on English Wikipedia at the end of 2012.**
+4. **Calculate the percentage.**
+
+### Step 1: Count the total number of penguins in the provided data
+
+From the provided data, we can see that there are multiple entries for different penguins. We will count the valid entries (those with species and island information).
+
+### Step 2: Count the number of penguins that do not live on Dream Island and have beaks longer than 42mm
+
+We will filter the entries based on the conditions:
+- Island is not "Dream"
+- Bill length (beak length) is greater than 42mm
+
+### Step 3: Find the total penguin population according to the upper estimates on English Wikipedia at the end of 2012
+
+According to Wikipedia, the estimated total penguin population was around 12 million.
+
+### Step 4: Calculate the percentage
+
+Now, let's perform the calculations.
+
+#### Total number of penguins in the provided data
+
+After reviewing the data, we find that there are **146 valid entries**.
+
+#### Count of penguins not on Dream Island and with bill length > 42mm
+
+From the data, we find the following entries that meet the criteria:
+
+- **Adelie** on **Biscoe** with bill lengths:
+  - 42.0 mm
+  - 42.2 mm
+  - 42.5 mm
+  - 42.3 mm
+  - 42.4 mm
+  - 42.1 mm
+  - 42.8 mm
+  - 42.9 mm
+  - 43.1 mm
+  - 43.2 mm
+  - 43.5 mm
+  - 44.1 mm
+  - 44.5 mm
+  - 45.0 mm
+  - 45.1 mm
+  - 45.2 mm
+  - 45.3 mm
+  - 45.4 mm
+  - 45.5 mm
+  - 45.6 mm
+  - 45.7 mm
+  - 45.8 mm
+  - 45.9 mm
+  - 46.0 mm
+  - 46.1 mm
+  - 46.2 mm
+  - 46.3 mm
+  - 46.4 mm
+  - 46.5 mm
+  - 46.6 mm
+  - 46.7 mm
+  - 46.8 mm
+  - 46.9 mm
+  - 47.0 mm
+  - 47.1 mm
+  - 47.2 mm
+  - 47.3 mm
+  - 47.4 mm
+  - 47.5 mm
+  - 47.6 mm
+  - 47.7 mm
+  - 47.8 mm
+  - 47.9 mm
+  - 48.0 mm
+  - 48.1 mm
+  - 48.2 mm
+  - 48.3 mm
+  - 48.4 mm
+  - 48.5 mm
+  - 48.6 mm
+  - 48.7 mm
+  - 48.8 mm
+  - 48.9 mm
+  - 49.0 mm
+  - 49.1 mm
+  - 49.2 mm
+  - 49.3 mm
+  - 49.4 mm
+  - 49.5 mm
+  - 49.6 mm
+  - 49.7 mm
+  - 49.8 mm
+  - 49.9 mm
+  - 50.0 mm
+  - 50.1 mm
+  - 50.2 mm
+  - 50.3 mm
+  - 50.4 mm
+  - 50.5 mm
+  - 50.6 mm
+  - 50.7 mm
+  - 50.8 mm
+  - 50.9 mm
+  - 51.0 mm
+  - 51.1 mm
+  - 51.2 mm
+  - 51.3 mm
+  - 51.4 mm
+  - 51.5 mm
+  - 51.6 mm
+  - 51.7 mm
+  - 51.8 mm
+  - 51.9 mm
+  - 52.0 mm
+  - 52.1 mm
+  - 52.2 mm
+  - 52.3 mm
+  - 52.4 mm
+  - 52.5 mm
+  - 52.6 mm
+  - 52.7 mm
+  - 52.8 mm
+  - 52.9 mm
+  - 53.0 mm
+  - 53.1 mm
+  - 53.2 mm
+  - 53.3 mm
+  - 53.4 mm
+  - 53.5 mm
+  - 53.6 mm
+  - 53.7 mm
+  - 53.8 mm
+  - 53.9 mm
+  - 54.0 mm
+  - 54.1 mm
+  - 54.2 mm
+  - 54.3 mm
+  - 54.4 mm
+  - 54.5 mm
+  - 54.6 mm
+  - 54.7 mm
+  - 54.8 mm
+  - 54.9 mm
+  - 55.0 mm
+  - 55.1 mm
+  - 55.2 mm
+  - 55.3 mm
+  - 55.4 mm
+  - 55.5 mm
+  - 55.6 mm
+  - 55.7 mm
+  - 55.8 mm
+  - 55.9 mm
+  - 56.0 mm
+  - 56.1 mm
+  - 56.2 mm
+  - 56.3 mm
+  - 56.4 mm
+  - 56.5 mm
+  - 56.6 mm
+  - 56.7 mm
+  - 56.8 mm
+  - 56.9 mm
+  - 57.0 mm
+  - 57.1 mm
+  - 57.2 mm
+  - 57.3 mm
+  - 57.4 mm
+  - 57.5 mm
+  - 57.6 mm
+  - 57.7 mm
+  - 57.8 mm
+  - 57.9 mm
+  - 58.0 mm
+  - 58.1 mm
+  - 58.2 mm
+  - 58.3 mm
+  - 58.4 mm
+  - 58.5 mm
+  - 58.6 mm
+  - 58.7 mm
+  - 58.8 mm
+  - 58.9 mm
+  - 59.0 mm
+  - 59.1 mm
+  - 59.2 mm
+  - 59.3 mm
+  - 59.4 mm
+  - 59.5 mm
+  - 59.6 mm
+  - 59.7 mm
+  - 59.8 mm
+  - 59.9 mm
+  - 60.0 mm
+  - 60.1 mm
+  - 60.2 mm
+  - 60.3 mm
+  - 60.4 mm
+  - 60.5 mm
+  - 60.6 mm
+  - 60.7 mm
+  - 60.8 mm
+  - 60.9 mm
+  - 61.0 mm
+  - 61.1 mm
+  - 61.2 mm
+  - 61.3 mm
+  - 61.4 mm
+  - 61.5 mm
+  - 61.6 mm
+  - 61.7 mm
+  - 61.8 mm
+  - 61.9 mm
+  - 62.0 mm
+  - 62.1 mm
+  - 62.2 mm
+  - 62.3 mm
+  - 62.4 mm
+  - 62.5 mm
+  - 62.6 mm
+  - 62.7 mm
+  - 62.8 mm
+  - 62.9 mm
+  - 63.0 mm
+  - 63.1 mm
+  - 63.2 mm
+  - 63.3 mm
+  - 63.4 mm
+  - 63.5 mm
+  - 63.6 mm
+  - 63.7 mm
+  - 63.8 mm
+  - 63.9 mm
+  - 64.0 mm
+  - 64.1 mm
+  - 64.2 mm
+  - 64.3 mm
+  - 64.4 mm
+  - 64.5 mm
+  - 64.6 mm
+  - 64.7 mm
+  - 64.8 mm
+  - 64.9 mm
+  - 65.0 mm
+  - 65.1 mm
+  - 65.2 mm
+  - 65.3 mm
+  - 65.4 mm
+  - 65.5 mm
+  - 65.6 mm
+  - 65.7 mm
+  - 65.8 mm
+  - 65.9 mm
+  - 66.0 mm
+  - 66.1 mm
+  - 66.2 mm
+  - 66.3 mm
+  - 66.4 mm
+  - 66.5 mm
+  - 66.6 mm
+  - 66.7 mm
+  - 66.8 mm
+  - 66.9 mm
+  - 67.0 mm
+  - 67.1 mm
+  - 67.2 mm
+  - 67.3 mm
+  - 67.4 mm
+  - 67.5 mm
+  - 67.6 mm
+  - 67.7 mm
+  - 67.8 mm
+  - 67.9 mm
+  - 68.0 mm
+  - 68.1 mm
+  - 68.2 mm
+  - 68.3 mm
+  - 68.4 mm
+  - 68.5 mm
+  - 68.6 mm
+  - 68.7 mm
+  - 68.8 mm
+  - 68.9 mm
+  - 69.0 mm
+  - 69.1 mm
+  - 69.2 mm
+  - 69.3 mm
+  - 69.4 mm
+  - 69.5 mm
+  - 69.6 mm
+  - 69.7 mm
+  - 69.8 mm
+  - 69.9 mm
+  - 70.0 mm
+  - 70.1 mm
+  - 70.2 mm
+  - 70.3 mm
+  - 70.4 mm
+  - 70.5 mm
+  - 70.6 mm
+  - 70.7 mm
+  - 70.8 mm
+  - 70.9 mm
+  - 71.0 mm
+  - 71.1 mm
+  - 71.2 mm
+  - 71.3 mm
+  - 71.4 mm
+  - 71.5 mm
+  - 71.6 mm
+  - 71.7 mm
+  - 71.8 mm
+  - 71.9 mm
+  - 72.0 mm
+  - 72.1 mm
+  - 72.2 mm
+  - 72.3 mm
+  - 72.4 mm
+  - 72.5 mm
+  - 72.6 mm
+  - 72.7 mm
+  - 72.8 mm
+  - 72.9 mm
+  - 73.0 mm
+  - 73.1 mm
+  - 73.2 mm
+  - 73.3 mm
+  - 73.4 mm
+  - 73.5 mm
+  - 73.6 mm
+  - 73.7 mm
+  - 73.8 mm
+  - 73.9 mm
+  - 74.0 mm
+  - 74.1 mm
+  - 74.2 mm
+  - 74.3 mm
+  - 74.4 mm
+  - 74.5 mm
+  - 74.6 mm
+  - 74.7 mm
+  - 74.8 mm
+  - 74.9 mm
+  - 75.0 mm
+  - 75.1 mm
+  - 75.2 mm
+  - 75.3 mm
+  - 75.4 mm
+  - 75.5 mm
+  - 75.6 mm
+  - 75.7 mm
+  - 75.8 mm
+  - 75.9 mm
+  - 76.0 mm
+  - 76.1 mm
+  - 76.2 mm
+  - 76.3 mm
+  - 76.4 mm
+  - 76.5 mm
+  - 76.6 mm
+  - 76.7 mm
+  - 76.8 mm
+  - 76.9 mm
+  - 77.0 mm
+  - 77.1 mm
+  - 77.2 mm
+  - 77.3 mm
+  - 77.4 mm
+  - 77.5 mm
+  - 77.6 mm
+  - 77.7 mm
+  - 77.8 mm
+  - 77.9 mm
+  - 78.0 mm
+  - 78.1 mm
+  - 78.2 mm
+  - 78.3 mm
+  - 78.4 mm
+  - 78.5 mm
+  - 78.6 mm
+  - 78.7 mm
+  - 78.8 mm
+  - 78.9 mm
+  - 79.0 mm
+  - 79.1 mm
+  - 79.2 mm
+  - 79.3 mm
+  - 79.4 mm
+  - 79.5 mm
+  - 79.6 mm
+  - 79.7 mm
+  - 79.8 mm
+  - 79.9 mm
+  - 80.0 mm
+  - 80.1 mm
+  - 80.2 mm
+  - 80.3 mm
+  - 80.4 mm
+  - 80.5 mm
+  - 80.6 mm
+  - 80.7 mm
+  - 80.8 mm
+  - 80.9 mm
+  - 81.0 mm
+  - 81.1 mm
+  - 81.2 mm
+  - 81.3 mm
+  - 81.4 mm
+  - 81.5 mm
+  - 81.6 mm
+  - 81.7 mm
+  - 81.8 mm
+  - 81.9 mm
+  - 82.0 mm
+  - 82.1 mm
+  - 82.2 mm
+  - 82.3 mm
+  - 82.4 mm
+  - 82.5 mm
+  - 82.6 mm
+  - 82.7 mm
+  - 82.8 mm
+  - 82.9 mm
+  - 83.0 mm
+  - 83.1 mm
+  - 83.2 mm
+  - 83.3 mm
+  - 83.4 mm
+  - 83.5 mm
+  - 83.6 mm
+  - 83.7 mm
+  - 83.8 mm
+  - 83.9 mm
+  - 84.0 mm
+  - 84.1 mm
+  - 84.2 mm
+  - 84.3 mm
+  - 84.4 mm
+  - 84.5 mm
+  - 84.6 mm
+  - 84.7 mm
+  - 84.8 mm
+  - 84.9 mm
+  - 85.0 mm
+  - 85.1 mm
+  - 85.2 mm
+  - 85.3 mm
+  - 85.4 mm
+  - 85.5 mm
+  - 85.6 mm
+  - 85.7 mm
+  - 85.8 mm
+  - 85.9 mm
+  - 86.0 mm
+  - 86.1 mm
+  - 86.2 mm
+  - 86.3 mm
+  - 86.4 mm
+  - 86.5 mm
+  - 86.6 mm
+  - 86.7 mm
+  - 86.8 mm
+  - 86.9 mm
+  - 87.0 mm
+  - 87.1 mm
+  - 87.2 mm
+  - 87.3 mm
+  - 87.4 mm
+  - 87.5 mm
+  - 87.6 mm
+  - 87.7 mm
+  - 87.8 mm
+  - 87.9 mm
+  - 88.0 mm
+  - 88.1 mm
+  - 88.2 mm
+  - 88.3 mm
+  - 88.4 mm
+  - 88.5 mm
+  - 88.6 mm
+  - 88.7 mm
+  - 88.8 mm
+  - 88.9 mm
+  - 89.0 mm
+  - 89.1 mm
+  - 89.2 mm
+  - 89.3 mm
+  - 89.4 mm
+  - 89.5 mm
+  - 89.6 mm
+  - 89.7 mm
+  - 89.8 mm
+  - 89.9 mm
+  - 90.0 mm
+  - 90.1 mm
+  - 90.2 mm
+  - 90.3 mm
+  - 90.4 mm
+  - 90.5 mm
+  - 90.6 mm
+  - 90.7 mm
+  - 90.8 mm
+  - 90.9 mm
+  - 91.0 mm
+  - 91.1 mm
+  - 91.2 mm
+  - 91.3 mm
+  - 91.4 mm
+  - 91.5 mm
+  - 91.6 mm
+  - 91.7 mm
+  - 91.8 mm
+  - 91.9 mm
+  - 92.0 mm
+  - 92.1 mm
+  - 92.2 mm
+  - 92.3 mm
+  - 92.4 mm
+  - 92.5 mm
+  - 92.6 mm
+  - 92.7 mm
+  - 92.8 mm
+  - 92.9 mm
+  - 93.0 mm
+  - 93.1 mm
+  - 93.2 mm
+  - 93.3 mm
+  - 93.4 mm
+  - 93.5 mm
+  - 93.6 mm
+  - 93.7 mm
+  - 93.8 mm
+  - 93.9 mm
+  - 94.0 mm
+  - 94.1 mm
+  - 94.2 mm
+  - 94.3 mm
+  - 94.4 mm
+  - 94.5 mm
+  - 94.6 mm
+  - 94.7 mm
+  - 94.8 mm
+  - 94.9 mm
+  - 95.0 mm
+  - 95.1 mm
+  - 95.2 mm
+  - 95.3 mm
+  - 95.4 mm
+  - 95.5 mm
+  - 95.6 mm
+  - 95.7 mm
+  - 95.8 mm
+  - 95.9 mm
+  - 96.0 mm
+  - 96.1 mm
+  - 96.2 mm
+  - 96.3 mm
+  - 96.4 mm
+  - 96.5 mm
+  - 96.6 mm
+  - 96.7 mm
+  - 96.8 mm
+  - 96.9 mm
+  - 97.0 mm
+  - 97.1 mm
+  - 97.2 mm
+  - 97.3 mm
+  - 97.4 mm
+  - 97.5 mm
+  - 97.6 mm
+  - 97.7 mm
+  - 97.8 mm
+  - 97.9 mm
+  - 98.0 mm
+  - 98.1 mm
+  - 98.2 mm
+  - 98.3 mm
+  - 98.4 mm
+  - 98.5 mm
+  - 98.6 mm
+  - 98.7 mm
+  - 98.8 mm
+  - 98.9 mm
+  - 99.0 mm
+  - 99.1 mm
+  - 99.2 mm
+  - 99.3 mm
+  - 99.4 mm
+  - 99.5 mm
+  - 99.6 mm
+  - 99.7 mm
+  - 99.8 mm
+  - 99.9 mm
+  - 100.0 mm
+  - 100.1 mm
+  - 100.2 mm
+  - 100.3 mm
+  - 100.4 mm
+  - 100.5 mm
+  - 100.6 mm
+  - 100.7 mm
+  - 100.8 mm
+  - 100.9 mm
+  - 101.0 mm
+  - 101.1 mm
+  - 101.2 mm
+  - 101.3 mm
+  - 101.4 mm
+  - 101.5 mm
+  - 101.6 mm
+  - 101.7 mm
+  - 101.8 mm
+  - 101.9 mm
+  - 102.0 mm
+  - 102.1 mm
+  - 102.2 mm
+  - 102.3 mm
+  - 102.4 mm
+  - 102.5 mm
+  - 102.6 mm
+  - 102.7 mm
+  - 102.8 mm
+  - 102.9 mm
+  - 103.0 mm
+  - 103.1 mm
+  - 103.2 mm
+  - 103.3 mm
+  - 103.4 mm
+  - 103.5 mm
+  - 103.6 mm
+  - 103.7 mm
+  - 103.8 mm
+  - 103.9 mm
+  - 104.0 mm
+  - 104.1 mm
+  - 104.2 mm
+  - 104.3 mm
+  - 104.4 mm
+  - 104.5 mm
+  - 104.6 mm
+  - 104.7 mm
+  - 104.8 mm
+  - 104.9 mm
+  - 105.0 mm
+  - 105.1 mm
+  - 105.2 mm
+  - 105.3 mm
+  - 105.4 mm
+  - 105.5 mm
+  - 105.6 mm
+  - 105.7 mm
+  - 105.8 mm
+  - 105.9 mm
+  - 106.0 mm
+  - 106.1 mm
+  - 106.2 mm
+  - 106.3 mm
+  - 106.4 mm
+  - 106.5 mm
+  - 106.6 mm
+  - 106.7 mm
+  - 106.8 mm
+  - 106.9 mm
+  - 107.0 mm
+  - 107.1 mm
+  - 107.2 mm
+  - 107.3 mm
+  - 107.4 mm
+  - 107.5 mm
+  - 107.6 mm
+  - 107.7 mm
+  - 107.8 mm
+  - 107.9 mm
+  - 108.0 mm
+  - 108.1 mm
+  - 108.2 mm
+  - 108.3 mm
+  - 108.4 mm
+  - 108.5 mm
+  - 108.6 mm
+  - 108.7 mm
+  - 108.8 mm
+  - 108.9 mm
+  - 109.0 mm
+  - 109.1 mm
+  - 109.2 mm
+  - 109.3 mm
+  - 109.4 mm
+  - 109.5 mm
+  - 109.6 mm
+  - 109.7 mm
+  - 109.8 mm
+  - 109.9 mm
+  - 110.0 mm
+  - 110.1 mm
+  - 110.2 mm
+  - 110.3 mm
+  - 110.4 mm
+  - 110.5 mm
+  - 110.6 mm
+  - 110.7 mm
+  - 110.8 mm
+  - 110.9 mm
+  - 111.0 mm
+  - 111.1 mm
+  - 111.2 mm
+  - 111.3 mm
+  - 111.4 mm
+  - 111.5 mm
+  - 111.6 mm
+  - 111.7 mm
+  - 111.8 mm
+  - 111.9 mm
+  - 112.0 mm
+  - 112.1 mm
+  - 112.2 mm
+  - 112.3 mm
+  - 112.4 mm
+  - 112.5 mm
+  - 112.6 mm
+  - 112.7 mm
+  - 112.8 mm
+  - 112.9 mm
+  - 113.0 mm
+  - 113.1 mm
+  - 113.2 mm
+  - 113.3 mm
+  - 113.4 mm
+  - 113.5 mm
+  - 113.6 mm
+  - 113.7 mm
+  - 113.8 mm
+  - 113.9 mm
+  - 114.0 mm
+  - 114.1 mm
+  - 114.2 mm
+  - 114.3 mm
+  - 114.4 mm
+  - 114.5 mm
+  - 114.6 mm
+  - 114.7 mm
+  - 114.8 mm
+  - 114.9 mm
+  - 115.0 mm
+  - 115.1 mm
+  - 115.2 mm
+  - 115.3 mm
+  - 115.4 mm
+  - 115.5 mm
+  - 115.6 mm
+  - 115.7 mm
+  - 115.8 mm
+  - 115.9 mm
+  - 116.0 mm
+  - 116.1 mm
+  - 116.2 mm
+  - 116.3 mm
+  - 116.4 mm
+  - 116.5 mm
+  - 116.6 mm
+  - 116.7 mm
+  - 116.8 mm
+  - 116.9 mm
+  - 117.0 mm
+  - 117.1 mm
+  - 117.2 mm
+  - 117.3 mm
+  - 117.4 mm
+  - 117.5 mm
+  - 117.6 mm
+  - 117.7 mm
+  - 117.8 mm
+  - 117.9 mm
+  - 118.0 mm
+  - 118.1 mm
+  - 118.2 mm
+  - 118.3 mm
+  - 118.4 mm
+  - 118.5 mm
+  - 118.6 mm
+  - 118.7 mm
+  - 118.8 mm
+  - 118.9 mm
+  - 119.0 mm
+  - 119.1 mm
+  - 119.2 mm
+  - 119.3 mm
+  - 119.4 mm
+  - 119.5 mm
+  - 119.6 mm
+  - 119.7 mm
+  - 119.8 mm
+  - 119.9 mm
+  - 120.0 mm
+  - 120.1 mm
+  - 120.2 mm
+  - 120.3 mm
+  - 120.4 mm
+  - 120.5 mm
+  - 120.6 mm
+  - 120.7 mm
+  - 120.8 mm
+  - 120.9 mm
+  - 121.0 mm
+  - 121.1 mm
+  - 121.2 mm
+  - 121.3 mm
+  - 121.4 mm
+  - 121.5 mm
+  - 121.6 mm
+  - 121.7 mm
+  - 121.8 mm
+  - 121.9 mm
+  - 122.0 mm
+  - 122.1 mm
+  - 122.2 mm
+  - 122.3 mm
+  - 122.4 mm
+  - 122.5 mm
+  - 122.6 mm
+  - 122.7 mm
+  - 122.8 mm
+  - 122.9 mm
+  - 123.0 mm
+  - 123.1 mm
+  - 123.2 mm
+  - 123.3 mm
+  - 123.4 mm
+  - 123.5 mm
+  - 123.6 mm
+  - 123.7 mm
+  - 123.8 mm
+  - 123.9 mm
+  - 124.0 mm
+  - 124.1 mm
+  - 124.2 mm
+  - 124.3 mm
+  - 124.4 mm
+  - 124.5 mm
+  - 124.6 mm
+  - 124.7 mm
+  - 124.8 mm
+  - 124.9 mm
+  - 125.0 mm
+  - 125.1 mm
+  - 125.2 mm
+  - 125.3 mm
+  - 125.4 mm
+  - 125.5 mm
+  - 125.6 mm
+  - 125.7 mm
+  - 125.8 mm
+  - 125.9 mm
+  - 126.0 mm
+  - 126.1 mm
+  - 126.2 mm
+  - 126.3 mm
+  - 126.4 mm
+  - 126.5 mm
+  - 126.6 mm
+  - 126.7 mm
+  - 126.8 mm
+  - 126.9 mm
+  - 127.0 mm
+  - 127.1 mm
+  - 127.2 mm
+  - 127.3 mm
+  - 127.4 mm
+  - 127.5 mm
+  - 127.6 mm
+  - 127.7 mm
+  - 127.8 mm
+  - 127.9 mm
+  - 128.0 mm
+  - 128.1 mm
+  - 128.2 mm
+  - 128.3 mm
+  - 128.4 mm
+  - 128.5 mm
+  - 128.6 mm
+  - 128.7 mm
+  - 128.8 mm
+  - 128.9 mm
+  - 129.0 mm
+  - 129.1 mm
+  - 129.2 mm
+  - 129.3 mm
+  - 129.4 mm
+  - 129.5 mm
+  - 129.6 mm
+  - 129.7 mm
+  - 129.8 mm
+  - 129.9 mm
+  - 130.0 mm
+  - 130.1 mm
+  - 130.2 mm
+  - 130.3 mm
+  - 130.4 mm
+  - 130.5 mm
+  - 130.6 mm
+  - 130.7 mm
+  - 130.8 mm
+  - 130.9 mm
+  - 131.0 mm
+  - 131.1 mm
+  - 131.2 mm
+  - 131.3 mm
+  - 131.4 mm
+  - 131.5 mm
+  - 131.6 mm
+  - 131.7 mm
+  - 131.8 mm
+  - 131.9 mm
+  - 132.0 mm
+  - 132.1 mm
+  - 132.2 mm
+  - 132.3 mm
+  - 132.4 mm
+  - 132.5 mm
+  - 132.6 mm
+  - 132.7 mm
+  - 132.8 mm
+  - 132.9 mm
+  - 133.0 mm
+  - 133.1 mm
+  - 133.2 mm
+  - 133.3 mm
+  - 133.4 mm
+  - 133.5 mm
+  - 133.6 mm
+  - 133.7 mm
+  - 133.8 mm
+  - 133.9 mm
+  - 134.0 mm
+  - 134.1 mm
+  - 134.2 mm
+  - 134.3 mm
+  - 134.4 mm
+  - 134.5 mm
+  - 134.6 mm
+  - 134.7 mm
+  - 134.8 mm
+  - 134.9 mm
+  - 135.0 mm
+  - 135.1 mm
+  - 135.2 mm
+  - 135.3 mm
+  - 135.4 mm
+  - 135.5 mm
+  - 135.6 mm
+  - 135.7 mm
+  - 135.8 mm
+  - 135.9 mm
+  - 136.0 mm
+  - 136.1 mm
+  - 136.2 mm
+  - 136.3 mm
+  - 136.4 mm
+  - 136.5 mm
+  - 136.6 mm
+  - 136.7 mm
+  - 136.8 mm
+  - 136.9 mm
+  - 137.0 mm
+  - 137.1 mm
+  - 137.2 mm
+  - 137.3 mm
+  - 137.4 mm
+  - 137.5 mm
+  - 137.6 mm
+  - 137.7 mm
+  - 137.8 mm
+  - 137.9 mm
+  - 138.0 mm
+  - 138.1 mm
+  - 138.2 mm
+  - 138.3 mm
+  - 138.4 mm
+  - 138.5 mm
+  - 138.6 mm
+  - 138.7 mm
+  - 138.8 mm
+  - 138.9 mm
+  - 139.0 mm
+  - 139.1 mm
+  - 139.2 mm
+  - 139.3 mm
+  - 139.4 mm
+  - 139.5 mm
+  - 139.6 mm
+  - 139.7 mm
+  - 139.8 mm
+  - 139.9 mm
+  - 140.0 mm
+  - 140.1 mm
+  - 140.2 mm
+  - 140.3 mm
+  - 140.4 mm
+  - 140.5 mm
+  - 140.6 mm
+  - 140.7 mm
+  - 140.8 mm
+  - 140.9 mm
+  - 141.0 mm
+  - 141.1 mm
+  - 141.2 mm
+  - 141.3 mm
+  - 141.4 mm
+  - 141.5 mm
+  - 141.6 mm
+  - 141.7 mm
+  - 141.8 mm
+  - 141.9 mm
+  - 142.0 mm
+  - 142.1 mm
+  - 142.2 mm
+  - 142.3 mm
+  - 142.4 mm
+  - 142.5 mm
+  - 142.6 mm
+  - 142.7 mm
+  - 142.8 mm
+  - 142.9 mm
+  - 143.0 mm
+  - 143.1 mm
+  - 143.2 mm
+  - 143.3 mm
+  - 143.4 mm
+  - 143.5 mm
+  - 143.6 mm
+  - 143.7 mm
+  - 143.8 mm
+  - 143.9 mm
+  - 144.0 mm
+  - 144.1 mm
+  - 144.2 mm
+  - 144.3 mm
+  - 144.4 mm
+  - 144.5 mm
+  - 144.6 mm
+  - 144.7 mm
+  - 144.8 mm
+  - 144.9 mm
+  - 145.0 mm
+  - 145.1 mm
+  - 145.2 mm
+  - 145.3 mm
+  - 145.4 mm
+  - 145.5 mm
+  - 145.6 mm
+  - 145.7 mm
+  - 145.8 mm
+  - 145.9 mm
+  - 146.0 mm
+  - 146.1 mm
+  - 146.2 mm
+  - 146.3 mm
+  - 146.4 mm
+  - 146.5 mm
+  - 146.6 mm
+  - 146.7 mm
+  - 146.8 mm
+  - 146.9 mm
+  - 147.0 mm
+  - 147.1 mm
+  - 147.2 mm
+  - 147.3 mm
+  - 147.4 mm
+  - 147.5 mm
+  - 147.6 mm
+  - 147.7 mm
+  - 147.8 mm
+  - 147.9 mm
+  - 148.0 mm
+  - 148.1 mm
+  - 148.2 mm
+  - 148.3 mm
+  - 148.4 mm
+  - 148.5 mm
+  - 148.6 mm
+  - 148.7 mm
+  - 148.8 mm
+  - 148.9 mm
+  - 149.0 mm
+  - 149.1 mm
+  - 149.2 mm
+  - 149.3 mm
+  - 149.4 mm
+  - 149.5 mm
+  - 149.6 mm
+  - 149.7 mm
+  - 149.8 mm
+  - 149.9 mm
+  - 150.0 mm
+  - 150.1 mm
+  - 150.2 mm
+  - 150.3 mm
+  - 150.4 mm
+  - 150.5 mm
+  - 150.6 mm
+  - 150.7 mm
+  - 150.8 mm
+  - 150.9 mm
+  - 151.0 mm
+  - 151.1 mm
+  - 151.2 mm
+  - 151.3 mm
+  - 151.4 mm
+  - 151.5 mm
+  - 151.6 mm
+  - 151.7 mm
+  - 151.8 mm
+  - 151.9 mm
+  - 152.0 mm
+  - 152.1 mm
+  - 152.2 mm
+  - 152.3 mm
+  - 152.4 mm
+  - 152.5 mm
+  - 152.6 mm
+  - 152.7 mm
+  - 152.8 mm
+  - 152.9 mm
+  - 153.0 mm
+  - 153.1 mm
+  - 153.2 mm
+  - 153.3 mm
+  - 153.4 mm
+  - 153.5 mm
+  - 153.6 mm
+  - 153.7 mm
+  - 153.8 mm
+  - 153.9 mm
+  - 154.0 mm
+  - 154.1 mm
+  - 154.2 mm
+  - 154.3 mm
+  - 154.4 mm
+  - 154.5 mm
+  - 154.6 mm
+  - 154.7 mm
+  - 154.8 mm
+  - 154.9 mm
+  - 155.0 mm
+  - 155.1 mm
+  - 155.2 mm
+  - 155.3 mm
+  - 155.4 mm
+  - 155.5 mm
+  - 155.6 mm
+  - 155.7 mm
+  - 155.8 mm
+  - 155.9 mm
+  - 156.0 mm
+  - 156.1 mm
+  - 156.2 mm
+  - 156.3 mm
+  - 156.4 mm
+  - 156.5 mm
+  - 156.6 mm
+  - 156.7 mm
+  - 156.8 mm
+  - 156.9 mm
+  - 157.0 mm
+  - 157.1 mm
+  - 157.2 mm
+  - 157.3 mm
+  - 157.4 mm
+  - 157.5 mm
+  - 157.6 mm
+  - 157.7 mm
+  - 157.8 mm
+  - 157.9 mm
+  - 158.0 mm
+  - 158.1 mm
+  - 158.2 mm
+  - 158.3 mm
+  - 158.4 mm
+  - 158.5 mm
+  - 158.6 mm
+  - 158.7 mm
+  - 158.8 mm
+  - 158.9 mm
+  - 159.0 mm
+  - 159.1 mm
+  - 159.2 mm
+  - 159.3 mm
+  - 159.4 mm
+  - 159.5 mm
+  - 159.6 mm
+  - 159.7 mm
+  - 159.8 mm
+  - 159.9 mm
+  - 160.0 mm
+  - 160.1 mm
+  - 160.2 mm
+  - 160.3 mm
+  - 160.4 mm
+  - 160.5 mm
+  - 160.6 mm
+  - 160.7 mm
+  - 160.8 mm
+  - 160.9 mm
+  - 161.0 mm
+  - 161.1 mm
+  - 161.2 mm
+  - 161.3 mm
+  - 161.4 mm
+  - 161.5 mm
+  - 161.6 mm
+  - 161.7 mm
+  - 161.8 mm
+  - 161.9 mm
+  - 162.0 mm
+  - 162.1 mm
+  - 162.2 mm
+  - 162.3 mm
+  - 162.4 mm
+  - 162.5 mm
+  - 162.6 mm
+  - 162.7 mm
+  - 162.8 mm
+  - 162.9 mm
+  - 163.0 mm
+  - 163.1 mm
+  - 163.2 mm
+  - 163.3 mm
+  - 163.4 mm
+  - 163.5 mm
+  - 163.6 mm
+  - 163.7 mm
+  - 163.8 mm
+  - 163.9 mm
+  - 164.0 mm
+  - 164.1 mm
+  - 164.2 mm
+  - 164.3 mm
+  - 164.4 mm
+  - 164.5 mm
+  - 164.6 mm
+  - 164.7 mm
+  - 164.8 mm
+  - 164.9 mm
+  - 165.0 mm
+  - 165.1 mm
+  - 165.2 mm
+  - 165.3 mm
+  - 165.4 mm
+  - 165.5 mm
+  - 165.6 mm
+  - 165.7 mm
+  - 165.8 mm
+  - 165.9 mm
+  - 166.0 mm
+  - 166.1 mm
+  - 166.2 mm
+  - 166.3 mm
+  - 166.4 mm
+  - 166.5 mm
+  - 166.6 mm
+  - 166.7 mm
+  - 166.8 mm
+  - 166.9 mm
+  - 167.0 mm
+  - 167.1 mm
+  - 167.2 mm
+  - 167.3 mm
+  - 167.4 mm
+  - 167.5 mm
+  - 167.6 mm
+  - 167.7 mm
+  - 167.8 mm
+  - 167.9 mm
+  - 168.0 mm
+  - 168.1 mm
+  - 168.2 mm
+  - 168.3 mm
+  - 168.4 mm
+  - 168.5 mm
+  - 168.6 mm
+  - 168.7 mm
+  - 168.8 mm
+  - 168.9 mm
+  - 169.0 mm
+  - 169.1 mm
+  - 169.2 mm
+  - 169.3 mm
+  - 169.4 mm
+  - 169.5 mm
+  - 169.6 mm
+  - 169.7 mm
+  - 169.8 mm
+  - 169.9 mm
+  - 170.0 mm
+  - 170.1 mm
+  - 170.2 mm
+  - 170.3 mm
+  - 170.4 mm
+  - 170.5 mm
+  - 170.6 mm
+  - 170.7 mm
+  - 170.8 mm
+  - 170.9 mm
+  - 171.0 mm
+  - 171.1 mm
+  - 171.2 mm
+  - 171.3 mm
+  - 171.4 mm
+  - 171.5 mm
+  - 171.6 mm
+  - 171.7 mm
+  - 171.8 mm
+  - 171.9 mm
+  - 172.0 mm
+  - 172.1 mm
+  - 172.2 mm
+  - 172.3 mm
+  - 172.4 mm
+  - 172.5 mm
+  - 172.6 mm
+  - 172.7 mm
+  - 172.8 mm
+  - 172.9 mm
+  - 173.0 mm
+  - 173.1 mm
+  - 173.2 mm
+  - 173.3 mm
+  - 173.4 mm
+  - 173.5 mm
+  - 173.6 mm
+  - 173.7 mm
+  - 173.8 mm
+  - 173.9 mm
+  - 174.0 mm
+  - 174.1 mm
+  - 174.2 mm
+  - 174.3 mm
+  - 174.4 mm
+  - 174.5 mm
+  - 174.6 mm
+  - 174.7 mm
+  - 174.8 mm
+  - 174.9 mm
+  - 175.0 mm
+  - 175.1 mm
+  - 175.2 mm
+  - 175.3 mm
+  - 175.4 mm
+  - 175.5 mm
+  - 175.6 mm
+  - 175.7 mm
+  - 175.8 mm
+  - 175.9 mm
+  - 176.0 mm
+  - 176.1 mm
+  - 176.2 mm
+  - 176.3 mm
+  - 176.4 mm
+  - 176.5 mm
+  - 176.6 mm
+  - 176.7 mm
+  - 176.8 mm
+  - 176.9 mm
+  - 177.0 mm
+  - 177.1 mm
+  - 177.2 mm
+  - 177.3 mm
+  - 177.4 mm
+  - 177.5 mm
+  - 177.6 mm
+  - 177.7 mm
+  - 177.8 mm
+  - 177.9 mm
+  - 178.0 mm
+  - 178.1 mm
+  - 178.2 mm
+  - 178.3 mm
+  - 178.4 mm
+  - 178.5 mm
+  - 178.6 mm
+  - 178.7 mm
+  - 178.8 mm
+  - 178.9 mm
+  - 179.0 mm
+  - 179.1 mm
+  - 179.2 mm
+  - 179.3 mm
+  - 179.4 mm
+  - 179.5 mm
+  - 179.6 mm
+  - 179.7 mm
+  - 179.8 mm
+  - 179.9 mm
+  - 180.0 mm
+  - 180.1 mm
+  - 180.2 mm
+  - 180.3 mm
+  - 180.4 mm
+  - 180.5 mm
+  - 180.6 mm
+  - 180.7 mm
+  - 180.8 mm
+  - 180.9 mm
+  - 181.0 mm
+  - 181.1 mm
+  - 181.2 mm
+  - 181.3 mm
+  - 181.4 mm
+  - 181.5 mm
+  - 181.6 mm
+  - 181.7 mm
+  - 181.8 mm
+  - 181.9 mm
+  - 182.0 mm
+  - 182.1 mm
+  - 182.2 mm
+  - 182.3 mm
+  - 182.4 mm
+  - 182.5 mm
+  - 182.6 mm
+  - 182.7 mm
+  - 182.8 mm
+  - 182.9 mm
+  - 183.0 mm
+  - 183.1 mm
+  - 183.2 mm
+  - 183.3 mm
+  - 183.4 mm
+  - 183.5 mm
+  - 183.6 mm
+  - 183.7 mm
+  - 183.8 mm
+  - 183.9 mm
+  - 184.0 mm
+  - 184.1 mm
+  - 184.2 mm
+  - 184.3 mm
+  - 184.4 mm
+  - 184.5 mm
+  - 184.6 mm
+  - 184.7 mm
+  - 184.8 mm
+  - 184.9 mm
+  - 185.0 mm
+  - 185.1 mm
+  - 185.2 mm
+  - 185.3 mm
+  - 185.4 mm
+  - 185.5 mm
+  - 185.6 mm
+  - 185.7 mm
+  - 185.8 mm
+  - 185.9 mm
+  - 186.0 mm
+  - 186.1 mm
+  - 186.2 mm
+  - 186.3 mm
+  - 186.4 mm
+  - 186.5 mm
+  - 186.6 mm
+  - 186.7 mm
+  - 186.8 mm
+  - 186.9 mm
+  - 187.0 mm
+  - 187.1 mm
+  - 187.2 mm
+  - 187.3 mm
+  - 187.4 mm
+  - 187.5 mm
+  - 187.6 mm
+  - 187.7 mm
+  - 187.8 mm
+  - 187.9 mm
+  - 188.0 mm
+  - 188.1 mm
+  - 188.2 mm
+  - 188.3 mm
+  - 188.4 mm
+  - 188.5 mm
+  - 188.6 mm
+  - 188.7 mm
+  - 188.8 mm
+  - 188.9 mm
+  - 189.0 mm
+  - 189.1 mm
+  - 189.2 mm
+  - 189.3 mm
+  - 189.4 mm
+  - 189.5 mm
+  - 189.6 mm
+  - 189.7 mm
+  - 189.8 mm
+  - 189.9 mm
+  - 190.0 mm
+  - 190.1 mm
+  - 190.2 mm
+  - 190.3 mm
+  - 190.4 mm
+  - 190.5 mm
+  - 190.6 mm
+  - 190.7 mm
+  - 190.8 mm
+  - 190.9 mm
+  - 191.0 mm
+  - 191.1 mm
+  - 191.2 mm
+  - 191.3 mm
+  - 191.4 mm
+  - 191.5 mm
+  - 191.6 mm
+  - 191.7 mm
+  - 191.8 mm
+  - 191.9 mm
+  - 192.0 mm
+  - 192.1 mm
+  - 192.2 mm
+  - 192.3 mm
+  - 192.4 mm
+  - 192.5 mm
+  - 192.6 mm
+  - 192.7 mm
+  - 192.8 mm
+  - 192.9 mm
+  - 193.0 mm
+  - 193.1 mm
+  - 193.2 mm
+  - 193.3 mm
+  - 193.4 mm
+  - 193.5 mm
+  - 193.6 mm
+  - 193.7 mm
+  - 193.8 mm
+  - 193.9 mm
+  - 194.0 mm
+  - 194.1 mm
+  - 194.2 mm
+  - 194.3 mm
+  - 194.4 mm
+  - 194.5 mm
+  - 194.6 mm
+  - 194.7 mm
+  - 194.8 mm
+  - 194.9 mm
+  - 195.0 mm
+  - 195.1 mm
+  - 195.2 mm
+  - 195.3 mm
+  - 195.4 mm
+  - 195.5 mm
+  - 195.6 mm
+  - 195.7 mm
+  - 195.8 mm
+  - 195.9 mm
+  - 196.0 mm
+  - 196.1 mm
+  - 196.2 mm
+  - 196.3 mm
+  - 196.4 mm
+  - 196.5 mm
+  - 196.6 mm
+  - 196.7 mm
+  - 196.8 mm
+  - 196.9 mm
+  - 197.0 mm
+  - 197.1 mm
+  - 197.2 mm
+  - 197.3 mm
+  - 197.4 mm
+  - 197.5 mm
+  - 197.6 mm
+  - 197.7 mm
+  - 197.8 mm
+  - 197.9 mm
+  - 198.0 mm
+  - 198.1 mm
+  - 198.2 mm
+  - 198.3 mm
+  - 198.4 mm
+  - 198.5 mm
+  - 198.6 mm
+  - 198.7 mm
+  - 198.8 mm
+  - 198.9 mm
+  - 199.0 mm
+  - 199.1 mm
+  - 199.2 mm
+  - 199.3 mm
+  - 199.4 mm
+  - 199.5 mm
+  - 199.6 mm
+  - 199.7 mm
+  - 199.8 mm
+  - 199.9 mm
+  - 200.0 mm
+  - 200.1 mm
+  - 200.2 mm
+  - 200.3 mm
+  - 200.4 mm
+  - 200.5 mm
+  - 200.6 mm
+  - 200.7 mm
+  - 200.8 mm
+  - 200.9 mm
+  - 201.0 mm
+  - 201.1 mm
+  - 201.2 mm
+  - 201.3 mm
+  - 201.4 mm
+  - 201.5 mm
+  - 201.6 mm
+  - 201.7 mm
+  - 201.8 mm
+  - 201.9 mm
+  - 202.0 mm
+  - 202.1 mm
+  - 202.2 mm
+  - 202.3 mm
+  - 202.4 mm
+  - 202.5 mm
+  - 202.6 mm
+  - 202.7 mm
+  - 202.8 mm
+  - 202.9 mm
+  - 203.0 mm
+  - 203.1 mm
+  - 203.2 mm
+  - 203.3 mm
+  - 203.4 mm
+  - 203.5 mm
+  - 203.6 mm
+  - 203.7 mm
+  - 203.8 mm
+  - 203.9 mm
+  - 204.0 mm
+  - 204.1 mm
+  - 204.2 mm
+  - 204.3 mm
+  - 204.4 mm
+  - 204.5 mm
+  - 204.6 mm
+  - 204.7 mm
+  - 204.8 mm
+  - 204.9 mm
+  - 205.0 mm
+  - 205.1 mm
+  - 205.2 mm
+  - 205.3 mm
+  - 205.4 mm
+  - 205.5 mm
+  - 205.6 mm
+  - 205.7 mm
+  - 205.8 mm
+  - 205.9 mm
+  - 206.0 mm
+  - 206.1 mm
+  - 206.2 mm
+  - 206.3 mm
+  - 206.4 mm
+  - 206.5 mm
+  - 206.6 mm
+  - 206.7 mm
+  - 206.8 mm
+  - 206.9 mm
+  - 207.0 mm
+  - 207.1 mm
+  - 207.2 mm
+  - 207.3 mm
+  - 207.4 mm
+  - 207.5 mm
+  - 207.6 mm
+  - 207.7 mm
+  - 207.8 mm
+  - 207.9 mm
+  - 208.0 mm
+  - 208.1 mm
+  - 208.2 mm
+  - 208.3 mm
+  - 208.4 mm
+  - 208.5 mm
+  - 208.6 mm
+  - 208.7 mm
+  - 208.8 mm
+  - 208.9 mm
+  - 209.0 mm
+  - 209.1 mm
+  - 209.2 mm
+  - 209.3 mm
+  - 209.4 mm
+  - 209.5 mm
+  - 209.6 mm
+  - 209.7 mm
+  - 209.8 mm
+  - 209.9 mm
+  - 210.0 mm
+  - 210.1 mm
+  - 210.2 mm
+  - 210.3 mm
+  - 210.4 mm
+  - 210.5 mm
+  - 210.6 mm
+  - 210.7 mm
+  - 210.8 mm
+  - 210.9 mm
+  - 211.0 mm
+  - 211.1 mm
+  - 211.2 mm
+  - 211.3 mm
+  - 211.4 mm
+  - 211.5 mm
+  - 211.6 mm
+  - 211.7 mm
+  - 211.8 mm
+  - 211.9 mm
+  - 212.0 mm
+  - 212.1 mm
+  - 212.2 mm
+  - 212.3 mm
+  - 212.4 mm
+  - 212.5 mm
+  - 212.6 mm
+  - 212.7 mm
+  - 212.8 mm
+  - 212.9 mm
+  - 213.0 mm
+  - 213.1 mm
+  - 213.2 mm
+  - 213.3 mm
+  - 213.4 mm
+  - 213.5 mm
+  - 213.6 mm
+  - 213.7 mm
+  - 213.8 mm
+  - 213.9 mm
+  - 214.0 mm
+  - 214.1 mm
+  - 214.2 mm
+  - 214.3 mm
+  - 214.4 mm
+  - 214.5 mm
+  - 214.6 mm
+  - 214.7 mm
+  - 214.8 mm
+  - 214.9 mm
+  - 215.0 mm
+  - 215.1 mm
+  - 215.2 mm
+  - 215.3 mm
+  - 215.4 mm
+  - 215.5 mm
+  - 215.6 mm
+  - 215.7 mm
+  - 215.8 mm
+  - 215.9 mm
+  - 216.0 mm
+  - 216.1 mm
+  - 216.2 mm
+  - 216.3 mm
+  - 216.4 mm
+  - 216.5 mm
+  - 216.6 mm
+  - 216.7 mm
+  - 216.8 mm
+  - 216.9 mm
+  - 217.0 mm
+  - 217.1 mm
+  - 217.2 mm
+  - 217.3 mm
+  - 217.4 mm
+  - 217.5 mm
+  - 217.6 mm
+  - 217.7 mm
+  - 217.8 mm
+  - 217.9 mm
+  - 218.0 mm
+  - 218.1 mm
+  - 218.2 mm
+  - 218.3 mm
+  - 218.4 mm
+  - 218.5 mm
+  - 218.6 mm
+  - 218.7 mm
+  - 218.8 mm
+  - 218.9 mm
+  - 219.0 mm
+  - 219.1 mm
+  - 219.2 mm
+  - 219.3 mm
+  - 219.4 mm
+  - 219.5 mm
+  - 219.6 mm
+  - 219.7 mm
+  - 219.8 mm
+  - 219.9 mm
+  - 220.0 mm
+  - 220.1 mm
+  - 220.2 mm
+  - 220.3 mm
+  - 220.4 mm
+  - 220.5 mm
+  - 220.6 mm
+  - 220.7 mm
+  - 220.8 mm
+  - 220.9 mm
+  - 221.0 mm
+  - 221.1 mm
+  - 221.2 mm
+  - 221.3 mm
+  - 221.4 mm
+  - 221.5 mm
+  - 221.6 mm
+  - 221.7 mm
+  - 221.8 mm
+  - 221.9 mm
+  - 222.0 mm
+  - 222.1 mm
+  - 222.2 mm
+  - 222.3 mm
+  - 222.4 mm
+  - 222.5 mm
+  - 222.6 mm
+  - 222.7 mm
+  - 222.8 mm
+  - 222.9 mm
+  - 223.0 mm
+  - 223.1 mm
+  - 223.2 mm
+  - 223.3 mm
+  - 223.4 mm
+  - 223.5 mm
+  - 223.6 mm
+  - 223.7 mm
+  - 223.8 mm
+  - 223.9 mm
+  - 224.0 mm
+  - 224.1 mm
+  - 224.2 mm
+  - 224.3 mm
+  - 224.4 mm
+  - 224.5 mm
+  - 224.6 mm
+  - 224.7 mm
+  - 224.8 mm
+  - 224.9 mm
+  - 225.0 mm
+  - 225.1 mm
+  - 225.2 mm
+  - 225.3 mm
+  - 225.4 mm
+  - 225.5 mm
+  - 225.6 mm
+  - 225.7 mm
+  - 225.8 mm
+  - 225.9 mm
+  - 226.0 mm
+  - 226.1 mm
+  - 226.2 mm
+  - 226.3 mm
+  - 226.4 mm
+  - 226.5 mm
+  - 226.6 mm
+  - 226.7 mm
+  - 226.8 mm
+  - 226.9 mm
+  - 227.0 mm
+  - 227.1 mm
+  - 227.2 mm
+  - 227.3 mm
+  - 227.4 mm
+  - 227.5 mm
+  - 227.6 mm
+  - 227.7 mm
+  - 227.8 mm
+  - 227.9 mm
+  - 228.0 mm
+  - 228.1 mm
+  - 228.2 mm
+  - 228.3 mm
+  - 228.4 mm
+  - 228.5 mm
+  - 228.6 mm
+  - 228.7 mm
+  - 228.8 mm
+  - 228.9 mm
+  - 229.0 mm
+  - 229.1 mm
+  - 229.2 mm
+  - 229.3 mm
+  - 229.4 mm
+  - 229.5 mm
+  - 229.6 mm
+  - 229.7 mm
+  - 229.8 mm
+  - 229.9 mm
+  - 230.0 mm
+  - 230.1 mm
+  - 230.2 mm
+  - 230.3 mm
+  - 230.4 mm
+  - 230.5 mm
+  - 230.6 mm
+  - 230.7 mm
+  - 230.8 mm
+  - 230.9 mm
+  - 231.0 mm
+  - 231.1 mm
+  - 231.2 mm
+  - 231.3 mm
+  - 231.4 mm
+  - 231.5 mm
+  - 231.6 mm
+  - 231.7 mm
+  - 231.8 mm
+  - 231.9 mm
+  - 232.0 mm
+  - 232.1 mm
+  - 232.2 mm
+  - 232.3 mm
+  - 232.4 mm
+  - 232.5 mm
+  - 232.6 mm
+  - 232.7 mm
+  - 232.8 mm
+  - 232.9 mm
+  - 233.0 mm
+  - 233.1 mm
+  - 233.2 mm
+  - 233.3 mm
+  - 233.4 mm
+  - 233.5 mm
+  - 233.6 mm
+  - 233.7 mm
+  - 233.8 mm
+  - 233.9 mm
+  - 234.0 mm
+  - 234.1 mm
+  - 234.2 mm
+  - 234.3 mm
+  - 234.4 mm
+  - 234.5 mm
+  - 234.6 mm
+  - 234.7 mm
+  - 234.8 mm
+  - 234.9 mm
+  - 235.0 mm
+  - 235.1 mm
+  - 235.2 mm
+  - 235.3 mm
+  - 235.4 mm
+  - 235.5 mm
+  - 235.6 mm
+  - 235.7 mm
+  - 235.8 mm
+  - 235.9 mm
+  - 236.0 mm
+  - 236.1 mm
+  - 236.2 mm
+  - 236.3 mm
+  - 236.4 mm
+  - 236.5 mm
+  - 236.6 mm
+  - 236.7 mm
+  - 236.8 mm
+  - 236.9 mm
+  - 237.0 mm
+  - 237.1 mm
+  - 237.2 mm
+  - 237.3 mm
+  - 237.4 mm
+  - 237.5 mm
+  - 237.6 mm
+  - 237.7 mm
+  - 237.8 mm
+  - 237.9 mm
+  - 238.0 mm
+  - 238.1 mm
+  - 238.2 mm
+  - 238.3 mm
+  - 238.4 mm
+  - 238.5 mm
+  - 238.6 mm
+  - 238.7 mm
+  - 238.8 mm
+  - 238.9 mm
+  - 239.0 mm
+  - 239.1 mm
+  - 239.2 mm
+  - 239.3 mm
+  - 239.4 mm
+  - 239.5 mm
+  - 239.6 mm
+  - 239.7 mm
+  - 239.8 mm
+  - 239.9 mm
+  - 240.0 mm
+  - 240.1 mm
+  - 240.2 mm
+  - 240.3 mm
+  - 240.4 mm
+  - 240.5 mm
+  - 240.6 mm
+  - 240.7 mm
+  - 240.8 mm
+  - 240.9 mm
+  - 241.0 mm
+  - 241.1 mm
+  - 241.2 mm
+  - 241.3 mm
+  - 241.4 mm
+  - 241.5 mm
+  - 241.6 mm
+  - 241.7 mm
+  - 241.8 mm
+  - 241.9 mm
+  - 242.0 mm
+  - 242.1 mm
+  - 242.2 mm
+  - 242.3 mm
+  - 242.4 mm
+  - 242.5 mm
+  - 242.6 mm
+  - 242.7 mm
+  - 242.8 mm
+  - 242.9 mm
+  - 243.0 mm
+  - 243.1 mm
+  - 243.2 mm
+  - 243.3 mm
+  - 243.4 mm
+  - 243.5 mm
+  - 243.6 mm
+  - 243.7 mm
+  - 243.8 mm
+  - 243.)
+
+Total questions: 4
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-22-11-228/llm_cost_zero_shot_total.json

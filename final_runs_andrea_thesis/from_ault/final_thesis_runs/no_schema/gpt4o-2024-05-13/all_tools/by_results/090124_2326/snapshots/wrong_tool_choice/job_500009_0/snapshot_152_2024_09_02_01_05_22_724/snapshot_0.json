@@ -1,0 +1,7 @@
+{"type":"node","id":"68","labels":["Paper"],"properties":{"title":"Nedoshivina 2010"}}
+{"type":"node","id":"69","labels":["Scientist"],"properties":{"name":"Kuznetzov"}}
+{"type":"node","id":"70","labels":["City"],"properties":{"name":"St. Petersburg"}}
+{"type":"node","id":"71","labels":["City"],"properties":{"name":"Ulyanovsk"}}
+{"type":"relationship","id":"85","label":"DESCRIBED_BY","start":{"id":"68","labels":["Paper"],"properties":{"title":"Nedoshivina 2010"}},"end":{"id":"69","labels":["Scientist"],"properties":{"name":"Kuznetzov"}}}
+{"type":"relationship","id":"86","label":"DEPOSITED_IN","start":{"id":"69","labels":["Scientist"],"properties":{"name":"Kuznetzov"}},"end":{"id":"70","labels":["City"],"properties":{"name":"St. Petersburg"}}}
+{"type":"relationship","id":"87","label":"DEPOSITED_IN","start":{"id":"69","labels":["Scientist"],"properties":{"name":"Kuznetzov"}},"end":{"id":"71","labels":["City"],"properties":{"name":"Ulyanovsk"}}}

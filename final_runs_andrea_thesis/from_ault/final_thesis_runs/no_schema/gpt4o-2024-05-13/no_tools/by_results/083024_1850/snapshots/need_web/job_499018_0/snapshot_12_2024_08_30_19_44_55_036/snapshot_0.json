@@ -1,0 +1,5 @@
+{"type":"node","id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}}
+{"type":"node","id":"92","labels":["Virus"],"properties":{"name":"Sweet Potato Feathery Mottle Virus","abbreviation":"SPFMV"}}
+{"type":"node","id":"93","labels":["Virus"],"properties":{"name":"Sweet Potato Chlorotic Stunt Virus","abbreviation":"SPCSV"}}
+{"type":"relationship","id":"13","label":"INVESTIGATES","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"92","labels":["Virus"],"properties":{"name":"Sweet Potato Feathery Mottle Virus","abbreviation":"SPFMV"}}}
+{"type":"relationship","id":"14","label":"INVESTIGATES","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"93","labels":["Virus"],"properties":{"name":"Sweet Potato Chlorotic Stunt Virus","abbreviation":"SPCSV"}}}

@@ -1,0 +1,10 @@
+{"type":"node","id":"0","labels":["Row"],"properties":{"index":3,"letters":"IONS"}}
+{"type":"node","id":"1","labels":["Row"],"properties":{"index":4,"letters":"FPEI"}}
+{"type":"node","id":"2","labels":["Dictionary"],"properties":{"name":"words_alpha","source":"https://github.com/dwyl/english-words/blob/master/words_alpha.txt"}}
+{"type":"node","id":"104","labels":["BoggleBoard"],"properties":{"id":1}}
+{"type":"node","id":"105","labels":["Row"],"properties":{"index":1,"letters":"ABRL"}}
+{"type":"node","id":"106","labels":["Row"],"properties":{"index":2,"letters":"EITE"}}
+{"type":"relationship","id":"131","label":"HAS_ROW","start":{"id":"104","labels":["BoggleBoard"],"properties":{"id":1}},"end":{"id":"105","labels":["Row"],"properties":{"index":1,"letters":"ABRL"}}}
+{"type":"relationship","id":"132","label":"HAS_ROW","start":{"id":"104","labels":["BoggleBoard"],"properties":{"id":1}},"end":{"id":"106","labels":["Row"],"properties":{"index":2,"letters":"EITE"}}}
+{"type":"relationship","id":"133","label":"HAS_ROW","start":{"id":"104","labels":["BoggleBoard"],"properties":{"id":1}},"end":{"id":"0","labels":["Row"],"properties":{"index":3,"letters":"IONS"}}}
+{"type":"relationship","id":"134","label":"HAS_ROW","start":{"id":"104","labels":["BoggleBoard"],"properties":{"id":1}},"end":{"id":"1","labels":["Row"],"properties":{"index":4,"letters":"FPEI"}}}

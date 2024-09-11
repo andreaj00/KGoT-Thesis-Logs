@@ -1,0 +1,22 @@
+{"type":"node","id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}}
+{"type":"node","id":"22","labels":["Fruit"],"properties":{"name":"pomegranates"}}
+{"type":"node","id":"23","labels":["Fruit"],"properties":{"name":"grapes"}}
+{"type":"node","id":"24","labels":["Fruit"],"properties":{"name":"melons"}}
+{"type":"node","id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}}
+{"type":"node","id":"26","labels":["Film"],"properties":{"title":"The Last Voyage"}}
+{"type":"node","id":"27","labels":["Fruit"],"properties":{"name":"oranges"}}
+{"type":"node","id":"28","labels":["Fruit"],"properties":{"name":"grapefruit"}}
+{"type":"node","id":"29","labels":["Fruit"],"properties":{"name":"stewed prunes"}}
+{"type":"node","id":"30","labels":["Fruit"],"properties":{"name":"stewed apricots"}}
+{"type":"node","id":"31","labels":["Fruit"],"properties":{"name":"stewed pears"}}
+{"type":"node","id":"32","labels":["Fruit"],"properties":{"name":"stewed peaches"}}
+{"type":"relationship","id":"113","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"22","labels":["Fruit"],"properties":{"name":"pomegranates"}}}
+{"type":"relationship","id":"114","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"23","labels":["Fruit"],"properties":{"name":"grapes"}}}
+{"type":"relationship","id":"115","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"24","labels":["Fruit"],"properties":{"name":"melons"}}}
+{"type":"relationship","id":"131","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"29","labels":["Fruit"],"properties":{"name":"stewed prunes"}}}
+{"type":"relationship","id":"116","label":"USED_AS_FLOATING_PROP_IN","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"26","labels":["Film"],"properties":{"title":"The Last Voyage"}}}
+{"type":"relationship","id":"132","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"30","labels":["Fruit"],"properties":{"name":"stewed apricots"}}}
+{"type":"relationship","id":"117","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"27","labels":["Fruit"],"properties":{"name":"oranges"}}}
+{"type":"relationship","id":"133","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"31","labels":["Fruit"],"properties":{"name":"stewed pears"}}}
+{"type":"relationship","id":"118","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"28","labels":["Fruit"],"properties":{"name":"grapefruit"}}}
+{"type":"relationship","id":"134","label":"SERVED_AT_BREAKFAST","start":{"id":"25","labels":["OceanLiner"],"properties":{"name":"SS Île de France"}},"end":{"id":"32","labels":["Fruit"],"properties":{"name":"stewed peaches"}}}

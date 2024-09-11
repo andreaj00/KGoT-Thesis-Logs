@@ -1,0 +1,5 @@
+{"type":"node","id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}
+{"type":"node","id":"100","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}
+{"type":"node","id":"101","labels":["InitialGuess"],"properties":{"value":-5}}
+{"type":"relationship","id":"83","label":"HAS_DERIVATIVE","start":{"id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}},"end":{"id":"100","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}}
+{"type":"relationship","id":"84","label":"INITIAL_GUESS_FOR","start":{"id":"101","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}}

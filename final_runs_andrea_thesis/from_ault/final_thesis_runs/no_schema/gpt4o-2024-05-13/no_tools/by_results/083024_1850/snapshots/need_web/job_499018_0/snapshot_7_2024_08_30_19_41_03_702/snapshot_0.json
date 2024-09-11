@@ -1,0 +1,5 @@
+{"type":"node","id":"60","labels":["Object"],"properties":{"name":"Shell of a particular mollusk species","museum_number":"2012,5015.17"}}
+{"type":"node","id":"61","labels":["Article"],"properties":{"title":"Research article published in Science Advances in 2021"}}
+{"type":"node","id":"62","labels":["Bead"],"properties":{"age_thousands_years":142,"material":"Shell of a particular mollusk species"}}
+{"type":"relationship","id":"102","label":"MENTIONED_IN","start":{"id":"60","labels":["Object"],"properties":{"name":"Shell of a particular mollusk species","museum_number":"2012,5015.17"}},"end":{"id":"61","labels":["Article"],"properties":{"title":"Research article published in Science Advances in 2021"}}}
+{"type":"relationship","id":"103","label":"MADE_FROM","start":{"id":"62","labels":["Bead"],"properties":{"age_thousands_years":142,"material":"Shell of a particular mollusk species"}},"end":{"id":"60","labels":["Object"],"properties":{"name":"Shell of a particular mollusk species","museum_number":"2012,5015.17"}}}

@@ -1,0 +1,31 @@
+{"type":"node","id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}
+{"type":"node","id":"44","labels":["Author"],"properties":{"name":"Andy Cockburn"}}
+{"type":"node","id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}}
+{"type":"node","id":"46","labels":["Author"],"properties":{"name":"Carl Gutwin"}}
+{"type":"node","id":"47","labels":["Paper"],"properties":{"year":1978,"title":"Divine Commands and Moral Requirements"}}
+{"type":"node","id":"48","labels":["Paper"],"properties":{"year":1985,"title":"The Foundations of Theism"}}
+{"type":"node","id":"49","labels":["Paper"],"properties":{"year":1987,"title":"Religious Obedience and Moral Autonomy"}}
+{"type":"node","id":"50","labels":["Paper"],"properties":{"year":1990,"title":"Moral Obligation, Religious Demand, and Practical Conflict"}}
+{"type":"node","id":"51","labels":["Paper"],"properties":{"year":1990,"title":"The Primacy of God's Will in Christian Ethics"}}
+{"type":"node","id":"52","labels":["Paper"],"properties":{"year":1993,"title":"Epistemology in Philosophy of Religion"}}
+{"type":"node","id":"53","labels":["Paper"],"properties":{"year":1995,"title":"The Philosophical Challenge of Religious Diversity"}}
+{"type":"node","id":"54","labels":["Paper"],"properties":{"year":1997,"title":"On Finding the Foundations of Theism"}}
+{"type":"node","id":"55","labels":["Paper"],"properties":{"year":1999,"title":"Divine Commands and Moral Requirements Revisited"}}
+{"type":"node","id":"56","labels":["Paper"],"properties":{"year":2000,"title":"The Problem of Evil and the Problem of Divine Hiddenness"}}
+{"type":"node","id":"57","labels":["Paper"],"properties":{"year":2001,"title":"Religious Diversity and Religious Toleration"}}
+{"type":"node","id":"58","labels":["Paper"],"properties":{"year":2002,"title":"The Role of Religion in Public Life"}}
+{"type":"relationship","id":"0","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"47","labels":["Paper"],"properties":{"year":1978,"title":"Divine Commands and Moral Requirements"}}}
+{"type":"relationship","id":"1","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"48","labels":["Paper"],"properties":{"year":1985,"title":"The Foundations of Theism"}}}
+{"type":"relationship","id":"2","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"49","labels":["Paper"],"properties":{"year":1987,"title":"Religious Obedience and Moral Autonomy"}}}
+{"type":"relationship","id":"3","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"50","labels":["Paper"],"properties":{"year":1990,"title":"Moral Obligation, Religious Demand, and Practical Conflict"}}}
+{"type":"relationship","id":"4","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"51","labels":["Paper"],"properties":{"year":1990,"title":"The Primacy of God's Will in Christian Ethics"}}}
+{"type":"relationship","id":"5","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"52","labels":["Paper"],"properties":{"year":1993,"title":"Epistemology in Philosophy of Religion"}}}
+{"type":"relationship","id":"6","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"53","labels":["Paper"],"properties":{"year":1995,"title":"The Philosophical Challenge of Religious Diversity"}}}
+{"type":"relationship","id":"7","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"54","labels":["Paper"],"properties":{"year":1997,"title":"On Finding the Foundations of Theism"}}}
+{"type":"relationship","id":"8","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"55","labels":["Paper"],"properties":{"year":1999,"title":"Divine Commands and Moral Requirements Revisited"}}}
+{"type":"relationship","id":"9","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"56","labels":["Paper"],"properties":{"year":2000,"title":"The Problem of Evil and the Problem of Divine Hiddenness"}}}
+{"type":"relationship","id":"10","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"57","labels":["Paper"],"properties":{"year":2001,"title":"Religious Diversity and Religious Toleration"}}}
+{"type":"relationship","id":"11","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"58","labels":["Paper"],"properties":{"year":2002,"title":"The Role of Religion in Public Life"}}}
+{"type":"relationship","id":"121","label":"AUTHORED","start":{"id":"44","labels":["Author"],"properties":{"name":"Andy Cockburn"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"122","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"123","label":"AUTHORED","start":{"id":"46","labels":["Author"],"properties":{"name":"Carl Gutwin"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}

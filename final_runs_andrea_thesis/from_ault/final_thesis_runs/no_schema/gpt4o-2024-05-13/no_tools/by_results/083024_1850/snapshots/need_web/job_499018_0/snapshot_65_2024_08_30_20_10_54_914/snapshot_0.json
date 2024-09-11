@@ -1,0 +1,8 @@
+{"type":"node","id":"11","labels":["Person"],"properties":{"name":"James"}}
+{"type":"node","id":"12","labels":["Device"],"properties":{"name":"Cheater"}}
+{"type":"node","id":"13","labels":["Device"],"properties":{"name":"Cheater Beater"}}
+{"type":"node","id":"44","labels":["Season"],"properties":{"number":4}}
+{"type":"relationship","id":"37","label":"TESTED","start":{"id":"11","labels":["Person"],"properties":{"name":"James"}},"end":{"id":"12","labels":["Device"],"properties":{"name":"Cheater"}}}
+{"type":"relationship","id":"38","label":"TESTED","start":{"id":"11","labels":["Person"],"properties":{"name":"James"}},"end":{"id":"13","labels":["Device"],"properties":{"name":"Cheater Beater"}}}
+{"type":"relationship","id":"39","label":"HAS_CFM","properties":{"value":34},"start":{"id":"12","labels":["Device"],"properties":{"name":"Cheater"}},"end":{"id":"44","labels":["Season"],"properties":{"number":4}}}
+{"type":"relationship","id":"40","label":"HAS_CFM","properties":{"value":37},"start":{"id":"13","labels":["Device"],"properties":{"name":"Cheater Beater"}},"end":{"id":"44","labels":["Season"],"properties":{"number":4}}}

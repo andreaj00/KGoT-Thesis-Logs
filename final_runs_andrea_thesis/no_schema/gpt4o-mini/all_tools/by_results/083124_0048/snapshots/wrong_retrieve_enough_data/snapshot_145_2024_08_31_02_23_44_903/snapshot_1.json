@@ -1,0 +1,17 @@
+{"type":"node","id":"4","labels":["Class"],"properties":{"spell":"Fire","role":"DPS","armor":"Cloth","name":"Mage"}}
+{"type":"node","id":"5","labels":["Class"],"properties":{"spell":"Ice","role":"DPS","armor":"Cloth","name":"Mage"}}
+{"type":"node","id":"6","labels":["Class"],"properties":{"role":"DPS","armor":"Cloth","form":"Bear","name":"Druid"}}
+{"type":"node","id":"16","labels":["Class"],"properties":{"role":"DPS","armor":"Plate","name":"Warrior"}}
+{"type":"node","id":"17","labels":["Class"],"properties":{"spell":"Fire","role":"DPS","armor":"Cloth","name":"Warlock"}}
+{"type":"node","id":"18","labels":["Class"],"properties":{"role":"Healer","armor":"Cloth","name":"Priest"}}
+{"type":"node","id":"43","labels":["Class"],"properties":{"role":"Tank","armor":"Plate","name":"Death Knight"}}
+{"type":"node","id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}}
+{"type":"relationship","id":"16","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"5","labels":["Class"],"properties":{"spell":"Ice","role":"DPS","armor":"Cloth","name":"Mage"}}}
+{"type":"relationship","id":"17","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"6","labels":["Class"],"properties":{"role":"DPS","armor":"Cloth","form":"Bear","name":"Druid"}}}
+{"type":"relationship","id":"20","label":"PART_OF","start":{"id":"43","labels":["Class"],"properties":{"role":"Tank","armor":"Plate","name":"Death Knight"}},"end":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}}}
+{"type":"relationship","id":"21","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"4","labels":["Class"],"properties":{"spell":"Fire","role":"DPS","armor":"Cloth","name":"Mage"}}}
+{"type":"relationship","id":"22","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"17","labels":["Class"],"properties":{"spell":"Fire","role":"DPS","armor":"Cloth","name":"Warlock"}}}
+{"type":"relationship","id":"23","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"18","labels":["Class"],"properties":{"role":"Healer","armor":"Cloth","name":"Priest"}}}
+{"type":"relationship","id":"24","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"6","labels":["Class"],"properties":{"role":"DPS","armor":"Cloth","form":"Bear","name":"Druid"}}}
+{"type":"relationship","id":"14","label":"PART_OF","start":{"id":"43","labels":["Class"],"properties":{"role":"Tank","armor":"Plate","name":"Death Knight"}},"end":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}}}
+{"type":"relationship","id":"15","label":"PART_OF","start":{"id":"44","labels":["Class"],"properties":{"role":"Healer","armor":"Plate","name":"Paladin"}},"end":{"id":"4","labels":["Class"],"properties":{"spell":"Fire","role":"DPS","armor":"Cloth","name":"Mage"}}}

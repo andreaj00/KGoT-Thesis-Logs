@@ -1,0 +1,5 @@
+{"type":"node","id":"63","labels":["Repository"],"properties":{"name":"numpy","url":"https://github.com/numpy/numpy"}}
+{"type":"node","id":"64","labels":["Label"],"properties":{"name":"Regression"}}
+{"type":"node","id":"65","labels":["Issue"],"properties":{"number":12345,"closed_at":"2020-01-10","created_at":"2020-01-01","state":"closed","title":"Example Issue Title"}}
+{"type":"relationship","id":"104","label":"HAS_LABEL","start":{"id":"65","labels":["Issue"],"properties":{"number":12345,"closed_at":"2020-01-10","created_at":"2020-01-01","state":"closed","title":"Example Issue Title"}},"end":{"id":"64","labels":["Label"],"properties":{"name":"Regression"}}}
+{"type":"relationship","id":"105","label":"HAS_ISSUE","start":{"id":"63","labels":["Repository"],"properties":{"name":"numpy","url":"https://github.com/numpy/numpy"}},"end":{"id":"65","labels":["Issue"],"properties":{"number":12345,"closed_at":"2020-01-10","created_at":"2020-01-01","state":"closed","title":"Example Issue Title"}}}

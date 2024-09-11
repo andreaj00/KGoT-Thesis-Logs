@@ -1,0 +1,3 @@
+{"type":"node","id":"18","labels":["Artist"],"properties":{"name":"Michael Jackson"}}
+{"type":"node","id":"19","labels":["Album"],"properties":{"release_date":"1982-11-30","title":"Thriller"}}
+{"type":"relationship","id":"111","label":"RELEASED","start":{"id":"18","labels":["Artist"],"properties":{"name":"Michael Jackson"}},"end":{"id":"19","labels":["Album"],"properties":{"release_date":"1982-11-30","title":"Thriller"}}}

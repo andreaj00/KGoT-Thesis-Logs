@@ -1,0 +1,3 @@
+{"type":"node","id":"29","labels":["Character"],"properties":{"name":"dot"}}
+{"type":"node","id":"30","labels":["Code"],"properties":{"text":"r```````````.F.o.r. .p.e.n.g.u.i.n.si"}}
+{"type":"relationship","id":"2","label":"REQUIRES","start":{"id":"30","labels":["Code"],"properties":{"text":"r```````````.F.o.r. .p.e.n.g.u.i.n.si"}},"end":{"id":"29","labels":["Character"],"properties":{"name":"dot"}}}

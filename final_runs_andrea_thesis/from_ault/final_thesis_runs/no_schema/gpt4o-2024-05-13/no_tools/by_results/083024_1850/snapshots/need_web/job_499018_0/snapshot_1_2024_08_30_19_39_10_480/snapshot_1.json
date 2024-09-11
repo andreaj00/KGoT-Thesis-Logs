@@ -1,0 +1,5 @@
+{"type":"node","id":"53","labels":["Species"],"properties":{"commonName":"clownfish","movie":"Finding Nemo","name":"Amphiprion ocellaris"}}
+{"type":"node","id":"54","labels":["Location"],"properties":{"zipCode":"96734"}}
+{"type":"node","id":"55","labels":["Location"],"properties":{"zipCode":"96744"}}
+{"type":"relationship","id":"96","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"53","labels":["Species"],"properties":{"commonName":"clownfish","movie":"Finding Nemo","name":"Amphiprion ocellaris"}},"end":{"id":"54","labels":["Location"],"properties":{"zipCode":"96734"}}}
+{"type":"relationship","id":"97","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"53","labels":["Species"],"properties":{"commonName":"clownfish","movie":"Finding Nemo","name":"Amphiprion ocellaris"}},"end":{"id":"55","labels":["Location"],"properties":{"zipCode":"96744"}}}

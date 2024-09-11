@@ -1,0 +1,3 @@
+{"type":"node","id":"26","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/9533","date_regression_added":"08/08/17"}}
+{"type":"node","id":"27","labels":["Label"],"properties":{"name":"Regression"}}
+{"type":"relationship","id":"58","label":"HAS_LABEL","start":{"id":"26","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/9533","date_regression_added":"08/08/17"}},"end":{"id":"27","labels":["Label"],"properties":{"name":"Regression"}}}

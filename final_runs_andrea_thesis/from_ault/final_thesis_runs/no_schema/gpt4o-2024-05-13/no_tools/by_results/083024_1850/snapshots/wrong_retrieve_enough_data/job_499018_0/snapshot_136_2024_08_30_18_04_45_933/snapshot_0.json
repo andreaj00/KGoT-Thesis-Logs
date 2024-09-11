@@ -1,0 +1,5 @@
+{"type":"node","id":"69","labels":["Player"],"properties":{"walks":86,"name":"Reggie Jackson","at_bats":527}}
+{"type":"node","id":"70","labels":["Team"],"properties":{"name":"New York Yankees"}}
+{"type":"node","id":"71","labels":["Season"],"properties":{"year":1977}}
+{"type":"relationship","id":"128","label":"PLAYED_FOR","start":{"id":"69","labels":["Player"],"properties":{"walks":86,"name":"Reggie Jackson","at_bats":527}},"end":{"id":"70","labels":["Team"],"properties":{"name":"New York Yankees"}}}
+{"type":"relationship","id":"129","label":"PLAYED_IN","start":{"id":"69","labels":["Player"],"properties":{"walks":86,"name":"Reggie Jackson","at_bats":527}},"end":{"id":"71","labels":["Season"],"properties":{"year":1977}}}

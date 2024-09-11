@@ -1,0 +1,3 @@
+{"type":"node","id":"60","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}}
+{"type":"node","id":"61","labels":["Movie"],"properties":{"title":"A Nightmare on Elm Street"}}
+{"type":"relationship","id":"63","label":"CITES","start":{"id":"60","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}},"end":{"id":"61","labels":["Movie"],"properties":{"title":"A Nightmare on Elm Street"}}}

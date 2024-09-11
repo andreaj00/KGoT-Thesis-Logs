@@ -1,0 +1,464 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/083024_1056/ineffective_tool/2024-08-30_11-02-48-064/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/083024_1056/ineffective_tool/2024-08-30_11-02-48-064/llm_cost_zero_shot.json
+
+
+
+Solving question 11:
+Query: Using the Biopython library in Python, parse the PDB file of the protein identified by the PDB ID 5wb7 from the RCSB Protein Data Bank. Calculate the distance between the first and second atoms as they are listed in the PDB file. Report the answer in Angstroms, rounded to the nearest picometer.
+File Path: GAIA/dataset/attachments/validation and File Name: 7dd30055-0198-452e-8c25-f73dbe27dcb8.pdb
+Row 11: Incorrect (Expected: 1.456, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/7dd30055-0198-452e-8c25-f73dbe27dcb8.pdb
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/7dd30055-0198-452e-8c25-f73dbe27dcb8.pdb
+)
+
+
+
+Solving question 36:
+Query: Each cell in the attached spreadsheet represents a plot of land. The color of the cell indicates who owns that plot. Green cells are plots owned by Earl Smith. Can Earl walk through every plot he owns (and no other plots) and return to his starting plot without backtracking? For this question, consider backtracking to be any instance where Earl would enter a plot of land he had already entered since leaving his starting plot.
+File Path: GAIA/dataset/attachments/validation and File Name: 5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx'}, page_content='')]
+Query with Attached Docs: Each cell in the attached spreadsheet represents a plot of land. The color of the cell indicates who owns that plot. Green cells are plots owned by Earl Smith. Can Earl walk through every plot he owns (and no other plots) and return to his starting plot without backtracking? For this question, consider backtracking to be any instance where Earl would enter a plot of land he had already entered since leaving his starting plot.
+<attached_docs>
+<doc>
+
+</doc>
+</attached_docs>
+Row 36: Incorrect (Expected: No, Got: To determine if Earl Smith can walk through every plot he owns (green cells) and return to his starting plot without backtracking, we need to analyze the connectivity of the green cells in the spreadsheet. Specifically, we need to check if the green cells form a single, continuous loop without any branches or dead ends.
+
+Here are the steps to analyze the situation:
+
+1. **Identify the Green Cells**: List all the coordinates of the green cells in the spreadsheet.
+
+2. **Check Connectivity**: Ensure that each green cell is connected to at least one other green cell either horizontally or vertically (not diagonally).
+
+3. **Form a Loop**: Verify if these connected green cells can form a single loop. This means:
+   - Each green cell should be part of a continuous path.
+   - The path should return to the starting cell without revisiting any cell (no backtracking).
+
+4. **No Dead Ends**: Ensure there are no green cells that are dead ends (i.e., cells that do not lead to another green cell).
+
+Since I don't have the actual spreadsheet to look at, I'll describe how you can manually check this:
+
+### Manual Check
+
+1. **Mark the Green Cells**: On a piece of paper or a digital tool, mark the positions of all green cells.
+
+2. **Trace the Path**: Starting from any green cell, try to trace a path through all the green cells. Ensure you can return to the starting cell without revisiting any cell.
+
+3. **Check for Loops**: If you can trace such a path, then Earl can walk through every plot he owns and return to his starting plot without backtracking.
+
+### Example
+
+Let's consider a simple example:
+
+```
+A B C D
+1 G G G
+2 G W G
+3 G G G
+```
+
+- G represents green cells (Earl's plots).
+- W represents white cells (other plots).
+
+In this example, Earl can start at any green cell and walk through all green cells in a loop without backtracking:
+
+1. Start at (1,1).
+2. Move to (1,2).
+3. Move to (1,3).
+4. Move to (2,3).
+5. Move to (3,3).
+6. Move to (3,2).
+7. Move to (3,1).
+8. Move to (2,1).
+9. Return to (1,1).
+
+This forms a continuous loop.
+
+### Conclusion
+
+If the green cells in your spreadsheet form a similar continuous loop without any dead ends or branches, then Earl can indeed walk through every plot he owns and return to his starting plot without backtracking. If there are any dead ends or if the green cells do not form a single loop, then it is not possible for Earl to do so.)
+
+
+
+Solving question 59:
+Query: What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?
+Docs: []
+Query with Attached Docs: What writer is quoted by Merriam-Webster for the Word of the Day from June 27, 2022?
+<attached_docs>
+
+</attached_docs>
+Row 59: Incorrect (Expected: Annie Levin, Got: I'm sorry, but I can't access or view attachments. However, I can help you find the Word of the Day for June 27, 2022, on the Merriam-Webster website or provide information on how to look it up. You can visit the Merriam-Webster website and search for the Word of the Day archives to find the specific word and the writer quoted. If you have any other questions or need further assistance, feel free to ask!)
+
+
+
+Solving question 67:
+Query: On a leap day before the year 2008, a joke was removed from the Wikipedia page for “Dragon”. What was the phrase that was removed? Give the phrase as it appeared on the page, but without punctuation.
+Docs: []
+Query with Attached Docs: On a leap day before the year 2008, a joke was removed from the Wikipedia page for “Dragon”. What was the phrase that was removed? Give the phrase as it appeared on the page, but without punctuation.
+<attached_docs>
+
+</attached_docs>
+Row 67: Incorrect (Expected: Here be dragons, Got: I'm sorry, but I can't provide the specific phrase that was removed from the Wikipedia page for "Dragon" on a leap day before the year 2008. However, I can help with other information or questions you might have.)
+
+
+
+Solving question 85:
+Query: Given $x_0 = -5$ and $f(x) = x^3 + 4x^2 - 3x + 8$, what is the smallest $n$ where using Newton's Method $n = n+1$ after rounding to four decimal places?
+Docs: []
+Query with Attached Docs: Given $x_0 = -5$ and $f(x) = x^3 + 4x^2 - 3x + 8$, what is the smallest $n$ where using Newton's Method $n = n+1$ after rounding to four decimal places?
+<attached_docs>
+
+</attached_docs>
+Row 85: Incorrect (Expected: 2, Got: To find the smallest \( n \) where using Newton's Method \( n = n+1 \) after rounding to four decimal places, we need to apply Newton's Method iteratively until the difference between successive approximations is less than \( 0.0001 \).
+
+Newton's Method formula is:
+\[ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \]
+
+Given:
+\[ f(x) = x^3 + 4x^2 - 3x + 8 \]
+
+First, we need to find the derivative \( f'(x) \):
+\[ f'(x) = 3x^2 + 8x - 3 \]
+
+Starting with \( x_0 = -5 \):
+
+1. **Iteration 1:**
+   \[ x_0 = -5 \]
+   \[ f(x_0) = (-5)^3 + 4(-5)^2 - 3(-5) + 8 = -125 + 100 + 15 + 8 = -2 \]
+   \[ f'(x_0) = 3(-5)^2 + 8(-5) - 3 = 75 - 40 - 3 = 32 \]
+   \[ x_1 = x_0 - \frac{f(x_0)}{f'(x_0)} = -5 - \frac{-2}{32} = -5 + \frac{1}{16} = -5 + 0.0625 = -4.9375 \]
+
+2. **Iteration 2:**
+   \[ x_1 = -4.9375 \]
+   \[ f(x_1) = (-4.9375)^3 + 4(-4.9375)^2 - 3(-4.9375) + 8 \approx -120.5039 + 97.7539 + 14.8125 + 8 = 0.0625 \]
+   \[ f'(x_1) = 3(-4.9375)^2 + 8(-4.9375) - 3 \approx 73.125 - 39.5 - 3 = 30.625 \]
+   \[ x_2 = x_1 - \frac{f(x_1)}{f'(x_1)} = -4.9375 - \frac{0.0625}{30.625} \approx -4.9375 - 0.0020 = -4.9395 \]
+
+3. **Iteration 3:**
+   \[ x_2 = -4.9395 \]
+   \[ f(x_2) = (-4.9395)^3 + 4(-4.9395)^2 - 3(-4.9395) + 8 \approx -120.625 + 97.875 + 14.8185 + 8 = 0.0685 \]
+   \[ f'(x_2) = 3(-4.9395)^2 + 8(-4.9395) - 3 \approx 73.125 - 39.516 - 3 = 30.609 \]
+   \[ x_3 = x_2 - \frac{f(x_2)}{f'(x_2)} = -4.9395 - \frac{0.0685}{30.609} \approx -4.9395 - 0.0022 = -4.9417 \]
+
+4. **Iteration 4:**
+   \[ x_3 = -4.9417 \]
+   \[ f(x_3) = (-4.9417)^3 + 4(-4.9417)^2 - 3(-4.9417) + 8 \approx -120.75 + 98 + 14.825 + 8 = 0.075 \]
+   \[ f'(x_3) = 3(-4.9417)^2 + 8(-4.9417) - 3 \approx 73.125 - 39.533 - 3 = 30.592 \]
+   \[ x_4 = x_3 - \frac{f(x_3)}{f'(x_3)} = -4.9417 - \frac{0.075}{30.592} \approx -4.9417 - 0.0025 = -4.9442 \]
+
+We continue this process until the difference between \( x_n \) and \( x_{n+1} \) is less than \( 0.0001 \). 
+
+After several iterations, we find that the difference between \( x_n \) and \( x_{n+1} \) becomes less than \( 0.0001 \) at \( n = 4 \).
+
+Therefore, the smallest \( n \) where the difference between successive approximations is less than \( 0.0001 \) after rounding to four decimal places is \( n = 4 \).)
+
+
+
+Solving question 89:
+Query: This is a secret message my friend gave me. It says where we should meet for our picnic on Friday. The only problem is, it’s encrypted in the Caesar cipher, so I can’t read it. Can you tell me what it says? This is the message:
+
+Zsmxsm sc sx Zyvilsec Zvkjk.
+Docs: []
+Query with Attached Docs: This is a secret message my friend gave me. It says where we should meet for our picnic on Friday. The only problem is, it’s encrypted in the Caesar cipher, so I can’t read it. Can you tell me what it says? This is the message:
+
+Zsmxsm sc sx Zyvilsec Zvkjk.
+<attached_docs>
+
+</attached_docs>
+Row 89: Incorrect (Expected: Picnic is in Ploybius Plaza., Got: Sure, I can help you decrypt the message. The Caesar cipher is a type of substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+
+To decrypt the message, we need to know the shift value. Since you didn't provide the shift value, we can try common shifts or use frequency analysis to determine it.
+
+Let's try a few common shifts:
+
+1. Shift by 1:
+   - Yrlwrl rb rw Yxuhkrdb Yuijj.
+
+2. Shift by 2:
+   - Xqkvqk qa qv Xwtgjqca Xthii.
+
+3. Shift by 3:
+   - Wpjupj pz pu Wvsfipbz Wsghh.
+
+4. Shift by 4:
+   - Voitoi oy ot Vurehoay Vrfgg.
+
+5. Shift by 5:
+   - Unhsnh nx ns Utqdgnzx Uqeef.
+
+6. Shift by 6:
+   - Tmgrmg mw mr Tspcfmyw Tpdde.
+
+7. Shift by 7:
+   - Slfqlf lv lq Srobelxv Soccd.
+
+8. Shift by 8:
+   - Rkeple ku kp Rqnadkwu Rnbbc.
+
+9. Shift by 9:
+   - Qjdokd jt jo Qpmzcjvt Qmaab.
+
+10. Shift by 10:
+    - Picnjc is in Polybisu Plzzy.
+
+11. Shift by 11:
+    - Ohbmib hr hm Onkxahrt Okyyx.
+
+12. Shift by 12:
+    - Ngahla gq gl Nmjwzgqs Njxxw.
+
+13. Shift by 13:
+    - Mfzgkz fp fk Mlivyfpr Miwwv.
+
+14. Shift by 14:
+    - Leyfjy eo ej Lkhuxeoq Lhvvu.
+
+15. Shift by 15:
+    - Kdxeix dn di Kjgtwdnp Kguut.
+
+16. Shift by 16:
+    - Jcwdhw cm ch Jifsvcmo Jftts.
+
+17. Shift by 17:
+    - Ibvcgv bl bg Iherubln Iessr.
+
+18. Shift by 18:
+    - Hauhfu ak af Hgdqtakm Hdrqq.
+
+19. Shift by 19:
+    - Gztget zj ze Gfcpszjl Gcqpp.
+
+20. Shift by 20:
+    - Fysfds yi yd Feboryik Fbpoo.
+
+21. Shift by 21:
+    - Exrecr xh xc Edanqxhj Eanoo.
+
+22. Shift by 22:
+    - Dwqdqb wg wb Dczmpwgi Dzmmn.
+
+23. Shift by 23:
+    - Cvpcpa vf va Cbylovfh Cyllm.
+
+24. Shift by 24:
+    - Buoboz ue uz Baxknueg Bxkkl.
+
+25. Shift by 25:
+    - Atanay td ty Awymjtdf Awjjk.
+
+26. Shift by 26 (no shift):
+    - Zsmxsm sc sx Zyvilsec Zvkjk.
+
+It looks like the shift value is 4, as "Voitoi oy ot Vurehoay Vrfgg" makes sense. So, the decrypted message is:
+
+"Meet me at Riverside Park."
+
+You should meet your friend at Riverside Park for your picnic on Friday. Enjoy!)
+
+
+
+Solving question 91:
+Query: According to wikipedia, how many Asian countries still have a monarchy and access to the sea in 2021?
+Docs: []
+Query with Attached Docs: According to wikipedia, how many Asian countries still have a monarchy and access to the sea in 2021?
+<attached_docs>
+
+</attached_docs>
+Row 91: Incorrect (Expected: 12, Got: I don't have access to the attached documents, but I can provide information based on general knowledge as of 2021. As of 2021, the Asian countries that have a monarchy and access to the sea are:
+
+1. **Bahrain** - A constitutional monarchy located in the Persian Gulf.
+2. **Brunei** - An absolute monarchy on the island of Borneo, with coastline along the South China Sea.
+3. **Japan** - A constitutional monarchy with extensive coastlines along the Pacific Ocean.
+4. **Jordan** - A constitutional monarchy with a small coastline along the Red Sea (Gulf of Aqaba).
+5. **Kuwait** - A constitutional monarchy located at the head of the Persian Gulf.
+6. **Malaysia** - A federal constitutional monarchy with coastlines along the South China Sea and the Strait of Malacca.
+7. **Oman** - An absolute monarchy with coastlines along the Arabian Sea and the Gulf of Oman.
+8. **Qatar** - An absolute monarchy located on the northeastern coast of the Arabian Peninsula, with coastline along the Persian Gulf.
+9. **Saudi Arabia** - An absolute monarchy with coastlines along the Red Sea and the Persian Gulf.
+10. **Thailand** - A constitutional monarchy with coastlines along the Andaman Sea and the Gulf of Thailand.
+11. **United Arab Emirates** - A federal absolute monarchy with coastlines along the Persian Gulf and the Gulf of Oman.
+
+These countries have both a monarchical system of government and access to the sea.)
+
+
+
+Solving question 93:
+Query: Who composed the song that was performed by a rooster and a hamster in separate animated videos at separate tempos with different lyrics? Answer using the format First name Last name.
+Docs: []
+Query with Attached Docs: Who composed the song that was performed by a rooster and a hamster in separate animated videos at separate tempos with different lyrics? Answer using the format First name Last name.
+<attached_docs>
+
+</attached_docs>
+Row 93: Incorrect (Expected: Roger Miller, Got: The song you are referring to was composed by Johann Sebastian Bach.)
+
+
+
+Solving question 94:
+Query: You are given this Excel file as a map. You start on the START cell and move toward the END cell. You are allowed to move two cells per turn, and you may move up, down, left, or right. You may not move fewer than two cells, and you may not move backward. You must avoid moving onto any blue cells. On the eleventh turn, what is the 6-digit hex code (without prefix) of the color of the cell where you land after moving?
+File Path: GAIA/dataset/attachments/validation and File Name: 65afbc8a-89ca-4ad5-8d62-355bb401f61d.xlsx
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/65afbc8a-89ca-4ad5-8d62-355bb401f61d.xlsx'}, page_content='START\n\nEND')]
+Query with Attached Docs: You are given this Excel file as a map. You start on the START cell and move toward the END cell. You are allowed to move two cells per turn, and you may move up, down, left, or right. You may not move fewer than two cells, and you may not move backward. You must avoid moving onto any blue cells. On the eleventh turn, what is the 6-digit hex code (without prefix) of the color of the cell where you land after moving?
+<attached_docs>
+<doc>
+START
+
+END
+</doc>
+</attached_docs>
+Row 94: Incorrect (Expected: F478A7, Got: To solve this problem, we need to follow the rules and constraints given:
+
+1. Start at the START cell.
+2. Move exactly two cells per turn.
+3. Move up, down, left, or right.
+4. Avoid blue cells.
+5. Do not move backward.
+6. Determine the color of the cell you land on after the eleventh turn.
+
+Since the document provided does not include the actual map or the color codes, I will outline the steps you would take to solve this problem if you had the map:
+
+1. **Identify the START and END cells**: Locate these cells on the map.
+2. **Plan your path**: Determine a path from START to END that adheres to the movement rules (two cells per turn, no blue cells, no backward movement).
+3. **Count the turns**: Follow the path and count each turn until you reach the eleventh turn.
+4. **Identify the cell**: Note the cell you land on after the eleventh turn.
+5. **Determine the color**: Check the color of the cell you land on after the eleventh turn and find its 6-digit hex code.
+
+Since I don't have the actual map or the color codes, I can't provide the exact hex code. However, if you follow these steps with the actual map, you will be able to determine the correct hex code for the cell you land on after the eleventh turn.)
+
+
+
+Solving question 112:
+Query: Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.
+Docs: []
+Query with Attached Docs: Who did the actor who played Ray in the Polish-language version of Everybody Loves Raymond play in Magda M.? Give only the first name.
+<attached_docs>
+
+</attached_docs>
+Row 112: Incorrect (Expected: Wojciech, Got: Piotr)
+
+
+
+Solving question 119:
+Query: What is the final numeric output from the attached Python code?
+File Path: GAIA/dataset/attachments/validation and File Name: f918266a-b3e0-4914-865d-4faa564f1aef.py
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py'}, page_content='from random import randint\nimport time\n\nclass UhOh(Exception):\n    pass\n\nclass Hmm:\n    def __init__(self):\n        self.value = randint(-100, 100)\n\n    def Yeah(self):\n        if self.value == 0:\n            return True\n        else:\n            raise UhOh()\n\ndef Okay():\n    while True:\n        yield Hmm()\n\ndef keep_trying(go, first_try=True):\n    maybe = next(go)\n    try:\n        if maybe.Yeah():\n            return maybe.value\n    except UhOh:\n        if first_try:\n            print("Working...")\n            print("Please wait patiently...")\n        time.sleep(0.1)\n        return keep_trying(go, first_try=False)\n\nif __name__ == "__main__":\n    go = Okay()\n    print(f"{keep_trying(go)}")\n')]
+Query with Attached Docs: What is the final numeric output from the attached Python code?
+<attached_docs>
+<doc>
+from random import randint
+import time
+
+class UhOh(Exception):
+    pass
+
+class Hmm:
+    def __init__(self):
+        self.value = randint(-100, 100)
+
+    def Yeah(self):
+        if self.value == 0:
+            return True
+        else:
+            raise UhOh()
+
+def Okay():
+    while True:
+        yield Hmm()
+
+def keep_trying(go, first_try=True):
+    maybe = next(go)
+    try:
+        if maybe.Yeah():
+            return maybe.value
+    except UhOh:
+        if first_try:
+            print("Working...")
+            print("Please wait patiently...")
+        time.sleep(0.1)
+        return keep_trying(go, first_try=False)
+
+if __name__ == "__main__":
+    go = Okay()
+    print(f"{keep_trying(go)}")
+
+</doc>
+</attached_docs>
+Row 119: Incorrect (Expected: 0, Got: The provided Python code defines a class `Hmm` that generates a random integer between -100 and 100 upon instantiation. The `Yeah` method of this class checks if the generated value is zero. If it is, the method returns `True`; otherwise, it raises a custom exception `UhOh`.
+
+The `Okay` function is a generator that yields instances of the `Hmm` class indefinitely. The `keep_trying` function attempts to get an instance of `Hmm` from the generator and checks if its value is zero using the `Yeah` method. If the value is not zero, it catches the `UhOh` exception, prints a message (only on the first try), waits for 0.1 seconds, and then recursively calls itself to try again.
+
+The main block initializes the generator and calls `keep_trying` to start the process. The final numeric output will be the value of the `Hmm` instance that has a value of zero.
+
+Here is a step-by-step breakdown of what happens when the code runs:
+
+1. The `Okay` generator is initialized.
+2. `keep_trying` is called with the generator.
+3. Inside `keep_trying`, a new `Hmm` instance is created with a random value between -100 and 100.
+4. The `Yeah` method checks if the value is zero.
+5. If the value is zero, `Yeah` returns `True`, and `keep_trying` returns the value (which is zero).
+6. If the value is not zero, `Yeah` raises an `UhOh` exception.
+7. The exception is caught, and if it's the first try, a message is printed.
+8. The function waits for 0.1 seconds and then recursively calls itself to try again.
+
+Since the loop continues until a `Hmm` instance with a value of zero is found, the final numeric output will always be `0`.
+
+Therefore, the final numeric output from the attached Python code is:
+```
+0
+```)
+
+
+
+Solving question 125:
+Query: All of the individuals who formally held the position of United States secretary of homeland security prior to April 2019, excluding those who held the position in an acting capacity, have a bachelor's degree. Of the universities that these bachelor's degrees were from, which is the westernmost university and which is the easternmost university? Give them to me as a comma-separated list, I only want the name of the cities where the universities are located, with the westernmost city listed first.
+Docs: []
+Query with Attached Docs: All of the individuals who formally held the position of United States secretary of homeland security prior to April 2019, excluding those who held the position in an acting capacity, have a bachelor's degree. Of the universities that these bachelor's degrees were from, which is the westernmost university and which is the easternmost university? Give them to me as a comma-separated list, I only want the name of the cities where the universities are located, with the westernmost city listed first.
+<attached_docs>
+
+</attached_docs>
+Row 125: Incorrect (Expected: Santa Clara, Boston, Got: Seattle, Cambridge)
+
+
+
+Solving question 148:
+Query: If this whole pint is made up of ice cream, how many percent above or below the US federal standards for butterfat content is it when using the standards as reported by Wikipedia in 2020? Answer as + or - a number rounded to one decimal place.
+File Path: GAIA/dataset/attachments/validation and File Name: b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg
+Row 148: Incorrect (Expected: +4.6, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg
+)
+
+
+
+Solving question 156:
+Query: Who are the pitchers with the number before and after Taishō Tamai's number as of July 2023? Give them to me in the form Pitcher Before, Pitcher After, use their last names only, in Roman characters.
+Docs: []
+Query with Attached Docs: Who are the pitchers with the number before and after Taishō Tamai's number as of July 2023? Give them to me in the form Pitcher Before, Pitcher After, use their last names only, in Roman characters.
+<attached_docs>
+
+</attached_docs>
+Row 156: Incorrect (Expected: Yoshida, Uehara, Got: I'm sorry, but I can't access the attached documents. However, if you provide me with Taishō Tamai's number, I can help you determine the pitchers with the numbers immediately before and after his.)
+
+Total questions: 14
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/083024_1056/ineffective_tool/2024-08-30_11-02-48-064/llm_cost_zero_shot_total.json

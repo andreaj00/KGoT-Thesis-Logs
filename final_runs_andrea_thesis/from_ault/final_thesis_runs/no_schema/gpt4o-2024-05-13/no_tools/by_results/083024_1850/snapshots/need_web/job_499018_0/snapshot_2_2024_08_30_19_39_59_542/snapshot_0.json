@@ -1,0 +1,8 @@
+{"type":"node","id":"56","labels":["Journal"],"properties":{"name":"Nature"}}
+{"type":"node","id":"57","labels":["Year"],"properties":{"value":2020}}
+{"type":"node","id":"58","labels":["Statistic"],"properties":{"type":"p-value","value":0.04}}
+{"type":"node","id":"59","labels":["Article"],"properties":{"count":974,"type":"research"}}
+{"type":"relationship","id":"98","label":"PUBLISHED_IN","start":{"id":"56","labels":["Journal"],"properties":{"name":"Nature"}},"end":{"id":"57","labels":["Year"],"properties":{"value":2020}}}
+{"type":"relationship","id":"99","label":"PUBLISHED","start":{"id":"56","labels":["Journal"],"properties":{"name":"Nature"}},"end":{"id":"59","labels":["Article"],"properties":{"count":974,"type":"research"}}}
+{"type":"relationship","id":"100","label":"IN_YEAR","start":{"id":"59","labels":["Article"],"properties":{"count":974,"type":"research"}},"end":{"id":"57","labels":["Year"],"properties":{"value":2020}}}
+{"type":"relationship","id":"101","label":"USED","start":{"id":"59","labels":["Article"],"properties":{"count":974,"type":"research"}},"end":{"id":"58","labels":["Statistic"],"properties":{"type":"p-value","value":0.04}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"17","labels":["Message"],"properties":{"content":"Zsmxsm sc sx Zyvilsec Zvkjk."}}
+{"type":"node","id":"18","labels":["Decryption"],"properties":{"method":"Caesar Cipher","shift":4,"decrypted_content":"Voitoi oy ot Vurdeoay Vrgfg"}}
+{"type":"node","id":"19","labels":["Decryption"],"properties":{"method":"Caesar Cipher","shift":25,"decrypted_content":"Yrmwkj rb rw YvtqKeBc Ytfh"}}
+{"type":"relationship","id":"92","label":"DECRYPTED_TO","start":{"id":"17","labels":["Message"],"properties":{"content":"Zsmxsm sc sx Zyvilsec Zvkjk."}},"end":{"id":"18","labels":["Decryption"],"properties":{"method":"Caesar Cipher","shift":4,"decrypted_content":"Voitoi oy ot Vurdeoay Vrgfg"}}}
+{"type":"relationship","id":"93","label":"DECRYPTED_TO","start":{"id":"17","labels":["Message"],"properties":{"content":"Zsmxsm sc sx Zyvilsec Zvkjk."}},"end":{"id":"19","labels":["Decryption"],"properties":{"method":"Caesar Cipher","shift":25,"decrypted_content":"Yrmwkj rb rw YvtqKeBc Ytfh"}}}

@@ -1,0 +1,20 @@
+{"type":"node","id":"0","labels":["HarlequinShrimp"],"properties":{"name":"Caridina spongicola","length_cm":1.27}}
+{"type":"node","id":"1","labels":["FreshwaterSponge"],"properties":{"name":"Undescribed freshwater sponge"}}
+{"type":"node","id":"2","labels":["HarlequinShrimp"],"properties":{"name":"Caridina woltereckae"}}
+{"type":"node","id":"3","labels":["Starfish"],"properties":{"diameter_cm_min":20,"name":"Chocolate Chip Starfish","diameter_cm_max":40}}
+{"type":"node","id":"4","labels":["Starfish"],"properties":{"diameter_cm_min":6,"name":"Asterina starfish","diameter_cm_max":10}}
+{"type":"node","id":"5","labels":["Starfish"],"properties":{"diameter_cm_min":6,"name":"Linckia spp.","diameter_cm_max":10}}
+{"type":"node","id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}}
+{"type":"node","id":"53","labels":["Starfish"],"properties":{"name":"Crown-of-thorns starfish"}}
+{"type":"relationship","id":"4","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"53","labels":["Starfish"],"properties":{"name":"Crown-of-thorns starfish"}}}
+{"type":"relationship","id":"5","label":"FEEDS_ON","start":{"id":"0","labels":["HarlequinShrimp"],"properties":{"name":"Caridina spongicola","length_cm":1.27}},"end":{"id":"1","labels":["FreshwaterSponge"],"properties":{"name":"Undescribed freshwater sponge"}}}
+{"type":"relationship","id":"6","label":"CRITICALLY_ENDANGERED","start":{"id":"2","labels":["HarlequinShrimp"],"properties":{"name":"Caridina woltereckae"}},"end":{"id":"2","labels":["HarlequinShrimp"],"properties":{"name":"Caridina woltereckae"}}}
+{"type":"relationship","id":"7","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"53","labels":["Starfish"],"properties":{"name":"Crown-of-thorns starfish"}}}
+{"type":"relationship","id":"8","label":"FEEDS_ON","start":{"id":"0","labels":["HarlequinShrimp"],"properties":{"name":"Caridina spongicola","length_cm":1.27}},"end":{"id":"1","labels":["FreshwaterSponge"],"properties":{"name":"Undescribed freshwater sponge"}}}
+{"type":"relationship","id":"9","label":"CRITICALLY_ENDANGERED","start":{"id":"2","labels":["HarlequinShrimp"],"properties":{"name":"Caridina woltereckae"}},"end":{"id":"2","labels":["HarlequinShrimp"],"properties":{"name":"Caridina woltereckae"}}}
+{"type":"relationship","id":"10","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"1","labels":["FreshwaterSponge"],"properties":{"name":"Undescribed freshwater sponge"}}}
+{"type":"relationship","id":"11","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"3","labels":["Starfish"],"properties":{"diameter_cm_min":20,"name":"Chocolate Chip Starfish","diameter_cm_max":40}}}
+{"type":"relationship","id":"12","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"53","labels":["Starfish"],"properties":{"name":"Crown-of-thorns starfish"}}}
+{"type":"relationship","id":"13","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"4","labels":["Starfish"],"properties":{"diameter_cm_min":6,"name":"Asterina starfish","diameter_cm_max":10}}}
+{"type":"relationship","id":"14","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"4","labels":["Starfish"],"properties":{"diameter_cm_min":6,"name":"Asterina starfish","diameter_cm_max":10}}}
+{"type":"relationship","id":"15","label":"FEEDS_ON","start":{"id":"52","labels":["HarlequinShrimp"],"properties":{"name":"Hymenocera picta","length_cm":5}},"end":{"id":"5","labels":["Starfish"],"properties":{"diameter_cm_min":6,"name":"Linckia spp.","diameter_cm_max":10}}}

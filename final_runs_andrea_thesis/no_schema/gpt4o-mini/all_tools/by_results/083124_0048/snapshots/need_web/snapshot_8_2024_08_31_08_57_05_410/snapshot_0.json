@@ -1,0 +1,7 @@
+{"type":"node","id":"16","labels":["Issue"],"properties":{"number":9533,"closed_date":"08/10/17","opened_date":"08/08/17"}}
+{"type":"node","id":"17","labels":["Issue"],"properties":{"number":25982,"closed_date":"03/10/24"}}
+{"type":"node","id":"18","labels":["Issue"],"properties":{"number":24497,"closed_date":"08/24/23"}}
+{"type":"node","id":"19","labels":["Repository"],"properties":{"name":"numpy.polynomial"}}
+{"type":"relationship","id":"52","label":"HAS_ISSUE","start":{"id":"19","labels":["Repository"],"properties":{"name":"numpy.polynomial"}},"end":{"id":"16","labels":["Issue"],"properties":{"number":9533,"closed_date":"08/10/17","opened_date":"08/08/17"}}}
+{"type":"relationship","id":"53","label":"HAS_ISSUE","start":{"id":"19","labels":["Repository"],"properties":{"name":"numpy.polynomial"}},"end":{"id":"17","labels":["Issue"],"properties":{"number":25982,"closed_date":"03/10/24"}}}
+{"type":"relationship","id":"54","label":"HAS_ISSUE","start":{"id":"19","labels":["Repository"],"properties":{"name":"numpy.polynomial"}},"end":{"id":"18","labels":["Issue"],"properties":{"number":24497,"closed_date":"08/24/23"}}}

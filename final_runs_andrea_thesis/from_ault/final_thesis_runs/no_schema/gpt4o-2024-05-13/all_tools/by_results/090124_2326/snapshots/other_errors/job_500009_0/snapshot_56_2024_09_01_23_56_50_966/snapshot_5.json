@@ -1,0 +1,20 @@
+{"type":"node","id":"1","labels":["Movie"],"properties":{"gross_domestic":204417855,"gross_worldwide":426505244,"title":"Bad Boys for Life"}}
+{"type":"node","id":"2","labels":["Movie"],"properties":{"gross_domestic":157901466,"gross_worldwide":157901466,"title":"1917"}}
+{"type":"node","id":"3","labels":["Movie"],"properties":{"gross_domestic":146066470,"gross_worldwide":319715683,"title":"Sonic the Hedgehog"}}
+{"type":"node","id":"4","labels":["Movie"],"properties":{"gross_domestic":124736710,"gross_worldwide":124736710,"title":"Jumanji: The Next Level"}}
+{"type":"node","id":"5","labels":["Movie"],"properties":{"gross_domestic":124496308,"gross_worldwide":124496308,"title":"Star Wars: Episode IX - The Rise of Skywalker"}}
+{"type":"node","id":"6","labels":["Movie"],"properties":{"gross_domestic":84158461,"gross_worldwide":84158461,"title":"Birds of Prey"}}
+{"type":"node","id":"7","labels":["Movie"],"properties":{"gross_domestic":77047065,"gross_worldwide":251410631,"title":"Dolittle"}}
+{"type":"node","id":"8","labels":["Movie"],"properties":{"gross_domestic":70508087,"gross_worldwide":70508087,"title":"Little Women"}}
+{"type":"node","id":"9","labels":["Movie"],"properties":{"gross_domestic":64914050,"gross_worldwide":64914050,"title":"The Invisible Man"}}
+{"type":"node","id":"10","labels":["Movie"],"properties":{"gross_domestic":62342368,"gross_worldwide":62342368,"title":"The Call of the Wild"}}
+{"type":"node","id":"11","labels":["Movie"],"properties":{"gross_worldwide":461421559,"title":"The Eight Hundred"}}
+{"type":"node","id":"12","labels":["Movie"],"properties":{"gross_worldwide":453230408,"title":"Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train"}}
+{"type":"node","id":"13","labels":["Movie"],"properties":{"gross_worldwide":422390820,"title":"My People, My Homeland"}}
+{"type":"node","id":"14","labels":["Movie"],"properties":{"gross_worldwide":365304105,"title":"Tenet"}}
+{"type":"node","id":"15","labels":["Movie"],"properties":{"gross_worldwide":240646355,"title":"Jiang Ziya"}}
+{"type":"node","id":"16","labels":["Movie"],"properties":{"gross_worldwide":216000000,"title":"A Little Red Flower"}}
+{"type":"node","id":"17","labels":["Movie"],"properties":{"gross_worldwide":215905815,"title":"The Croods: A New Age"}}
+{"type":"node","id":"18","labels":["Movie"],"properties":{"gross_worldwide":7600000,"title":"Soul"}}
+{"type":"node","id":"19","labels":["Country"],"properties":{"name":"China"}}
+{"type":"relationship","id":"100","label":"RELEASED_IN","start":{"id":"18","labels":["Movie"],"properties":{"gross_worldwide":7600000,"title":"Soul"}},"end":{"id":"19","labels":["Country"],"properties":{"name":"China"}}}

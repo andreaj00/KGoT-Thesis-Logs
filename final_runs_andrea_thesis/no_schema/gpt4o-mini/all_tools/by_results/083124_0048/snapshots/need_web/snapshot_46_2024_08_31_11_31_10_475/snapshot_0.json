@@ -1,0 +1,5 @@
+{"type":"node","id":"41","labels":["Train"],"properties":{"name":"Tri-Rail"}}
+{"type":"node","id":"42","labels":["Station"],"properties":{"name":"Pompano Beach"}}
+{"type":"node","id":"43","labels":["Date"],"properties":{"date":"2019-05-27"}}
+{"type":"relationship","id":"38","label":"SCHEDULED_TO_ARRIVE","properties":{"passengers":"NA","time":"NA"},"start":{"id":"41","labels":["Train"],"properties":{"name":"Tri-Rail"}},"end":{"id":"42","labels":["Station"],"properties":{"name":"Pompano Beach"}}}
+{"type":"relationship","id":"39","label":"SCHEDULED_ON","start":{"id":"41","labels":["Train"],"properties":{"name":"Tri-Rail"}},"end":{"id":"43","labels":["Date"],"properties":{"date":"2019-05-27"}}}

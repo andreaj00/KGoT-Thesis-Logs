@@ -1,0 +1,26 @@
+{"type":"node","id":"13","labels":["MBTA_Line"],"properties":{"total_stops":11,"name":"Franklin-Foxboro"}}
+{"type":"node","id":"14","labels":["Station"],"properties":{"name":"South Station"}}
+{"type":"node","id":"15","labels":["Station"],"properties":{"name":"Windsor Gardens"}}
+{"type":"node","id":"16","labels":["Stop"],"properties":{"name":"Back Bay"}}
+{"type":"node","id":"17","labels":["Stop"],"properties":{"name":"Forest Hills"}}
+{"type":"node","id":"18","labels":["Stop"],"properties":{"name":"Readville"}}
+{"type":"node","id":"19","labels":["Stop"],"properties":{"name":"Hyde Park"}}
+{"type":"node","id":"20","labels":["Stop"],"properties":{"name":"Canton Junction"}}
+{"type":"node","id":"21","labels":["Stop"],"properties":{"name":"Canton Center"}}
+{"type":"node","id":"22","labels":["Stop"],"properties":{"name":"Stoughton"}}
+{"type":"node","id":"23","labels":["Stop"],"properties":{"name":"Walpole"}}
+{"type":"node","id":"24","labels":["Stop"],"properties":{"name":"Norfolk"}}
+{"type":"node","id":"25","labels":["Stop"],"properties":{"name":"Franklin"}}
+{"type":"node","id":"26","labels":["Stop"],"properties":{"name":"Foxboro"}}
+{"type":"relationship","id":"0","label":"HAS_STOP","start":{"id":"14","labels":["Station"],"properties":{"name":"South Station"}},"end":{"id":"16","labels":["Stop"],"properties":{"name":"Back Bay"}}}
+{"type":"relationship","id":"1","label":"NEXT","start":{"id":"16","labels":["Stop"],"properties":{"name":"Back Bay"}},"end":{"id":"17","labels":["Stop"],"properties":{"name":"Forest Hills"}}}
+{"type":"relationship","id":"2","label":"NEXT","start":{"id":"17","labels":["Stop"],"properties":{"name":"Forest Hills"}},"end":{"id":"18","labels":["Stop"],"properties":{"name":"Readville"}}}
+{"type":"relationship","id":"3","label":"NEXT","start":{"id":"18","labels":["Stop"],"properties":{"name":"Readville"}},"end":{"id":"19","labels":["Stop"],"properties":{"name":"Hyde Park"}}}
+{"type":"relationship","id":"4","label":"NEXT","start":{"id":"19","labels":["Stop"],"properties":{"name":"Hyde Park"}},"end":{"id":"20","labels":["Stop"],"properties":{"name":"Canton Junction"}}}
+{"type":"relationship","id":"5","label":"NEXT","start":{"id":"20","labels":["Stop"],"properties":{"name":"Canton Junction"}},"end":{"id":"21","labels":["Stop"],"properties":{"name":"Canton Center"}}}
+{"type":"relationship","id":"6","label":"NEXT","start":{"id":"21","labels":["Stop"],"properties":{"name":"Canton Center"}},"end":{"id":"22","labels":["Stop"],"properties":{"name":"Stoughton"}}}
+{"type":"relationship","id":"7","label":"NEXT","start":{"id":"22","labels":["Stop"],"properties":{"name":"Stoughton"}},"end":{"id":"23","labels":["Stop"],"properties":{"name":"Walpole"}}}
+{"type":"relationship","id":"8","label":"NEXT","start":{"id":"23","labels":["Stop"],"properties":{"name":"Walpole"}},"end":{"id":"24","labels":["Stop"],"properties":{"name":"Norfolk"}}}
+{"type":"relationship","id":"9","label":"NEXT","start":{"id":"24","labels":["Stop"],"properties":{"name":"Norfolk"}},"end":{"id":"25","labels":["Stop"],"properties":{"name":"Franklin"}}}
+{"type":"relationship","id":"10","label":"NEXT","start":{"id":"25","labels":["Stop"],"properties":{"name":"Franklin"}},"end":{"id":"26","labels":["Stop"],"properties":{"name":"Foxboro"}}}
+{"type":"relationship","id":"11","label":"HAS_STOP","start":{"id":"26","labels":["Stop"],"properties":{"name":"Foxboro"}},"end":{"id":"15","labels":["Station"],"properties":{"name":"Windsor Gardens"}}}

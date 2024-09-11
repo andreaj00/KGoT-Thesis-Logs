@@ -1,0 +1,3 @@
+{"type":"node","id":"24","labels":["Game"],"properties":{"release_date":"2019-05-28","name":"Outer Wilds","wikipedia_link":"https://en.wikipedia.org/wiki/Outer_Wilds"}}
+{"type":"node","id":"25","labels":["Award"],"properties":{"year":2019,"name":"British Academy Games Awards","category":"Game of the Year"}}
+{"type":"relationship","id":"42","label":"WON","start":{"id":"24","labels":["Game"],"properties":{"release_date":"2019-05-28","name":"Outer Wilds","wikipedia_link":"https://en.wikipedia.org/wiki/Outer_Wilds"}},"end":{"id":"25","labels":["Award"],"properties":{"year":2019,"name":"British Academy Games Awards","category":"Game of the Year"}}}

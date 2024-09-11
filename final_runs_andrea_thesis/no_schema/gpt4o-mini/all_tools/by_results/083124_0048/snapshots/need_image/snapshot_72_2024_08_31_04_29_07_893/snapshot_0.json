@@ -1,0 +1,9 @@
+{"type":"node","id":"33","labels":["Note"],"properties":{"name":"A","position":"second space from the bottom"}}
+{"type":"node","id":"34","labels":["Note"],"properties":{"name":"C","position":"third space from the bottom"}}
+{"type":"node","id":"35","labels":["Note"],"properties":{"name":"E","position":"first line from the bottom"}}
+{"type":"node","id":"36","labels":["Note"],"properties":{"name":"G","position":"second line from the bottom"}}
+{"type":"node","id":"37","labels":["Note"],"properties":{"name":"B","position":"third line from the bottom"}}
+{"type":"relationship","id":"0","label":"IS_REPRESENTED_IN","start":{"id":"33","labels":["Note"],"properties":{"name":"A","position":"second space from the bottom"}},"end":{"id":"34","labels":["Note"],"properties":{"name":"C","position":"third space from the bottom"}}}
+{"type":"relationship","id":"1","label":"IS_REPRESENTED_IN","start":{"id":"34","labels":["Note"],"properties":{"name":"C","position":"third space from the bottom"}},"end":{"id":"35","labels":["Note"],"properties":{"name":"E","position":"first line from the bottom"}}}
+{"type":"relationship","id":"2","label":"IS_REPRESENTED_IN","start":{"id":"35","labels":["Note"],"properties":{"name":"E","position":"first line from the bottom"}},"end":{"id":"36","labels":["Note"],"properties":{"name":"G","position":"second line from the bottom"}}}
+{"type":"relationship","id":"3","label":"IS_REPRESENTED_IN","start":{"id":"36","labels":["Note"],"properties":{"name":"G","position":"second line from the bottom"}},"end":{"id":"37","labels":["Note"],"properties":{"name":"B","position":"third line from the bottom"}}}

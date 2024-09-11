@@ -1,0 +1,42 @@
+{"type":"node","id":"0","labels":["Locomotive"],"properties":{"number":"700","operating_status":"Static Display","type":"Traction/Other"}}
+{"type":"node","id":"1","labels":["Locomotive"],"properties":{"number":"2","operating_status":"Operational","type":"Traction/Other"}}
+{"type":"node","id":"2","labels":["Locomotive"],"properties":{"number":"4","operating_status":"Undergoing Repairs","type":"Traction/Other"}}
+{"type":"node","id":"3","labels":["Locomotive"],"properties":{"number":"8","operating_status":"Static Display","type":"Traction/Other"}}
+{"type":"node","id":"4","labels":["Excursion"],"properties":{"name":"Main Street Jaunt"}}
+{"type":"node","id":"7","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"Steam"}}
+{"type":"node","id":"8","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"node","id":"9","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"Steam"}}
+{"type":"node","id":"10","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","type":"Steam"}}
+{"type":"node","id":"11","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","type":"Steam"}}
+{"type":"node","id":"12","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","type":"Steam"}}
+{"type":"node","id":"13","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","type":"Steam"}}
+{"type":"node","id":"14","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","type":"Steam"}}
+{"type":"node","id":"15","labels":["Locomotive"],"properties":{"number":"93","operating_status":"Operational","type":"Diesel"}}
+{"type":"node","id":"16"}
+{"type":"node","id":"17","labels":["Locomotive"],"properties":{"number":"210","operating_status":"Operational","type":"Diesel"}}
+{"type":"node","id":"18"}
+{"type":"node","id":"19","labels":["Locomotive"],"properties":{"number":"530","operating_status":"Static Display","type":"Diesel"}}
+{"type":"node","id":"20","labels":["Locomotive"],"properties":{"number":"59","operating_status":"Undergoing Repairs","type":"Diesel"}}
+{"type":"node","id":"21","labels":["Locomotive"],"properties":{"number":"57","operating_status":"Operational","type":"Diesel"}}
+{"type":"node","id":"22"}
+{"type":"node","id":"23","labels":["Locomotive"],"properties":{"number":"741","operating_status":"Operational","type":"Traction/Other"}}
+{"type":"node","id":"24"}
+{"type":"node","id":"25","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}
+{"type":"node","id":"26","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}
+{"type":"node","id":"27","labels":["Excursion"],"properties":{"name":"Main Lawn"}}
+{"type":"node","id":"28","labels":["Excursion"],"properties":{"name":"Display Hall"}}
+{"type":"node","id":"29","labels":["Excursion"],"properties":{"name":"Repair Shed"}}
+{"type":"node","id":"30","labels":["Excursion"],"properties":{"name":"Sent to Pikesville"}}
+{"type":"relationship","id":"0","label":"HEADS","start":{"id":"13","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","type":"Steam"}},"end":{"id":"30","labels":["Excursion"],"properties":{"name":"Sent to Pikesville"}}}
+{"type":"relationship","id":"1","label":"HEADS","start":{"id":"1","labels":["Locomotive"],"properties":{"number":"2","operating_status":"Operational","type":"Traction/Other"}},"end":{"id":"4","labels":["Excursion"],"properties":{"name":"Main Street Jaunt"}}}
+{"type":"relationship","id":"2","label":"HEADS","start":{"id":"2","labels":["Locomotive"],"properties":{"number":"4","operating_status":"Undergoing Repairs","type":"Traction/Other"}},"end":{"id":"29","labels":["Excursion"],"properties":{"name":"Repair Shed"}}}
+{"type":"relationship","id":"13","label":"HEADS","start":{"id":"7","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"Steam"}},"end":{"id":"8","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"14","label":"HEADS","start":{"id":"15","labels":["Locomotive"],"properties":{"number":"93","operating_status":"Operational","type":"Diesel"}},"end":{"id":"16"}}
+{"type":"relationship","id":"15","label":"HEADS","start":{"id":"17","labels":["Locomotive"],"properties":{"number":"210","operating_status":"Operational","type":"Diesel"}},"end":{"id":"18"}}
+{"type":"relationship","id":"16","label":"HEADS","start":{"id":"21","labels":["Locomotive"],"properties":{"number":"57","operating_status":"Operational","type":"Diesel"}},"end":{"id":"22"}}
+{"type":"relationship","id":"17","label":"HEADS","start":{"id":"23","labels":["Locomotive"],"properties":{"number":"741","operating_status":"Operational","type":"Traction/Other"}},"end":{"id":"24"}}
+{"type":"relationship","id":"18","label":"HEADS","start":{"id":"11","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","type":"Steam"}},"end":{"id":"25","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}}
+{"type":"relationship","id":"19","label":"HEADS","start":{"id":"14","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","type":"Steam"}},"end":{"id":"26","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}}
+{"type":"relationship","id":"20","label":"HEADS","start":{"id":"9","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"Steam"}},"end":{"id":"27","labels":["Excursion"],"properties":{"name":"Main Lawn"}}}
+{"type":"relationship","id":"21","label":"HEADS","start":{"id":"10","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","type":"Steam"}},"end":{"id":"28","labels":["Excursion"],"properties":{"name":"Display Hall"}}}
+{"type":"relationship","id":"22","label":"HEADS","start":{"id":"12","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","type":"Steam"}},"end":{"id":"29","labels":["Excursion"],"properties":{"name":"Repair Shed"}}}

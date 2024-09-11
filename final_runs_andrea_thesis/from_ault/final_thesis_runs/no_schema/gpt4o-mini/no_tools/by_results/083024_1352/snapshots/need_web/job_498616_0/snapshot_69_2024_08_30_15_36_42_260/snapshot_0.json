@@ -1,0 +1,6 @@
+{"type":"node","id":"11","labels":["YolaWord"],"properties":{"word":"gimlie"}}
+{"type":"node","id":"12","labels":["LatinRoot"],"properties":{"meaning":"twin","root":"geminus"}}
+{"type":"node","id":"13","labels":["SpanishWord"],"properties":{"meaning":"twin","word":"gemelo"}}
+{"type":"node","id":"14"}
+{"type":"relationship","id":"20","label":"DERIVED_FROM","start":{"id":"11","labels":["YolaWord"],"properties":{"word":"gimlie"}},"end":{"id":"12","labels":["LatinRoot"],"properties":{"meaning":"twin","root":"geminus"}}}
+{"type":"relationship","id":"21","label":"SHARES_SPELLING_WITH","start":{"id":"14"},"end":{"id":"13","labels":["SpanishWord"],"properties":{"meaning":"twin","word":"gemelo"}}}

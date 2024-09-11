@@ -1,0 +1,3 @@
+{"type":"node","id":"0","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt"}}
+{"type":"node","id":"1","labels":["Road"],"properties":{"name":"Main Road"}}
+{"type":"relationship","id":"1","label":"DESCRIBES","start":{"id":"0","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt"}},"end":{"id":"1","labels":["Road"],"properties":{"name":"Main Road"}}}

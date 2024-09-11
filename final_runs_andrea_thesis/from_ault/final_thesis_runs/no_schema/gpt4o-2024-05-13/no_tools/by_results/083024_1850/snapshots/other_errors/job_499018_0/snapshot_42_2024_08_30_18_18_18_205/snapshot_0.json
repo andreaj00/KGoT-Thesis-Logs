@@ -1,0 +1,5 @@
+{"type":"node","id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"45","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}
+{"type":"node","id":"46","labels":["Album"],"properties":{"release_year":1999,"title":"When the Pawn..."}}
+{"type":"relationship","id":"72","label":"RELEASED","start":{"id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"45","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}}
+{"type":"relationship","id":"73","label":"RELEASED","start":{"id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"46","labels":["Album"],"properties":{"release_year":1999,"title":"When the Pawn..."}}}

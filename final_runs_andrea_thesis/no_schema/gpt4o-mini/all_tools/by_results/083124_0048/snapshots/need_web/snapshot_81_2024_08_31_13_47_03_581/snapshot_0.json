@@ -1,0 +1,5 @@
+{"type":"node","id":"26","labels":["Dissertation"],"properties":{"title":"Federico Lauria's 2014 Dissertation"}}
+{"type":"node","id":"27","labels":["Footnote"],"properties":{"number":397}}
+{"type":"node","id":"28","labels":["Museum"],"properties":{"name":"Smithsonian American Art Museum"}}
+{"type":"relationship","id":"24","label":"CONTAINS","start":{"id":"26","labels":["Dissertation"],"properties":{"title":"Federico Lauria's 2014 Dissertation"}},"end":{"id":"27","labels":["Footnote"],"properties":{"number":397}}}
+{"type":"relationship","id":"25","label":"REFERENCES","start":{"id":"27","labels":["Footnote"],"properties":{"number":397}},"end":{"id":"28","labels":["Museum"],"properties":{"name":"Smithsonian American Art Museum"}}}

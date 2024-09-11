@@ -1,0 +1,17 @@
+{"type":"node","id":"16","labels":["Dump"],"properties":{"date":"June 2023","language":"English","url":"https://dumps.wikimedia.org/enwiki/20230601/"}}
+{"type":"node","id":"45","labels":["InformationSource"],"properties":{"name":"Wikipedia Dumps"}}
+{"type":"node","id":"46","labels":["InformationSource"],"properties":{"name":"Wikipedia API"}}
+{"type":"node","id":"47","labels":["APIEndpoint"],"properties":{"url":"https://en.wikipedia.org/w/api.php?action=query&titles=Page_Title&prop=revisions&rvstart=2023-06-01T00:00:00Z&rvend=2023-06-30T23:59:59Z&rvlimit=max&format=json"}}
+{"type":"node","id":"48","labels":["InformationSource"],"properties":{"name":"Wikipedia Special Pages"}}
+{"type":"node","id":"49","labels":["SpecialPage"],"properties":{"name":"Recent Changes","url":"https://en.wikipedia.org/wiki/Special:RecentChanges"}}
+{"type":"node","id":"50","labels":["SpecialPage"],"properties":{"name":"Page History","url":"https://en.wikipedia.org/wiki/Special:History"}}
+{"type":"node","id":"51","labels":["InformationSource"],"properties":{"name":"Third-Party Tools"}}
+{"type":"node","id":"52","labels":["Tool"],"properties":{"name":"WikiHistory","url":"https://tools.wmflabs.org/wikihistory/"}}
+{"type":"node","id":"53","labels":["Tool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}
+{"type":"relationship","id":"85","label":"HAS_DUMP","start":{"id":"45","labels":["InformationSource"],"properties":{"name":"Wikipedia Dumps"}},"end":{"id":"16","labels":["Dump"],"properties":{"date":"June 2023","language":"English","url":"https://dumps.wikimedia.org/enwiki/20230601/"}}}
+{"type":"relationship","id":"86","label":"HAS_ENDPOINT","start":{"id":"46","labels":["InformationSource"],"properties":{"name":"Wikipedia API"}},"end":{"id":"47","labels":["APIEndpoint"],"properties":{"url":"https://en.wikipedia.org/w/api.php?action=query&titles=Page_Title&prop=revisions&rvstart=2023-06-01T00:00:00Z&rvend=2023-06-30T23:59:59Z&rvlimit=max&format=json"}}}
+{"type":"relationship","id":"87","label":"HAS_PAGE","start":{"id":"48","labels":["InformationSource"],"properties":{"name":"Wikipedia Special Pages"}},"end":{"id":"49","labels":["SpecialPage"],"properties":{"name":"Recent Changes","url":"https://en.wikipedia.org/wiki/Special:RecentChanges"}}}
+{"type":"relationship","id":"88","label":"HAS_PAGE","start":{"id":"48","labels":["InformationSource"],"properties":{"name":"Wikipedia Special Pages"}},"end":{"id":"50","labels":["SpecialPage"],"properties":{"name":"Page History","url":"https://en.wikipedia.org/wiki/Special:History"}}}
+{"type":"relationship","id":"89","label":"HAS_TOOL","start":{"id":"51","labels":["InformationSource"],"properties":{"name":"Third-Party Tools"}},"end":{"id":"52","labels":["Tool"],"properties":{"name":"WikiHistory","url":"https://tools.wmflabs.org/wikihistory/"}}}
+{"type":"relationship","id":"90","label":"HAS_TOOL","start":{"id":"51","labels":["InformationSource"],"properties":{"name":"Third-Party Tools"}},"end":{"id":"53","labels":["Tool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}}
+{"type":"relationship","id":"91","label":"HAS_ENDPOINT","start":{"id":"46","labels":["InformationSource"],"properties":{"name":"Wikipedia API"}},"end":{"id":"47","labels":["APIEndpoint"],"properties":{"url":"https://en.wikipedia.org/w/api.php?action=query&titles=Page_Title&prop=revisions&rvstart=2023-06-01T00:00:00Z&rvend=2023-06-30T23:59:59Z&rvlimit=max&format=json"}}}

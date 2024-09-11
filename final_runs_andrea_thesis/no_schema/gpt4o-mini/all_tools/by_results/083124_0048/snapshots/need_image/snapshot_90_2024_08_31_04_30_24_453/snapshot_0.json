@@ -1,0 +1,23 @@
+{"type":"node","id":"0","labels":["Side"],"properties":{"length":6,"counter":1,"position":"Left Vertical"}}
+{"type":"node","id":"1","labels":["Side"],"properties":{"length":8,"position":"Left Horizontal","counter":1}}
+{"type":"node","id":"2","labels":["Side"],"properties":{"length":10,"position":"Bottom Horizontal","counter":1}}
+{"type":"node","id":"3","labels":["Side"],"properties":{"length":1,"position":"Additional Vertical 1","counter":1}}
+{"type":"node","id":"4","labels":["Side"],"properties":{"length":1.5,"position":"Additional Horizontal 1","counter":1}}
+{"type":"node","id":"5","labels":["Side"],"properties":{"length":4,"position":"Additional Vertical 2","counter":1}}
+{"type":"node","id":"6","labels":["Side"],"properties":{"length":1,"position":"Additional Vertical 3","counter":1}}
+{"type":"node","id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}}
+{"type":"node","id":"41","labels":["Side"],"properties":{"length":10,"counter":1,"position":"Top"}}
+{"type":"node","id":"42","labels":["Side"],"properties":{"length":2,"counter":1,"position":"Right Vertical"}}
+{"type":"node","id":"43","labels":["Side"],"properties":{"length":6,"position":"Right Horizontal","counter":1}}
+{"type":"node","id":"44","labels":["Side"],"properties":{"length":4,"position":"Bottom Vertical","counter":1}}
+{"type":"relationship","id":"5","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"41","labels":["Side"],"properties":{"length":10,"counter":1,"position":"Top"}}}
+{"type":"relationship","id":"6","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"42","labels":["Side"],"properties":{"length":2,"counter":1,"position":"Right Vertical"}}}
+{"type":"relationship","id":"7","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"43","labels":["Side"],"properties":{"length":6,"position":"Right Horizontal","counter":1}}}
+{"type":"relationship","id":"8","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"44","labels":["Side"],"properties":{"length":4,"position":"Bottom Vertical","counter":1}}}
+{"type":"relationship","id":"9","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"0","labels":["Side"],"properties":{"length":6,"counter":1,"position":"Left Vertical"}}}
+{"type":"relationship","id":"10","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"1","labels":["Side"],"properties":{"length":8,"position":"Left Horizontal","counter":1}}}
+{"type":"relationship","id":"11","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"2","labels":["Side"],"properties":{"length":10,"position":"Bottom Horizontal","counter":1}}}
+{"type":"relationship","id":"12","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"3","labels":["Side"],"properties":{"length":1,"position":"Additional Vertical 1","counter":1}}}
+{"type":"relationship","id":"13","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"4","labels":["Side"],"properties":{"length":1.5,"position":"Additional Horizontal 1","counter":1}}}
+{"type":"relationship","id":"14","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"5","labels":["Side"],"properties":{"length":4,"position":"Additional Vertical 2","counter":1}}}
+{"type":"relationship","id":"15","label":"HAS_SIDE","start":{"id":"40","labels":["Polygon"],"properties":{"name":"Green Polygon"}},"end":{"id":"6","labels":["Side"],"properties":{"length":1,"position":"Additional Vertical 3","counter":1}}}

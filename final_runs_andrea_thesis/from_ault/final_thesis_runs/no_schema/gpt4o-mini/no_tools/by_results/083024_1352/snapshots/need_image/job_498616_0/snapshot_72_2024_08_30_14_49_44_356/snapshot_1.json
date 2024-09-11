@@ -1,0 +1,6 @@
+{"type":"node","id":"0","labels":["Document"],"properties":{"name":"load_documents"}}
+{"type":"node","id":"1","labels":["BassClefNote"],"properties":{"notes":0,"notes_on_lines":0,"name":"Bass Clef Notes","lines":5}}
+{"type":"node","id":"68","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}}
+{"type":"relationship","id":"32","label":"CONTAINS","start":{"id":"0","labels":["Document"],"properties":{"name":"load_documents"}},"end":{"id":"68","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}}}
+{"type":"relationship","id":"33","label":"CONTAINS","start":{"id":"0","labels":["Document"],"properties":{"name":"load_documents"}},"end":{"id":"1","labels":["BassClefNote"],"properties":{"notes":0,"notes_on_lines":0,"name":"Bass Clef Notes","lines":5}}}
+{"type":"relationship","id":"31","label":"CONTAINS","start":{"id":"0","labels":["Document"],"properties":{"name":"load_documents"}},"end":{"id":"68","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}}}

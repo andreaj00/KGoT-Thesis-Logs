@@ -1,0 +1,15 @@
+{"type":"node","id":"0","labels":["Scientist"],"properties":{"name":"Jerome Wiesner"}}
+{"type":"node","id":"1","labels":["Scientist"],"properties":{"name":"Oliver Selfridge"}}
+{"type":"node","id":"2","labels":["Scientist"],"properties":{"name":"Claude Shannon"}}
+{"type":"node","id":"3","labels":["Video"],"properties":{"year":1961,"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}
+{"type":"node","id":"4","labels":["Prediction"],"properties":{"content":"thinking machines or robots could transcend humanity with cognitive awareness"}}
+{"type":"node","id":"5","labels":["Prediction"],"properties":{"content":"thinking machines or robots could discern and learn tasks without human intervention"}}
+{"type":"node","id":"6","labels":["Prediction"],"properties":{"content":"thinking machines or robots could replace workers in droves"}}
+{"type":"node","id":"7","labels":["Prediction"],"properties":{"content":"thinking machines or robots could potentially serve as robots for spouses"}}
+{"type":"relationship","id":"56","label":"FEATURED_IN","start":{"id":"0","labels":["Scientist"],"properties":{"name":"Jerome Wiesner"}},"end":{"id":"3","labels":["Video"],"properties":{"year":1961,"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}}
+{"type":"relationship","id":"57","label":"FEATURED_IN","start":{"id":"1","labels":["Scientist"],"properties":{"name":"Oliver Selfridge"}},"end":{"id":"3","labels":["Video"],"properties":{"year":1961,"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}}
+{"type":"relationship","id":"58","label":"FEATURED_IN","start":{"id":"2","labels":["Scientist"],"properties":{"name":"Claude Shannon"}},"end":{"id":"3","labels":["Video"],"properties":{"year":1961,"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}}
+{"type":"relationship","id":"59","label":"PREDICTED","start":{"id":"0","labels":["Scientist"],"properties":{"name":"Jerome Wiesner"}},"end":{"id":"4","labels":["Prediction"],"properties":{"content":"thinking machines or robots could transcend humanity with cognitive awareness"}}}
+{"type":"relationship","id":"60","label":"PREDICTED","start":{"id":"1","labels":["Scientist"],"properties":{"name":"Oliver Selfridge"}},"end":{"id":"5","labels":["Prediction"],"properties":{"content":"thinking machines or robots could discern and learn tasks without human intervention"}}}
+{"type":"relationship","id":"61","label":"PREDICTED","start":{"id":"2","labels":["Scientist"],"properties":{"name":"Claude Shannon"}},"end":{"id":"6","labels":["Prediction"],"properties":{"content":"thinking machines or robots could replace workers in droves"}}}
+{"type":"relationship","id":"62","label":"PREDICTED","start":{"id":"2","labels":["Scientist"],"properties":{"name":"Claude Shannon"}},"end":{"id":"7","labels":["Prediction"],"properties":{"content":"thinking machines or robots could potentially serve as robots for spouses"}}}

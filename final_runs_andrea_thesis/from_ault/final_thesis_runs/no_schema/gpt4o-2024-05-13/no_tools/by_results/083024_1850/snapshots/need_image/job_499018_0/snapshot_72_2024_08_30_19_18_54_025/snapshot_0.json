@@ -1,0 +1,15 @@
+{"type":"node","id":"72","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}}
+{"type":"node","id":"73","labels":["Clef"],"properties":{"type":"Bass"}}
+{"type":"node","id":"74","labels":["Note"],"properties":{"letter":"B","position":"second line"}}
+{"type":"node","id":"75","labels":["Note"],"properties":{"letter":"A","position":"first space"}}
+{"type":"node","id":"76","labels":["Note"],"properties":{"letter":"D","position":"third line"}}
+{"type":"node","id":"77","labels":["Note"],"properties":{"letter":"C","position":"second space"}}
+{"type":"node","id":"78","labels":["Note"],"properties":{"letter":"F","position":"fourth line"}}
+{"type":"node","id":"79","labels":["Total"],"properties":{"notes":5,"notes_on_lines":3,"lines":2}}
+{"type":"relationship","id":"23","label":"CONTAINS","start":{"id":"72","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}}}
+{"type":"relationship","id":"24","label":"HAS_NOTE","start":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}},"end":{"id":"74","labels":["Note"],"properties":{"letter":"B","position":"second line"}}}
+{"type":"relationship","id":"25","label":"HAS_NOTE","start":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}},"end":{"id":"75","labels":["Note"],"properties":{"letter":"A","position":"first space"}}}
+{"type":"relationship","id":"26","label":"HAS_NOTE","start":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}},"end":{"id":"76","labels":["Note"],"properties":{"letter":"D","position":"third line"}}}
+{"type":"relationship","id":"27","label":"HAS_NOTE","start":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}},"end":{"id":"77","labels":["Note"],"properties":{"letter":"C","position":"second space"}}}
+{"type":"relationship","id":"28","label":"HAS_NOTE","start":{"id":"73","labels":["Clef"],"properties":{"type":"Bass"}},"end":{"id":"78","labels":["Note"],"properties":{"letter":"F","position":"fourth line"}}}
+{"type":"relationship","id":"29","label":"HAS_TOTAL","start":{"id":"72","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"79","labels":["Total"],"properties":{"notes":5,"notes_on_lines":3,"lines":2}}}

@@ -1,0 +1,6 @@
+{"type":"node","id":"16","labels":["Employee"],"properties":{"name":"Harry"}}
+{"type":"node","id":"17","labels":["Employee"],"properties":{"name":"Miguel"}}
+{"type":"node","id":"18","labels":["Employee"],"properties":{"name":"Rebecca"}}
+{"type":"node","id":"19","labels":["Employee"],"properties":{"name":"Micah"}}
+{"type":"relationship","id":"7","label":"GIFTED_TO","start":{"id":"16","labels":["Employee"],"properties":{"name":"Harry"}},"end":{"id":"17","labels":["Employee"],"properties":{"name":"Miguel"}}}
+{"type":"relationship","id":"8","label":"GIFTED_TO","start":{"id":"18","labels":["Employee"],"properties":{"name":"Rebecca"}},"end":{"id":"19","labels":["Employee"],"properties":{"name":"Micah"}}}

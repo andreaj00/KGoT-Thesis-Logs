@@ -1,0 +1,27 @@
+{
+    "correct_rows": [
+        64,
+        162,
+        5,
+        6,
+        39,
+        135,
+        105,
+        154,
+        140,
+        142,
+        143,
+        122,
+        61,
+        158
+    ],
+    "category_counters": {
+        "spreadsheet_tools": 3,
+        "search_information_tools": 5,
+        "no_tools": 3,
+        "text_processing_analysis_tools": 3,
+        "pdf_tools": 1,
+        "audio_tools": 2,
+        "calculator": 1
+    }
+}

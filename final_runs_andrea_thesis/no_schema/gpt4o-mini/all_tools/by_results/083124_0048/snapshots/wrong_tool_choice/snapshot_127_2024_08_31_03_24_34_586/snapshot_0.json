@@ -1,0 +1,5 @@
+{"type":"node","id":"6","labels":["Symbol"],"properties":{"name":"𒐜","value":10}}
+{"type":"node","id":"7","labels":["Symbol"],"properties":{"breakdown":"2 × 10","name":"𒐐𒐚","value":20}}
+{"type":"node","id":"8","labels":["Number"],"properties":{"value":30}}
+{"type":"relationship","id":"36","label":"REPRESENTS","start":{"id":"6","labels":["Symbol"],"properties":{"name":"𒐜","value":10}},"end":{"id":"8","labels":["Number"],"properties":{"value":30}}}
+{"type":"relationship","id":"37","label":"REPRESENTS","start":{"id":"7","labels":["Symbol"],"properties":{"breakdown":"2 × 10","name":"𒐐𒐚","value":20}},"end":{"id":"8","labels":["Number"],"properties":{"value":30}}}

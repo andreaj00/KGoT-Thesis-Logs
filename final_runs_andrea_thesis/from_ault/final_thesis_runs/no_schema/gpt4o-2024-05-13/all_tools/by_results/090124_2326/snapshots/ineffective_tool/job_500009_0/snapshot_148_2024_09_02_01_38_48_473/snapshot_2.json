@@ -1,0 +1,3 @@
+{"type":"node","id":"80","labels":["IceCream"],"properties":{"butterfat_content_per_serving":11,"name":"Unknown Ice Cream"}}
+{"type":"node","id":"81","labels":["Standard"],"properties":{"year":2020,"butterfat_content":10,"name":"US Federal Standard","source":"Wikipedia"}}
+{"type":"relationship","id":"21","label":"CONFORMS_TO","start":{"id":"80","labels":["IceCream"],"properties":{"butterfat_content_per_serving":11,"name":"Unknown Ice Cream"}},"end":{"id":"81","labels":["Standard"],"properties":{"year":2020,"butterfat_content":10,"name":"US Federal Standard","source":"Wikipedia"}}}

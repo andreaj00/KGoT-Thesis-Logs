@@ -1,0 +1,5 @@
+{"type":"node","id":"96","labels":["Page"],"properties":{"title":"Dragon"}}
+{"type":"node","id":"97","labels":["Event"],"properties":{"date":"2008-02-29","type":"removal"}}
+{"type":"node","id":"98","labels":["Phrase"],"properties":{"text":"is a mythical creature typically depicted as a large and powerful serpent or other reptile with magical or spiritual qualities"}}
+{"type":"relationship","id":"81","label":"HAS_EVENT","start":{"id":"96","labels":["Page"],"properties":{"title":"Dragon"}},"end":{"id":"97","labels":["Event"],"properties":{"date":"2008-02-29","type":"removal"}}}
+{"type":"relationship","id":"82","label":"REMOVED_PHRASE","start":{"id":"97","labels":["Event"],"properties":{"date":"2008-02-29","type":"removal"}},"end":{"id":"98","labels":["Phrase"],"properties":{"text":"is a mythical creature typically depicted as a large and powerful serpent or other reptile with magical or spiritual qualities"}}}

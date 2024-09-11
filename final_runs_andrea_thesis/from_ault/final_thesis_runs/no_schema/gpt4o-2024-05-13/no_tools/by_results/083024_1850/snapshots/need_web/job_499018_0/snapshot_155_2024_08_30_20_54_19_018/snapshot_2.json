@@ -1,0 +1,20 @@
+{"type":"node","id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}
+{"type":"node","id":"3","labels":["Author"],"properties":{"name":"Longlong Wu"}}
+{"type":"node","id":"4","labels":["Author"],"properties":{"name":"Shinjae Yoo"}}
+{"type":"node","id":"5","labels":["Author"],"properties":{"name":"Ana F. Suzana"}}
+{"type":"node","id":"6","labels":["Author"],"properties":{"name":"Tadesse A. Assefa"}}
+{"type":"node","id":"7","labels":["Author"],"properties":{"name":"Jiecheng Diao"}}
+{"type":"node","id":"8","labels":["Author"],"properties":{"name":"Ross J. Harder"}}
+{"type":"node","id":"9","labels":["Author"],"properties":{"name":"Wonsuk Cha"}}
+{"type":"node","id":"10","labels":["Author"],"properties":{"name":"Ian K. Robinson"}}
+{"type":"node","id":"11","labels":["Document"],"properties":{"source":"https://arxiv.org/pdf/2007.00001.pdf"}}
+{"type":"node","id":"12","labels":["Author"],"properties":{"name":"Juyang Weng"}}
+{"type":"relationship","id":"101","label":"AUTHORED","start":{"id":"3","labels":["Author"],"properties":{"name":"Longlong Wu"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"102","label":"AUTHORED","start":{"id":"4","labels":["Author"],"properties":{"name":"Shinjae Yoo"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"103","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Ana F. Suzana"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"104","label":"AUTHORED","start":{"id":"6","labels":["Author"],"properties":{"name":"Tadesse A. Assefa"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"105","label":"AUTHORED","start":{"id":"7","labels":["Author"],"properties":{"name":"Jiecheng Diao"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"106","label":"AUTHORED","start":{"id":"8","labels":["Author"],"properties":{"name":"Ross J. Harder"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"107","label":"AUTHORED","start":{"id":"9","labels":["Author"],"properties":{"name":"Wonsuk Cha"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"108","label":"AUTHORED","start":{"id":"10","labels":["Author"],"properties":{"name":"Ian K. Robinson"}},"end":{"id":"2","labels":["Document"],"properties":{"time_span_seconds":3600,"source":"https://arxiv.org/pdf/2103.00001.pdf"}}}
+{"type":"relationship","id":"109","label":"AUTHORED","start":{"id":"12","labels":["Author"],"properties":{"name":"Juyang Weng"}},"end":{"id":"11","labels":["Document"],"properties":{"source":"https://arxiv.org/pdf/2007.00001.pdf"}}}

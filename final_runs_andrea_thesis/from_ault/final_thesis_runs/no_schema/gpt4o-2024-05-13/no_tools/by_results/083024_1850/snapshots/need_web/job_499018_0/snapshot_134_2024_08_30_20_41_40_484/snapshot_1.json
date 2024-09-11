@@ -1,0 +1,9 @@
+{"type":"node","id":"68","labels":["Person"],"properties":{"name":"Ali Khan"}}
+{"type":"node","id":"69","labels":["TVShow"],"properties":{"start_year":2015,"name":"Cheap Eats"}}
+{"type":"node","id":"70","labels":["Person"],"properties":{"name":"Cheryl Jamison"}}
+{"type":"node","id":"71","labels":["Person"],"properties":{"name":"Bill Jamison"}}
+{"type":"node","id":"72","labels":["Restaurant"],"properties":{"name":"Frontier Restaurant","location":"Albuquerque, New Mexico"}}
+{"type":"relationship","id":"90","label":"HOSTS","start":{"id":"68","labels":["Person"],"properties":{"name":"Ali Khan"}},"end":{"id":"69","labels":["TVShow"],"properties":{"start_year":2015,"name":"Cheap Eats"}}}
+{"type":"relationship","id":"91","label":"RECOMMENDED","start":{"id":"70","labels":["Person"],"properties":{"name":"Cheryl Jamison"}},"end":{"id":"72","labels":["Restaurant"],"properties":{"name":"Frontier Restaurant","location":"Albuquerque, New Mexico"}}}
+{"type":"relationship","id":"92","label":"RECOMMENDED","start":{"id":"71","labels":["Person"],"properties":{"name":"Bill Jamison"}},"end":{"id":"72","labels":["Restaurant"],"properties":{"name":"Frontier Restaurant","location":"Albuquerque, New Mexico"}}}
+{"type":"relationship","id":"93","label":"VISITED","properties":{"dish":"New Mexican staple"},"start":{"id":"68","labels":["Person"],"properties":{"name":"Ali Khan"}},"end":{"id":"72","labels":["Restaurant"],"properties":{"name":"Frontier Restaurant","location":"Albuquerque, New Mexico"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"10","labels":["Function"],"properties":{"name":"load_documents"}}
+{"type":"node","id":"11","labels":["Argument"],"properties":{"file_names":"GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png"}}
+{"type":"node","id":"12","labels":["Call"],"properties":{"id":"call_TnYB0vBrDBa5KFaJ73TLCSJQ","type":"tool_call"}}
+{"type":"relationship","id":"41","label":"HAS_ARGUMENT","start":{"id":"10","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"11","labels":["Argument"],"properties":{"file_names":"GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png"}}}
+{"type":"relationship","id":"42","label":"CALLS","start":{"id":"12","labels":["Call"],"properties":{"id":"call_TnYB0vBrDBa5KFaJ73TLCSJQ","type":"tool_call"}},"end":{"id":"10","labels":["Function"],"properties":{"name":"load_documents"}}}

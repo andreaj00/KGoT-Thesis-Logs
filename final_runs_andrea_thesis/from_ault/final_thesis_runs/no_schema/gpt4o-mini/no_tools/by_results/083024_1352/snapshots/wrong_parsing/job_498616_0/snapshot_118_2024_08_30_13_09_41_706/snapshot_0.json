@@ -1,0 +1,3 @@
+{"type":"node","id":"25","labels":["Vertebrate"],"properties":{"name":"Greenland shark","scientific_name":"Somniosus microcephalus"}}
+{"type":"node","id":"26","labels":["Island"],"properties":{"name":"Greenland","population_2020":56000}}
+{"type":"relationship","id":"0","label":"NAMED_AFTER","start":{"id":"25","labels":["Vertebrate"],"properties":{"name":"Greenland shark","scientific_name":"Somniosus microcephalus"}},"end":{"id":"26","labels":["Island"],"properties":{"name":"Greenland","population_2020":56000}}}

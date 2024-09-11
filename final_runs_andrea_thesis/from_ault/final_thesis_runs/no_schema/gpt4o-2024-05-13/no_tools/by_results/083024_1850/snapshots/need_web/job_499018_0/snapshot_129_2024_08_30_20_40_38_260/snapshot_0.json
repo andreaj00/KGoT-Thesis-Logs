@@ -1,0 +1,8 @@
+{"type":"node","id":"40","labels":["Species"],"properties":{"name":"American Alligator","scientific_name":"Alligator mississippiensis"}}
+{"type":"node","id":"61","labels":["Source"],"properties":{"name":"USGS"}}
+{"type":"node","id":"62","labels":["Location"],"properties":{"name":"New Mexico"}}
+{"type":"node","id":"63","labels":["Discovery"],"properties":{"year":2008}}
+{"type":"relationship","id":"82","label":"FOUND_IN","start":{"id":"40","labels":["Species"],"properties":{"name":"American Alligator","scientific_name":"Alligator mississippiensis"}},"end":{"id":"62","labels":["Location"],"properties":{"name":"New Mexico"}}}
+{"type":"relationship","id":"83","label":"DOCUMENTED_BY","start":{"id":"63","labels":["Discovery"],"properties":{"year":2008}},"end":{"id":"61","labels":["Source"],"properties":{"name":"USGS"}}}
+{"type":"relationship","id":"84","label":"DISCOVERY_OF","start":{"id":"63","labels":["Discovery"],"properties":{"year":2008}},"end":{"id":"40","labels":["Species"],"properties":{"name":"American Alligator","scientific_name":"Alligator mississippiensis"}}}
+{"type":"relationship","id":"85","label":"LOCATION","start":{"id":"63","labels":["Discovery"],"properties":{"year":2008}},"end":{"id":"62","labels":["Location"],"properties":{"name":"New Mexico"}}}

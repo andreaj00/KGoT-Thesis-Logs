@@ -1,0 +1,7 @@
+{"type":"node","id":"40","labels":["Paper"],"properties":{"title":"Nedoshivina 2010"}}
+{"type":"node","id":"41","labels":["Author"],"properties":{"name":"Kuznetzov"}}
+{"type":"node","id":"42","labels":["Specimen"],"properties":{"origin":"Vietnam"}}
+{"type":"node","id":"43","labels":["Institution"],"properties":{"country":"Russia","city":"St. Petersburg","name":"Zoological Institute of the Russian Academy of Sciences"}}
+{"type":"relationship","id":"121","label":"DESCRIBED_BY","start":{"id":"40","labels":["Paper"],"properties":{"title":"Nedoshivina 2010"}},"end":{"id":"41","labels":["Author"],"properties":{"name":"Kuznetzov"}}}
+{"type":"relationship","id":"122","label":"DESCRIBED","start":{"id":"41","labels":["Author"],"properties":{"name":"Kuznetzov"}},"end":{"id":"42","labels":["Specimen"],"properties":{"origin":"Vietnam"}}}
+{"type":"relationship","id":"123","label":"DEPOSITED_IN","start":{"id":"42","labels":["Specimen"],"properties":{"origin":"Vietnam"}},"end":{"id":"43","labels":["Institution"],"properties":{"country":"Russia","city":"St. Petersburg","name":"Zoological Institute of the Russian Academy of Sciences"}}}

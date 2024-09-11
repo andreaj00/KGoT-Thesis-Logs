@@ -1,0 +1,11 @@
+{"type":"node","id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}}
+{"type":"node","id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}}
+{"type":"node","id":"20","labels":["Movie"],"properties":{"genre":"Sci-Fi","title":"Inception","releaseYear":2010}}
+{"type":"node","id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}}
+{"type":"node","id":"22","labels":["Product"],"properties":{"price":999.99,"name":"Laptop","category":"Electronics"}}
+{"type":"node","id":"23","labels":["Location"],"properties":{"country":"USA","city":"New York"}}
+{"type":"relationship","id":"16","label":"WORKS_FOR","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}}}
+{"type":"relationship","id":"17","label":"PURCHASED","start":{"id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}},"end":{"id":"22","labels":["Product"],"properties":{"price":999.99,"name":"Laptop","category":"Electronics"}}}
+{"type":"relationship","id":"18","label":"LOCATED_IN","start":{"id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}},"end":{"id":"23","labels":["Location"],"properties":{"country":"USA","city":"New York"}}}
+{"type":"relationship","id":"14","label":"FRIENDS_WITH","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}}}
+{"type":"relationship","id":"15","label":"ACTED_IN","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"20","labels":["Movie"],"properties":{"genre":"Sci-Fi","title":"Inception","releaseYear":2010}}}

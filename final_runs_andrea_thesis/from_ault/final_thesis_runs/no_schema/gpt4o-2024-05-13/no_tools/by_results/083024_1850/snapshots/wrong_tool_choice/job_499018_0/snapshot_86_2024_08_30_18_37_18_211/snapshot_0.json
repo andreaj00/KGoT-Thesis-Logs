@@ -1,0 +1,7 @@
+{"type":"node","id":"53","labels":["Village"],"properties":{"name":"Șirnea"}}
+{"type":"node","id":"54","labels":["Count"],"properties":{"name":"Lațcu IV","title":"Count of Moldova"}}
+{"type":"node","id":"55","labels":["Hunter"],"properties":{"name":"Van Helsing"}}
+{"type":"node","id":"56","labels":["Resident"],"properties":{"count":100,"type":"Human"}}
+{"type":"relationship","id":"99","label":"TASKED","start":{"id":"54","labels":["Count"],"properties":{"name":"Lațcu IV","title":"Count of Moldova"}},"end":{"id":"53","labels":["Village"],"properties":{"name":"Șirnea"}}}
+{"type":"relationship","id":"100","label":"INVESTIGATES","start":{"id":"55","labels":["Hunter"],"properties":{"name":"Van Helsing"}},"end":{"id":"53","labels":["Village"],"properties":{"name":"Șirnea"}}}
+{"type":"relationship","id":"101","label":"HAS_RESIDENT","start":{"id":"53","labels":["Village"],"properties":{"name":"Șirnea"}},"end":{"id":"56","labels":["Resident"],"properties":{"count":100,"type":"Human"}}}

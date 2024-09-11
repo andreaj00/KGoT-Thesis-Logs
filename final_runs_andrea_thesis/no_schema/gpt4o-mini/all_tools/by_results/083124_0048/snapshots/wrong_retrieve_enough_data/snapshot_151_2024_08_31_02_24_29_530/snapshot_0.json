@@ -1,0 +1,3 @@
+{"type":"node","id":"45","labels":["Show"],"properties":{"total_unique_winners":22,"name":"American Idol"}}
+{"type":"node","id":"46","labels":["Show"],"properties":{"total_unique_winners":44,"name":"Survivor"}}
+{"type":"relationship","id":"25","label":"HAS_WINNER","start":{"id":"45","labels":["Show"],"properties":{"total_unique_winners":22,"name":"American Idol"}},"end":{"id":"46","labels":["Show"],"properties":{"total_unique_winners":44,"name":"Survivor"}}}

@@ -1,0 +1,3 @@
+{"type":"node","id":"20","labels":["Movie"],"properties":{"title":"Finding Nemo"}}
+{"type":"node","id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}}
+{"type":"relationship","id":"43","label":"FEATURED_IN","start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"20","labels":["Movie"],"properties":{"title":"Finding Nemo"}}}

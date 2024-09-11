@@ -1,0 +1,5 @@
+{"type":"node","id":"93","labels":["Writer"],"properties":{"name":"Louisa May Alcott"}}
+{"type":"node","id":"94","labels":["Date"],"properties":{"date":"2022-06-27"}}
+{"type":"node","id":"95","labels":["Source"],"properties":{"name":"Merriam-Webster"}}
+{"type":"relationship","id":"80","label":"WORD_OF_THE_DAY_FROM","start":{"id":"94","labels":["Date"],"properties":{"date":"2022-06-27"}},"end":{"id":"95","labels":["Source"],"properties":{"name":"Merriam-Webster"}}}
+{"type":"relationship","id":"79","label":"QUOTED_ON","start":{"id":"93","labels":["Writer"],"properties":{"name":"Louisa May Alcott"}},"end":{"id":"94","labels":["Date"],"properties":{"date":"2022-06-27"}}}

@@ -1,0 +1,42 @@
+{"type":"node","id":"5","labels":["Country"],"properties":{"name":"Brunei"}}
+{"type":"node","id":"6","labels":["Country"],"properties":{"name":"Cambodia"}}
+{"type":"node","id":"7","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"8","labels":["Country"],"properties":{"name":"Laos"}}
+{"type":"node","id":"9","labels":["Country"],"properties":{"name":"Malaysia"}}
+{"type":"node","id":"10","labels":["Country"],"properties":{"name":"Myanmar"}}
+{"type":"node","id":"11","labels":["Country"],"properties":{"name":"Philippines"}}
+{"type":"node","id":"12","labels":["Country"],"properties":{"name":"Singapore"}}
+{"type":"node","id":"13","labels":["Country"],"properties":{"name":"Thailand"}}
+{"type":"node","id":"14","labels":["Country"],"properties":{"name":"Vietnam"}}
+{"type":"node","id":"15","labels":["City"],"properties":{"latitude":4.890283,"name":"Bandar Seri Begawan","longitude":114.942217}}
+{"type":"node","id":"16"}
+{"type":"node","id":"17","labels":["City"],"properties":{"latitude":11.569444,"name":"Phnom Penh","longitude":104.921111}}
+{"type":"node","id":"18"}
+{"type":"node","id":"19","labels":["City"],"properties":{"name":"Jakarta"}}
+{"type":"node","id":"20"}
+{"type":"node","id":"21","labels":["City"],"properties":{"name":"Vientiane"}}
+{"type":"node","id":"22"}
+{"type":"node","id":"23","labels":["City"],"properties":{"name":"Kuala Lumpur"}}
+{"type":"node","id":"24"}
+{"type":"node","id":"25","labels":["City"],"properties":{"name":"Naypyidaw"}}
+{"type":"node","id":"26"}
+{"type":"node","id":"27","labels":["City"],"properties":{"name":"Manila"}}
+{"type":"node","id":"28"}
+{"type":"node","id":"29","labels":["City"],"properties":{"name":"Singapore"}}
+{"type":"node","id":"30"}
+{"type":"node","id":"31","labels":["City"],"properties":{"name":"Bangkok"}}
+{"type":"node","id":"32"}
+{"type":"node","id":"33","labels":["City"],"properties":{"name":"Hanoi"}}
+{"type":"node","id":"34"}
+{"type":"node","id":"35"}
+{"type":"relationship","id":"80","label":"HAS_CAPITAL","start":{"id":"32"},"end":{"id":"33","labels":["City"],"properties":{"name":"Hanoi"}}}
+{"type":"relationship","id":"81","label":"FURTHEST_FROM","start":{"id":"34"},"end":{"id":"35"}}
+{"type":"relationship","id":"71","label":"HAS_CAPITAL","start":{"id":"5","labels":["Country"],"properties":{"name":"Brunei"}},"end":{"id":"15","labels":["City"],"properties":{"latitude":4.890283,"name":"Bandar Seri Begawan","longitude":114.942217}}}
+{"type":"relationship","id":"72","label":"HAS_CAPITAL","start":{"id":"16"},"end":{"id":"17","labels":["City"],"properties":{"latitude":11.569444,"name":"Phnom Penh","longitude":104.921111}}}
+{"type":"relationship","id":"73","label":"HAS_CAPITAL","start":{"id":"18"},"end":{"id":"19","labels":["City"],"properties":{"name":"Jakarta"}}}
+{"type":"relationship","id":"74","label":"HAS_CAPITAL","start":{"id":"20"},"end":{"id":"21","labels":["City"],"properties":{"name":"Vientiane"}}}
+{"type":"relationship","id":"75","label":"HAS_CAPITAL","start":{"id":"22"},"end":{"id":"23","labels":["City"],"properties":{"name":"Kuala Lumpur"}}}
+{"type":"relationship","id":"76","label":"HAS_CAPITAL","start":{"id":"24"},"end":{"id":"25","labels":["City"],"properties":{"name":"Naypyidaw"}}}
+{"type":"relationship","id":"77","label":"HAS_CAPITAL","start":{"id":"26"},"end":{"id":"27","labels":["City"],"properties":{"name":"Manila"}}}
+{"type":"relationship","id":"78","label":"HAS_CAPITAL","start":{"id":"28"},"end":{"id":"29","labels":["City"],"properties":{"name":"Singapore"}}}
+{"type":"relationship","id":"79","label":"HAS_CAPITAL","start":{"id":"30"},"end":{"id":"31","labels":["City"],"properties":{"name":"Bangkok"}}}

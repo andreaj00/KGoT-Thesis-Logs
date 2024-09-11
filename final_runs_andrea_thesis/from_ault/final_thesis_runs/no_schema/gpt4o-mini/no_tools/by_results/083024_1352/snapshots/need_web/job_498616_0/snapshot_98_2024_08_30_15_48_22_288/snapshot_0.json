@@ -1,0 +1,4 @@
+{"type":"node","id":"6","labels":["Home"],"properties":{"year_sold":2022,"address":"2072 Akaikai Loop"}}
+{"type":"node","id":"7","labels":["Home"],"properties":{"year_sold":2022,"address":"2017 Komo Mai Drive"}}
+{"type":"relationship","id":"32","label":"SOLD_FOR","properties":{"price":750000},"start":{"id":"7","labels":["Home"],"properties":{"year_sold":2022,"address":"2017 Komo Mai Drive"}},"end":{"id":"6","labels":["Home"],"properties":{"year_sold":2022,"address":"2072 Akaikai Loop"}}}
+{"type":"relationship","id":"31","label":"SOLD_FOR","properties":{"price":800000},"start":{"id":"6","labels":["Home"],"properties":{"year_sold":2022,"address":"2072 Akaikai Loop"}},"end":{"id":"7","labels":["Home"],"properties":{"year_sold":2022,"address":"2017 Komo Mai Drive"}}}

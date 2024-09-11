@@ -1,0 +1,5 @@
+{"type":"node","id":"21","labels":["Document"],"properties":{"year":1811,"name":"Venezuelan Declaration of Independence"}}
+{"type":"node","id":"22","labels":["Color"],"properties":{"count":3,"name":"TikTok Logo Colors"}}
+{"type":"node","id":"23","labels":["Height"],"properties":{"unit":"cm","description":"Average height of a woman in the Philippines according to a July 2023 Business Insider article","value":150}}
+{"type":"relationship","id":"101","label":"HAS_ATTRIBUTE","start":{"id":"21","labels":["Document"],"properties":{"year":1811,"name":"Venezuelan Declaration of Independence"}},"end":{"id":"22","labels":["Color"],"properties":{"count":3,"name":"TikTok Logo Colors"}}}
+{"type":"relationship","id":"102","label":"HAS_ATTRIBUTE","start":{"id":"21","labels":["Document"],"properties":{"year":1811,"name":"Venezuelan Declaration of Independence"}},"end":{"id":"23","labels":["Height"],"properties":{"unit":"cm","description":"Average height of a woman in the Philippines according to a July 2023 Business Insider article","value":150}}}

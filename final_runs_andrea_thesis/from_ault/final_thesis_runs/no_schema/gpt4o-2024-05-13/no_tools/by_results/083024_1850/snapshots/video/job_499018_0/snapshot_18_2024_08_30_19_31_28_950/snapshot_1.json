@@ -1,0 +1,5 @@
+{"type":"node","id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}}
+{"type":"node","id":"31","labels":["Step"],"properties":{"number":1,"description":"Select the Video"}}
+{"type":"node","id":"32","labels":["Step"],"properties":{"number":2,"description":"Watch the Video Carefully"}}
+{"type":"relationship","id":"131","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"31","labels":["Step"],"properties":{"number":1,"description":"Select the Video"}}}
+{"type":"relationship","id":"132","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"32","labels":["Step"],"properties":{"number":2,"description":"Watch the Video Carefully"}}}

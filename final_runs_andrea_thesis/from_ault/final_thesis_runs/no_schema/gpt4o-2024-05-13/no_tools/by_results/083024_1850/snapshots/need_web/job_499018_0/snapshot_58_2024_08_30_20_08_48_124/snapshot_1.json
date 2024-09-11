@@ -1,0 +1,5 @@
+{"type":"node","id":"5","labels":["Article"],"properties":{"promotion_date":"2016-11-03","title":"Anzu (dinosaur)"}}
+{"type":"node","id":"6","labels":["Article"],"properties":{"promotion_date":"2016-11-07","title":"Hesperornithoides"}}
+{"type":"node","id":"7","labels":["Article"],"properties":{"promotion_date":"2016-11-11","title":"Zuul (dinosaur)"}}
+{"type":"node","id":"8","labels":["User"],"properties":{"name":"FunkMonk"}}
+{"type":"relationship","id":"33","label":"NOMINATED","start":{"id":"8","labels":["User"],"properties":{"name":"FunkMonk"}},"end":{"id":"5","labels":["Article"],"properties":{"promotion_date":"2016-11-03","title":"Anzu (dinosaur)"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"65","labels":["Paper"],"properties":{"year":2016,"topic":"fruit detection using deep learning","title":"DeepFruits"}}
+{"type":"node","id":"66","labels":["Graph"],"properties":{"year":2016,"name":"DeepFruits fruit detection graph","platform":"Connected Papers"}}
+{"type":"node","id":"67","labels":["Tool"],"properties":{"name":"Connected Papers"}}
+{"type":"relationship","id":"19","label":"CENTRAL_NODE_OF","start":{"id":"65","labels":["Paper"],"properties":{"year":2016,"topic":"fruit detection using deep learning","title":"DeepFruits"}},"end":{"id":"66","labels":["Graph"],"properties":{"year":2016,"name":"DeepFruits fruit detection graph","platform":"Connected Papers"}}}
+{"type":"relationship","id":"20","label":"GENERATED_BY","start":{"id":"66","labels":["Graph"],"properties":{"year":2016,"name":"DeepFruits fruit detection graph","platform":"Connected Papers"}},"end":{"id":"67","labels":["Tool"],"properties":{"name":"Connected Papers"}}}

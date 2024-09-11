@@ -1,0 +1,25 @@
+{"type":"node","id":"22","labels":["Animal"],"properties":{"name":"Goat"}}
+{"type":"node","id":"23","labels":["Animal"],"properties":{"name":"Monkey"}}
+{"type":"node","id":"24","labels":["Animal"],"properties":{"name":"Rooster"}}
+{"type":"node","id":"25","labels":["Animal"],"properties":{"name":"Dog"}}
+{"type":"node","id":"26","labels":["Animal"],"properties":{"name":"Pig"}}
+{"type":"node","id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}}
+{"type":"node","id":"47","labels":["Animal"],"properties":{"name":"Rat"}}
+{"type":"node","id":"48","labels":["Animal"],"properties":{"name":"Ox"}}
+{"type":"node","id":"49","labels":["Animal"],"properties":{"name":"Tiger"}}
+{"type":"node","id":"50","labels":["Animal"],"properties":{"name":"Rabbit"}}
+{"type":"node","id":"51","labels":["Animal"],"properties":{"name":"Dragon"}}
+{"type":"node","id":"52","labels":["Animal"],"properties":{"name":"Snake"}}
+{"type":"node","id":"53","labels":["Animal"],"properties":{"name":"Horse"}}
+{"type":"relationship","id":"32","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"48","labels":["Animal"],"properties":{"name":"Ox"}}}
+{"type":"relationship","id":"33","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"49","labels":["Animal"],"properties":{"name":"Tiger"}}}
+{"type":"relationship","id":"34","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"50","labels":["Animal"],"properties":{"name":"Rabbit"}}}
+{"type":"relationship","id":"35","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"51","labels":["Animal"],"properties":{"name":"Dragon"}}}
+{"type":"relationship","id":"36","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"52","labels":["Animal"],"properties":{"name":"Snake"}}}
+{"type":"relationship","id":"37","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"53","labels":["Animal"],"properties":{"name":"Horse"}}}
+{"type":"relationship","id":"38","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"22","labels":["Animal"],"properties":{"name":"Goat"}}}
+{"type":"relationship","id":"39","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"23","labels":["Animal"],"properties":{"name":"Monkey"}}}
+{"type":"relationship","id":"40","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"24","labels":["Animal"],"properties":{"name":"Rooster"}}}
+{"type":"relationship","id":"41","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"25","labels":["Animal"],"properties":{"name":"Dog"}}}
+{"type":"relationship","id":"42","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"26","labels":["Animal"],"properties":{"name":"Pig"}}}
+{"type":"relationship","id":"31","label":"FEATURES","start":{"id":"46","labels":["Exhibition"],"properties":{"name":"2015 Metropolitan Museum of Art exhibition Chinese zodiac"}},"end":{"id":"47","labels":["Animal"],"properties":{"name":"Rat"}}}

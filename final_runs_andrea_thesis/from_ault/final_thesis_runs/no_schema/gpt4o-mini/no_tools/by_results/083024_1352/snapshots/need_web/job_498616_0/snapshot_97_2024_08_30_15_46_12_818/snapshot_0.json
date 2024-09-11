@@ -1,0 +1,11 @@
+{"type":"node","id":"0","labels":["Country"],"properties":{"name":"China"}}
+{"type":"node","id":"1","labels":["Country"],"properties":{"name":"India"}}
+{"type":"node","id":"2","labels":["Country"],"properties":{"name":"Kuwait"}}
+{"type":"node","id":"3","labels":["Country"],"properties":{"name":"Libya"}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"name":"Singapore"}}
+{"type":"node","id":"5","labels":["Country"],"properties":{"name":"United Arab Emirates"}}
+{"type":"relationship","id":"26","label":"HAS_GROSS_SAVINGS","properties":{"year_start":2001,"year_end":2010,"percentage":35},"start":{"id":"0","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"1","labels":["Country"],"properties":{"name":"India"}}}
+{"type":"relationship","id":"27","label":"HAS_GROSS_SAVINGS","properties":{"year_start":2001,"year_end":2010,"percentage":35},"start":{"id":"0","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"2","labels":["Country"],"properties":{"name":"Kuwait"}}}
+{"type":"relationship","id":"28","label":"HAS_GROSS_SAVINGS","properties":{"year_start":2001,"year_end":2010,"percentage":35},"start":{"id":"0","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"3","labels":["Country"],"properties":{"name":"Libya"}}}
+{"type":"relationship","id":"29","label":"HAS_GROSS_SAVINGS","properties":{"year_start":2001,"year_end":2010,"percentage":35},"start":{"id":"0","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"4","labels":["Country"],"properties":{"name":"Singapore"}}}
+{"type":"relationship","id":"30","label":"HAS_GROSS_SAVINGS","properties":{"year_start":2001,"year_end":2010,"percentage":35},"start":{"id":"0","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"5","labels":["Country"],"properties":{"name":"United Arab Emirates"}}}

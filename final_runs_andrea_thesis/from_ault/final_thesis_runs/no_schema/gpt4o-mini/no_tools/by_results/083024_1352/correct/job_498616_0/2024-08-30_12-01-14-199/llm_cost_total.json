@@ -1,0 +1,98 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 530237,
+        "TotalCompletionTokens": 13502,
+        "TotalCost": 0.0876339999999999,
+        "TotalDuration": 347.23549222946167
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 22180,
+        "TotalCompletionTokens": 1555,
+        "TotalCost": 0.004254000000000002,
+        "TotalDuration": 44.13806772232056
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 79521,
+        "TotalCompletionTokens": 3337,
+        "TotalCost": 0.013925,
+        "TotalDuration": 71.43861079216003
+    },
+    "load_documents_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 21.932655334472656
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 73105,
+        "TotalCompletionTokens": 39938,
+        "TotalCost": 0.034926,
+        "TotalDuration": 511.20417737960815
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 191178,
+        "TotalCompletionTokens": 80671,
+        "TotalCost": 0.077071,
+        "TotalDuration": 1127.2230956554413
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 1402,
+        "TotalCompletionTokens": 6828,
+        "TotalCost": 0.004307,
+        "TotalDuration": 111.17829179763794
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 111.19120907783508
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 80817,
+        "TotalCompletionTokens": 744,
+        "TotalCost": 0.012566,
+        "TotalDuration": 49.95629024505615
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 206415,
+        "TotalCompletionTokens": 3609,
+        "TotalCost": 0.033141999999999935,
+        "TotalDuration": 164.795072555542
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 18965,
+        "TotalCompletionTokens": 360,
+        "TotalCost": 0.0030610000000000004,
+        "TotalDuration": 12.558428049087524
+    },
+    "fix_json": {
+        "TotalPromptTokens": 9255,
+        "TotalCompletionTokens": 4206,
+        "TotalCost": 0.0039120000000000005,
+        "TotalDuration": 39.318689584732056
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 82755,
+        "TotalCompletionTokens": 12043,
+        "TotalCost": 0.44463699999999995,
+        "TotalDuration": 177.34328055381775
+    },
+    "AudioTranscriptionLoader.transcribe_audio": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 4.3155128955841064
+    },
+    "define_retrieve_query": {
+        "TotalPromptTokens": 8452,
+        "TotalCompletionTokens": 219,
+        "TotalCost": 0.0014000000000000002,
+        "TotalDuration": 4.806706666946411
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 1304282,
+        "TotalCompletionTokens": 167012,
+        "TotalCost": 0.7208349999999976,
+        "TotalDuration": 2798.6355805397034
+    }
+}

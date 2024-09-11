@@ -1,0 +1,74 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 520730,
+        "TotalCompletionTokens": 14721,
+        "TotalCost": 2.824464999999998,
+        "TotalDuration": 285.0202307701111
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 17891,
+        "TotalCompletionTokens": 2621,
+        "TotalCost": 0.12877,
+        "TotalDuration": 45.99711871147156
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 81016,
+        "TotalCompletionTokens": 3795,
+        "TotalCost": 0.46200500000000005,
+        "TotalDuration": 69.15081310272217
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 2845,
+        "TotalCompletionTokens": 29357,
+        "TotalCost": 0.45457999999999993,
+        "TotalDuration": 378.889178276062
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 378.92231702804565
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 146044,
+        "TotalCompletionTokens": 17297,
+        "TotalCost": 0.9896750000000001,
+        "TotalDuration": 237.46065998077393
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 28465,
+        "TotalCompletionTokens": 11304,
+        "TotalCost": 0.3118850000000001,
+        "TotalDuration": 137.8444983959198
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 56556,
+        "TotalCompletionTokens": 747,
+        "TotalCost": 0.2939850000000002,
+        "TotalDuration": 33.560075521469116
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 119345,
+        "TotalCompletionTokens": 20711,
+        "TotalCost": 1.6573900000000004,
+        "TotalDuration": 336.3836784362793
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 149583,
+        "TotalCompletionTokens": 3084,
+        "TotalCost": 0.7941749999999999,
+        "TotalDuration": 116.21561527252197
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 13326,
+        "TotalCompletionTokens": 212,
+        "TotalCost": 0.06980999999999998,
+        "TotalDuration": 7.268032073974609
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 1135801,
+        "TotalCompletionTokens": 103849,
+        "TotalCost": 7.986740000000003,
+        "TotalDuration": 2026.7122175693512
+    }
+}

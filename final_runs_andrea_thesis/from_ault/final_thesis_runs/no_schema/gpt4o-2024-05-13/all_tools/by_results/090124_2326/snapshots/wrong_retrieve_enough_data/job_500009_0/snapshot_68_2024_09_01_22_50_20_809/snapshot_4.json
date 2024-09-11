@@ -1,0 +1,26 @@
+{"type":"node","id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}}
+{"type":"node","id":"67","labels":["Temperature"],"properties":{"location":"Marianas Trench","pressure":1086,"peak_temperature":4}}
+{"type":"node","id":"68","labels":["Density"],"properties":{"temperature":-50,"value":1546.75}}
+{"type":"node","id":"69","labels":["Density"],"properties":{"temperature":-40,"value":1518.71}}
+{"type":"node","id":"70","labels":["Density"],"properties":{"temperature":-30,"value":1489.56}}
+{"type":"node","id":"71","labels":["Density"],"properties":{"temperature":-20,"value":1460.57}}
+{"type":"node","id":"72","labels":["Density"],"properties":{"temperature":-10,"value":1429.49}}
+{"type":"node","id":"73","labels":["Density"],"properties":{"temperature":0,"value":1397.45}}
+{"type":"node","id":"74","labels":["Density"],"properties":{"temperature":10,"value":1364.3}}
+{"type":"node","id":"75","labels":["Density"],"properties":{"temperature":20,"value":1330.18}}
+{"type":"node","id":"76","labels":["Density"],"properties":{"temperature":30,"value":1295.1}}
+{"type":"node","id":"77","labels":["Density"],"properties":{"temperature":40,"value":1257.13}}
+{"type":"node","id":"78","labels":["Density"],"properties":{"temperature":50,"value":1215.96}}
+{"type":"node","id":"79","labels":["Density"],"properties":{"temperature":4,"value":5.449}}
+{"type":"relationship","id":"128","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"77","labels":["Density"],"properties":{"temperature":40,"value":1257.13}}}
+{"type":"relationship","id":"129","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"78","labels":["Density"],"properties":{"temperature":50,"value":1215.96}}}
+{"type":"relationship","id":"130","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"79","labels":["Density"],"properties":{"temperature":4,"value":5.449}}}
+{"type":"relationship","id":"119","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"68","labels":["Density"],"properties":{"temperature":-50,"value":1546.75}}}
+{"type":"relationship","id":"120","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"69","labels":["Density"],"properties":{"temperature":-40,"value":1518.71}}}
+{"type":"relationship","id":"121","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"70","labels":["Density"],"properties":{"temperature":-30,"value":1489.56}}}
+{"type":"relationship","id":"122","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"71","labels":["Density"],"properties":{"temperature":-20,"value":1460.57}}}
+{"type":"relationship","id":"123","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"72","labels":["Density"],"properties":{"temperature":-10,"value":1429.49}}}
+{"type":"relationship","id":"124","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"73","labels":["Density"],"properties":{"temperature":0,"value":1397.45}}}
+{"type":"relationship","id":"125","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"74","labels":["Density"],"properties":{"temperature":10,"value":1364.3}}}
+{"type":"relationship","id":"126","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"75","labels":["Density"],"properties":{"temperature":20,"value":1330.18}}}
+{"type":"relationship","id":"127","label":"HAS_DENSITY","start":{"id":"66","labels":["Refrigerant"],"properties":{"boiling_point":-29.8,"name":"Freon-12","formula":"CCl2F2","type":"CFC","alternative_names":["R-12","CFC-12"]}},"end":{"id":"76","labels":["Density"],"properties":{"temperature":30,"value":1295.1}}}

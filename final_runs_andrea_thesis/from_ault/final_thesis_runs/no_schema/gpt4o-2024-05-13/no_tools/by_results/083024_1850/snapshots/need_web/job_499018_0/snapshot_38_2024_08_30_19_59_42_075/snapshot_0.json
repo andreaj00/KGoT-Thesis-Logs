@@ -1,0 +1,19 @@
+{"type":"node","id":"0","labels":["Feature"],"properties":{"name":"View Past Versions"}}
+{"type":"node","id":"1","labels":["Feature"],"properties":{"name":"Search within a Domain"}}
+{"type":"node","id":"2","labels":["Feature"],"properties":{"name":"Save a Page"}}
+{"type":"node","id":"17","labels":["Feature"],"properties":{"name":"API Access"}}
+{"type":"node","id":"18","labels":["UseCase"],"properties":{"name":"Research"}}
+{"type":"node","id":"19","labels":["UseCase"],"properties":{"name":"Legal Evidence"}}
+{"type":"node","id":"20","labels":["UseCase"],"properties":{"name":"Nostalgia"}}
+{"type":"node","id":"21","labels":["UseCase"],"properties":{"name":"Content Recovery"}}
+{"type":"node","id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}}
+{"type":"node","id":"104","labels":["Organization"],"properties":{"name":"Internet Archive"}}
+{"type":"relationship","id":"16","label":"USED_FOR","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"19","labels":["UseCase"],"properties":{"name":"Legal Evidence"}}}
+{"type":"relationship","id":"17","label":"USED_FOR","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"20","labels":["UseCase"],"properties":{"name":"Nostalgia"}}}
+{"type":"relationship","id":"18","label":"USED_FOR","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"21","labels":["UseCase"],"properties":{"name":"Content Recovery"}}}
+{"type":"relationship","id":"121","label":"OPERATED_BY","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"104","labels":["Organization"],"properties":{"name":"Internet Archive"}}}
+{"type":"relationship","id":"122","label":"HAS_FEATURE","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"0","labels":["Feature"],"properties":{"name":"View Past Versions"}}}
+{"type":"relationship","id":"123","label":"HAS_FEATURE","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"1","labels":["Feature"],"properties":{"name":"Search within a Domain"}}}
+{"type":"relationship","id":"13","label":"HAS_FEATURE","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"2","labels":["Feature"],"properties":{"name":"Save a Page"}}}
+{"type":"relationship","id":"14","label":"HAS_FEATURE","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"17","labels":["Feature"],"properties":{"name":"API Access"}}}
+{"type":"relationship","id":"15","label":"USED_FOR","start":{"id":"103","labels":["Tool"],"properties":{"name":"Wayback Machine"}},"end":{"id":"18","labels":["UseCase"],"properties":{"name":"Research"}}}

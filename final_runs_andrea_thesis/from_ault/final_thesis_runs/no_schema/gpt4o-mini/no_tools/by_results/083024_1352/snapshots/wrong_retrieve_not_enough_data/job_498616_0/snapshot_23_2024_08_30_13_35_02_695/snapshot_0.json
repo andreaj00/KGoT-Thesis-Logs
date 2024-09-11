@@ -1,0 +1,7 @@
+{"type":"node","id":"48","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"49","labels":["Country"],"properties":{"name":"Myanmar"}}
+{"type":"node","id":"50","labels":["Capital"],"properties":{"name":"Jakarta"}}
+{"type":"node","id":"51","labels":["Capital"],"properties":{"name":"Naypyidaw"}}
+{"type":"relationship","id":"48","label":"HAS_CAPITAL","start":{"id":"49","labels":["Country"],"properties":{"name":"Myanmar"}},"end":{"id":"51","labels":["Capital"],"properties":{"name":"Naypyidaw"}}}
+{"type":"relationship","id":"49","label":"DISTANCE","properties":{"km":2800},"start":{"id":"50","labels":["Capital"],"properties":{"name":"Jakarta"}},"end":{"id":"51","labels":["Capital"],"properties":{"name":"Naypyidaw"}}}
+{"type":"relationship","id":"47","label":"HAS_CAPITAL","start":{"id":"48","labels":["Country"],"properties":{"name":"Indonesia"}},"end":{"id":"50","labels":["Capital"],"properties":{"name":"Jakarta"}}}

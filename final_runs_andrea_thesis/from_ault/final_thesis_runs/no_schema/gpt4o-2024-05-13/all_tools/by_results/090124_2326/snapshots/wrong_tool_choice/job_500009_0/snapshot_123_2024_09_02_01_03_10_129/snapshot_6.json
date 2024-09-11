@@ -1,0 +1,55 @@
+{"type":"node","id":"33","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"34","labels":["Event"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"35","labels":["Round"],"properties":{"name":"Final Round"}}
+{"type":"node","id":"36","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"37","labels":["Item"],"properties":{"name":"Shiny Prop Coin","value":1000}}
+{"type":"node","id":"38","labels":["Box"],"properties":{"name":"Box 1"}}
+{"type":"node","id":"39","labels":["Box"],"properties":{"name":"Box 2"}}
+{"type":"node","id":"40","labels":["Box"],"properties":{"name":"Box 3"}}
+{"type":"node","id":"41","labels":["Distribution"],"properties":{"a":2,"b":11,"c":17}}
+{"type":"node","id":"42","labels":["Distribution"],"properties":{"a":4,"b":10,"c":16}}
+{"type":"node","id":"43","labels":["Distribution"],"properties":{"a":6,"b":9,"c":15}}
+{"type":"node","id":"44","labels":["Distribution"],"properties":{"a":8,"b":8,"c":14}}
+{"type":"node","id":"45","labels":["Distribution"],"properties":{"a":10,"b":7,"c":13}}
+{"type":"node","id":"46","labels":["Distribution"],"properties":{"a":12,"b":6,"c":12}}
+{"type":"node","id":"47","labels":["Distribution"],"properties":{"a":14,"b":5,"c":11}}
+{"type":"node","id":"48","labels":["Distribution"],"properties":{"a":16,"b":4,"c":10}}
+{"type":"node","id":"49","labels":["Distribution"],"properties":{"a":18,"b":3,"c":9}}
+{"type":"node","id":"50","labels":["Distribution"],"properties":{"a":20,"b":2,"c":8}}
+{"type":"node","id":"51","labels":["Guess"],"properties":{"box3":17,"box1":2,"box2":11}}
+{"type":"node","id":"52","labels":["Guess"],"properties":{"box3":16,"box1":4,"box2":10}}
+{"type":"node","id":"53","labels":["Guess"],"properties":{"box3":15,"box1":6,"box2":9}}
+{"type":"node","id":"54","labels":["Guess"],"properties":{"box3":14,"box1":8,"box2":8}}
+{"type":"node","id":"55","labels":["Guess"],"properties":{"box3":13,"box1":7,"box2":7}}
+{"type":"node","id":"56","labels":["Guess"],"properties":{"box3":12,"box1":6,"box2":6}}
+{"type":"node","id":"57","labels":["Guess"],"properties":{"box3":11,"box1":5,"box2":5}}
+{"type":"node","id":"58","labels":["Guess"],"properties":{"box3":10,"box1":4,"box2":4}}
+{"type":"node","id":"59","labels":["Guess"],"properties":{"box3":9,"box1":3,"box2":3}}
+{"type":"node","id":"60","labels":["Guess"],"properties":{"box3":8,"box1":2,"box2":2}}
+{"type":"relationship","id":"0","label":"PARTICIPATED_IN","start":{"id":"33","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"64","label":"POSSIBLE_IN","start":{"id":"45","labels":["Distribution"],"properties":{"a":10,"b":7,"c":13}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"1","label":"PART_OF","start":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"65","label":"POSSIBLE_IN","start":{"id":"46","labels":["Distribution"],"properties":{"a":12,"b":6,"c":12}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"2","label":"HOSTED","start":{"id":"36","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"66","label":"POSSIBLE_IN","start":{"id":"47","labels":["Distribution"],"properties":{"a":14,"b":5,"c":11}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"3","label":"USED_IN","start":{"id":"37","labels":["Item"],"properties":{"name":"Shiny Prop Coin","value":1000}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"67","label":"POSSIBLE_IN","start":{"id":"48","labels":["Distribution"],"properties":{"a":16,"b":4,"c":10}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"4","label":"PART_OF","start":{"id":"38","labels":["Box"],"properties":{"name":"Box 1"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"68","label":"POSSIBLE_IN","start":{"id":"49","labels":["Distribution"],"properties":{"a":18,"b":3,"c":9}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"5","label":"PART_OF","start":{"id":"39","labels":["Box"],"properties":{"name":"Box 2"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"69","label":"POSSIBLE_IN","start":{"id":"50","labels":["Distribution"],"properties":{"a":20,"b":2,"c":8}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"6","label":"PART_OF","start":{"id":"40","labels":["Box"],"properties":{"name":"Box 3"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"70","label":"MADE_IN","start":{"id":"51","labels":["Guess"],"properties":{"box3":17,"box1":2,"box2":11}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"7","label":"POSSIBLE_IN","start":{"id":"41","labels":["Distribution"],"properties":{"a":2,"b":11,"c":17}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"71","label":"MADE_IN","start":{"id":"52","labels":["Guess"],"properties":{"box3":16,"box1":4,"box2":10}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"8","label":"POSSIBLE_IN","start":{"id":"42","labels":["Distribution"],"properties":{"a":4,"b":10,"c":16}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"72","label":"MADE_IN","start":{"id":"53","labels":["Guess"],"properties":{"box3":15,"box1":6,"box2":9}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"9","label":"POSSIBLE_IN","start":{"id":"43","labels":["Distribution"],"properties":{"a":6,"b":9,"c":15}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"73","label":"MADE_IN","start":{"id":"54","labels":["Guess"],"properties":{"box3":14,"box1":8,"box2":8}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"74","label":"MADE_IN","start":{"id":"55","labels":["Guess"],"properties":{"box3":13,"box1":7,"box2":7}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"75","label":"MADE_IN","start":{"id":"56","labels":["Guess"],"properties":{"box3":12,"box1":6,"box2":6}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"76","label":"MADE_IN","start":{"id":"57","labels":["Guess"],"properties":{"box3":11,"box1":5,"box2":5}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"77","label":"MADE_IN","start":{"id":"58","labels":["Guess"],"properties":{"box3":10,"box1":4,"box2":4}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"78","label":"MADE_IN","start":{"id":"59","labels":["Guess"],"properties":{"box3":9,"box1":3,"box2":3}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"79","label":"MADE_IN","start":{"id":"60","labels":["Guess"],"properties":{"box3":8,"box1":2,"box2":2}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"63","label":"POSSIBLE_IN","start":{"id":"44","labels":["Distribution"],"properties":{"a":8,"b":8,"c":14}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}

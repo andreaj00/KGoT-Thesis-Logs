@@ -1,0 +1,5 @@
+{"type":"node","id":"53","labels":["Author"],"properties":{"name":"Walt Whitman"}}
+{"type":"node","id":"54","labels":["Book"],"properties":{"title":"Unknown Title"}}
+{"type":"node","id":"55","labels":["MilitaryUnit"],"properties":{"name":"51st New York Volunteer Infantry Regiment","year_joined":1862}}
+{"type":"relationship","id":"8","label":"AUTHORED","start":{"id":"53","labels":["Author"],"properties":{"name":"Walt Whitman"}},"end":{"id":"54","labels":["Book"],"properties":{"title":"Unknown Title"}}}
+{"type":"relationship","id":"60","label":"JOINED","start":{"id":"53","labels":["Author"],"properties":{"name":"Walt Whitman"}},"end":{"id":"55","labels":["MilitaryUnit"],"properties":{"name":"51st New York Volunteer Infantry Regiment","year_joined":1862}}}

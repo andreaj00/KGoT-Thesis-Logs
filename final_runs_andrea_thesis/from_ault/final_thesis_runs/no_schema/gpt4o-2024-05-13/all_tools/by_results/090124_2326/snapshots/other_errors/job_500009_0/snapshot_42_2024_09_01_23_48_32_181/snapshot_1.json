@@ -1,0 +1,8 @@
+{"type":"node","id":"0","labels":["Album"],"properties":{"release_year":1996,"title":"This Fire"}}
+{"type":"node","id":"103","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"104","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}
+{"type":"node","id":"105","labels":["Artist"],"properties":{"name":"Paula Cole"}}
+{"type":"node","id":"106","labels":["Album"],"properties":{"release_year":1994,"title":"Harbinger"}}
+{"type":"relationship","id":"97","label":"RELEASED","start":{"id":"103","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"104","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}}
+{"type":"relationship","id":"98","label":"RELEASED","start":{"id":"105","labels":["Artist"],"properties":{"name":"Paula Cole"}},"end":{"id":"106","labels":["Album"],"properties":{"release_year":1994,"title":"Harbinger"}}}
+{"type":"relationship","id":"99","label":"RELEASED","start":{"id":"105","labels":["Artist"],"properties":{"name":"Paula Cole"}},"end":{"id":"0","labels":["Album"],"properties":{"release_year":1996,"title":"This Fire"}}}

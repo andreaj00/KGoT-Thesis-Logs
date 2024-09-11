@@ -1,0 +1,41 @@
+{"type":"node","id":"13","labels":["Person"],"properties":{"name":"Me"}}
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Mother"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"Father"}}
+{"type":"node","id":"16","labels":["Person"],"properties":{"name":"Twin Brother"}}
+{"type":"node","id":"17","labels":["Person"],"properties":{"name":"Brother's Spouse"}}
+{"type":"node","id":"18","labels":["Person"],"properties":{"name":"Brother's Child 1"}}
+{"type":"node","id":"19","labels":["Person"],"properties":{"name":"Brother's Child 2"}}
+{"type":"node","id":"20","labels":["Person"],"properties":{"name":"Aunt"}}
+{"type":"node","id":"21","labels":["Person"],"properties":{"name":"Aunt's Spouse"}}
+{"type":"node","id":"22","labels":["Person"],"properties":{"name":"Aunt's Child"}}
+{"type":"node","id":"23","labels":["Person"],"properties":{"name":"Grandma"}}
+{"type":"node","id":"24","labels":["Person"],"properties":{"name":"Grandma's Brother"}}
+{"type":"node","id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}}
+{"type":"node","id":"26","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Spouse"}}
+{"type":"node","id":"27","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 1","status":"attending"}}
+{"type":"node","id":"28","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 2","status":"not attending"}}
+{"type":"node","id":"29","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 3","status":"attending"}}
+{"type":"node","id":"30","labels":["Person"],"properties":{"name":"Grandpa","status":"deceased"}}
+{"type":"node","id":"31","labels":["Person"],"properties":{"name":"Grandma's Sister-in-law","status":"deceased"}}
+{"type":"relationship","id":"0","label":"HAS_CHILD","start":{"id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}},"end":{"id":"27","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 1","status":"attending"}}}
+{"type":"relationship","id":"64","label":"MARRIED_TO","start":{"id":"14","labels":["Person"],"properties":{"name":"Mother"}},"end":{"id":"15","labels":["Person"],"properties":{"name":"Father"}}}
+{"type":"relationship","id":"1","label":"HAS_CHILD","start":{"id":"26","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Spouse"}},"end":{"id":"27","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 1","status":"attending"}}}
+{"type":"relationship","id":"65","label":"MARRIED_TO","start":{"id":"16","labels":["Person"],"properties":{"name":"Twin Brother"}},"end":{"id":"17","labels":["Person"],"properties":{"name":"Brother's Spouse"}}}
+{"type":"relationship","id":"2","label":"HAS_CHILD","start":{"id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}},"end":{"id":"28","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 2","status":"not attending"}}}
+{"type":"relationship","id":"66","label":"HAS_CHILD","start":{"id":"16","labels":["Person"],"properties":{"name":"Twin Brother"}},"end":{"id":"18","labels":["Person"],"properties":{"name":"Brother's Child 1"}}}
+{"type":"relationship","id":"3","label":"HAS_CHILD","start":{"id":"26","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Spouse"}},"end":{"id":"28","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 2","status":"not attending"}}}
+{"type":"relationship","id":"67","label":"HAS_CHILD","start":{"id":"16","labels":["Person"],"properties":{"name":"Twin Brother"}},"end":{"id":"19","labels":["Person"],"properties":{"name":"Brother's Child 2"}}}
+{"type":"relationship","id":"4","label":"HAS_CHILD","start":{"id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}},"end":{"id":"29","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 3","status":"attending"}}}
+{"type":"relationship","id":"68","label":"HAS_CHILD","start":{"id":"17","labels":["Person"],"properties":{"name":"Brother's Spouse"}},"end":{"id":"18","labels":["Person"],"properties":{"name":"Brother's Child 1"}}}
+{"type":"relationship","id":"5","label":"HAS_CHILD","start":{"id":"26","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Spouse"}},"end":{"id":"29","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Child 3","status":"attending"}}}
+{"type":"relationship","id":"69","label":"HAS_CHILD","start":{"id":"17","labels":["Person"],"properties":{"name":"Brother's Spouse"}},"end":{"id":"19","labels":["Person"],"properties":{"name":"Brother's Child 2"}}}
+{"type":"relationship","id":"6","label":"MARRIED_TO","start":{"id":"23","labels":["Person"],"properties":{"name":"Grandma"}},"end":{"id":"30","labels":["Person"],"properties":{"name":"Grandpa","status":"deceased"}}}
+{"type":"relationship","id":"70","label":"MARRIED_TO","start":{"id":"20","labels":["Person"],"properties":{"name":"Aunt"}},"end":{"id":"21","labels":["Person"],"properties":{"name":"Aunt's Spouse"}}}
+{"type":"relationship","id":"7","label":"MARRIED_TO","start":{"id":"24","labels":["Person"],"properties":{"name":"Grandma's Brother"}},"end":{"id":"31","labels":["Person"],"properties":{"name":"Grandma's Sister-in-law","status":"deceased"}}}
+{"type":"relationship","id":"71","label":"HAS_CHILD","start":{"id":"20","labels":["Person"],"properties":{"name":"Aunt"}},"end":{"id":"22","labels":["Person"],"properties":{"name":"Aunt's Child"}}}
+{"type":"relationship","id":"72","label":"HAS_CHILD","start":{"id":"21","labels":["Person"],"properties":{"name":"Aunt's Spouse"}},"end":{"id":"22","labels":["Person"],"properties":{"name":"Aunt's Child"}}}
+{"type":"relationship","id":"73","label":"HAS_SIBLING","start":{"id":"23","labels":["Person"],"properties":{"name":"Grandma"}},"end":{"id":"24","labels":["Person"],"properties":{"name":"Grandma's Brother"}}}
+{"type":"relationship","id":"74","label":"HAS_CHILD","start":{"id":"24","labels":["Person"],"properties":{"name":"Grandma's Brother"}},"end":{"id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}}}
+{"type":"relationship","id":"75","label":"MARRIED_TO","start":{"id":"25","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter"}},"end":{"id":"26","labels":["Person"],"properties":{"name":"Grandma's Brother's Daughter's Spouse"}}}
+{"type":"relationship","id":"62","label":"HAS_PARENT","start":{"id":"13","labels":["Person"],"properties":{"name":"Me"}},"end":{"id":"14","labels":["Person"],"properties":{"name":"Mother"}}}
+{"type":"relationship","id":"63","label":"HAS_PARENT","start":{"id":"13","labels":["Person"],"properties":{"name":"Me"}},"end":{"id":"15","labels":["Person"],"properties":{"name":"Father"}}}

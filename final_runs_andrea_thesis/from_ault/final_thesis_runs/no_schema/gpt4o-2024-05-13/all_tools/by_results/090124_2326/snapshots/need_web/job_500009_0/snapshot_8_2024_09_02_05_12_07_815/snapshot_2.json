@@ -1,0 +1,7 @@
+{"type":"node","id":"26","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/9533","date_regression_added":"08/08/17"}}
+{"type":"node","id":"27","labels":["Label"],"properties":{"name":"Regression"}}
+{"type":"node","id":"28","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/5354","date_regression_added":"12/22/14"}}
+{"type":"node","id":"29","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/18341","date_regression_added":"02/05/21"}}
+{"type":"relationship","id":"58","label":"HAS_LABEL","start":{"id":"26","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/9533","date_regression_added":"08/08/17"}},"end":{"id":"27","labels":["Label"],"properties":{"name":"Regression"}}}
+{"type":"relationship","id":"59","label":"HAS_LABEL","start":{"id":"28","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/5354","date_regression_added":"12/22/14"}},"end":{"id":"27","labels":["Label"],"properties":{"name":"Regression"}}}
+{"type":"relationship","id":"60","label":"HAS_LABEL","start":{"id":"29","labels":["Issue"],"properties":{"source":"https://github.com/numpy/numpy/issues/18341","date_regression_added":"02/05/21"}},"end":{"id":"27","labels":["Label"],"properties":{"name":"Regression"}}}

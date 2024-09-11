@@ -1,0 +1,5 @@
+{"type":"node","id":"96","labels":["MagazineIssue"],"properties":{"month":"August","year":2021,"title":"Vogue"}}
+{"type":"node","id":"97","labels":["Person"],"properties":{"name":"Dr. Jill Biden"}}
+{"type":"node","id":"98","labels":["Landmark"],"properties":{"name":"Washington Monument","height_yards":555}}
+{"type":"relationship","id":"139","label":"FEATURES","start":{"id":"96","labels":["MagazineIssue"],"properties":{"month":"August","year":2021,"title":"Vogue"}},"end":{"id":"97","labels":["Person"],"properties":{"name":"Dr. Jill Biden"}}}
+{"type":"relationship","id":"140","label":"SHOWS","start":{"id":"96","labels":["MagazineIssue"],"properties":{"month":"August","year":2021,"title":"Vogue"}},"end":{"id":"98","labels":["Landmark"],"properties":{"name":"Washington Monument","height_yards":555}}}

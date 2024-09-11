@@ -1,0 +1,7 @@
+{"type":"node","id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}
+{"type":"node","id":"44","labels":["Author"],"properties":{"name":"Andy Cockburn"}}
+{"type":"node","id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}}
+{"type":"node","id":"46","labels":["Author"],"properties":{"name":"Carl Gutwin"}}
+{"type":"relationship","id":"121","label":"AUTHORED","start":{"id":"44","labels":["Author"],"properties":{"name":"Andy Cockburn"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"122","label":"AUTHORED","start":{"id":"45","labels":["Author"],"properties":{"name":"Philip Quinn"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}
+{"type":"relationship","id":"123","label":"AUTHORED","start":{"id":"46","labels":["Author"],"properties":{"name":"Carl Gutwin"}},"end":{"id":"13","labels":["Paper"],"properties":{"year":2015,"description":"This paper investigates the efficiency and usability of pie menus compared to linear menus.","title":"Pie Menus or Linear Menus, Which Is Better?"}}}

@@ -1,0 +1,7 @@
+{"type":"node","id":"36","labels":["Game"],"properties":{"year":2006,"title":"Sonic the Hedgehog"}}
+{"type":"node","id":"37","labels":["Channel"],"properties":{"name":"Game Grumps"}}
+{"type":"node","id":"38","labels":["Episode"],"properties":{"year":2012,"title":"First Episode"}}
+{"type":"node","id":"39","labels":["Phrase"],"properties":{"text":"This is anal sauce! It's so bad it's a work of art! It's a fine, delicately-crafted sculpture of shit! And I'm impressed.","e_count":3}}
+{"type":"relationship","id":"48","label":"DISPLAYS","start":{"id":"38","labels":["Episode"],"properties":{"year":2012,"title":"First Episode"}},"end":{"id":"39","labels":["Phrase"],"properties":{"text":"This is anal sauce! It's so bad it's a work of art! It's a fine, delicately-crafted sculpture of shit! And I'm impressed.","e_count":3}}}
+{"type":"relationship","id":"46","label":"PLAYS","start":{"id":"37","labels":["Channel"],"properties":{"name":"Game Grumps"}},"end":{"id":"36","labels":["Game"],"properties":{"year":2006,"title":"Sonic the Hedgehog"}}}
+{"type":"relationship","id":"47","label":"HAS_EPISODE","start":{"id":"37","labels":["Channel"],"properties":{"name":"Game Grumps"}},"end":{"id":"38","labels":["Episode"],"properties":{"year":2012,"title":"First Episode"}}}

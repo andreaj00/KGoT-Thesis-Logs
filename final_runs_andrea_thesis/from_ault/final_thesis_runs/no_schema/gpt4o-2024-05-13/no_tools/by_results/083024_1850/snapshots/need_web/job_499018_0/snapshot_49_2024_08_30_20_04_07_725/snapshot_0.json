@@ -1,0 +1,6 @@
+{"type":"node","id":"30","labels":["Author"],"properties":{"name":"Valentina Re"}}
+{"type":"node","id":"31","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}}
+{"type":"node","id":"32","labels":["Movie"],"properties":{"genre":"Horror","title":"A Nightmare on Elm Street"}}
+{"type":"relationship","id":"23","label":"CONTRIBUTED_TO","start":{"id":"30","labels":["Author"],"properties":{"name":"Valentina Re"}},"end":{"id":"31","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}}}
+{"type":"relationship","id":"24","label":"CITES","properties":{"context":"metalepsis between a dream world and reality"},"start":{"id":"30","labels":["Author"],"properties":{"name":"Valentina Re"}},"end":{"id":"32","labels":["Movie"],"properties":{"genre":"Horror","title":"A Nightmare on Elm Street"}}}
+{"type":"relationship","id":"25","label":"MENTIONS","start":{"id":"31","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}},"end":{"id":"32","labels":["Movie"],"properties":{"genre":"Horror","title":"A Nightmare on Elm Street"}}}

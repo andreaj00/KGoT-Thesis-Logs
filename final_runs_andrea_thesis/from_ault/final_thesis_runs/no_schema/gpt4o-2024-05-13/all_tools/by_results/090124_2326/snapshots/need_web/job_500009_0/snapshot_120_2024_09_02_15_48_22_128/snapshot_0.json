@@ -1,0 +1,3 @@
+{"type":"node","id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}}
+{"type":"node","id":"44","labels":["Feature"],"properties":{"f1_score":0.838,"name":"Late Fusion Method"}}
+{"type":"relationship","id":"11","label":"USES","start":{"id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}},"end":{"id":"44","labels":["Feature"],"properties":{"f1_score":0.838,"name":"Late Fusion Method"}}}

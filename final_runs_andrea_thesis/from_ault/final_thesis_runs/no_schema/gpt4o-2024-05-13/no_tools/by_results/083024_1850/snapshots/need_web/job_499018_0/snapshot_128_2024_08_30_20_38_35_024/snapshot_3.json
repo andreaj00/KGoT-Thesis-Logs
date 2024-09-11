@@ -1,0 +1,29 @@
+{"type":"node","id":"82","labels":["FederalRule"],"properties":{"name":"Federal Rules of Appellate Procedure"}}
+{"type":"node","id":"83","labels":["FederalRule"],"properties":{"name":"Federal Rules of Bankruptcy Procedure"}}
+{"type":"node","id":"84","labels":["FederalRule"],"properties":{"name":"Federal Rules of Civil Procedure"}}
+{"type":"node","id":"85","labels":["FederalRule"],"properties":{"name":"Federal Rules of Criminal Procedure"}}
+{"type":"node","id":"86","labels":["FederalRule"],"properties":{"name":"Federal Rules of Evidence"}}
+{"type":"node","id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}}
+{"type":"node","id":"88","labels":["Rule"],"properties":{"name":"Rule 101: Scope; Definitions"}}
+{"type":"node","id":"89","labels":["Rule"],"properties":{"name":"Rule 102: Purpose"}}
+{"type":"node","id":"90","labels":["Rule"],"properties":{"name":"Rule 103: Rulings on Evidence"}}
+{"type":"node","id":"91","labels":["Rule"],"properties":{"name":"Rule 104: Preliminary Questions"}}
+{"type":"node","id":"92","labels":["Rule"],"properties":{"name":"Rule 105: Limiting Evidence That Is Not Admissible Against Other Parties or for Other Purposes"}}
+{"type":"node","id":"93","labels":["Rule"],"properties":{"name":"Rule 106: Remainder of or Related Writings or Recorded Statements"}}
+{"type":"node","id":"94","labels":["Article"],"properties":{"name":"Article II: Judicial Notice"}}
+{"type":"node","id":"95","labels":["Rule"],"properties":{"name":"Rule 201: Judicial Notice of Adjudicative Facts"}}
+{"type":"node","id":"96","labels":["Article"],"properties":{"name":"Article III: Presumptions in Civil Cases"}}
+{"type":"node","id":"97","labels":["Rule"],"properties":{"name":"Rule 301: Presumptions in Civil Cases Generally"}}
+{"type":"node","id":"98","labels":["Rule"],"properties":{"name":"Rule 302: Applying State Law to Presumptions in Civil Cases"}}
+{"type":"relationship","id":"32","label":"CONTAINS","start":{"id":"86","labels":["FederalRule"],"properties":{"name":"Federal Rules of Evidence"}},"end":{"id":"96","labels":["Article"],"properties":{"name":"Article III: Presumptions in Civil Cases"}}}
+{"type":"relationship","id":"33","label":"CONTAINS","start":{"id":"96","labels":["Article"],"properties":{"name":"Article III: Presumptions in Civil Cases"}},"end":{"id":"97","labels":["Rule"],"properties":{"name":"Rule 301: Presumptions in Civil Cases Generally"}}}
+{"type":"relationship","id":"34","label":"CONTAINS","start":{"id":"96","labels":["Article"],"properties":{"name":"Article III: Presumptions in Civil Cases"}},"end":{"id":"98","labels":["Rule"],"properties":{"name":"Rule 302: Applying State Law to Presumptions in Civil Cases"}}}
+{"type":"relationship","id":"23","label":"CONTAINS","start":{"id":"86","labels":["FederalRule"],"properties":{"name":"Federal Rules of Evidence"}},"end":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}}}
+{"type":"relationship","id":"24","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"88","labels":["Rule"],"properties":{"name":"Rule 101: Scope; Definitions"}}}
+{"type":"relationship","id":"25","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"89","labels":["Rule"],"properties":{"name":"Rule 102: Purpose"}}}
+{"type":"relationship","id":"26","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"90","labels":["Rule"],"properties":{"name":"Rule 103: Rulings on Evidence"}}}
+{"type":"relationship","id":"27","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"91","labels":["Rule"],"properties":{"name":"Rule 104: Preliminary Questions"}}}
+{"type":"relationship","id":"28","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"92","labels":["Rule"],"properties":{"name":"Rule 105: Limiting Evidence That Is Not Admissible Against Other Parties or for Other Purposes"}}}
+{"type":"relationship","id":"29","label":"CONTAINS","start":{"id":"87","labels":["Article"],"properties":{"name":"Article I: General Provisions"}},"end":{"id":"93","labels":["Rule"],"properties":{"name":"Rule 106: Remainder of or Related Writings or Recorded Statements"}}}
+{"type":"relationship","id":"30","label":"CONTAINS","start":{"id":"86","labels":["FederalRule"],"properties":{"name":"Federal Rules of Evidence"}},"end":{"id":"94","labels":["Article"],"properties":{"name":"Article II: Judicial Notice"}}}
+{"type":"relationship","id":"31","label":"CONTAINS","start":{"id":"94","labels":["Article"],"properties":{"name":"Article II: Judicial Notice"}},"end":{"id":"95","labels":["Rule"],"properties":{"name":"Rule 201: Judicial Notice of Adjudicative Facts"}}}

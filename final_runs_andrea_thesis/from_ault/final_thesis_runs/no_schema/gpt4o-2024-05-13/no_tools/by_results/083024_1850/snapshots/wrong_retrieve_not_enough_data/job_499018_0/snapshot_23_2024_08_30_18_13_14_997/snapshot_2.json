@@ -1,0 +1,9 @@
+{"type":"node","id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"name":"Cambodia"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"name":"Phnom Penh"}}
+{"type":"node","id":"6","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"72","labels":["City"],"properties":{"name":"Jakarta"}}
+{"type":"relationship","id":"64","label":"HAS_CAPITAL","start":{"id":"6","labels":["Country"],"properties":{"name":"Indonesia"}},"end":{"id":"72","labels":["City"],"properties":{"name":"Jakarta"}}}
+{"type":"relationship","id":"62","label":"HAS_CAPITAL","start":{"id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}},"end":{"id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}}
+{"type":"relationship","id":"63","label":"HAS_CAPITAL","start":{"id":"4","labels":["Country"],"properties":{"name":"Cambodia"}},"end":{"id":"5","labels":["City"],"properties":{"name":"Phnom Penh"}}}

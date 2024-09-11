@@ -1,0 +1,222 @@
+[
+    {
+        "question_number": 5,
+        "correct_answer": "Time-Parking 2: Parallel Universe",
+        "returned_answer": "Time-Parking 2: Parallel Universe",
+        "successful": true,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. Microsoft Excel",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 6,
+        "correct_answer": "3",
+        "returned_answer": "5",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. web browser\n2. google search",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 34,
+        "correct_answer": "Right",
+        "returned_answer": "In social and political discussions, \"right\" can refer to a political ideology or group, such as \"right-wing\" politics which emphasize tradition, hierarchy, and free market principles, contrasting with \"left-wing\" politics that advocate for social equality and government intervention. In legal terms, \"right\" refers to entitlements or privileges granted by law, for example: \"Everyone has the right to a fair trial.\" and \"Property rights protect individuals' ownership of their possessions.\" In moral or ethical discussions, \"right\" refers to actions, decisions, or principles that are considered morally good, just, or acceptable, contrasting with \"wrong.\" For instance: \"It is right to help those in need.\" and \"Lying is generally considered wrong, while telling the truth is seen as the right thing to do.\" This context also relates to human rights, which are fundamental rights every individual is entitled to, such as the right to free speech, the right to education, and the right to equality. In terms of correctness or accuracy, \"right\" signifies something that is true, correct, or appropriate, often applied in academic, logical, or practical contexts, such as: \"Your answer to the math problem is right.\" and \"It\u2019s right to follow the rules in this situation.\" In this sense, \"right\" can imply a standard or norm against which something is measured, like a \"right\" answer in a test. Lastly, in the context of direction, \"right\" refers to one of the cardinal directions, opposite of \"left,\" indicating a turn or movement towards the right side, for example: \"Turn right at the next intersection.\" and \"The store is on your right.\"",
+        "successful": false,
+        "level": "1",
+        "num_steps": "1",
+        "tools": "1. A word reversal tool / script",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 39,
+        "correct_answer": "(\u00acA \u2192 B) \u2194 (A \u2228 \u00acB)",
+        "returned_answer": "\u00ac(A \u2192 B) \u2194 (A \u2227 \u00acB)",
+        "successful": false,
+        "level": "1",
+        "num_steps": "9",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 48,
+        "correct_answer": "17",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. PDF access\n2. Excel file access",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 53,
+        "correct_answer": "Finance",
+        "returned_answer": "Finance",
+        "successful": true,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. Microsoft Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 61,
+        "correct_answer": "b, e",
+        "returned_answer": "b, c, d, e",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Markdown",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 64,
+        "correct_answer": "7",
+        "returned_answer": "7",
+        "successful": true,
+        "level": "2",
+        "num_steps": "2",
+        "tools": "1. PDF viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 77,
+        "correct_answer": "3",
+        "returned_answer": "1",
+        "successful": false,
+        "level": "1",
+        "num_steps": "12",
+        "tools": "1. Text Editor",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 88,
+        "correct_answer": "60",
+        "returned_answer": "44",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Microsoft Excel\n2. Search engine\n3. Web browser\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 92,
+        "correct_answer": "Wharvton",
+        "returned_answer": "Wharvton had greater total sales with $12,055 compared to Algrimand's $11,907.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 105,
+        "correct_answer": "cornstarch, freshly squeezed lemon juice, granulated sugar, pure vanilla extract, ripe strawberries",
+        "returned_answer": "error during execution, skipped. cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3'\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 140, in run\n    solution = self._solve_problem_iterative_knowledge_graph(problem)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 249, in _solve_problem_iterative_knowledge_graph\n    tools_results = self._invoke_tools_after_llm_response(tool_calls)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 395, in _invoke_tools_after_llm_response\n    tool_output = self._invoke_tool_with_retry(selected_tool, tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 330, in wrapped_f\n    return self(f, *args, **kw)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 467, in __call__\n    do = self.iter(retry_state=retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 368, in iter\n    result = action(retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 390, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 451, in result\n    return self.__get_result()\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 403, in __get_result\n    raise self._exception\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 470, in __call__\n    result = fn(*args, **kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 353, in _invoke_tool_with_retry\n    tool_output = selected_tool.invoke(input=tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 422, in invoke\n    return self.run(tool_input, **kwargs)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 610, in run\n    raise error_to_raise\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 579, in run\n    response = context.run(self._run, *tool_args, **tool_kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 113, in _run\n    image_format = self.get_image_type(full_path_to_image).lower()  # Usually PNG or JPEG, but need png or jpeg\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 78, in get_image_type\n    with Image.open(file_path) as img:\n  File \"/home/andrea/.local/lib/python3.10/site-packages/PIL/Image.py\", line 3498, in open\n    raise UnidentifiedImageError(msg)\nPIL.UnidentifiedImageError: cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3'\n",
+        "successful": false,
+        "level": "1",
+        "num_steps": "5",
+        "tools": "1. A file interface\n2. A speech-to-text tool",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 122,
+        "correct_answer": "6",
+        "returned_answer": "6",
+        "successful": true,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 126,
+        "correct_answer": "Out of the Silent Planet",
+        "returned_answer": "The Lost Symbol",
+        "successful": false,
+        "level": "3",
+        "num_steps": "44",
+        "tools": "1. Microsoft Excel / Google Sheets\n2. Search engine\n3. Web browser\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 135,
+        "correct_answer": "Michele Fitzgerald",
+        "returned_answer": "Mike Gabler",
+        "successful": false,
+        "level": "2",
+        "num_steps": "I have five main processes listed but the individual steps for each winner (and any confirmation searches) would place it into the 40-60 range.",
+        "tools": "1. web browser\n2. search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 140,
+        "correct_answer": "Berkshire",
+        "returned_answer": "Berkshire",
+        "successful": true,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Microsoft Excel\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 142,
+        "correct_answer": "1 in 3",
+        "returned_answer": "1 in 4",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Microsoft Excel",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 143,
+        "correct_answer": "132, 133, 134, 197, 245",
+        "returned_answer": "error during execution, skipped. cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3'\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 140, in run\n    solution = self._solve_problem_iterative_knowledge_graph(problem)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 249, in _solve_problem_iterative_knowledge_graph\n    tools_results = self._invoke_tools_after_llm_response(tool_calls)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 395, in _invoke_tools_after_llm_response\n    tool_output = self._invoke_tool_with_retry(selected_tool, tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 330, in wrapped_f\n    return self(f, *args, **kw)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 467, in __call__\n    do = self.iter(retry_state=retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 368, in iter\n    result = action(retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 390, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 451, in result\n    return self.__get_result()\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 403, in __get_result\n    raise self._exception\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 470, in __call__\n    result = fn(*args, **kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 353, in _invoke_tool_with_retry\n    tool_output = selected_tool.invoke(input=tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 422, in invoke\n    return self.run(tool_input, **kwargs)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 610, in run\n    raise error_to_raise\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 579, in run\n    response = context.run(self._run, *tool_args, **tool_kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 113, in _run\n    image_format = self.get_image_type(full_path_to_image).lower()  # Usually PNG or JPEG, but need png or jpeg\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 78, in get_image_type\n    with Image.open(file_path) as img:\n  File \"/home/andrea/.local/lib/python3.10/site-packages/PIL/Image.py\", line 3498, in open\n    raise UnidentifiedImageError(msg)\nPIL.UnidentifiedImageError: cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3'\n",
+        "successful": false,
+        "level": "1",
+        "num_steps": "5",
+        "tools": "1. A file interface\n2. A speech-to-text audio processing tool",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 154,
+        "correct_answer": "CUB",
+        "returned_answer": "None",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 157,
+        "correct_answer": "89706.00",
+        "returned_answer": "0.00",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 158,
+        "correct_answer": "Claus",
+        "returned_answer": "Claus Peter",
+        "successful": false,
+        "level": "1",
+        "num_steps": "2",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 162,
+        "correct_answer": "10",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    }
+]

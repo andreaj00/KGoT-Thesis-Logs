@@ -1,0 +1,23 @@
+{"type":"node","id":"60","labels":["Class"],"properties":{"armor_type":"cloth","roles":["healer","DPS"],"name":"Priest"}}
+{"type":"node","id":"61","labels":["Class"],"properties":{"armor_type":"plate","roles":["tank","healer","DPS"],"name":"Paladin"}}
+{"type":"node","id":"62","labels":["Spell"],"properties":{"type":"holy"}}
+{"type":"node","id":"63","labels":["Class"],"properties":{"armor_type":"leather","can_transform":"bear","roles":["tank","healer","DPS"],"name":"Druid"}}
+{"type":"node","id":"64","labels":["Class"],"properties":{"armor_type":"plate","roles":["tank","DPS"],"name":"Death Knight"}}
+{"type":"node","id":"65","labels":["Class"],"properties":{"armor_type":"leather","roles":["tank","DPS"],"name":"Demon Hunter"}}
+{"type":"node","id":"66","labels":["Class"],"properties":{"armor_type":"mail","roles":["DPS"],"name":"Hunter"}}
+{"type":"node","id":"67","labels":["Class"],"properties":{"armor_type":"cloth","roles":["DPS"],"name":"Mage"}}
+{"type":"node","id":"68","labels":["Class"],"properties":{"name":"Monk"}}
+{"type":"node","id":"69","labels":["Class"],"properties":{"name":"Rogue"}}
+{"type":"node","id":"70","labels":["Class"],"properties":{"name":"Shaman"}}
+{"type":"node","id":"71","labels":["Class"],"properties":{"name":"Warlock"}}
+{"type":"node","id":"72","labels":["Class"],"properties":{"name":"Warrior"}}
+{"type":"node","id":"73","labels":["Spell"],"properties":{"type":"ice"}}
+{"type":"node","id":"74","labels":["Spell"],"properties":{"type":"fire"}}
+{"type":"node","id":"75","labels":["Spell"],"properties":{"type":"metamorphosis"}}
+{"type":"node","id":"76","labels":["Spell"],"properties":{"type":"holy"}}
+{"type":"relationship","id":"2","label":"CAN_CAST","properties":{"spell_type":"holy"},"start":{"id":"60","labels":["Class"],"properties":{"armor_type":"cloth","roles":["healer","DPS"],"name":"Priest"}},"end":{"id":"62","labels":["Spell"],"properties":{"type":"holy"}}}
+{"type":"relationship","id":"3","label":"CAN_CAST","properties":{"spell_type":"holy"},"start":{"id":"61","labels":["Class"],"properties":{"armor_type":"plate","roles":["tank","healer","DPS"],"name":"Paladin"}},"end":{"id":"62","labels":["Spell"],"properties":{"type":"holy"}}}
+{"type":"relationship","id":"4","label":"CAN_CAST","start":{"id":"67","labels":["Class"],"properties":{"armor_type":"cloth","roles":["DPS"],"name":"Mage"}},"end":{"id":"73","labels":["Spell"],"properties":{"type":"ice"}}}
+{"type":"relationship","id":"5","label":"CAN_CAST","start":{"id":"67","labels":["Class"],"properties":{"armor_type":"cloth","roles":["DPS"],"name":"Mage"}},"end":{"id":"74","labels":["Spell"],"properties":{"type":"fire"}}}
+{"type":"relationship","id":"6","label":"CAN_CAST","start":{"id":"65","labels":["Class"],"properties":{"armor_type":"leather","roles":["tank","DPS"],"name":"Demon Hunter"}},"end":{"id":"75","labels":["Spell"],"properties":{"type":"metamorphosis"}}}
+{"type":"relationship","id":"7","label":"CAN_CAST","properties":{"spell_type":"holy"},"start":{"id":"63","labels":["Class"],"properties":{"armor_type":"leather","can_transform":"bear","roles":["tank","healer","DPS"],"name":"Druid"}},"end":{"id":"76","labels":["Spell"],"properties":{"type":"holy"}}}

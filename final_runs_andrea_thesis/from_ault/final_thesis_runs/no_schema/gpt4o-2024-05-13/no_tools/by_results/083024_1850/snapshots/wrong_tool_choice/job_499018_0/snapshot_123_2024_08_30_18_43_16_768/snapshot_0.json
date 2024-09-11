@@ -1,0 +1,5 @@
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"16","labels":["Game"],"properties":{"name":"Game Show"}}
+{"type":"relationship","id":"106","label":"PARTICIPATES_IN","start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"107","label":"HOSTS","start":{"id":"15","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}

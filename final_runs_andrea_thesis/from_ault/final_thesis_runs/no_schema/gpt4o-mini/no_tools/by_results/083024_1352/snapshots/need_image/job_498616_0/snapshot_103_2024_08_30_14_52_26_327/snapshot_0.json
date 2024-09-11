@@ -1,0 +1,11 @@
+{"type":"node","id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}}
+{"type":"node","id":"5","labels":["Problem"],"properties":{"type":"add_subtract_fractions","points":5}}
+{"type":"node","id":"6","labels":["Problem"],"properties":{"type":"multiply_divide_fractions","points":10}}
+{"type":"node","id":"7","labels":["Problem"],"properties":{"type":"improper_fraction","points":15}}
+{"type":"node","id":"8","labels":["Problem"],"properties":{"type":"mixed_number","points":20}}
+{"type":"node","id":"9","labels":["Bonus"],"properties":{"points":5}}
+{"type":"relationship","id":"36","label":"HAS_PROBLEM","start":{"id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}},"end":{"id":"5","labels":["Problem"],"properties":{"type":"add_subtract_fractions","points":5}}}
+{"type":"relationship","id":"37","label":"HAS_PROBLEM","start":{"id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}},"end":{"id":"6","labels":["Problem"],"properties":{"type":"multiply_divide_fractions","points":10}}}
+{"type":"relationship","id":"38","label":"HAS_PROBLEM","start":{"id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}},"end":{"id":"7","labels":["Problem"],"properties":{"type":"improper_fraction","points":15}}}
+{"type":"relationship","id":"39","label":"HAS_PROBLEM","start":{"id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}},"end":{"id":"8","labels":["Problem"],"properties":{"type":"mixed_number","points":20}}}
+{"type":"relationship","id":"40","label":"HAS_BONUS","start":{"id":"4","labels":["Quiz"],"properties":{"description":"Fraction Operations Quiz","id":"1"}},"end":{"id":"9","labels":["Bonus"],"properties":{"points":5}}}

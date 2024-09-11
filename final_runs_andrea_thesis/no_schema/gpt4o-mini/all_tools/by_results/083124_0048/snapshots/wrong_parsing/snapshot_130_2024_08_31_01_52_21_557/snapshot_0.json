@@ -1,0 +1,6 @@
+{"type":"node","id":"50","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}
+{"type":"node","id":"51","labels":["City"],"properties":{"name":"Honolulu","state":"Hawaii"}}
+{"type":"node","id":"52","labels":["President"],"properties":{"birth_date":"1732-02-22","name":"George Washington"}}
+{"type":"node","id":"53","labels":["President"],"properties":{"birth_date":"1961-08-04","name":"Barack Obama"}}
+{"type":"relationship","id":"2","label":"BORN_IN","start":{"id":"50","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}},"end":{"id":"52","labels":["President"],"properties":{"birth_date":"1732-02-22","name":"George Washington"}}}
+{"type":"relationship","id":"3","label":"BORN_IN","start":{"id":"51","labels":["City"],"properties":{"name":"Honolulu","state":"Hawaii"}},"end":{"id":"53","labels":["President"],"properties":{"birth_date":"1961-08-04","name":"Barack Obama"}}}

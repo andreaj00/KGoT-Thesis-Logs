@@ -1,0 +1,5 @@
+{"type":"node","id":"13","labels":["Article"],"properties":{"topic":"A decade overview covering significant events, trends, and cultural shifts from the year 2000 to 2009","title":"The 2000s"}}
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"PresN"}}
+{"type":"node","id":"15","labels":["Article"],"properties":{"topic":"A decade overview detailing major occurrences, societal changes, and notable phenomena from the year 2010 to 2019","title":"The 2010s"}}
+{"type":"relationship","id":"98","label":"NOMINATED","start":{"id":"14","labels":["Person"],"properties":{"name":"PresN"}},"end":{"id":"13","labels":["Article"],"properties":{"topic":"A decade overview covering significant events, trends, and cultural shifts from the year 2000 to 2009","title":"The 2000s"}}}
+{"type":"relationship","id":"99","label":"NOMINATED","start":{"id":"14","labels":["Person"],"properties":{"name":"PresN"}},"end":{"id":"15","labels":["Article"],"properties":{"topic":"A decade overview detailing major occurrences, societal changes, and notable phenomena from the year 2010 to 2019","title":"The 2010s"}}}

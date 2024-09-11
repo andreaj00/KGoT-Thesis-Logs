@@ -1,0 +1,36 @@
+{"type":"node","id":"0","labels":["Station"],"properties":{"name":"Windsor Gardens"}}
+{"type":"node","id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}}
+{"type":"node","id":"35","labels":["Station"],"properties":{"name":"South Station"}}
+{"type":"node","id":"36","labels":["Station"],"properties":{"name":"Back Bay"}}
+{"type":"node","id":"37","labels":["Station"],"properties":{"name":"Ruggles"}}
+{"type":"node","id":"38","labels":["Station"],"properties":{"name":"Forest Hills"}}
+{"type":"node","id":"39","labels":["Station"],"properties":{"name":"Hyde Park"}}
+{"type":"node","id":"40","labels":["Station"],"properties":{"name":"Readville"}}
+{"type":"node","id":"41","labels":["Station"],"properties":{"name":"Endicott"}}
+{"type":"node","id":"42","labels":["Station"],"properties":{"name":"Dedham Corporate Center"}}
+{"type":"node","id":"43","labels":["Station"],"properties":{"name":"Islington"}}
+{"type":"node","id":"44","labels":["Station"],"properties":{"name":"Norwood Depot"}}
+{"type":"node","id":"45","labels":["Station"],"properties":{"name":"Norwood Central"}}
+{"type":"relationship","id":"133","label":"NEXT_STOP","start":{"id":"35","labels":["Station"],"properties":{"name":"South Station"}},"end":{"id":"36","labels":["Station"],"properties":{"name":"Back Bay"}}}
+{"type":"relationship","id":"134","label":"NEXT_STOP","start":{"id":"36","labels":["Station"],"properties":{"name":"Back Bay"}},"end":{"id":"37","labels":["Station"],"properties":{"name":"Ruggles"}}}
+{"type":"relationship","id":"135","label":"NEXT_STOP","start":{"id":"37","labels":["Station"],"properties":{"name":"Ruggles"}},"end":{"id":"38","labels":["Station"],"properties":{"name":"Forest Hills"}}}
+{"type":"relationship","id":"136","label":"NEXT_STOP","start":{"id":"38","labels":["Station"],"properties":{"name":"Forest Hills"}},"end":{"id":"39","labels":["Station"],"properties":{"name":"Hyde Park"}}}
+{"type":"relationship","id":"137","label":"NEXT_STOP","start":{"id":"39","labels":["Station"],"properties":{"name":"Hyde Park"}},"end":{"id":"40","labels":["Station"],"properties":{"name":"Readville"}}}
+{"type":"relationship","id":"138","label":"NEXT_STOP","start":{"id":"40","labels":["Station"],"properties":{"name":"Readville"}},"end":{"id":"41","labels":["Station"],"properties":{"name":"Endicott"}}}
+{"type":"relationship","id":"139","label":"NEXT_STOP","start":{"id":"41","labels":["Station"],"properties":{"name":"Endicott"}},"end":{"id":"42","labels":["Station"],"properties":{"name":"Dedham Corporate Center"}}}
+{"type":"relationship","id":"140","label":"NEXT_STOP","start":{"id":"42","labels":["Station"],"properties":{"name":"Dedham Corporate Center"}},"end":{"id":"43","labels":["Station"],"properties":{"name":"Islington"}}}
+{"type":"relationship","id":"141","label":"NEXT_STOP","start":{"id":"43","labels":["Station"],"properties":{"name":"Islington"}},"end":{"id":"44","labels":["Station"],"properties":{"name":"Norwood Depot"}}}
+{"type":"relationship","id":"142","label":"NEXT_STOP","start":{"id":"44","labels":["Station"],"properties":{"name":"Norwood Depot"}},"end":{"id":"45","labels":["Station"],"properties":{"name":"Norwood Central"}}}
+{"type":"relationship","id":"143","label":"NEXT_STOP","start":{"id":"45","labels":["Station"],"properties":{"name":"Norwood Central"}},"end":{"id":"0","labels":["Station"],"properties":{"name":"Windsor Gardens"}}}
+{"type":"relationship","id":"144","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"35","labels":["Station"],"properties":{"name":"South Station"}}}
+{"type":"relationship","id":"145","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"36","labels":["Station"],"properties":{"name":"Back Bay"}}}
+{"type":"relationship","id":"146","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"37","labels":["Station"],"properties":{"name":"Ruggles"}}}
+{"type":"relationship","id":"147","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"38","labels":["Station"],"properties":{"name":"Forest Hills"}}}
+{"type":"relationship","id":"148","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"39","labels":["Station"],"properties":{"name":"Hyde Park"}}}
+{"type":"relationship","id":"149","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"40","labels":["Station"],"properties":{"name":"Readville"}}}
+{"type":"relationship","id":"150","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"41","labels":["Station"],"properties":{"name":"Endicott"}}}
+{"type":"relationship","id":"151","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"42","labels":["Station"],"properties":{"name":"Dedham Corporate Center"}}}
+{"type":"relationship","id":"152","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"43","labels":["Station"],"properties":{"name":"Islington"}}}
+{"type":"relationship","id":"153","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"44","labels":["Station"],"properties":{"name":"Norwood Depot"}}}
+{"type":"relationship","id":"154","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"45","labels":["Station"],"properties":{"name":"Norwood Central"}}}
+{"type":"relationship","id":"155","label":"HAS_STOP","start":{"id":"34","labels":["TrainLine"],"properties":{"name":"Franklin-Foxboro Line"}},"end":{"id":"0","labels":["Station"],"properties":{"name":"Windsor Gardens"}}}

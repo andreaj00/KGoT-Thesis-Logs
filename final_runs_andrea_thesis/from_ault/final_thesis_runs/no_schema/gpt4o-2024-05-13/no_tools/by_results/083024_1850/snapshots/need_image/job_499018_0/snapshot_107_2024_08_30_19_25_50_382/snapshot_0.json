@@ -1,0 +1,3 @@
+{"type":"node","id":"96","labels":["Function"],"properties":{"name":"load_documents"}}
+{"type":"node","id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}
+{"type":"relationship","id":"56","label":"USES","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}}

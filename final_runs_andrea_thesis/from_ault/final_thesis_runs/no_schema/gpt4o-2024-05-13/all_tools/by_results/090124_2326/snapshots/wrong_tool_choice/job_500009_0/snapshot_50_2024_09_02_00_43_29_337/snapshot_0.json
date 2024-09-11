@@ -1,0 +1,7 @@
+{"type":"node","id":"73","labels":["Sentence"],"properties":{"text":"Maktay Zapple Mato"}}
+{"type":"node","id":"74","labels":["Word"],"properties":{"text":"Maktay","type":"Verb"}}
+{"type":"node","id":"75","labels":["Word"],"properties":{"text":"Zapple","type":"DirectObject"}}
+{"type":"node","id":"76","labels":["Word"],"properties":{"text":"Mato","type":"Subject"}}
+{"type":"relationship","id":"32","label":"CONTAINS","start":{"id":"73","labels":["Sentence"],"properties":{"text":"Maktay Zapple Mato"}},"end":{"id":"74","labels":["Word"],"properties":{"text":"Maktay","type":"Verb"}}}
+{"type":"relationship","id":"33","label":"CONTAINS","start":{"id":"73","labels":["Sentence"],"properties":{"text":"Maktay Zapple Mato"}},"end":{"id":"75","labels":["Word"],"properties":{"text":"Zapple","type":"DirectObject"}}}
+{"type":"relationship","id":"34","label":"CONTAINS","start":{"id":"73","labels":["Sentence"],"properties":{"text":"Maktay Zapple Mato"}},"end":{"id":"76","labels":["Word"],"properties":{"text":"Mato","type":"Subject"}}}

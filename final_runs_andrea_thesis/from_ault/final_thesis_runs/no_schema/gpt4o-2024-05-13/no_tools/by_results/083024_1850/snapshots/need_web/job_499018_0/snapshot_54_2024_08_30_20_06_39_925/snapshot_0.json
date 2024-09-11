@@ -1,0 +1,5 @@
+{"type":"node","id":"37","labels":["Company"],"properties":{"name":"Apple Inc."}}
+{"type":"node","id":"38","labels":["Stock"],"properties":{"symbol":"AAPL"}}
+{"type":"node","id":"39","labels":["Event"],"properties":{"year":2007,"name":"Stock Price Above $50"}}
+{"type":"relationship","id":"32","label":"REACHED_MILESTONE","start":{"id":"38","labels":["Stock"],"properties":{"symbol":"AAPL"}},"end":{"id":"39","labels":["Event"],"properties":{"year":2007,"name":"Stock Price Above $50"}}}
+{"type":"relationship","id":"31","label":"HAS_STOCK","start":{"id":"37","labels":["Company"],"properties":{"name":"Apple Inc."}},"end":{"id":"38","labels":["Stock"],"properties":{"symbol":"AAPL"}}}

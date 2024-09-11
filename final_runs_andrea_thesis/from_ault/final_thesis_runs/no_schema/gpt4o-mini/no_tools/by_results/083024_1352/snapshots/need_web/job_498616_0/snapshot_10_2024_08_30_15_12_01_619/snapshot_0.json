@@ -1,0 +1,43 @@
+{"type":"node","id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}}
+{"type":"node","id":"10","labels":["Dehydrated"],"properties":{"name":"Dehydrated Apples","counter":1}}
+{"type":"node","id":"11","labels":["Dehydrated"],"properties":{"name":"Dehydrated Apricots","counter":1}}
+{"type":"node","id":"12","labels":["Dehydrated"],"properties":{"name":"Dehydrated Peaches","counter":1}}
+{"type":"node","id":"13","labels":["Dehydrated"],"properties":{"name":"Dehydrated Pears","counter":1}}
+{"type":"node","id":"14","labels":["Dehydrated"],"properties":{"name":"Dehydrated Prunes","counter":1}}
+{"type":"node","id":"15","labels":["Dehydrated"],"properties":{"name":"Dehydrated Potatoes","counter":1}}
+{"type":"node","id":"16","labels":["Dehydrated"],"properties":{"name":"Dehydrated Onions","counter":1}}
+{"type":"node","id":"17","labels":["Dehydrated"],"properties":{"name":"Dehydrated Carrots","counter":1}}
+{"type":"node","id":"18","labels":["Dehydrated"],"properties":{"name":"Dehydrated Tomatoes","counter":1}}
+{"type":"node","id":"19","labels":["Dehydrated"],"properties":{"name":"Dehydrated Mushrooms","counter":1}}
+{"type":"node","id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}}
+{"type":"node","id":"21","labels":["FrozenItem"],"properties":{"name":"Frozen Strawberries","counter":1}}
+{"type":"node","id":"22","labels":["FrozenItem"],"properties":{"name":"Frozen Blueberries","counter":1}}
+{"type":"node","id":"23","labels":["FrozenItem"],"properties":{"name":"Frozen Raspberries","counter":1}}
+{"type":"node","id":"24","labels":["FrozenItem"],"properties":{"name":"Frozen Corn","counter":1}}
+{"type":"node","id":"25","labels":["FrozenItem"],"properties":{"name":"Frozen Peas","counter":1}}
+{"type":"node","id":"26","labels":["FrozenItem"],"properties":{"name":"Frozen Broccoli","counter":1}}
+{"type":"node","id":"27","labels":["FrozenItem"],"properties":{"name":"Frozen Spinach","counter":1}}
+{"type":"node","id":"28","labels":["FrozenItem"],"properties":{"name":"Frozen Green Beans","counter":1}}
+{"type":"node","id":"29","labels":["FrozenItem"],"properties":{"name":"Frozen Carrots","counter":1}}
+{"type":"node","id":"30","labels":["FrozenItem"],"properties":{"name":"Frozen Cauliflower","counter":1}}
+{"type":"relationship","id":"32","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"11","labels":["Dehydrated"],"properties":{"name":"Dehydrated Apricots","counter":1}}}
+{"type":"relationship","id":"33","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"12","labels":["Dehydrated"],"properties":{"name":"Dehydrated Peaches","counter":1}}}
+{"type":"relationship","id":"34","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"13","labels":["Dehydrated"],"properties":{"name":"Dehydrated Pears","counter":1}}}
+{"type":"relationship","id":"35","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"14","labels":["Dehydrated"],"properties":{"name":"Dehydrated Prunes","counter":1}}}
+{"type":"relationship","id":"36","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"15","labels":["Dehydrated"],"properties":{"name":"Dehydrated Potatoes","counter":1}}}
+{"type":"relationship","id":"37","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"16","labels":["Dehydrated"],"properties":{"name":"Dehydrated Onions","counter":1}}}
+{"type":"relationship","id":"38","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"17","labels":["Dehydrated"],"properties":{"name":"Dehydrated Carrots","counter":1}}}
+{"type":"relationship","id":"39","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"18","labels":["Dehydrated"],"properties":{"name":"Dehydrated Tomatoes","counter":1}}}
+{"type":"relationship","id":"40","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"19","labels":["Dehydrated"],"properties":{"name":"Dehydrated Mushrooms","counter":1}}}
+{"type":"relationship","id":"41","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}}}
+{"type":"relationship","id":"42","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"21","labels":["FrozenItem"],"properties":{"name":"Frozen Strawberries","counter":1}}}
+{"type":"relationship","id":"43","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"22","labels":["FrozenItem"],"properties":{"name":"Frozen Blueberries","counter":1}}}
+{"type":"relationship","id":"44","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"23","labels":["FrozenItem"],"properties":{"name":"Frozen Raspberries","counter":1}}}
+{"type":"relationship","id":"45","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"24","labels":["FrozenItem"],"properties":{"name":"Frozen Corn","counter":1}}}
+{"type":"relationship","id":"46","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"25","labels":["FrozenItem"],"properties":{"name":"Frozen Peas","counter":1}}}
+{"type":"relationship","id":"47","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"26","labels":["FrozenItem"],"properties":{"name":"Frozen Broccoli","counter":1}}}
+{"type":"relationship","id":"48","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"27","labels":["FrozenItem"],"properties":{"name":"Frozen Spinach","counter":1}}}
+{"type":"relationship","id":"49","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"28","labels":["FrozenItem"],"properties":{"name":"Frozen Green Beans","counter":1}}}
+{"type":"relationship","id":"50","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"29","labels":["FrozenItem"],"properties":{"name":"Frozen Carrots","counter":1}}}
+{"type":"relationship","id":"51","label":"INCLUDES","start":{"id":"20","labels":["Frozen"],"properties":{"date":"1959-07-02"}},"end":{"id":"30","labels":["FrozenItem"],"properties":{"name":"Frozen Cauliflower","counter":1}}}
+{"type":"relationship","id":"31","label":"INCLUDES","start":{"id":"9","labels":["Standard"],"properties":{"date":"1959-07-02","type":"Processed Foods"}},"end":{"id":"10","labels":["Dehydrated"],"properties":{"name":"Dehydrated Apples","counter":1}}}

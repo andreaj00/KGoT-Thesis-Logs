@@ -1,0 +1,17 @@
+{"type":"node","id":"1","labels":["Temperature"],"properties":{"unit":"Celsius","value":4}}
+{"type":"node","id":"2","labels":["Depth"],"properties":{"unit":"meters","value":10994}}
+{"type":"node","id":"3","labels":["System"],"properties":{"unit":"kg","substance":"Freon-12","mass":0.312,"counter":1}}
+{"type":"node","id":"4","labels":["Temperature"],"properties":{"unit":"Celsius","value":1}}
+{"type":"node","id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}}
+{"type":"node","id":"6"}
+{"type":"node","id":"7"}
+{"type":"node","id":"8","labels":["System"],"properties":{"unit":"kg","density":1490,"substance":"Freon-12","mass":0.312,"counter":1}}
+{"type":"relationship","id":"16","label":"AT_TEMPERATURE","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"1","labels":["Temperature"],"properties":{"unit":"Celsius","value":4}}}
+{"type":"relationship","id":"17","label":"AT_TEMPERATURE","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"6"}}
+{"type":"relationship","id":"18","label":"AT_DEPTH","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"7"}}
+{"type":"relationship","id":"19","label":"AT_TEMPERATURE","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"1","labels":["Temperature"],"properties":{"unit":"Celsius","value":4}}}
+{"type":"relationship","id":"20","label":"AT_DEPTH","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"2","labels":["Depth"],"properties":{"unit":"meters","value":10994}}}
+{"type":"relationship","id":"21","label":"AT_TEMPERATURE","start":{"id":"8","labels":["System"],"properties":{"unit":"kg","density":1490,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"4","labels":["Temperature"],"properties":{"unit":"Celsius","value":1}}}
+{"type":"relationship","id":"22","label":"AT_DEPTH","start":{"id":"8","labels":["System"],"properties":{"unit":"kg","density":1490,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"2","labels":["Depth"],"properties":{"unit":"meters","value":10994}}}
+{"type":"relationship","id":"14","label":"AT_TEMPERATURE","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"4","labels":["Temperature"],"properties":{"unit":"Celsius","value":1}}}
+{"type":"relationship","id":"15","label":"AT_DEPTH","start":{"id":"5","labels":["System"],"properties":{"unit":"kg","density":1200,"substance":"Freon-12","mass":0.312,"counter":1}},"end":{"id":"2","labels":["Depth"],"properties":{"unit":"meters","value":10994}}}

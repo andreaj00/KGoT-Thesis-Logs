@@ -1,0 +1,15 @@
+{"type":"node","id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}}
+{"type":"node","id":"9","labels":["Class"],"properties":{"name":"Calculus"}}
+{"type":"node","id":"10","labels":["Professor"],"properties":{"name":"Willowbrook"}}
+{"type":"node","id":"11","labels":["Reading"],"properties":{"page":245,"problems":"32, 33, 44"}}
+{"type":"node","id":"12","labels":["Reading"],"properties":{"page":197,"problems":"22"}}
+{"type":"node","id":"13","labels":["Reading"],"properties":{"page":132}}
+{"type":"node","id":"14","labels":["Reading"],"properties":{"page":133}}
+{"type":"node","id":"15","labels":["Reading"],"properties":{"page":134}}
+{"type":"relationship","id":"80","label":"CONTAINS","start":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"12","labels":["Reading"],"properties":{"page":197,"problems":"22"}}}
+{"type":"relationship","id":"81","label":"CONTAINS","start":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"13","labels":["Reading"],"properties":{"page":132}}}
+{"type":"relationship","id":"82","label":"CONTAINS","start":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"14","labels":["Reading"],"properties":{"page":133}}}
+{"type":"relationship","id":"83","label":"CONTAINS","start":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"15","labels":["Reading"],"properties":{"page":134}}}
+{"type":"relationship","id":"77","label":"TEACHES","start":{"id":"10","labels":["Professor"],"properties":{"name":"Willowbrook"}},"end":{"id":"9","labels":["Class"],"properties":{"name":"Calculus"}}}
+{"type":"relationship","id":"78","label":"HAS_RECOMMENDED_READING","start":{"id":"9","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}}}
+{"type":"relationship","id":"79","label":"CONTAINS","start":{"id":"8","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"11","labels":["Reading"],"properties":{"page":245,"problems":"32, 33, 44"}}}

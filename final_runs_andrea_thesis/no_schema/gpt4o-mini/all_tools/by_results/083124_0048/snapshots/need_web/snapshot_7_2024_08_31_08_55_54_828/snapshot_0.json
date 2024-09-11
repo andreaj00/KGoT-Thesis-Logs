@@ -1,0 +1,5 @@
+{"type":"node","id":"13","labels":["Institution"],"properties":{"name":"British Museum"}}
+{"type":"node","id":"14","labels":["Mollusk"],"properties":{"museum_number":"2012,5015.17","age_in_thousands_of_years":10}}
+{"type":"node","id":"15","labels":["ResearchArticle"],"properties":{"year":2021,"abstract":"Beads made from the shells of this species were found that are at least 10 thousands of years old.","title":"Research on Mollusk Shell Beads"}}
+{"type":"relationship","id":"50","label":"HAS_COLLECTION","start":{"id":"13","labels":["Institution"],"properties":{"name":"British Museum"}},"end":{"id":"14","labels":["Mollusk"],"properties":{"museum_number":"2012,5015.17","age_in_thousands_of_years":10}}}
+{"type":"relationship","id":"51","label":"RELATED_TO","start":{"id":"15","labels":["ResearchArticle"],"properties":{"year":2021,"abstract":"Beads made from the shells of this species were found that are at least 10 thousands of years old.","title":"Research on Mollusk Shell Beads"}},"end":{"id":"14","labels":["Mollusk"],"properties":{"museum_number":"2012,5015.17","age_in_thousands_of_years":10}}}

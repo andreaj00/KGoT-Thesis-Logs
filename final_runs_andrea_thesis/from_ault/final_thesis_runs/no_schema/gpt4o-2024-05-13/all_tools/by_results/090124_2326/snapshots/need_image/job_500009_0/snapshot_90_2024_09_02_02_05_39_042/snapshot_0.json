@@ -1,0 +1,25 @@
+{"type":"node","id":"37","labels":["Polygon"],"properties":{"color":"green"}}
+{"type":"node","id":"38","labels":["Side"],"properties":{"length":10,"position":"Top"}}
+{"type":"node","id":"39","labels":["Side"],"properties":{"length":6,"position":"Left vertical"}}
+{"type":"node","id":"40","labels":["Side"],"properties":{"length":4,"position":"Inner horizontal (top)"}}
+{"type":"node","id":"41","labels":["Side"],"properties":{"length":8,"position":"Inner vertical (right)"}}
+{"type":"node","id":"42","labels":["Side"],"properties":{"length":6,"position":"Inner horizontal (bottom)"}}
+{"type":"node","id":"43","labels":["Side"],"properties":{"length":1.5,"position":"Inner vertical (left)"}}
+{"type":"node","id":"44","labels":["Side"],"properties":{"length":1,"position":"Bottom horizontal (left)"}}
+{"type":"node","id":"45","labels":["Side"],"properties":{"length":6,"position":"Bottom vertical (left)"}}
+{"type":"node","id":"46","labels":["Side"],"properties":{"length":4,"position":"Bottom horizontal (right)"}}
+{"type":"node","id":"47","labels":["Side"],"properties":{"length":1,"position":"Bottom vertical (right)"}}
+{"type":"node","id":"48","labels":["Side"],"properties":{"length":10,"position":"Right vertical"}}
+{"type":"node","id":"49","labels":["Side"],"properties":{"length":2,"position":"Right horizontal (top)"}}
+{"type":"relationship","id":"0","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"47","labels":["Side"],"properties":{"length":1,"position":"Bottom vertical (right)"}}}
+{"type":"relationship","id":"1","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"48","labels":["Side"],"properties":{"length":10,"position":"Right vertical"}}}
+{"type":"relationship","id":"2","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"49","labels":["Side"],"properties":{"length":2,"position":"Right horizontal (top)"}}}
+{"type":"relationship","id":"21","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"39","labels":["Side"],"properties":{"length":6,"position":"Left vertical"}}}
+{"type":"relationship","id":"22","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"40","labels":["Side"],"properties":{"length":4,"position":"Inner horizontal (top)"}}}
+{"type":"relationship","id":"23","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"41","labels":["Side"],"properties":{"length":8,"position":"Inner vertical (right)"}}}
+{"type":"relationship","id":"87","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"38","labels":["Side"],"properties":{"length":10,"position":"Top"}}}
+{"type":"relationship","id":"24","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"42","labels":["Side"],"properties":{"length":6,"position":"Inner horizontal (bottom)"}}}
+{"type":"relationship","id":"25","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"43","labels":["Side"],"properties":{"length":1.5,"position":"Inner vertical (left)"}}}
+{"type":"relationship","id":"26","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"44","labels":["Side"],"properties":{"length":1,"position":"Bottom horizontal (left)"}}}
+{"type":"relationship","id":"27","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"45","labels":["Side"],"properties":{"length":6,"position":"Bottom vertical (left)"}}}
+{"type":"relationship","id":"28","label":"HAS_SIDE","start":{"id":"37","labels":["Polygon"],"properties":{"color":"green"}},"end":{"id":"46","labels":["Side"],"properties":{"length":4,"position":"Bottom horizontal (right)"}}}

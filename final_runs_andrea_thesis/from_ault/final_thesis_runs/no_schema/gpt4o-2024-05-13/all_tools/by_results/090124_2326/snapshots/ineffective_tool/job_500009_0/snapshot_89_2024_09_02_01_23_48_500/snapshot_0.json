@@ -1,0 +1,3 @@
+{"type":"node","id":"16","labels":["Message"],"properties":{"content":"Zsmxsm sc sx Zyvilsec Zvkjk."}}
+{"type":"node","id":"17","labels":["Decryption"],"properties":{"shift":10,"decrypted_content":"Picnic is in Pmylsiru Plzaa."}}
+{"type":"relationship","id":"155","label":"DECRYPTED_TO","start":{"id":"16","labels":["Message"],"properties":{"content":"Zsmxsm sc sx Zyvilsec Zvkjk."}},"end":{"id":"17","labels":["Decryption"],"properties":{"shift":10,"decrypted_content":"Picnic is in Pmylsiru Plzaa."}}}

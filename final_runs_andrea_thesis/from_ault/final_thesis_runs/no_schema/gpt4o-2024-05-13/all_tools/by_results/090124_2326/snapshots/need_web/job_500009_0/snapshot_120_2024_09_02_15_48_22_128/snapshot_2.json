@@ -1,0 +1,7 @@
+{"type":"node","id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}}
+{"type":"node","id":"44","labels":["Feature"],"properties":{"f1_score":0.838,"name":"Late Fusion Method"}}
+{"type":"node","id":"45","labels":["Feature"],"properties":{"testing_accuracy":98.88,"name":"Dataset Augmentation","training_images":15000}}
+{"type":"node","id":"46","labels":["Feature"],"properties":{"length_to_width_ratio":"0-1","method":"Minimal External Rectangle","average_percentage":66.2,"name":"Plumpness Assessment","category":"Fully Plump"}}
+{"type":"relationship","id":"11","label":"USES","start":{"id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}},"end":{"id":"44","labels":["Feature"],"properties":{"f1_score":0.838,"name":"Late Fusion Method"}}}
+{"type":"relationship","id":"12","label":"USES","start":{"id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}},"end":{"id":"45","labels":["Feature"],"properties":{"testing_accuracy":98.88,"name":"Dataset Augmentation","training_images":15000}}}
+{"type":"relationship","id":"13","label":"USES","start":{"id":"43","labels":["DetectionSystem"],"properties":{"name":"DeepFruits"}},"end":{"id":"46","labels":["Feature"],"properties":{"length_to_width_ratio":"0-1","method":"Minimal External Rectangle","average_percentage":66.2,"name":"Plumpness Assessment","category":"Fully Plump"}}}

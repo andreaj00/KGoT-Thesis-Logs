@@ -1,0 +1,5 @@
+{"type":"node","id":"66","labels":["Standard"],"properties":{"name":"United States standards for grades of processed fruits, vegetables, and certain other products"}}
+{"type":"node","id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}}
+{"type":"node","id":"68","labels":["Item"],"properties":{"name":"Dried Apples"}}
+{"type":"relationship","id":"106","label":"INCLUDES","start":{"id":"66","labels":["Standard"],"properties":{"name":"United States standards for grades of processed fruits, vegetables, and certain other products"}},"end":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}}}
+{"type":"relationship","id":"107","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"68","labels":["Item"],"properties":{"name":"Dried Apples"}}}

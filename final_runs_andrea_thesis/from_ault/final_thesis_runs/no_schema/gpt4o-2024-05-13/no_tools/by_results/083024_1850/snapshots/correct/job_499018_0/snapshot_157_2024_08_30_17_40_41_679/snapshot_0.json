@@ -1,0 +1,117 @@
+{"type":"node","id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}
+{"type":"node","id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}
+{"type":"node","id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}
+{"type":"node","id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}
+{"type":"node","id":"4","labels":["Location"],"properties":{"name":"Marztep"}}
+{"type":"node","id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}
+{"type":"node","id":"6","labels":["Location"],"properties":{"name":"Pimento"}}
+{"type":"node","id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}
+{"type":"node","id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}
+{"type":"node","id":"9","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1594}}
+{"type":"node","id":"10","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1999}}
+{"type":"node","id":"11","labels":["MenuItem"],"properties":{"name":"Salads","sales":2002}}
+{"type":"node","id":"12","labels":["MenuItem"],"properties":{"name":"Fries","sales":2005}}
+{"type":"node","id":"13","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1977}}
+{"type":"node","id":"14","labels":["MenuItem"],"properties":{"name":"Soda","sales":1980}}
+{"type":"node","id":"15","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1983}}
+{"type":"node","id":"16","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2008}}
+{"type":"node","id":"17","labels":["MenuItem"],"properties":{"name":"Salads","sales":2014}}
+{"type":"node","id":"18","labels":["MenuItem"],"properties":{"name":"Fries","sales":2015}}
+{"type":"node","id":"19","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2017}}
+{"type":"node","id":"20","labels":["MenuItem"],"properties":{"name":"Soda","sales":2018}}
+{"type":"node","id":"21","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2019}}
+{"type":"node","id":"22","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2022}}
+{"type":"node","id":"23","labels":["MenuItem"],"properties":{"name":"Salads","sales":2022}}
+{"type":"node","id":"24","labels":["MenuItem"],"properties":{"name":"Fries","sales":2023}}
+{"type":"node","id":"25","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2021}}
+{"type":"node","id":"26","labels":["MenuItem"],"properties":{"name":"Soda","sales":2019}}
+{"type":"node","id":"27","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1958}}
+{"type":"node","id":"28","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1971}}
+{"type":"node","id":"29","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}
+{"type":"node","id":"30","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}
+{"type":"node","id":"31","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1998}}
+{"type":"node","id":"32","labels":["MenuItem"],"properties":{"name":"Soda","sales":2009}}
+{"type":"node","id":"33","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2015}}
+{"type":"node","id":"34","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2016}}
+{"type":"node","id":"35","labels":["MenuItem"],"properties":{"name":"Salads","sales":2018}}
+{"type":"node","id":"36","labels":["MenuItem"],"properties":{"name":"Fries","sales":2019}}
+{"type":"node","id":"37","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2021}}
+{"type":"node","id":"38","labels":["MenuItem"],"properties":{"name":"Soda","sales":2022}}
+{"type":"node","id":"39","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2011}}
+{"type":"node","id":"40","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2010}}
+{"type":"node","id":"41","labels":["MenuItem"],"properties":{"name":"Salads","sales":2012}}
+{"type":"node","id":"42","labels":["MenuItem"],"properties":{"name":"Fries","sales":2013}}
+{"type":"node","id":"43","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2015}}
+{"type":"node","id":"44","labels":["MenuItem"],"properties":{"name":"Soda","sales":2016}}
+{"type":"node","id":"45","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2017}}
+{"type":"node","id":"46","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1999}}
+{"type":"node","id":"47","labels":["MenuItem"],"properties":{"name":"Salads","sales":2001}}
+{"type":"node","id":"48","labels":["MenuItem"],"properties":{"name":"Fries","sales":2003}}
+{"type":"node","id":"49","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1969}}
+{"type":"node","id":"50","labels":["MenuItem"],"properties":{"name":"Soda","sales":2967}}
+{"type":"node","id":"51","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1967}}
+{"type":"node","id":"52","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1969}}
+{"type":"node","id":"53","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}
+{"type":"node","id":"54","labels":["MenuItem"],"properties":{"name":"Fries","sales":1994}}
+{"type":"node","id":"55","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2005}}
+{"type":"node","id":"56","labels":["MenuItem"],"properties":{"name":"Soda","sales":2006}}
+{"type":"node","id":"57","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2007}}
+{"type":"node","id":"58","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2009}}
+{"type":"node","id":"59","labels":["MenuItem"],"properties":{"name":"Salads","sales":2021}}
+{"type":"node","id":"60","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}
+{"type":"node","id":"61","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2005}}
+{"type":"node","id":"62","labels":["MenuItem"],"properties":{"name":"Soda","sales":2011}}
+{"type":"relationship","id":"0","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"18","labels":["MenuItem"],"properties":{"name":"Fries","sales":2015}}}
+{"type":"relationship","id":"128","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"9","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1594}}}
+{"type":"relationship","id":"1","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"19","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2017}}}
+{"type":"relationship","id":"129","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"10","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1999}}}
+{"type":"relationship","id":"2","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"20","labels":["MenuItem"],"properties":{"name":"Soda","sales":2018}}}
+{"type":"relationship","id":"130","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"11","labels":["MenuItem"],"properties":{"name":"Salads","sales":2002}}}
+{"type":"relationship","id":"3","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"21","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2019}}}
+{"type":"relationship","id":"131","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"12","labels":["MenuItem"],"properties":{"name":"Fries","sales":2005}}}
+{"type":"relationship","id":"4","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"22","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2022}}}
+{"type":"relationship","id":"132","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"13","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1977}}}
+{"type":"relationship","id":"5","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"23","labels":["MenuItem"],"properties":{"name":"Salads","sales":2022}}}
+{"type":"relationship","id":"133","label":"SELLS","start":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}},"end":{"id":"14","labels":["MenuItem"],"properties":{"name":"Soda","sales":1980}}}
+{"type":"relationship","id":"6","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"24","labels":["MenuItem"],"properties":{"name":"Fries","sales":2023}}}
+{"type":"relationship","id":"134","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"15","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1983}}}
+{"type":"relationship","id":"7","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"25","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2021}}}
+{"type":"relationship","id":"135","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"16","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2008}}}
+{"type":"relationship","id":"8","label":"SELLS","start":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}},"end":{"id":"26","labels":["MenuItem"],"properties":{"name":"Soda","sales":2019}}}
+{"type":"relationship","id":"136","label":"SELLS","start":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}},"end":{"id":"17","labels":["MenuItem"],"properties":{"name":"Salads","sales":2014}}}
+{"type":"relationship","id":"9","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"27","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1958}}}
+{"type":"relationship","id":"10","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"28","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1971}}}
+{"type":"relationship","id":"11","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"29","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}}
+{"type":"relationship","id":"12","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"30","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}}
+{"type":"relationship","id":"13","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"31","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1998}}}
+{"type":"relationship","id":"14","label":"SELLS","start":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}},"end":{"id":"32","labels":["MenuItem"],"properties":{"name":"Soda","sales":2009}}}
+{"type":"relationship","id":"15","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"33","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2015}}}
+{"type":"relationship","id":"16","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"34","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2016}}}
+{"type":"relationship","id":"17","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"35","labels":["MenuItem"],"properties":{"name":"Salads","sales":2018}}}
+{"type":"relationship","id":"18","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"36","labels":["MenuItem"],"properties":{"name":"Fries","sales":2019}}}
+{"type":"relationship","id":"19","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"37","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2021}}}
+{"type":"relationship","id":"20","label":"SELLS","start":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}},"end":{"id":"38","labels":["MenuItem"],"properties":{"name":"Soda","sales":2022}}}
+{"type":"relationship","id":"21","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"39","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2011}}}
+{"type":"relationship","id":"22","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"40","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2010}}}
+{"type":"relationship","id":"23","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"41","labels":["MenuItem"],"properties":{"name":"Salads","sales":2012}}}
+{"type":"relationship","id":"24","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"42","labels":["MenuItem"],"properties":{"name":"Fries","sales":2013}}}
+{"type":"relationship","id":"25","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"43","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2015}}}
+{"type":"relationship","id":"26","label":"SELLS","start":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}},"end":{"id":"44","labels":["MenuItem"],"properties":{"name":"Soda","sales":2016}}}
+{"type":"relationship","id":"27","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"45","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2017}}}
+{"type":"relationship","id":"28","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"46","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1999}}}
+{"type":"relationship","id":"29","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"47","labels":["MenuItem"],"properties":{"name":"Salads","sales":2001}}}
+{"type":"relationship","id":"30","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"48","labels":["MenuItem"],"properties":{"name":"Fries","sales":2003}}}
+{"type":"relationship","id":"31","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"49","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":1969}}}
+{"type":"relationship","id":"32","label":"SELLS","start":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}},"end":{"id":"50","labels":["MenuItem"],"properties":{"name":"Soda","sales":2967}}}
+{"type":"relationship","id":"33","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"51","labels":["MenuItem"],"properties":{"name":"Burgers","sales":1967}}}
+{"type":"relationship","id":"34","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"52","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":1969}}}
+{"type":"relationship","id":"35","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"53","labels":["MenuItem"],"properties":{"name":"Salads","sales":1982}}}
+{"type":"relationship","id":"36","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"54","labels":["MenuItem"],"properties":{"name":"Fries","sales":1994}}}
+{"type":"relationship","id":"37","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"55","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2005}}}
+{"type":"relationship","id":"38","label":"SELLS","start":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}},"end":{"id":"56","labels":["MenuItem"],"properties":{"name":"Soda","sales":2006}}}
+{"type":"relationship","id":"39","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"57","labels":["MenuItem"],"properties":{"name":"Burgers","sales":2007}}}
+{"type":"relationship","id":"40","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"58","labels":["MenuItem"],"properties":{"name":"Hot Dogs","sales":2009}}}
+{"type":"relationship","id":"41","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"59","labels":["MenuItem"],"properties":{"name":"Salads","sales":2021}}}
+{"type":"relationship","id":"42","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"60","labels":["MenuItem"],"properties":{"name":"Fries","sales":1989}}}
+{"type":"relationship","id":"43","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"61","labels":["MenuItem"],"properties":{"name":"Ice Cream","sales":2005}}}
+{"type":"relationship","id":"44","label":"SELLS","start":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}},"end":{"id":"62","labels":["MenuItem"],"properties":{"name":"Soda","sales":2011}}}

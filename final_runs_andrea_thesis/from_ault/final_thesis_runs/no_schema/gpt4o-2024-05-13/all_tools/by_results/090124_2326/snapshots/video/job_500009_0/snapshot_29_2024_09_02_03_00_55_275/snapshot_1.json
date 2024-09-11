@@ -1,0 +1,6 @@
+{"type":"node","id":"6","labels":["Video"],"properties":{"title":"Iceland Is Growing New Forests for the First Time in 1,000 Years"}}
+{"type":"node","id":"7","labels":["Source"],"properties":{"url":"https://www.youtube.com/watch?v=pnRNdbqXu1I"}}
+{"type":"node","id":"8","labels":["Video"],"properties":{"title":"Yellowstone: World's First National Park"}}
+{"type":"node","id":"9","labels":["Source"],"properties":{"url":"https://www.youtube.com/watch?v=eV-RQHPQu2Y"}}
+{"type":"relationship","id":"11","label":"HAS_SOURCE","start":{"id":"6","labels":["Video"],"properties":{"title":"Iceland Is Growing New Forests for the First Time in 1,000 Years"}},"end":{"id":"7","labels":["Source"],"properties":{"url":"https://www.youtube.com/watch?v=pnRNdbqXu1I"}}}
+{"type":"relationship","id":"12","label":"HAS_SOURCE","start":{"id":"8","labels":["Video"],"properties":{"title":"Yellowstone: World's First National Park"}},"end":{"id":"9","labels":["Source"],"properties":{"url":"https://www.youtube.com/watch?v=eV-RQHPQu2Y"}}}

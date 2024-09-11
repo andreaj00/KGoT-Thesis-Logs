@@ -1,0 +1,5 @@
+{"type":"node","id":"0","labels":["Video"],"properties":{"source":"https://www.youtube.com/watch?v=2Njmx-UuU3M","title":"Top 5 Silliest Animal Moments"}}
+{"type":"node","id":"1","labels":["Animal"],"properties":{"name":"polar bear","counter":1}}
+{"type":"node","id":"2","labels":["Animal"],"properties":{"name":"penguins","counter":1}}
+{"type":"relationship","id":"49","label":"FEATURES","start":{"id":"0","labels":["Video"],"properties":{"source":"https://www.youtube.com/watch?v=2Njmx-UuU3M","title":"Top 5 Silliest Animal Moments"}},"end":{"id":"1","labels":["Animal"],"properties":{"name":"polar bear","counter":1}}}
+{"type":"relationship","id":"50","label":"FEATURES","start":{"id":"0","labels":["Video"],"properties":{"source":"https://www.youtube.com/watch?v=2Njmx-UuU3M","title":"Top 5 Silliest Animal Moments"}},"end":{"id":"2","labels":["Animal"],"properties":{"name":"penguins","counter":1}}}

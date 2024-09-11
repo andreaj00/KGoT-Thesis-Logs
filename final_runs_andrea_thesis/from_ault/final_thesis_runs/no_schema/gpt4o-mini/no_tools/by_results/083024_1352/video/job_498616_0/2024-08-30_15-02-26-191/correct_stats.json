@@ -1,0 +1,82 @@
+[
+    {
+        "question_number": 18,
+        "correct_answer": "3",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video parsing",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 29,
+        "correct_answer": "1.8",
+        "returned_answer": "40",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 87,
+        "correct_answer": "Extremely",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 114,
+        "correct_answer": "4",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 116,
+        "correct_answer": "Rockhopper penguin",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 159,
+        "correct_answer": "100000000",
+        "returned_answer": "The number mentioned by the narrator directly after dinosaurs were first shown in the video is 65 million.",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Audio capability\n4. Video capability",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 161,
+        "correct_answer": "orange, white",
+        "returned_answer": "black, yellow",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "A web browser\nA search engine\nImage recognition software",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 164,
+        "correct_answer": "1:41.614",
+        "returned_answer": "1:41.87",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. YouTube\n4. OCR",
+        "num_tools": "4"
+    }
+]

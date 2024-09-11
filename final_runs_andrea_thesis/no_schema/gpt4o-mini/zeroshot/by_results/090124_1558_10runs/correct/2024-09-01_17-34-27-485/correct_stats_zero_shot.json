@@ -1,0 +1,222 @@
+[
+    {
+        "question_number": 5,
+        "correct_answer": "Time-Parking 2: Parallel Universe",
+        "returned_answer": "The title of the oldest Blu-Ray recorded in the spreadsheet is **Time-Parking 2: Parallel Universe**.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. Microsoft Excel",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 6,
+        "correct_answer": "3",
+        "returned_answer": "Mercedes Sosa released three studio albums between 2000 and 2009:\n\n1. **\"Ac\u00fastico\"** (2000)\n2. **\"Cantora\"** (2009)\n3. **\"Cantora 1\"** (2009)\n\nPlease verify this information on the latest version of Wikipedia or other reliable sources for the most accurate details.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. web browser\n2. google search",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 34,
+        "correct_answer": "Right",
+        "returned_answer": "The opposite of the word \"left\" is \"right.\" If you understand this sentence, please let me know!",
+        "successful": false,
+        "level": "1",
+        "num_steps": "1",
+        "tools": "1. A word reversal tool / script",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 39,
+        "correct_answer": "(\u00acA \u2192 B) \u2194 (A \u2228 \u00acB)",
+        "returned_answer": "The statement that does not fit with the others is:\n\n**\u00ac(A \u2228 B) \u2194 (\u00acA \u2227 \u00acB)**\n\nThis statement is known as De Morgan's Law, which is a valid logical equivalence, but it does not share the same form or implications as the other statements listed. The other statements are all implications or related to implications, while this one specifically deals with the negation of disjunction.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "9",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 48,
+        "correct_answer": "17",
+        "returned_answer": "error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/bfcd99e1-0690-4b53-a85c-0174a8629083.zip\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py\", line 63, in answer_query\n    docs: List[Document] = load_documents(file_path, file_names)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 43, in load_documents\n    docs.extend(load_document(os.path.join(directory_path, file_name)))\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 90, in load_document\n    raise ValueError(f\"File extension not supported: {file_path}\")\nValueError: File extension not supported: GAIA/dataset/attachments/validation/bfcd99e1-0690-4b53-a85c-0174a8629083.zip\n",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. PDF access\n2. Excel file access",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 53,
+        "correct_answer": "Finance",
+        "returned_answer": "To find the vendor that makes the least money relative to the rent it pays, we can calculate the revenue-to-rent ratio for each vendor. The vendor with the lowest ratio will be the one that makes the least money relative to the rent.\n\nHere are the calculations for each vendor:\n\n1. **Rainforest Bistro**: 32771 / 1920 = 17.06\n2. **Panorama Outfitters**: 23170 / 1788 = 12.95\n3. **Zack's Cameras and Trail Mix**: 33117 / 1001 = 33.09\n4. **SignPro Custom DeSign**: 21246 / 1121 = 18.93\n5. **Serenity Indoor Fountains**: 25234 / 6359 = 3.96\n6. **Budapest Comics**: 12251 / 2461 = 4.97\n7. **Dottie's Lattes**: 34427 / 1293 = 26.64\n8. **Gumball Utopia**: 13271 / 3420 = 3.88\n9. **Your Uncle's Basement**: 11119 / 8201 = 1.36\n10. **Carnivore Loan Specialists**: 31000 / 50312 = 0.62\n11. **Harry's Steakhouse**: 46791 / 1327 = 35.24\n12. **Two Guys Paper Supplies**: 76201 / 1120 = 67.86\n13. **Dragon Pizza**: 10201 / 2000 = 5.10\n14. **Us Three: The U2 Fan Store**: 10201 / 1200 = 8.50\n15. **Jimmy's Buffett**: 10027 / 3201 = 3.13\n16. **Franz Equipment Rentals**: 20201 / 2201 = 9.17\n17. **Nigel's Board Games**: 62012 / 2013 = 30.77\n18. **Destructor's Den**: 79915 / 5203 = 15.36\n19. **Hook Me Up**: 56503 / 1940 = 29.14\n20. **Slam Dunk**: 61239 / 5820 = 10.51\n21. **Ben's Hungarian-Asian Fusion**: 68303 / 2011 = 33.96\n22. **PleaseBurgers**: 20132 / 1402 = 14.35\n23. **Reagan's Vegan**: 20201 / 6201 = 3.25\n24. **FreshCart Store-to-Table**: 83533 / 2751 = 30.37\n\nThe vendor with the lowest revenue-to-rent ratio is **Carnivore Loan Specialists** with a ratio of 0.62.\n\nThe type listed for **Carnivore Loan Specialists** is **Finance**.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. Microsoft Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 61,
+        "correct_answer": "b, e",
+        "returned_answer": "To determine if the operation * defined on the set S = {a, b, c, d, e} is commutative, we need to check if for all elements x, y in S, the equation x * y = y * x holds true. If we find any pair (x, y) such that x * y \u2260 y * x, then we can conclude that * is not commutative.\n\nLet's analyze the table:\n\n1. For (a, b):\n   - a * b = b\n   - b * a = c\n   - Since b \u2260 c, this pair shows that * is not commutative.\n\n2. For (a, c):\n   - a * c = c\n   - c * a = b\n   - Since c \u2260 b, this pair also shows that * is not commutative.\n\n3. For (a, d):\n   - a * d = b\n   - d * a = b\n   - Since b = b, this pair is commutative.\n\n4. For (a, e):\n   - a * e = d\n   - e * a = d\n   - Since d = d, this pair is commutative.\n\n5. For (b, c):\n   - b * c = a\n   - c * b = a\n   - Since a = a, this pair is commutative.\n\n6. For (b, d):\n   - b * d = e\n   - d * b = e\n   - Since e = e, this pair is commutative.\n\n7. For (b, e):\n   - b * e = c\n   - e * b = b\n   - Since c \u2260 b, this pair shows that * is not commutative.\n\n8. For (c, d):\n   - c * d = b\n   - d * c = b\n   - Since b = b, this pair is commutative.\n\n9. For (c, e):\n   - c * e = a\n   - e * c = a\n   - Since a = a, this pair is commutative.\n\n10. For (d, e):\n    - d * e = d\n    - e * d = d\n    - Since d = d, this pair is commutative.\n\nFrom the analysis, we found the following pairs that demonstrate non-commutativity:\n- (a, b)\n- (a, c)\n- (b, e)\n\nThe elements involved in these pairs are {a, b, c, e}. \n\nThus, the subset of S involved in any possible counter-examples that prove * is not commutative is:\n\n**a, b, c, e**",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Markdown",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 64,
+        "correct_answer": "7",
+        "returned_answer": "To determine how many books authored by Rick Riordan are not currently on the library's shelves, we need to look at the status of each of his books listed in the provided documents.\n\nHere are the Rick Riordan books and their statuses:\n\n1. **The Lightning Thief** - Available\n2. **The Titan's Curse** - Available\n3. **The Battle of the Labyrinth** - Checked Out\n4. **The Last Olympian** - Checked Out\n5. **The Lost Hero** - Checked Out\n6. **The Son of Neptune** - Checked Out\n7. **The Mark of Athena** - Checked Out\n8. **The House of Hades** - Overdue\n9. **The Blood of Olympus** - Overdue\n\nNow, let's count the books that are not currently on the library's shelves:\n\n- **Checked Out**: \n  - The Battle of the Labyrinth\n  - The Last Olympian\n  - The Lost Hero\n  - The Son of Neptune\n  - The Mark of Athena\n\n- **Overdue**: \n  - The House of Hades\n  - The Blood of Olympus\n\nTotal books not on the shelves (Checked Out + Overdue):\n- 5 (Checked Out) + 2 (Overdue) = 7\n\nTherefore, there are **7 books authored by Rick Riordan that are not currently on the library's shelves**.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "2",
+        "tools": "1. PDF viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 77,
+        "correct_answer": "3",
+        "returned_answer": "To determine the minimum number of cell phone towers needed to cover all the houses next to the road, we first need to analyze the layout provided in the reference file.\n\nThe layout shows houses (H) located at specific mile markers along a stretch of road represented by dashes (-). Each cell phone tower can cover houses within a 4-mile radius.\n\nLet's break down the positions of the houses based on the layout:\n\n1. The first row indicates houses at the following mile markers:\n   - 0 miles (H)\n   - 1 mile (H)\n   - 2 miles (H)\n   - 3 miles (H)\n   - 4 miles (H)\n\n2. The second row indicates houses at the following mile markers:\n   - 0 miles (H)\n   - 1 mile (H)\n   - 2 miles (H)\n   - 3 miles (H)\n   - 4 miles (H)\n\nFrom this layout, we can see that there are houses at mile markers 0, 1, 2, 3, and 4.\n\n### Coverage Analysis\nA cell phone tower placed at a specific mile marker can cover houses within a 4-mile radius. Therefore, if we place a tower at:\n\n- **Mile Marker 0**: It covers houses from mile marker 0 to mile marker 4.\n- **Mile Marker 1**: It covers houses from mile marker -3 to mile marker 5 (but only houses at 0, 1, 2, 3, and 4 are present).\n- **Mile Marker 2**: It covers houses from mile marker -2 to mile marker 6 (but only houses at 0, 1, 2, 3, and 4 are present).\n- **Mile Marker 3**: It covers houses from mile marker -1 to mile marker 7 (but only houses at 0, 1, 2, 3, and 4 are present).\n- **Mile Marker 4**: It covers houses from mile marker 0 to mile marker 8 (but only houses at 0, 1, 2, 3, and 4 are present).\n\n### Optimal Placement\nSince placing a tower at mile marker 0 covers all houses from 0 to 4, we can conclude that only **one tower** is needed to cover all the houses.\n\n### Conclusion\nThe minimum number of cell phone towers needed to cover all houses next to the road is:\n\n**1**",
+        "successful": false,
+        "level": "1",
+        "num_steps": "12",
+        "tools": "1. Text Editor",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 88,
+        "correct_answer": "60",
+        "returned_answer": "To calculate the total number of wheels for the listed steam locomotives, we need to consider the wheel configuration of each steam locomotive and the number of wheels associated with each configuration.\n\nHere are the steam locomotives listed along with their wheel configurations:\n\n1. **1060 (0-4-0)**: 4 wheels\n2. **31 (0-4-0)**: 4 wheels\n3. **18 (4-4-0)**: 8 wheels\n4. **825 (2-6-0)**: 8 wheels\n5. **52 (2-8-0)**: 10 wheels\n6. **89 (2-6-4)**: 10 wheels\n7. **266 (2-8-4)**: 12 wheels\n\nNow, let's calculate the total number of wheels:\n\n- 1060: 4 wheels\n- 31: 4 wheels\n- 18: 8 wheels\n- 825: 8 wheels\n- 52: 10 wheels\n- 89: 10 wheels\n- 266: 12 wheels\n\nNow, we sum these values:\n\n\\[\n4 + 4 + 8 + 8 + 10 + 10 + 12 = 56\n\\]\n\nTherefore, the total number of wheels for the listed steam locomotives is **56 wheels**.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Microsoft Excel\n2. Search engine\n3. Web browser\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 92,
+        "correct_answer": "Wharvton",
+        "returned_answer": "To determine which city had greater total sales between Wharvton and Algrimand, we need to sum the sales of all menu items for each city.\n\n**Sales for Wharvton:**\n- Burgers: 1983\n- Hot Dogs: 2008\n- Salads: 2014\n- Fries: 2015\n- Ice Cream: 2017\n- Soda: 2018\n\nTotal sales for Wharvton = 1983 + 2008 + 2014 + 2015 + 2017 + 2018 = 12055\n\n**Sales for Algrimand:**\n- Burgers: 1958\n- Hot Dogs: 1971\n- Salads: 1982\n- Fries: 1989\n- Ice Cream: 1998\n- Soda: 2009\n\nTotal sales for Algrimand = 1958 + 1971 + 1982 + 1989 + 1998 + 2009 = 11907\n\n**Comparison:**\n- Total sales for Wharvton: 12055\n- Total sales for Algrimand: 11907\n\nWharvton had the greater total sales.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 105,
+        "correct_answer": "cornstarch, freshly squeezed lemon juice, granulated sugar, pure vanilla extract, ripe strawberries",
+        "returned_answer": "error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py\", line 63, in answer_query\n    docs: List[Document] = load_documents(file_path, file_names)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 43, in load_documents\n    docs.extend(load_document(os.path.join(directory_path, file_name)))\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 90, in load_document\n    raise ValueError(f\"File extension not supported: {file_path}\")\nValueError: File extension not supported: GAIA/dataset/attachments/validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3\n",
+        "successful": false,
+        "level": "1",
+        "num_steps": "5",
+        "tools": "1. A file interface\n2. A speech-to-text tool",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 122,
+        "correct_answer": "6",
+        "returned_answer": "The BERT base model consists of 12 layers (or blocks) in its encoder. In contrast, the original Transformer architecture proposed in the \"Attention is All You Need\" paper also uses 6 layers in its encoder. \n\nTo find the difference in the number of layers between BERT base and the original Transformer encoder:\n\n12 (BERT base) - 6 (Transformer) = 6\n\nTherefore, BERT base has 6 more blocks (or layers) than the encoder from the architecture proposed in \"Attention is All You Need.\"",
+        "successful": false,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 126,
+        "correct_answer": "Out of the Silent Planet",
+        "returned_answer": "To determine the title of the book you read the slowest (using the rate of words per day), we need to calculate the number of days taken to read each book and then divide the total word count of each book by the number of days.\n\nHowever, the provided data does not include the word count for each book. If you can provide the word counts for each title, I can help you calculate the reading rate and identify the book you read the slowest.",
+        "successful": false,
+        "level": "3",
+        "num_steps": "44",
+        "tools": "1. Microsoft Excel / Google Sheets\n2. Search engine\n3. Web browser\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 135,
+        "correct_answer": "Michele Fitzgerald",
+        "returned_answer": "As of August 2023, the only winner of the US version of Survivor who was born in the month of May is Chris Underwood, who won Survivor: Edge of Extinction. He was born on May 24, 1995.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "I have five main processes listed but the individual steps for each winner (and any confirmation searches) would place it into the 40-60 range.",
+        "tools": "1. web browser\n2. search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 140,
+        "correct_answer": "Berkshire",
+        "returned_answer": "The locomotive used for the Murder Mystery Express is a 2-8-4 type, which is commonly referred to as a \"Berkshire\" in American terminology. This wheel configuration is known for its power and efficiency, making it suitable for various types of excursions, including themed events like the Murder Mystery Express.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Microsoft Excel\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 142,
+        "correct_answer": "1 in 3",
+        "returned_answer": "To determine the odds that today's Sunset Picnic Trip will use a steam locomotive, we first need to identify the locomotives that are operational and assigned to the Sunset Picnic Trip.\n\nFrom the provided information, we have the following locomotives assigned to the Sunset Picnic Trip:\n\n1. **Steam Locomotives:**\n   - 1060 (0-4-0, Operational)\n\n2. **Diesel Locomotives:**\n   - 93 (NW2, Operational)\n   - 57 (GP30, Operational)\n\nNow, let's summarize the operational locomotives assigned to the Sunset Picnic Trip:\n\n- **Total Operational Locomotives for Sunset Picnic Trip:** 3\n  - 1 Steam Locomotive (1060)\n  - 2 Diesel Locomotives (93 and 57)\n\nNext, we calculate the odds of selecting a steam locomotive for the Sunset Picnic Trip:\n\n- **Number of Steam Locomotives:** 1\n- **Number of Diesel Locomotives:** 2\n- **Total Operational Locomotives:** 3\n\nThe probability of selecting a steam locomotive is given by the ratio of the number of steam locomotives to the total number of operational locomotives:\n\n\\[\n\\text{Probability of Steam} = \\frac{\\text{Number of Steam Locomotives}}{\\text{Total Operational Locomotives}} = \\frac{1}{3}\n\\]\n\nTo express this as odds, we can say that the odds of selecting a steam locomotive are 1 in 3.\n\nThus, the final answer is:\n\n**1 in 3**",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Microsoft Excel",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 143,
+        "correct_answer": "132, 133, 134, 197, 245",
+        "returned_answer": "error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py\", line 63, in answer_query\n    docs: List[Document] = load_documents(file_path, file_names)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 43, in load_documents\n    docs.extend(load_document(os.path.join(directory_path, file_name)))\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py\", line 90, in load_document\n    raise ValueError(f\"File extension not supported: {file_path}\")\nValueError: File extension not supported: GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3\n",
+        "successful": false,
+        "level": "1",
+        "num_steps": "5",
+        "tools": "1. A file interface\n2. A speech-to-text audio processing tool",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 154,
+        "correct_answer": "CUB",
+        "returned_answer": "The country with the least number of athletes at the 1928 Summer Olympics was Luxembourg, which had only 5 athletes. The IOC country code for Luxembourg is LUX.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 157,
+        "correct_answer": "89706.00",
+        "returned_answer": "To calculate the total sales from food items (excluding drinks) for the local fast-food chain, we will sum the sales of the following menu items: Burgers, Hot Dogs, Salads, Fries, and Ice Cream.\n\nHere are the sales data for each location:\n\n- **Pinebrook**: \n  - Burgers: 1594\n  - Hot Dogs: 1999\n  - Salads: 2002\n  - Fries: 2005\n  - Ice Cream: 1977\n\n- **Wharvton**: \n  - Burgers: 1983\n  - Hot Dogs: 2008\n  - Salads: 2014\n  - Fries: 2015\n  - Ice Cream: 2017\n\n- **Sagrada**: \n  - Burgers: 2019\n  - Hot Dogs: 2022\n  - Salads: 2022\n  - Fries: 2023\n  - Ice Cream: 2021\n\n- **Algrimand**: \n  - Burgers: 1958\n  - Hot Dogs: 1971\n  - Salads: 1982\n  - Fries: 1989\n  - Ice Cream: 1998\n\n- **Marztep**: \n  - Burgers: 2015\n  - Hot Dogs: 2016\n  - Salads: 2018\n  - Fries: 2019\n  - Ice Cream: 2021\n\n- **San Cecelia**: \n  - Burgers: 2011\n  - Hot Dogs: 2010\n  - Salads: 2012\n  - Fries: 2013\n  - Ice Cream: 2015\n\n- **Pimento**: \n  - Burgers: 2017\n  - Hot Dogs: 1999\n  - Salads: 2001\n  - Fries: 2003\n  - Ice Cream: 1969\n\n- **Tinseles**: \n  - Burgers: 1967\n  - Hot Dogs: 1969\n  - Salads: 1982\n  - Fries: 1994\n  - Ice Cream: 2005\n\n- **Rosdale**: \n  - Burgers: 2007\n  - Hot Dogs: 2009\n  - Salads: 2021\n  - Fries: 1989\n  - Ice Cream: 2005\n\nNow, let's sum these values:\n\n1. **Pinebrook**: 1594 + 1999 + 2002 + 2005 + 1977 = 11577\n2. **Wharvton**: 1983 + 2008 + 2014 + 2015 + 2017 = 10037\n3. **Sagrada**: 2019 + 2022 + 2022 + 2023 + 2021 = 10107\n4. **Algrimand**: 1958 + 1971 + 1982 + 1989 + 1998 = 9888\n5. **Marztep**: 2015 + 2016 + 2018 + 2019 + 2021 = 10089\n6. **San Cecelia**: 2011 + 2010 + 2012 + 2013 + 2015 = 10061\n7. **Pimento**: 2017 + 1999 + 2001 + 2003 + 1969 = 10089\n8. **Tinseles**: 1967 + 1969 + 1982 + 1994 + 2005 = 9917\n9. **Rosdale**: 2007 + 2009 + 2021 + 1989 + 2005 = 10031\n\nNow, let's add all these totals together:\n\n11577 + 10037 + 10107 + 9888 + 10089 + 10061 + 10089 + 9917 + 10031 = 91000\n\nThus, the total sales that the chain made from food (not including drinks) is **$91000.00**.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Excel\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 158,
+        "correct_answer": "Claus",
+        "returned_answer": "The first name of the only Malko Competition recipient from the 20th Century (after 1977) whose nationality on record is a country that no longer exists is \"Vladimir.\"",
+        "successful": false,
+        "level": "1",
+        "num_steps": "2",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 162,
+        "correct_answer": "10",
+        "returned_answer": "To determine the number of stops between South Station and Windsor Gardens on the MBTA\u2019s Franklin-Foxboro line, you would typically refer to the official MBTA schedule or map. However, since I don't have access to external documents or attachments, I can't provide the exact number of stops.\n\nGenerally, you can find this information by checking the MBTA website or using their trip planner tool, which will show you the stops along the route. If you have a specific list of stops or a map, I can help you analyze that information.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    }
+]

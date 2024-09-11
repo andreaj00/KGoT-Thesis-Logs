@@ -1,0 +1,7 @@
+{"type":"node","id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}}
+{"type":"node","id":"1","labels":["Album"],"properties":{"release_year":2000,"title":"Misa Criolla"}}
+{"type":"node","id":"2","labels":["Album"],"properties":{"release_year":2002,"title":"Acústico"}}
+{"type":"node","id":"3","labels":["Album"],"properties":{"release_year":2005,"title":"Corazón Libre"}}
+{"type":"relationship","id":"0","label":"RELEASED","start":{"id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}},"end":{"id":"1","labels":["Album"],"properties":{"release_year":2000,"title":"Misa Criolla"}}}
+{"type":"relationship","id":"1","label":"RELEASED","start":{"id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}},"end":{"id":"2","labels":["Album"],"properties":{"release_year":2002,"title":"Acústico"}}}
+{"type":"relationship","id":"2","label":"RELEASED","start":{"id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}},"end":{"id":"3","labels":["Album"],"properties":{"release_year":2005,"title":"Corazón Libre"}}}

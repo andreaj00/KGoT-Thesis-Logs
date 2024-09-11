@@ -1,0 +1,5 @@
+{"type":"node","id":"5","labels":["Edit"],"properties":{"date":"2004-02-29"}}
+{"type":"node","id":"6","labels":["Joke"],"properties":{"content":"Pickled dragon a probable Hoax from the nineteenth century involving a fake dragon fetus in formaldehyde"}}
+{"type":"node","id":"106","labels":["Article"],"properties":{"name":"Dragon"}}
+{"type":"relationship","id":"145","label":"HAS_EDIT","start":{"id":"106","labels":["Article"],"properties":{"name":"Dragon"}},"end":{"id":"5","labels":["Edit"],"properties":{"date":"2004-02-29"}}}
+{"type":"relationship","id":"146","label":"REMOVED","start":{"id":"5","labels":["Edit"],"properties":{"date":"2004-02-29"}},"end":{"id":"6","labels":["Joke"],"properties":{"content":"Pickled dragon a probable Hoax from the nineteenth century involving a fake dragon fetus in formaldehyde"}}}

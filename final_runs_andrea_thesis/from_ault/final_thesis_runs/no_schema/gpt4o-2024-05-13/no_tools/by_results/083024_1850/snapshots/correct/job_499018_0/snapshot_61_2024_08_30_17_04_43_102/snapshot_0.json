@@ -1,0 +1,7 @@
+{"type":"node","id":"14","labels":["Element"],"properties":{"name":"a"}}
+{"type":"node","id":"15","labels":["Element"],"properties":{"name":"b"}}
+{"type":"node","id":"16","labels":["Element"],"properties":{"name":"c"}}
+{"type":"node","id":"17","labels":["Element"],"properties":{"name":"d"}}
+{"type":"node","id":"18","labels":["Element"],"properties":{"name":"e"}}
+{"type":"relationship","id":"0","label":"NOT_COMMUTATIVE_WITH","start":{"id":"18","labels":["Element"],"properties":{"name":"e"}},"end":{"id":"15","labels":["Element"],"properties":{"name":"b"}}}
+{"type":"relationship","id":"5","label":"NOT_COMMUTATIVE_WITH","start":{"id":"15","labels":["Element"],"properties":{"name":"b"}},"end":{"id":"18","labels":["Element"],"properties":{"name":"e"}}}

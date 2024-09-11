@@ -1,0 +1,11 @@
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"16","labels":["Game"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"17","labels":["Box"],"properties":{"name":"Box 1"}}
+{"type":"node","id":"18","labels":["Box"],"properties":{"name":"Box 2"}}
+{"type":"node","id":"19","labels":["Box"],"properties":{"name":"Box 3"}}
+{"type":"relationship","id":"106","label":"PARTICIPATES_IN","start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"107","label":"HOSTS","start":{"id":"15","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"108","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"17","labels":["Box"],"properties":{"name":"Box 1"}}}
+{"type":"relationship","id":"109","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"18","labels":["Box"],"properties":{"name":"Box 2"}}}
+{"type":"relationship","id":"110","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"19","labels":["Box"],"properties":{"name":"Box 3"}}}

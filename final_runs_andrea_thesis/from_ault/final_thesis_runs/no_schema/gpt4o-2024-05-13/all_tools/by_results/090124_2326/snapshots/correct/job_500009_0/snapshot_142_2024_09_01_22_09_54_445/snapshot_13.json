@@ -1,0 +1,35 @@
+{"type":"node","id":"17","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","wheel_configuration":"0-4-0","type":"Steam"}}
+{"type":"node","id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"node","id":"19","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","wheel_configuration":"0-4-0","type":"Steam"}}
+{"type":"node","id":"20","labels":["Location"],"properties":{"name":"Main Lawn"}}
+{"type":"node","id":"21","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","wheel_configuration":"4-4-0","type":"Steam"}}
+{"type":"node","id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}
+{"type":"node","id":"23","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","wheel_configuration":"2-6-0","type":"Steam"}}
+{"type":"node","id":"24","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}
+{"type":"node","id":"25","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","wheel_configuration":"2-8-0","type":"Steam"}}
+{"type":"node","id":"26","labels":["Location"],"properties":{"name":"Repair Shed"}}
+{"type":"node","id":"27","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","wheel_configuration":"2-6-4","type":"Steam"}}
+{"type":"node","id":"28","labels":["Location"],"properties":{"name":"Sent to Pikesville"}}
+{"type":"node","id":"29","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","wheel_configuration":"2-8-4","type":"Steam"}}
+{"type":"node","id":"30","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}
+{"type":"node","id":"31","labels":["Locomotive"],"properties":{"number":"93","operating_status":"Operational","wheel_configuration":"NW2","type":"Diesel"}}
+{"type":"node","id":"32","labels":["Locomotive"],"properties":{"number":"210","operating_status":"Operational","wheel_configuration":"F3","type":"Diesel"}}
+{"type":"node","id":"33","labels":["Locomotive"],"properties":{"number":"530","operating_status":"Static Display","wheel_configuration":"PA","type":"Diesel"}}
+{"type":"node","id":"34","labels":["Locomotive"],"properties":{"number":"59","operating_status":"Undergoing Repairs","wheel_configuration":"GP15","type":"Diesel"}}
+{"type":"node","id":"35","labels":["Locomotive"],"properties":{"number":"57","operating_status":"Operational","wheel_configuration":"GP30","type":"Diesel"}}
+{"type":"node","id":"36","labels":["Locomotive"],"properties":{"number":"741","operating_status":"Operational","wheel_configuration":"RDC","type":"Traction/Other"}}
+{"type":"node","id":"37","labels":["Locomotive"],"properties":{"number":"700","operating_status":"Static Display","wheel_configuration":"RDC","type":"Traction/Other"}}
+{"type":"relationship","id":"64","label":"LOCATED_AT","start":{"id":"25","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","wheel_configuration":"2-8-0","type":"Steam"}},"end":{"id":"26","labels":["Location"],"properties":{"name":"Repair Shed"}}}
+{"type":"relationship","id":"65","label":"LOCATED_AT","start":{"id":"27","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","wheel_configuration":"2-6-4","type":"Steam"}},"end":{"id":"28","labels":["Location"],"properties":{"name":"Sent to Pikesville"}}}
+{"type":"relationship","id":"66","label":"HEADS","start":{"id":"29","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","wheel_configuration":"2-8-4","type":"Steam"}},"end":{"id":"30","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}}
+{"type":"relationship","id":"67","label":"HEADS","start":{"id":"31","labels":["Locomotive"],"properties":{"number":"93","operating_status":"Operational","wheel_configuration":"NW2","type":"Diesel"}},"end":{"id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"68","label":"HEADS","start":{"id":"32","labels":["Locomotive"],"properties":{"number":"210","operating_status":"Operational","wheel_configuration":"F3","type":"Diesel"}},"end":{"id":"24","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}}
+{"type":"relationship","id":"69","label":"LOCATED_AT","start":{"id":"33","labels":["Locomotive"],"properties":{"number":"530","operating_status":"Static Display","wheel_configuration":"PA","type":"Diesel"}},"end":{"id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}}
+{"type":"relationship","id":"70","label":"LOCATED_AT","start":{"id":"34","labels":["Locomotive"],"properties":{"number":"59","operating_status":"Undergoing Repairs","wheel_configuration":"GP15","type":"Diesel"}},"end":{"id":"26","labels":["Location"],"properties":{"name":"Repair Shed"}}}
+{"type":"relationship","id":"71","label":"HEADS","start":{"id":"35","labels":["Locomotive"],"properties":{"number":"57","operating_status":"Operational","wheel_configuration":"GP30","type":"Diesel"}},"end":{"id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"72","label":"HEADS","start":{"id":"36","labels":["Locomotive"],"properties":{"number":"741","operating_status":"Operational","wheel_configuration":"RDC","type":"Traction/Other"}},"end":{"id":"24","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}}
+{"type":"relationship","id":"73","label":"LOCATED_AT","start":{"id":"37","labels":["Locomotive"],"properties":{"number":"700","operating_status":"Static Display","wheel_configuration":"RDC","type":"Traction/Other"}},"end":{"id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}}
+{"type":"relationship","id":"60","label":"HEADS","start":{"id":"17","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","wheel_configuration":"0-4-0","type":"Steam"}},"end":{"id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"61","label":"LOCATED_AT","start":{"id":"19","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","wheel_configuration":"0-4-0","type":"Steam"}},"end":{"id":"20","labels":["Location"],"properties":{"name":"Main Lawn"}}}
+{"type":"relationship","id":"62","label":"LOCATED_AT","start":{"id":"21","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","wheel_configuration":"4-4-0","type":"Steam"}},"end":{"id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}}
+{"type":"relationship","id":"63","label":"HEADS","start":{"id":"23","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","wheel_configuration":"2-6-0","type":"Steam"}},"end":{"id":"24","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}}

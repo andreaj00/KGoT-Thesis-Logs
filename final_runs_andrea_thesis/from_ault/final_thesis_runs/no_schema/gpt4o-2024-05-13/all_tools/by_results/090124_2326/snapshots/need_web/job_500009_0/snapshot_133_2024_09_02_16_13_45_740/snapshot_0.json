@@ -1,0 +1,6 @@
+{"type":"node","id":"0","labels":["Percentage"],"properties":{"value":24}}
+{"type":"node","id":"1","labels":["Time"],"properties":{"years":29}}
+{"type":"node","id":"58","labels":["Percentage"],"properties":{"value":37}}
+{"type":"relationship","id":"162","label":"CHANGED_TO","properties":{"years":29},"start":{"id":"58","labels":["Percentage"],"properties":{"value":37}},"end":{"id":"0","labels":["Percentage"],"properties":{"value":24}}}
+{"type":"relationship","id":"163","label":"HAS_TIME","start":{"id":"58","labels":["Percentage"],"properties":{"value":37}},"end":{"id":"1","labels":["Time"],"properties":{"years":29}}}
+{"type":"relationship","id":"104","label":"HAS_TIME","start":{"id":"0","labels":["Percentage"],"properties":{"value":24}},"end":{"id":"1","labels":["Time"],"properties":{"years":29}}}

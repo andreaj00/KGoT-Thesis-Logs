@@ -1,0 +1,80 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 68090,
+        "TotalCompletionTokens": 2729,
+        "TotalCost": 0.3813850000000002,
+        "TotalDuration": 59.7590229511261
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 2393,
+        "TotalCompletionTokens": 284,
+        "TotalCost": 0.016225,
+        "TotalDuration": 6.761159896850586
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 7743,
+        "TotalCompletionTokens": 445,
+        "TotalCost": 0.04539,
+        "TotalDuration": 10.149612426757812
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 320,
+        "TotalCompletionTokens": 1245,
+        "TotalCost": 0.020274999999999998,
+        "TotalDuration": 22.89075779914856
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 22.89887022972107
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 13704,
+        "TotalCompletionTokens": 2207,
+        "TotalCost": 0.10162500000000001,
+        "TotalDuration": 31.969627618789673
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 19878,
+        "TotalCompletionTokens": 280,
+        "TotalCost": 0.10358999999999997,
+        "TotalDuration": 12.997771263122559
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 51684,
+        "TotalCompletionTokens": 1194,
+        "TotalCost": 0.27633000000000013,
+        "TotalDuration": 40.85574817657471
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 4628,
+        "TotalCompletionTokens": 82,
+        "TotalCost": 0.024370000000000003,
+        "TotalDuration": 2.8467228412628174
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 21644,
+        "TotalCompletionTokens": 4663,
+        "TotalCost": 0.17816500000000002,
+        "TotalDuration": 81.68847441673279
+    },
+    "define_retrieve_query": {
+        "TotalPromptTokens": 20028,
+        "TotalCompletionTokens": 1538,
+        "TotalCost": 0.12320999999999999,
+        "TotalDuration": 25.34459924697876
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 74972,
+        "TotalCompletionTokens": 10780,
+        "TotalCost": 0.76156,
+        "TotalDuration": 170.03687286376953
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 285084,
+        "TotalCompletionTokens": 25447,
+        "TotalCost": 2.0321249999999993,
+        "TotalDuration": 488.19923973083496
+    }
+}

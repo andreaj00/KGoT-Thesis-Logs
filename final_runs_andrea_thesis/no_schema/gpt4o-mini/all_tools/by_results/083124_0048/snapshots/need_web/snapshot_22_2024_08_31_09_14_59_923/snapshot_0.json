@@ -1,0 +1,5 @@
+{"type":"node","id":"45","labels":["Episode"],"properties":{"episode_number":11,"series":9,"title":"Heaven Sent"}}
+{"type":"node","id":"46","labels":["Location"],"properties":{"name":"CASTLE","description":"An ever-shifting maze"}}
+{"type":"node","id":"47","labels":["SceneHeading"],"properties":{"heading":"INT. CASTLE - NIGHT"}}
+{"type":"relationship","id":"0","label":"HAS_SCENE","start":{"id":"45","labels":["Episode"],"properties":{"episode_number":11,"series":9,"title":"Heaven Sent"}},"end":{"id":"47","labels":["SceneHeading"],"properties":{"heading":"INT. CASTLE - NIGHT"}}}
+{"type":"relationship","id":"68","label":"SET_IN","start":{"id":"45","labels":["Episode"],"properties":{"episode_number":11,"series":9,"title":"Heaven Sent"}},"end":{"id":"46","labels":["Location"],"properties":{"name":"CASTLE","description":"An ever-shifting maze"}}}

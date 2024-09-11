@@ -1,0 +1,240 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-59-09-641/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-59-09-641/llm_cost_zero_shot.json
+
+
+
+Solving question 19:
+Query: Of the authors (First M. Last) that worked on the paper "Pie Menus or Linear Menus, Which Is Better?" in 2015, what was the title of the first paper authored by the one that had authored prior papers?
+Docs: []
+Query with Attached Docs: Of the authors (First M. Last) that worked on the paper "Pie Menus or Linear Menus, Which Is Better?" in 2015, what was the title of the first paper authored by the one that had authored prior papers?
+<attached_docs>
+
+</attached_docs>
+Row 19: Incorrect (Expected: Mapping Human Oriented Information to Software Agents for Online Systems Usage, Got: I'm sorry, but I cannot access or view attached documents. However, if you provide me with the names of the authors or any specific details from the paper, I can help you find information about their previous works or the title of their first paper.)
+
+
+
+Solving question 20:
+Query: When you take the average of the standard population deviation of the red numbers and the standard sample deviation of the green numbers in this image using the statistics module in Python 3.11, what is the result rounded to the nearest three decimal points?
+File Path: GAIA/dataset/attachments/validation and File Name: df6561b2-7ee5-4540-baab-5095f742716a.png
+Row 20: Incorrect (Expected: 17.056, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/df6561b2-7ee5-4540-baab-5095f742716a.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/df6561b2-7ee5-4540-baab-5095f742716a.png
+)
+
+
+
+Solving question 43:
+Query: Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the others?
+Docs: []
+Query with Attached Docs: Under DDC 633 on Bielefeld University Library's BASE, as of 2020, from what country was the unknown language article with a flag unique from the others?
+<attached_docs>
+
+</attached_docs>
+Row 43: Incorrect (Expected: Guatemala, Got: I'm sorry, but I cannot access external documents or databases, including Bielefeld University Library's BASE. However, if you provide me with more context or details about the article or the languages involved, I may be able to help you with general information or guidance.)
+
+
+
+Solving question 55:
+Query: Review the chess position provided in the image. It is black's turn. Provide the correct next move for black which guarantees a win. Please provide your response in algebraic notation.
+File Path: GAIA/dataset/attachments/validation and File Name: cca530fc-4052-43b2-b130-b30968d8aa44.png
+Row 55: Incorrect (Expected: Rd5, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/cca530fc-4052-43b2-b130-b30968d8aa44.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/cca530fc-4052-43b2-b130-b30968d8aa44.png
+)
+
+
+
+Solving question 66:
+Query: As a comma separated list with no whitespace, using the provided image provide all the fractions that use / as the fraction line and the answers to the sample problems. Order the list by the order in which the fractions appear.
+File Path: GAIA/dataset/attachments/validation and File Name: 9318445f-fe6a-4e1b-acbf-c68228c9906a.png
+Row 66: Incorrect (Expected: 3/4,1/4,3/4,3/4,2/4,1/2,5/35,7/21,30/5,30/5,3/4,1/15,1/3,4/9,1/8,32/23,103/170, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/9318445f-fe6a-4e1b-acbf-c68228c9906a.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/9318445f-fe6a-4e1b-acbf-c68228c9906a.png
+)
+
+
+
+Solving question 72:
+Query: Using bass clef notes, what is the age of someone who has experienced the word spelled out in the sheet music by the note letters the total number of lines and notes minus the number of notes on lines in the image?
+File Path: GAIA/dataset/attachments/validation and File Name: 8f80e01c-1296-4371-9486-bb3d68651a60.png
+Row 72: Incorrect (Expected: 90, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png
+)
+
+
+
+Solving question 90:
+Query: What is the area of the green polygon in the attached file? The numbers in purple represent the lengths of the side they are next to.
+File Path: GAIA/dataset/attachments/validation and File Name: 6359a0b1-8f7b-499b-9336-840f9ab90688.png
+Row 90: Incorrect (Expected: 39, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/6359a0b1-8f7b-499b-9336-840f9ab90688.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/6359a0b1-8f7b-499b-9336-840f9ab90688.png
+)
+
+
+
+Solving question 103:
+Query: Look at the attached image. The quiz is scored as follows:
+
+Problems that ask the student to add or subtract fractions: 5 points
+Problems that ask the student to multiply or divide fractions: 10 points
+Problems that ask the student to form an improper fraction: 15 points
+Problems that ask the student to form a mixed number: 20 points
+
+Due to a technical issue that delayed having students take the quiz, the teacher is giving everyone 5 bonus points.
+
+If you graded the quiz in the attached image, how many points would the student have earned? There is no partial credit.
+File Path: GAIA/dataset/attachments/validation and File Name: cca70ce6-1952-45d2-acd4-80c903b0bc49.png
+Row 103: Incorrect (Expected: 85, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png
+)
+
+
+
+Solving question 106:
+Query: The attached image contains a Python script. Run the Python code against an array of strings, listed below. The output of the Python script will be a URL containing C++ source code. Compile and run this C++ code against the array [35, 12, 8, 99, 21, 5] and return the sum of the third and fifth integers in the sorted list.
+
+arr = ['_alg', 'ghi', 'C++', 'jkl', 'tps', '/Q', 'pqr', 'stu', ':', '//', 'rose', 'vwx', 'yz1', '234', 'tta', '567', '890', 'cod', 'e.', 'or', 'g/', 'wiki', '/', 'ing', 'sort', 'abc' , 'or', 'it', 'hms', 'mno' , 'uic', 'ksort', '#', 'ht' ]
+File Path: GAIA/dataset/attachments/validation and File Name: b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png
+Row 106: Incorrect (Expected: 47, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png
+)
+
+
+
+Solving question 107:
+Query: I have the Standard plan in the image below, and I just uploaded 60 equally sized files and got a message that I'm 100GB over the limit. I have 980 more files of the same size to upload. What is the average additional cost per file in dollar that goes over my current plan limit rounded to the nearest cent if I have to upgrade to the minimum possible plan to store them all? Answer with the following format: x.xx
+File Path: GAIA/dataset/attachments/validation and File Name: d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png
+Row 107: Incorrect (Expected: 0.03, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png
+)
+
+
+
+Solving question 131:
+Query: Eva Draconis has a personal website which can be accessed on her YouTube page. What is the meaning of the only symbol seen in the top banner that has a curved line that isn't a circle or a portion of a circle? Answer without punctuation.
+Docs: []
+Query with Attached Docs: Eva Draconis has a personal website which can be accessed on her YouTube page. What is the meaning of the only symbol seen in the top banner that has a curved line that isn't a circle or a portion of a circle? Answer without punctuation.
+<attached_docs>
+
+</attached_docs>
+Row 131: Incorrect (Expected: War is not here this is a land of peace, Got: I'm sorry but I cannot access external content or documents. If you can describe the symbol or provide more context, I would be happy to help interpret its meaning.)
+
+
+
+Solving question 132:
+Query: The brand that makes these harnesses the dogs are wearing in the attached pic shares stories from their ambassadors on their website. What meat is mentioned in the story added Dec 8th 2022?
+File Path: GAIA/dataset/attachments/validation and File Name: 5b2a14e8-6e59-479c-80e3-4696e8980152.jpg
+Row 132: Incorrect (Expected: bacon, Got: error during execution, skipped. File extension not supported: GAIA/dataset/attachments/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg
+Traceback (most recent call last):
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py", line 56, in check_answers
+    returned_answer = solver_function(question,
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/baselines/zero_shot.py", line 63, in answer_query
+    docs: List[Document] = load_documents(file_path, file_names)
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 43, in load_documents
+    docs.extend(load_document(os.path.join(directory_path, file_name)))
+  File "/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/multi_modal_utils.py", line 90, in load_document
+    raise ValueError(f"File extension not supported: {file_path}")
+ValueError: File extension not supported: GAIA/dataset/attachments/validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg
+)
+
+
+
+Solving question 137:
+Query: The cover of the August 2021 issue of Vogue shows a famous landmark in the background behind some trees. How tall is this monument in yards, rounded to the nearest yard? Give the number only.
+Docs: []
+Query with Attached Docs: The cover of the August 2021 issue of Vogue shows a famous landmark in the background behind some trees. How tall is this monument in yards, rounded to the nearest yard? Give the number only.
+<attached_docs>
+
+</attached_docs>
+Row 137: Incorrect (Expected: 185, Got: I'm sorry, but I cannot view or analyze attached documents. However, if you provide me with the name of the landmark, I can help you find its height.)
+
+
+
+Solving question 163:
+Query: In the 2015 Metropolitan Museum of Art exhibition titled after the Chinese zodiac animal of 2015, how many of the "twelve animals of the Chinese zodiac" have a hand visible?
+Docs: []
+Query with Attached Docs: In the 2015 Metropolitan Museum of Art exhibition titled after the Chinese zodiac animal of 2015, how many of the "twelve animals of the Chinese zodiac" have a hand visible?
+<attached_docs>
+
+</attached_docs>
+Row 163: Incorrect (Expected: 11, Got: In the 2015 Metropolitan Museum of Art exhibition titled "The Year of the Ram," which focused on the Chinese zodiac, there are a total of twelve animals in the Chinese zodiac. To determine how many of these animals have a hand visible, we would need to analyze the specific artworks featured in the exhibition. 
+
+However, without access to the specific details or images from the exhibition, I cannot provide an exact number. If you have specific artworks or descriptions from the exhibition, I could help analyze them to find out how many animals have a hand visible.)
+
+Total questions: 14
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-59-09-641/llm_cost_zero_shot_total.json

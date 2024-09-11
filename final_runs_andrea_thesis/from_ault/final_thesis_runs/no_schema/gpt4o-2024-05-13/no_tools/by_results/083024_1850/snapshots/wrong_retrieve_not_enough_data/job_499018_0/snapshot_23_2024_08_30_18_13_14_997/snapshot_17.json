@@ -1,0 +1,30 @@
+{"type":"node","id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"latitude":4.9031,"name":"Bandar Seri Begawan","longitude":114.9398}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"name":"Cambodia"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"latitude":11.5564,"name":"Phnom Penh","longitude":104.9282}}
+{"type":"node","id":"6","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"72","labels":["City"],"properties":{"latitude":-6.2088,"name":"Jakarta","longitude":106.8456}}
+{"type":"node","id":"73","labels":["Country"],"properties":{"name":"Laos"}}
+{"type":"node","id":"74","labels":["City"],"properties":{"latitude":17.9757,"name":"Vientiane","longitude":102.6331}}
+{"type":"node","id":"75","labels":["Country"],"properties":{"name":"Malaysia"}}
+{"type":"node","id":"76","labels":["City"],"properties":{"latitude":3.139,"name":"Kuala Lumpur","longitude":101.6869}}
+{"type":"node","id":"77","labels":["Country"],"properties":{"name":"Myanmar"}}
+{"type":"node","id":"78","labels":["City"],"properties":{"latitude":19.7633,"name":"Naypyidaw","longitude":96.0785}}
+{"type":"node","id":"79","labels":["Country"],"properties":{"name":"Philippines"}}
+{"type":"node","id":"80","labels":["City"],"properties":{"latitude":14.5995,"name":"Manila","longitude":120.9842}}
+{"type":"node","id":"81","labels":["Country"],"properties":{"name":"Singapore"}}
+{"type":"node","id":"82","labels":["City"],"properties":{"latitude":1.3521,"name":"Singapore","longitude":103.8198}}
+{"type":"node","id":"83","labels":["Country"],"properties":{"name":"Thailand"}}
+{"type":"node","id":"84","labels":["City"],"properties":{"name":"Bangkok"}}
+{"type":"node","id":"85","labels":["Country"],"properties":{"name":"Vietnam"}}
+{"type":"node","id":"86","labels":["City"],"properties":{"name":"Hanoi"}}
+{"type":"relationship","id":"64","label":"HAS_CAPITAL","start":{"id":"6","labels":["Country"],"properties":{"name":"Indonesia"}},"end":{"id":"72","labels":["City"],"properties":{"latitude":-6.2088,"name":"Jakarta","longitude":106.8456}}}
+{"type":"relationship","id":"65","label":"HAS_CAPITAL","start":{"id":"73","labels":["Country"],"properties":{"name":"Laos"}},"end":{"id":"74","labels":["City"],"properties":{"latitude":17.9757,"name":"Vientiane","longitude":102.6331}}}
+{"type":"relationship","id":"66","label":"HAS_CAPITAL","start":{"id":"75","labels":["Country"],"properties":{"name":"Malaysia"}},"end":{"id":"76","labels":["City"],"properties":{"latitude":3.139,"name":"Kuala Lumpur","longitude":101.6869}}}
+{"type":"relationship","id":"67","label":"HAS_CAPITAL","start":{"id":"77","labels":["Country"],"properties":{"name":"Myanmar"}},"end":{"id":"78","labels":["City"],"properties":{"latitude":19.7633,"name":"Naypyidaw","longitude":96.0785}}}
+{"type":"relationship","id":"68","label":"HAS_CAPITAL","start":{"id":"79","labels":["Country"],"properties":{"name":"Philippines"}},"end":{"id":"80","labels":["City"],"properties":{"latitude":14.5995,"name":"Manila","longitude":120.9842}}}
+{"type":"relationship","id":"69","label":"HAS_CAPITAL","start":{"id":"81","labels":["Country"],"properties":{"name":"Singapore"}},"end":{"id":"82","labels":["City"],"properties":{"latitude":1.3521,"name":"Singapore","longitude":103.8198}}}
+{"type":"relationship","id":"70","label":"HAS_CAPITAL","start":{"id":"83","labels":["Country"],"properties":{"name":"Thailand"}},"end":{"id":"84","labels":["City"],"properties":{"name":"Bangkok"}}}
+{"type":"relationship","id":"71","label":"HAS_CAPITAL","start":{"id":"85","labels":["Country"],"properties":{"name":"Vietnam"}},"end":{"id":"86","labels":["City"],"properties":{"name":"Hanoi"}}}
+{"type":"relationship","id":"62","label":"HAS_CAPITAL","start":{"id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}},"end":{"id":"3","labels":["City"],"properties":{"latitude":4.9031,"name":"Bandar Seri Begawan","longitude":114.9398}}}
+{"type":"relationship","id":"63","label":"HAS_CAPITAL","start":{"id":"4","labels":["Country"],"properties":{"name":"Cambodia"}},"end":{"id":"5","labels":["City"],"properties":{"latitude":11.5564,"name":"Phnom Penh","longitude":104.9282}}}

@@ -1,0 +1,101 @@
+{"type":"node","id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}}
+{"type":"node","id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}
+{"type":"node","id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}
+{"type":"node","id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}
+{"type":"node","id":"6","labels":["Chef"],"properties":{"name":"Mashama Bailey"}}
+{"type":"node","id":"7","labels":["Restaurant"],"properties":{"name":"The Grey"}}
+{"type":"node","id":"8","labels":["Restaurant"],"properties":{"name":"Chai Pani"}}
+{"type":"node","id":"9","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Restaurant"}}
+{"type":"node","id":"10","labels":["Chef"],"properties":{"name":"Edgar Rico"}}
+{"type":"node","id":"11","labels":["Restaurant"],"properties":{"name":"Nixta Taqueria"}}
+{"type":"node","id":"12","labels":["Restaurant"],"properties":{"name":"Owamni"}}
+{"type":"node","id":"13","labels":["Award"],"properties":{"year":2022,"name":"Best New Restaurant"}}
+{"type":"node","id":"14","labels":["Chef"],"properties":{"name":"Warda Bouguettaya"}}
+{"type":"node","id":"15","labels":["Restaurant"],"properties":{"name":"Warda Pâtisserie"}}
+{"type":"node","id":"16","labels":["Chef"],"properties":{"name":"Don Guerra"}}
+{"type":"node","id":"17","labels":["Restaurant"],"properties":{"name":"Barrio Bread"}}
+{"type":"node","id":"18","labels":["Restaurant"],"properties":{"name":"Cúrate"}}
+{"type":"node","id":"19","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Hospitality"}}
+{"type":"node","id":"20","labels":["Restaurant"],"properties":{"name":"The Four Horsemen"}}
+{"type":"node","id":"21","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Wine Program"}}
+{"type":"node","id":"22","labels":["Restaurant"],"properties":{"name":"Julep"}}
+{"type":"node","id":"23","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Bar Program"}}
+{"type":"node","id":"24","labels":["Chef"],"properties":{"name":"Brandon Jew"}}
+{"type":"node","id":"25","labels":["Restaurant"],"properties":{"name":"Mister Jiu's"}}
+{"type":"node","id":"26","labels":["Chef"],"properties":{"name":"Erick Williams"}}
+{"type":"node","id":"27","labels":["Restaurant"],"properties":{"name":"Virtue Restaurant & Bar"}}
+{"type":"node","id":"28","labels":["Chef"],"properties":{"name":"Cristina Martinez"}}
+{"type":"node","id":"29","labels":["Restaurant"],"properties":{"name":"South Philly Barbacoa"}}
+{"type":"node","id":"30","labels":["Chef"],"properties":{"name":"Dane Baldwin"}}
+{"type":"node","id":"31","labels":["Restaurant"],"properties":{"name":"The Diplomat"}}
+{"type":"node","id":"32","labels":["Chef"],"properties":{"name":"Caroline Glover"}}
+{"type":"node","id":"33","labels":["Restaurant"],"properties":{"name":"Annette"}}
+{"type":"node","id":"34","labels":["Chef"],"properties":{"name":"Chintan Pandya"}}
+{"type":"node","id":"35","labels":["Restaurant"],"properties":{"name":"Dhamaka"}}
+{"type":"node","id":"36","labels":["Chef"],"properties":{"name":"Nisachon Morgan"}}
+{"type":"node","id":"37","labels":["Restaurant"],"properties":{"name":"Saap"}}
+{"type":"node","id":"38","labels":["Chef"],"properties":{"name":"Robynne Maii"}}
+{"type":"node","id":"39","labels":["Restaurant"],"properties":{"name":"Fête"}}
+{"type":"node","id":"40","labels":["Chef"],"properties":{"name":"Ricky Moore"}}
+{"type":"node","id":"41","labels":["Restaurant"],"properties":{"name":"SALTBOX Seafood Joint"}}
+{"type":"node","id":"42","labels":["Chef"],"properties":{"name":"Adam Evans"}}
+{"type":"node","id":"43","labels":["Restaurant"],"properties":{"name":"Automatic Seafood and Oysters"}}
+{"type":"node","id":"44","labels":["Chef"],"properties":{"name":"Fernando Olea"}}
+{"type":"node","id":"45","labels":["Restaurant"],"properties":{"name":"Sazón"}}
+{"type":"node","id":"46","labels":["Chef"],"properties":{"name":"Iliana de la Vega"}}
+{"type":"node","id":"47","labels":["Restaurant"],"properties":{"name":"El Naranjo"}}
+{"type":"node","id":"48","labels":["Chef"],"properties":{"name":"Ellen Yin"}}
+{"type":"node","id":"49","labels":["Restaurant"],"properties":{"name":"Fork"}}
+{"type":"node","id":"50","labels":["Restaurant"],"properties":{"name":"a.kitchen + bar"}}
+{"type":"node","id":"51","labels":["Restaurant"],"properties":{"name":"High Street"}}
+{"type":"node","id":"52","labels":["Chef"],"properties":{"name":"Rob Rubba"}}
+{"type":"node","id":"53","labels":["Restaurant"],"properties":{"name":"Oyster Oyster"}}
+{"type":"node","id":"59","labels":["Restaurant"],"properties":{"name":"Friday, Saturday, Sunday"}}
+{"type":"node","id":"60","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Restaurant"}}
+{"type":"node","id":"61","labels":["Chef"],"properties":{"name":"Damarr Brown"}}
+{"type":"node","id":"62","labels":["Restaurant"],"properties":{"name":"Virtue"}}
+{"type":"node","id":"63","labels":["Restaurant"],"properties":{"name":"Kann"}}
+{"type":"node","id":"64","labels":["Award"],"properties":{"year":2023,"name":"Best New Restaurant"}}
+{"type":"node","id":"65","labels":["Restaurant"],"properties":{"name":"Yoli Tortilleria"}}
+{"type":"node","id":"66","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Bakery"}}
+{"type":"node","id":"67","labels":["Chef"],"properties":{"name":"Margarita Manzke"}}
+{"type":"node","id":"68","labels":["Restaurant"],"properties":{"name":"République"}}
+{"type":"node","id":"69","labels":["Restaurant"],"properties":{"name":"The Quarry"}}
+{"type":"node","id":"70","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Hospitality"}}
+{"type":"node","id":"71","labels":["Restaurant"],"properties":{"name":"OTOTO"}}
+{"type":"node","id":"72","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Wine and Other Beverages Program"}}
+{"type":"relationship","id":"0","label":"OWNS","start":{"id":"48","labels":["Chef"],"properties":{"name":"Ellen Yin"}},"end":{"id":"50","labels":["Restaurant"],"properties":{"name":"a.kitchen + bar"}}}
+{"type":"relationship","id":"128","label":"OWNS","start":{"id":"46","labels":["Chef"],"properties":{"name":"Iliana de la Vega"}},"end":{"id":"47","labels":["Restaurant"],"properties":{"name":"El Naranjo"}}}
+{"type":"relationship","id":"1","label":"OWNS","start":{"id":"48","labels":["Chef"],"properties":{"name":"Ellen Yin"}},"end":{"id":"51","labels":["Restaurant"],"properties":{"name":"High Street"}}}
+{"type":"relationship","id":"129","label":"OWNS","start":{"id":"48","labels":["Chef"],"properties":{"name":"Ellen Yin"}},"end":{"id":"49","labels":["Restaurant"],"properties":{"name":"Fork"}}}
+{"type":"relationship","id":"2","label":"OWNS","start":{"id":"52","labels":["Chef"],"properties":{"name":"Rob Rubba"}},"end":{"id":"53","labels":["Restaurant"],"properties":{"name":"Oyster Oyster"}}}
+{"type":"relationship","id":"130","label":"OWNS","start":{"id":"67","labels":["Chef"],"properties":{"name":"Margarita Manzke"}},"end":{"id":"68","labels":["Restaurant"],"properties":{"name":"République"}}}
+{"type":"relationship","id":"3","label":"AWARDED","start":{"id":"59","labels":["Restaurant"],"properties":{"name":"Friday, Saturday, Sunday"}},"end":{"id":"60","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Restaurant"}}}
+{"type":"relationship","id":"131","label":"AWARDED","start":{"id":"69","labels":["Restaurant"],"properties":{"name":"The Quarry"}},"end":{"id":"70","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Hospitality"}}}
+{"type":"relationship","id":"4","label":"OWNS","start":{"id":"61","labels":["Chef"],"properties":{"name":"Damarr Brown"}},"end":{"id":"62","labels":["Restaurant"],"properties":{"name":"Virtue"}}}
+{"type":"relationship","id":"132","label":"AWARDED","start":{"id":"71","labels":["Restaurant"],"properties":{"name":"OTOTO"}},"end":{"id":"72","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Wine and Other Beverages Program"}}}
+{"type":"relationship","id":"5","label":"AWARDED","start":{"id":"63","labels":["Restaurant"],"properties":{"name":"Kann"}},"end":{"id":"64","labels":["Award"],"properties":{"year":2023,"name":"Best New Restaurant"}}}
+{"type":"relationship","id":"6","label":"AWARDED","start":{"id":"65","labels":["Restaurant"],"properties":{"name":"Yoli Tortilleria"}},"end":{"id":"66","labels":["Award"],"properties":{"year":2023,"name":"Outstanding Bakery"}}}
+{"type":"relationship","id":"105","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}}
+{"type":"relationship","id":"106","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}}
+{"type":"relationship","id":"107","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}}
+{"type":"relationship","id":"108","label":"OWNS","start":{"id":"6","labels":["Chef"],"properties":{"name":"Mashama Bailey"}},"end":{"id":"7","labels":["Restaurant"],"properties":{"name":"The Grey"}}}
+{"type":"relationship","id":"109","label":"AWARDED","start":{"id":"8","labels":["Restaurant"],"properties":{"name":"Chai Pani"}},"end":{"id":"9","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Restaurant"}}}
+{"type":"relationship","id":"110","label":"OWNS","start":{"id":"10","labels":["Chef"],"properties":{"name":"Edgar Rico"}},"end":{"id":"11","labels":["Restaurant"],"properties":{"name":"Nixta Taqueria"}}}
+{"type":"relationship","id":"111","label":"AWARDED","start":{"id":"12","labels":["Restaurant"],"properties":{"name":"Owamni"}},"end":{"id":"13","labels":["Award"],"properties":{"year":2022,"name":"Best New Restaurant"}}}
+{"type":"relationship","id":"112","label":"OWNS","start":{"id":"14","labels":["Chef"],"properties":{"name":"Warda Bouguettaya"}},"end":{"id":"15","labels":["Restaurant"],"properties":{"name":"Warda Pâtisserie"}}}
+{"type":"relationship","id":"113","label":"OWNS","start":{"id":"16","labels":["Chef"],"properties":{"name":"Don Guerra"}},"end":{"id":"17","labels":["Restaurant"],"properties":{"name":"Barrio Bread"}}}
+{"type":"relationship","id":"114","label":"AWARDED","start":{"id":"18","labels":["Restaurant"],"properties":{"name":"Cúrate"}},"end":{"id":"19","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Hospitality"}}}
+{"type":"relationship","id":"115","label":"AWARDED","start":{"id":"20","labels":["Restaurant"],"properties":{"name":"The Four Horsemen"}},"end":{"id":"21","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Wine Program"}}}
+{"type":"relationship","id":"116","label":"AWARDED","start":{"id":"22","labels":["Restaurant"],"properties":{"name":"Julep"}},"end":{"id":"23","labels":["Award"],"properties":{"year":2022,"name":"Outstanding Bar Program"}}}
+{"type":"relationship","id":"117","label":"OWNS","start":{"id":"24","labels":["Chef"],"properties":{"name":"Brandon Jew"}},"end":{"id":"25","labels":["Restaurant"],"properties":{"name":"Mister Jiu's"}}}
+{"type":"relationship","id":"118","label":"OWNS","start":{"id":"26","labels":["Chef"],"properties":{"name":"Erick Williams"}},"end":{"id":"27","labels":["Restaurant"],"properties":{"name":"Virtue Restaurant & Bar"}}}
+{"type":"relationship","id":"119","label":"OWNS","start":{"id":"28","labels":["Chef"],"properties":{"name":"Cristina Martinez"}},"end":{"id":"29","labels":["Restaurant"],"properties":{"name":"South Philly Barbacoa"}}}
+{"type":"relationship","id":"120","label":"OWNS","start":{"id":"30","labels":["Chef"],"properties":{"name":"Dane Baldwin"}},"end":{"id":"31","labels":["Restaurant"],"properties":{"name":"The Diplomat"}}}
+{"type":"relationship","id":"121","label":"OWNS","start":{"id":"32","labels":["Chef"],"properties":{"name":"Caroline Glover"}},"end":{"id":"33","labels":["Restaurant"],"properties":{"name":"Annette"}}}
+{"type":"relationship","id":"122","label":"OWNS","start":{"id":"34","labels":["Chef"],"properties":{"name":"Chintan Pandya"}},"end":{"id":"35","labels":["Restaurant"],"properties":{"name":"Dhamaka"}}}
+{"type":"relationship","id":"123","label":"OWNS","start":{"id":"36","labels":["Chef"],"properties":{"name":"Nisachon Morgan"}},"end":{"id":"37","labels":["Restaurant"],"properties":{"name":"Saap"}}}
+{"type":"relationship","id":"124","label":"OWNS","start":{"id":"38","labels":["Chef"],"properties":{"name":"Robynne Maii"}},"end":{"id":"39","labels":["Restaurant"],"properties":{"name":"Fête"}}}
+{"type":"relationship","id":"125","label":"OWNS","start":{"id":"40","labels":["Chef"],"properties":{"name":"Ricky Moore"}},"end":{"id":"41","labels":["Restaurant"],"properties":{"name":"SALTBOX Seafood Joint"}}}
+{"type":"relationship","id":"126","label":"OWNS","start":{"id":"42","labels":["Chef"],"properties":{"name":"Adam Evans"}},"end":{"id":"43","labels":["Restaurant"],"properties":{"name":"Automatic Seafood and Oysters"}}}
+{"type":"relationship","id":"127","label":"OWNS","start":{"id":"44","labels":["Chef"],"properties":{"name":"Fernando Olea"}},"end":{"id":"45","labels":["Restaurant"],"properties":{"name":"Sazón"}}}

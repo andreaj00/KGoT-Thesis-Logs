@@ -1,0 +1,146 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 766455,
+        "TotalCompletionTokens": 19059,
+        "TotalCost": 4.118160000000004,
+        "TotalDuration": 368.04236030578613
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 29388,
+        "TotalCompletionTokens": 3366,
+        "TotalCost": 0.19743000000000008,
+        "TotalDuration": 59.885865449905396
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 240364,
+        "TotalCompletionTokens": 4723,
+        "TotalCost": 1.2726649999999997,
+        "TotalDuration": 89.19149684906006
+    },
+    "ask_LLM_which_article_to_explore": {
+        "TotalPromptTokens": 19596,
+        "TotalCompletionTokens": 159,
+        "TotalCost": 0.10036500000000001,
+        "TotalDuration": 4.7905824184417725
+    },
+    "get_page_content": {
+        "TotalPromptTokens": 262924,
+        "TotalCompletionTokens": 8921,
+        "TotalCost": 1.448435,
+        "TotalDuration": 125.3511848449707
+    },
+    "wikipedia_search_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 271.06593918800354
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 185904,
+        "TotalCompletionTokens": 25486,
+        "TotalCost": 1.3118099999999997,
+        "TotalDuration": 291.9873888492584
+    },
+    "ask_llm_for_sources": {
+        "TotalPromptTokens": 15150,
+        "TotalCompletionTokens": 742,
+        "TotalCost": 0.08688,
+        "TotalDuration": 11.485665321350098
+    },
+    "run": {
+        "TotalPromptTokens": 631040,
+        "TotalCompletionTokens": 65003,
+        "TotalCost": 4.130245,
+        "TotalDuration": 1096.164913892746
+    },
+    "OCRLoader.extract_text_from_image": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.34950000000000025,
+        "TotalDuration": 225.23026776313782
+    },
+    "ImageQuestion._run": {
+        "TotalPromptTokens": 146902,
+        "TotalCompletionTokens": 40476,
+        "TotalCost": 1.3416500000000002,
+        "TotalDuration": 907.2834234237671
+    },
+    "ask_llm_for_more_sources": {
+        "TotalPromptTokens": 194343,
+        "TotalCompletionTokens": 1206,
+        "TotalCost": 0.9898049999999999,
+        "TotalDuration": 32.044976234436035
+    },
+    "web_crawler_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 2231.623924255371
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 43075,
+        "TotalCompletionTokens": 624,
+        "TotalCost": 0.22473500000000005,
+        "TotalDuration": 25.524027585983276
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 110181,
+        "TotalCompletionTokens": 3028,
+        "TotalCost": 0.5963249999999992,
+        "TotalDuration": 92.20774459838867
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 10593,
+        "TotalCompletionTokens": 211,
+        "TotalCost": 0.05613,
+        "TotalDuration": 5.7176995277404785
+    },
+    "image_question_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 175.09056687355042
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 22914,
+        "TotalCompletionTokens": 9461,
+        "TotalCost": 0.256485,
+        "TotalDuration": 104.95412874221802
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 944,
+        "TotalCompletionTokens": 1956,
+        "TotalCost": 0.03406,
+        "TotalDuration": 21.842819929122925
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 21.84970736503601
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 3772,
+        "TotalCompletionTokens": 1598,
+        "TotalCost": 0.29283,
+        "TotalDuration": 20.360533475875854
+    },
+    "RunPythonCodeTool._fix_code": {
+        "TotalPromptTokens": 2491,
+        "TotalCompletionTokens": 744,
+        "TotalCost": 0.023615000000000004,
+        "TotalDuration": 9.887897729873657
+    },
+    "run_python_code_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 9.941654443740845
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 2686036,
+        "TotalCompletionTokens": 186763,
+        "TotalCost": 16.831125000000025,
+        "TotalDuration": 6201.524769067764
+    }
+}

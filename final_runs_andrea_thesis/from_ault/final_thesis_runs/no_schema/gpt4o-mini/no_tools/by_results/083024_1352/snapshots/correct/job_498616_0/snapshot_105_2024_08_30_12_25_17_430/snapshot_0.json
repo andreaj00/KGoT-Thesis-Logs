@@ -1,0 +1,11 @@
+{"type":"node","id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}}
+{"type":"node","id":"18","labels":["Ingredient"],"properties":{"name":"cornstarch"}}
+{"type":"node","id":"19","labels":["Ingredient"],"properties":{"name":"freshly squeezed lemon juice"}}
+{"type":"node","id":"20","labels":["Ingredient"],"properties":{"name":"granulated sugar"}}
+{"type":"node","id":"21","labels":["Ingredient"],"properties":{"name":"pure vanilla extract"}}
+{"type":"node","id":"22","labels":["Ingredient"],"properties":{"name":"ripe strawberries"}}
+{"type":"relationship","id":"5","label":"CONTAINS","start":{"id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}},"end":{"id":"18","labels":["Ingredient"],"properties":{"name":"cornstarch"}}}
+{"type":"relationship","id":"6","label":"CONTAINS","start":{"id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}},"end":{"id":"19","labels":["Ingredient"],"properties":{"name":"freshly squeezed lemon juice"}}}
+{"type":"relationship","id":"7","label":"CONTAINS","start":{"id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}},"end":{"id":"20","labels":["Ingredient"],"properties":{"name":"granulated sugar"}}}
+{"type":"relationship","id":"8","label":"CONTAINS","start":{"id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}},"end":{"id":"21","labels":["Ingredient"],"properties":{"name":"pure vanilla extract"}}}
+{"type":"relationship","id":"9","label":"CONTAINS","start":{"id":"17","labels":["Filling"],"properties":{"name":"strawberry pie filling"}},"end":{"id":"22","labels":["Ingredient"],"properties":{"name":"ripe strawberries"}}}

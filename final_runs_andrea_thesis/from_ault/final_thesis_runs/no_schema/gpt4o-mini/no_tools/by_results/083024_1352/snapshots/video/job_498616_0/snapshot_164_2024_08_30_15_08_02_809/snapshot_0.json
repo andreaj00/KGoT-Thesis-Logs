@@ -1,0 +1,5 @@
+{"type":"node","id":"51","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}}
+{"type":"node","id":"52","labels":["Mode"],"properties":{"name":"150cc"}}
+{"type":"node","id":"53","labels":["Track"],"properties":{"time_seconds":41.87,"time_minutes":1,"name":"World Record Time"}}
+{"type":"relationship","id":"14","label":"HAS_MODE","start":{"id":"51","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}},"end":{"id":"52","labels":["Mode"],"properties":{"name":"150cc"}}}
+{"type":"relationship","id":"15","label":"HAS_RECORD","start":{"id":"52","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"53","labels":["Track"],"properties":{"time_seconds":41.87,"time_minutes":1,"name":"World Record Time"}}}

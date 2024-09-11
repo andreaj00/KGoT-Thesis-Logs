@@ -1,0 +1,21 @@
+{"type":"node","id":"0","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","type":"2-8-4"}}
+{"type":"node","id":"1","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}
+{"type":"node","id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}}
+{"type":"node","id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"node","id":"20","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"0-4-0"}}
+{"type":"node","id":"21","labels":["Excursion"],"properties":{"name":"Main Lawn"}}
+{"type":"node","id":"22","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","type":"4-4-0"}}
+{"type":"node","id":"23","labels":["Excursion"],"properties":{"name":"Display Hall"}}
+{"type":"node","id":"24","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","type":"2-6-0"}}
+{"type":"node","id":"25","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}
+{"type":"node","id":"26","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","type":"2-8-0"}}
+{"type":"node","id":"27","labels":["Excursion"],"properties":{"name":"Repair Shed"}}
+{"type":"node","id":"28","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","type":"2-6-4"}}
+{"type":"node","id":"29","labels":["Excursion"],"properties":{"name":"Sent to Pikesville"}}
+{"type":"relationship","id":"64","label":"HEADS","start":{"id":"26","labels":["Locomotive"],"properties":{"number":"52","operating_status":"Undergoing Repairs","type":"2-8-0"}},"end":{"id":"27","labels":["Excursion"],"properties":{"name":"Repair Shed"}}}
+{"type":"relationship","id":"65","label":"HEADS","start":{"id":"28","labels":["Locomotive"],"properties":{"number":"89","operating_status":"Undergoing Repairs","type":"2-6-4"}},"end":{"id":"29","labels":["Excursion"],"properties":{"name":"Sent to Pikesville"}}}
+{"type":"relationship","id":"66","label":"HEADS","start":{"id":"0","labels":["Locomotive"],"properties":{"number":"266","operating_status":"Operational","type":"2-8-4"}},"end":{"id":"1","labels":["Excursion"],"properties":{"name":"Murder Mystery Express"}}}
+{"type":"relationship","id":"60","label":"HEADS","start":{"id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}},"end":{"id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"61","label":"HEADS","start":{"id":"20","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"0-4-0"}},"end":{"id":"21","labels":["Excursion"],"properties":{"name":"Main Lawn"}}}
+{"type":"relationship","id":"62","label":"HEADS","start":{"id":"22","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","type":"4-4-0"}},"end":{"id":"23","labels":["Excursion"],"properties":{"name":"Display Hall"}}}
+{"type":"relationship","id":"63","label":"HEADS","start":{"id":"24","labels":["Locomotive"],"properties":{"number":"825","operating_status":"Operational","type":"2-6-0"}},"end":{"id":"25","labels":["Excursion"],"properties":{"name":"Fall Foliage Tour"}}}

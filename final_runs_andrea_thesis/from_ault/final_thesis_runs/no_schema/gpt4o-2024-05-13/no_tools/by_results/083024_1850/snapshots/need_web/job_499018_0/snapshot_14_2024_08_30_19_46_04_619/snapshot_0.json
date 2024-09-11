@@ -1,0 +1,3 @@
+{"type":"node","id":"98","labels":["Brand"],"properties":{"name":"Ben & Jerry's"}}
+{"type":"node","id":"99","labels":["Section"],"properties":{"name":"Flavor Graveyard"}}
+{"type":"relationship","id":"22","label":"HAS_SECTION","start":{"id":"98","labels":["Brand"],"properties":{"name":"Ben & Jerry's"}},"end":{"id":"99","labels":["Section"],"properties":{"name":"Flavor Graveyard"}}}

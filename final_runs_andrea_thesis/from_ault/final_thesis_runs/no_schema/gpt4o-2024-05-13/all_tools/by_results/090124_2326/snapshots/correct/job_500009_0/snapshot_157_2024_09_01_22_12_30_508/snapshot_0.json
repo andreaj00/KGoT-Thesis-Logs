@@ -1,0 +1,59 @@
+{"type":"node","id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}
+{"type":"node","id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}
+{"type":"node","id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}
+{"type":"node","id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}
+{"type":"node","id":"4","labels":["Location"],"properties":{"name":"Marztep"}}
+{"type":"node","id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}
+{"type":"node","id":"6","labels":["Location"],"properties":{"name":"Pimento"}}
+{"type":"node","id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}
+{"type":"node","id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}
+{"type":"node","id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}}
+{"type":"node","id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}}
+{"type":"node","id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}}
+{"type":"node","id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}}
+{"type":"node","id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}}
+{"type":"relationship","id":"128","label":"SOLD_AT","properties":{"sales":2021},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}}}
+{"type":"relationship","id":"129","label":"SOLD_AT","properties":{"sales":2015},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}}
+{"type":"relationship","id":"130","label":"SOLD_AT","properties":{"sales":1969},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}}}
+{"type":"relationship","id":"131","label":"SOLD_AT","properties":{"sales":2005},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}}
+{"type":"relationship","id":"132","label":"SOLD_AT","properties":{"sales":2005},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}}
+{"type":"relationship","id":"88","label":"SOLD_AT","properties":{"sales":1594},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}}
+{"type":"relationship","id":"89","label":"SOLD_AT","properties":{"sales":1983},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}}
+{"type":"relationship","id":"90","label":"SOLD_AT","properties":{"sales":2019},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}}
+{"type":"relationship","id":"91","label":"SOLD_AT","properties":{"sales":1958},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}}
+{"type":"relationship","id":"92","label":"SOLD_AT","properties":{"sales":2015},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}}}
+{"type":"relationship","id":"93","label":"SOLD_AT","properties":{"sales":2011},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}}
+{"type":"relationship","id":"94","label":"SOLD_AT","properties":{"sales":2017},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}}}
+{"type":"relationship","id":"95","label":"SOLD_AT","properties":{"sales":1967},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}}
+{"type":"relationship","id":"96","label":"SOLD_AT","properties":{"sales":2007},"start":{"id":"9","labels":["FoodItem"],"properties":{"name":"Burgers"}},"end":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}}
+{"type":"relationship","id":"97","label":"SOLD_AT","properties":{"sales":1999},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}}
+{"type":"relationship","id":"98","label":"SOLD_AT","properties":{"sales":2008},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}}
+{"type":"relationship","id":"99","label":"SOLD_AT","properties":{"sales":2022},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}}
+{"type":"relationship","id":"100","label":"SOLD_AT","properties":{"sales":1971},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}}
+{"type":"relationship","id":"101","label":"SOLD_AT","properties":{"sales":2016},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}}}
+{"type":"relationship","id":"102","label":"SOLD_AT","properties":{"sales":2010},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}}
+{"type":"relationship","id":"103","label":"SOLD_AT","properties":{"sales":1999},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}}}
+{"type":"relationship","id":"104","label":"SOLD_AT","properties":{"sales":1969},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}}
+{"type":"relationship","id":"105","label":"SOLD_AT","properties":{"sales":2009},"start":{"id":"10","labels":["FoodItem"],"properties":{"name":"Hot Dogs"}},"end":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}}
+{"type":"relationship","id":"106","label":"SOLD_AT","properties":{"sales":2002},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}}
+{"type":"relationship","id":"107","label":"SOLD_AT","properties":{"sales":2014},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}}
+{"type":"relationship","id":"108","label":"SOLD_AT","properties":{"sales":2022},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}}
+{"type":"relationship","id":"109","label":"SOLD_AT","properties":{"sales":1982},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}}
+{"type":"relationship","id":"110","label":"SOLD_AT","properties":{"sales":2018},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}}}
+{"type":"relationship","id":"111","label":"SOLD_AT","properties":{"sales":2012},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}}
+{"type":"relationship","id":"112","label":"SOLD_AT","properties":{"sales":2001},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}}}
+{"type":"relationship","id":"113","label":"SOLD_AT","properties":{"sales":1982},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}}
+{"type":"relationship","id":"114","label":"SOLD_AT","properties":{"sales":2021},"start":{"id":"11","labels":["FoodItem"],"properties":{"name":"Salads"}},"end":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}}
+{"type":"relationship","id":"115","label":"SOLD_AT","properties":{"sales":2005},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}}
+{"type":"relationship","id":"116","label":"SOLD_AT","properties":{"sales":2015},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}}
+{"type":"relationship","id":"117","label":"SOLD_AT","properties":{"sales":2023},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}}
+{"type":"relationship","id":"118","label":"SOLD_AT","properties":{"sales":1989},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}}
+{"type":"relationship","id":"119","label":"SOLD_AT","properties":{"sales":2019},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"4","labels":["Location"],"properties":{"name":"Marztep"}}}
+{"type":"relationship","id":"120","label":"SOLD_AT","properties":{"sales":2013},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"5","labels":["Location"],"properties":{"name":"San Cecelia"}}}
+{"type":"relationship","id":"121","label":"SOLD_AT","properties":{"sales":2003},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"6","labels":["Location"],"properties":{"name":"Pimento"}}}
+{"type":"relationship","id":"122","label":"SOLD_AT","properties":{"sales":1994},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"7","labels":["Location"],"properties":{"name":"Tinseles"}}}
+{"type":"relationship","id":"123","label":"SOLD_AT","properties":{"sales":1989},"start":{"id":"12","labels":["FoodItem"],"properties":{"name":"Fries"}},"end":{"id":"8","labels":["Location"],"properties":{"name":"Rosdale"}}}
+{"type":"relationship","id":"124","label":"SOLD_AT","properties":{"sales":1977},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"0","labels":["Location"],"properties":{"name":"Pinebrook"}}}
+{"type":"relationship","id":"125","label":"SOLD_AT","properties":{"sales":2017},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"1","labels":["Location"],"properties":{"name":"Wharvton"}}}
+{"type":"relationship","id":"126","label":"SOLD_AT","properties":{"sales":2021},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"2","labels":["Location"],"properties":{"name":"Sagrada"}}}
+{"type":"relationship","id":"127","label":"SOLD_AT","properties":{"sales":1998},"start":{"id":"13","labels":["FoodItem"],"properties":{"name":"Ice Cream"}},"end":{"id":"3","labels":["Location"],"properties":{"name":"Algrimand"}}}

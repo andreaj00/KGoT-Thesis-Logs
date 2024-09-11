@@ -1,0 +1,26 @@
+{
+    "correct_rows": [
+        64,
+        4,
+        5,
+        40,
+        138,
+        107,
+        140,
+        15,
+        49,
+        115,
+        53,
+        85,
+        119,
+        122
+    ],
+    "category_counters": {
+        "spreadsheet_tools": 4,
+        "calculator": 6,
+        "pdf_tools": 2,
+        "search_information_tools": 6,
+        "programming_code_tools": 2,
+        "image_recognition_processing_tools": 1
+    }
+}

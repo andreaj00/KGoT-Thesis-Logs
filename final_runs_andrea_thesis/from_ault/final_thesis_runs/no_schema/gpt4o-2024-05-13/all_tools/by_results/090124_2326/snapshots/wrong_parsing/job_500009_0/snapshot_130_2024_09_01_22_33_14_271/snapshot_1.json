@@ -1,0 +1,6 @@
+{"type":"node","id":"41","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}
+{"type":"node","id":"43","labels":["President"],"properties":{"name":"John Adams"}}
+{"type":"node","id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}
+{"type":"relationship","id":"21","label":"BORN_IN","start":{"id":"41","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}}
+{"type":"relationship","id":"22","label":"BORN_IN","start":{"id":"43","labels":["President"],"properties":{"name":"John Adams"}},"end":{"id":"44","labels":["City"],"properties":{"name":"Braintree","state":"Massachusetts"}}}

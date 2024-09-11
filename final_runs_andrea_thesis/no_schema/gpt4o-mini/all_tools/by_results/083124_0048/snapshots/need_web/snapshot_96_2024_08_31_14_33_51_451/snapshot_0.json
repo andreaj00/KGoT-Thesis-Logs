@@ -1,0 +1,6 @@
+{"type":"node","id":"12","labels":["Veterinarian"],"properties":{"surname":"Kustritz"}}
+{"type":"node","id":"13","labels":["Veterinarian"],"properties":{"surname":"Wakim"}}
+{"type":"node","id":"14","labels":["Source"],"properties":{"url":"https://med.libretexts.org/Bookshelves/Veterinary_Medicine/Veterinary_Preventive_Medicine/01%3A_Chapters/1.11%3A_Nutrition-_Herbivores"}}
+{"type":"node","id":"15","labels":["Source"],"properties":{"url":"https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/09%3A_Biological_Evolution/9.3%3A_Evidence_for_Evolution"}}
+{"type":"relationship","id":"26","label":"MENTIONED_IN","start":{"id":"12","labels":["Veterinarian"],"properties":{"surname":"Kustritz"}},"end":{"id":"14","labels":["Source"],"properties":{"url":"https://med.libretexts.org/Bookshelves/Veterinary_Medicine/Veterinary_Preventive_Medicine/01%3A_Chapters/1.11%3A_Nutrition-_Herbivores"}}}
+{"type":"relationship","id":"27","label":"MENTIONED_IN","start":{"id":"13","labels":["Veterinarian"],"properties":{"surname":"Wakim"}},"end":{"id":"15","labels":["Source"],"properties":{"url":"https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/09%3A_Biological_Evolution/9.3%3A_Evidence_for_Evolution"}}}

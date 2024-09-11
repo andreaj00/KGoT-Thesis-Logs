@@ -1,0 +1,31 @@
+{"type":"node","id":"0","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Turtles","name":"Group 22"}}
+{"type":"node","id":"1","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Flies","name":"Group 23"}}
+{"type":"node","id":"2","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":7200,"name":"Buzz Aldrin"}}
+{"type":"node","id":"3","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":6000,"name":"Michael Anderson"}}
+{"type":"node","id":"4","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":5000,"name":"Dominic Antonelli"}}
+{"type":"node","id":"5","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":4000,"name":"Jerome Apt"}}
+{"type":"node","id":"88","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 1","nickname":"The Mercury Seven"}}
+{"type":"node","id":"89","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The New Nine","name":"Group 2"}}
+{"type":"node","id":"90","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Fourteen","name":"Group 3"}}
+{"type":"node","id":"91","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Scientists","name":"Group 4"}}
+{"type":"node","id":"92","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 5","nickname":"The Original 19"}}
+{"type":"node","id":"93","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 6","nickname":"The Excess Eleven (XS-11)"}}
+{"type":"node","id":"94","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 7","nickname":"USAF MOL Transfer"}}
+{"type":"node","id":"95","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 8","nickname":"Thirty-Five New Guys (TFNG)"}}
+{"type":"node","id":"96","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"19+80","name":"Group 9"}}
+{"type":"node","id":"97","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Maggots","name":"Group 10"}}
+{"type":"node","id":"98","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 11"}}
+{"type":"node","id":"99","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The GAFFers","name":"Group 12"}}
+{"type":"node","id":"100","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Hairballs","name":"Group 13"}}
+{"type":"node","id":"101","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Hogs","name":"Group 14"}}
+{"type":"node","id":"102","labels":["NASA_Astronaut_Group"],"properties":{"name":"Group 15","nickname":"The Flying Escargot"}}
+{"type":"node","id":"103","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Sardines","name":"Group 16"}}
+{"type":"node","id":"104","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Penguins","name":"Group 17"}}
+{"type":"node","id":"105","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Bugs","name":"Group 18"}}
+{"type":"node","id":"106","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Peacocks","name":"Group 19"}}
+{"type":"node","id":"107","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Chumps","name":"Group 20"}}
+{"type":"node","id":"108","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The 8-Balls","name":"Group 21"}}
+{"type":"relationship","id":"48","label":"MEMBER_OF","start":{"id":"4","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":5000,"name":"Dominic Antonelli"}},"end":{"id":"0","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Turtles","name":"Group 22"}}}
+{"type":"relationship","id":"49","label":"MEMBER_OF","start":{"id":"5","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":4000,"name":"Jerome Apt"}},"end":{"id":"0","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Turtles","name":"Group 22"}}}
+{"type":"relationship","id":"46","label":"MEMBER_OF","start":{"id":"2","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":7200,"name":"Buzz Aldrin"}},"end":{"id":"0","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Turtles","name":"Group 22"}}}
+{"type":"relationship","id":"47","label":"MEMBER_OF","start":{"id":"3","labels":["NASA_Astronaut"],"properties":{"time_in_space_minutes":6000,"name":"Michael Anderson"}},"end":{"id":"0","labels":["NASA_Astronaut_Group"],"properties":{"nickname":"The Turtles","name":"Group 22"}}}

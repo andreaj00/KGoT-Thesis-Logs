@@ -1,0 +1,13 @@
+{"type":"node","id":"69","labels":["APOD"],"properties":{"date":"2015-08-01","title":"The New Horizons Pluto Spacecraft as seen from Earth"}}
+{"type":"node","id":"70","labels":["APOD"],"properties":{"date":"2015-08-02","title":"The Milky Way over the Arizona Toadstools"}}
+{"type":"node","id":"71","labels":["APOD"],"properties":{"date":"2015-08-03","title":"The New Horizons Pluto Spacecraft as seen from Earth"}}
+{"type":"node","id":"72","labels":["APOD"],"properties":{"date":"2015-08-04","title":"Pluto Resolved"}}
+{"type":"node","id":"73","labels":["APOD"],"properties":{"date":"2015-08-05","title":"The Whale Galaxy"}}
+{"type":"node","id":"74","labels":["APOD"],"properties":{"date":"2015-08-06","title":"The New Horizons Pluto Spacecraft as seen from Earth"}}
+{"type":"node","id":"75","labels":["APOD"],"properties":{"date":"2015-08-07","title":"The New Horizons Pluto Spacecraft as seen from Earth"}}
+{"type":"node","id":"76","labels":["APOD"],"properties":{"date":"2015-08-01","title":"Milky Way and Aurora over Antarctica"}}
+{"type":"node","id":"77","labels":["City"],"properties":{"name":"Concordia Station"}}
+{"type":"node","id":"78","labels":["APOD"],"properties":{"date":"2015-08-06","title":"Perseid Meteors over Mount Shasta"}}
+{"type":"node","id":"79","labels":["City"],"properties":{"name":"Mount Shasta"}}
+{"type":"relationship","id":"122","label":"FEATURES_CITY","start":{"id":"76","labels":["APOD"],"properties":{"date":"2015-08-01","title":"Milky Way and Aurora over Antarctica"}},"end":{"id":"77","labels":["City"],"properties":{"name":"Concordia Station"}}}
+{"type":"relationship","id":"123","label":"FEATURES_CITY","start":{"id":"78","labels":["APOD"],"properties":{"date":"2015-08-06","title":"Perseid Meteors over Mount Shasta"}},"end":{"id":"79","labels":["City"],"properties":{"name":"Mount Shasta"}}}

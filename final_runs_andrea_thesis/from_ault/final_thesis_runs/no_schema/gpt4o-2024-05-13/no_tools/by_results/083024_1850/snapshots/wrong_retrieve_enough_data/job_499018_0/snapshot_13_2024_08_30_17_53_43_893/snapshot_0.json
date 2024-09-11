@@ -1,0 +1,3 @@
+{"type":"node","id":"2","labels":["Place"],"properties":{"name":"Susa"}}
+{"type":"node","id":"3","labels":["Book"],"properties":{"title":"Book of Esther","version":"New International Version"}}
+{"type":"relationship","id":"2","label":"MENTIONS","start":{"id":"3","labels":["Book"],"properties":{"title":"Book of Esther","version":"New International Version"}},"end":{"id":"2","labels":["Place"],"properties":{"name":"Susa"}}}

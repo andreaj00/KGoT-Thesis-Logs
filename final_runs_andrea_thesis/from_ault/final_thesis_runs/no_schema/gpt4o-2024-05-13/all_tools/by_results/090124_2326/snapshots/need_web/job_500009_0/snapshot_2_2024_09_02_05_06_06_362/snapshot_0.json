@@ -1,0 +1,7 @@
+{"type":"node","id":"92","labels":["ArticleSource"],"properties":{"name":"Nature"}}
+{"type":"node","id":"93","labels":["Year"],"properties":{"value":2020}}
+{"type":"node","id":"94","labels":["Statistic"],"properties":{"type":"p-value","value":0.04}}
+{"type":"node","id":"95","labels":["ArticleCount"],"properties":{"count":1002}}
+{"type":"relationship","id":"50","label":"PUBLISHED_IN","start":{"id":"92","labels":["ArticleSource"],"properties":{"name":"Nature"}},"end":{"id":"93","labels":["Year"],"properties":{"value":2020}}}
+{"type":"relationship","id":"51","label":"RELIED_ON","start":{"id":"92","labels":["ArticleSource"],"properties":{"name":"Nature"}},"end":{"id":"94","labels":["Statistic"],"properties":{"type":"p-value","value":0.04}}}
+{"type":"relationship","id":"52","label":"HAS_ARTICLE_COUNT","start":{"id":"92","labels":["ArticleSource"],"properties":{"name":"Nature"}},"end":{"id":"95","labels":["ArticleCount"],"properties":{"count":1002}}}

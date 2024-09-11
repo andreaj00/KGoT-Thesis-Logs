@@ -1,0 +1,28 @@
+{"type":"node","id":"0","labels":["Store"],"properties":{"address":"1001 Rewind Drive, Seattle WA","name":"Flop Video Rental Store"}}
+{"type":"node","id":"1","labels":["Format"],"properties":{"name":"DVD"}}
+{"type":"node","id":"2","labels":["Format"],"properties":{"name":"Blu-Ray"}}
+{"type":"node","id":"3","labels":["Format"],"properties":{"name":"Video Games"}}
+{"type":"node","id":"4","labels":["Movie"],"properties":{"year":2009,"genre":"Science Fiction","title":"Time-Parking 2: Parallel Universe","status":"Available"}}
+{"type":"node","id":"5","labels":["Movie"],"properties":{"year":2023,"genre":"Biopic","title":"Breathtaking: The Keanu Reeves Story","status":"Rented"}}
+{"type":"node","id":"6","labels":["Movie"],"properties":{"year":2021,"genre":"Sports","title":"The Widest Goalpost","status":"Overdue"}}
+{"type":"node","id":"7","labels":["Movie"],"properties":{"year":2012,"genre":"Horror","title":"Cereal Killer IV: No Milk","status":"Missing"}}
+{"type":"node","id":"8","labels":["Movie"],"properties":{"year":2013,"genre":"Action","title":"Shiny Vampire Car Chase","status":"Missing"}}
+{"type":"node","id":"9","labels":["Movie"],"properties":{"year":2020,"genre":"Comedy","title":"People Hanging Out Together","status":"Missing"}}
+{"type":"node","id":"10","labels":["Movie"],"properties":{"year":2009,"genre":"Science Fiction","title":"Time-Parking 2: Parallel Universe","status":"Missing"}}
+{"type":"node","id":"11","labels":["Movie"],"properties":{"year":2011,"genre":"Horror","title":"Cereal Killer III: Incomplete Breakfast","status":"Rented"}}
+{"type":"node","id":"12","labels":["Movie"],"properties":{"year":2016,"genre":"Comedy","title":"Windshield Bug: The First Ten Seasons","status":"Rented"}}
+{"type":"node","id":"13","labels":["Movie"],"properties":{"year":2018,"genre":"Documentary","title":"A Protist's Life","status":"Available"}}
+{"type":"node","id":"14","labels":["Movie"],"properties":{"year":2022,"genre":"Anime","title":"My Neighbor Is A Shrimp Farmer","status":"Available"}}
+{"type":"node","id":"15","labels":["Movie"],"properties":{"year":2023,"genre":"Adventure","title":"Dogs and Croatia: A Movie About Both These Things","status":"Overdue"}}
+{"type":"node","id":"16","labels":["VideoGame"],"properties":{"year":2019,"genre":"Racing","title":"First-Person Scooter","platform":"Nintendo Switch","status":"Missing"}}
+{"type":"node","id":"17","labels":["VideoGame"],"properties":{"year":2021,"genre":"RPG","title":"The Locked Door","platform":"Playstation 5","status":"Available"}}
+{"type":"node","id":"18","labels":["VideoGame"],"properties":{"year":2005,"genre":"Racing","title":"Shopping Cart Raceway","platform":"Nintendo Gamecube","status":"Rented"}}
+{"type":"node","id":"19","labels":["VideoGame"],"properties":{"year":2004,"genre":"Horror","title":"No Lights","platform":"Xbox","status":"Overdue"}}
+{"type":"node","id":"20","labels":["VideoGame"],"properties":{"year":2018,"genre":"Simulation","title":"Eraser Simulator","platform":"Nintendo Switch","status":"Available"}}
+{"type":"node","id":"21","labels":["VideoGame"],"properties":{"year":1995,"genre":"Platformer","title":"Gilbert Gopher Goes to Greece","platform":"Super Nintendo","status":"Rented"}}
+{"type":"node","id":"22","labels":["VideoGame"],"properties":{"year":2008,"genre":"Fighting","title":"Skirmish","platform":"Xbox 360","status":"Available"}}
+{"type":"node","id":"23","labels":["VideoGame"],"properties":{"year":1994,"genre":"Platformer","title":"Cool: The Game","platform":"Sega Genesis","status":"Overdue"}}
+{"type":"node","id":"24","labels":["VideoGame"],"properties":{"year":1989,"genre":"Simulation","title":"Dinosaur Accountant","platform":"Nintendo Entertainment System","status":"Available"}}
+{"type":"node","id":"25","labels":["VideoGame"],"properties":{"year":2009,"genre":"Party","title":"Four Controllers","platform":"Nintendo Wii","status":"Overdue"}}
+{"type":"relationship","id":"0","label":"IN_FORMAT","start":{"id":"10","labels":["Movie"],"properties":{"year":2009,"genre":"Science Fiction","title":"Time-Parking 2: Parallel Universe","status":"Missing"}},"end":{"id":"2","labels":["Format"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"1","label":"IN_FORMAT","start":{"id":"11","labels":["Movie"],"properties":{"year":2011,"genre":"Horror","title":"Cereal Killer III: Incomplete Breakfast","status":"Rented"}},"end":{"id":"2","labels":["Format"],"properties":{"name":"Blu-Ray"}}}

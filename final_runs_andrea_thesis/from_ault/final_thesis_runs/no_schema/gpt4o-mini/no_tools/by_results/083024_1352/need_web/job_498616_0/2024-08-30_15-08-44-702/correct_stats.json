@@ -1,0 +1,652 @@
+[
+    {
+        "question_number": 0,
+        "correct_answer": "egalitarian",
+        "returned_answer": "Technologically Advanced Society, Sustainable Society",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Web browser\n2. Image recognition tools (to identify and parse a figure with three axes)",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 1,
+        "correct_answer": "34689",
+        "returned_answer": "33139",
+        "successful": false,
+        "level": "2",
+        "num_steps": "10",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 2,
+        "correct_answer": "41",
+        "returned_answer": "41",
+        "successful": true,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. search engine\n2. calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 7,
+        "correct_answer": "142",
+        "returned_answer": "20",
+        "successful": false,
+        "level": "2",
+        "num_steps": "10",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 8,
+        "correct_answer": "04/15/18",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 10,
+        "correct_answer": "86",
+        "returned_answer": "50%",
+        "successful": false,
+        "level": "3",
+        "num_steps": "14",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF access\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 12,
+        "correct_answer": "3.1.3.1; 1.11.1.7",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "13",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 14,
+        "correct_answer": "So we had to let it die.",
+        "returned_answer": "But we still love you, Vanilla, you\u2019re the best!",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Image recognition tools\n2. Web browser\n3. Search engine",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 16,
+        "correct_answer": "0.1777",
+        "returned_answer": "3.5 m\u00b3",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF access",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 17,
+        "correct_answer": "26.4",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "3",
+        "num_steps": "4",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator\n4. JSONLD file access",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 22,
+        "correct_answer": "THE CASTLE",
+        "returned_answer": "THE MAZE OF THE MINOTAUR",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Search engine\n2. Web browser\n3. PDF viewer",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 25,
+        "correct_answer": "cloak",
+        "returned_answer": "Yes",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 27,
+        "correct_answer": "22",
+        "returned_answer": "89%",
+        "successful": false,
+        "level": "3",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF access\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 30,
+        "correct_answer": "beta geometric",
+        "returned_answer": "Customer Lifetime",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 31,
+        "correct_answer": "mice",
+        "returned_answer": "",
+        "successful": false,
+        "level": "3",
+        "num_steps": "14",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF access",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 32,
+        "correct_answer": "31",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 33,
+        "correct_answer": "Russian-German Legion",
+        "returned_answer": "New York Volunteers",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine\n3. Tool to extract text from images",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 35,
+        "correct_answer": "2",
+        "returned_answer": "1",
+        "successful": false,
+        "level": "2",
+        "num_steps": "11",
+        "tools": "1. Search engine\n2. Web browser\n3. Counter",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 38,
+        "correct_answer": "shrimp",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to the Internet Archive, web.archive.org\n4. Text processing/diff tool",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 44,
+        "correct_answer": "Format Document",
+        "returned_answer": "Trim Trailing Whitespace",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. GIF parsing tools",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 46,
+        "correct_answer": "6:41 PM",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "14",
+        "tools": "1. Search engine\n2. Web browser\n3. PDF viewer",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 49,
+        "correct_answer": "A Nightmare on Elm Street",
+        "returned_answer": "A Nightmare on Elm Street",
+        "successful": true,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser\n3. PDF viewer",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 51,
+        "correct_answer": "Alfonso Visconti",
+        "returned_answer": "The consecrator who never became pope is Bishop John.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 52,
+        "correct_answer": "diamond",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 54,
+        "correct_answer": "2018",
+        "returned_answer": "2007",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. Search engine\n3. code/data analysis tools",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 57,
+        "correct_answer": "research",
+        "returned_answer": "Reliable sources",
+        "successful": false,
+        "level": "1",
+        "num_steps": "8",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 58,
+        "correct_answer": "FunkMonk",
+        "returned_answer": "DinoGamer",
+        "successful": false,
+        "level": "1",
+        "num_steps": "2",
+        "tools": "1. web browser\n2. search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 60,
+        "correct_answer": "0",
+        "returned_answer": "0",
+        "successful": true,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF reader ",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 63,
+        "correct_answer": "13",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Web browser\n2. Access to Wikipedia\n3. Image recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 65,
+        "correct_answer": "101.376, 84.348",
+        "returned_answer": "1200, 1500",
+        "successful": false,
+        "level": "3",
+        "num_steps": "17",
+        "tools": "1. A web browser\n2. A search engine\n3. Image recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 69,
+        "correct_answer": "The World of the Twenty First Century",
+        "returned_answer": "gimnasio",
+        "successful": false,
+        "level": "3",
+        "num_steps": "8",
+        "tools": "1. Web browser\n2. Search engine\n3. Google Translate access",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 71,
+        "correct_answer": "4",
+        "returned_answer": "11",
+        "successful": false,
+        "level": "2",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. OCR",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 73,
+        "correct_answer": "Bravo",
+        "returned_answer": "Bravo",
+        "successful": true,
+        "level": "2",
+        "num_steps": "10",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 75,
+        "correct_answer": "0.0424",
+        "returned_answer": "0.0429",
+        "successful": false,
+        "level": "3",
+        "num_steps": "10",
+        "tools": "1. Excel file access\n2. Web browser\n3. Search engine\n4. Calculator",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 76,
+        "correct_answer": "2732",
+        "returned_answer": "0 edits were made to the Wikipedia page on Antidisestablishmentarianism from its inception until June of 2023.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 79,
+        "correct_answer": "8, 29, 22, 1, 8, 26",
+        "returned_answer": "error during execution, skipped. <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 1348, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n  File \"/usr/local/lib/python3.11/http/client.py\", line 1303, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"/usr/local/lib/python3.11/http/client.py\", line 1349, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"/usr/local/lib/python3.11/http/client.py\", line 1298, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/usr/local/lib/python3.11/http/client.py\", line 1058, in _send_output\n    self.send(msg)\n  File \"/usr/local/lib/python3.11/http/client.py\", line 996, in send\n    self.connect()\n  File \"/usr/local/lib/python3.11/http/client.py\", line 1475, in connect\n    self.sock = self._context.wrap_socket(self.sock,\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/ssl.py\", line 517, in wrap_socket\n    return self.sslsocket_class._create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/ssl.py\", line 1104, in _create\n    self.do_handshake()\n  File \"/usr/local/lib/python3.11/ssl.py\", line 1382, in do_handshake\n    self._sslobj.do_handshake()\nssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/knowledge_graph_of_thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/controller/controller.py\", line 140, in run\n    solution = self._solve_problem_iterative_knowledge_graph(problem)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/controller/controller.py\", line 249, in _solve_problem_iterative_knowledge_graph\n    tools_results = self._invoke_tools_after_llm_response(tool_calls)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/controller/controller.py\", line 395, in _invoke_tools_after_llm_response\n    tool_output = self._invoke_tool_with_retry(selected_tool, tool_args)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/tenacity/__init__.py\", line 330, in wrapped_f\n    return self(f, *args, **kw)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/tenacity/__init__.py\", line 467, in __call__\n    do = self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/tenacity/__init__.py\", line 368, in iter\n    result = action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/tenacity/__init__.py\", line 390, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/tenacity/__init__.py\", line 470, in __call__\n    result = fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/controller/controller.py\", line 353, in _invoke_tool_with_retry\n    tool_output = selected_tool.invoke(input=tool_args)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_core/tools/base.py\", line 397, in invoke\n    return self.run(tool_input, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_core/tools/base.py\", line 586, in run\n    raise error_to_raise\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_core/tools/base.py\", line 555, in run\n    response = context.run(self._run, *tool_args, **tool_kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/tools/MultiModalTool.py\", line 128, in _run\n    return self.load_documents(file_names)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/tools/MultiModalTool.py\", line 110, in load_documents\n    new_docs = self.load_document(file_path)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/kgot/tools/MultiModalTool.py\", line 101, in load_document\n    documents.extend(loader.load())\n                     ^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_core/document_loaders/base.py\", line 30, in load\n    return list(self.lazy_load())\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py\", line 107, in lazy_load\n    elements = self._get_elements()\n               ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/langchain_community/document_loaders/excel.py\", line 51, in _get_elements\n    return partition_xlsx(filename=self.file_path, **self.unstructured_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/documents/elements.py\", line 605, in wrapper\n    elements = func(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/file_utils/filetype.py\", line 707, in wrapper\n    elements = func(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/file_utils/filetype.py\", line 663, in wrapper\n    elements = func(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/chunking/dispatch.py\", line 74, in wrapper\n    elements = func(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/partition/xlsx.py\", line 162, in partition_xlsx\n    element = _create_element(str(content))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/partition/xlsx.py\", line 518, in _create_element\n    elif is_possible_narrative_text(text):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/partition/text_type.py\", line 74, in is_possible_narrative_text\n    if exceeds_cap_ratio(text, threshold=cap_threshold):\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/partition/text_type.py\", line 270, in exceeds_cap_ratio\n    if sentence_count(text, 3) > 1:\n       ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/partition/text_type.py\", line 219, in sentence_count\n    sentences = sent_tokenize(text)\n                ^^^^^^^^^^^^^^^^^^^\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/nlp/tokenize.py\", line 134, in sent_tokenize\n    _download_nltk_packages_if_not_present()\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/nlp/tokenize.py\", line 128, in _download_nltk_packages_if_not_present\n    download_nltk_packages()\n  File \"/home/knowledge_graph_of_thoughts/venv/lib/python3.11/site-packages/unstructured/nlp/tokenize.py\", line 86, in download_nltk_packages\n    urllib.request.urlretrieve(NLTK_DATA_URL, tgz_file_path)\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 241, in urlretrieve\n    with contextlib.closing(urlopen(url, data)) as fp:\n                            ^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 216, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 519, in open\n    response = self._open(req, data)\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 536, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 496, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 1391, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/urllib/request.py\", line 1351, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>\n",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine\n3. PDF access\n4. XLSX file access",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 80,
+        "correct_answer": "6",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 81,
+        "correct_answer": "8",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "13",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 82,
+        "correct_answer": "736455",
+        "returned_answer": "736515",
+        "successful": false,
+        "level": "2",
+        "num_steps": "10",
+        "tools": "1. A web browser\n2. A search engine\n3. A calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 96,
+        "correct_answer": "Louvrier",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "2",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 97,
+        "correct_answer": "Brunei, China, Morocco, Singapore",
+        "returned_answer": "China",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine\n3. Spreadsheet editor",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 98,
+        "correct_answer": "900000",
+        "returned_answer": "2072 Akaikai Loop sold for 800000, 2017 Komo Mai Drive sold for 800000. Both homes sold for the same price.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 100,
+        "correct_answer": "3",
+        "returned_answer": "",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 101,
+        "correct_answer": "0.269",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "13",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 102,
+        "correct_answer": "stare",
+        "returned_answer": "fight",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "Web Browser",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 104,
+        "correct_answer": "pears, bananas",
+        "returned_answer": "melons, grapes, pomegranates, berries, pears, apples, bananas, grapefruit, oranges",
+        "successful": false,
+        "level": "3",
+        "num_steps": "10",
+        "tools": "1. Web browser\n2. Search engine\n3. Image recognition and processing tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 110,
+        "correct_answer": "BaseLabelPropagation",
+        "returned_answer": "BaseEstimator, ClassifierMixin, RegressorMixin",
+        "successful": false,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 113,
+        "correct_answer": "1927",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. A web browser\n2. A search engine\n3. Image recognition/OCR",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 117,
+        "correct_answer": "Kleinpaul",
+        "returned_answer": "Freud",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser\n3. PDF viewer",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 120,
+        "correct_answer": "Citations",
+        "returned_answer": "The feature that caused the largest bubble on the DeepFruits fruit detection graph is 'Deep Learning Techniques', specifically 'Convolutional Neural Networks (CNNs)', due to its high scalability, high automation potential, high robustness, and high accuracy.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Graph interaction tools\n2. Web browser\n3. Search engine",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 121,
+        "correct_answer": "Holabird",
+        "returned_answer": "Skidmore",
+        "successful": false,
+        "level": "2",
+        "num_steps": "11",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 128,
+        "correct_answer": "inference",
+        "returned_answer": "The word \"and\" was deleted in the last amendment to the first rule in the article that has \"witnesses\" in the most titles as of 2021.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 129,
+        "correct_answer": "1954",
+        "returned_answer": "1970",
+        "successful": false,
+        "level": "2",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Image recognition",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 133,
+        "correct_answer": "22",
+        "returned_answer": "30",
+        "successful": false,
+        "level": "1",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 134,
+        "correct_answer": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+        "returned_answer": "Ali Khan's New Mexican Kitchen: Recipes from My Cost-Conscious TV Show",
+        "successful": false,
+        "level": "1",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 138,
+        "correct_answer": "2",
+        "returned_answer": "2",
+        "successful": true,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 139,
+        "correct_answer": "60",
+        "returned_answer": "The Wikipedia page for the game 'Outer Wilds', which won the British Academy Games Awards in 2019, can be found at https://en.wikipedia.org/wiki/Outer_Wilds. The game was released on May 28, 2019. As of the most recent entry from 2022, the page had 45 revisions before the release date.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to Wikipedia\n4. Calculator or counting function",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 141,
+        "correct_answer": "116",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 144,
+        "correct_answer": "19/02/2009",
+        "returned_answer": "24/01/2010",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. Image recognition",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 146,
+        "correct_answer": "80GSFC21M0002",
+        "returned_answer": "The paper titled 'Observations Paper' was produced by a team mentioned in the article by Carolyn Collins Petersen. The work performed by R. G. Arendt was supported under NASA award number 'N/A'.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to academic journal websites",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 147,
+        "correct_answer": "3",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 149,
+        "correct_answer": "234.9",
+        "returned_answer": "10.0",
+        "successful": false,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. search engine\n2. pdf reader/extracter",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 150,
+        "correct_answer": "90",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 155,
+        "correct_answer": "0.2",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "3",
+        "num_steps": "12",
+        "tools": "1. PDF access\n2. Calculator\n3. Web browser\n4. Search engine",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 160,
+        "correct_answer": "White; 5876",
+        "returned_answer": "Cristoforetti;199",
+        "successful": false,
+        "level": "3",
+        "num_steps": "12",
+        "tools": "1. Web browser\n2. Search engine\n3. Image processing tools\n4. Calculator",
+        "num_tools": "4"
+    }
+]

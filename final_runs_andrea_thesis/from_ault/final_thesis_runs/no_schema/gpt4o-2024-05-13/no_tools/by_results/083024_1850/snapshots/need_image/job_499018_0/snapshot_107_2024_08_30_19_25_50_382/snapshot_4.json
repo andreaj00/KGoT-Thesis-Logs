@@ -1,0 +1,14 @@
+{"type":"node","id":"14","labels":["Result"],"properties":{"result":"[]","id":"call_V5AIsjbgW4suFdtVHYqdUIdU","type":"tool_call"}}
+{"type":"node","id":"15","labels":["Result"],"properties":{"result":"[]","id":"call_L4xn7Zzw9JDddF16edOE5PgV","type":"tool_call"}}
+{"type":"node","id":"16","labels":["Result"],"properties":{"result":"[]","id":"call_7V3IXmJuAhJ4mfaKQPJpWgSN","type":"tool_call"}}
+{"type":"node","id":"96","labels":["Function"],"properties":{"name":"load_documents"}}
+{"type":"node","id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}
+{"type":"node","id":"98","labels":["Result"],"properties":{"result":"[]","id":"call_dVyIsV5JDKnUwvVSWh5Ir252","type":"tool_call"}}
+{"type":"relationship","id":"56","label":"USES","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}}
+{"type":"relationship","id":"57","label":"USES","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}}
+{"type":"relationship","id":"58","label":"RETURNS","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"98","labels":["Result"],"properties":{"result":"[]","id":"call_dVyIsV5JDKnUwvVSWh5Ir252","type":"tool_call"}}}
+{"type":"relationship","id":"59","label":"RETURNS","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"14","labels":["Result"],"properties":{"result":"[]","id":"call_V5AIsjbgW4suFdtVHYqdUIdU","type":"tool_call"}}}
+{"type":"relationship","id":"60","label":"USES","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}}
+{"type":"relationship","id":"61","label":"RETURNS","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"15","labels":["Result"],"properties":{"result":"[]","id":"call_L4xn7Zzw9JDddF16edOE5PgV","type":"tool_call"}}}
+{"type":"relationship","id":"62","label":"USES","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"97","labels":["Document"],"properties":{"file_path":"GAIA/dataset/attachments/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"}}}
+{"type":"relationship","id":"63","label":"RETURNS","start":{"id":"96","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"16","labels":["Result"],"properties":{"result":"[]","id":"call_7V3IXmJuAhJ4mfaKQPJpWgSN","type":"tool_call"}}}

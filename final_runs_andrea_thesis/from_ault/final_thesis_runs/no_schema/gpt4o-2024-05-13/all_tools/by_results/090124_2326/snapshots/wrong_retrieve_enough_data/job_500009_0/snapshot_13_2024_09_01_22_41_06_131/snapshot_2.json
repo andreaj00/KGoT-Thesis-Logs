@@ -1,0 +1,7 @@
+{"type":"node","id":"2","labels":["Place"],"properties":{"name":"Susa"}}
+{"type":"node","id":"3","labels":["Book"],"properties":{"title":"Book of Esther"}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"name":"Persia"}}
+{"type":"node","id":"5","labels":["PrimeMinister"],"properties":{"name":"Amir-Abbas Hoveyda"}}
+{"type":"relationship","id":"68","label":"MENTIONS","start":{"id":"3","labels":["Book"],"properties":{"title":"Book of Esther"}},"end":{"id":"2","labels":["Place"],"properties":{"name":"Susa"}}}
+{"type":"relationship","id":"69","label":"LOCATED_IN","start":{"id":"2","labels":["Place"],"properties":{"name":"Susa"}},"end":{"id":"4","labels":["Country"],"properties":{"name":"Persia"}}}
+{"type":"relationship","id":"70","label":"PRIME_MINISTER_OF","properties":{"date":"April 1977"},"start":{"id":"5","labels":["PrimeMinister"],"properties":{"name":"Amir-Abbas Hoveyda"}},"end":{"id":"4","labels":["Country"],"properties":{"name":"Persia"}}}

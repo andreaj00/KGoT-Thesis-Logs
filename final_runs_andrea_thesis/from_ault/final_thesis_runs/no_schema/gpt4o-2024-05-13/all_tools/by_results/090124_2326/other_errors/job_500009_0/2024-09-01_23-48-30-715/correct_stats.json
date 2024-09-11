@@ -1,0 +1,42 @@
+[
+    {
+        "question_number": 42,
+        "correct_answer": "Harbinger, Tidal",
+        "returned_answer": "Harbinger, This Fire",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. web browser\n2. search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 56,
+        "correct_answer": "6",
+        "returned_answer": "2",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Web Browser\n2. Search Engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 70,
+        "correct_answer": "563.9",
+        "returned_answer": "The value of x to the nearest tenth is 789.4.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. A web browser\n2. A search engine\n3. A calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 99,
+        "correct_answer": "broccoli, celery, fresh basil, lettuce, sweet potatoes",
+        "returned_answer": "bell pepper, broccoli, celery, corn, green beans, lettuce, sweet potatoes, zucchini",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "No tools required",
+        "num_tools": "0"
+    }
+]

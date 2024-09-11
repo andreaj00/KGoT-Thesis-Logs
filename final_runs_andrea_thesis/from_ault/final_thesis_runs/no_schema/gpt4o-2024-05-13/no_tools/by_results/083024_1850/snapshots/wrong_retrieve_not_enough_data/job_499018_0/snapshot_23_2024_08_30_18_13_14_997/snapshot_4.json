@@ -1,0 +1,15 @@
+{"type":"node","id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"name":"Cambodia"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"name":"Phnom Penh"}}
+{"type":"node","id":"6","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"72","labels":["City"],"properties":{"name":"Jakarta"}}
+{"type":"node","id":"73","labels":["Country"],"properties":{"name":"Laos"}}
+{"type":"node","id":"74","labels":["City"],"properties":{"name":"Vientiane"}}
+{"type":"node","id":"75","labels":["Country"],"properties":{"name":"Malaysia"}}
+{"type":"node","id":"76","labels":["City"],"properties":{"name":"Kuala Lumpur"}}
+{"type":"relationship","id":"64","label":"HAS_CAPITAL","start":{"id":"6","labels":["Country"],"properties":{"name":"Indonesia"}},"end":{"id":"72","labels":["City"],"properties":{"name":"Jakarta"}}}
+{"type":"relationship","id":"65","label":"HAS_CAPITAL","start":{"id":"73","labels":["Country"],"properties":{"name":"Laos"}},"end":{"id":"74","labels":["City"],"properties":{"name":"Vientiane"}}}
+{"type":"relationship","id":"66","label":"HAS_CAPITAL","start":{"id":"75","labels":["Country"],"properties":{"name":"Malaysia"}},"end":{"id":"76","labels":["City"],"properties":{"name":"Kuala Lumpur"}}}
+{"type":"relationship","id":"62","label":"HAS_CAPITAL","start":{"id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}},"end":{"id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}}
+{"type":"relationship","id":"63","label":"HAS_CAPITAL","start":{"id":"4","labels":["Country"],"properties":{"name":"Cambodia"}},"end":{"id":"5","labels":["City"],"properties":{"name":"Phnom Penh"}}}

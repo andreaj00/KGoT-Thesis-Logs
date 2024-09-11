@@ -1,0 +1,5 @@
+{"type":"node","id":"36","labels":["Paper"],"properties":{"title":"Multiwavelength Observations of Fast Radio Bursts: Insights from X-ray and Radio Data","published_date":"2021-03"}}
+{"type":"node","id":"37","labels":["Diagram"],"properties":{"type":"X-ray time profile"}}
+{"type":"node","id":"38","labels":["Paper"],"properties":{"title":"The X-ray Afterglow of Fast Radio Bursts: A Multiwavelength Perspective","published_date":"2021-03"}}
+{"type":"relationship","id":"50","label":"INCLUDES","start":{"id":"36","labels":["Paper"],"properties":{"title":"Multiwavelength Observations of Fast Radio Bursts: Insights from X-ray and Radio Data","published_date":"2021-03"}},"end":{"id":"37","labels":["Diagram"],"properties":{"type":"X-ray time profile"}}}
+{"type":"relationship","id":"51","label":"RELATED_TO","start":{"id":"36","labels":["Paper"],"properties":{"title":"Multiwavelength Observations of Fast Radio Bursts: Insights from X-ray and Radio Data","published_date":"2021-03"}},"end":{"id":"38","labels":["Paper"],"properties":{"title":"The X-ray Afterglow of Fast Radio Bursts: A Multiwavelength Perspective","published_date":"2021-03"}}}

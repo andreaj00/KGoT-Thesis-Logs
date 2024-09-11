@@ -1,0 +1,48 @@
+{"type":"node","id":"1","labels":["Movie"],"properties":{"worldwide_gross":461421559,"title":"The Eight Hundred"}}
+{"type":"node","id":"2","labels":["Movie"],"properties":{"worldwide_gross":453230408,"title":"Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train"}}
+{"type":"node","id":"3","labels":["Movie"],"properties":{"worldwide_gross":426505244,"title":"Bad Boys for Life"}}
+{"type":"node","id":"4","labels":["Movie"],"properties":{"domestic_gross":124736710,"title":"Jumanji: The Next Level","worldwide_gross":124736710}}
+{"type":"node","id":"5","labels":["Movie"],"properties":{"domestic_gross":124496308,"worldwide_gross":124496308,"title":"Star Wars: Episode IX - The Rise of Skywalker"}}
+{"type":"node","id":"6","labels":["Movie"],"properties":{"domestic_gross":84158461,"worldwide_gross":84158461,"title":"Birds of Prey"}}
+{"type":"node","id":"15","labels":["Movie"],"properties":{"worldwide_gross":422390820,"title":"My People, My Homeland"}}
+{"type":"node","id":"16","labels":["Movie"],"properties":{"domestic_gross":77047065,"worldwide_gross":251410631,"title":"Dolittle"}}
+{"type":"node","id":"17","labels":["Movie"],"properties":{"domestic_gross":70508087,"worldwide_gross":70508087,"title":"Little Women"}}
+{"type":"node","id":"18","labels":["Movie"],"properties":{"domestic_gross":64914050,"title":"The Invisible Man","worldwide_gross":64914050}}
+{"type":"node","id":"20","labels":["Movie"],"properties":{"worldwide_gross":365304105,"title":"Tenet"}}
+{"type":"node","id":"21","labels":["Movie"],"properties":{"worldwide_gross":319715683,"title":"Sonic the Hedgehog"}}
+{"type":"node","id":"22","labels":["Movie"],"properties":{"worldwide_gross":251410631,"title":"Dolittle"}}
+{"type":"node","id":"23","labels":["Movie"],"properties":{"worldwide_gross":240646355,"title":"Jiang Ziya"}}
+{"type":"node","id":"24","labels":["Movie"],"properties":{"worldwide_gross":216000000,"title":"A Little Red Flower"}}
+{"type":"node","id":"25","labels":["Movie"],"properties":{"worldwide_gross":215905815,"title":"The Croods: A New Age"}}
+{"type":"node","id":"26","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life"}}
+{"type":"node","id":"27","labels":["Movie"],"properties":{"domestic_gross":157901466,"title":"1917"}}
+{"type":"node","id":"28","labels":["Movie"],"properties":{"domestic_gross":146066470,"title":"Sonic the Hedgehog"}}
+{"type":"node","id":"29","labels":["Movie"],"properties":{"domestic_gross":124736710,"title":"Jumanji: The Next Level"}}
+{"type":"node","id":"30","labels":["Movie"],"properties":{"domestic_gross":124496308,"title":"Star Wars: Episode IX - The Rise of Skywalker"}}
+{"type":"node","id":"31","labels":["Movie"],"properties":{"domestic_gross":84158461,"title":"Birds of Prey"}}
+{"type":"node","id":"32","labels":["Movie"],"properties":{"domestic_gross":77047065,"title":"Dolittle"}}
+{"type":"node","id":"33","labels":["Movie"],"properties":{"domestic_gross":70508087,"title":"Little Women"}}
+{"type":"node","id":"34","labels":["Movie"],"properties":{"domestic_gross":64914050,"title":"The Invisible Man"}}
+{"type":"node","id":"35","labels":["Movie"],"properties":{"domestic_gross":62342368,"title":"The Call of the Wild"}}
+{"type":"node","id":"36"}
+{"type":"node","id":"37"}
+{"type":"node","id":"38"}
+{"type":"node","id":"39"}
+{"type":"node","id":"40","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life","worldwide_gross":204417855}}
+{"type":"node","id":"41","labels":["Movie"],"properties":{"domestic_gross":157901466,"worldwide_gross":157901466,"title":"1917"}}
+{"type":"node","id":"42","labels":["Movie"],"properties":{"domestic_gross":146066470,"title":"Sonic the Hedgehog","worldwide_gross":319715683}}
+{"type":"node","id":"43","labels":["Movie"],"properties":{"domestic_gross":62342368,"title":"The Call of the Wild","worldwide_gross":62342368}}
+{"type":"relationship","id":"36","label":"IS_IN_TOP_10","start":{"id":"36"},"end":{"id":"26","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life"}}}
+{"type":"relationship","id":"37","label":"IS_IN_TOP_10","start":{"id":"37"},"end":{"id":"28","labels":["Movie"],"properties":{"domestic_gross":146066470,"title":"Sonic the Hedgehog"}}}
+{"type":"relationship","id":"38","label":"IS_IN_TOP_10","start":{"id":"38"},"end":{"id":"26","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life"}}}
+{"type":"relationship","id":"39","label":"IS_IN_TOP_10","start":{"id":"39"},"end":{"id":"32","labels":["Movie"],"properties":{"domestic_gross":77047065,"title":"Dolittle"}}}
+{"type":"relationship","id":"40","label":"IS_IN_TOP_10","start":{"id":"40","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life","worldwide_gross":204417855}},"end":{"id":"40","labels":["Movie"],"properties":{"domestic_gross":204417855,"title":"Bad Boys for Life","worldwide_gross":204417855}}}
+{"type":"relationship","id":"41","label":"IS_IN_TOP_10","start":{"id":"41","labels":["Movie"],"properties":{"domestic_gross":157901466,"worldwide_gross":157901466,"title":"1917"}},"end":{"id":"41","labels":["Movie"],"properties":{"domestic_gross":157901466,"worldwide_gross":157901466,"title":"1917"}}}
+{"type":"relationship","id":"42","label":"IS_IN_TOP_10","start":{"id":"42","labels":["Movie"],"properties":{"domestic_gross":146066470,"title":"Sonic the Hedgehog","worldwide_gross":319715683}},"end":{"id":"42","labels":["Movie"],"properties":{"domestic_gross":146066470,"title":"Sonic the Hedgehog","worldwide_gross":319715683}}}
+{"type":"relationship","id":"43","label":"IS_IN_TOP_10","start":{"id":"4","labels":["Movie"],"properties":{"domestic_gross":124736710,"title":"Jumanji: The Next Level","worldwide_gross":124736710}},"end":{"id":"4","labels":["Movie"],"properties":{"domestic_gross":124736710,"title":"Jumanji: The Next Level","worldwide_gross":124736710}}}
+{"type":"relationship","id":"44","label":"IS_IN_TOP_10","start":{"id":"5","labels":["Movie"],"properties":{"domestic_gross":124496308,"worldwide_gross":124496308,"title":"Star Wars: Episode IX - The Rise of Skywalker"}},"end":{"id":"5","labels":["Movie"],"properties":{"domestic_gross":124496308,"worldwide_gross":124496308,"title":"Star Wars: Episode IX - The Rise of Skywalker"}}}
+{"type":"relationship","id":"45","label":"IS_IN_TOP_10","start":{"id":"6","labels":["Movie"],"properties":{"domestic_gross":84158461,"worldwide_gross":84158461,"title":"Birds of Prey"}},"end":{"id":"6","labels":["Movie"],"properties":{"domestic_gross":84158461,"worldwide_gross":84158461,"title":"Birds of Prey"}}}
+{"type":"relationship","id":"46","label":"IS_IN_TOP_10","start":{"id":"16","labels":["Movie"],"properties":{"domestic_gross":77047065,"worldwide_gross":251410631,"title":"Dolittle"}},"end":{"id":"16","labels":["Movie"],"properties":{"domestic_gross":77047065,"worldwide_gross":251410631,"title":"Dolittle"}}}
+{"type":"relationship","id":"47","label":"IS_IN_TOP_10","start":{"id":"17","labels":["Movie"],"properties":{"domestic_gross":70508087,"worldwide_gross":70508087,"title":"Little Women"}},"end":{"id":"17","labels":["Movie"],"properties":{"domestic_gross":70508087,"worldwide_gross":70508087,"title":"Little Women"}}}
+{"type":"relationship","id":"48","label":"IS_IN_TOP_10","start":{"id":"18","labels":["Movie"],"properties":{"domestic_gross":64914050,"title":"The Invisible Man","worldwide_gross":64914050}},"end":{"id":"18","labels":["Movie"],"properties":{"domestic_gross":64914050,"title":"The Invisible Man","worldwide_gross":64914050}}}
+{"type":"relationship","id":"49","label":"IS_IN_TOP_10","start":{"id":"43","labels":["Movie"],"properties":{"domestic_gross":62342368,"title":"The Call of the Wild","worldwide_gross":62342368}},"end":{"id":"43","labels":["Movie"],"properties":{"domestic_gross":62342368,"title":"The Call of the Wild","worldwide_gross":62342368}}}

@@ -1,0 +1,8 @@
+{"type":"node","id":"64","labels":["Organization"],"properties":{"name":"Girls Who Code"}}
+{"type":"node","id":"65","labels":["Statistic"],"properties":{"description":"Percentage of computer scientists that were women"}}
+{"type":"node","id":"66","labels":["Percentage"],"properties":{"year":1995,"value":37}}
+{"type":"node","id":"67","labels":["Percentage"],"properties":{"year":2022,"value":24}}
+{"type":"relationship","id":"86","label":"PROVIDED","start":{"id":"64","labels":["Organization"],"properties":{"name":"Girls Who Code"}},"end":{"id":"65","labels":["Statistic"],"properties":{"description":"Percentage of computer scientists that were women"}}}
+{"type":"relationship","id":"87","label":"HAS_DATA","start":{"id":"65","labels":["Statistic"],"properties":{"description":"Percentage of computer scientists that were women"}},"end":{"id":"66","labels":["Percentage"],"properties":{"year":1995,"value":37}}}
+{"type":"relationship","id":"88","label":"HAS_DATA","start":{"id":"65","labels":["Statistic"],"properties":{"description":"Percentage of computer scientists that were women"}},"end":{"id":"67","labels":["Percentage"],"properties":{"year":2022,"value":24}}}
+{"type":"relationship","id":"89","label":"CHANGED_TO","properties":{"change":-13,"years":27},"start":{"id":"66","labels":["Percentage"],"properties":{"year":1995,"value":37}},"end":{"id":"67","labels":["Percentage"],"properties":{"year":2022,"value":24}}}

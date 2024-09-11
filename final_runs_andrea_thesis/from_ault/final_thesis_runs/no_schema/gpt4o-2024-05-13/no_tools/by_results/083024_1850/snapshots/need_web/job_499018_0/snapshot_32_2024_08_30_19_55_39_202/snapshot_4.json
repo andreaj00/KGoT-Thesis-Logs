@@ -1,0 +1,112 @@
+{"type":"node","id":"14","labels":["Author"],"properties":{"name":"J. Komijani"}}
+{"type":"node","id":"15","labels":["Author"],"properties":{"name":"A. S. Kronfeld"}}
+{"type":"node","id":"16","labels":["Author"],"properties":{"name":"J. Laiho"}}
+{"type":"node","id":"46","labels":["Author"],"properties":{"name":"A. Bazavov"}}
+{"type":"node","id":"47","labels":["Author"],"properties":{"name":"H.-T. Ding"}}
+{"type":"node","id":"48","labels":["Author"],"properties":{"name":"P. Hegde"}}
+{"type":"node","id":"49","labels":["Author"],"properties":{"name":"O. Kaczmarek"}}
+{"type":"node","id":"50","labels":["Author"],"properties":{"name":"F. Karsch"}}
+{"type":"node","id":"51","labels":["Author"],"properties":{"name":"E. Laermann"}}
+{"type":"node","id":"52","labels":["Author"],"properties":{"name":"S. Mukherjee"}}
+{"type":"node","id":"53","labels":["Author"],"properties":{"name":"H. Ohno"}}
+{"type":"node","id":"54","labels":["Author"],"properties":{"name":"P. Petreczky"}}
+{"type":"node","id":"55","labels":["Author"],"properties":{"name":"C. Schmidt"}}
+{"type":"node","id":"56","labels":["Author"],"properties":{"name":"S. Sharma"}}
+{"type":"node","id":"57","labels":["Author"],"properties":{"name":"W. Soeldner"}}
+{"type":"node","id":"58","labels":["Author"],"properties":{"name":"M. Wagner"}}
+{"type":"node","id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}
+{"type":"node","id":"60","labels":["Format"],"properties":{"type":"PDF"}}
+{"type":"node","id":"61","labels":["Author"],"properties":{"name":"C. Lehner"}}
+{"type":"node","id":"62","labels":["Author"],"properties":{"name":"C. Sturm"}}
+{"type":"node","id":"63","labels":["Article"],"properties":{"date":"2020-01","title":"Nonperturbative Renormalization of Operators in Lattice QCD"}}
+{"type":"node","id":"64","labels":["Author"],"properties":{"name":"A. Mohler"}}
+{"type":"node","id":"65","labels":["Author"],"properties":{"name":"C. B. Lang"}}
+{"type":"node","id":"66","labels":["Author"],"properties":{"name":"L. Leskovec"}}
+{"type":"node","id":"67","labels":["Author"],"properties":{"name":"S. Prelovsek"}}
+{"type":"node","id":"68","labels":["Author"],"properties":{"name":"R. M. Woloshyn"}}
+{"type":"node","id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}
+{"type":"node","id":"70","labels":["Author"],"properties":{"name":"C. Alexandrou"}}
+{"type":"node","id":"71","labels":["Author"],"properties":{"name":"S. Bacchio"}}
+{"type":"node","id":"72","labels":["Author"],"properties":{"name":"M. Constantinou"}}
+{"type":"node","id":"73","labels":["Author"],"properties":{"name":"P. Dimopoulos"}}
+{"type":"node","id":"74","labels":["Author"],"properties":{"name":"J. Finkenrath"}}
+{"type":"node","id":"75","labels":["Author"],"properties":{"name":"R. Frezzotti"}}
+{"type":"node","id":"76","labels":["Author"],"properties":{"name":"K. Hadjiyiannakou"}}
+{"type":"node","id":"77","labels":["Author"],"properties":{"name":"K. Jansen"}}
+{"type":"node","id":"78","labels":["Author"],"properties":{"name":"B. Kostrzewa"}}
+{"type":"node","id":"79","labels":["Author"],"properties":{"name":"G. Koutsou"}}
+{"type":"node","id":"80","labels":["Author"],"properties":{"name":"A. Vaquero Aviles-Casco"}}
+{"type":"node","id":"81","labels":["Author"],"properties":{"name":"C. Wiese"}}
+{"type":"node","id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}
+{"type":"node","id":"83","labels":["Author"],"properties":{"name":"C. Bernard"}}
+{"type":"node","id":"84","labels":["Author"],"properties":{"name":"N. Brown"}}
+{"type":"node","id":"85","labels":["Author"],"properties":{"name":"C. DeTar"}}
+{"type":"node","id":"86","labels":["Author"],"properties":{"name":"A. X. El-Khadra"}}
+{"type":"node","id":"87","labels":["Author"],"properties":{"name":"E. D. Freeland"}}
+{"type":"node","id":"88","labels":["Author"],"properties":{"name":"E. Gámiz"}}
+{"type":"node","id":"89","labels":["Author"],"properties":{"name":"S. Gottlieb"}}
+{"type":"node","id":"90","labels":["Author"],"properties":{"name":"U. M. Heller"}}
+{"type":"node","id":"91","labels":["Author"],"properties":{"name":"P. B. Mackenzie"}}
+{"type":"node","id":"92","labels":["Author"],"properties":{"name":"E. T. Neil"}}
+{"type":"node","id":"93","labels":["Author"],"properties":{"name":"J. N. Simone"}}
+{"type":"node","id":"94","labels":["Author"],"properties":{"name":"R. Sugar"}}
+{"type":"node","id":"95","labels":["Author"],"properties":{"name":"D. Toussaint"}}
+{"type":"node","id":"96","labels":["Author"],"properties":{"name":"R. S. Van de Water"}}
+{"type":"node","id":"97","labels":["Author"],"properties":{"name":"R. Zhou"}}
+{"type":"node","id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}
+{"type":"relationship","id":"0","label":"HAS_FORMAT","start":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"1","label":"AUTHORED","start":{"id":"46","labels":["Author"],"properties":{"name":"A. Bazavov"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"2","label":"AUTHORED","start":{"id":"83","labels":["Author"],"properties":{"name":"C. Bernard"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"3","label":"AUTHORED","start":{"id":"84","labels":["Author"],"properties":{"name":"N. Brown"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"131","label":"AUTHORED","start":{"id":"47","labels":["Author"],"properties":{"name":"H.-T. Ding"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"4","label":"AUTHORED","start":{"id":"85","labels":["Author"],"properties":{"name":"C. DeTar"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"132","label":"AUTHORED","start":{"id":"48","labels":["Author"],"properties":{"name":"P. Hegde"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"5","label":"AUTHORED","start":{"id":"86","labels":["Author"],"properties":{"name":"A. X. El-Khadra"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"133","label":"AUTHORED","start":{"id":"49","labels":["Author"],"properties":{"name":"O. Kaczmarek"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"6","label":"AUTHORED","start":{"id":"87","labels":["Author"],"properties":{"name":"E. D. Freeland"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"134","label":"AUTHORED","start":{"id":"50","labels":["Author"],"properties":{"name":"F. Karsch"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"7","label":"AUTHORED","start":{"id":"88","labels":["Author"],"properties":{"name":"E. Gámiz"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"135","label":"AUTHORED","start":{"id":"51","labels":["Author"],"properties":{"name":"E. Laermann"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"8","label":"AUTHORED","start":{"id":"89","labels":["Author"],"properties":{"name":"S. Gottlieb"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"136","label":"AUTHORED","start":{"id":"52","labels":["Author"],"properties":{"name":"S. Mukherjee"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"9","label":"AUTHORED","start":{"id":"90","labels":["Author"],"properties":{"name":"U. M. Heller"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"10","label":"AUTHORED","start":{"id":"14","labels":["Author"],"properties":{"name":"J. Komijani"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"11","label":"AUTHORED","start":{"id":"15","labels":["Author"],"properties":{"name":"A. S. Kronfeld"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"12","label":"AUTHORED","start":{"id":"16","labels":["Author"],"properties":{"name":"J. Laiho"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"76","label":"HAS_FORMAT","start":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"77","label":"AUTHORED","start":{"id":"46","labels":["Author"],"properties":{"name":"A. Bazavov"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"78","label":"AUTHORED","start":{"id":"53","labels":["Author"],"properties":{"name":"H. Ohno"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"79","label":"AUTHORED","start":{"id":"54","labels":["Author"],"properties":{"name":"P. Petreczky"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"80","label":"AUTHORED","start":{"id":"55","labels":["Author"],"properties":{"name":"C. Schmidt"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"81","label":"AUTHORED","start":{"id":"56","labels":["Author"],"properties":{"name":"S. Sharma"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"82","label":"AUTHORED","start":{"id":"57","labels":["Author"],"properties":{"name":"W. Soeldner"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"83","label":"AUTHORED","start":{"id":"58","labels":["Author"],"properties":{"name":"M. Wagner"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"84","label":"HAS_FORMAT","start":{"id":"63","labels":["Article"],"properties":{"date":"2020-01","title":"Nonperturbative Renormalization of Operators in Lattice QCD"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"85","label":"AUTHORED","start":{"id":"61","labels":["Author"],"properties":{"name":"C. Lehner"}},"end":{"id":"63","labels":["Article"],"properties":{"date":"2020-01","title":"Nonperturbative Renormalization of Operators in Lattice QCD"}}}
+{"type":"relationship","id":"86","label":"AUTHORED","start":{"id":"62","labels":["Author"],"properties":{"name":"C. Sturm"}},"end":{"id":"63","labels":["Article"],"properties":{"date":"2020-01","title":"Nonperturbative Renormalization of Operators in Lattice QCD"}}}
+{"type":"relationship","id":"87","label":"HAS_FORMAT","start":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"88","label":"AUTHORED","start":{"id":"64","labels":["Author"],"properties":{"name":"A. Mohler"}},"end":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}}
+{"type":"relationship","id":"89","label":"AUTHORED","start":{"id":"65","labels":["Author"],"properties":{"name":"C. B. Lang"}},"end":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}}
+{"type":"relationship","id":"90","label":"AUTHORED","start":{"id":"66","labels":["Author"],"properties":{"name":"L. Leskovec"}},"end":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}}
+{"type":"relationship","id":"91","label":"AUTHORED","start":{"id":"67","labels":["Author"],"properties":{"name":"S. Prelovsek"}},"end":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}}
+{"type":"relationship","id":"92","label":"AUTHORED","start":{"id":"68","labels":["Author"],"properties":{"name":"R. M. Woloshyn"}},"end":{"id":"69","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Study of the $D_s0^*(2317)$ and $D_{s1}(2460)$ Mesons"}}}
+{"type":"relationship","id":"93","label":"HAS_FORMAT","start":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"94","label":"AUTHORED","start":{"id":"70","labels":["Author"],"properties":{"name":"C. Alexandrou"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"95","label":"AUTHORED","start":{"id":"71","labels":["Author"],"properties":{"name":"S. Bacchio"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"96","label":"AUTHORED","start":{"id":"72","labels":["Author"],"properties":{"name":"M. Constantinou"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"97","label":"AUTHORED","start":{"id":"73","labels":["Author"],"properties":{"name":"P. Dimopoulos"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"98","label":"AUTHORED","start":{"id":"74","labels":["Author"],"properties":{"name":"J. Finkenrath"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"99","label":"AUTHORED","start":{"id":"75","labels":["Author"],"properties":{"name":"R. Frezzotti"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"100","label":"AUTHORED","start":{"id":"76","labels":["Author"],"properties":{"name":"K. Hadjiyiannakou"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"101","label":"AUTHORED","start":{"id":"77","labels":["Author"],"properties":{"name":"K. Jansen"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"102","label":"AUTHORED","start":{"id":"78","labels":["Author"],"properties":{"name":"B. Kostrzewa"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"103","label":"AUTHORED","start":{"id":"79","labels":["Author"],"properties":{"name":"G. Koutsou"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"104","label":"AUTHORED","start":{"id":"80","labels":["Author"],"properties":{"name":"A. Vaquero Aviles-Casco"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"105","label":"AUTHORED","start":{"id":"81","labels":["Author"],"properties":{"name":"C. Wiese"}},"end":{"id":"82","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD and the Origin of the Proton Mass"}}}
+{"type":"relationship","id":"106","label":"AUTHORED","start":{"id":"91","labels":["Author"],"properties":{"name":"P. B. Mackenzie"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"107","label":"AUTHORED","start":{"id":"92","labels":["Author"],"properties":{"name":"E. T. Neil"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"108","label":"AUTHORED","start":{"id":"93","labels":["Author"],"properties":{"name":"J. N. Simone"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"109","label":"AUTHORED","start":{"id":"94","labels":["Author"],"properties":{"name":"R. Sugar"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"110","label":"AUTHORED","start":{"id":"95","labels":["Author"],"properties":{"name":"D. Toussaint"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"111","label":"AUTHORED","start":{"id":"96","labels":["Author"],"properties":{"name":"R. S. Van de Water"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}
+{"type":"relationship","id":"112","label":"AUTHORED","start":{"id":"97","labels":["Author"],"properties":{"name":"R. Zhou"}},"end":{"id":"98","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Calculation of the $B_s \to D_s^{(*)}$ Form Factors"}}}

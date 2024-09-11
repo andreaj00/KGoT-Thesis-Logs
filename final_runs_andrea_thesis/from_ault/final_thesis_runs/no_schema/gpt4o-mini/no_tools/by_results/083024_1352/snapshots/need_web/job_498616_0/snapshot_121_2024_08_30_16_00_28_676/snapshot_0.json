@@ -1,0 +1,7 @@
+{"type":"node","id":"4","labels":["City"],"properties":{"name":"Chicago"}}
+{"type":"node","id":"5","labels":["Figure"],"properties":{"name":"John Hancock"}}
+{"type":"node","id":"6","labels":["Building"],"properties":{"name":"John Hancock Center"}}
+{"type":"node","id":"7","labels":["ArchitecturalFirm"],"properties":{"name":"Skidmore, Owings & Merrill","first_name":"Skidmore"}}
+{"type":"relationship","id":"10","label":"ASSOCIATED_WITH","start":{"id":"4","labels":["City"],"properties":{"name":"Chicago"}},"end":{"id":"5","labels":["Figure"],"properties":{"name":"John Hancock"}}}
+{"type":"relationship","id":"11","label":"HAS_BUILDING","start":{"id":"5","labels":["Figure"],"properties":{"name":"John Hancock"}},"end":{"id":"6","labels":["Building"],"properties":{"name":"John Hancock Center"}}}
+{"type":"relationship","id":"12","label":"DESIGNED_BY","start":{"id":"6","labels":["Building"],"properties":{"name":"John Hancock Center"}},"end":{"id":"7","labels":["ArchitecturalFirm"],"properties":{"name":"Skidmore, Owings & Merrill","first_name":"Skidmore"}}}

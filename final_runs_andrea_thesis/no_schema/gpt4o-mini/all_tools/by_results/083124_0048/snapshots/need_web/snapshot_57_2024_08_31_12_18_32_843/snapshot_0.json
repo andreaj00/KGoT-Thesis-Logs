@@ -1,0 +1,5 @@
+{"type":"node","id":"17","labels":["Article"],"properties":{"name":"Legume"}}
+{"type":"node","id":"18","labels":["Policy"],"properties":{"name":"Core policies related to content violations"}}
+{"type":"node","id":"19","labels":["ContentViolation"],"properties":{"type":"R"}}
+{"type":"relationship","id":"3","label":"HAS_POLICY","start":{"id":"17","labels":["Article"],"properties":{"name":"Legume"}},"end":{"id":"18","labels":["Policy"],"properties":{"name":"Core policies related to content violations"}}}
+{"type":"relationship","id":"4","label":"INCLUDES","start":{"id":"18","labels":["Policy"],"properties":{"name":"Core policies related to content violations"}},"end":{"id":"19","labels":["ContentViolation"],"properties":{"type":"R"}}}

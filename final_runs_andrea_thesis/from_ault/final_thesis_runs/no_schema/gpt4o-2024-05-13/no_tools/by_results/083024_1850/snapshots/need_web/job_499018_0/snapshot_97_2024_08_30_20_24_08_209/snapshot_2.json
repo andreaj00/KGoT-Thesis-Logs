@@ -1,0 +1,7 @@
+{"type":"node","id":"11","labels":["Country"],"properties":{"name":"China"}}
+{"type":"node","id":"12","labels":["Statistic"],"properties":{"period":"2001-2010","type":"Gross Savings","value":">35% of GDP"}}
+{"type":"node","id":"13","labels":["Country"],"properties":{"name":"Singapore"}}
+{"type":"node","id":"44","labels":["Country"],"properties":{"name":"Qatar"}}
+{"type":"relationship","id":"80","label":"HAS_STATISTIC","start":{"id":"11","labels":["Country"],"properties":{"name":"China"}},"end":{"id":"12","labels":["Statistic"],"properties":{"period":"2001-2010","type":"Gross Savings","value":">35% of GDP"}}}
+{"type":"relationship","id":"81","label":"HAS_STATISTIC","start":{"id":"13","labels":["Country"],"properties":{"name":"Singapore"}},"end":{"id":"12","labels":["Statistic"],"properties":{"period":"2001-2010","type":"Gross Savings","value":">35% of GDP"}}}
+{"type":"relationship","id":"82","label":"HAS_STATISTIC","start":{"id":"44","labels":["Country"],"properties":{"name":"Qatar"}},"end":{"id":"12","labels":["Statistic"],"properties":{"period":"2001-2010","type":"Gross Savings","value":">35% of GDP"}}}

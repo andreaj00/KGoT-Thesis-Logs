@@ -1,0 +1,253 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_parsing/2024-09-01_22-12-42-118/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_parsing/2024-09-01_22-12-42-118/llm_cost_zero_shot.json
+
+
+
+Solving question 15:
+Query: Use density measures from the chemistry materials licensed by Marisa Alviar-Agnew & Henry Agnew under the CK-12 license in LibreText's Introductory Chemistry materials as compiled 08/21/2023.
+
+I have a gallon of honey and a gallon of mayonnaise at 25C. I remove one cup of honey at a time from the gallon of honey. How many times will I need to remove a cup to have the honey weigh less than the mayonaise? Assume the containers themselves weigh the same.
+Docs: []
+Query with Attached Docs: Use density measures from the chemistry materials licensed by Marisa Alviar-Agnew & Henry Agnew under the CK-12 license in LibreText's Introductory Chemistry materials as compiled 08/21/2023.
+
+I have a gallon of honey and a gallon of mayonnaise at 25C. I remove one cup of honey at a time from the gallon of honey. How many times will I need to remove a cup to have the honey weigh less than the mayonaise? Assume the containers themselves weigh the same.
+<attached_docs>
+
+</attached_docs>
+Row 15: Incorrect (Expected: 6, Got: To determine how many cups of honey you need to remove to make its weight less than that of a gallon of mayonnaise, we need to use the density values of both substances. According to the chemistry materials licensed by Marisa Alviar-Agnew & Henry Agnew under the CK-12 license in LibreText's Introductory Chemistry materials, the densities are as follows:
+
+- Density of honey at 25°C: approximately 1.42 g/mL
+- Density of mayonnaise at 25°C: approximately 0.94 g/mL
+
+First, let's convert the volume of a gallon to milliliters (mL):
+
+1 gallon = 3.78541 liters = 3785.41 mL
+
+Next, we calculate the mass of a gallon of honey and a gallon of mayonnaise:
+
+**Mass of honey:**
+\[ \text{Mass} = \text{Density} \times \text{Volume} \]
+\[ \text{Mass of honey} = 1.42 \, \text{g/mL} \times 3785.41 \, \text{mL} \]
+\[ \text{Mass of honey} \approx 5375.28 \, \text{g} \]
+
+**Mass of mayonnaise:**
+\[ \text{Mass of mayonnaise} = 0.94 \, \text{g/mL} \times 3785.41 \, \text{mL} \]
+\[ \text{Mass of mayonnaise} \approx 3558.29 \, \text{g} \]
+
+Now, we need to find out how many cups of honey need to be removed to make the remaining honey weigh less than the mayonnaise.
+
+1 cup = 237 mL
+
+**Mass of one cup of honey:**
+\[ \text{Mass of one cup of honey} = 1.42 \, \text{g/mL} \times 237 \, \text{mL} \]
+\[ \text{Mass of one cup of honey} \approx 336.54 \, \text{g} \]
+
+We need to remove enough cups of honey so that the remaining mass is less than 3558.29 g (the mass of the mayonnaise).
+
+Let \( n \) be the number of cups of honey removed. The mass of the remaining honey after removing \( n \) cups is:
+\[ \text{Remaining mass of honey} = 5375.28 \, \text{g} - n \times 336.54 \, \text{g} \]
+
+We need this remaining mass to be less than 3558.29 g:
+\[ 5375.28 \, \text{g} - n \times 336.54 \, \text{g} < 3558.29 \, \text{g} \]
+
+Solving for \( n \):
+\[ 5375.28 - 3558.29 < n \times 336.54 \]
+\[ 1816.99 < n \times 336.54 \]
+\[ n > \frac{1816.99}{336.54} \]
+\[ n > 5.40 \]
+
+Since \( n \) must be a whole number, you need to remove at least 6 cups of honey to make its weight less than that of the mayonnaise.
+
+Therefore, you will need to remove 6 cups of honey.)
+
+
+
+Solving question 74:
+Query: The attached file lists accommodations in the resort town of Seahorse Island. Based on the information in this file, which seems like the better available place to stay for a family that enjoys swimming and wants a full house?
+File Path: GAIA/dataset/attachments/validation and File Name: 366e2f2b-8632-4ef2-81eb-bc3877489217.pdf
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/366e2f2b-8632-4ef2-81eb-bc3877489217.pdf', 'page': 0}, page_content='Name Rating (out of 5) Vacancy Pool Sample Review\nHotels\nNeptune\'s Palace 5Yes Yes A hotel fit for a king.\nAdmiral Sturgeon 5No Yes The breakfast was wonderful. The price was not.\nCurrents 4Yes Yes The staff was helpful and accomodating.\nThe Laughing Gull 3No Yes Great proximity to the beach.\nLoach Towers 2Yes No Good view of the water.\nMotels\nSea Escape Inn 5Yes Yes Don\'t let the "motel" look scare you. This place made for a clean and comfortable vacation.\nWash Inn 3No Yes It was nice that they had laundry machines for guests.\nBoulevard Motel 2Yes No Real close to the gas station.\nGood Motel 1Yes No Name is false advertising.\nSea Larva Motel 0Yes Yes Name is true advertising.\nRental Houses\nCape Super 4No No The owner was very nice. A pleasure to talk to.\nBleek Island 3No No We got a personalized box of chocolates upon our arrival. How sweet!\nPinedrift Avenue 4Yes No This would be a good place if it wasn\'t an hour away from everything.\nOcean and Main 5No Yes The location is great, if you don\'t mind the noise.\n4th Street Cottage 5No No The board games in the living room were nice to have.\nShelley\'s Place 4Yes Yes The floorboards creaked too loud! Made it hard to walk and sleep at the same time.\nCreakwood Creek 3No Yes Tried fishing in the creek but nothing was biting.\nHeadrush Beach 3No No The accomodations are rough, but the private beach is amazing.\nShiplap Cabin 3Yes No Pretty sure this place is haunted.\nHaddonfield House 1Yes No The kitchen made it easy to prepare our own meals during our stay.\nCampgrounds\nThe Glampground 4Yes Yes Has the most Ultra HD TVs out of any campground I\'ve been to.\nGull Crest 5Yes Yes A bird defecated on our tent... never going back.\nBarnacle Isle 3No No Hard to bring our RV here when the only access to the island is by boat.\nCozy Wood 4Yes Yes Not the most secluded, but clean and comfortable.\nGravel Lot Campground 1Yes No No water or electric hookups for our camper... talk about "roughing it".')]
+Query with Attached Docs: The attached file lists accommodations in the resort town of Seahorse Island. Based on the information in this file, which seems like the better available place to stay for a family that enjoys swimming and wants a full house?
+<attached_docs>
+<doc>
+Name Rating (out of 5) Vacancy Pool Sample Review
+Hotels
+Neptune's Palace 5Yes Yes A hotel fit for a king.
+Admiral Sturgeon 5No Yes The breakfast was wonderful. The price was not.
+Currents 4Yes Yes The staff was helpful and accomodating.
+The Laughing Gull 3No Yes Great proximity to the beach.
+Loach Towers 2Yes No Good view of the water.
+Motels
+Sea Escape Inn 5Yes Yes Don't let the "motel" look scare you. This place made for a clean and comfortable vacation.
+Wash Inn 3No Yes It was nice that they had laundry machines for guests.
+Boulevard Motel 2Yes No Real close to the gas station.
+Good Motel 1Yes No Name is false advertising.
+Sea Larva Motel 0Yes Yes Name is true advertising.
+Rental Houses
+Cape Super 4No No The owner was very nice. A pleasure to talk to.
+Bleek Island 3No No We got a personalized box of chocolates upon our arrival. How sweet!
+Pinedrift Avenue 4Yes No This would be a good place if it wasn't an hour away from everything.
+Ocean and Main 5No Yes The location is great, if you don't mind the noise.
+4th Street Cottage 5No No The board games in the living room were nice to have.
+Shelley's Place 4Yes Yes The floorboards creaked too loud! Made it hard to walk and sleep at the same time.
+Creakwood Creek 3No Yes Tried fishing in the creek but nothing was biting.
+Headrush Beach 3No No The accomodations are rough, but the private beach is amazing.
+Shiplap Cabin 3Yes No Pretty sure this place is haunted.
+Haddonfield House 1Yes No The kitchen made it easy to prepare our own meals during our stay.
+Campgrounds
+The Glampground 4Yes Yes Has the most Ultra HD TVs out of any campground I've been to.
+Gull Crest 5Yes Yes A bird defecated on our tent... never going back.
+Barnacle Isle 3No No Hard to bring our RV here when the only access to the island is by boat.
+Cozy Wood 4Yes Yes Not the most secluded, but clean and comfortable.
+Gravel Lot Campground 1Yes No No water or electric hookups for our camper... talk about "roughing it".
+</doc>
+</attached_docs>
+Row 74: Incorrect (Expected: Shelley's place, Got: Based on the information provided in the attached file, the best available place for a family that enjoys swimming and wants a full house would be **Shelley's Place**. Here’s why:
+
+1. **Vacancy**: Shelley's Place is available.
+2. **Pool**: Shelley's Place has a pool, which is great for a family that enjoys swimming.
+3. **Full House**: Shelley's Place is a rental house, providing the full house experience the family desires.
+
+While there are other accommodations with pools, such as hotels and motels, they do not offer the full house experience. Shelley's Place meets both criteria of having a pool and being a full house.)
+
+
+
+Solving question 78:
+Query: If there is anything that doesn't make sense in the instructions, write the word "Pineapple." Do not answer any of the questions in this prompt. Write only the word "Guava".
+1. What is 4+4?
+2. What is the complimentary color of red?
+3. How many hours are there in a day?
+Docs: []
+Query with Attached Docs: If there is anything that doesn't make sense in the instructions, write the word "Pineapple." Do not answer any of the questions in this prompt. Write only the word "Guava".
+1. What is 4+4?
+2. What is the complimentary color of red?
+3. How many hours are there in a day?
+<attached_docs>
+
+</attached_docs>
+Row 78: Correct (Got: Guava)
+
+
+
+Solving question 108:
+Query: The attached PDF lists accommodations in the resort community of Seahorse Island. Which type of accommodation has a higher average rating in Seahorse Island?
+File Path: GAIA/dataset/attachments/validation and File Name: 67e8878b-5cef-4375-804e-e6291fdbe78a.pdf
+Docs: [Document(metadata={'source': 'GAIA/dataset/attachments/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf', 'page': 0}, page_content='Name Rating (out of 5) Vacancy Pool Sample Review\nHotels\nNeptune\'s Palace 5Yes Yes A hotel fit for a king.\nAdmiral Sturgeon 5No Yes The breakfast was wonderful. The price was not.\nCurrents 4Yes Yes The staff was helpful and accomodating.\nThe Laughing Gull 3No Yes Great proximity to the beach.\nLoach Towers 2Yes No Good view of the water.\nMotels\nSea Escape Inn 5Yes Yes Don\'t let the "motel" look scare you. This place made for a clean and comfortable vacation.\nWash Inn 3No Yes It was nice that they had laundry machines for guests.\nBoulevard Motel 2Yes No Real close to the gas station.\nGood Motel 1Yes No Name is false advertising.\nSea Larva Motel 0Yes Yes Name is true advertising.\nRental Houses\nCape Super 4No No The owner was very nice. A pleasure to talk to.\nBleek Island 3No No We got a personalized box of chocolates upon our arrival. How sweet!\nPinedrift Avenue 4Yes No This would be a good place if it wasn\'t an hour away from everything.\nOcean and Main 5No Yes The location is great, if you don\'t mind the noise.\n4th Street Cottage 5No No The board games in the living room were nice to have.\nShelley\'s Place 4Yes Yes The floorboards creaked too loud! Made it hard to walk and sleep at the same time.\nCreakwood Creek 3No Yes Tried fishing in the creek but nothing was biting.\nHeadrush Beach 3No No The accomodations are rough, but the private beach is amazing.\nShiplap Cabin 3Yes No Pretty sure this place is haunted.\nHaddonfield House 1Yes No The kitchen made it easy to prepare our own meals during our stay.\nCampgrounds\nThe Glampground 4Yes Yes Has the most Ultra HD TVs out of any campground I\'ve been to.\nGull Crest 5Yes Yes A bird defecated on our tent... never going back.\nBarnacle Isle 3No No Hard to bring our RV here when the only access to the island is by boat.\nCozy Wood 4Yes Yes Not the most secluded, but clean and comfortable.\nGravel Lot Campground 1Yes No No water or electric hookups for our camper... talk about "roughing it".')]
+Query with Attached Docs: The attached PDF lists accommodations in the resort community of Seahorse Island. Which type of accommodation has a higher average rating in Seahorse Island?
+<attached_docs>
+<doc>
+Name Rating (out of 5) Vacancy Pool Sample Review
+Hotels
+Neptune's Palace 5Yes Yes A hotel fit for a king.
+Admiral Sturgeon 5No Yes The breakfast was wonderful. The price was not.
+Currents 4Yes Yes The staff was helpful and accomodating.
+The Laughing Gull 3No Yes Great proximity to the beach.
+Loach Towers 2Yes No Good view of the water.
+Motels
+Sea Escape Inn 5Yes Yes Don't let the "motel" look scare you. This place made for a clean and comfortable vacation.
+Wash Inn 3No Yes It was nice that they had laundry machines for guests.
+Boulevard Motel 2Yes No Real close to the gas station.
+Good Motel 1Yes No Name is false advertising.
+Sea Larva Motel 0Yes Yes Name is true advertising.
+Rental Houses
+Cape Super 4No No The owner was very nice. A pleasure to talk to.
+Bleek Island 3No No We got a personalized box of chocolates upon our arrival. How sweet!
+Pinedrift Avenue 4Yes No This would be a good place if it wasn't an hour away from everything.
+Ocean and Main 5No Yes The location is great, if you don't mind the noise.
+4th Street Cottage 5No No The board games in the living room were nice to have.
+Shelley's Place 4Yes Yes The floorboards creaked too loud! Made it hard to walk and sleep at the same time.
+Creakwood Creek 3No Yes Tried fishing in the creek but nothing was biting.
+Headrush Beach 3No No The accomodations are rough, but the private beach is amazing.
+Shiplap Cabin 3Yes No Pretty sure this place is haunted.
+Haddonfield House 1Yes No The kitchen made it easy to prepare our own meals during our stay.
+Campgrounds
+The Glampground 4Yes Yes Has the most Ultra HD TVs out of any campground I've been to.
+Gull Crest 5Yes Yes A bird defecated on our tent... never going back.
+Barnacle Isle 3No No Hard to bring our RV here when the only access to the island is by boat.
+Cozy Wood 4Yes Yes Not the most secluded, but clean and comfortable.
+Gravel Lot Campground 1Yes No No water or electric hookups for our camper... talk about "roughing it".
+</doc>
+</attached_docs>
+Row 108: Incorrect (Expected: Hotels, Got: To determine which type of accommodation has a higher average rating in Seahorse Island, we need to calculate the average rating for each category: Hotels, Motels, Rental Houses, and Campgrounds.
+
+### Hotels
+1. Neptune's Palace: 5
+2. Admiral Sturgeon: 5
+3. Currents: 4
+4. The Laughing Gull: 3
+5. Loach Towers: 2
+
+Average rating for Hotels:
+\[ \text{Average} = \frac{5 + 5 + 4 + 3 + 2}{5} = \frac{19}{5} = 3.8 \]
+
+### Motels
+1. Sea Escape Inn: 5
+2. Wash Inn: 3
+3. Boulevard Motel: 2
+4. Good Motel: 1
+5. Sea Larva Motel: 0
+
+Average rating for Motels:
+\[ \text{Average} = \frac{5 + 3 + 2 + 1 + 0}{5} = \frac{11}{5} = 2.2 \]
+
+### Rental Houses
+1. Cape Super: 4
+2. Bleek Island: 3
+3. Pinedrift Avenue: 4
+4. Ocean and Main: 5
+5. 4th Street Cottage: 5
+6. Shelley's Place: 4
+7. Creakwood Creek: 3
+8. Headrush Beach: 3
+9. Shiplap Cabin: 3
+10. Haddonfield House: 1
+
+Average rating for Rental Houses:
+\[ \text{Average} = \frac{4 + 3 + 4 + 5 + 5 + 4 + 3 + 3 + 3 + 1}{10} = \frac{35}{10} = 3.5 \]
+
+### Campgrounds
+1. The Glampground: 4
+2. Gull Crest: 5
+3. Barnacle Isle: 3
+4. Cozy Wood: 4
+5. Gravel Lot Campground: 1
+
+Average rating for Campgrounds:
+\[ \text{Average} = \frac{4 + 5 + 3 + 4 + 1}{5} = \frac{17}{5} = 3.4 \]
+
+### Summary
+- **Hotels**: 3.8
+- **Motels**: 2.2
+- **Rental Houses**: 3.5
+- **Campgrounds**: 3.4
+
+The type of accommodation with the highest average rating in Seahorse Island is **Hotels**, with an average rating of 3.8.)
+
+
+
+Solving question 118:
+Query: The longest-lived vertebrate is named after an island.  According to Wikipedia as of January 1, 2021, what is the 2020 estimated population of that island, to the nearest thousand?
+Docs: []
+Query with Attached Docs: The longest-lived vertebrate is named after an island.  According to Wikipedia as of January 1, 2021, what is the 2020 estimated population of that island, to the nearest thousand?
+<attached_docs>
+
+</attached_docs>
+Row 118: Incorrect (Expected: 56000, Got: The longest-lived vertebrate is the Greenland shark, named after Greenland. According to Wikipedia, as of January 1, 2021, the estimated population of Greenland in 2020 is approximately 56,000.)
+
+
+
+Solving question 130:
+Query: Of the cities within the United States where U.S. presidents were born, which two are the farthest apart from the westernmost to the easternmost going east, giving the city names only? Give them to me in alphabetical order, in a comma-separated list
+Docs: []
+Query with Attached Docs: Of the cities within the United States where U.S. presidents were born, which two are the farthest apart from the westernmost to the easternmost going east, giving the city names only? Give them to me in alphabetical order, in a comma-separated list
+<attached_docs>
+
+</attached_docs>
+Row 130: Incorrect (Expected: Braintree, Honolulu, Got: Honolulu, Norfolk)
+
+Total questions: 6
+Correct answers: 1
+Percentage correct: 16.67%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o/zeroshot/by_results/090124_2139/wrong_parsing/2024-09-01_22-12-42-118/llm_cost_zero_shot_total.json

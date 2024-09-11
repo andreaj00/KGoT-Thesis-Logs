@@ -1,0 +1,5 @@
+{"type":"node","id":"27","labels":["BlogPost"],"properties":{"website":"replit.com","title":"2018 VSCode blog post"}}
+{"type":"node","id":"28","labels":["Video"],"properties":{"description":"last video"}}
+{"type":"node","id":"29","labels":["Command"],"properties":{"name":"Remove Empty Lines"}}
+{"type":"relationship","id":"21","label":"CONTAINS","start":{"id":"27","labels":["BlogPost"],"properties":{"website":"replit.com","title":"2018 VSCode blog post"}},"end":{"id":"28","labels":["Video"],"properties":{"description":"last video"}}}
+{"type":"relationship","id":"22","label":"CLICKED_ON","start":{"id":"28","labels":["Video"],"properties":{"description":"last video"}},"end":{"id":"29","labels":["Command"],"properties":{"name":"Remove Empty Lines"}}}

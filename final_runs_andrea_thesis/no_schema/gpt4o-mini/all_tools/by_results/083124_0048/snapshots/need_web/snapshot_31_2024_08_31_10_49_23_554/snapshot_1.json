@@ -1,0 +1,12 @@
+{"type":"node","id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}}
+{"type":"node","id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}
+{"type":"node","id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}
+{"type":"node","id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}}
+{"type":"node","id":"13","labels":["CakileMaritima"],"properties":{"name":"Cakile maritima"}}
+{"type":"node","id":"14","labels":["MatthiolaTricuspidata"],"properties":{"name":"Matthiola tricuspidata"}}
+{"type":"node","id":"15","labels":["CrithmumMaritimum"],"properties":{"name":"Crithmum maritimum"}}
+{"type":"relationship","id":"80","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}}
+{"type":"relationship","id":"81","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"13","labels":["CakileMaritima"],"properties":{"name":"Cakile maritima"}}}
+{"type":"relationship","id":"82","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"14","labels":["MatthiolaTricuspidata"],"properties":{"name":"Matthiola tricuspidata"}}}
+{"type":"relationship","id":"83","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"15","labels":["CrithmumMaritimum"],"properties":{"name":"Crithmum maritimum"}}}
+{"type":"relationship","id":"79","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}}

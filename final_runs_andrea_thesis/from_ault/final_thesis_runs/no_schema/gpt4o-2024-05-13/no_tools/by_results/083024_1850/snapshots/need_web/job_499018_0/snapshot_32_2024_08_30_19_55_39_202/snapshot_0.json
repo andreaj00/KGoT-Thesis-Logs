@@ -1,0 +1,29 @@
+{"type":"node","id":"46","labels":["Author"],"properties":{"name":"A. Bazavov"}}
+{"type":"node","id":"47","labels":["Author"],"properties":{"name":"H.-T. Ding"}}
+{"type":"node","id":"48","labels":["Author"],"properties":{"name":"P. Hegde"}}
+{"type":"node","id":"49","labels":["Author"],"properties":{"name":"O. Kaczmarek"}}
+{"type":"node","id":"50","labels":["Author"],"properties":{"name":"F. Karsch"}}
+{"type":"node","id":"51","labels":["Author"],"properties":{"name":"E. Laermann"}}
+{"type":"node","id":"52","labels":["Author"],"properties":{"name":"S. Mukherjee"}}
+{"type":"node","id":"53","labels":["Author"],"properties":{"name":"H. Ohno"}}
+{"type":"node","id":"54","labels":["Author"],"properties":{"name":"P. Petreczky"}}
+{"type":"node","id":"55","labels":["Author"],"properties":{"name":"C. Schmidt"}}
+{"type":"node","id":"56","labels":["Author"],"properties":{"name":"S. Sharma"}}
+{"type":"node","id":"57","labels":["Author"],"properties":{"name":"W. Soeldner"}}
+{"type":"node","id":"58","labels":["Author"],"properties":{"name":"M. Wagner"}}
+{"type":"node","id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}
+{"type":"node","id":"60","labels":["Format"],"properties":{"type":"PDF"}}
+{"type":"relationship","id":"131","label":"AUTHORED","start":{"id":"47","labels":["Author"],"properties":{"name":"H.-T. Ding"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"132","label":"AUTHORED","start":{"id":"48","labels":["Author"],"properties":{"name":"P. Hegde"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"133","label":"AUTHORED","start":{"id":"49","labels":["Author"],"properties":{"name":"O. Kaczmarek"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"134","label":"AUTHORED","start":{"id":"50","labels":["Author"],"properties":{"name":"F. Karsch"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"135","label":"AUTHORED","start":{"id":"51","labels":["Author"],"properties":{"name":"E. Laermann"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"136","label":"AUTHORED","start":{"id":"52","labels":["Author"],"properties":{"name":"S. Mukherjee"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"76","label":"HAS_FORMAT","start":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}},"end":{"id":"60","labels":["Format"],"properties":{"type":"PDF"}}}
+{"type":"relationship","id":"77","label":"AUTHORED","start":{"id":"46","labels":["Author"],"properties":{"name":"A. Bazavov"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"78","label":"AUTHORED","start":{"id":"53","labels":["Author"],"properties":{"name":"H. Ohno"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"79","label":"AUTHORED","start":{"id":"54","labels":["Author"],"properties":{"name":"P. Petreczky"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"80","label":"AUTHORED","start":{"id":"55","labels":["Author"],"properties":{"name":"C. Schmidt"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"81","label":"AUTHORED","start":{"id":"56","labels":["Author"],"properties":{"name":"S. Sharma"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"82","label":"AUTHORED","start":{"id":"57","labels":["Author"],"properties":{"name":"W. Soeldner"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}
+{"type":"relationship","id":"83","label":"AUTHORED","start":{"id":"58","labels":["Author"],"properties":{"name":"M. Wagner"}},"end":{"id":"59","labels":["Article"],"properties":{"date":"2020-01","title":"Lattice QCD Thermodynamics up to the Strangeness-Free Freeze-Out Line"}}}

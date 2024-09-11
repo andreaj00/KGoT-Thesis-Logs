@@ -1,0 +1,14 @@
+{"type":"node","id":"0","labels":["Store"],"properties":{"address":"1001 Rewind Drive, Seattle WA","name":"Flop Video Rental Store"}}
+{"type":"node","id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}
+{"type":"node","id":"2","labels":["Movie"],"properties":{"year":2009,"genre":"Science Fiction","title":"Time-Parking 2: Parallel Universe","status":"Missing"}}
+{"type":"node","id":"3","labels":["Movie"],"properties":{"year":2011,"genre":"Horror","title":"Cereal Killer III: Incomplete Breakfast","status":"Rented"}}
+{"type":"node","id":"4","labels":["Movie"],"properties":{"year":2016,"genre":"Comedy","title":"Windshield Bug: The First Ten Seasons","status":"Rented"}}
+{"type":"node","id":"5","labels":["Movie"],"properties":{"year":2018,"genre":"Documentary","title":"A Protist's Life","status":"Available"}}
+{"type":"node","id":"6","labels":["Movie"],"properties":{"year":2022,"genre":"Anime","title":"My Neighbor Is A Shrimp Farmer","status":"Available"}}
+{"type":"node","id":"7","labels":["Movie"],"properties":{"year":2023,"genre":"Adventure","title":"Dogs and Croatia: A Movie About Both These Things","status":"Overdue"}}
+{"type":"relationship","id":"0","label":"AVAILABLE_ON","start":{"id":"2","labels":["Movie"],"properties":{"year":2009,"genre":"Science Fiction","title":"Time-Parking 2: Parallel Universe","status":"Missing"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"1","label":"AVAILABLE_ON","start":{"id":"3","labels":["Movie"],"properties":{"year":2011,"genre":"Horror","title":"Cereal Killer III: Incomplete Breakfast","status":"Rented"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"2","label":"AVAILABLE_ON","start":{"id":"4","labels":["Movie"],"properties":{"year":2016,"genre":"Comedy","title":"Windshield Bug: The First Ten Seasons","status":"Rented"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"3","label":"AVAILABLE_ON","start":{"id":"5","labels":["Movie"],"properties":{"year":2018,"genre":"Documentary","title":"A Protist's Life","status":"Available"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"4","label":"AVAILABLE_ON","start":{"id":"6","labels":["Movie"],"properties":{"year":2022,"genre":"Anime","title":"My Neighbor Is A Shrimp Farmer","status":"Available"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}
+{"type":"relationship","id":"5","label":"AVAILABLE_ON","start":{"id":"7","labels":["Movie"],"properties":{"year":2023,"genre":"Adventure","title":"Dogs and Croatia: A Movie About Both These Things","status":"Overdue"}},"end":{"id":"1","labels":["Platform"],"properties":{"name":"Blu-Ray"}}}

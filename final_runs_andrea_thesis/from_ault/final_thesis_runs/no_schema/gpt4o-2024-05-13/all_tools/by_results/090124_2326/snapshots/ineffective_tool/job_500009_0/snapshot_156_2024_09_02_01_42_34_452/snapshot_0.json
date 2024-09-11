@@ -1,0 +1,5 @@
+{"type":"node","id":"82","labels":["Pitcher"],"properties":{"last_name":"Tamai","jersey_number":19,"first_name":"Taishō"}}
+{"type":"node","id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}}
+{"type":"node","id":"84","labels":["League"],"properties":{"division":"Pacific League","name":"NPB"}}
+{"type":"relationship","id":"22","label":"PLAYS_FOR","start":{"id":"82","labels":["Pitcher"],"properties":{"last_name":"Tamai","jersey_number":19,"first_name":"Taishō"}},"end":{"id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}}}
+{"type":"relationship","id":"23","label":"PART_OF","start":{"id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}},"end":{"id":"84","labels":["League"],"properties":{"division":"Pacific League","name":"NPB"}}}

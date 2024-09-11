@@ -1,0 +1,5 @@
+{"type":"node","id":"15","labels":["Book"],"properties":{"title":"Eat This, Not That! 2021","authors":"David Zinczenko, Matt Goulding"}}
+{"type":"node","id":"16","labels":["Restaurant"],"properties":{"name":"restaurant_name"}}
+{"type":"node","id":"17","labels":["Show"],"properties":{"name":"Cheap Eats","premiere_year":2015}}
+{"type":"relationship","id":"35","label":"RECOMMENDS","start":{"id":"15","labels":["Book"],"properties":{"title":"Eat This, Not That! 2021","authors":"David Zinczenko, Matt Goulding"}},"end":{"id":"16","labels":["Restaurant"],"properties":{"name":"restaurant_name"}}}
+{"type":"relationship","id":"36","label":"FEATURES","start":{"id":"17","labels":["Show"],"properties":{"name":"Cheap Eats","premiere_year":2015}},"end":{"id":"15","labels":["Book"],"properties":{"title":"Eat This, Not That! 2021","authors":"David Zinczenko, Matt Goulding"}}}

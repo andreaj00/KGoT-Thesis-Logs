@@ -1,0 +1,11 @@
+{"type":"node","id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}}
+{"type":"node","id":"32","labels":["Note"],"properties":{"letter":"G","position":"second line from the bottom"}}
+{"type":"node","id":"33","labels":["Note"],"properties":{"letter":"A","position":"second space from the bottom"}}
+{"type":"node","id":"34","labels":["Note"],"properties":{"letter":"B","position":"third line from the bottom"}}
+{"type":"node","id":"35","labels":["Note"],"properties":{"letter":"C","position":"third space from the bottom"}}
+{"type":"node","id":"36","labels":["Note"],"properties":{"letter":"D","position":"fourth line from the bottom"}}
+{"type":"relationship","id":"82","label":"CONTAINS","start":{"id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"32","labels":["Note"],"properties":{"letter":"G","position":"second line from the bottom"}}}
+{"type":"relationship","id":"83","label":"CONTAINS","start":{"id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"33","labels":["Note"],"properties":{"letter":"A","position":"second space from the bottom"}}}
+{"type":"relationship","id":"84","label":"CONTAINS","start":{"id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"34","labels":["Note"],"properties":{"letter":"B","position":"third line from the bottom"}}}
+{"type":"relationship","id":"85","label":"CONTAINS","start":{"id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"35","labels":["Note"],"properties":{"letter":"C","position":"third space from the bottom"}}}
+{"type":"relationship","id":"86","label":"CONTAINS","start":{"id":"31","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/8f80e01c-1296-4371-9486-bb3d68651a60.png"}},"end":{"id":"36","labels":["Note"],"properties":{"letter":"D","position":"fourth line from the bottom"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}}
+{"type":"node","id":"13","labels":["Box"],"properties":{"coins":6,"name":"Box2","counter":1}}
+{"type":"node","id":"14","labels":["Box"],"properties":{"coins":0,"name":"Box3","counter":1}}
+{"type":"relationship","id":"25","label":"CONTAINS","start":{"id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}},"end":{"id":"13","labels":["Box"],"properties":{"coins":6,"name":"Box2","counter":1}}}
+{"type":"relationship","id":"26","label":"CONTAINS","start":{"id":"12","labels":["Box"],"properties":{"coins":24,"name":"Box1","counter":1}},"end":{"id":"14","labels":["Box"],"properties":{"coins":0,"name":"Box3","counter":1}}}

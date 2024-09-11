@@ -1,0 +1,3 @@
+{"type":"node","id":"42","labels":["Report"],"properties":{"total_pages":85,"title":"2023 IPCC Report","version":"85 pages"}}
+{"type":"node","id":"43","labels":["Topic"],"properties":{"name":"Nuclear Energy"}}
+{"type":"relationship","id":"36","label":"MENTIONS","properties":{"pages":7},"start":{"id":"42","labels":["Report"],"properties":{"total_pages":85,"title":"2023 IPCC Report","version":"85 pages"}},"end":{"id":"43","labels":["Topic"],"properties":{"name":"Nuclear Energy"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"66","labels":["Verb"],"properties":{"form":"Maktay","meaning":"to like"}}
+{"type":"node","id":"67","labels":["DirectObject"],"properties":{"form":"Zapple","meaning":"apples"}}
+{"type":"node","id":"68","labels":["Subject"],"properties":{"form":"Pa","meaning":"I"}}
+{"type":"relationship","id":"12","label":"EXPRESSES","start":{"id":"66","labels":["Verb"],"properties":{"form":"Maktay","meaning":"to like"}},"end":{"id":"67","labels":["DirectObject"],"properties":{"form":"Zapple","meaning":"apples"}}}
+{"type":"relationship","id":"13","label":"IS_PLEASING_TO","start":{"id":"67","labels":["DirectObject"],"properties":{"form":"Zapple","meaning":"apples"}},"end":{"id":"68","labels":["Subject"],"properties":{"form":"Pa","meaning":"I"}}}

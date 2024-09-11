@@ -1,0 +1,42 @@
+[
+    {
+        "question_number": 4,
+        "correct_answer": "17",
+        "returned_answer": "17000",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. A web browser.\n2. A search engine.\n3. A calculator.",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 23,
+        "correct_answer": "Indonesia, Myanmar",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "13",
+        "tools": "1. Search engine\n2. Web browser\n3. Microsoft Excel / Google Sheets",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 47,
+        "correct_answer": "To be or not to be that is the question whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune",
+        "returned_answer": "To be or not to be that is the question",
+        "successful": false,
+        "level": "2",
+        "num_steps": "14",
+        "tools": "1. A web browser\n2. A search engine\n3. A speech-to-text tool",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 84,
+        "correct_answer": "0.00033",
+        "returned_answer": "0.73438",
+        "successful": false,
+        "level": "3",
+        "num_steps": "9",
+        "tools": "1. CSV file access\n2. Web browser\n3. Search engine\n4. Calculator (or use Excel)",
+        "num_tools": "4"
+    }
+]

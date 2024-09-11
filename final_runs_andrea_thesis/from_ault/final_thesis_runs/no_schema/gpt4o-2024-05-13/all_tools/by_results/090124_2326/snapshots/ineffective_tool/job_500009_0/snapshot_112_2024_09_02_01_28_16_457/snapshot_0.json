@@ -1,0 +1,5 @@
+{"type":"node","id":"47","labels":["Actor"],"properties":{"name":"Bartłomiej Świderski"}}
+{"type":"node","id":"48","labels":["Show"],"properties":{"language":"Polish","title":"Everybody Loves Raymond"}}
+{"type":"node","id":"49","labels":["Role"],"properties":{"character":"Ray"}}
+{"type":"relationship","id":"66","label":"ACTED_IN","start":{"id":"47","labels":["Actor"],"properties":{"name":"Bartłomiej Świderski"}},"end":{"id":"48","labels":["Show"],"properties":{"language":"Polish","title":"Everybody Loves Raymond"}}}
+{"type":"relationship","id":"67","label":"PLAYED","start":{"id":"47","labels":["Actor"],"properties":{"name":"Bartłomiej Świderski"}},"end":{"id":"49","labels":["Role"],"properties":{"character":"Ray"}}}

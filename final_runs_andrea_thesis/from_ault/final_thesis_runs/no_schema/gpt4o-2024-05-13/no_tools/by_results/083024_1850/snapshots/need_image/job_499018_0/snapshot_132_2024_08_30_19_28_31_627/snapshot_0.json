@@ -1,0 +1,5 @@
+{"type":"node","id":"101","labels":["Brand"],"properties":{"name":"Unknown Brand"}}
+{"type":"node","id":"102","labels":["Story"],"properties":{"date":"2022-12-08"}}
+{"type":"node","id":"103","labels":["Meat"],"properties":{"type":"bacon"}}
+{"type":"relationship","id":"68","label":"SHARES","start":{"id":"101","labels":["Brand"],"properties":{"name":"Unknown Brand"}},"end":{"id":"102","labels":["Story"],"properties":{"date":"2022-12-08"}}}
+{"type":"relationship","id":"69","label":"MENTIONS","start":{"id":"102","labels":["Story"],"properties":{"date":"2022-12-08"}},"end":{"id":"103","labels":["Meat"],"properties":{"type":"bacon"}}}

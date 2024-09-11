@@ -1,0 +1,7 @@
+{"type":"node","id":"11","labels":["Portrait"],"properties":{"accession_number":"29.100.5","artist":"Giovanni Battista Salvi da Sassoferrato"}}
+{"type":"node","id":"12","labels":["Cardinal"],"properties":{"name":"Giovanni Battista Pamphilj","title":"Pope Innocent X"}}
+{"type":"node","id":"13","labels":["Cardinal"],"properties":{"name":"Francesco Barberini","title":"Pope Urban VIII"}}
+{"type":"node","id":"14","labels":["Cardinal"],"properties":{"became_pope":false,"name":"Giovanni Battista de Luca","title":"Co-consecrator"}}
+{"type":"relationship","id":"0","label":"CONSECRATED_BY","start":{"id":"11","labels":["Portrait"],"properties":{"accession_number":"29.100.5","artist":"Giovanni Battista Salvi da Sassoferrato"}},"end":{"id":"12","labels":["Cardinal"],"properties":{"name":"Giovanni Battista Pamphilj","title":"Pope Innocent X"}}}
+{"type":"relationship","id":"1","label":"CONSECRATED_BY","start":{"id":"11","labels":["Portrait"],"properties":{"accession_number":"29.100.5","artist":"Giovanni Battista Salvi da Sassoferrato"}},"end":{"id":"14","labels":["Cardinal"],"properties":{"became_pope":false,"name":"Giovanni Battista de Luca","title":"Co-consecrator"}}}
+{"type":"relationship","id":"68","label":"CONSECRATED_BY","start":{"id":"11","labels":["Portrait"],"properties":{"accession_number":"29.100.5","artist":"Giovanni Battista Salvi da Sassoferrato"}},"end":{"id":"13","labels":["Cardinal"],"properties":{"name":"Francesco Barberini","title":"Pope Urban VIII"}}}

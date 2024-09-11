@@ -1,0 +1,36 @@
+{"type":"node","id":"58","labels":["Place"],"properties":{"name":"National Air and Space Museum"}}
+{"type":"node","id":"59","labels":["Place"],"properties":{"name":"Cleveland Elementary School"}}
+{"type":"node","id":"60","labels":["Place"],"properties":{"name":"Fire Station 301 DCA ARFF"}}
+{"type":"node","id":"61","labels":["Station"],"properties":{"name":"L'Enfant Plaza"}}
+{"type":"node","id":"62","labels":["Station"],"properties":{"name":"Columbia Heights"}}
+{"type":"node","id":"63","labels":["Station"],"properties":{"name":"National Airport"}}
+{"type":"node","id":"64","labels":["Station"],"properties":{"name":"Shady Grove"}}
+{"type":"node","id":"65","labels":["Station"],"properties":{"name":"Rockville"}}
+{"type":"node","id":"66","labels":["Station"],"properties":{"name":"Twinbrook"}}
+{"type":"node","id":"67","labels":["Station"],"properties":{"name":"White Flint"}}
+{"type":"node","id":"68","labels":["Station"],"properties":{"name":"Grosvenor-Strathmore"}}
+{"type":"node","id":"69","labels":["Station"],"properties":{"name":"Medical Center"}}
+{"type":"node","id":"70","labels":["Station"],"properties":{"name":"Bethesda"}}
+{"type":"node","id":"71","labels":["Station"],"properties":{"name":"Friendship Heights"}}
+{"type":"node","id":"72","labels":["Station"],"properties":{"name":"Tenleytown-AU"}}
+{"type":"node","id":"73","labels":["Station"],"properties":{"name":"Van Ness-UDC"}}
+{"type":"node","id":"74","labels":["Station"],"properties":{"name":"Cleveland Park"}}
+{"type":"node","id":"75","labels":["Station"],"properties":{"name":"Woodley Park-Zoo/Adams Morgan"}}
+{"type":"node","id":"76","labels":["Station"],"properties":{"name":"Dupont Circle"}}
+{"type":"node","id":"77","labels":["Station"],"properties":{"name":"Farragut North"}}
+{"type":"node","id":"78","labels":["Station"],"properties":{"name":"Metro Center"}}
+{"type":"node","id":"79","labels":["Station"],"properties":{"name":"Gallery Place-Chinatown"}}
+{"type":"node","id":"80","labels":["Station"],"properties":{"name":"Judiciary Square"}}
+{"type":"node","id":"81","labels":["Station"],"properties":{"name":"Union Station"}}
+{"type":"node","id":"82","labels":["Station"],"properties":{"name":"NoMa-Gallaudet U"}}
+{"type":"node","id":"83","labels":["Station"],"properties":{"name":"Rhode Island Ave-Brentwood"}}
+{"type":"node","id":"84","labels":["Station"],"properties":{"name":"Brookland-CUA"}}
+{"type":"node","id":"85","labels":["Station"],"properties":{"name":"Fort Totten"}}
+{"type":"node","id":"86","labels":["Station"],"properties":{"name":"Takoma"}}
+{"type":"node","id":"87","labels":["Station"],"properties":{"name":"Silver Spring"}}
+{"type":"node","id":"88","labels":["Station"],"properties":{"name":"Forest Glen"}}
+{"type":"node","id":"89","labels":["Station"],"properties":{"name":"Wheaton"}}
+{"type":"node","id":"90","labels":["Station"],"properties":{"name":"Glenmont"}}
+{"type":"relationship","id":"103","label":"CLOSEST_TO","start":{"id":"61","labels":["Station"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"58","labels":["Place"],"properties":{"name":"National Air and Space Museum"}}}
+{"type":"relationship","id":"104","label":"CLOSEST_TO","start":{"id":"62","labels":["Station"],"properties":{"name":"Columbia Heights"}},"end":{"id":"59","labels":["Place"],"properties":{"name":"Cleveland Elementary School"}}}
+{"type":"relationship","id":"105","label":"CLOSEST_TO","start":{"id":"63","labels":["Station"],"properties":{"name":"National Airport"}},"end":{"id":"60","labels":["Place"],"properties":{"name":"Fire Station 301 DCA ARFF"}}}

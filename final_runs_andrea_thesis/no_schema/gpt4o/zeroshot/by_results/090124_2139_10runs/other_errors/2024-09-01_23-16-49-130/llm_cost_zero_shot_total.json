@@ -1,0 +1,14 @@
+{
+    "answer_query": {
+        "TotalPromptTokens": 511,
+        "TotalCompletionTokens": 908,
+        "TotalCost": 0.016175000000000002,
+        "TotalDuration": 11.456745862960815
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 511,
+        "TotalCompletionTokens": 908,
+        "TotalCost": 0.016175000000000002,
+        "TotalDuration": 11.456745862960815
+    }
+}

@@ -1,0 +1,9 @@
+{"type":"node","id":"8","labels":["Set"],"properties":{"name":"S"}}
+{"type":"node","id":"9","labels":["Element"],"properties":{"value":"a"}}
+{"type":"node","id":"10","labels":["Element"],"properties":{"value":"b"}}
+{"type":"node","id":"11","labels":["Element"],"properties":{"value":"c"}}
+{"type":"node","id":"12","labels":["Element"],"properties":{"value":"d"}}
+{"type":"node","id":"13","labels":["Element"],"properties":{"value":"e"}}
+{"type":"node","id":"14"}
+{"type":"relationship","id":"11","label":"IN_SET","start":{"id":"9","labels":["Element"],"properties":{"value":"a"}},"end":{"id":"8","labels":["Set"],"properties":{"name":"S"}}}
+{"type":"relationship","id":"12","label":"COUNTER_EXAMPLE","start":{"id":"14"},"end":{"id":"9","labels":["Element"],"properties":{"value":"a"}}}

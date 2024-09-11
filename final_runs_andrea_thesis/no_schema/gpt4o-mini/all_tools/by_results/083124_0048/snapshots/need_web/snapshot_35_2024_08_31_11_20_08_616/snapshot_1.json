@@ -1,0 +1,25 @@
+{"type":"node","id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}}
+{"type":"node","id":"31","labels":["BookSeries"],"properties":{"title":"A Song of Ice and Fire"}}
+{"type":"node","id":"32","labels":["Adaptation"],"properties":{"title":"The Fellowship of the Ring"}}
+{"type":"node","id":"33","labels":["Adaptation"],"properties":{"title":"The Two Towers"}}
+{"type":"node","id":"34","labels":["Adaptation"],"properties":{"title":"The Return of the King"}}
+{"type":"node","id":"35","labels":["RelatedWork"],"properties":{"title":"The Hobbit"}}
+{"type":"node","id":"36","labels":["RelatedWork"],"properties":{"title":"The Silmarillion"}}
+{"type":"node","id":"37","labels":["Genre"],"properties":{"name":"Fantasy literature"}}
+{"type":"node","id":"38","labels":["Genre"],"properties":{"name":"High fantasy"}}
+{"type":"node","id":"39","labels":["Genre"],"properties":{"name":"Epic fantasy"}}
+{"type":"node","id":"45","labels":["Author"],"properties":{"name":"J.R.R. Tolkien"}}
+{"type":"node","id":"46","labels":["Comparison"],"properties":{"title":"House of the Dragon"}}
+{"type":"node","id":"47","labels":["Book"],"properties":{"date":"07-03-2023","title":"A Song of Ice and Fire"}}
+{"type":"relationship","id":"96","label":"RELATED_TO","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"36","labels":["RelatedWork"],"properties":{"title":"The Silmarillion"}}}
+{"type":"relationship","id":"18","label":"BELONGS_TO_GENRE","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"37","labels":["Genre"],"properties":{"name":"Fantasy literature"}}}
+{"type":"relationship","id":"19","label":"BELONGS_TO_GENRE","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"38","labels":["Genre"],"properties":{"name":"High fantasy"}}}
+{"type":"relationship","id":"20","label":"BELONGS_TO_GENRE","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"39","labels":["Genre"],"properties":{"name":"Epic fantasy"}}}
+{"type":"relationship","id":"21","label":"WRITTEN_BY","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"45","labels":["Author"],"properties":{"name":"J.R.R. Tolkien"}}}
+{"type":"relationship","id":"22","label":"COMPARED_TO","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"46","labels":["Comparison"],"properties":{"title":"House of the Dragon"}}}
+{"type":"relationship","id":"23","label":"INFLUENCES","start":{"id":"47","labels":["Book"],"properties":{"date":"07-03-2023","title":"A Song of Ice and Fire"}},"end":{"id":"31","labels":["BookSeries"],"properties":{"title":"A Song of Ice and Fire"}}}
+{"type":"relationship","id":"91","label":"INFLUENCES","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"31","labels":["BookSeries"],"properties":{"title":"A Song of Ice and Fire"}}}
+{"type":"relationship","id":"92","label":"HAS_ADAPTATION","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"32","labels":["Adaptation"],"properties":{"title":"The Fellowship of the Ring"}}}
+{"type":"relationship","id":"93","label":"HAS_ADAPTATION","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"33","labels":["Adaptation"],"properties":{"title":"The Two Towers"}}}
+{"type":"relationship","id":"94","label":"HAS_ADAPTATION","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"34","labels":["Adaptation"],"properties":{"title":"The Return of the King"}}}
+{"type":"relationship","id":"95","label":"RELATED_TO","start":{"id":"30","labels":["Book"],"properties":{"date":"07-03-2023","title":"The Lord of the Rings"}},"end":{"id":"35","labels":["RelatedWork"],"properties":{"title":"The Hobbit"}}}

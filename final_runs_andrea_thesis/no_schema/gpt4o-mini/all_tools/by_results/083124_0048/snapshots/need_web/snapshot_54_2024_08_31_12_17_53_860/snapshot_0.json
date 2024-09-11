@@ -1,0 +1,3 @@
+{"type":"node","id":"15","labels":["Stock"],"properties":{"name":"Apple","first_above_price":50,"first_above_date":"2007-12-28"}}
+{"type":"node","id":"16","labels":["Year"],"properties":{"year":2007}}
+{"type":"relationship","id":"2","label":"FIRST_ABOVE","start":{"id":"15","labels":["Stock"],"properties":{"name":"Apple","first_above_price":50,"first_above_date":"2007-12-28"}},"end":{"id":"16","labels":["Year"],"properties":{"year":2007}}}

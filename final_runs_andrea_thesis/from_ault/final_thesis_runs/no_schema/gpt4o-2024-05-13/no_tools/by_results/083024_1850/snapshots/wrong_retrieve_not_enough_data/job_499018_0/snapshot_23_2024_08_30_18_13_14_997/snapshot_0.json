@@ -1,0 +1,3 @@
+{"type":"node","id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}}
+{"type":"node","id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}
+{"type":"relationship","id":"62","label":"HAS_CAPITAL","start":{"id":"2","labels":["Country"],"properties":{"name":"Brunei Darussalam"}},"end":{"id":"3","labels":["City"],"properties":{"name":"Bandar Seri Begawan"}}}

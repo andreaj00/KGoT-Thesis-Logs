@@ -1,0 +1,7 @@
+{"type":"node","id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}
+{"type":"node","id":"25","labels":["Composer"],"properties":{"last_name":"Miller","first_name":"Roger"}}
+{"type":"node","id":"26","labels":["Animal"],"properties":{"type":"Rooster"}}
+{"type":"node","id":"27","labels":["Animal"],"properties":{"type":"Hamster"}}
+{"type":"relationship","id":"96","label":"PERFORMED","start":{"id":"26","labels":["Animal"],"properties":{"type":"Rooster"}},"end":{"id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}}
+{"type":"relationship","id":"97","label":"PERFORMED","start":{"id":"27","labels":["Animal"],"properties":{"type":"Hamster"}},"end":{"id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}}
+{"type":"relationship","id":"95","label":"COMPOSED","start":{"id":"25","labels":["Composer"],"properties":{"last_name":"Miller","first_name":"Roger"}},"end":{"id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}}

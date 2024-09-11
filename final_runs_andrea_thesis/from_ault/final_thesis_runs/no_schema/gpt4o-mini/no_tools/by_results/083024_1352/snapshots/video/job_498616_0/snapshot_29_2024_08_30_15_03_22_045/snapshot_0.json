@@ -1,0 +1,3 @@
+{"type":"node","id":"43","labels":["Jellyfish"],"properties":{"name":"lion's mane jellyfish","scientific_name":"Cyanea capillata","maximum_length_meters":40}}
+{"type":"node","id":"44","labels":["NationalGeographicShort"],"properties":{"title":"First National Geographic Short on YouTube"}}
+{"type":"relationship","id":"9","label":"FEATURES","start":{"id":"44","labels":["NationalGeographicShort"],"properties":{"title":"First National Geographic Short on YouTube"}},"end":{"id":"43","labels":["Jellyfish"],"properties":{"name":"lion's mane jellyfish","scientific_name":"Cyanea capillata","maximum_length_meters":40}}}

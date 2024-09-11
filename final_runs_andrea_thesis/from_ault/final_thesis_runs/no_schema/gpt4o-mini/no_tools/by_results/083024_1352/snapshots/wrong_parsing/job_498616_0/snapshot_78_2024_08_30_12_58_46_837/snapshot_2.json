@@ -1,0 +1,49 @@
+{"type":"node","id":"0","labels":["Group"],"properties":{"createdDate":"2023-10-01","name":"Friends","description":"A group for friends"}}
+{"type":"node","id":"1","labels":["Product"],"properties":{"price":999.99,"name":"Laptop","description":"A high-end laptop","stockQuantity":10,"category":"Electronics"}}
+{"type":"node","id":"2","labels":["Order"],"properties":{"totalAmount":999.99,"orderDate":"2023-10-01","status":"Completed"}}
+{"type":"node","id":"3"}
+{"type":"node","id":"4","labels":["Category"],"properties":{"name":"Electronics","description":"Electronic devices"}}
+{"type":"node","id":"5"}
+{"type":"node","id":"6","labels":["Movie"],"properties":{"duration":148,"genre":"Sci-Fi","rating":8.8,"title":"Inception","releaseYear":2010}}
+{"type":"node","id":"7","labels":["Actor"],"properties":{"nationality":"American","name":"Leonardo DiCaprio","dateOfBirth":"1974-11-11"}}
+{"type":"node","id":"8"}
+{"type":"node","id":"9","labels":["Director"],"properties":{"nationality":"British","name":"Christopher Nolan","dateOfBirth":"1970-07-30"}}
+{"type":"node","id":"10"}
+{"type":"node","id":"11","labels":["Genre"],"properties":{"name":"Sci-Fi","description":"Science Fiction"}}
+{"type":"node","id":"12"}
+{"type":"node","id":"13","labels":["Movie"],"properties":{"duration":148,"summary":"A thief who steals corporate secrets through the use of dream-sharing technology.","release_year":2010,"rating":8.8,"title":"Inception"}}
+{"type":"node","id":"14","labels":["Actor"],"properties":{"nationality":"American","birth_date":"1974-11-11","name":"Leonardo DiCaprio"}}
+{"type":"node","id":"15","labels":["Director"],"properties":{"nationality":"British-American","birth_date":"1970-07-30","name":"Christopher Nolan"}}
+{"type":"node","id":"16","labels":["Genre"],"properties":{"name":"Science Fiction"}}
+{"type":"node","id":"17","labels":["ProductionCompany"],"properties":{"founded_year":1923,"name":"Warner Bros."}}
+{"type":"node","id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}}
+{"type":"node","id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}}
+{"type":"node","id":"20","labels":["Movie"],"properties":{"genre":"Sci-Fi","title":"Inception","releaseYear":2010}}
+{"type":"node","id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}}
+{"type":"node","id":"22","labels":["Product"],"properties":{"price":999.99,"name":"Laptop","category":"Electronics"}}
+{"type":"node","id":"23","labels":["Location"],"properties":{"country":"USA","city":"New York"}}
+{"type":"node","id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}}
+{"type":"node","id":"25","labels":["User"],"properties":{"fullName":"Bob","dateOfBirth":"1998-01-01","location":"New York","email":"bob@example.com","username":"bob"}}
+{"type":"node","id":"26","labels":["Post"],"properties":{"likesCount":0,"commentsCount":0,"content":"Hello World!","timestamp":"2023-10-01T12:00:00"}}
+{"type":"node","id":"27","labels":["Comment"],"properties":{"likesCount":0,"content":"Nice post!","timestamp":"2023-10-01T12:05:00"}}
+{"type":"node","id":"28"}
+{"type":"relationship","id":"0","label":"ACTED_IN","properties":{"role":"Dom Cobb"},"start":{"id":"14","labels":["Actor"],"properties":{"nationality":"American","birth_date":"1974-11-11","name":"Leonardo DiCaprio"}},"end":{"id":"13","labels":["Movie"],"properties":{"duration":148,"summary":"A thief who steals corporate secrets through the use of dream-sharing technology.","release_year":2010,"rating":8.8,"title":"Inception"}}}
+{"type":"relationship","id":"1","label":"DIRECTED","start":{"id":"15","labels":["Director"],"properties":{"nationality":"British-American","birth_date":"1970-07-30","name":"Christopher Nolan"}},"end":{"id":"13","labels":["Movie"],"properties":{"duration":148,"summary":"A thief who steals corporate secrets through the use of dream-sharing technology.","release_year":2010,"rating":8.8,"title":"Inception"}}}
+{"type":"relationship","id":"2","label":"BELONGS_TO","start":{"id":"13","labels":["Movie"],"properties":{"duration":148,"summary":"A thief who steals corporate secrets through the use of dream-sharing technology.","release_year":2010,"rating":8.8,"title":"Inception"}},"end":{"id":"16","labels":["Genre"],"properties":{"name":"Science Fiction"}}}
+{"type":"relationship","id":"3","label":"PRODUCED_BY","start":{"id":"13","labels":["Movie"],"properties":{"duration":148,"summary":"A thief who steals corporate secrets through the use of dream-sharing technology.","release_year":2010,"rating":8.8,"title":"Inception"}},"end":{"id":"17","labels":["ProductionCompany"],"properties":{"founded_year":1923,"name":"Warner Bros."}}}
+{"type":"relationship","id":"14","label":"FRIENDS_WITH","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}}}
+{"type":"relationship","id":"15","label":"ACTED_IN","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"20","labels":["Movie"],"properties":{"genre":"Sci-Fi","title":"Inception","releaseYear":2010}}}
+{"type":"relationship","id":"16","label":"WORKS_FOR","start":{"id":"18","labels":["Person"],"properties":{"name":"Alice","email":"alice@example.com","age":30}},"end":{"id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}}}
+{"type":"relationship","id":"17","label":"PURCHASED","start":{"id":"19","labels":["Person"],"properties":{"name":"Bob","age":25,"email":"bob@example.com"}},"end":{"id":"22","labels":["Product"],"properties":{"price":999.99,"name":"Laptop","category":"Electronics"}}}
+{"type":"relationship","id":"18","label":"LOCATED_IN","start":{"id":"21","labels":["Company"],"properties":{"name":"TechCorp","industry":"Technology","foundedYear":2005}},"end":{"id":"23","labels":["Location"],"properties":{"country":"USA","city":"New York"}}}
+{"type":"relationship","id":"19","label":"FRIENDS_WITH","start":{"id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}},"end":{"id":"25","labels":["User"],"properties":{"fullName":"Bob","dateOfBirth":"1998-01-01","location":"New York","email":"bob@example.com","username":"bob"}}}
+{"type":"relationship","id":"20","label":"POSTED","start":{"id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}},"end":{"id":"26","labels":["Post"],"properties":{"likesCount":0,"commentsCount":0,"content":"Hello World!","timestamp":"2023-10-01T12:00:00"}}}
+{"type":"relationship","id":"21","label":"HAS_COMMENT","start":{"id":"28"},"end":{"id":"27","labels":["Comment"],"properties":{"likesCount":0,"content":"Nice post!","timestamp":"2023-10-01T12:05:00"}}}
+{"type":"relationship","id":"22","label":"MEMBER_OF","start":{"id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}},"end":{"id":"0","labels":["Group"],"properties":{"createdDate":"2023-10-01","name":"Friends","description":"A group for friends"}}}
+{"type":"relationship","id":"23","label":"PURCHASED","start":{"id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}},"end":{"id":"2","labels":["Order"],"properties":{"totalAmount":999.99,"orderDate":"2023-10-01","status":"Completed"}}}
+{"type":"relationship","id":"24","label":"CONTAINS","start":{"id":"2","labels":["Order"],"properties":{"totalAmount":999.99,"orderDate":"2023-10-01","status":"Completed"}},"end":{"id":"3"}}
+{"type":"relationship","id":"25","label":"BELONGS_TO","start":{"id":"5"},"end":{"id":"4","labels":["Category"],"properties":{"name":"Electronics","description":"Electronic devices"}}}
+{"type":"relationship","id":"26","label":"ACTED_IN","start":{"id":"24","labels":["User"],"properties":{"fullName":"Alice","dateOfBirth":"1993-01-01","location":"New York","email":"alice@example.com","username":"alice"}},"end":{"id":"6","labels":["Movie"],"properties":{"duration":148,"genre":"Sci-Fi","rating":8.8,"title":"Inception","releaseYear":2010}}}
+{"type":"relationship","id":"27","label":"ACTED_IN","start":{"id":"8"},"end":{"id":"7","labels":["Actor"],"properties":{"nationality":"American","name":"Leonardo DiCaprio","dateOfBirth":"1974-11-11"}}}
+{"type":"relationship","id":"28","label":"DIRECTED_BY","start":{"id":"10"},"end":{"id":"9","labels":["Director"],"properties":{"nationality":"British","name":"Christopher Nolan","dateOfBirth":"1970-07-30"}}}
+{"type":"relationship","id":"29","label":"BELONGS_TO","start":{"id":"12"},"end":{"id":"11","labels":["Genre"],"properties":{"name":"Sci-Fi","description":"Science Fiction"}}}

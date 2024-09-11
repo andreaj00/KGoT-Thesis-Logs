@@ -1,0 +1,5 @@
+{"type":"node","id":"5","labels":["Village"],"properties":{"name":"Șirnea"}}
+{"type":"node","id":"6","labels":["Resident"],"properties":{"count":100}}
+{"type":"node","id":"7","labels":["Human"],"properties":{"truth":"At least one of us is a human"}}
+{"type":"relationship","id":"20","label":"HAS_RESIDENT","start":{"id":"5","labels":["Village"],"properties":{"name":"Șirnea"}},"end":{"id":"6","labels":["Resident"],"properties":{"count":100}}}
+{"type":"relationship","id":"21","label":"INCLUDES","start":{"id":"6","labels":["Resident"],"properties":{"count":100}},"end":{"id":"7","labels":["Human"],"properties":{"truth":"At least one of us is a human"}}}

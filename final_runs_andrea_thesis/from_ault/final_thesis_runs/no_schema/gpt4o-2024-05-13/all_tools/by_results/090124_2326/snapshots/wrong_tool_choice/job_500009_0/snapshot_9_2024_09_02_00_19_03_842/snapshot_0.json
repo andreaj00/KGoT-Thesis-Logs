@@ -1,0 +1,3 @@
+{"type":"node","id":"29","labels":["Device"],"properties":{"name":"Ramp"}}
+{"type":"node","id":"30","labels":["Platform"],"properties":{"name":"Platform","capacity":3}}
+{"type":"relationship","id":"103","label":"FEEDS","start":{"id":"29","labels":["Device"],"properties":{"name":"Ramp"}},"end":{"id":"30","labels":["Platform"],"properties":{"name":"Platform","capacity":3}}}

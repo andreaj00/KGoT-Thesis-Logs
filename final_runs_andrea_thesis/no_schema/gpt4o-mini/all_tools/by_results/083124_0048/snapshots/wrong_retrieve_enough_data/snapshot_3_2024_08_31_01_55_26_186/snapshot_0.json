@@ -1,0 +1,3 @@
+{"type":"node","id":"16","labels":["Character"],"properties":{"name":"adjustments"}}
+{"type":"node","id":"17","labels":["Function"],"properties":{"name":"Unlambda"}}
+{"type":"relationship","id":"4","label":"NEEDS","start":{"id":"17","labels":["Function"],"properties":{"name":"Unlambda"}},"end":{"id":"16","labels":["Character"],"properties":{"name":"adjustments"}}}

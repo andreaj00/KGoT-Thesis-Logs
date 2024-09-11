@@ -1,0 +1,5 @@
+{"type":"node","id":"7","labels":["Award"],"properties":{"year":2019,"name":"British Academy Games Awards"}}
+{"type":"node","id":"8","labels":["Game"],"properties":{"publisher":"Annapurna Interactive","developer":"Mobius Digital","title":"Outer Wilds"}}
+{"type":"node","id":"9","labels":["WikipediaPage"],"properties":{"revisions_before_release":17,"title":"Outer Wilds","url":"https://en.wikipedia.org/wiki/Outer_Wilds"}}
+{"type":"relationship","id":"73","label":"WON","start":{"id":"8","labels":["Game"],"properties":{"publisher":"Annapurna Interactive","developer":"Mobius Digital","title":"Outer Wilds"}},"end":{"id":"7","labels":["Award"],"properties":{"year":2019,"name":"British Academy Games Awards"}}}
+{"type":"relationship","id":"74","label":"HAS_WIKIPEDIA_PAGE","start":{"id":"8","labels":["Game"],"properties":{"publisher":"Annapurna Interactive","developer":"Mobius Digital","title":"Outer Wilds"}},"end":{"id":"9","labels":["WikipediaPage"],"properties":{"revisions_before_release":17,"title":"Outer Wilds","url":"https://en.wikipedia.org/wiki/Outer_Wilds"}}}

@@ -1,0 +1,142 @@
+[
+    {
+        "question_number": 3,
+        "correct_answer": "backtick",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Unlambda compiler (optional)",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 13,
+        "correct_answer": "Morarji Desai",
+        "returned_answer": "In April of 1977, the Prime Minister of Iran was Amir Abbas Hoveyda, as Shushan (or Susa) is located in present-day Iran.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 26,
+        "correct_answer": "Li Peng",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "9",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 28,
+        "correct_answer": "Fred",
+        "returned_answer": "Alex did not give a gift.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "15",
+        "tools": "1. Word document access",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 37,
+        "correct_answer": "Soups and Stews",
+        "returned_answer": "Fruits",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Excel file access\n2. XML file access\n3. (Optional) Web browser\n4. (Optional) Search engine",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 41,
+        "correct_answer": "fluffy",
+        "returned_answer": "the dragon in legend is a potent creation of men\u2019s imagination, richer in significance than his barrow is in gold",
+        "successful": false,
+        "level": "1",
+        "num_steps": "7",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 45,
+        "correct_answer": "3",
+        "returned_answer": "",
+        "successful": false,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. web browser\n2. search engine\n3. calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 68,
+        "correct_answer": "55",
+        "returned_answer": "223",
+        "successful": false,
+        "level": "3",
+        "num_steps": "24",
+        "tools": "1. Web browser\n2. Search engine\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 83,
+        "correct_answer": "4",
+        "returned_answer": "0",
+        "successful": false,
+        "level": "1",
+        "num_steps": "7",
+        "tools": "1. PowerPoint viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 111,
+        "correct_answer": "8",
+        "returned_answer": "6.50",
+        "successful": false,
+        "level": "2",
+        "num_steps": "14",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 115,
+        "correct_answer": "8",
+        "returned_answer": "8",
+        "successful": true,
+        "level": "2",
+        "num_steps": "3",
+        "tools": "1. Microsoft Excel / Google Sheets",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 136,
+        "correct_answer": "519",
+        "returned_answer": "525",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. web browser\n2. search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 145,
+        "correct_answer": "Death Knight, Hunter, Paladin, Priest, Warlock",
+        "returned_answer": "Druid, Mage, Paladin, Priest, Warlock",
+        "successful": false,
+        "level": "3",
+        "num_steps": "20",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 151,
+        "correct_answer": "21",
+        "returned_answer": "22",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. A web browser\n2. A search engine\n3. A calculator",
+        "num_tools": "3"
+    }
+]

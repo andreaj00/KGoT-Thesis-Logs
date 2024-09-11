@@ -1,0 +1,5 @@
+{"type":"node","id":"20","labels":["Plan"],"properties":{"storage_limit_gb":100,"current_usage_gb":200,"name":"Standard","cost_per_additional_gb":0.0}}
+{"type":"node","id":"21","labels":["File"],"properties":{"count":60,"size_gb":1}}
+{"type":"node","id":"22","labels":["File"],"properties":{"count":980,"size_gb":1}}
+{"type":"relationship","id":"55","label":"HAS_FILES","start":{"id":"20","labels":["Plan"],"properties":{"storage_limit_gb":100,"current_usage_gb":200,"name":"Standard","cost_per_additional_gb":0.0}},"end":{"id":"21","labels":["File"],"properties":{"count":60,"size_gb":1}}}
+{"type":"relationship","id":"56","label":"HAS_FILES","start":{"id":"20","labels":["Plan"],"properties":{"storage_limit_gb":100,"current_usage_gb":200,"name":"Standard","cost_per_additional_gb":0.0}},"end":{"id":"22","labels":["File"],"properties":{"count":980,"size_gb":1}}}

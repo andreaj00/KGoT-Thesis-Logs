@@ -1,0 +1,5 @@
+{"type":"node","id":"98","labels":["Brand"],"properties":{"name":"Ben & Jerry's"}}
+{"type":"node","id":"99","labels":["Section"],"properties":{"name":"Flavor Graveyard"}}
+{"type":"node","id":"100","labels":["Flavor"],"properties":{"name":"Oldest Flavor"}}
+{"type":"relationship","id":"22","label":"HAS_SECTION","start":{"id":"98","labels":["Brand"],"properties":{"name":"Ben & Jerry's"}},"end":{"id":"99","labels":["Section"],"properties":{"name":"Flavor Graveyard"}}}
+{"type":"relationship","id":"23","label":"INCLUDES_FLAVOR","start":{"id":"99","labels":["Section"],"properties":{"name":"Flavor Graveyard"}},"end":{"id":"100","labels":["Flavor"],"properties":{"name":"Oldest Flavor"}}}

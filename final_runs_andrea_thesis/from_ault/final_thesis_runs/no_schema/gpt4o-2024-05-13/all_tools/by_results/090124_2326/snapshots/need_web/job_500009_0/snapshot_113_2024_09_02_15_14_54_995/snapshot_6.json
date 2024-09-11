@@ -1,0 +1,15 @@
+{"type":"node","id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}}
+{"type":"node","id":"7","labels":["Reference"],"properties":{"title":"Thieme-Becker, entry \"Nebel, Carl\""}}
+{"type":"node","id":"8","labels":["Painting"],"properties":{"title":"Battle of Buena Vista"}}
+{"type":"node","id":"9","labels":["War"],"properties":{"name":"Mexican–American War"}}
+{"type":"node","id":"10","labels":["Journalist"],"properties":{"name":"George Wilkins Kendall"}}
+{"type":"node","id":"11","labels":["Book"],"properties":{"title":"The War Between the United States and Mexico, Illustrated"}}
+{"type":"node","id":"12","labels":["Author"],"properties":{"name":"Ron Tyler"}}
+{"type":"node","id":"13","labels":["Journal"],"properties":{"title":"Artes de México"}}
+{"type":"relationship","id":"130","label":"HAS_REFERENCE","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"7","labels":["Reference"],"properties":{"title":"Thieme-Becker, entry \"Nebel, Carl\""}}}
+{"type":"relationship","id":"131","label":"HAS_PAINTING","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"8","labels":["Painting"],"properties":{"title":"Battle of Buena Vista"}}}
+{"type":"relationship","id":"132","label":"DOCUMENTED_WAR","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"9","labels":["War"],"properties":{"name":"Mexican–American War"}}}
+{"type":"relationship","id":"133","label":"ILLUSTRATED_FOR","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"10","labels":["Journalist"],"properties":{"name":"George Wilkins Kendall"}}}
+{"type":"relationship","id":"134","label":"ILLUSTRATED_BOOK","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"11","labels":["Book"],"properties":{"title":"The War Between the United States and Mexico, Illustrated"}}}
+{"type":"relationship","id":"135","label":"MENTIONED_BY","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"12","labels":["Author"],"properties":{"name":"Ron Tyler"}}}
+{"type":"relationship","id":"136","label":"MENTIONED_IN","start":{"id":"6","labels":["Article"],"properties":{"name":"Carl Nebel"}},"end":{"id":"13","labels":["Journal"],"properties":{"title":"Artes de México"}}}

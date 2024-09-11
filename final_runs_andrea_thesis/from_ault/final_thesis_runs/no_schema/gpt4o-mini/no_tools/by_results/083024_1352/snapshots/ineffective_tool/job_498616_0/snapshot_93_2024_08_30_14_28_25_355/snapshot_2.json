@@ -1,0 +1,6 @@
+{"type":"node","id":"17","labels":["Composer"],"properties":{"name":"Pharrell Williams"}}
+{"type":"node","id":"18","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}}
+{"type":"node","id":"19","labels":["Song"],"properties":{"title":"Unknown"}}
+{"type":"node","id":"20","labels":["Song"],"properties":{"title":"Happy"}}
+{"type":"relationship","id":"0","label":"COMPOSED","start":{"id":"17","labels":["Composer"],"properties":{"name":"Pharrell Williams"}},"end":{"id":"20","labels":["Song"],"properties":{"title":"Happy"}}}
+{"type":"relationship","id":"62","label":"COMPOSED","start":{"id":"18","labels":["Composer"],"properties":{"name":"Ludwig van Beethoven"}},"end":{"id":"19","labels":["Song"],"properties":{"title":"Unknown"}}}

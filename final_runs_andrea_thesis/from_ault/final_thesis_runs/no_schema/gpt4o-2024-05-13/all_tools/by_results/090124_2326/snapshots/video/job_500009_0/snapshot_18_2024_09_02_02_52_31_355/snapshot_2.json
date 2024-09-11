@@ -1,0 +1,20 @@
+{"type":"node","id":"5","labels":["Species"],"properties":{"name":"cardinal"}}
+{"type":"node","id":"30","labels":["Video"],"properties":{"highest_species_timestamp":"00:05:30","highest_species_count":4,"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}}
+{"type":"node","id":"31","labels":["Timestamp"],"properties":{"time":"00:02:15"}}
+{"type":"node","id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}}
+{"type":"node","id":"33","labels":["Timestamp"],"properties":{"time":"00:10:45"}}
+{"type":"node","id":"34","labels":["Species"],"properties":{"name":"sparrow"}}
+{"type":"node","id":"35","labels":["Species"],"properties":{"name":"robin"}}
+{"type":"node","id":"36","labels":["Species"],"properties":{"name":"blue jay"}}
+{"type":"relationship","id":"160","label":"HAS_TIMESTAMP","start":{"id":"30","labels":["Video"],"properties":{"highest_species_timestamp":"00:05:30","highest_species_count":4,"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}}}
+{"type":"relationship","id":"161","label":"HAS_TIMESTAMP","start":{"id":"30","labels":["Video"],"properties":{"highest_species_timestamp":"00:05:30","highest_species_count":4,"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"33","labels":["Timestamp"],"properties":{"time":"00:10:45"}}}
+{"type":"relationship","id":"162","label":"SHOWS","start":{"id":"31","labels":["Timestamp"],"properties":{"time":"00:02:15"}},"end":{"id":"34","labels":["Species"],"properties":{"name":"sparrow"}}}
+{"type":"relationship","id":"163","label":"SHOWS","start":{"id":"31","labels":["Timestamp"],"properties":{"time":"00:02:15"}},"end":{"id":"35","labels":["Species"],"properties":{"name":"robin"}}}
+{"type":"relationship","id":"4","label":"SHOWS","start":{"id":"31","labels":["Timestamp"],"properties":{"time":"00:02:15"}},"end":{"id":"36","labels":["Species"],"properties":{"name":"blue jay"}}}
+{"type":"relationship","id":"5","label":"SHOWS","start":{"id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}},"end":{"id":"34","labels":["Species"],"properties":{"name":"sparrow"}}}
+{"type":"relationship","id":"6","label":"SHOWS","start":{"id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}},"end":{"id":"35","labels":["Species"],"properties":{"name":"robin"}}}
+{"type":"relationship","id":"7","label":"SHOWS","start":{"id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}},"end":{"id":"36","labels":["Species"],"properties":{"name":"blue jay"}}}
+{"type":"relationship","id":"8","label":"SHOWS","start":{"id":"32","labels":["Timestamp"],"properties":{"time":"00:05:30"}},"end":{"id":"5","labels":["Species"],"properties":{"name":"cardinal"}}}
+{"type":"relationship","id":"9","label":"SHOWS","start":{"id":"33","labels":["Timestamp"],"properties":{"time":"00:10:45"}},"end":{"id":"34","labels":["Species"],"properties":{"name":"sparrow"}}}
+{"type":"relationship","id":"10","label":"SHOWS","start":{"id":"33","labels":["Timestamp"],"properties":{"time":"00:10:45"}},"end":{"id":"35","labels":["Species"],"properties":{"name":"robin"}}}
+{"type":"relationship","id":"159","label":"HAS_TIMESTAMP","start":{"id":"30","labels":["Video"],"properties":{"highest_species_timestamp":"00:05:30","highest_species_count":4,"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"31","labels":["Timestamp"],"properties":{"time":"00:02:15"}}}

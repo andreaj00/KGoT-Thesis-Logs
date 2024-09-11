@@ -1,0 +1,3 @@
+{"type":"node","id":"14","labels":["BERT"],"properties":{"layers":12,"name":"BERTBASE"}}
+{"type":"node","id":"15","labels":["AttentionIsAllYouNeed"],"properties":{"layers":6,"name":"Attention Is All You Need"}}
+{"type":"relationship","id":"37","label":"HAS_MORE_LAYERS","properties":{"difference":6},"start":{"id":"14","labels":["BERT"],"properties":{"layers":12,"name":"BERTBASE"}},"end":{"id":"15","labels":["AttentionIsAllYouNeed"],"properties":{"layers":6,"name":"Attention Is All You Need"}}}

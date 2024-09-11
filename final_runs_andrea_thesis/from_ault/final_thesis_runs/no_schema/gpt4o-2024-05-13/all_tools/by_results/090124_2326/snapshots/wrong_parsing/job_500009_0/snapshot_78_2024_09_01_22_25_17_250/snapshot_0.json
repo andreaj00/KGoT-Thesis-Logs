@@ -1,0 +1,5 @@
+{"type":"node","id":"7","labels":["Function"],"properties":{"name":"llm_query"}}
+{"type":"node","id":"8","labels":["Query"],"properties":{"text":"What is 4+4?"}}
+{"type":"node","id":"9","labels":["Result"],"properties":{"text":"4 + 4 equals 8."}}
+{"type":"relationship","id":"157","label":"HAS_QUERY","start":{"id":"7","labels":["Function"],"properties":{"name":"llm_query"}},"end":{"id":"8","labels":["Query"],"properties":{"text":"What is 4+4?"}}}
+{"type":"relationship","id":"158","label":"HAS_RESULT","start":{"id":"8","labels":["Query"],"properties":{"text":"What is 4+4?"}},"end":{"id":"9","labels":["Result"],"properties":{"text":"4 + 4 equals 8."}}}

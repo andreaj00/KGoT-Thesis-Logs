@@ -1,0 +1,5 @@
+{"type":"node","id":"45","labels":["Car"],"properties":{"name":"Cheater"}}
+{"type":"node","id":"46","labels":["Car"],"properties":{"name":"Cheater Beater"}}
+{"type":"node","id":"47","labels":["Season"],"properties":{"number":4}}
+{"type":"relationship","id":"71","label":"TESTED_IN","start":{"id":"45","labels":["Car"],"properties":{"name":"Cheater"}},"end":{"id":"47","labels":["Season"],"properties":{"number":4}}}
+{"type":"relationship","id":"72","label":"TESTED_IN","start":{"id":"46","labels":["Car"],"properties":{"name":"Cheater Beater"}},"end":{"id":"47","labels":["Season"],"properties":{"number":4}}}

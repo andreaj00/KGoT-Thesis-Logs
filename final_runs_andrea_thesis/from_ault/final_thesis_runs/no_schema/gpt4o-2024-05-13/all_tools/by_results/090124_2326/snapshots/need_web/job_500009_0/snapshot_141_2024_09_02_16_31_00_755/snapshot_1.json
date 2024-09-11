@@ -1,0 +1,5 @@
+{"type":"node","id":"10","labels":["Article"],"properties":{"name":"Penguin species populations","source":"Wikipedia"}}
+{"type":"node","id":"11","labels":["Penguin"],"properties":{"species":"Chinstrap","scientific_name":"Pygoscelis antarcticus"}}
+{"type":"node","id":"12","labels":["Article"],"properties":{"name":"global population assessment of the Chinstrap penguin","source":"Nature.com"}}
+{"type":"relationship","id":"75","label":"MENTIONED_IN","properties":{"date":"12-31-2018","estimate":"Minimum","population":8000000,"status":"LC"},"start":{"id":"11","labels":["Penguin"],"properties":{"species":"Chinstrap","scientific_name":"Pygoscelis antarcticus"}},"end":{"id":"10","labels":["Article"],"properties":{"name":"Penguin species populations","source":"Wikipedia"}}}
+{"type":"relationship","id":"76","label":"MENTIONED_IN","properties":{"date":"2020","breeding_pairs":100000,"population":200000},"start":{"id":"11","labels":["Penguin"],"properties":{"species":"Chinstrap","scientific_name":"Pygoscelis antarcticus"}},"end":{"id":"12","labels":["Article"],"properties":{"name":"global population assessment of the Chinstrap penguin","source":"Nature.com"}}}

@@ -1,0 +1,146 @@
+{"type":"node","id":"0","labels":["Number"],"properties":{"value":26}}
+{"type":"node","id":"1","labels":["Number"],"properties":{"value":44}}
+{"type":"node","id":"2","labels":["Number"],"properties":{"value":38}}
+{"type":"node","id":"3","labels":["Number"],"properties":{"value":46}}
+{"type":"node","id":"4","labels":["Number"],"properties":{"value":66}}
+{"type":"node","id":"25","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/df6561b2-7ee5-4540-baab-5095f742716a.png"}}
+{"type":"node","id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}}
+{"type":"node","id":"27","labels":["Color"],"properties":{"name":"red"}}
+{"type":"node","id":"28","labels":["Color"],"properties":{"name":"green"}}
+{"type":"node","id":"29","labels":["Number"],"properties":{"value":24}}
+{"type":"node","id":"30","labels":["Number"],"properties":{"value":74}}
+{"type":"node","id":"31","labels":["Number"],"properties":{"value":54}}
+{"type":"node","id":"32","labels":["Number"],"properties":{"value":73}}
+{"type":"node","id":"33","labels":["Number"],"properties":{"value":64}}
+{"type":"node","id":"34","labels":["Number"],"properties":{"value":72}}
+{"type":"node","id":"35","labels":["Number"],"properties":{"value":68}}
+{"type":"node","id":"36","labels":["Number"],"properties":{"value":47}}
+{"type":"node","id":"37","labels":["Number"],"properties":{"value":60}}
+{"type":"node","id":"38","labels":["Number"],"properties":{"value":53}}
+{"type":"node","id":"39","labels":["Number"],"properties":{"value":40}}
+{"type":"node","id":"40","labels":["Number"],"properties":{"value":76}}
+{"type":"node","id":"41","labels":["Number"],"properties":{"value":75}}
+{"type":"node","id":"42","labels":["Number"],"properties":{"value":48}}
+{"type":"node","id":"43","labels":["Number"],"properties":{"value":27}}
+{"type":"node","id":"44","labels":["Number"],"properties":{"value":34}}
+{"type":"node","id":"45","labels":["Number"],"properties":{"value":37}}
+{"type":"node","id":"46","labels":["Number"],"properties":{"value":62}}
+{"type":"node","id":"47","labels":["Number"],"properties":{"value":55}}
+{"type":"node","id":"48","labels":["Number"],"properties":{"value":31}}
+{"type":"node","id":"49","labels":["Number"],"properties":{"value":51}}
+{"type":"node","id":"50","labels":["Number"],"properties":{"value":65}}
+{"type":"node","id":"51","labels":["Number"],"properties":{"value":78}}
+{"type":"node","id":"52","labels":["Number"],"properties":{"value":35}}
+{"type":"node","id":"53","labels":["Number"],"properties":{"value":61}}
+{"type":"node","id":"54","labels":["Number"],"properties":{"value":77}}
+{"type":"node","id":"55","labels":["Number"],"properties":{"value":39}}
+{"type":"node","id":"56","labels":["Number"],"properties":{"value":28}}
+{"type":"node","id":"57","labels":["Number"],"properties":{"value":29}}
+{"type":"node","id":"58","labels":["Number"],"properties":{"value":33}}
+{"type":"node","id":"59","labels":["Number"],"properties":{"value":59}}
+{"type":"node","id":"60","labels":["Number"],"properties":{"value":41}}
+{"type":"relationship","id":"29","label":"HAS_QUESTION","start":{"id":"25","labels":["Image"],"properties":{"file_path":"GAIA/dataset/attachments/validation/df6561b2-7ee5-4540-baab-5095f742716a.png"}},"end":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}}}
+{"type":"relationship","id":"30","label":"HAS_COLOR","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"31","label":"HAS_COLOR","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"32","label":"HAS_COLOR","start":{"id":"1","labels":["Number"],"properties":{"value":44}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"33","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"1","labels":["Number"],"properties":{"value":44}}}
+{"type":"relationship","id":"34","label":"HAS_COLOR","start":{"id":"29","labels":["Number"],"properties":{"value":24}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"35","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"29","labels":["Number"],"properties":{"value":24}}}
+{"type":"relationship","id":"36","label":"HAS_COLOR","start":{"id":"30","labels":["Number"],"properties":{"value":74}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"37","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"30","labels":["Number"],"properties":{"value":74}}}
+{"type":"relationship","id":"38","label":"HAS_COLOR","start":{"id":"31","labels":["Number"],"properties":{"value":54}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"39","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"31","labels":["Number"],"properties":{"value":54}}}
+{"type":"relationship","id":"40","label":"HAS_COLOR","start":{"id":"32","labels":["Number"],"properties":{"value":73}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"41","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"32","labels":["Number"],"properties":{"value":73}}}
+{"type":"relationship","id":"42","label":"HAS_COLOR","start":{"id":"33","labels":["Number"],"properties":{"value":64}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"43","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"33","labels":["Number"],"properties":{"value":64}}}
+{"type":"relationship","id":"44","label":"HAS_COLOR","start":{"id":"34","labels":["Number"],"properties":{"value":72}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"45","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"34","labels":["Number"],"properties":{"value":72}}}
+{"type":"relationship","id":"46","label":"HAS_COLOR","start":{"id":"35","labels":["Number"],"properties":{"value":68}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"47","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"35","labels":["Number"],"properties":{"value":68}}}
+{"type":"relationship","id":"48","label":"HAS_COLOR","start":{"id":"37","labels":["Number"],"properties":{"value":60}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"49","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"37","labels":["Number"],"properties":{"value":60}}}
+{"type":"relationship","id":"50","label":"HAS_COLOR","start":{"id":"39","labels":["Number"],"properties":{"value":40}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"51","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"39","labels":["Number"],"properties":{"value":40}}}
+{"type":"relationship","id":"52","label":"HAS_COLOR","start":{"id":"40","labels":["Number"],"properties":{"value":76}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"53","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"40","labels":["Number"],"properties":{"value":76}}}
+{"type":"relationship","id":"54","label":"HAS_COLOR","start":{"id":"41","labels":["Number"],"properties":{"value":75}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"55","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"41","labels":["Number"],"properties":{"value":75}}}
+{"type":"relationship","id":"56","label":"HAS_COLOR","start":{"id":"42","labels":["Number"],"properties":{"value":48}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"57","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"42","labels":["Number"],"properties":{"value":48}}}
+{"type":"relationship","id":"58","label":"HAS_COLOR","start":{"id":"46","labels":["Number"],"properties":{"value":62}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"59","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"46","labels":["Number"],"properties":{"value":62}}}
+{"type":"relationship","id":"60","label":"HAS_COLOR","start":{"id":"47","labels":["Number"],"properties":{"value":55}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"61","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"47","labels":["Number"],"properties":{"value":55}}}
+{"type":"relationship","id":"62","label":"HAS_COLOR","start":{"id":"50","labels":["Number"],"properties":{"value":65}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"88","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"50","labels":["Number"],"properties":{"value":65}}}
+{"type":"relationship","id":"89","label":"HAS_COLOR","start":{"id":"51","labels":["Number"],"properties":{"value":78}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"90","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"51","labels":["Number"],"properties":{"value":78}}}
+{"type":"relationship","id":"91","label":"HAS_COLOR","start":{"id":"54","labels":["Number"],"properties":{"value":77}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"92","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"54","labels":["Number"],"properties":{"value":77}}}
+{"type":"relationship","id":"93","label":"HAS_COLOR","start":{"id":"56","labels":["Number"],"properties":{"value":28}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"94","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"56","labels":["Number"],"properties":{"value":28}}}
+{"type":"relationship","id":"95","label":"HAS_COLOR","start":{"id":"55","labels":["Number"],"properties":{"value":39}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"96","label":"HAS_COLOR","start":{"id":"57","labels":["Number"],"properties":{"value":29}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"97","label":"HAS_COLOR","start":{"id":"56","labels":["Number"],"properties":{"value":28}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"98","label":"HAS_COLOR","start":{"id":"58","labels":["Number"],"properties":{"value":33}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"99","label":"HAS_COLOR","start":{"id":"36","labels":["Number"],"properties":{"value":47}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"100","label":"HAS_COLOR","start":{"id":"59","labels":["Number"],"properties":{"value":59}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"101","label":"HAS_COLOR","start":{"id":"33","labels":["Number"],"properties":{"value":64}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"102","label":"HAS_COLOR","start":{"id":"39","labels":["Number"],"properties":{"value":40}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"103","label":"HAS_COLOR","start":{"id":"0","labels":["Number"],"properties":{"value":26}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"104","label":"HAS_COLOR","start":{"id":"42","labels":["Number"],"properties":{"value":48}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"105","label":"HAS_COLOR","start":{"id":"45","labels":["Number"],"properties":{"value":37}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"106","label":"HAS_COLOR","start":{"id":"48","labels":["Number"],"properties":{"value":31}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"107","label":"HAS_COLOR","start":{"id":"1","labels":["Number"],"properties":{"value":44}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"108","label":"HAS_COLOR","start":{"id":"29","labels":["Number"],"properties":{"value":24}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"109","label":"HAS_COLOR","start":{"id":"49","labels":["Number"],"properties":{"value":51}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"110","label":"HAS_COLOR","start":{"id":"4","labels":["Number"],"properties":{"value":66}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"111","label":"HAS_COLOR","start":{"id":"52","labels":["Number"],"properties":{"value":35}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"112","label":"HAS_COLOR","start":{"id":"60","labels":["Number"],"properties":{"value":41}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"113","label":"HAS_COLOR","start":{"id":"35","labels":["Number"],"properties":{"value":68}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"114","label":"HAS_COLOR","start":{"id":"43","labels":["Number"],"properties":{"value":27}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"115","label":"HAS_COLOR","start":{"id":"44","labels":["Number"],"properties":{"value":34}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"116","label":"HAS_COLOR","start":{"id":"2","labels":["Number"],"properties":{"value":38}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"117","label":"HAS_COLOR","start":{"id":"3","labels":["Number"],"properties":{"value":46}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"118","label":"HAS_COLOR","start":{"id":"36","labels":["Number"],"properties":{"value":47}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"119","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"55","labels":["Number"],"properties":{"value":39}}}
+{"type":"relationship","id":"120","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"57","labels":["Number"],"properties":{"value":29}}}
+{"type":"relationship","id":"121","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"58","labels":["Number"],"properties":{"value":33}}}
+{"type":"relationship","id":"122","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"36","labels":["Number"],"properties":{"value":47}}}
+{"type":"relationship","id":"123","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"0","labels":["Number"],"properties":{"value":26}}}
+{"type":"relationship","id":"124","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"43","labels":["Number"],"properties":{"value":27}}}
+{"type":"relationship","id":"125","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"44","labels":["Number"],"properties":{"value":34}}}
+{"type":"relationship","id":"126","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"45","labels":["Number"],"properties":{"value":37}}}
+{"type":"relationship","id":"127","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"48","labels":["Number"],"properties":{"value":31}}}
+{"type":"relationship","id":"128","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"2","labels":["Number"],"properties":{"value":38}}}
+{"type":"relationship","id":"129","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"3","labels":["Number"],"properties":{"value":46}}}
+{"type":"relationship","id":"130","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"4","labels":["Number"],"properties":{"value":66}}}
+{"type":"relationship","id":"131","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"52","labels":["Number"],"properties":{"value":35}}}
+{"type":"relationship","id":"132","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"60","labels":["Number"],"properties":{"value":41}}}
+{"type":"relationship","id":"133","label":"HAS_NUMBER","start":{"id":"26","labels":["Question"],"properties":{"text":"What are the red and green numbers in this image?"}},"end":{"id":"49","labels":["Number"],"properties":{"value":51}}}
+{"type":"relationship","id":"134","label":"HAS_COLOR","start":{"id":"0","labels":["Number"],"properties":{"value":26}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"135","label":"HAS_COLOR","start":{"id":"2","labels":["Number"],"properties":{"value":38}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"136","label":"HAS_COLOR","start":{"id":"3","labels":["Number"],"properties":{"value":46}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"137","label":"HAS_COLOR","start":{"id":"4","labels":["Number"],"properties":{"value":66}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"138","label":"HAS_COLOR","start":{"id":"30","labels":["Number"],"properties":{"value":74}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"139","label":"HAS_COLOR","start":{"id":"31","labels":["Number"],"properties":{"value":54}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"140","label":"HAS_COLOR","start":{"id":"32","labels":["Number"],"properties":{"value":73}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"141","label":"HAS_COLOR","start":{"id":"34","labels":["Number"],"properties":{"value":72}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"142","label":"HAS_COLOR","start":{"id":"37","labels":["Number"],"properties":{"value":60}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"143","label":"HAS_COLOR","start":{"id":"38","labels":["Number"],"properties":{"value":53}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"144","label":"HAS_COLOR","start":{"id":"45","labels":["Number"],"properties":{"value":37}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"145","label":"HAS_COLOR","start":{"id":"46","labels":["Number"],"properties":{"value":62}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"146","label":"HAS_COLOR","start":{"id":"47","labels":["Number"],"properties":{"value":55}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"147","label":"HAS_COLOR","start":{"id":"48","labels":["Number"],"properties":{"value":31}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"148","label":"HAS_COLOR","start":{"id":"49","labels":["Number"],"properties":{"value":51}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"149","label":"HAS_COLOR","start":{"id":"50","labels":["Number"],"properties":{"value":65}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"150","label":"HAS_COLOR","start":{"id":"51","labels":["Number"],"properties":{"value":78}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"151","label":"HAS_COLOR","start":{"id":"52","labels":["Number"],"properties":{"value":35}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"152","label":"HAS_COLOR","start":{"id":"53","labels":["Number"],"properties":{"value":61}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"153","label":"HAS_COLOR","start":{"id":"53","labels":["Number"],"properties":{"value":61}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"159","label":"HAS_COLOR","start":{"id":"38","labels":["Number"],"properties":{"value":53}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"160","label":"HAS_COLOR","start":{"id":"40","labels":["Number"],"properties":{"value":76}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"161","label":"HAS_COLOR","start":{"id":"41","labels":["Number"],"properties":{"value":75}},"end":{"id":"28","labels":["Color"],"properties":{"name":"green"}}}
+{"type":"relationship","id":"162","label":"HAS_COLOR","start":{"id":"43","labels":["Number"],"properties":{"value":27}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}
+{"type":"relationship","id":"163","label":"HAS_COLOR","start":{"id":"44","labels":["Number"],"properties":{"value":34}},"end":{"id":"27","labels":["Color"],"properties":{"name":"red"}}}

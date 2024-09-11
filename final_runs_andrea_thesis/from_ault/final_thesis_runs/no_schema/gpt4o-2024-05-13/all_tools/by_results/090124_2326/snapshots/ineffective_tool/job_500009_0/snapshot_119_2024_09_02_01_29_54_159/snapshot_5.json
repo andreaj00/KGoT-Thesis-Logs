@@ -1,0 +1,13 @@
+{"type":"node","id":"52","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"}}
+{"type":"node","id":"53","labels":["Class"],"properties":{"name":"UhOh"}}
+{"type":"node","id":"54","labels":["Class"],"properties":{"name":"Hmm"}}
+{"type":"node","id":"55","labels":["Method"],"properties":{"name":"Yeah"}}
+{"type":"node","id":"56","labels":["Method"],"properties":{"name":"init"}}
+{"type":"node","id":"57","labels":["Function"],"properties":{"name":"Okay"}}
+{"type":"node","id":"58","labels":["Function"],"properties":{"name":"keep_trying"}}
+{"type":"relationship","id":"70","label":"CONTAINS","start":{"id":"52","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"}},"end":{"id":"53","labels":["Class"],"properties":{"name":"UhOh"}}}
+{"type":"relationship","id":"71","label":"CONTAINS","start":{"id":"52","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"}},"end":{"id":"54","labels":["Class"],"properties":{"name":"Hmm"}}}
+{"type":"relationship","id":"72","label":"HAS_METHOD","start":{"id":"54","labels":["Class"],"properties":{"name":"Hmm"}},"end":{"id":"55","labels":["Method"],"properties":{"name":"Yeah"}}}
+{"type":"relationship","id":"73","label":"HAS_METHOD","start":{"id":"54","labels":["Class"],"properties":{"name":"Hmm"}},"end":{"id":"56","labels":["Method"],"properties":{"name":"init"}}}
+{"type":"relationship","id":"74","label":"CONTAINS","start":{"id":"52","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"}},"end":{"id":"57","labels":["Function"],"properties":{"name":"Okay"}}}
+{"type":"relationship","id":"75","label":"CONTAINS","start":{"id":"52","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/f918266a-b3e0-4914-865d-4faa564f1aef.py"}},"end":{"id":"58","labels":["Function"],"properties":{"name":"keep_trying"}}}

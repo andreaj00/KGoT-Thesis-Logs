@@ -1,0 +1,9 @@
+{"type":"node","id":"3","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"Dietary specialization in the Harlequin Shrimp, Hymenocera picta (Decapoda, Gnathophyllidae)"}}
+{"type":"node","id":"4","labels":["SeaStar"],"properties":{"length_cm":2}}
+{"type":"node","id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}}
+{"type":"node","id":"6","labels":["Paper"],"properties":{"year":2017,"author":"Omar Valencfia-Mendez","title":"Morphology and Behavior of Harlequin Shrimp"}}
+{"type":"node","id":"7","labels":["Length"],"properties":{"min_length_cm":3,"max_length_cm":5}}
+{"type":"relationship","id":"74","label":"FED_ON","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"4","labels":["SeaStar"],"properties":{"length_cm":2}}}
+{"type":"relationship","id":"75","label":"STUDIED_IN","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"3","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"Dietary specialization in the Harlequin Shrimp, Hymenocera picta (Decapoda, Gnathophyllidae)"}}}
+{"type":"relationship","id":"124","label":"STUDIED_IN","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"6","labels":["Paper"],"properties":{"year":2017,"author":"Omar Valencfia-Mendez","title":"Morphology and Behavior of Harlequin Shrimp"}}}
+{"type":"relationship","id":"125","label":"HAS_LENGTH","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"7","labels":["Length"],"properties":{"min_length_cm":3,"max_length_cm":5}}}

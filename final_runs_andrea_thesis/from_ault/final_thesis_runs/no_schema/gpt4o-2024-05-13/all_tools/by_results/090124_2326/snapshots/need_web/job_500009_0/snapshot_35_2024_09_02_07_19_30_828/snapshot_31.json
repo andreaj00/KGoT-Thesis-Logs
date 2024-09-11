@@ -1,0 +1,95 @@
+{"type":"node","id":"0","labels":["WikipediaPage"],"properties":{"title":"Tolkien's maps"}}
+{"type":"node","id":"1","labels":["WikipediaPage"],"properties":{"title":"Tolkien's scripts"}}
+{"type":"node","id":"2","labels":["WikipediaPage"],"properties":{"title":"Beowulf"}}
+{"type":"node","id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}}
+{"type":"node","id":"4","labels":["WikipediaPage"],"properties":{"title":"Voyager Books"}}
+{"type":"node","id":"5","labels":["WikipediaPage"],"properties":{"title":"Print (paperback & hardcover)"}}
+{"type":"node","id":"19","labels":["WikipediaPage"],"properties":{"title":"Series of epic fantasy novels by George R. R. Martin"}}
+{"type":"node","id":"20","labels":["WikipediaPage"],"properties":{"title":"Audiobook"}}
+{"type":"node","id":"21","labels":["WikipediaPage"],"properties":{"title":"E-book"}}
+{"type":"node","id":"22","labels":["WikipediaPage"],"properties":{"title":"Westeros"}}
+{"type":"node","id":"23","labels":["WikipediaPage"],"properties":{"title":"Essos"}}
+{"type":"node","id":"24","labels":["WikipediaPage"],"properties":{"title":"Wars of the Roses"}}
+{"type":"node","id":"25","labels":["WikipediaPage"],"properties":{"title":"The Accursed Kings"}}
+{"type":"node","id":"26","labels":["WikipediaPage"],"properties":{"title":"Maurice Druon"}}
+{"type":"node","id":"27","labels":["WikipediaPage"],"properties":{"title":"The Guardian"}}
+{"type":"node","id":"28","labels":["WikipediaPage"],"properties":{"title":"Institutt for språk og litteratur"}}
+{"type":"node","id":"29","labels":["WikipediaPage"],"properties":{"title":"The Independent"}}
+{"type":"node","id":"30","labels":["WikipediaPage"],"properties":{"title":"Not A Blog"}}
+{"type":"node","id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}}
+{"type":"node","id":"48","labels":["WikipediaPage"],"properties":{"title":"The Fellowship of the Ring"}}
+{"type":"node","id":"49","labels":["WikipediaPage"],"properties":{"title":"The Two Towers"}}
+{"type":"node","id":"50","labels":["WikipediaPage"],"properties":{"title":"The Return of the King"}}
+{"type":"node","id":"51","labels":["WikipediaPage"],"properties":{"title":"Tolkien's frame stories"}}
+{"type":"node","id":"52","labels":["WikipediaPage"],"properties":{"title":"The Silmarillion"}}
+{"type":"node","id":"53","labels":["WikipediaPage"],"properties":{"title":"The Hobbit"}}
+{"type":"node","id":"54","labels":["WikipediaPage"],"properties":{"title":"The Adventures of Tom Bombadil"}}
+{"type":"node","id":"55","labels":["WikipediaPage"],"properties":{"title":"Tolkien's legendarium"}}
+{"type":"node","id":"56","labels":["WikipediaPage"],"properties":{"title":"Mythopoeia"}}
+{"type":"node","id":"57","labels":["WikipediaPage"],"properties":{"title":"J. R. R. Tolkien"}}
+{"type":"node","id":"58","labels":["WikipediaPage"],"properties":{"title":"Narrative patterns in The Lord of the Rings"}}
+{"type":"node","id":"59","labels":["WikipediaPage"],"properties":{"title":"Poetry in The Lord of the Rings"}}
+{"type":"node","id":"60","labels":["WikipediaPage"],"properties":{"title":"Tolkien's artwork"}}
+{"type":"node","id":"61","labels":["WikipediaPage"],"properties":{"title":"Italic title"}}
+{"type":"node","id":"62","labels":["WikipediaPage"],"properties":{"title":"Good article"}}
+{"type":"node","id":"63","labels":["WikipediaPage"],"properties":{"title":"Use mdy dates"}}
+{"type":"node","id":"64","labels":["WikipediaPage"],"properties":{"title":"Infobox book series"}}
+{"type":"node","id":"65","labels":["WikipediaPage"],"properties":{"title":"A Game of Thrones"}}
+{"type":"node","id":"66","labels":["WikipediaPage"],"properties":{"title":"A Clash of Kings"}}
+{"type":"node","id":"67","labels":["WikipediaPage"],"properties":{"title":"A Storm of Swords"}}
+{"type":"node","id":"68","labels":["WikipediaPage"],"properties":{"title":"A Feast for Crows"}}
+{"type":"node","id":"69","labels":["WikipediaPage"],"properties":{"title":"A Dance with Dragons"}}
+{"type":"node","id":"70","labels":["WikipediaPage"],"properties":{"title":"The Winds of Winter"}}
+{"type":"node","id":"71","labels":["WikipediaPage"],"properties":{"title":"A Dream of Spring"}}
+{"type":"node","id":"72","labels":["WikipediaPage"],"properties":{"title":"George R. R. Martin"}}
+{"type":"node","id":"73","labels":["WikipediaPage"],"properties":{"title":"Epic fantasy"}}
+{"type":"node","id":"74","labels":["WikipediaPage"],"properties":{"title":"Bantam Books"}}
+{"type":"node","id":"75","labels":["WikipediaPage"],"properties":{"title":"New York Times Best Seller lists"}}
+{"type":"node","id":"76","labels":["WikipediaPage"],"properties":{"title":"List of A Song of Ice and Fire characters"}}
+{"type":"relationship","id":"87","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"56","labels":["WikipediaPage"],"properties":{"title":"Mythopoeia"}}}
+{"type":"relationship","id":"88","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"57","labels":["WikipediaPage"],"properties":{"title":"J. R. R. Tolkien"}}}
+{"type":"relationship","id":"89","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"58","labels":["WikipediaPage"],"properties":{"title":"Narrative patterns in The Lord of the Rings"}}}
+{"type":"relationship","id":"90","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"59","labels":["WikipediaPage"],"properties":{"title":"Poetry in The Lord of the Rings"}}}
+{"type":"relationship","id":"91","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"60","labels":["WikipediaPage"],"properties":{"title":"Tolkien's artwork"}}}
+{"type":"relationship","id":"92","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"0","labels":["WikipediaPage"],"properties":{"title":"Tolkien's maps"}}}
+{"type":"relationship","id":"93","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"1","labels":["WikipediaPage"],"properties":{"title":"Tolkien's scripts"}}}
+{"type":"relationship","id":"94","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"2","labels":["WikipediaPage"],"properties":{"title":"Beowulf"}}}
+{"type":"relationship","id":"95","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}}}
+{"type":"relationship","id":"96","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"19","labels":["WikipediaPage"],"properties":{"title":"Series of epic fantasy novels by George R. R. Martin"}}}
+{"type":"relationship","id":"97","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"61","labels":["WikipediaPage"],"properties":{"title":"Italic title"}}}
+{"type":"relationship","id":"98","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"62","labels":["WikipediaPage"],"properties":{"title":"Good article"}}}
+{"type":"relationship","id":"99","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"63","labels":["WikipediaPage"],"properties":{"title":"Use mdy dates"}}}
+{"type":"relationship","id":"100","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"64","labels":["WikipediaPage"],"properties":{"title":"Infobox book series"}}}
+{"type":"relationship","id":"101","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"65","labels":["WikipediaPage"],"properties":{"title":"A Game of Thrones"}}}
+{"type":"relationship","id":"102","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"66","labels":["WikipediaPage"],"properties":{"title":"A Clash of Kings"}}}
+{"type":"relationship","id":"103","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"67","labels":["WikipediaPage"],"properties":{"title":"A Storm of Swords"}}}
+{"type":"relationship","id":"104","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"68","labels":["WikipediaPage"],"properties":{"title":"A Feast for Crows"}}}
+{"type":"relationship","id":"105","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"69","labels":["WikipediaPage"],"properties":{"title":"A Dance with Dragons"}}}
+{"type":"relationship","id":"106","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"70","labels":["WikipediaPage"],"properties":{"title":"The Winds of Winter"}}}
+{"type":"relationship","id":"107","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"71","labels":["WikipediaPage"],"properties":{"title":"A Dream of Spring"}}}
+{"type":"relationship","id":"108","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"72","labels":["WikipediaPage"],"properties":{"title":"George R. R. Martin"}}}
+{"type":"relationship","id":"109","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"73","labels":["WikipediaPage"],"properties":{"title":"Epic fantasy"}}}
+{"type":"relationship","id":"110","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"74","labels":["WikipediaPage"],"properties":{"title":"Bantam Books"}}}
+{"type":"relationship","id":"111","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"4","labels":["WikipediaPage"],"properties":{"title":"Voyager Books"}}}
+{"type":"relationship","id":"112","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"5","labels":["WikipediaPage"],"properties":{"title":"Print (paperback & hardcover)"}}}
+{"type":"relationship","id":"113","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"20","labels":["WikipediaPage"],"properties":{"title":"Audiobook"}}}
+{"type":"relationship","id":"114","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"21","labels":["WikipediaPage"],"properties":{"title":"E-book"}}}
+{"type":"relationship","id":"115","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"22","labels":["WikipediaPage"],"properties":{"title":"Westeros"}}}
+{"type":"relationship","id":"116","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"23","labels":["WikipediaPage"],"properties":{"title":"Essos"}}}
+{"type":"relationship","id":"117","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"24","labels":["WikipediaPage"],"properties":{"title":"Wars of the Roses"}}}
+{"type":"relationship","id":"118","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"25","labels":["WikipediaPage"],"properties":{"title":"The Accursed Kings"}}}
+{"type":"relationship","id":"55","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"48","labels":["WikipediaPage"],"properties":{"title":"The Fellowship of the Ring"}}}
+{"type":"relationship","id":"119","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"26","labels":["WikipediaPage"],"properties":{"title":"Maurice Druon"}}}
+{"type":"relationship","id":"56","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"The Two Towers"}}}
+{"type":"relationship","id":"120","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"27","labels":["WikipediaPage"],"properties":{"title":"The Guardian"}}}
+{"type":"relationship","id":"57","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"50","labels":["WikipediaPage"],"properties":{"title":"The Return of the King"}}}
+{"type":"relationship","id":"121","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"28","labels":["WikipediaPage"],"properties":{"title":"Institutt for språk og litteratur"}}}
+{"type":"relationship","id":"58","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"51","labels":["WikipediaPage"],"properties":{"title":"Tolkien's frame stories"}}}
+{"type":"relationship","id":"122","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"29","labels":["WikipediaPage"],"properties":{"title":"The Independent"}}}
+{"type":"relationship","id":"59","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"52","labels":["WikipediaPage"],"properties":{"title":"The Silmarillion"}}}
+{"type":"relationship","id":"123","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"30","labels":["WikipediaPage"],"properties":{"title":"Not A Blog"}}}
+{"type":"relationship","id":"60","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"53","labels":["WikipediaPage"],"properties":{"title":"The Hobbit"}}}
+{"type":"relationship","id":"124","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"75","labels":["WikipediaPage"],"properties":{"title":"New York Times Best Seller lists"}}}
+{"type":"relationship","id":"61","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"54","labels":["WikipediaPage"],"properties":{"title":"The Adventures of Tom Bombadil"}}}
+{"type":"relationship","id":"125","label":"LINKS_TO","start":{"id":"3","labels":["WikipediaPage"],"properties":{"title":"A Song of Ice and Fire"}},"end":{"id":"76","labels":["WikipediaPage"],"properties":{"title":"List of A Song of Ice and Fire characters"}}}
+{"type":"relationship","id":"62","label":"LINKS_TO","start":{"id":"47","labels":["WikipediaPage"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"55","labels":["WikipediaPage"],"properties":{"title":"Tolkien's legendarium"}}}

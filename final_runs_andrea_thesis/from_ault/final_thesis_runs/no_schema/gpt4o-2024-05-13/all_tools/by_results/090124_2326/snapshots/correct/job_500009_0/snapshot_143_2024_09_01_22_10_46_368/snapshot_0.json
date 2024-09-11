@@ -1,0 +1,23 @@
+{"type":"node","id":"0","labels":["Professor"],"properties":{"name":"Willowbrook"}}
+{"type":"node","id":"1","labels":["Reading"],"properties":{"topic":"differential equations","page":245}}
+{"type":"node","id":"2","labels":["Problem"],"properties":{"number":32,"page":245}}
+{"type":"node","id":"3","labels":["Problem"],"properties":{"number":33,"page":245}}
+{"type":"node","id":"4","labels":["Problem"],"properties":{"number":44,"page":245}}
+{"type":"node","id":"5","labels":["Reading"],"properties":{"topic":"integration","page":197}}
+{"type":"node","id":"6","labels":["Problem"],"properties":{"number":22,"page":197}}
+{"type":"node","id":"7","labels":["Reading"],"properties":{"topic":"related rates","page":132}}
+{"type":"node","id":"8","labels":["Reading"],"properties":{"topic":"related rates","page":133}}
+{"type":"node","id":"9","labels":["Reading"],"properties":{"topic":"related rates","page":134}}
+{"type":"node","id":"42","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}}
+{"type":"node","id":"43","labels":["Class"],"properties":{"name":"Calculus"}}
+{"type":"relationship","id":"80","label":"INCLUDES_PROBLEM","start":{"id":"1","labels":["Reading"],"properties":{"topic":"differential equations","page":245}},"end":{"id":"2","labels":["Problem"],"properties":{"number":32,"page":245}}}
+{"type":"relationship","id":"81","label":"INCLUDES_PROBLEM","start":{"id":"1","labels":["Reading"],"properties":{"topic":"differential equations","page":245}},"end":{"id":"3","labels":["Problem"],"properties":{"number":33,"page":245}}}
+{"type":"relationship","id":"82","label":"INCLUDES_PROBLEM","start":{"id":"1","labels":["Reading"],"properties":{"topic":"differential equations","page":245}},"end":{"id":"4","labels":["Problem"],"properties":{"number":44,"page":245}}}
+{"type":"relationship","id":"83","label":"RECOMMENDED_READING","start":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"5","labels":["Reading"],"properties":{"topic":"integration","page":197}}}
+{"type":"relationship","id":"84","label":"INCLUDES_PROBLEM","start":{"id":"5","labels":["Reading"],"properties":{"topic":"integration","page":197}},"end":{"id":"6","labels":["Problem"],"properties":{"number":22,"page":197}}}
+{"type":"relationship","id":"85","label":"RECOMMENDED_READING","start":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"7","labels":["Reading"],"properties":{"topic":"related rates","page":132}}}
+{"type":"relationship","id":"86","label":"RECOMMENDED_READING","start":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"8","labels":["Reading"],"properties":{"topic":"related rates","page":133}}}
+{"type":"relationship","id":"87","label":"RECOMMENDED_READING","start":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"9","labels":["Reading"],"properties":{"topic":"related rates","page":134}}}
+{"type":"relationship","id":"77","label":"TEACHES","start":{"id":"0","labels":["Professor"],"properties":{"name":"Willowbrook"}},"end":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}}}
+{"type":"relationship","id":"78","label":"RECORDING_OF","start":{"id":"42","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"}},"end":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}}}
+{"type":"relationship","id":"79","label":"RECOMMENDED_READING","start":{"id":"43","labels":["Class"],"properties":{"name":"Calculus"}},"end":{"id":"1","labels":["Reading"],"properties":{"topic":"differential equations","page":245}}}

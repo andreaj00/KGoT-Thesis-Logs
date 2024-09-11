@@ -1,0 +1,17 @@
+{"type":"node","id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}}
+{"type":"node","id":"45","labels":["Cube"],"properties":{"color1":"orange","color2":"blue","type":"edge"}}
+{"type":"node","id":"46","labels":["Cube"],"properties":{"color1":"orange","color2":"green","type":"edge"}}
+{"type":"node","id":"47","labels":["Cube"],"properties":{"color1":"orange","color2":"red","type":"edge"}}
+{"type":"node","id":"48","labels":["Cube"],"properties":{"color1":"orange","color2":"yellow","type":"edge"}}
+{"type":"node","id":"49","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"blue"}}
+{"type":"node","id":"50","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"red"}}
+{"type":"node","id":"51","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"orange"}}
+{"type":"node","id":"52","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"white"}}
+{"type":"relationship","id":"130","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"49","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"blue"}}}
+{"type":"relationship","id":"131","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"50","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"red"}}}
+{"type":"relationship","id":"132","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"51","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"orange"}}}
+{"type":"relationship","id":"133","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"52","labels":["Cube"],"properties":{"color1":"green","color2":"yellow","type":"corner","color3":"white"}}}
+{"type":"relationship","id":"124","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"45","labels":["Cube"],"properties":{"color1":"orange","color2":"blue","type":"edge"}}}
+{"type":"relationship","id":"125","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"46","labels":["Cube"],"properties":{"color1":"orange","color2":"green","type":"edge"}}}
+{"type":"relationship","id":"126","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"47","labels":["Cube"],"properties":{"color1":"orange","color2":"red","type":"edge"}}}
+{"type":"relationship","id":"127","label":"ADJACENT","start":{"id":"44","labels":["Cube"],"properties":{"color":"orange","type":"center"}},"end":{"id":"48","labels":["Cube"],"properties":{"color1":"orange","color2":"yellow","type":"edge"}}}

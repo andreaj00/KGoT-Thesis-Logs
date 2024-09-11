@@ -1,0 +1,6 @@
+{"type":"node","id":"9","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}}
+{"type":"node","id":"10","labels":["Show"],"properties":{"name":"Magda M."}}
+{"type":"node","id":"11","labels":["Character"],"properties":{"name":"Marek"}}
+{"type":"relationship","id":"19","label":"PLAYED_IN","start":{"id":"9","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}},"end":{"id":"10","labels":["Show"],"properties":{"name":"Magda M."}}}
+{"type":"relationship","id":"20","label":"PORTRAYED","start":{"id":"9","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}},"end":{"id":"11","labels":["Character"],"properties":{"name":"Marek"}}}
+{"type":"relationship","id":"21","label":"FEATURES","start":{"id":"10","labels":["Show"],"properties":{"name":"Magda M."}},"end":{"id":"11","labels":["Character"],"properties":{"name":"Marek"}}}

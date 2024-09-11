@@ -1,0 +1,5 @@
+{"type":"node","id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","average_refund":0.05}}
+{"type":"node","id":"11","labels":["State"],"properties":{"name":"California"}}
+{"type":"node","id":"12","labels":["State"],"properties":{"name":"Maine"}}
+{"type":"relationship","id":"26","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"11","labels":["State"],"properties":{"name":"California"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","average_refund":0.05}}}
+{"type":"relationship","id":"27","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"12","labels":["State"],"properties":{"name":"Maine"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","average_refund":0.05}}}

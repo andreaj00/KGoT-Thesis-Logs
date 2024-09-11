@@ -1,0 +1,91 @@
+{"type":"node","id":"0","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Choco Island 2"}}
+{"type":"node","id":"1","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Ninja Hideaway"}}
+{"type":"node","id":"2","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Tokyo Blur"}}
+{"type":"node","id":"3","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"New York Minute"}}
+{"type":"node","id":"4","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Kalamari Desert"}}
+{"type":"node","id":"9","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}}
+{"type":"node","id":"10","labels":["Mode"],"properties":{"name":"150cc"}}
+{"type":"node","id":"11","labels":["Source"],"properties":{"url":"https://www.twingalaxies.com/showthread.php/266873-Nintendo-Switch-Mario-Kart-8-Deluxe-Excitebike-Arena-Fastest-Lap-150cc-34-679"}}
+{"type":"node","id":"12","labels":["Source"],"properties":{"url":"https://www.mkleaderboards.com/mk8dx"}}
+{"type":"node","id":"13","labels":["Source"],"properties":{"url":"https://www.speedrun.com/mk8dx"}}
+{"type":"node","id":"14","labels":["Track"],"properties":{"world_record_time":"1:30.00","name":"Mario Kart Stadium"}}
+{"type":"node","id":"15","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Water Park"}}
+{"type":"node","id":"16","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Sweet Sweet Canyon"}}
+{"type":"node","id":"17","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Thwomp Ruins"}}
+{"type":"node","id":"18","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mario Circuit"}}
+{"type":"node","id":"19","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Toad Harbor"}}
+{"type":"node","id":"20","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Twisted Mansion"}}
+{"type":"node","id":"21","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Shy Guy Falls"}}
+{"type":"node","id":"22","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Tick-Tock Clock"}}
+{"type":"node","id":"23","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Piranha Plant Slide"}}
+{"type":"node","id":"24","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Grumble Volcano"}}
+{"type":"node","id":"25","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Rainbow Road"}}
+{"type":"node","id":"26","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Yoshi Circuit"}}
+{"type":"node","id":"27","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Mount Wario"}}
+{"type":"node","id":"28","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Cloudtop Cruise"}}
+{"type":"node","id":"29","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Bone-Dry Dunes"}}
+{"type":"node","id":"30","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dolphin Shoals"}}
+{"type":"node","id":"31","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Cheese Land"}}
+{"type":"node","id":"32","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Coconut Mall"}}
+{"type":"node","id":"33","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Animal Crossing"}}
+{"type":"node","id":"34","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dry Dry Desert"}}
+{"type":"node","id":"35","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mario Circuit (GBA)"}}
+{"type":"node","id":"36","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Cheep-Cheep Beach"}}
+{"type":"node","id":"37","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Sky Garden"}}
+{"type":"node","id":"38","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Paris Promenade"}}
+{"type":"node","id":"39","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Toad Circuit"}}
+{"type":"node","id":"45","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Electrodrome"}}
+{"type":"node","id":"46","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Excitebike Arena"}}
+{"type":"node","id":"47","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dragon Driftway"}}
+{"type":"node","id":"48","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mute City"}}
+{"type":"node","id":"49","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Wario Stadium"}}
+{"type":"node","id":"50","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Rainbow Road (N64)"}}
+{"type":"node","id":"51","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Ice Ice Outpost"}}
+{"type":"node","id":"52","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Hyrule Circuit"}}
+{"type":"node","id":"53","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Baby Park"}}
+{"type":"relationship","id":"0","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"51","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Ice Ice Outpost"}}}
+{"type":"relationship","id":"1","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"52","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Hyrule Circuit"}}}
+{"type":"relationship","id":"2","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"53","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Baby Park"}}}
+{"type":"relationship","id":"3","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"31","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Cheese Land"}}}
+{"type":"relationship","id":"4","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"32","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Coconut Mall"}}}
+{"type":"relationship","id":"5","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"33","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Animal Crossing"}}}
+{"type":"relationship","id":"69","label":"HAS_MODE","start":{"id":"9","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}},"end":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}}}
+{"type":"relationship","id":"6","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"34","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dry Dry Desert"}}}
+{"type":"relationship","id":"70","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"11","labels":["Source"],"properties":{"url":"https://www.twingalaxies.com/showthread.php/266873-Nintendo-Switch-Mario-Kart-8-Deluxe-Excitebike-Arena-Fastest-Lap-150cc-34-679"}}}
+{"type":"relationship","id":"7","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"35","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mario Circuit (GBA)"}}}
+{"type":"relationship","id":"71","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"12","labels":["Source"],"properties":{"url":"https://www.mkleaderboards.com/mk8dx"}}}
+{"type":"relationship","id":"8","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"36","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Cheep-Cheep Beach"}}}
+{"type":"relationship","id":"72","label":"HAS_SOURCE","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"13","labels":["Source"],"properties":{"url":"https://www.speedrun.com/mk8dx"}}}
+{"type":"relationship","id":"9","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"37","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Sky Garden"}}}
+{"type":"relationship","id":"73","label":"HAS_MODE","start":{"id":"9","labels":["Game"],"properties":{"name":"Mario Kart 8 Deluxe"}},"end":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}}}
+{"type":"relationship","id":"10","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"38","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Paris Promenade"}}}
+{"type":"relationship","id":"74","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"14","labels":["Track"],"properties":{"world_record_time":"1:30.00","name":"Mario Kart Stadium"}}}
+{"type":"relationship","id":"11","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"39","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Toad Circuit"}}}
+{"type":"relationship","id":"75","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"15","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Water Park"}}}
+{"type":"relationship","id":"12","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"0","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Choco Island 2"}}}
+{"type":"relationship","id":"76","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"16","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Sweet Sweet Canyon"}}}
+{"type":"relationship","id":"13","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"32","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Coconut Mall"}}}
+{"type":"relationship","id":"77","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"17","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Thwomp Ruins"}}}
+{"type":"relationship","id":"14","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"1","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Ninja Hideaway"}}}
+{"type":"relationship","id":"78","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"18","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mario Circuit"}}}
+{"type":"relationship","id":"15","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"2","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Tokyo Blur"}}}
+{"type":"relationship","id":"79","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"19","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Toad Harbor"}}}
+{"type":"relationship","id":"16","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"3","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"New York Minute"}}}
+{"type":"relationship","id":"80","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"20","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Twisted Mansion"}}}
+{"type":"relationship","id":"17","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"4","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Kalamari Desert"}}}
+{"type":"relationship","id":"81","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"21","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Shy Guy Falls"}}}
+{"type":"relationship","id":"82","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"27","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Mount Wario"}}}
+{"type":"relationship","id":"83","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"28","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Cloudtop Cruise"}}}
+{"type":"relationship","id":"84","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"29","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Bone-Dry Dunes"}}}
+{"type":"relationship","id":"85","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"30","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dolphin Shoals"}}}
+{"type":"relationship","id":"86","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"45","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Electrodrome"}}}
+{"type":"relationship","id":"87","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"22","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Tick-Tock Clock"}}}
+{"type":"relationship","id":"88","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"23","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Piranha Plant Slide"}}}
+{"type":"relationship","id":"89","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"24","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Grumble Volcano"}}}
+{"type":"relationship","id":"90","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"25","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Rainbow Road"}}}
+{"type":"relationship","id":"91","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"26","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Yoshi Circuit"}}}
+{"type":"relationship","id":"92","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"46","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Excitebike Arena"}}}
+{"type":"relationship","id":"93","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"47","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Dragon Driftway"}}}
+{"type":"relationship","id":"94","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"48","labels":["Track"],"properties":{"world_record_time":"1:36.00","name":"Mute City"}}}
+{"type":"relationship","id":"95","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"49","labels":["Track"],"properties":{"world_record_time":"1:37.00","name":"Wario Stadium"}}}
+{"type":"relationship","id":"96","label":"HAS_TRACK","start":{"id":"10","labels":["Mode"],"properties":{"name":"150cc"}},"end":{"id":"50","labels":["Track"],"properties":{"world_record_time":"1:38.00","name":"Rainbow Road (N64)"}}}

@@ -1,0 +1,3 @@
+{"type":"node","id":"45","labels":["Article"],"properties":{"name":"Dragon"}}
+{"type":"node","id":"46","labels":["RemovedJoke"],"properties":{"phrase":"The content of the Wikipedia page for Dragon before the year 2008 specifically looking for any jokes or humorous phrases that may have been removed including the exact phrase without punctuation"}}
+{"type":"relationship","id":"2","label":"CONTAINS","start":{"id":"45","labels":["Article"],"properties":{"name":"Dragon"}},"end":{"id":"46","labels":["RemovedJoke"],"properties":{"phrase":"The content of the Wikipedia page for Dragon before the year 2008 specifically looking for any jokes or humorous phrases that may have been removed including the exact phrase without punctuation"}}}

@@ -1,0 +1,6 @@
+{"type":"node","id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}}
+{"type":"node","id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"node","id":"20","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"0-4-0"}}
+{"type":"node","id":"21","labels":["Excursion"],"properties":{"name":"Main Lawn"}}
+{"type":"relationship","id":"60","label":"HEADS","start":{"id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}},"end":{"id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"61","label":"HEADS","start":{"id":"20","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","type":"0-4-0"}},"end":{"id":"21","labels":["Excursion"],"properties":{"name":"Main Lawn"}}}

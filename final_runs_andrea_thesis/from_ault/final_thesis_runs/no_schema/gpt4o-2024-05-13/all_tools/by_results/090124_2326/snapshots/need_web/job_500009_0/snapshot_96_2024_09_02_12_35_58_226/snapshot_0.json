@@ -1,0 +1,9 @@
+{"type":"node","id":"60","labels":["Material"],"properties":{"license":"CK-12","compiled_date":"08/21/2023","title":"Introductory Chemistry"}}
+{"type":"node","id":"61","labels":["Author"],"properties":{"name":"Marisa Alviar-Agnew"}}
+{"type":"node","id":"62","labels":["Author"],"properties":{"name":"Henry Agnew"}}
+{"type":"node","id":"63","labels":["Exercise"],"properties":{"section":"1.E","title":"Exercises"}}
+{"type":"node","id":"64","labels":["Veterinarian"],"properties":{"profession":"Equine Veterinarian","surname":"Cervantes"}}
+{"type":"relationship","id":"154","label":"MENTIONS","start":{"id":"63","labels":["Exercise"],"properties":{"section":"1.E","title":"Exercises"}},"end":{"id":"64","labels":["Veterinarian"],"properties":{"profession":"Equine Veterinarian","surname":"Cervantes"}}}
+{"type":"relationship","id":"91","label":"LICENSED_BY","start":{"id":"60","labels":["Material"],"properties":{"license":"CK-12","compiled_date":"08/21/2023","title":"Introductory Chemistry"}},"end":{"id":"61","labels":["Author"],"properties":{"name":"Marisa Alviar-Agnew"}}}
+{"type":"relationship","id":"92","label":"LICENSED_BY","start":{"id":"60","labels":["Material"],"properties":{"license":"CK-12","compiled_date":"08/21/2023","title":"Introductory Chemistry"}},"end":{"id":"62","labels":["Author"],"properties":{"name":"Henry Agnew"}}}
+{"type":"relationship","id":"93","label":"CONTAINS","start":{"id":"60","labels":["Material"],"properties":{"license":"CK-12","compiled_date":"08/21/2023","title":"Introductory Chemistry"}},"end":{"id":"63","labels":["Exercise"],"properties":{"section":"1.E","title":"Exercises"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"16","labels":["Character"],"properties":{"name":"adjustments"}}
+{"type":"node","id":"17","labels":["Function"],"properties":{"name":"Unlambda"}}
+{"type":"node","id":"18","labels":["Character"],"properties":{"name":"k"}}
+{"type":"relationship","id":"4","label":"NEEDS","start":{"id":"17","labels":["Function"],"properties":{"name":"Unlambda"}},"end":{"id":"16","labels":["Character"],"properties":{"name":"adjustments"}}}
+{"type":"relationship","id":"5","label":"NEEDS","start":{"id":"17","labels":["Function"],"properties":{"name":"Unlambda"}},"end":{"id":"18","labels":["Character"],"properties":{"name":"k"}}}

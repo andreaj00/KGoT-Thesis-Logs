@@ -1,0 +1,5 @@
+{"type":"node","id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}
+{"type":"node","id":"17","labels":["Country"],"properties":{"ioc_code":"ARG","name":"Argentina"}}
+{"type":"node","id":"35","labels":["Country"],"properties":{"ioc_code":"AUS","name":"Australia"}}
+{"type":"relationship","id":"84","label":"PARTICIPATED_IN","properties":{"athletes":81},"start":{"id":"17","labels":["Country"],"properties":{"ioc_code":"ARG","name":"Argentina"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"85","label":"PARTICIPATED_IN","properties":{"athletes":18},"start":{"id":"35","labels":["Country"],"properties":{"ioc_code":"AUS","name":"Australia"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}

@@ -1,0 +1,126 @@
+{"type":"node","id":"0","labels":["Person"],"properties":{"name":"Ethan Zohn"}}
+{"type":"node","id":"1","labels":["Person"],"properties":{"name":"Vecepia Towery"}}
+{"type":"node","id":"2","labels":["Person"],"properties":{"name":"Brian Heidik"}}
+{"type":"node","id":"3","labels":["Person"],"properties":{"name":"Jenna Morasca"}}
+{"type":"node","id":"4","labels":["Person"],"properties":{"name":"Sandra Diaz-Twine"}}
+{"type":"node","id":"5","labels":["Person"],"properties":{"name":"Amber Brkich"}}
+{"type":"node","id":"6","labels":["Person"],"properties":{"name":"Chris Daugherty"}}
+{"type":"node","id":"7","labels":["Person"],"properties":{"name":"Tom Westman"}}
+{"type":"node","id":"8","labels":["Person"],"properties":{"name":"Danni Boatwright"}}
+{"type":"node","id":"9","labels":["Person"],"properties":{"name":"Aras Baskauskas"}}
+{"type":"node","id":"10","labels":["Person"],"properties":{"name":"Yul Kwon"}}
+{"type":"node","id":"11","labels":["Person"],"properties":{"name":"Earl Cole"}}
+{"type":"node","id":"12","labels":["Person"],"properties":{"name":"Todd Herzog"}}
+{"type":"node","id":"13","labels":["Person"],"properties":{"name":"Parvati Shallow"}}
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Bob Crowley"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"James \"J.T.\" Thomas Jr."}}
+{"type":"node","id":"16","labels":["Person"],"properties":{"name":"Natalie White"}}
+{"type":"node","id":"17","labels":["Person"],"properties":{"name":"Jud \"Fabio\" Birza"}}
+{"type":"node","id":"18","labels":["Person"],"properties":{"name":"Rob Mariano"}}
+{"type":"node","id":"19","labels":["Person"],"properties":{"name":"Sophie Clarke"}}
+{"type":"node","id":"20","labels":["Person"],"properties":{"name":"Kim Spradlin"}}
+{"type":"node","id":"21","labels":["Person"],"properties":{"name":"Denise Stapley"}}
+{"type":"node","id":"22","labels":["Person"],"properties":{"name":"John Cochran"}}
+{"type":"node","id":"23","labels":["Person"],"properties":{"name":"Tyson Apostol"}}
+{"type":"node","id":"24","labels":["Person"],"properties":{"name":"Tony Vlachos"}}
+{"type":"node","id":"25","labels":["Person"],"properties":{"name":"Nick Wilson"}}
+{"type":"node","id":"26","labels":["Person"],"properties":{"name":"Chris Underwood"}}
+{"type":"node","id":"27","labels":["Person"],"properties":{"name":"Tommy Sheehan"}}
+{"type":"node","id":"28","labels":["Person"],"properties":{"name":"Erika Casupanan"}}
+{"type":"node","id":"29","labels":["Person"],"properties":{"name":"Maryanne Oketch"}}
+{"type":"node","id":"30","labels":["Person"],"properties":{"name":"Mike Gabler"}}
+{"type":"node","id":"31","labels":["Person"],"properties":{"name":"Yamil \"Yam Yam\" Arocho"}}
+{"type":"node","id":"32"}
+{"type":"node","id":"33"}
+{"type":"node","id":"34"}
+{"type":"node","id":"35"}
+{"type":"node","id":"36"}
+{"type":"node","id":"37"}
+{"type":"node","id":"38"}
+{"type":"node","id":"39"}
+{"type":"node","id":"40"}
+{"type":"node","id":"41"}
+{"type":"node","id":"42"}
+{"type":"node","id":"43"}
+{"type":"node","id":"44"}
+{"type":"node","id":"45"}
+{"type":"node","id":"46"}
+{"type":"node","id":"47"}
+{"type":"node","id":"48"}
+{"type":"node","id":"49"}
+{"type":"node","id":"50"}
+{"type":"node","id":"51"}
+{"type":"node","id":"52"}
+{"type":"node","id":"53"}
+{"type":"node","id":"54"}
+{"type":"node","id":"55"}
+{"type":"node","id":"56"}
+{"type":"node","id":"57"}
+{"type":"node","id":"58"}
+{"type":"node","id":"59"}
+{"type":"node","id":"60"}
+{"type":"node","id":"61"}
+{"type":"node","id":"62"}
+{"type":"node","id":"63"}
+{"type":"node","id":"64"}
+{"type":"node","id":"65"}
+{"type":"node","id":"66"}
+{"type":"node","id":"67"}
+{"type":"node","id":"68"}
+{"type":"node","id":"69"}
+{"type":"node","id":"70"}
+{"type":"node","id":"71"}
+{"type":"node","id":"72"}
+{"type":"node","id":"77","labels":["Show"],"properties":{"name":"Survivor"}}
+{"type":"node","id":"78","labels":["Person"],"properties":{"name":"Richard Hatch"}}
+{"type":"node","id":"79","labels":["Person"],"properties":{"name":"Tina Wesson"}}
+{"type":"node","id":"80","labels":["Person"],"properties":{"name":"Natalie Anderson"}}
+{"type":"node","id":"81","labels":["Person"],"properties":{"name":"Mike Holloway"}}
+{"type":"node","id":"82","labels":["Person"],"properties":{"name":"Jeremy Collins"}}
+{"type":"node","id":"83","labels":["Person"],"properties":{"name":"Michele Fitzgerald"}}
+{"type":"node","id":"84","labels":["Person"],"properties":{"name":"Adam Klein"}}
+{"type":"node","id":"85","labels":["Person"],"properties":{"name":"Sarah Lacina"}}
+{"type":"node","id":"86","labels":["Person"],"properties":{"name":"Ben Driebergen"}}
+{"type":"node","id":"87","labels":["Person"],"properties":{"name":"Wendell Holland"}}
+{"type":"relationship","id":"8","label":"WON","start":{"id":"32"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"9","label":"WON","start":{"id":"33"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"10","label":"WON","start":{"id":"34"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"11","label":"WON","start":{"id":"35"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"12","label":"WON","start":{"id":"36"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"13","label":"WON","start":{"id":"37"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"14","label":"WON","start":{"id":"38"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"15","label":"WON","start":{"id":"39"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"16","label":"WON","start":{"id":"40"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"17","label":"WON","start":{"id":"41"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"18","label":"WON","start":{"id":"42"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"19","label":"WON","start":{"id":"43"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"20","label":"WON","start":{"id":"49"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"21","label":"WON","start":{"id":"50"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"22","label":"WON","start":{"id":"51"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"23","label":"WON","start":{"id":"52"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"24","label":"WON","start":{"id":"53"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"25","label":"WON","start":{"id":"54"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"26","label":"WON","start":{"id":"55"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"27","label":"WON","start":{"id":"56"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"28","label":"WON","start":{"id":"57"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"29","label":"WON","start":{"id":"58"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"30","label":"WON","start":{"id":"59"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"31","label":"WON","start":{"id":"60"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"159","label":"WON","start":{"id":"44"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"32","label":"WON","start":{"id":"61"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"160","label":"WON","start":{"id":"45"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"33","label":"WON","start":{"id":"62"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"161","label":"WON","start":{"id":"46"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"34","label":"WON","start":{"id":"63"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"162","label":"WON","start":{"id":"47"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"35","label":"WON","start":{"id":"64"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"163","label":"WON","start":{"id":"48"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"36","label":"WON","start":{"id":"65"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"37","label":"WON","start":{"id":"66"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"38","label":"WON","start":{"id":"67"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"39","label":"WON","start":{"id":"68"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"40","label":"WON","start":{"id":"69"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"41","label":"WON","start":{"id":"70"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"42","label":"WON","start":{"id":"71"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"43","label":"WON","start":{"id":"72"},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}
+{"type":"relationship","id":"44","label":"WON","start":{"id":"31","labels":["Person"],"properties":{"name":"Yamil \"Yam Yam\" Arocho"}},"end":{"id":"77","labels":["Show"],"properties":{"name":"Survivor"}}}

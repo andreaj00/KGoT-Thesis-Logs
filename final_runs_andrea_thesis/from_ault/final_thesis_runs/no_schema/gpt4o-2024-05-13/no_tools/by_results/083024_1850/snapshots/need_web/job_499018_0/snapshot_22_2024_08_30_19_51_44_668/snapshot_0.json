@@ -1,0 +1,6 @@
+{"type":"node","id":"34","labels":["Episode"],"properties":{"series":9,"episode":11,"title":"Heaven Sent"}}
+{"type":"node","id":"35","labels":["Location"],"properties":{"name":"CASTLE"}}
+{"type":"node","id":"36","labels":["Scene"],"properties":{"description":"INT. CASTLE - DAY"}}
+{"type":"relationship","id":"68","label":"FEATURES","start":{"id":"34","labels":["Episode"],"properties":{"series":9,"episode":11,"title":"Heaven Sent"}},"end":{"id":"35","labels":["Location"],"properties":{"name":"CASTLE"}}}
+{"type":"relationship","id":"69","label":"STARTS_WITH","start":{"id":"34","labels":["Episode"],"properties":{"series":9,"episode":11,"title":"Heaven Sent"}},"end":{"id":"36","labels":["Scene"],"properties":{"description":"INT. CASTLE - DAY"}}}
+{"type":"relationship","id":"70","label":"SETTING","start":{"id":"36","labels":["Scene"],"properties":{"description":"INT. CASTLE - DAY"}},"end":{"id":"35","labels":["Location"],"properties":{"name":"CASTLE"}}}

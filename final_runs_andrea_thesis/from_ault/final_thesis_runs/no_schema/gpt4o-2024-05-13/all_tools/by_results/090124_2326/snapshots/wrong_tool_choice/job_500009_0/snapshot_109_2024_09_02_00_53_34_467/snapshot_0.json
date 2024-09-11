@@ -1,0 +1,13 @@
+{"type":"node","id":"5","labels":["Museum"],"properties":{"name":"National Air and Space Museum","location":"Washington, D.C."}}
+{"type":"node","id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}}
+{"type":"node","id":"7","labels":["MetroLine"],"properties":{"name":"Blue"}}
+{"type":"node","id":"8","labels":["MetroLine"],"properties":{"name":"Orange"}}
+{"type":"node","id":"9","labels":["MetroLine"],"properties":{"name":"Yellow"}}
+{"type":"node","id":"10","labels":["MetroLine"],"properties":{"name":"Green"}}
+{"type":"node","id":"11","labels":["MetroLine"],"properties":{"name":"Silver"}}
+{"type":"relationship","id":"137","label":"NEAREST_METRO_STATION","start":{"id":"5","labels":["Museum"],"properties":{"name":"National Air and Space Museum","location":"Washington, D.C."}},"end":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}}}
+{"type":"relationship","id":"138","label":"SERVED_BY","start":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"7","labels":["MetroLine"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"139","label":"SERVED_BY","start":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"8","labels":["MetroLine"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"140","label":"SERVED_BY","start":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"9","labels":["MetroLine"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"141","label":"SERVED_BY","start":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"10","labels":["MetroLine"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"142","label":"SERVED_BY","start":{"id":"6","labels":["MetroStation"],"properties":{"name":"L'Enfant Plaza"}},"end":{"id":"11","labels":["MetroLine"],"properties":{"name":"Silver"}}}

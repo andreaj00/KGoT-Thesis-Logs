@@ -1,0 +1,6 @@
+{"type":"node","id":"10","labels":["Refrigerant"],"properties":{"name":"Freon-12","density_0C":1397.45}}
+{"type":"node","id":"11","labels":["Temperature"],"properties":{"value":"0 °C"}}
+{"type":"node","id":"12","labels":["System"],"properties":{"mass_kg":0.312,"volume_ml":223}}
+{"type":"relationship","id":"48","label":"HAS_DENSITY_AT","start":{"id":"10","labels":["Refrigerant"],"properties":{"name":"Freon-12","density_0C":1397.45}},"end":{"id":"11","labels":["Temperature"],"properties":{"value":"0 °C"}}}
+{"type":"relationship","id":"49","label":"PART_OF","start":{"id":"10","labels":["Refrigerant"],"properties":{"name":"Freon-12","density_0C":1397.45}},"end":{"id":"12","labels":["System"],"properties":{"mass_kg":0.312,"volume_ml":223}}}
+{"type":"relationship","id":"50","label":"PART_OF","start":{"id":"11","labels":["Temperature"],"properties":{"value":"0 °C"}},"end":{"id":"12","labels":["System"],"properties":{"mass_kg":0.312,"volume_ml":223}}}

@@ -1,0 +1,3 @@
+{"type":"node","id":"9","labels":["Product"],"properties":{"name":"Cheater","cfm":1200}}
+{"type":"node","id":"10","labels":["Product"],"properties":{"name":"Cheater Beater","cfm":1500}}
+{"type":"relationship","id":"19","label":"TESTED_IN","properties":{"season":4},"start":{"id":"9","labels":["Product"],"properties":{"name":"Cheater","cfm":1200}},"end":{"id":"10","labels":["Product"],"properties":{"name":"Cheater Beater","cfm":1500}}}

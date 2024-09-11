@@ -1,0 +1,5 @@
+{"type":"node","id":"10","labels":["Author"],"properties":{"name":"Valentina Re"}}
+{"type":"node","id":"11","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}}
+{"type":"node","id":"31","labels":["Movie"],"properties":{"title":"A Nightmare on Elm Street"}}
+{"type":"relationship","id":"11","label":"CONTRIBUTED_TO","start":{"id":"10","labels":["Author"],"properties":{"name":"Valentina Re"}},"end":{"id":"11","labels":["Book"],"properties":{"year":2017,"title":"World Building: Transmedia, Fans, Industries"}}}
+{"type":"relationship","id":"12","label":"CITED","properties":{"context":"popularized metalepsis between a dream world and reality"},"start":{"id":"10","labels":["Author"],"properties":{"name":"Valentina Re"}},"end":{"id":"31","labels":["Movie"],"properties":{"title":"A Nightmare on Elm Street"}}}

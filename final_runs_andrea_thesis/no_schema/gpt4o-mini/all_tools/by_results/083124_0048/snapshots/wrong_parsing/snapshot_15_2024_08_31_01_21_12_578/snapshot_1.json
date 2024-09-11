@@ -1,0 +1,8 @@
+{"type":"node","id":"16","labels":["Substance"],"properties":{"unit":"kg/L","density":1.415,"name":"Honey"}}
+{"type":"node","id":"17","labels":["Substance"],"properties":{"unit":"kg/L","density":0.94,"name":"Mayonnaise"}}
+{"type":"node","id":"18","labels":["Container"],"properties":{"volume":3.785,"unit":"L","type":"Gallon"}}
+{"type":"node","id":"19"}
+{"type":"relationship","id":"16","label":"CONTAINS","start":{"id":"18","labels":["Container"],"properties":{"volume":3.785,"unit":"L","type":"Gallon"}},"end":{"id":"16","labels":["Substance"],"properties":{"unit":"kg/L","density":1.415,"name":"Honey"}}}
+{"type":"relationship","id":"17","label":"CONTAINS","start":{"id":"18","labels":["Container"],"properties":{"volume":3.785,"unit":"L","type":"Gallon"}},"end":{"id":"17","labels":["Substance"],"properties":{"unit":"kg/L","density":0.94,"name":"Mayonnaise"}}}
+{"type":"relationship","id":"18","label":"CONTAINS","start":{"id":"18","labels":["Container"],"properties":{"volume":3.785,"unit":"L","type":"Gallon"}},"end":{"id":"16","labels":["Substance"],"properties":{"unit":"kg/L","density":1.415,"name":"Honey"}}}
+{"type":"relationship","id":"19","label":"CONTAINS","start":{"id":"18","labels":["Container"],"properties":{"volume":3.785,"unit":"L","type":"Gallon"}},"end":{"id":"19"}}

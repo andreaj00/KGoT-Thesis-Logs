@@ -1,0 +1,3 @@
+{"type":"node","id":"68","labels":["Person"],"properties":{"name":"Ali Khan"}}
+{"type":"node","id":"69","labels":["TVShow"],"properties":{"start_year":2015,"name":"Cheap Eats"}}
+{"type":"relationship","id":"90","label":"HOSTS","start":{"id":"68","labels":["Person"],"properties":{"name":"Ali Khan"}},"end":{"id":"69","labels":["TVShow"],"properties":{"start_year":2015,"name":"Cheap Eats"}}}

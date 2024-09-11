@@ -1,0 +1,3 @@
+{"type":"node","id":"2","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/6359a0b1-8f7b-499b-9336-840f9ab90688.png"}}
+{"type":"node","id":"3","labels":["Document"],"properties":{"name":"load_documents"}}
+{"type":"relationship","id":"34","label":"CONTAINS","start":{"id":"3","labels":["Document"],"properties":{"name":"load_documents"}},"end":{"id":"2","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/6359a0b1-8f7b-499b-9336-840f9ab90688.png"}}}

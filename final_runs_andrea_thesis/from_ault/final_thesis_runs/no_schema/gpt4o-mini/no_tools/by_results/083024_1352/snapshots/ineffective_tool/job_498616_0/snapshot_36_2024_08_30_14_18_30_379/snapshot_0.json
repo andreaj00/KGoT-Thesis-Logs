@@ -1,0 +1,3 @@
+{"type":"node","id":"63","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}}
+{"type":"node","id":"64","labels":["Metadata"],"properties":{"content":""}}
+{"type":"relationship","id":"52","label":"HAS_METADATA","start":{"id":"63","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}},"end":{"id":"64","labels":["Metadata"],"properties":{"content":""}}}

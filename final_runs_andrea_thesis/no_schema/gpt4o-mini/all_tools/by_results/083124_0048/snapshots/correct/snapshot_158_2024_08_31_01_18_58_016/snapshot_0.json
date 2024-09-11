@@ -1,0 +1,3 @@
+{"type":"node","id":"46","labels":["MalkoCompetition"],"properties":{"name":"Malko Competition"}}
+{"type":"node","id":"47","labels":["Recipient"],"properties":{"century":"20th","nationality":"East Germany","year":1983,"last_name":"Flor","first_name":"Claus Peter"}}
+{"type":"relationship","id":"31","label":"HAS_RECIPIENT","start":{"id":"46","labels":["MalkoCompetition"],"properties":{"name":"Malko Competition"}},"end":{"id":"47","labels":["Recipient"],"properties":{"century":"20th","nationality":"East Germany","year":1983,"last_name":"Flor","first_name":"Claus Peter"}}}

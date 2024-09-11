@@ -1,0 +1,13 @@
+{"type":"node","id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}}
+{"type":"node","id":"6","labels":["Book"],"properties":{"title":"The Battle of the Labyrinth","status":"Checked Out"}}
+{"type":"node","id":"7","labels":["Book"],"properties":{"title":"The Last Olympian","status":"Checked Out"}}
+{"type":"node","id":"8","labels":["Book"],"properties":{"title":"The Lost Hero","status":"Checked Out"}}
+{"type":"node","id":"9","labels":["Book"],"properties":{"title":"The Son of Neptune","status":"Checked Out"}}
+{"type":"node","id":"10","labels":["Book"],"properties":{"title":"The Mark of Athena","status":"Checked Out"}}
+{"type":"node","id":"11","labels":["Book"],"properties":{"title":"The House of Hades","status":"Overdue"}}
+{"type":"relationship","id":"0","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"6","labels":["Book"],"properties":{"title":"The Battle of the Labyrinth","status":"Checked Out"}}}
+{"type":"relationship","id":"1","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"7","labels":["Book"],"properties":{"title":"The Last Olympian","status":"Checked Out"}}}
+{"type":"relationship","id":"2","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"8","labels":["Book"],"properties":{"title":"The Lost Hero","status":"Checked Out"}}}
+{"type":"relationship","id":"3","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"9","labels":["Book"],"properties":{"title":"The Son of Neptune","status":"Checked Out"}}}
+{"type":"relationship","id":"4","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"10","labels":["Book"],"properties":{"title":"The Mark of Athena","status":"Checked Out"}}}
+{"type":"relationship","id":"5","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"11","labels":["Book"],"properties":{"title":"The House of Hades","status":"Overdue"}}}

@@ -1,0 +1,7 @@
+{"type":"node","id":"48","labels":["YouTubeChannel"],"properties":{"name":"Game Grumps"}}
+{"type":"node","id":"49","labels":["VideoGame"],"properties":{"rating":"E10+","publisher":"SEGA","title":"Sonic the Hedgehog (2006)","platform":"PlayStation 3"}}
+{"type":"node","id":"50","labels":["Episode"],"properties":{"year":2012,"title":"Sonic the Hedgehog (2006) - Episode 1","timestamp":"30 seconds"}}
+{"type":"node","id":"51","labels":["Phrase"],"properties":{"text":"This is a game... that is... it's- it's a sin."}}
+{"type":"relationship","id":"16","label":"FEATURES","start":{"id":"50","labels":["Episode"],"properties":{"year":2012,"title":"Sonic the Hedgehog (2006) - Episode 1","timestamp":"30 seconds"}},"end":{"id":"49","labels":["VideoGame"],"properties":{"rating":"E10+","publisher":"SEGA","title":"Sonic the Hedgehog (2006)","platform":"PlayStation 3"}}}
+{"type":"relationship","id":"17","label":"DISPLAYS","start":{"id":"50","labels":["Episode"],"properties":{"year":2012,"title":"Sonic the Hedgehog (2006) - Episode 1","timestamp":"30 seconds"}},"end":{"id":"51","labels":["Phrase"],"properties":{"text":"This is a game... that is... it's- it's a sin."}}}
+{"type":"relationship","id":"15","label":"CREATED","start":{"id":"48","labels":["YouTubeChannel"],"properties":{"name":"Game Grumps"}},"end":{"id":"50","labels":["Episode"],"properties":{"year":2012,"title":"Sonic the Hedgehog (2006) - Episode 1","timestamp":"30 seconds"}}}

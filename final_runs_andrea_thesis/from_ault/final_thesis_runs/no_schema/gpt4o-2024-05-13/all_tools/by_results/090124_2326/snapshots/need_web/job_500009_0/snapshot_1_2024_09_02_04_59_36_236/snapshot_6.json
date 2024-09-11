@@ -1,0 +1,15 @@
+{"type":"node","id":"20","labels":["Movie"],"properties":{"title":"Finding Nemo"}}
+{"type":"node","id":"21","labels":["Location"],"properties":{"name":"Fred Howard Park, Pinellas Co., Florida","zip_code":"34698"}}
+{"type":"node","id":"22","labels":["Location"],"properties":{"name":"Key Biscayne, Florida","zip_code":"33149"}}
+{"type":"node","id":"23","labels":["Location"],"properties":{"name":"Kaneohe, Hawaii","zip_code":"96744"}}
+{"type":"node","id":"24","labels":["Location"],"properties":{"name":"Kailua, Hawaii","zip_code":"96734"}}
+{"type":"node","id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}}
+{"type":"node","id":"90","labels":["Location"],"properties":{"name":"Waimanalo, Hawaii","zip_code":"96795"}}
+{"type":"node","id":"91","labels":["Location"],"properties":{"name":"Haleiwa, Hawaii","zip_code":"96712"}}
+{"type":"relationship","id":"48","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"90","labels":["Location"],"properties":{"name":"Waimanalo, Hawaii","zip_code":"96795"}}}
+{"type":"relationship","id":"49","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"91","labels":["Location"],"properties":{"name":"Haleiwa, Hawaii","zip_code":"96712"}}}
+{"type":"relationship","id":"43","label":"FEATURED_IN","start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"20","labels":["Movie"],"properties":{"title":"Finding Nemo"}}}
+{"type":"relationship","id":"44","label":"FOUND_IN","properties":{"year":2018},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"21","labels":["Location"],"properties":{"name":"Fred Howard Park, Pinellas Co., Florida","zip_code":"34698"}}}
+{"type":"relationship","id":"45","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"22","labels":["Location"],"properties":{"name":"Key Biscayne, Florida","zip_code":"33149"}}}
+{"type":"relationship","id":"46","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"23","labels":["Location"],"properties":{"name":"Kaneohe, Hawaii","zip_code":"96744"}}}
+{"type":"relationship","id":"47","label":"FOUND_IN","properties":{"year":2019},"start":{"id":"89","labels":["Species"],"properties":{"name":"Amphiprion ocellaris","common_name":"clown anemonefish"}},"end":{"id":"24","labels":["Location"],"properties":{"name":"Kailua, Hawaii","zip_code":"96734"}}}

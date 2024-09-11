@@ -1,0 +1,9 @@
+{"type":"node","id":"20","labels":["Article"],"properties":{"name":"Therizinosaurus","promoted_date":"November 2016"}}
+{"type":"node","id":"21","labels":["User"],"properties":{"name":"Karanacs"}}
+{"type":"node","id":"22","labels":["Article"],"properties":{"name":"Yutyrannus","promoted_date":"November 2016"}}
+{"type":"node","id":"23","labels":["User"],"properties":{"name":"The ed17"}}
+{"type":"node","id":"24","labels":["Article"],"properties":{"name":"Theropoda","promoted_date":"November 2016"}}
+{"type":"node","id":"25","labels":["User"],"properties":{"name":"Paul Sereno"}}
+{"type":"relationship","id":"5","label":"NOMINATED","start":{"id":"21","labels":["User"],"properties":{"name":"Karanacs"}},"end":{"id":"20","labels":["Article"],"properties":{"name":"Therizinosaurus","promoted_date":"November 2016"}}}
+{"type":"relationship","id":"6","label":"NOMINATED","start":{"id":"23","labels":["User"],"properties":{"name":"The ed17"}},"end":{"id":"22","labels":["Article"],"properties":{"name":"Yutyrannus","promoted_date":"November 2016"}}}
+{"type":"relationship","id":"7","label":"NOMINATED","start":{"id":"25","labels":["User"],"properties":{"name":"Paul Sereno"}},"end":{"id":"24","labels":["Article"],"properties":{"name":"Theropoda","promoted_date":"November 2016"}}}

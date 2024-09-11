@@ -1,0 +1,7 @@
+{"type":"node","id":"86","labels":["Function"],"properties":{"name":"load_documents"}}
+{"type":"node","id":"87","labels":["Argument"],"properties":{"name":"file_names"}}
+{"type":"node","id":"88","labels":["Value"],"properties":{"value":"GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png"}}
+{"type":"node","id":"89","labels":["Return"],"properties":{"value":"[]"}}
+{"type":"relationship","id":"34","label":"HAS_ARGUMENT","start":{"id":"86","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"87","labels":["Argument"],"properties":{"name":"file_names"}}}
+{"type":"relationship","id":"35","label":"HAS_VALUE","start":{"id":"87","labels":["Argument"],"properties":{"name":"file_names"}},"end":{"id":"88","labels":["Value"],"properties":{"value":"GAIA/dataset/attachments/validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png"}}}
+{"type":"relationship","id":"36","label":"RETURNS","start":{"id":"86","labels":["Function"],"properties":{"name":"load_documents"}},"end":{"id":"89","labels":["Return"],"properties":{"value":"[]"}}}

@@ -1,0 +1,11 @@
+{"type":"node","id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}}
+{"type":"node","id":"3","labels":["House"],"properties":{"position":"4"}}
+{"type":"node","id":"4","labels":["House"],"properties":{"position":"5"}}
+{"type":"node","id":"20","labels":["House"],"properties":{"position":"1"}}
+{"type":"node","id":"21","labels":["House"],"properties":{"position":"2"}}
+{"type":"node","id":"53","labels":["House"],"properties":{"position":"3"}}
+{"type":"relationship","id":"32","label":"HAS_HOUSE","start":{"id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}},"end":{"id":"53","labels":["House"],"properties":{"position":"3"}}}
+{"type":"relationship","id":"33","label":"HAS_HOUSE","start":{"id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}},"end":{"id":"3","labels":["House"],"properties":{"position":"4"}}}
+{"type":"relationship","id":"34","label":"HAS_HOUSE","start":{"id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}},"end":{"id":"4","labels":["House"],"properties":{"position":"5"}}}
+{"type":"relationship","id":"30","label":"HAS_HOUSE","start":{"id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}},"end":{"id":"20","labels":["House"],"properties":{"position":"1"}}}
+{"type":"relationship","id":"31","label":"HAS_HOUSE","start":{"id":"2","labels":["Road"],"properties":{"layout":"       H       H           H\n--------------------------------\nH          H            H    H     "}},"end":{"id":"21","labels":["House"],"properties":{"position":"2"}}}

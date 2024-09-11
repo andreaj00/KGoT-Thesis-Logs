@@ -1,0 +1,20 @@
+{"type":"node","id":"11","labels":["Paper"],"properties":{"year":2016,"location":"Pearl Of Africa","title":"SPFMV and SPCSV virus testing method paper"}}
+{"type":"node","id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}}
+{"type":"node","id":"13","labels":["Chemical"],"properties":{"name":"TRIzol LS reagent"}}
+{"type":"node","id":"14","labels":["Chemical"],"properties":{"name":"HI-DI™formamide"}}
+{"type":"node","id":"15","labels":["Chemical"],"properties":{"name":"RT-PCR kit"}}
+{"type":"node","id":"16","labels":["Chemical"],"properties":{"name":"Taq PCR kit"}}
+{"type":"node","id":"17","labels":["Chemical"],"properties":{"name":"SYBR Safe DNA gel stain"}}
+{"type":"node","id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}}
+{"type":"relationship","id":"103","label":"USES_METHOD","start":{"id":"11","labels":["Paper"],"properties":{"year":2016,"location":"Pearl Of Africa","title":"SPFMV and SPCSV virus testing method paper"}},"end":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}}}
+{"type":"relationship","id":"104","label":"USES_CHEMICAL","start":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}},"end":{"id":"13","labels":["Chemical"],"properties":{"name":"TRIzol LS reagent"}}}
+{"type":"relationship","id":"105","label":"USES_CHEMICAL","start":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}},"end":{"id":"14","labels":["Chemical"],"properties":{"name":"HI-DI™formamide"}}}
+{"type":"relationship","id":"106","label":"USES_CHEMICAL","start":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}},"end":{"id":"15","labels":["Chemical"],"properties":{"name":"RT-PCR kit"}}}
+{"type":"relationship","id":"107","label":"USES_CHEMICAL","start":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}},"end":{"id":"16","labels":["Chemical"],"properties":{"name":"Taq PCR kit"}}}
+{"type":"relationship","id":"108","label":"USES_CHEMICAL","start":{"id":"12","labels":["Method"],"properties":{"name":"Multiplex PCR"}},"end":{"id":"17","labels":["Chemical"],"properties":{"name":"SYBR Safe DNA gel stain"}}}
+{"type":"relationship","id":"109","label":"USES_METHOD","start":{"id":"11","labels":["Paper"],"properties":{"year":2016,"location":"Pearl Of Africa","title":"SPFMV and SPCSV virus testing method paper"}},"end":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}}}
+{"type":"relationship","id":"110","label":"USES_CHEMICAL","start":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}},"end":{"id":"13","labels":["Chemical"],"properties":{"name":"TRIzol LS reagent"}}}
+{"type":"relationship","id":"111","label":"USES_CHEMICAL","start":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}},"end":{"id":"14","labels":["Chemical"],"properties":{"name":"HI-DI™formamide"}}}
+{"type":"relationship","id":"112","label":"USES_CHEMICAL","start":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}},"end":{"id":"15","labels":["Chemical"],"properties":{"name":"RT-PCR kit"}}}
+{"type":"relationship","id":"113","label":"USES_CHEMICAL","start":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}},"end":{"id":"16","labels":["Chemical"],"properties":{"name":"Taq PCR kit"}}}
+{"type":"relationship","id":"114","label":"USES_CHEMICAL","start":{"id":"18","labels":["Method"],"properties":{"name":"RT-PCR"}},"end":{"id":"17","labels":["Chemical"],"properties":{"name":"SYBR Safe DNA gel stain"}}}

@@ -1,0 +1,16 @@
+{"type":"node","id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}}
+{"type":"node","id":"62","labels":["Author"],"properties":{"name":"Katharina Sielemann"}}
+{"type":"node","id":"63","labels":["Author"],"properties":{"name":"Alenka Hafner"}}
+{"type":"node","id":"64","labels":["Author"],"properties":{"name":"Boas Pucker"}}
+{"type":"node","id":"65","labels":["University"],"properties":{"country":"Germany","name":"Bielefeld University"}}
+{"type":"node","id":"66"}
+{"type":"node","id":"67","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Cambridge"}}
+{"type":"node","id":"68"}
+{"type":"node","id":"69","labels":["University"],"properties":{"country":"United States of America","name":"Penn State University"}}
+{"type":"node","id":"70"}
+{"type":"relationship","id":"4","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"62","labels":["Author"],"properties":{"name":"Katharina Sielemann"}}}
+{"type":"relationship","id":"5","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"63","labels":["Author"],"properties":{"name":"Alenka Hafner"}}}
+{"type":"relationship","id":"6","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"64","labels":["Author"],"properties":{"name":"Boas Pucker"}}}
+{"type":"relationship","id":"7","label":"AFFILIATED_WITH","start":{"id":"66"},"end":{"id":"65","labels":["University"],"properties":{"country":"Germany","name":"Bielefeld University"}}}
+{"type":"relationship","id":"8","label":"AFFILIATED_WITH","start":{"id":"68"},"end":{"id":"67","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Cambridge"}}}
+{"type":"relationship","id":"156","label":"AFFILIATED_WITH","start":{"id":"70"},"end":{"id":"69","labels":["University"],"properties":{"country":"United States of America","name":"Penn State University"}}}

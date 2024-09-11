@@ -1,0 +1,5 @@
+{"type":"node","id":"1","labels":["Feature"],"properties":{"name":"Deep Learning Techniques"}}
+{"type":"node","id":"2","labels":["Characteristic"],"properties":{"name":"Convolutional Neural Networks (CNNs)"}}
+{"type":"node","id":"3","labels":["Significance"],"properties":{"robustness":"High","automation_potential":"High","accuracy":"High","scalability":"High"}}
+{"type":"relationship","id":"8","label":"CONTRIBUTED_TO","start":{"id":"1","labels":["Feature"],"properties":{"name":"Deep Learning Techniques"}},"end":{"id":"2","labels":["Characteristic"],"properties":{"name":"Convolutional Neural Networks (CNNs)"}}}
+{"type":"relationship","id":"9","label":"HAS_SIGNIFICANCE","start":{"id":"1","labels":["Feature"],"properties":{"name":"Deep Learning Techniques"}},"end":{"id":"3","labels":["Significance"],"properties":{"robustness":"High","automation_potential":"High","accuracy":"High","scalability":"High"}}}

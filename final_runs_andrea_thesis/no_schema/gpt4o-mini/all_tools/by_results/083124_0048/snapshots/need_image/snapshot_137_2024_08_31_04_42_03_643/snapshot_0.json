@@ -1,0 +1,3 @@
+{"type":"node","id":"30","labels":["Magazine"],"properties":{"issue":"August 2021","name":"Vogue"}}
+{"type":"node","id":"45","labels":["Landmark"],"properties":{"name":"Statue of Liberty","height_yards":102}}
+{"type":"relationship","id":"30","label":"FEATURES","start":{"id":"30","labels":["Magazine"],"properties":{"issue":"August 2021","name":"Vogue"}},"end":{"id":"45","labels":["Landmark"],"properties":{"name":"Statue of Liberty","height_yards":102}}}

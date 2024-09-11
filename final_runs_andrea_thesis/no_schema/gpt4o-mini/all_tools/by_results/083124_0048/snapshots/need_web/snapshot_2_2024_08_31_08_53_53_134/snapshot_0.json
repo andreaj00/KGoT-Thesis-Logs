@@ -1,0 +1,3 @@
+{"type":"node","id":"11","labels":["Journal"],"properties":{"year":2020,"name":"Nature"}}
+{"type":"node","id":"12","labels":["StatisticalSignificance"],"properties":{"p_value":0.04}}
+{"type":"relationship","id":"49","label":"RELIED_ON","start":{"id":"11","labels":["Journal"],"properties":{"year":2020,"name":"Nature"}},"end":{"id":"12","labels":["StatisticalSignificance"],"properties":{"p_value":0.04}}}

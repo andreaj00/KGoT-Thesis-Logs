@@ -1,0 +1,15 @@
+{"type":"node","id":"61","labels":["County"],"properties":{"name":"Adams County"}}
+{"type":"node","id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}}
+{"type":"node","id":"63","labels":["County"],"properties":{"name":"Asotin County"}}
+{"type":"node","id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}}
+{"type":"node","id":"65","labels":["County"],"properties":{"name":"Benton County"}}
+{"type":"node","id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}}
+{"type":"node","id":"67","labels":["County"],"properties":{"name":"Chelan County"}}
+{"type":"node","id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee"}}
+{"type":"node","id":"69","labels":["County"],"properties":{"name":"Clallam County"}}
+{"type":"node","id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles"}}
+{"type":"relationship","id":"64","label":"SEAT_OF","start":{"id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}},"end":{"id":"65","labels":["County"],"properties":{"name":"Benton County"}}}
+{"type":"relationship","id":"65","label":"SEAT_OF","start":{"id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee"}},"end":{"id":"67","labels":["County"],"properties":{"name":"Chelan County"}}}
+{"type":"relationship","id":"66","label":"SEAT_OF","start":{"id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles"}},"end":{"id":"69","labels":["County"],"properties":{"name":"Clallam County"}}}
+{"type":"relationship","id":"62","label":"SEAT_OF","start":{"id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}},"end":{"id":"61","labels":["County"],"properties":{"name":"Adams County"}}}
+{"type":"relationship","id":"63","label":"SEAT_OF","start":{"id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}},"end":{"id":"63","labels":["County"],"properties":{"name":"Asotin County"}}}

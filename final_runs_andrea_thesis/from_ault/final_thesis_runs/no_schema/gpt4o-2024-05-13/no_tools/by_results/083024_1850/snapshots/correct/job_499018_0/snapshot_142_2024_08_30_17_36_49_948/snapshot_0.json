@@ -1,0 +1,3 @@
+{"type":"node","id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}}
+{"type":"node","id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"relationship","id":"60","label":"HEADS","start":{"id":"18","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","type":"0-4-0"}},"end":{"id":"19","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}

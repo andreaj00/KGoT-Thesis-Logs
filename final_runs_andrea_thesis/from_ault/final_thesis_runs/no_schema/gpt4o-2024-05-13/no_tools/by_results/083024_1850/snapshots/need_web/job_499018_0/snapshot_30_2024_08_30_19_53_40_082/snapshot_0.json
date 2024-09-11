@@ -1,0 +1,11 @@
+{"type":"node","id":"8","labels":["Study"],"properties":{"year":2018,"title":"Customer Retention Study"}}
+{"type":"node","id":"9","labels":["Model"],"properties":{"type":"Hidden Markov"}}
+{"type":"node","id":"41","labels":["Researcher"],"properties":{"name":"Manash Pratim Kashyap"}}
+{"type":"node","id":"42","labels":["Researcher"],"properties":{"name":"PS Fader"}}
+{"type":"node","id":"43","labels":["Study"],"properties":{"year":2019,"title":"Customer Retention Study"}}
+{"type":"relationship","id":"128","label":"CONDUCTED","start":{"id":"42","labels":["Researcher"],"properties":{"name":"PS Fader"}},"end":{"id":"8","labels":["Study"],"properties":{"year":2018,"title":"Customer Retention Study"}}}
+{"type":"relationship","id":"129","label":"CONDUCTED","start":{"id":"42","labels":["Researcher"],"properties":{"name":"PS Fader"}},"end":{"id":"43","labels":["Study"],"properties":{"year":2019,"title":"Customer Retention Study"}}}
+{"type":"relationship","id":"130","label":"USED","start":{"id":"8","labels":["Study"],"properties":{"year":2018,"title":"Customer Retention Study"}},"end":{"id":"9","labels":["Model"],"properties":{"type":"Hidden Markov"}}}
+{"type":"relationship","id":"44","label":"USED","start":{"id":"43","labels":["Study"],"properties":{"year":2019,"title":"Customer Retention Study"}},"end":{"id":"9","labels":["Model"],"properties":{"type":"Hidden Markov"}}}
+{"type":"relationship","id":"126","label":"CONDUCTED","start":{"id":"41","labels":["Researcher"],"properties":{"name":"Manash Pratim Kashyap"}},"end":{"id":"8","labels":["Study"],"properties":{"year":2018,"title":"Customer Retention Study"}}}
+{"type":"relationship","id":"127","label":"CONDUCTED","start":{"id":"41","labels":["Researcher"],"properties":{"name":"Manash Pratim Kashyap"}},"end":{"id":"43","labels":["Study"],"properties":{"year":2019,"title":"Customer Retention Study"}}}

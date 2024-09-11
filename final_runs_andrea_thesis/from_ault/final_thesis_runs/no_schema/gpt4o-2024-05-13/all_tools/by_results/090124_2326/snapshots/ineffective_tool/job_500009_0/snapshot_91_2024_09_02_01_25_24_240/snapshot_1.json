@@ -1,0 +1,36 @@
+{"type":"node","id":"18","labels":["Country"],"properties":{"access_to_sea":true,"name":"Kingdom of Bahrain"}}
+{"type":"node","id":"19","labels":["Country"],"properties":{"name":"Nation of Brunei, the Abode of Peace"}}
+{"type":"node","id":"20","labels":["Country"],"properties":{"name":"Malaysia"}}
+{"type":"node","id":"21","labels":["Country"],"properties":{"name":"Hashemite Kingdom of Jordan"}}
+{"type":"node","id":"22","labels":["Country"],"properties":{"name":"State of Kuwait"}}
+{"type":"node","id":"23","labels":["Country"],"properties":{"name":"Kingdom of Morocco"}}
+{"type":"node","id":"24","labels":["Country"],"properties":{"name":"Sultanate of Oman"}}
+{"type":"node","id":"25","labels":["Country"],"properties":{"name":"State of Qatar"}}
+{"type":"node","id":"26","labels":["Country"],"properties":{"name":"Kingdom of Saudi Arabia"}}
+{"type":"node","id":"27","labels":["Country"],"properties":{"name":"United Arab Emirates"}}
+{"type":"node","id":"28","labels":["Country"],"properties":{"name":"Japan"}}
+{"type":"node","id":"29","labels":["Country"],"properties":{"name":"Kingdom of Thailand"}}
+{"type":"node","id":"30","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"31","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"32","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"33","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"34","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"35","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"36","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"37","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"38","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"39","labels":["Monarchy"],"properties":{"type":"Muslim"}}
+{"type":"node","id":"40","labels":["Monarchy"],"properties":{"type":"East and Southeast Asian constitutional"}}
+{"type":"node","id":"41","labels":["Monarchy"],"properties":{"type":"East and Southeast Asian constitutional"}}
+{"type":"relationship","id":"0","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"21","labels":["Country"],"properties":{"name":"Hashemite Kingdom of Jordan"}},"end":{"id":"33","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"1","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"22","labels":["Country"],"properties":{"name":"State of Kuwait"}},"end":{"id":"34","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"2","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"23","labels":["Country"],"properties":{"name":"Kingdom of Morocco"}},"end":{"id":"35","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"3","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"24","labels":["Country"],"properties":{"name":"Sultanate of Oman"}},"end":{"id":"36","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"4","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"25","labels":["Country"],"properties":{"name":"State of Qatar"}},"end":{"id":"37","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"5","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"26","labels":["Country"],"properties":{"name":"Kingdom of Saudi Arabia"}},"end":{"id":"38","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"6","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"27","labels":["Country"],"properties":{"name":"United Arab Emirates"}},"end":{"id":"39","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"7","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"28","labels":["Country"],"properties":{"name":"Japan"}},"end":{"id":"40","labels":["Monarchy"],"properties":{"type":"East and Southeast Asian constitutional"}}}
+{"type":"relationship","id":"8","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"29","labels":["Country"],"properties":{"name":"Kingdom of Thailand"}},"end":{"id":"41","labels":["Monarchy"],"properties":{"type":"East and Southeast Asian constitutional"}}}
+{"type":"relationship","id":"156","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"18","labels":["Country"],"properties":{"access_to_sea":true,"name":"Kingdom of Bahrain"}},"end":{"id":"30","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"157","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"19","labels":["Country"],"properties":{"name":"Nation of Brunei, the Abode of Peace"}},"end":{"id":"31","labels":["Monarchy"],"properties":{"type":"Muslim"}}}
+{"type":"relationship","id":"158","label":"HAS_MONARCHY","properties":{"year":2021},"start":{"id":"20","labels":["Country"],"properties":{"name":"Malaysia"}},"end":{"id":"32","labels":["Monarchy"],"properties":{"type":"Muslim"}}}

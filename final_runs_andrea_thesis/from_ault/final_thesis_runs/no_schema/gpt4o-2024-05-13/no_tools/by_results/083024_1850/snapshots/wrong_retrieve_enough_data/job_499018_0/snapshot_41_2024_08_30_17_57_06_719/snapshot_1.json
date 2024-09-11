@@ -1,0 +1,8 @@
+{"type":"node","id":"39","labels":["Journal"],"properties":{"name":"Fafnir – Nordic Journal of Science Fiction and Fantasy Research"}}
+{"type":"node","id":"40","labels":["Author"],"properties":{"name":"Emily Midkiff"}}
+{"type":"node","id":"41","labels":["Article"],"properties":{"date":"June 2014","title":"June 2014 article"}}
+{"type":"node","id":"42","labels":["Quote"],"properties":{"text":"cliché"}}
+{"type":"relationship","id":"32","label":"PUBLISHED_IN","start":{"id":"41","labels":["Article"],"properties":{"date":"June 2014","title":"June 2014 article"}},"end":{"id":"39","labels":["Journal"],"properties":{"name":"Fafnir – Nordic Journal of Science Fiction and Fantasy Research"}}}
+{"type":"relationship","id":"33","label":"CONTAINS_QUOTE","start":{"id":"41","labels":["Article"],"properties":{"date":"June 2014","title":"June 2014 article"}},"end":{"id":"42","labels":["Quote"],"properties":{"text":"cliché"}}}
+{"type":"relationship","id":"30","label":"PUBLISHED_IN","properties":{"date":"June 2014"},"start":{"id":"40","labels":["Author"],"properties":{"name":"Emily Midkiff"}},"end":{"id":"39","labels":["Journal"],"properties":{"name":"Fafnir – Nordic Journal of Science Fiction and Fantasy Research"}}}
+{"type":"relationship","id":"31","label":"WROTE","start":{"id":"40","labels":["Author"],"properties":{"name":"Emily Midkiff"}},"end":{"id":"41","labels":["Article"],"properties":{"date":"June 2014","title":"June 2014 article"}}}

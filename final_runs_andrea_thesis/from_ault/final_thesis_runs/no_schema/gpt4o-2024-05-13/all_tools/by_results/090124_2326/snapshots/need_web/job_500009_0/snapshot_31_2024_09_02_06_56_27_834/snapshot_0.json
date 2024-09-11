@@ -1,0 +1,43 @@
+{"type":"node","id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}}
+{"type":"node","id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}}
+{"type":"node","id":"8","labels":["Animal"],"properties":{"name":"rabbits"}}
+{"type":"node","id":"9","labels":["Animal"],"properties":{"name":"goats"}}
+{"type":"node","id":"10","labels":["Animal"],"properties":{"name":"cattle"}}
+{"type":"node","id":"11","labels":["Animal"],"properties":{"name":"quails"}}
+{"type":"node","id":"31","labels":["Animal"],"properties":{"name":"pigs"}}
+{"type":"node","id":"32","labels":["Animal"],"properties":{"name":"birds"}}
+{"type":"node","id":"33","labels":["Animal"],"properties":{"name":"chickens"}}
+{"type":"node","id":"34","labels":["Animal"],"properties":{"name":"turkeys"}}
+{"type":"node","id":"35","labels":["Animal"],"properties":{"name":"geese"}}
+{"type":"node","id":"36","labels":["Animal"],"properties":{"name":"ducks"}}
+{"type":"node","id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}}
+{"type":"relationship","id":"85","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"9","labels":["Animal"],"properties":{"name":"goats"}}}
+{"type":"relationship","id":"22","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"8","labels":["Animal"],"properties":{"name":"rabbits"}}}
+{"type":"relationship","id":"86","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"10","labels":["Animal"],"properties":{"name":"cattle"}}}
+{"type":"relationship","id":"23","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"9","labels":["Animal"],"properties":{"name":"goats"}}}
+{"type":"relationship","id":"24","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"10","labels":["Animal"],"properties":{"name":"cattle"}}}
+{"type":"relationship","id":"25","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"31","labels":["Animal"],"properties":{"name":"pigs"}}}
+{"type":"relationship","id":"26","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"32","labels":["Animal"],"properties":{"name":"birds"}}}
+{"type":"relationship","id":"27","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"33","labels":["Animal"],"properties":{"name":"chickens"}}}
+{"type":"relationship","id":"28","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"34","labels":["Animal"],"properties":{"name":"turkeys"}}}
+{"type":"relationship","id":"29","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"35","labels":["Animal"],"properties":{"name":"geese"}}}
+{"type":"relationship","id":"30","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"36","labels":["Animal"],"properties":{"name":"ducks"}}}
+{"type":"relationship","id":"31","label":"MENTIONED","start":{"id":"106","labels":["IliasLagkouvardos"],"properties":{"name":"Ilias Lagkouvardos"}},"end":{"id":"11","labels":["Animal"],"properties":{"name":"quails"}}}
+{"type":"relationship","id":"32","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"8","labels":["Animal"],"properties":{"name":"rabbits"}}}
+{"type":"relationship","id":"33","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"9","labels":["Animal"],"properties":{"name":"goats"}}}
+{"type":"relationship","id":"34","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"10","labels":["Animal"],"properties":{"name":"cattle"}}}
+{"type":"relationship","id":"35","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"31","labels":["Animal"],"properties":{"name":"pigs"}}}
+{"type":"relationship","id":"36","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"32","labels":["Animal"],"properties":{"name":"birds"}}}
+{"type":"relationship","id":"37","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"33","labels":["Animal"],"properties":{"name":"chickens"}}}
+{"type":"relationship","id":"38","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"34","labels":["Animal"],"properties":{"name":"turkeys"}}}
+{"type":"relationship","id":"39","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"35","labels":["Animal"],"properties":{"name":"geese"}}}
+{"type":"relationship","id":"40","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"36","labels":["Animal"],"properties":{"name":"ducks"}}}
+{"type":"relationship","id":"41","label":"MENTIONED","start":{"id":"6","labels":["OlgaTapia"],"properties":{"name":"Olga Tapia"}},"end":{"id":"11","labels":["Animal"],"properties":{"name":"quails"}}}
+{"type":"relationship","id":"42","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"8","labels":["Animal"],"properties":{"name":"rabbits"}}}
+{"type":"relationship","id":"43","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"31","labels":["Animal"],"properties":{"name":"pigs"}}}
+{"type":"relationship","id":"44","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"32","labels":["Animal"],"properties":{"name":"birds"}}}
+{"type":"relationship","id":"45","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"33","labels":["Animal"],"properties":{"name":"chickens"}}}
+{"type":"relationship","id":"46","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"34","labels":["Animal"],"properties":{"name":"turkeys"}}}
+{"type":"relationship","id":"47","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"35","labels":["Animal"],"properties":{"name":"geese"}}}
+{"type":"relationship","id":"48","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"36","labels":["Animal"],"properties":{"name":"ducks"}}}
+{"type":"relationship","id":"49","label":"MENTIONED","start":{"id":"7","labels":["WikipediaArticle"],"properties":{"year":2021,"title":"Multicenter, Randomized, Double-Blind Study"}},"end":{"id":"11","labels":["Animal"],"properties":{"name":"quails"}}}

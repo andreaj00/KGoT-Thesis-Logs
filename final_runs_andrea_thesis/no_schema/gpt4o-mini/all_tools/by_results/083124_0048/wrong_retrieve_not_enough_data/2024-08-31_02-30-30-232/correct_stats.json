@@ -1,0 +1,42 @@
+[
+    {
+        "question_number": 4,
+        "correct_answer": "17",
+        "returned_answer": "17",
+        "successful": true,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. A web browser.\n2. A search engine.\n3. A calculator.",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 23,
+        "correct_answer": "Indonesia, Myanmar",
+        "returned_answer": "Indonesia, Vietnam",
+        "successful": false,
+        "level": "2",
+        "num_steps": "13",
+        "tools": "1. Search engine\n2. Web browser\n3. Microsoft Excel / Google Sheets",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 47,
+        "correct_answer": "To be or not to be that is the question whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune",
+        "returned_answer": "error during execution, skipped. cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/2b3ef98c-cc05-450b-a719-711aee40ac65.mp3'\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 140, in run\n    solution = self._solve_problem_iterative_knowledge_graph(problem)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 249, in _solve_problem_iterative_knowledge_graph\n    tools_results = self._invoke_tools_after_llm_response(tool_calls)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 395, in _invoke_tools_after_llm_response\n    tool_output = self._invoke_tool_with_retry(selected_tool, tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 330, in wrapped_f\n    return self(f, *args, **kw)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 467, in __call__\n    do = self.iter(retry_state=retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 368, in iter\n    result = action(retry_state)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 390, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 451, in result\n    return self.__get_result()\n  File \"/usr/lib/python3.10/concurrent/futures/_base.py\", line 403, in __get_result\n    raise self._exception\n  File \"/home/andrea/.local/lib/python3.10/site-packages/tenacity/__init__.py\", line 470, in __call__\n    result = fn(*args, **kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 353, in _invoke_tool_with_retry\n    tool_output = selected_tool.invoke(input=tool_args)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 422, in invoke\n    return self.run(tool_input, **kwargs)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 610, in run\n    raise error_to_raise\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/tools.py\", line 579, in run\n    response = context.run(self._run, *tool_args, **tool_kwargs)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 113, in _run\n    image_format = self.get_image_type(full_path_to_image).lower()  # Usually PNG or JPEG, but need png or jpeg\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/tools/ImageQuestionTool.py\", line 78, in get_image_type\n    with Image.open(file_path) as img:\n  File \"/home/andrea/.local/lib/python3.10/site-packages/PIL/Image.py\", line 3498, in open\n    raise UnidentifiedImageError(msg)\nPIL.UnidentifiedImageError: cannot identify image file '/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/dataset/attachments/validation/2b3ef98c-cc05-450b-a719-711aee40ac65.mp3'\n",
+        "successful": false,
+        "level": "2",
+        "num_steps": "14",
+        "tools": "1. A web browser\n2. A search engine\n3. A speech-to-text tool",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 84,
+        "correct_answer": "0.00033",
+        "returned_answer": "0.00000",
+        "successful": false,
+        "level": "3",
+        "num_steps": "9",
+        "tools": "1. CSV file access\n2. Web browser\n3. Search engine\n4. Calculator (or use Excel)",
+        "num_tools": "4"
+    }
+]

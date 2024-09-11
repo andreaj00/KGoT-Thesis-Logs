@@ -1,0 +1,16 @@
+{"type":"node","id":"0","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∧ B) ↔ (¬A ∨ ¬B)"}}
+{"type":"node","id":"1","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∨ B) ↔ (¬A ∧ ¬B)"}}
+{"type":"node","id":"2","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬B → ¬A)"}}
+{"type":"node","id":"3","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬A ∨ B)"}}
+{"type":"node","id":"4","labels":["Statement"],"properties":{"equivalent":false,"text":"(¬A → B) ↔ (A ∨ ¬B)"}}
+{"type":"node","id":"5","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A → B) ↔ (A ∧ ¬B)"}}
+{"type":"relationship","id":"0","label":"EQUIVALENT_TO","start":{"id":"0","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∧ B) ↔ (¬A ∨ ¬B)"}},"end":{"id":"1","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∨ B) ↔ (¬A ∧ ¬B)"}}}
+{"type":"relationship","id":"1","label":"EQUIVALENT_TO","start":{"id":"0","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∧ B) ↔ (¬A ∨ ¬B)"}},"end":{"id":"2","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬B → ¬A)"}}}
+{"type":"relationship","id":"2","label":"EQUIVALENT_TO","start":{"id":"0","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∧ B) ↔ (¬A ∨ ¬B)"}},"end":{"id":"3","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬A ∨ B)"}}}
+{"type":"relationship","id":"3","label":"EQUIVALENT_TO","start":{"id":"0","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∧ B) ↔ (¬A ∨ ¬B)"}},"end":{"id":"5","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A → B) ↔ (A ∧ ¬B)"}}}
+{"type":"relationship","id":"4","label":"EQUIVALENT_TO","start":{"id":"1","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∨ B) ↔ (¬A ∧ ¬B)"}},"end":{"id":"2","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬B → ¬A)"}}}
+{"type":"relationship","id":"5","label":"EQUIVALENT_TO","start":{"id":"1","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∨ B) ↔ (¬A ∧ ¬B)"}},"end":{"id":"3","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬A ∨ B)"}}}
+{"type":"relationship","id":"6","label":"EQUIVALENT_TO","start":{"id":"1","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A ∨ B) ↔ (¬A ∧ ¬B)"}},"end":{"id":"5","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A → B) ↔ (A ∧ ¬B)"}}}
+{"type":"relationship","id":"7","label":"EQUIVALENT_TO","start":{"id":"2","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬B → ¬A)"}},"end":{"id":"3","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬A ∨ B)"}}}
+{"type":"relationship","id":"8","label":"EQUIVALENT_TO","start":{"id":"2","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬B → ¬A)"}},"end":{"id":"5","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A → B) ↔ (A ∧ ¬B)"}}}
+{"type":"relationship","id":"9","label":"EQUIVALENT_TO","start":{"id":"3","labels":["Statement"],"properties":{"equivalent":true,"text":"(A → B) ↔ (¬A ∨ B)"}},"end":{"id":"5","labels":["Statement"],"properties":{"equivalent":true,"text":"¬(A → B) ↔ (A ∧ ¬B)"}}}

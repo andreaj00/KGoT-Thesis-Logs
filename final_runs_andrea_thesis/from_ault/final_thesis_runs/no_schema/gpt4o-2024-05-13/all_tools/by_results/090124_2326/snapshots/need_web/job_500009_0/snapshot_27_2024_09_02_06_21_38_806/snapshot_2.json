@@ -1,0 +1,6 @@
+{"type":"node","id":"71","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"The Influence of Social Environment on Sex Determination in Harlequin Shrimp (Hymenocera Picta: Decapoda, Gnathophyllidae)"}}
+{"type":"node","id":"72","labels":["SeaStar"],"properties":{"length_cm":1}}
+{"type":"node","id":"73","labels":["Paper"],"properties":{"year":2017,"author":"Omar Valencfia-Mendez","title":"Omar Valencfia-Mendez 2017 paper"}}
+{"type":"node","id":"74","labels":["HarlequinShrimp"],"properties":{"total_length":"unknown"}}
+{"type":"relationship","id":"152","label":"RECORDED","start":{"id":"71","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"The Influence of Social Environment on Sex Determination in Harlequin Shrimp (Hymenocera Picta: Decapoda, Gnathophyllidae)"}},"end":{"id":"72","labels":["SeaStar"],"properties":{"length_cm":1}}}
+{"type":"relationship","id":"153","label":"RECORDED","start":{"id":"73","labels":["Paper"],"properties":{"year":2017,"author":"Omar Valencfia-Mendez","title":"Omar Valencfia-Mendez 2017 paper"}},"end":{"id":"74","labels":["HarlequinShrimp"],"properties":{"total_length":"unknown"}}}

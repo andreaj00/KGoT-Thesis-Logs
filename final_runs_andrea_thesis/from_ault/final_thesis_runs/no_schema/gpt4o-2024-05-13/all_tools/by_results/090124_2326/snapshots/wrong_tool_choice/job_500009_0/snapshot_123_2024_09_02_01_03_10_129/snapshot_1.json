@@ -1,0 +1,5 @@
+{"type":"node","id":"33","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"34","labels":["Event"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"35","labels":["Round"],"properties":{"name":"Final Round"}}
+{"type":"relationship","id":"0","label":"PARTICIPATED_IN","start":{"id":"33","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"1","label":"PART_OF","start":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}

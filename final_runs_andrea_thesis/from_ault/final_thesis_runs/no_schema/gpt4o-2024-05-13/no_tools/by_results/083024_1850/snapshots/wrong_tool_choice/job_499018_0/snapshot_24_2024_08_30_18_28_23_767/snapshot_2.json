@@ -1,0 +1,15 @@
+{"type":"node","id":"5","labels":["Compound"],"properties":{"complexity":12.3,"name":"Ethylene oxide","pubchem_cid":6354,"heavy_atoms":6,"molecular_weight":44.05,"hydrogen_bond_acceptors":1}}
+{"type":"node","id":"6","labels":["Enzyme"],"properties":{"ec_number":"3.3.2.3","name":"Epoxide hydrolase"}}
+{"type":"node","id":"7","labels":["Enzyme"],"properties":{"name":"Cytochrome P450","isoform":"CYP2E1"}}
+{"type":"node","id":"8","labels":["Product"],"properties":{"name":"Ethylene glycol"}}
+{"type":"node","id":"9","labels":["Product"],"properties":{"name":"Glycolaldehyde"}}
+{"type":"node","id":"10","labels":["Gene"],"properties":{"name":"EPHX1"}}
+{"type":"node","id":"11","labels":["Gene"],"properties":{"name":"EPHX2"}}
+{"type":"node","id":"12","labels":["Gene"],"properties":{"name":"CYP2E1"}}
+{"type":"relationship","id":"128","label":"ENCODES","start":{"id":"10","labels":["Gene"],"properties":{"name":"EPHX1"}},"end":{"id":"6","labels":["Enzyme"],"properties":{"ec_number":"3.3.2.3","name":"Epoxide hydrolase"}}}
+{"type":"relationship","id":"129","label":"ENCODES","start":{"id":"11","labels":["Gene"],"properties":{"name":"EPHX2"}},"end":{"id":"6","labels":["Enzyme"],"properties":{"ec_number":"3.3.2.3","name":"Epoxide hydrolase"}}}
+{"type":"relationship","id":"57","label":"TRANSFORMED_BY","start":{"id":"5","labels":["Compound"],"properties":{"complexity":12.3,"name":"Ethylene oxide","pubchem_cid":6354,"heavy_atoms":6,"molecular_weight":44.05,"hydrogen_bond_acceptors":1}},"end":{"id":"6","labels":["Enzyme"],"properties":{"ec_number":"3.3.2.3","name":"Epoxide hydrolase"}}}
+{"type":"relationship","id":"58","label":"PRODUCES","start":{"id":"6","labels":["Enzyme"],"properties":{"ec_number":"3.3.2.3","name":"Epoxide hydrolase"}},"end":{"id":"8","labels":["Product"],"properties":{"name":"Ethylene glycol"}}}
+{"type":"relationship","id":"59","label":"TRANSFORMED_BY","start":{"id":"5","labels":["Compound"],"properties":{"complexity":12.3,"name":"Ethylene oxide","pubchem_cid":6354,"heavy_atoms":6,"molecular_weight":44.05,"hydrogen_bond_acceptors":1}},"end":{"id":"7","labels":["Enzyme"],"properties":{"name":"Cytochrome P450","isoform":"CYP2E1"}}}
+{"type":"relationship","id":"60","label":"PRODUCES","start":{"id":"7","labels":["Enzyme"],"properties":{"name":"Cytochrome P450","isoform":"CYP2E1"}},"end":{"id":"9","labels":["Product"],"properties":{"name":"Glycolaldehyde"}}}
+{"type":"relationship","id":"61","label":"ENCODES","start":{"id":"12","labels":["Gene"],"properties":{"name":"CYP2E1"}},"end":{"id":"7","labels":["Enzyme"],"properties":{"name":"Cytochrome P450","isoform":"CYP2E1"}}}

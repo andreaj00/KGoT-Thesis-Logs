@@ -1,0 +1,11 @@
+{"type":"node","id":"41","labels":["Museum"],"properties":{"name":"Whitney Museum of American Art"}}
+{"type":"node","id":"42","labels":["Photograph"],"properties":{"accession_number":"2022.128","creator":"Buck Ellison","year":2021,"medium":"inkjet print","title":"Rain in Rifle Season, Distributions from Split-Interest Trusts, Price Includes Uniform, Never Hit Soft","dimensions":"40 × 53 1/4 inches"}}
+{"type":"node","id":"43","labels":["Subject"],"properties":{"name":"Erik Prince"}}
+{"type":"node","id":"44","labels":["Book"],"properties":{"author":"Carl von Clausewitz","title":"On War"}}
+{"type":"node","id":"45","labels":["Author"],"properties":{"name":"Carl von Clausewitz"}}
+{"type":"node","id":"46","labels":["MilitaryUnit"],"properties":{"name":"Prussian Army"}}
+{"type":"relationship","id":"50","label":"HAS_PHOTOGRAPH","start":{"id":"41","labels":["Museum"],"properties":{"name":"Whitney Museum of American Art"}},"end":{"id":"42","labels":["Photograph"],"properties":{"accession_number":"2022.128","creator":"Buck Ellison","year":2021,"medium":"inkjet print","title":"Rain in Rifle Season, Distributions from Split-Interest Trusts, Price Includes Uniform, Never Hit Soft","dimensions":"40 × 53 1/4 inches"}}}
+{"type":"relationship","id":"51","label":"DEPICTS","start":{"id":"42","labels":["Photograph"],"properties":{"accession_number":"2022.128","creator":"Buck Ellison","year":2021,"medium":"inkjet print","title":"Rain in Rifle Season, Distributions from Split-Interest Trusts, Price Includes Uniform, Never Hit Soft","dimensions":"40 × 53 1/4 inches"}},"end":{"id":"43","labels":["Subject"],"properties":{"name":"Erik Prince"}}}
+{"type":"relationship","id":"52","label":"HOLDS","start":{"id":"43","labels":["Subject"],"properties":{"name":"Erik Prince"}},"end":{"id":"44","labels":["Book"],"properties":{"author":"Carl von Clausewitz","title":"On War"}}}
+{"type":"relationship","id":"53","label":"WRITTEN_BY","start":{"id":"44","labels":["Book"],"properties":{"author":"Carl von Clausewitz","title":"On War"}},"end":{"id":"45","labels":["Author"],"properties":{"name":"Carl von Clausewitz"}}}
+{"type":"relationship","id":"54","label":"JOINED_IN","properties":{"year":1813},"start":{"id":"45","labels":["Author"],"properties":{"name":"Carl von Clausewitz"}},"end":{"id":"46","labels":["MilitaryUnit"],"properties":{"name":"Prussian Army"}}}

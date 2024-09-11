@@ -1,0 +1,3 @@
+{"type":"node","id":"48","labels":["Scientist"],"properties":{"name":"Herbert A. Simon"}}
+{"type":"node","id":"49","labels":["Video"],"properties":{"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}
+{"type":"relationship","id":"3","label":"PREDICTED","start":{"id":"48","labels":["Scientist"],"properties":{"name":"Herbert A. Simon"}},"end":{"id":"49","labels":["Video"],"properties":{"title":"The Thinking Machine (Artificial Intelligence in the 1960s)"}}}

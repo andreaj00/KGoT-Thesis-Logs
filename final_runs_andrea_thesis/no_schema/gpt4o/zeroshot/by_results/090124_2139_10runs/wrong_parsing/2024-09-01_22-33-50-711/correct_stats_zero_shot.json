@@ -1,0 +1,62 @@
+[
+    {
+        "question_number": 15,
+        "correct_answer": "6",
+        "returned_answer": "To determine how many cups of honey you need to remove to make its weight less than that of a gallon of mayonnaise, we need to use the density values of both substances. According to the chemistry materials licensed by Marisa Alviar-Agnew & Henry Agnew under the CK-12 license in LibreText's Introductory Chemistry materials, the densities are as follows:\n\n- Density of honey at 25\u00b0C: approximately 1.42 g/mL\n- Density of mayonnaise at 25\u00b0C: approximately 0.94 g/mL\n\nFirst, let's convert the volume of a gallon to milliliters (mL):\n\n1 gallon = 3.78541 liters = 3785.41 mL\n\nNext, we calculate the mass of a gallon of honey and a gallon of mayonnaise:\n\n**Mass of a gallon of honey:**\n\\[ \\text{Mass} = \\text{Density} \\times \\text{Volume} \\]\n\\[ \\text{Mass}_{\\text{honey}} = 1.42 \\, \\text{g/mL} \\times 3785.41 \\, \\text{mL} \\]\n\\[ \\text{Mass}_{\\text{honey}} \\approx 5375.28 \\, \\text{g} \\]\n\n**Mass of a gallon of mayonnaise:**\n\\[ \\text{Mass} = \\text{Density} \\times \\text{Volume} \\]\n\\[ \\text{Mass}_{\\text{mayo}} = 0.94 \\, \\text{g/mL} \\times 3785.41 \\, \\text{mL} \\]\n\\[ \\text{Mass}_{\\text{mayo}} \\approx 3558.28 \\, \\text{g} \\]\n\nNow, we need to determine how many cups of honey need to be removed to make the remaining honey weigh less than the mayonnaise. \n\n1 cup = 237 mL\n\n**Mass of one cup of honey:**\n\\[ \\text{Mass}_{\\text{cup}} = 1.42 \\, \\text{g/mL} \\times 237 \\, \\text{mL} \\]\n\\[ \\text{Mass}_{\\text{cup}} \\approx 336.54 \\, \\text{g} \\]\n\nWe need to find the number of cups \\( n \\) such that the remaining mass of honey is less than the mass of the mayonnaise:\n\n\\[ 5375.28 \\, \\text{g} - n \\times 336.54 \\, \\text{g} < 3558.28 \\, \\text{g} \\]\n\nSolving for \\( n \\):\n\n\\[ 5375.28 - 336.54n < 3558.28 \\]\n\\[ 5375.28 - 3558.28 < 336.54n \\]\n\\[ 1817 < 336.54n \\]\n\\[ n > \\frac{1817}{336.54} \\]\n\\[ n > 5.4 \\]\n\nSince you can't remove a fraction of a cup, you need to remove at least 6 cups of honey to make its weight less than that of a gallon of mayonnaise.\n\nTherefore, you will need to remove 6 cups of honey.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 74,
+        "correct_answer": "Shelley's place",
+        "returned_answer": "Based on the information provided in the attached file, the best available place for a family that enjoys swimming and wants a full house would be **Shelley's Place**. Here are the reasons why:\n\n1. **Vacancy**: Shelley's Place is available.\n2. **Pool**: Shelley's Place has a pool, which is great for a family that enjoys swimming.\n3. **Full House**: Shelley's Place is a rental house, providing the full house experience the family desires.\n\nWhile there are other accommodations with pools, such as hotels and motels, they do not offer the full house experience. Shelley's Place meets both criteria of having a pool and being a full house.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. PDF viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 78,
+        "correct_answer": "Guava",
+        "returned_answer": "Guava",
+        "successful": true,
+        "level": "1",
+        "num_steps": "1",
+        "tools": "None",
+        "num_tools": ""
+    },
+    {
+        "question_number": 108,
+        "correct_answer": "Hotels",
+        "returned_answer": "To determine which type of accommodation has a higher average rating in Seahorse Island, we need to calculate the average rating for each category: Hotels, Motels, Rental Houses, and Campgrounds.\n\n### Hotels\n- Neptune's Palace: 5\n- Admiral Sturgeon: 5\n- Currents: 4\n- The Laughing Gull: 3\n- Loach Towers: 2\n\n**Average Rating for Hotels:**\n(5 + 5 + 4 + 3 + 2) / 5 = 19 / 5 = 3.8\n\n### Motels\n- Sea Escape Inn: 5\n- Wash Inn: 3\n- Boulevard Motel: 2\n- Good Motel: 1\n- Sea Larva Motel: 0\n\n**Average Rating for Motels:**\n(5 + 3 + 2 + 1 + 0) / 5 = 11 / 5 = 2.2\n\n### Rental Houses\n- Cape Super: 4\n- Bleek Island: 3\n- Pinedrift Avenue: 4\n- Ocean and Main: 5\n- 4th Street Cottage: 5\n- Shelley's Place: 4\n- Creakwood Creek: 3\n- Headrush Beach: 3\n- Shiplap Cabin: 3\n- Haddonfield House: 1\n\n**Average Rating for Rental Houses:**\n(4 + 3 + 4 + 5 + 5 + 4 + 3 + 3 + 3 + 1) / 10 = 35 / 10 = 3.5\n\n### Campgrounds\n- The Glampground: 4\n- Gull Crest: 5\n- Barnacle Isle: 3\n- Cozy Wood: 4\n- Gravel Lot Campground: 1\n\n**Average Rating for Campgrounds:**\n(4 + 5 + 3 + 4 + 1) / 5 = 17 / 5 = 3.4\n\n### Summary\n- **Hotels:** 3.8\n- **Motels:** 2.2\n- **Rental Houses:** 3.5\n- **Campgrounds:** 3.4\n\nThe type of accommodation with the highest average rating in Seahorse Island is **Hotels** with an average rating of 3.8.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. PDF viewer\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 118,
+        "correct_answer": "56000",
+        "returned_answer": "The longest-lived vertebrate is the Greenland shark, named after Greenland. According to Wikipedia as of January 1, 2021, the estimated population of Greenland in 2020 is approximately 56,000.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to Wikipedia\n4. Natural language processor",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 130,
+        "correct_answer": "Braintree, Honolulu",
+        "returned_answer": "Honolulu, Norfolk",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "3"
+    }
+]

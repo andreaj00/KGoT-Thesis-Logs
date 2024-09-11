@@ -1,0 +1,25 @@
+{"type":"node","id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}}
+{"type":"node","id":"18","labels":["Animal"],"properties":{"name":"Rat"}}
+{"type":"node","id":"19","labels":["Animal"],"properties":{"name":"Ox"}}
+{"type":"node","id":"20","labels":["Animal"],"properties":{"name":"Tiger"}}
+{"type":"node","id":"21","labels":["Animal"],"properties":{"name":"Rabbit"}}
+{"type":"node","id":"22","labels":["Animal"],"properties":{"name":"Dragon"}}
+{"type":"node","id":"23","labels":["Animal"],"properties":{"name":"Snake"}}
+{"type":"node","id":"24","labels":["Animal"],"properties":{"name":"Horse"}}
+{"type":"node","id":"25","labels":["Animal"],"properties":{"name":"Goat"}}
+{"type":"node","id":"26","labels":["Animal"],"properties":{"name":"Monkey","hasVisibleHand":true}}
+{"type":"node","id":"27","labels":["Animal"],"properties":{"name":"Rooster"}}
+{"type":"node","id":"28","labels":["Animal"],"properties":{"name":"Dog"}}
+{"type":"node","id":"29","labels":["Animal"],"properties":{"name":"Pig"}}
+{"type":"relationship","id":"128","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"27","labels":["Animal"],"properties":{"name":"Rooster"}}}
+{"type":"relationship","id":"129","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"28","labels":["Animal"],"properties":{"name":"Dog"}}}
+{"type":"relationship","id":"130","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"29","labels":["Animal"],"properties":{"name":"Pig"}}}
+{"type":"relationship","id":"71","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"18","labels":["Animal"],"properties":{"name":"Rat"}}}
+{"type":"relationship","id":"72","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"19","labels":["Animal"],"properties":{"name":"Ox"}}}
+{"type":"relationship","id":"73","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"20","labels":["Animal"],"properties":{"name":"Tiger"}}}
+{"type":"relationship","id":"74","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"21","labels":["Animal"],"properties":{"name":"Rabbit"}}}
+{"type":"relationship","id":"75","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"22","labels":["Animal"],"properties":{"name":"Dragon"}}}
+{"type":"relationship","id":"124","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"23","labels":["Animal"],"properties":{"name":"Snake"}}}
+{"type":"relationship","id":"125","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"24","labels":["Animal"],"properties":{"name":"Horse"}}}
+{"type":"relationship","id":"126","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"25","labels":["Animal"],"properties":{"name":"Goat"}}}
+{"type":"relationship","id":"127","label":"FEATURED","start":{"id":"17","labels":["Exhibition"],"properties":{"year":2015,"name":"Celebrating the Year of the Ram"}},"end":{"id":"26","labels":["Animal"],"properties":{"name":"Monkey","hasVisibleHand":true}}}

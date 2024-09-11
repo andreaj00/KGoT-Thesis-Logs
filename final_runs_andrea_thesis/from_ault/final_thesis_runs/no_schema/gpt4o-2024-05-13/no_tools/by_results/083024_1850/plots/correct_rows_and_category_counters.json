@@ -1,0 +1,40 @@
+{
+    "correct_rows": [
+        132,
+        5,
+        6,
+        135,
+        7,
+        4,
+        140,
+        143,
+        21,
+        23,
+        35,
+        39,
+        40,
+        49,
+        61,
+        64,
+        93,
+        105,
+        109,
+        119,
+        122,
+        125
+    ],
+    "category_counters": {
+        "spreadsheet_tools": 3,
+        "search_information_tools": 14,
+        "no_tools": 1,
+        "text_processing_analysis_tools": 3,
+        "pdf_tools": 2,
+        "audio_tools": 2,
+        "calculator": 4,
+        "programming_code_tools": 1,
+        "image_recognition_processing_tools": 2,
+        "specialized_tools": 1,
+        "video_tools": 1,
+        "search_location_tools": 1
+    }
+}

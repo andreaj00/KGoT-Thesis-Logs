@@ -1,0 +1,17 @@
+{"type":"node","id":"0"}
+{"type":"node","id":"1","labels":["ZipCode"],"properties":{"code":"33141"}}
+{"type":"node","id":"2","labels":["ZipCode"],"properties":{"code":"33160"}}
+{"type":"node","id":"3"}
+{"type":"node","id":"4","labels":["ZipCode"],"properties":{"code":"33480"}}
+{"type":"node","id":"5"}
+{"type":"node","id":"64","labels":["Species"],"properties":{"name":"Ocellaris Clownfish","scientific_name":"Amphiprion ocellaris"}}
+{"type":"node","id":"65","labels":["Location"],"properties":{"name":"Florida"}}
+{"type":"node","id":"66","labels":["ZipCode"],"properties":{"code":"33139"}}
+{"type":"node","id":"67","labels":["ZipCode"],"properties":{"code":"33140"}}
+{"type":"node","id":"68"}
+{"type":"relationship","id":"24","label":"FOUND_IN","start":{"id":"64","labels":["Species"],"properties":{"name":"Ocellaris Clownfish","scientific_name":"Amphiprion ocellaris"}},"end":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}}}
+{"type":"relationship","id":"25","label":"HAS_ZIP_CODE","start":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}},"end":{"id":"66","labels":["ZipCode"],"properties":{"code":"33139"}}}
+{"type":"relationship","id":"26","label":"HAS_ZIP_CODE","start":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}},"end":{"id":"0"}}
+{"type":"relationship","id":"27","label":"HAS_ZIP_CODE","start":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}},"end":{"id":"68"}}
+{"type":"relationship","id":"28","label":"HAS_ZIP_CODE","start":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}},"end":{"id":"3"}}
+{"type":"relationship","id":"29","label":"HAS_ZIP_CODE","start":{"id":"65","labels":["Location"],"properties":{"name":"Florida"}},"end":{"id":"5"}}

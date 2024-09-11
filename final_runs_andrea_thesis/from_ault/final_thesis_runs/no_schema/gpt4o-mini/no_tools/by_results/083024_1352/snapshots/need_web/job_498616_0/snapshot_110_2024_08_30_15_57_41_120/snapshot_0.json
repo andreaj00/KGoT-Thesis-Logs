@@ -1,0 +1,7 @@
+{"type":"node","id":"71","labels":["PredictorBaseCommand"],"properties":{"name":"BaseEstimator"}}
+{"type":"node","id":"72","labels":["PredictorBaseCommand"],"properties":{"name":"ClassifierMixin"}}
+{"type":"node","id":"73","labels":["PredictorBaseCommand"],"properties":{"name":"RegressorMixin"}}
+{"type":"node","id":"74","labels":["Version"],"properties":{"number":"0.19.0","release_date":"July 2017"}}
+{"type":"relationship","id":"3","label":"INCLUDES","start":{"id":"74","labels":["Version"],"properties":{"number":"0.19.0","release_date":"July 2017"}},"end":{"id":"71","labels":["PredictorBaseCommand"],"properties":{"name":"BaseEstimator"}}}
+{"type":"relationship","id":"4","label":"INCLUDES","start":{"id":"74","labels":["Version"],"properties":{"number":"0.19.0","release_date":"July 2017"}},"end":{"id":"72","labels":["PredictorBaseCommand"],"properties":{"name":"ClassifierMixin"}}}
+{"type":"relationship","id":"5","label":"INCLUDES","start":{"id":"74","labels":["Version"],"properties":{"number":"0.19.0","release_date":"July 2017"}},"end":{"id":"73","labels":["PredictorBaseCommand"],"properties":{"name":"RegressorMixin"}}}

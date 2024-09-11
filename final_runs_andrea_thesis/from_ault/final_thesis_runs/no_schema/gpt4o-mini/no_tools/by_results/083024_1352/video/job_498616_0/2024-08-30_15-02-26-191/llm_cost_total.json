@@ -1,0 +1,68 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 294375,
+        "TotalCompletionTokens": 6449,
+        "TotalCost": 0.04802299999999998,
+        "TotalDuration": 172.67646193504333
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 15133,
+        "TotalCompletionTokens": 851,
+        "TotalCost": 0.0027749999999999997,
+        "TotalDuration": 28.071329355239868
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 59219,
+        "TotalCompletionTokens": 2145,
+        "TotalCost": 0.010169999999999998,
+        "TotalDuration": 43.50469398498535
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 1879,
+        "TotalCompletionTokens": 2286,
+        "TotalCost": 0.001653,
+        "TotalDuration": 39.29905605316162
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 39.32741928100586
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 40080,
+        "TotalCompletionTokens": 620,
+        "TotalCost": 0.0063869999999999994,
+        "TotalDuration": 26.976901054382324
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 575,
+        "TotalCompletionTokens": 80,
+        "TotalCost": 0.000134,
+        "TotalDuration": 1.481074333190918
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 17679,
+        "TotalCompletionTokens": 136,
+        "TotalCost": 0.002732000000000001,
+        "TotalDuration": 9.803216934204102
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 44886,
+        "TotalCompletionTokens": 720,
+        "TotalCost": 0.007157999999999999,
+        "TotalDuration": 34.97248554229736
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 4103,
+        "TotalCompletionTokens": 65,
+        "TotalCost": 0.000655,
+        "TotalDuration": 2.743295431137085
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 477929,
+        "TotalCompletionTokens": 13352,
+        "TotalCost": 0.07968699999999979,
+        "TotalDuration": 398.8559339046478
+    }
+}

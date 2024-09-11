@@ -1,0 +1,7 @@
+{"type":"node","id":"10","labels":["Pitcher"],"properties":{"lastName":"Tamai","firstName":"Taishō","jerseyNumber":12}}
+{"type":"node","id":"11","labels":["Pitcher"],"properties":{"lastName":"Miyagi","jerseyNumber":11}}
+{"type":"node","id":"12","labels":["Pitcher"],"properties":{"lastName":"Udagawa","jerseyNumber":13}}
+{"type":"relationship","id":"117","label":"BEFORE","start":{"id":"11","labels":["Pitcher"],"properties":{"lastName":"Miyagi","jerseyNumber":11}},"end":{"id":"10","labels":["Pitcher"],"properties":{"lastName":"Tamai","firstName":"Taishō","jerseyNumber":12}}}
+{"type":"relationship","id":"118","label":"AFTER","start":{"id":"10","labels":["Pitcher"],"properties":{"lastName":"Tamai","firstName":"Taishō","jerseyNumber":12}},"end":{"id":"11","labels":["Pitcher"],"properties":{"lastName":"Miyagi","jerseyNumber":11}}}
+{"type":"relationship","id":"119","label":"BEFORE","start":{"id":"10","labels":["Pitcher"],"properties":{"lastName":"Tamai","firstName":"Taishō","jerseyNumber":12}},"end":{"id":"12","labels":["Pitcher"],"properties":{"lastName":"Udagawa","jerseyNumber":13}}}
+{"type":"relationship","id":"120","label":"AFTER","start":{"id":"12","labels":["Pitcher"],"properties":{"lastName":"Udagawa","jerseyNumber":13}},"end":{"id":"10","labels":["Pitcher"],"properties":{"lastName":"Tamai","firstName":"Taishō","jerseyNumber":12}}}

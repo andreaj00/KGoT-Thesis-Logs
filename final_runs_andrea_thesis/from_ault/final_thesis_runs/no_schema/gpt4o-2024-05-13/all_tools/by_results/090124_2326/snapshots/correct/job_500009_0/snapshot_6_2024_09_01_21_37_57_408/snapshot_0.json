@@ -1,0 +1,3 @@
+{"type":"node","id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}}
+{"type":"node","id":"1","labels":["Album"],"properties":{"year":2005,"label":"Edge","title":"Corazón Libre"}}
+{"type":"relationship","id":"0","label":"PUBLISHED","start":{"id":"0","labels":["Artist"],"properties":{"name":"Mercedes Sosa"}},"end":{"id":"1","labels":["Album"],"properties":{"year":2005,"label":"Edge","title":"Corazón Libre"}}}

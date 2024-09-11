@@ -1,0 +1,12 @@
+{"type":"node","id":"75","labels":["Document"],"properties":{"name":"NIH translation of the original 1913 Michaelis-Menten Paper"}}
+{"type":"node","id":"76","labels":["Equation"],"properties":{"description":"final equation in the paper"}}
+{"type":"node","id":"77","labels":["Reaction"],"properties":{"number":7}}
+{"type":"node","id":"78","labels":["Substrate"],"properties":{"concentration":72.3}}
+{"type":"node","id":"79","labels":["CatalyticConstant"],"properties":{"value":0.0429}}
+{"type":"node","id":"80","labels":["MentenConstant"],"properties":{"value":0.052}}
+{"type":"node","id":"81","labels":["ObservationNote"],"properties":{"note":"Appendix C2.1"}}
+{"type":"relationship","id":"144","label":"HAS_SUBSTRATE","start":{"id":"77","labels":["Reaction"],"properties":{"number":7}},"end":{"id":"78","labels":["Substrate"],"properties":{"concentration":72.3}}}
+{"type":"relationship","id":"145","label":"HAS_CATALYTIC_CONSTANT","start":{"id":"77","labels":["Reaction"],"properties":{"number":7}},"end":{"id":"79","labels":["CatalyticConstant"],"properties":{"value":0.0429}}}
+{"type":"relationship","id":"146","label":"HAS_MENTEN_CONSTANT","start":{"id":"77","labels":["Reaction"],"properties":{"number":7}},"end":{"id":"80","labels":["MentenConstant"],"properties":{"value":0.052}}}
+{"type":"relationship","id":"147","label":"HAS_OBSERVATION_NOTE","start":{"id":"77","labels":["Reaction"],"properties":{"number":7}},"end":{"id":"81","labels":["ObservationNote"],"properties":{"note":"Appendix C2.1"}}}
+{"type":"relationship","id":"143","label":"CONTAINS","start":{"id":"75","labels":["Document"],"properties":{"name":"NIH translation of the original 1913 Michaelis-Menten Paper"}},"end":{"id":"76","labels":["Equation"],"properties":{"description":"final equation in the paper"}}}

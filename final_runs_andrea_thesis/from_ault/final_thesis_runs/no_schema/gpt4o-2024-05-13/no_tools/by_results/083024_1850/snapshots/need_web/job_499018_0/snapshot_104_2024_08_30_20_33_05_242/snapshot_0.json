@@ -1,0 +1,7 @@
+{"type":"node","id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}}
+{"type":"node","id":"22","labels":["Fruit"],"properties":{"name":"pomegranates"}}
+{"type":"node","id":"23","labels":["Fruit"],"properties":{"name":"grapes"}}
+{"type":"node","id":"24","labels":["Fruit"],"properties":{"name":"melons"}}
+{"type":"relationship","id":"113","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"22","labels":["Fruit"],"properties":{"name":"pomegranates"}}}
+{"type":"relationship","id":"114","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"23","labels":["Fruit"],"properties":{"name":"grapes"}}}
+{"type":"relationship","id":"115","label":"FEATURES","start":{"id":"21","labels":["Painting"],"properties":{"year":2008,"artist":"Vladimir Tretchikoff","title":"Embroidery from Uzbekistan"}},"end":{"id":"24","labels":["Fruit"],"properties":{"name":"melons"}}}

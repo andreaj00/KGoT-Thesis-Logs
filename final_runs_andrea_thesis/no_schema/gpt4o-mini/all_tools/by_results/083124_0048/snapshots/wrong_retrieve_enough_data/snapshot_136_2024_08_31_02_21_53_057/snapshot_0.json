@@ -1,0 +1,3 @@
+{"type":"node","id":"41","labels":["Team"],"properties":{"year":1977,"name":"New York Yankees"}}
+{"type":"node","id":"42","labels":["Player"],"properties":{"walks":82,"name":"Reggie Jackson","at_bats":525}}
+{"type":"relationship","id":"13","label":"HAS_PLAYER","start":{"id":"41","labels":["Team"],"properties":{"year":1977,"name":"New York Yankees"}},"end":{"id":"42","labels":["Player"],"properties":{"walks":82,"name":"Reggie Jackson","at_bats":525}}}

@@ -1,0 +1,110 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 245690,
+        "TotalCompletionTokens": 4909,
+        "TotalCost": 0.03978899999999999,
+        "TotalDuration": 111.18293261528015
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 9652,
+        "TotalCompletionTokens": 650,
+        "TotalCost": 0.001836,
+        "TotalDuration": 18.627635717391968
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 82701,
+        "TotalCompletionTokens": 1341,
+        "TotalCost": 0.013208000000000001,
+        "TotalDuration": 33.51654624938965
+    },
+    "ask_LLM_which_article_to_explore": {
+        "TotalPromptTokens": 14227,
+        "TotalCompletionTokens": 114,
+        "TotalCost": 0.002203,
+        "TotalDuration": 4.33793568611145
+    },
+    "get_page_content": {
+        "TotalPromptTokens": 186956,
+        "TotalCompletionTokens": 1651,
+        "TotalCost": 0.029033,
+        "TotalDuration": 42.0161612033844
+    },
+    "wikipedia_search_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 289.7082803249359
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 49572,
+        "TotalCompletionTokens": 27863,
+        "TotalCost": 0.024155,
+        "TotalDuration": 349.0091784000397
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 21976,
+        "TotalCompletionTokens": 8088,
+        "TotalCost": 0.008149,
+        "TotalDuration": 87.5671968460083
+    },
+    "define_retrieve_query": {
+        "TotalPromptTokens": 4289,
+        "TotalCompletionTokens": 600,
+        "TotalCost": 0.0010040000000000001,
+        "TotalDuration": 8.85827350616455
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 20289,
+        "TotalCompletionTokens": 168,
+        "TotalCost": 0.0031490000000000008,
+        "TotalDuration": 10.066815376281738
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 57670,
+        "TotalCompletionTokens": 9560,
+        "TotalCost": 0.5143890000000001,
+        "TotalDuration": 229.27034425735474
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 54297,
+        "TotalCompletionTokens": 2359,
+        "TotalCost": 0.009553999999999998,
+        "TotalDuration": 51.25195550918579
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 6978,
+        "TotalCompletionTokens": 78,
+        "TotalCost": 0.001093,
+        "TotalDuration": 2.4178476333618164
+    },
+    "load_documents_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 6.059459924697876
+    },
+    "fix_json": {
+        "TotalPromptTokens": 143666,
+        "TotalCompletionTokens": 67938,
+        "TotalCost": 0.06231,
+        "TotalDuration": 739.1305773258209
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 350,
+        "TotalCompletionTokens": 6751,
+        "TotalCost": 0.004102,
+        "TotalDuration": 67.59558868408203
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 67.60260057449341
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 898313,
+        "TotalCompletionTokens": 132070,
+        "TotalCost": 0.7139739999999994,
+        "TotalDuration": 2118.2193298339844
+    }
+}

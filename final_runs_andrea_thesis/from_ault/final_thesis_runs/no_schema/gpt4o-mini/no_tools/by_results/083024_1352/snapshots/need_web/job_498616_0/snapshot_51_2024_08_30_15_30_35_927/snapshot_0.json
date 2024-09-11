@@ -1,0 +1,7 @@
+{"type":"node","id":"0","labels":["Cardinal"],"properties":{"became_pope":true,"name":"Giovanni Antonio Facchinetti","title":"Cardinal"}}
+{"type":"node","id":"1","labels":["Cardinal"],"properties":{"became_pope":true,"name":"Giovanni Battista Castagna","title":"Cardinal"}}
+{"type":"node","id":"62","labels":["Portrait"],"properties":{"accession_number":"29.100.5"}}
+{"type":"node","id":"63","labels":["Bishop"],"properties":{"consecration_date":"1560-03-12","became_pope":true,"name":"Giovanni Battista de Medici","title":"Bishop"}}
+{"type":"relationship","id":"9","label":"CONSECRATED","start":{"id":"0","labels":["Cardinal"],"properties":{"became_pope":true,"name":"Giovanni Antonio Facchinetti","title":"Cardinal"}},"end":{"id":"63","labels":["Bishop"],"properties":{"consecration_date":"1560-03-12","became_pope":true,"name":"Giovanni Battista de Medici","title":"Bishop"}}}
+{"type":"relationship","id":"10","label":"CO_CONSECRATED","start":{"id":"1","labels":["Cardinal"],"properties":{"became_pope":true,"name":"Giovanni Battista Castagna","title":"Cardinal"}},"end":{"id":"63","labels":["Bishop"],"properties":{"consecration_date":"1560-03-12","became_pope":true,"name":"Giovanni Battista de Medici","title":"Bishop"}}}
+{"type":"relationship","id":"11","label":"HAS_PORTRAIT","start":{"id":"63","labels":["Bishop"],"properties":{"consecration_date":"1560-03-12","became_pope":true,"name":"Giovanni Battista de Medici","title":"Bishop"}},"end":{"id":"62","labels":["Portrait"],"properties":{"accession_number":"29.100.5"}}}

@@ -1,0 +1,19 @@
+{"type":"node","id":"14","labels":["Iteration"],"properties":{"number":4,"f_x_n":2.0E-4,"x_n":-4.93948,"x_n_plus_1":-4.93949,"f_prime_x_n":30.69}}
+{"type":"node","id":"15","labels":["Iteration"],"properties":{"number":5,"f_x_n":0,"x_n":-4.93949,"x_n_plus_1":-4.93949,"f_prime_x_n":30.69}}
+{"type":"node","id":"16","labels":["Convergence"],"properties":{"smallest_n":4,"decimal_places":4}}
+{"type":"node","id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}
+{"type":"node","id":"100","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}
+{"type":"node","id":"101","labels":["InitialGuess"],"properties":{"value":-5}}
+{"type":"node","id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}
+{"type":"node","id":"103","labels":["Iteration"],"properties":{"number":1,"f_x_n":-2,"x_n":-5,"x_n_plus_1":-4.9375,"f_prime_x_n":32}}
+{"type":"node","id":"104","labels":["Iteration"],"properties":{"number":2,"f_x_n":0.05053711,"x_n":-4.9375,"x_n_plus_1":-4.93915,"f_prime_x_n":30.63671875}}
+{"type":"node","id":"105","labels":["Iteration"],"properties":{"number":3,"f_x_n":0.01,"x_n":-4.93915,"x_n_plus_1":-4.93948,"f_prime_x_n":30.687}}
+{"type":"relationship","id":"83","label":"HAS_DERIVATIVE","start":{"id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}},"end":{"id":"100","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}}
+{"type":"relationship","id":"84","label":"INITIAL_GUESS_FOR","start":{"id":"101","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}}
+{"type":"relationship","id":"85","label":"APPLIED_TO","start":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}},"end":{"id":"99","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}}
+{"type":"relationship","id":"86","label":"ITERATION_OF","start":{"id":"103","labels":["Iteration"],"properties":{"number":1,"f_x_n":-2,"x_n":-5,"x_n_plus_1":-4.9375,"f_prime_x_n":32}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}
+{"type":"relationship","id":"87","label":"ITERATION_OF","start":{"id":"104","labels":["Iteration"],"properties":{"number":2,"f_x_n":0.05053711,"x_n":-4.9375,"x_n_plus_1":-4.93915,"f_prime_x_n":30.63671875}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}
+{"type":"relationship","id":"88","label":"ITERATION_OF","start":{"id":"105","labels":["Iteration"],"properties":{"number":3,"f_x_n":0.01,"x_n":-4.93915,"x_n_plus_1":-4.93948,"f_prime_x_n":30.687}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}
+{"type":"relationship","id":"89","label":"ITERATION_OF","start":{"id":"14","labels":["Iteration"],"properties":{"number":4,"f_x_n":2.0E-4,"x_n":-4.93948,"x_n_plus_1":-4.93949,"f_prime_x_n":30.69}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}
+{"type":"relationship","id":"90","label":"ITERATION_OF","start":{"id":"15","labels":["Iteration"],"properties":{"number":5,"f_x_n":0,"x_n":-4.93949,"x_n_plus_1":-4.93949,"f_prime_x_n":30.69}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}
+{"type":"relationship","id":"91","label":"CONVERGENCE_OF","start":{"id":"16","labels":["Convergence"],"properties":{"smallest_n":4,"decimal_places":4}},"end":{"id":"102","labels":["NewtonMethod"],"properties":{"name":"Newton's Method"}}}

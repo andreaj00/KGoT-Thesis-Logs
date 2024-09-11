@@ -1,0 +1,9 @@
+{"type":"node","id":"61","labels":["County"],"properties":{"name":"Adams County"}}
+{"type":"node","id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}}
+{"type":"node","id":"63","labels":["County"],"properties":{"name":"Asotin County"}}
+{"type":"node","id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}}
+{"type":"node","id":"65","labels":["County"],"properties":{"name":"Benton County"}}
+{"type":"node","id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}}
+{"type":"relationship","id":"64","label":"SEAT_OF","start":{"id":"66","labels":["CountySeat"],"properties":{"name":"Prosser"}},"end":{"id":"65","labels":["County"],"properties":{"name":"Benton County"}}}
+{"type":"relationship","id":"62","label":"SEAT_OF","start":{"id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville"}},"end":{"id":"61","labels":["County"],"properties":{"name":"Adams County"}}}
+{"type":"relationship","id":"63","label":"SEAT_OF","start":{"id":"64","labels":["CountySeat"],"properties":{"name":"Asotin"}},"end":{"id":"63","labels":["County"],"properties":{"name":"Asotin County"}}}

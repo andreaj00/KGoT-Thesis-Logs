@@ -1,0 +1,20 @@
+{"type":"node","id":"64","labels":["Article"],"properties":{"publication_date":"2008-07-15","source":"Phys.org","title":"Tunguska Catastrophe"}}
+{"type":"node","id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}}
+{"type":"node","id":"66","labels":["Location"],"properties":{"name":"Tunguska"}}
+{"type":"node","id":"67","labels":["Damage"],"properties":{"description":"Flattened around 80 million trees over an area of more than 2000 square kilometers"}}
+{"type":"node","id":"68","labels":["Force"],"properties":{"unit":"megaton of TNT","min_megatons":5,"max_megatons":30}}
+{"type":"node","id":"69","labels":["Cause"],"properties":{"description":"Cosmic event, such as the impact of a meteorite, asteroid, or comet"}}
+{"type":"node","id":"70","labels":["Research"],"properties":{"teams":["Russian","Italian","German"],"method":"analyses of peat profiles"}}
+{"type":"node","id":"71","labels":["PotentialImpact"],"properties":{"description":"If it had exploded in the atmosphere just under five hours later, St. Petersburg would have been completely destroyed due to the Earth's rotation"}}
+{"type":"node","id":"72","labels":["Force"],"properties":{"unit":"megaton of TNT","min_megatons":3,"source":"Encyclopedia Britannica","max_megatons":50}}
+{"type":"node","id":"73","labels":["Test"],"properties":{"name":"Castle Bravo"}}
+{"type":"node","id":"74","labels":["Force"],"properties":{"unit":"megaton of TNT","megatons":15,"source":"US Nuclear Test"}}
+{"type":"relationship","id":"0","label":"CAUSED","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"67","labels":["Damage"],"properties":{"description":"Flattened around 80 million trees over an area of more than 2000 square kilometers"}}}
+{"type":"relationship","id":"1","label":"HAD_FORCE","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"68","labels":["Force"],"properties":{"unit":"megaton of TNT","min_megatons":5,"max_megatons":30}}}
+{"type":"relationship","id":"2","label":"CAUSED_BY","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"69","labels":["Cause"],"properties":{"description":"Cosmic event, such as the impact of a meteorite, asteroid, or comet"}}}
+{"type":"relationship","id":"3","label":"RESEARCHED_BY","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"70","labels":["Research"],"properties":{"teams":["Russian","Italian","German"],"method":"analyses of peat profiles"}}}
+{"type":"relationship","id":"138","label":"DESCRIBES","start":{"id":"64","labels":["Article"],"properties":{"publication_date":"2008-07-15","source":"Phys.org","title":"Tunguska Catastrophe"}},"end":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}}}
+{"type":"relationship","id":"139","label":"OCCURRED_AT","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"66","labels":["Location"],"properties":{"name":"Tunguska"}}}
+{"type":"relationship","id":"140","label":"COULD_HAVE_IMPACTED","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"71","labels":["PotentialImpact"],"properties":{"description":"If it had exploded in the atmosphere just under five hours later, St. Petersburg would have been completely destroyed due to the Earth's rotation"}}}
+{"type":"relationship","id":"141","label":"HAD_FORCE","start":{"id":"65","labels":["Event"],"properties":{"date":"1908","name":"Tunguska Catastrophe"}},"end":{"id":"72","labels":["Force"],"properties":{"unit":"megaton of TNT","min_megatons":3,"source":"Encyclopedia Britannica","max_megatons":50}}}
+{"type":"relationship","id":"142","label":"HAD_FORCE","start":{"id":"73","labels":["Test"],"properties":{"name":"Castle Bravo"}},"end":{"id":"74","labels":["Force"],"properties":{"unit":"megaton of TNT","megatons":15,"source":"US Nuclear Test"}}}

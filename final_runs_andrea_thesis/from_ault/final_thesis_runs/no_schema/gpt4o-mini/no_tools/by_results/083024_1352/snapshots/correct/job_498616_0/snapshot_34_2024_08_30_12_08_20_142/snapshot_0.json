@@ -1,0 +1,61 @@
+{"type":"node","id":"0","labels":["Word"],"properties":{"text":"right"}}
+{"type":"node","id":"1","labels":["Definition"],"properties":{"definition":"Morally good, justified, or acceptable.","type":"Adjective","example":"It is right to help those in need."}}
+{"type":"node","id":"2","labels":["Definition"],"properties":{"definition":"A moral or legal entitlement to have or do something.","type":"Noun","example":"Everyone has the right to free speech."}}
+{"type":"node","id":"3","labels":["Definition"],"properties":{"definition":"In a correct manner; exactly.","type":"Adverb","example":"She answered the question right."}}
+{"type":"node","id":"4","labels":["Definition"],"properties":{"definition":"The opposite of left; the direction toward the east when facing north.","type":"Noun (Direction)","example":"Turn right at the intersection."}}
+{"type":"node","id":"5","labels":["Synonym"],"properties":{"word":"Correct"}}
+{"type":"node","id":"6","labels":["Synonym"],"properties":{"word":"Just"}}
+{"type":"node","id":"7","labels":["Synonym"],"properties":{"word":"Proper"}}
+{"type":"node","id":"8","labels":["Synonym"],"properties":{"word":"Fair"}}
+{"type":"node","id":"9","labels":["Synonym"],"properties":{"word":"Rightful"}}
+{"type":"node","id":"10","labels":["Synonym"],"properties":{"word":"Accurate"}}
+{"type":"node","id":"11","labels":["Synonym"],"properties":{"word":"True"}}
+{"type":"node","id":"12","labels":["Synonym"],"properties":{"word":"Ethical"}}
+{"type":"node","id":"13","labels":["Synonym"],"properties":{"word":"Lawful"}}
+{"type":"node","id":"14","labels":["Antonym"],"properties":{"word":"Wrong"}}
+{"type":"node","id":"15","labels":["Antonym"],"properties":{"word":"Incorrect"}}
+{"type":"node","id":"16","labels":["Antonym"],"properties":{"word":"Unjust"}}
+{"type":"node","id":"17","labels":["Antonym"],"properties":{"word":"Improper"}}
+{"type":"node","id":"18","labels":["Antonym"],"properties":{"word":"Unfair"}}
+{"type":"node","id":"19","labels":["Antonym"],"properties":{"word":"Illegal"}}
+{"type":"node","id":"20","labels":["Antonym"],"properties":{"word":"False"}}
+{"type":"node","id":"21","labels":["Usage"],"properties":{"sentence":"It is right to stand up for what you believe in."}}
+{"type":"node","id":"22","labels":["Usage"],"properties":{"sentence":"She fought for her rights as a citizen."}}
+{"type":"node","id":"23","labels":["Usage"],"properties":{"sentence":"He got the answer right on the test."}}
+{"type":"node","id":"24","labels":["Usage"],"properties":{"sentence":"Take a right turn after the traffic light."}}
+{"type":"node","id":"25","labels":["RelevantAssociation"],"properties":{"concept":"Legal Rights"}}
+{"type":"node","id":"26","labels":["RelevantAssociation"],"properties":{"concept":"Moral Philosophy"}}
+{"type":"node","id":"27","labels":["RelevantAssociation"],"properties":{"concept":"Political Rights"}}
+{"type":"node","id":"28","labels":["RelevantAssociation"],"properties":{"concept":"Right-Handedness"}}
+{"type":"node","id":"29","labels":["RelevantAssociation"],"properties":{"concept":"Right vs. Left"}}
+{"type":"node","id":"30","labels":["RelevantAssociation"],"properties":{"concept":"Right Angle"}}
+{"type":"relationship","id":"0","label":"HAS_DEFINITION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"1","labels":["Definition"],"properties":{"definition":"Morally good, justified, or acceptable.","type":"Adjective","example":"It is right to help those in need."}}}
+{"type":"relationship","id":"1","label":"HAS_DEFINITION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"2","labels":["Definition"],"properties":{"definition":"A moral or legal entitlement to have or do something.","type":"Noun","example":"Everyone has the right to free speech."}}}
+{"type":"relationship","id":"2","label":"HAS_DEFINITION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"3","labels":["Definition"],"properties":{"definition":"In a correct manner; exactly.","type":"Adverb","example":"She answered the question right."}}}
+{"type":"relationship","id":"3","label":"HAS_DEFINITION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"4","labels":["Definition"],"properties":{"definition":"The opposite of left; the direction toward the east when facing north.","type":"Noun (Direction)","example":"Turn right at the intersection."}}}
+{"type":"relationship","id":"4","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"5","labels":["Synonym"],"properties":{"word":"Correct"}}}
+{"type":"relationship","id":"5","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"6","labels":["Synonym"],"properties":{"word":"Just"}}}
+{"type":"relationship","id":"6","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"7","labels":["Synonym"],"properties":{"word":"Proper"}}}
+{"type":"relationship","id":"7","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"8","labels":["Synonym"],"properties":{"word":"Fair"}}}
+{"type":"relationship","id":"8","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"9","labels":["Synonym"],"properties":{"word":"Rightful"}}}
+{"type":"relationship","id":"9","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"10","labels":["Synonym"],"properties":{"word":"Accurate"}}}
+{"type":"relationship","id":"10","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"11","labels":["Synonym"],"properties":{"word":"True"}}}
+{"type":"relationship","id":"11","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"12","labels":["Synonym"],"properties":{"word":"Ethical"}}}
+{"type":"relationship","id":"12","label":"HAS_SYNONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"13","labels":["Synonym"],"properties":{"word":"Lawful"}}}
+{"type":"relationship","id":"13","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"14","labels":["Antonym"],"properties":{"word":"Wrong"}}}
+{"type":"relationship","id":"14","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"15","labels":["Antonym"],"properties":{"word":"Incorrect"}}}
+{"type":"relationship","id":"15","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"16","labels":["Antonym"],"properties":{"word":"Unjust"}}}
+{"type":"relationship","id":"16","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"17","labels":["Antonym"],"properties":{"word":"Improper"}}}
+{"type":"relationship","id":"17","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"18","labels":["Antonym"],"properties":{"word":"Unfair"}}}
+{"type":"relationship","id":"18","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"19","labels":["Antonym"],"properties":{"word":"Illegal"}}}
+{"type":"relationship","id":"19","label":"HAS_ANTONYM","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"20","labels":["Antonym"],"properties":{"word":"False"}}}
+{"type":"relationship","id":"20","label":"HAS_USAGE","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"21","labels":["Usage"],"properties":{"sentence":"It is right to stand up for what you believe in."}}}
+{"type":"relationship","id":"21","label":"HAS_USAGE","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"22","labels":["Usage"],"properties":{"sentence":"She fought for her rights as a citizen."}}}
+{"type":"relationship","id":"22","label":"HAS_USAGE","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"23","labels":["Usage"],"properties":{"sentence":"He got the answer right on the test."}}}
+{"type":"relationship","id":"23","label":"HAS_USAGE","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"24","labels":["Usage"],"properties":{"sentence":"Take a right turn after the traffic light."}}}
+{"type":"relationship","id":"24","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"25","labels":["RelevantAssociation"],"properties":{"concept":"Legal Rights"}}}
+{"type":"relationship","id":"25","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"26","labels":["RelevantAssociation"],"properties":{"concept":"Moral Philosophy"}}}
+{"type":"relationship","id":"26","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"27","labels":["RelevantAssociation"],"properties":{"concept":"Political Rights"}}}
+{"type":"relationship","id":"27","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"28","labels":["RelevantAssociation"],"properties":{"concept":"Right-Handedness"}}}
+{"type":"relationship","id":"28","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"29","labels":["RelevantAssociation"],"properties":{"concept":"Right vs. Left"}}}
+{"type":"relationship","id":"29","label":"HAS_RELEVANT_ASSOCIATION","start":{"id":"0","labels":["Word"],"properties":{"text":"right"}},"end":{"id":"30","labels":["RelevantAssociation"],"properties":{"concept":"Right Angle"}}}

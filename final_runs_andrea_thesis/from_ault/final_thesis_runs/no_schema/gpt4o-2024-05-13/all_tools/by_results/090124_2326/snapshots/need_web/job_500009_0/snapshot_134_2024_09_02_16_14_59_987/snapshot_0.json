@@ -1,0 +1,7 @@
+{"type":"node","id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}}
+{"type":"node","id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}
+{"type":"node","id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}
+{"type":"node","id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}
+{"type":"relationship","id":"105","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"3","labels":["Restaurant"],"properties":{"name":"Tratto"}}}
+{"type":"relationship","id":"106","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"4","labels":["Restaurant"],"properties":{"name":"Pane Bianco"}}}
+{"type":"relationship","id":"107","label":"OWNS","start":{"id":"2","labels":["Chef"],"properties":{"name":"Chris Bianco"}},"end":{"id":"5","labels":["Restaurant"],"properties":{"name":"Pizzeria Bianco"}}}

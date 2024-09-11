@@ -1,0 +1,3 @@
+{"type":"node","id":"20","labels":["Page"],"properties":{"title":"Antidisestablishmentarianism"}}
+{"type":"node","id":"21","labels":["Edit"],"properties":{"frequency_of_edits":"","notable_changes":"","total_edits":0,"significant_contributors":""}}
+{"type":"relationship","id":"24","label":"HAS_EDIT_HISTORY","start":{"id":"20","labels":["Page"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"21","labels":["Edit"],"properties":{"frequency_of_edits":"","notable_changes":"","total_edits":0,"significant_contributors":""}}}

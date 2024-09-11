@@ -1,0 +1,6 @@
+{"type":"node","id":"65","labels":["Word"],"properties":{"partOfSpeech":"adjective","name":"sanguine","definition":"optimistic or positive, especially in an apparently bad or difficult situation"}}
+{"type":"node","id":"66","labels":["Author"],"properties":{"name":"William Shakespeare"}}
+{"type":"node","id":"67","labels":["Play"],"properties":{"title":"Hamlet"}}
+{"type":"relationship","id":"54","label":"WROTE","start":{"id":"66","labels":["Author"],"properties":{"name":"William Shakespeare"}},"end":{"id":"67","labels":["Play"],"properties":{"title":"Hamlet"}}}
+{"type":"relationship","id":"55","label":"HAS_QUOTE","start":{"id":"65","labels":["Word"],"properties":{"partOfSpeech":"adjective","name":"sanguine","definition":"optimistic or positive, especially in an apparently bad or difficult situation"}},"end":{"id":"66","labels":["Author"],"properties":{"name":"William Shakespeare"}}}
+{"type":"relationship","id":"56","label":"USED_IN","start":{"id":"65","labels":["Word"],"properties":{"partOfSpeech":"adjective","name":"sanguine","definition":"optimistic or positive, especially in an apparently bad or difficult situation"}},"end":{"id":"67","labels":["Play"],"properties":{"title":"Hamlet"}}}

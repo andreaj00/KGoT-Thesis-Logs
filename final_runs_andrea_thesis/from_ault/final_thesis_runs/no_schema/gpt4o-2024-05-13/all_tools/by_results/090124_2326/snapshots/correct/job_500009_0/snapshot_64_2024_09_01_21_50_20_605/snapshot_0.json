@@ -1,0 +1,3 @@
+{"type":"node","id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}}
+{"type":"node","id":"6","labels":["Book"],"properties":{"title":"The Battle of the Labyrinth","status":"Checked Out"}}
+{"type":"relationship","id":"0","label":"AUTHORED","start":{"id":"5","labels":["Author"],"properties":{"name":"Rick Riordan"}},"end":{"id":"6","labels":["Book"],"properties":{"title":"The Battle of the Labyrinth","status":"Checked Out"}}}

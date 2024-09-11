@@ -1,0 +1,9 @@
+{"type":"node","id":"62","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian"}}
+{"type":"node","id":"63","labels":["Script"],"properties":{"name":"Sumerian cuneiform"}}
+{"type":"node","id":"64","labels":["Symbol"],"properties":{"character":"𒐜","value":60}}
+{"type":"node","id":"65","labels":["Symbol"],"properties":{"character":"𒐐","value":10}}
+{"type":"node","id":"66","labels":["Symbol"],"properties":{"character":"𒐚","value":1}}
+{"type":"relationship","id":"80","label":"USES","start":{"id":"62","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian"}},"end":{"id":"63","labels":["Script"],"properties":{"name":"Sumerian cuneiform"}}}
+{"type":"relationship","id":"81","label":"BELONGS_TO","start":{"id":"64","labels":["Symbol"],"properties":{"character":"𒐜","value":60}},"end":{"id":"62","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian"}}}
+{"type":"relationship","id":"82","label":"BELONGS_TO","start":{"id":"65","labels":["Symbol"],"properties":{"character":"𒐐","value":10}},"end":{"id":"62","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian"}}}
+{"type":"relationship","id":"83","label":"BELONGS_TO","start":{"id":"66","labels":["Symbol"],"properties":{"character":"𒐚","value":1}},"end":{"id":"62","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian"}}}

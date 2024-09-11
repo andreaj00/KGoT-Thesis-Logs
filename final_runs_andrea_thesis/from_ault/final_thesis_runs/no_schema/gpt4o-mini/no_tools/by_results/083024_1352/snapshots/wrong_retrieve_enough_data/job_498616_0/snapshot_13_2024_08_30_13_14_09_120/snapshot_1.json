@@ -1,0 +1,7 @@
+{"type":"node","id":"31","labels":["Place"],"properties":{"name":"Shushan"}}
+{"type":"node","id":"32","labels":["Person"],"properties":{"start_year":1965,"name":"Amir-Abbas Hoveyda","title":"Prime Minister","end_year":1977}}
+{"type":"node","id":"33","labels":["Government"],"properties":{"name":"Iran","ruler":"Shah Mohammad Reza Pahlavi"}}
+{"type":"relationship","id":"3","label":"HAS_PRIME_MINISTER","start":{"id":"31","labels":["Place"],"properties":{"name":"Shushan"}},"end":{"id":"32","labels":["Person"],"properties":{"start_year":1965,"name":"Amir-Abbas Hoveyda","title":"Prime Minister","end_year":1977}}}
+{"type":"relationship","id":"4","label":"GOVERNS","start":{"id":"33","labels":["Government"],"properties":{"name":"Iran","ruler":"Shah Mohammad Reza Pahlavi"}},"end":{"id":"31","labels":["Place"],"properties":{"name":"Shushan"}}}
+{"type":"relationship","id":"5","label":"HAS_PRIME_MINISTER","start":{"id":"31","labels":["Place"],"properties":{"name":"Shushan"}},"end":{"id":"32","labels":["Person"],"properties":{"start_year":1965,"name":"Amir-Abbas Hoveyda","title":"Prime Minister","end_year":1977}}}
+{"type":"relationship","id":"6","label":"GOVERNS","start":{"id":"33","labels":["Government"],"properties":{"name":"Iran","ruler":"Shah Mohammad Reza Pahlavi"}},"end":{"id":"31","labels":["Place"],"properties":{"name":"Shushan"}}}

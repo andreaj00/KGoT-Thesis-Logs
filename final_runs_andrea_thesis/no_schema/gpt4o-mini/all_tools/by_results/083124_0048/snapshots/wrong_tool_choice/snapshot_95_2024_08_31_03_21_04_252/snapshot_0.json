@@ -1,0 +1,5 @@
+{"type":"node","id":"0","labels":["File"],"properties":{"name":"words_alpha.txt","url":"https://github.com/dwyl/english-words/raw/master/words_alpha.txt"}}
+{"type":"node","id":"1","labels":["File"],"properties":{"name":"words_alpha.zip","url":"https://github.com/dwyl/english-words/blob/master/words_alpha.zip"}}
+{"type":"node","id":"30","labels":["Dictionary"],"properties":{"name":"words_alpha","source":"https://github.com/dwyl/english-words"}}
+{"type":"relationship","id":"32","label":"CONTAINS","start":{"id":"30","labels":["Dictionary"],"properties":{"name":"words_alpha","source":"https://github.com/dwyl/english-words"}},"end":{"id":"0","labels":["File"],"properties":{"name":"words_alpha.txt","url":"https://github.com/dwyl/english-words/raw/master/words_alpha.txt"}}}
+{"type":"relationship","id":"33","label":"CONTAINS","start":{"id":"30","labels":["Dictionary"],"properties":{"name":"words_alpha","source":"https://github.com/dwyl/english-words"}},"end":{"id":"1","labels":["File"],"properties":{"name":"words_alpha.zip","url":"https://github.com/dwyl/english-words/blob/master/words_alpha.zip"}}}

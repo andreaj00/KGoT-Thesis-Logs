@@ -1,0 +1,7 @@
+{"type":"node","id":"60","labels":["Book"],"properties":{"doi":"10.2307/j.ctv9b2xdv"}}
+{"type":"node","id":"61","labels":["Page"],"properties":{"number":11}}
+{"type":"node","id":"62","labels":["Endnote"],"properties":{"paragraph":"second-to-last"}}
+{"type":"node","id":"63","labels":["Article"],"properties":{"access_date":"November 14","source":"Wikipedia"}}
+{"type":"relationship","id":"135","label":"CONTAINS","start":{"id":"60","labels":["Book"],"properties":{"doi":"10.2307/j.ctv9b2xdv"}},"end":{"id":"61","labels":["Page"],"properties":{"number":11}}}
+{"type":"relationship","id":"136","label":"HAS_ENDNOTE","start":{"id":"61","labels":["Page"],"properties":{"number":11}},"end":{"id":"62","labels":["Endnote"],"properties":{"paragraph":"second-to-last"}}}
+{"type":"relationship","id":"137","label":"REFERENCES","start":{"id":"62","labels":["Endnote"],"properties":{"paragraph":"second-to-last"}},"end":{"id":"63","labels":["Article"],"properties":{"access_date":"November 14","source":"Wikipedia"}}}

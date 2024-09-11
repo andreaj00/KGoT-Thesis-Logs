@@ -1,0 +1,21 @@
+{"type":"node","id":"0","labels":["Domain"],"properties":{"name":"Health Sciences"}}
+{"type":"node","id":"1","labels":["SubDomain"],"properties":{"name":"Agricultural and Biological Sciences","referenceWorks_2022":17}}
+{"type":"node","id":"2","labels":["SubDomain"],"properties":{"name":"Biochemistry, Genetics and Molecular Biology","referenceWorks_2022":20}}
+{"type":"node","id":"3","labels":["SubDomain"],"properties":{"name":"Environmental Science","referenceWorks_2022":10}}
+{"type":"node","id":"4","labels":["SubDomain"],"properties":{"name":"Immunology and Microbiology","referenceWorks_2022":6}}
+{"type":"node","id":"5","labels":["SubDomain"],"properties":{"name":"Neuroscience","referenceWorks_2022":6}}
+{"type":"node","id":"6","labels":["SubDomain"],"properties":{"name":"Pharmacology, Toxicology and Pharmaceutics","referenceWorks_2022":6}}
+{"type":"node","id":"7","labels":["SubDomain"],"properties":{"name":"Medicine and Dentistry","referenceWorks_2022":24}}
+{"type":"node","id":"8","labels":["SubDomain"],"properties":{"name":"Nursing and Health Professions","referenceWorks_2022":4}}
+{"type":"node","id":"17","labels":["SubDomain"],"properties":{"name":"Veterinary Science and Veterinary Medicine","referenceWorks_2022":3}}
+{"type":"node","id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}}
+{"type":"relationship","id":"101","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"1","labels":["SubDomain"],"properties":{"name":"Agricultural and Biological Sciences","referenceWorks_2022":17}}}
+{"type":"relationship","id":"102","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"2","labels":["SubDomain"],"properties":{"name":"Biochemistry, Genetics and Molecular Biology","referenceWorks_2022":20}}}
+{"type":"relationship","id":"103","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"3","labels":["SubDomain"],"properties":{"name":"Environmental Science","referenceWorks_2022":10}}}
+{"type":"relationship","id":"104","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"4","labels":["SubDomain"],"properties":{"name":"Immunology and Microbiology","referenceWorks_2022":6}}}
+{"type":"relationship","id":"105","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"5","labels":["SubDomain"],"properties":{"name":"Neuroscience","referenceWorks_2022":6}}}
+{"type":"relationship","id":"106","label":"INCLUDES","start":{"id":"60","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"6","labels":["SubDomain"],"properties":{"name":"Pharmacology, Toxicology and Pharmaceutics","referenceWorks_2022":6}}}
+{"type":"relationship","id":"107","label":"INCLUDES","start":{"id":"0","labels":["Domain"],"properties":{"name":"Health Sciences"}},"end":{"id":"6","labels":["SubDomain"],"properties":{"name":"Pharmacology, Toxicology and Pharmaceutics","referenceWorks_2022":6}}}
+{"type":"relationship","id":"108","label":"INCLUDES","start":{"id":"0","labels":["Domain"],"properties":{"name":"Health Sciences"}},"end":{"id":"7","labels":["SubDomain"],"properties":{"name":"Medicine and Dentistry","referenceWorks_2022":24}}}
+{"type":"relationship","id":"109","label":"INCLUDES","start":{"id":"0","labels":["Domain"],"properties":{"name":"Health Sciences"}},"end":{"id":"8","labels":["SubDomain"],"properties":{"name":"Nursing and Health Professions","referenceWorks_2022":4}}}
+{"type":"relationship","id":"110","label":"INCLUDES","start":{"id":"0","labels":["Domain"],"properties":{"name":"Health Sciences"}},"end":{"id":"17","labels":["SubDomain"],"properties":{"name":"Veterinary Science and Veterinary Medicine","referenceWorks_2022":3}}}

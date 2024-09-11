@@ -1,0 +1,5 @@
+{"type":"node","id":"44","labels":["YearOfIndependence"],"properties":{"lastTwoDigits":"11"}}
+{"type":"node","id":"45","labels":["ColorInformation"],"properties":{"numberOfColors":2}}
+{"type":"node","id":"46","labels":["AverageHeight"],"properties":{"heightInCm":152}}
+{"type":"relationship","id":"50","label":"HAS_COLOR_INFORMATION","start":{"id":"44","labels":["YearOfIndependence"],"properties":{"lastTwoDigits":"11"}},"end":{"id":"45","labels":["ColorInformation"],"properties":{"numberOfColors":2}}}
+{"type":"relationship","id":"51","label":"HAS_AVERAGE_HEIGHT","start":{"id":"44","labels":["YearOfIndependence"],"properties":{"lastTwoDigits":"11"}},"end":{"id":"46","labels":["AverageHeight"],"properties":{"heightInCm":152}}}

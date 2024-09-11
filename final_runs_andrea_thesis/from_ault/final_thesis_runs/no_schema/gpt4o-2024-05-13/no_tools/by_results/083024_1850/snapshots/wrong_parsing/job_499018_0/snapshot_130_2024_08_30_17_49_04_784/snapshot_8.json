@@ -1,0 +1,26 @@
+{"type":"node","id":"13","labels":["City"],"properties":{"name":"Westmoreland County","state":"Virginia"}}
+{"type":"node","id":"14","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"15","labels":["City"],"properties":{"name":"Quincy","state":"Massachusetts"}}
+{"type":"node","id":"16","labels":["President"],"properties":{"name":"John Adams"}}
+{"type":"node","id":"17","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}
+{"type":"node","id":"18","labels":["President"],"properties":{"name":"Thomas Jefferson"}}
+{"type":"node","id":"19","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}
+{"type":"node","id":"20","labels":["President"],"properties":{"name":"James Madison"}}
+{"type":"node","id":"21","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}
+{"type":"node","id":"22","labels":["President"],"properties":{"name":"James Monroe"}}
+{"type":"node","id":"23","labels":["President"],"properties":{"name":"John Quincy Adams"}}
+{"type":"node","id":"24","labels":["City"],"properties":{"name":"Waxhaws","state":"North and South Carolina"}}
+{"type":"node","id":"25","labels":["President"],"properties":{"name":"Andrew Jackson"}}
+{"type":"node","id":"26","labels":["City"],"properties":{"name":"Kinderhook","state":"New York"}}
+{"type":"node","id":"27","labels":["President"],"properties":{"name":"Martin Van Buren"}}
+{"type":"node","id":"28","labels":["City"],"properties":{"name":"Charles City County","state":"Virginia"}}
+{"type":"node","id":"29","labels":["President"],"properties":{"name":"William Henry Harrison"}}
+{"type":"relationship","id":"84","label":"BORN_IN","start":{"id":"14","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"13","labels":["City"],"properties":{"name":"Westmoreland County","state":"Virginia"}}}
+{"type":"relationship","id":"85","label":"BORN_IN","start":{"id":"16","labels":["President"],"properties":{"name":"John Adams"}},"end":{"id":"15","labels":["City"],"properties":{"name":"Quincy","state":"Massachusetts"}}}
+{"type":"relationship","id":"86","label":"BORN_IN","start":{"id":"18","labels":["President"],"properties":{"name":"Thomas Jefferson"}},"end":{"id":"17","labels":["City"],"properties":{"name":"Shadwell","state":"Virginia"}}}
+{"type":"relationship","id":"87","label":"BORN_IN","start":{"id":"20","labels":["President"],"properties":{"name":"James Madison"}},"end":{"id":"19","labels":["City"],"properties":{"name":"Port Conway","state":"Virginia"}}}
+{"type":"relationship","id":"88","label":"BORN_IN","start":{"id":"22","labels":["President"],"properties":{"name":"James Monroe"}},"end":{"id":"21","labels":["City"],"properties":{"name":"Monroe Hall","state":"Virginia"}}}
+{"type":"relationship","id":"89","label":"BORN_IN","start":{"id":"23","labels":["President"],"properties":{"name":"John Quincy Adams"}},"end":{"id":"15","labels":["City"],"properties":{"name":"Quincy","state":"Massachusetts"}}}
+{"type":"relationship","id":"90","label":"BORN_IN","start":{"id":"25","labels":["President"],"properties":{"name":"Andrew Jackson"}},"end":{"id":"24","labels":["City"],"properties":{"name":"Waxhaws","state":"North and South Carolina"}}}
+{"type":"relationship","id":"91","label":"BORN_IN","start":{"id":"27","labels":["President"],"properties":{"name":"Martin Van Buren"}},"end":{"id":"26","labels":["City"],"properties":{"name":"Kinderhook","state":"New York"}}}
+{"type":"relationship","id":"92","label":"BORN_IN","start":{"id":"29","labels":["President"],"properties":{"name":"William Henry Harrison"}},"end":{"id":"28","labels":["City"],"properties":{"name":"Charles City County","state":"Virginia"}}}

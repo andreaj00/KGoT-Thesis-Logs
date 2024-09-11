@@ -1,0 +1,3 @@
+{"type":"node","id":"4","labels":["Problem"],"properties":{"description":".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI"}}
+{"type":"node","id":"5","labels":["Solution"],"properties":{"description":"If you understand this sentence, write the opposite of the word 'left' as the answer."}}
+{"type":"relationship","id":"3","label":"HAS_SOLUTION","start":{"id":"4","labels":["Problem"],"properties":{"description":".rewsna eht sa \"tfel\" drow eht fo etisoppo eht etirw ,ecnetnes siht dnatsrednu uoy fI"}},"end":{"id":"5","labels":["Solution"],"properties":{"description":"If you understand this sentence, write the opposite of the word 'left' as the answer."}}}

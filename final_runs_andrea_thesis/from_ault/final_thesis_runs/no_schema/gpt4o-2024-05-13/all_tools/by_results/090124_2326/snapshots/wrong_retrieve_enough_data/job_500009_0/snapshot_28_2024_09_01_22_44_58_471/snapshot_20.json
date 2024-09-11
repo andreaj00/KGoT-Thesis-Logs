@@ -1,0 +1,42 @@
+{"type":"node","id":"27","labels":["Employee"],"properties":{"name":"Harry","likes":["Fishing","Camping","Wine"]}}
+{"type":"node","id":"28","labels":["Employee"],"properties":{"name":"Miguel","likes":["Astronomy","Decorative Washi Tape","Ketchup"]}}
+{"type":"node","id":"29","labels":["Employee"],"properties":{"name":"Rebecca","likes":["Cars","Dogs","Chocolate"]}}
+{"type":"node","id":"30","labels":["Employee"],"properties":{"name":"Micah","likes":["Knitting","Rainy Weather","Books"]}}
+{"type":"node","id":"31","labels":["Employee"],"properties":{"name":"Georgette","likes":["Yoga","Cooking","Green Energy"]}}
+{"type":"node","id":"32","labels":["Employee"],"properties":{"name":"Lucy","likes":["Coffee","Physics","Board Games"]}}
+{"type":"node","id":"33","labels":["Employee"],"properties":{"name":"Jun","likes":["Woodworking","Barbecue","JavaScript"]}}
+{"type":"node","id":"34","labels":["Employee"],"properties":{"name":"Perry","likes":["Old Movies","Rats","Journaling"]}}
+{"type":"node","id":"35","labels":["Employee"],"properties":{"name":"Tyson","likes":["Historical Fiction Novels","Biking","Parakeets"]}}
+{"type":"node","id":"36","labels":["Employee"],"properties":{"name":"Fred","likes":["Chemistry","Perl","Cats"]}}
+{"type":"node","id":"37","labels":["Employee"],"properties":{"name":"Alex","likes":["Surfing","Audrey Hepburn","Manga"]}}
+{"type":"node","id":"38","labels":["Employee"],"properties":{"name":"Sara","likes":["Tabletop RPGs","Spas","Music"]}}
+{"type":"node","id":"39","labels":["Gift"],"properties":{"name":"Galileo Galilei biography"}}
+{"type":"node","id":"40","labels":["Gift"],"properties":{"name":"Fishing reel"}}
+{"type":"node","id":"41","labels":["Gift"],"properties":{"name":"Raku programming guide"}}
+{"type":"node","id":"42","labels":["Gift"],"properties":{"name":"Chisel set"}}
+{"type":"node","id":"43","labels":["Gift"],"properties":{"name":"Custom dice"}}
+{"type":"node","id":"44","labels":["Gift"],"properties":{"name":"\"War and Peace\" American film copy"}}
+{"type":"node","id":"45","labels":["Gift"],"properties":{"name":"Yarn"}}
+{"type":"node","id":"46","labels":["Gift"],"properties":{"name":"\"One Piece\" graphic novel"}}
+{"type":"node","id":"47","labels":["Gift"],"properties":{"name":"\"War and Peace\" novel"}}
+{"type":"relationship","id":"96","label":"GIFT_FOR","start":{"id":"41","labels":["Gift"],"properties":{"name":"Raku programming guide"}},"end":{"id":"36","labels":["Employee"],"properties":{"name":"Fred","likes":["Chemistry","Perl","Cats"]}}}
+{"type":"relationship","id":"97","label":"GIFT_FOR","start":{"id":"42","labels":["Gift"],"properties":{"name":"Chisel set"}},"end":{"id":"33","labels":["Employee"],"properties":{"name":"Jun","likes":["Woodworking","Barbecue","JavaScript"]}}}
+{"type":"relationship","id":"98","label":"GIFT_FOR","start":{"id":"43","labels":["Gift"],"properties":{"name":"Custom dice"}},"end":{"id":"38","labels":["Employee"],"properties":{"name":"Sara","likes":["Tabletop RPGs","Spas","Music"]}}}
+{"type":"relationship","id":"99","label":"GIFT_FOR","start":{"id":"44","labels":["Gift"],"properties":{"name":"\"War and Peace\" American film copy"}},"end":{"id":"34","labels":["Employee"],"properties":{"name":"Perry","likes":["Old Movies","Rats","Journaling"]}}}
+{"type":"relationship","id":"100","label":"GIFT_FOR","start":{"id":"45","labels":["Gift"],"properties":{"name":"Yarn"}},"end":{"id":"30","labels":["Employee"],"properties":{"name":"Micah","likes":["Knitting","Rainy Weather","Books"]}}}
+{"type":"relationship","id":"101","label":"GIFT_FOR","start":{"id":"46","labels":["Gift"],"properties":{"name":"\"One Piece\" graphic novel"}},"end":{"id":"37","labels":["Employee"],"properties":{"name":"Alex","likes":["Surfing","Audrey Hepburn","Manga"]}}}
+{"type":"relationship","id":"102","label":"GIFT_FOR","start":{"id":"47","labels":["Gift"],"properties":{"name":"\"War and Peace\" novel"}},"end":{"id":"35","labels":["Employee"],"properties":{"name":"Tyson","likes":["Historical Fiction Novels","Biking","Parakeets"]}}}
+{"type":"relationship","id":"82","label":"GIFTED_TO","start":{"id":"27","labels":["Employee"],"properties":{"name":"Harry","likes":["Fishing","Camping","Wine"]}},"end":{"id":"28","labels":["Employee"],"properties":{"name":"Miguel","likes":["Astronomy","Decorative Washi Tape","Ketchup"]}}}
+{"type":"relationship","id":"83","label":"GIFTED_TO","start":{"id":"29","labels":["Employee"],"properties":{"name":"Rebecca","likes":["Cars","Dogs","Chocolate"]}},"end":{"id":"30","labels":["Employee"],"properties":{"name":"Micah","likes":["Knitting","Rainy Weather","Books"]}}}
+{"type":"relationship","id":"84","label":"GIFTED_TO","start":{"id":"31","labels":["Employee"],"properties":{"name":"Georgette","likes":["Yoga","Cooking","Green Energy"]}},"end":{"id":"32","labels":["Employee"],"properties":{"name":"Lucy","likes":["Coffee","Physics","Board Games"]}}}
+{"type":"relationship","id":"85","label":"GIFTED_TO","start":{"id":"30","labels":["Employee"],"properties":{"name":"Micah","likes":["Knitting","Rainy Weather","Books"]}},"end":{"id":"33","labels":["Employee"],"properties":{"name":"Jun","likes":["Woodworking","Barbecue","JavaScript"]}}}
+{"type":"relationship","id":"86","label":"GIFTED_TO","start":{"id":"34","labels":["Employee"],"properties":{"name":"Perry","likes":["Old Movies","Rats","Journaling"]}},"end":{"id":"31","labels":["Employee"],"properties":{"name":"Georgette","likes":["Yoga","Cooking","Green Energy"]}}}
+{"type":"relationship","id":"87","label":"GIFTED_TO","start":{"id":"35","labels":["Employee"],"properties":{"name":"Tyson","likes":["Historical Fiction Novels","Biking","Parakeets"]}},"end":{"id":"36","labels":["Employee"],"properties":{"name":"Fred","likes":["Chemistry","Perl","Cats"]}}}
+{"type":"relationship","id":"88","label":"GIFTED_TO","start":{"id":"32","labels":["Employee"],"properties":{"name":"Lucy","likes":["Coffee","Physics","Board Games"]}},"end":{"id":"37","labels":["Employee"],"properties":{"name":"Alex","likes":["Surfing","Audrey Hepburn","Manga"]}}}
+{"type":"relationship","id":"89","label":"GIFTED_TO","start":{"id":"33","labels":["Employee"],"properties":{"name":"Jun","likes":["Woodworking","Barbecue","JavaScript"]}},"end":{"id":"27","labels":["Employee"],"properties":{"name":"Harry","likes":["Fishing","Camping","Wine"]}}}
+{"type":"relationship","id":"90","label":"GIFTED_TO","start":{"id":"38","labels":["Employee"],"properties":{"name":"Sara","likes":["Tabletop RPGs","Spas","Music"]}},"end":{"id":"34","labels":["Employee"],"properties":{"name":"Perry","likes":["Old Movies","Rats","Journaling"]}}}
+{"type":"relationship","id":"91","label":"GIFTED_TO","start":{"id":"36","labels":["Employee"],"properties":{"name":"Fred","likes":["Chemistry","Perl","Cats"]}},"end":{"id":"29","labels":["Employee"],"properties":{"name":"Rebecca","likes":["Cars","Dogs","Chocolate"]}}}
+{"type":"relationship","id":"92","label":"GIFTED_TO","start":{"id":"28","labels":["Employee"],"properties":{"name":"Miguel","likes":["Astronomy","Decorative Washi Tape","Ketchup"]}},"end":{"id":"38","labels":["Employee"],"properties":{"name":"Sara","likes":["Tabletop RPGs","Spas","Music"]}}}
+{"type":"relationship","id":"93","label":"GIFTED_TO","start":{"id":"37","labels":["Employee"],"properties":{"name":"Alex","likes":["Surfing","Audrey Hepburn","Manga"]}},"end":{"id":"35","labels":["Employee"],"properties":{"name":"Tyson","likes":["Historical Fiction Novels","Biking","Parakeets"]}}}
+{"type":"relationship","id":"94","label":"GIFT_FOR","start":{"id":"39","labels":["Gift"],"properties":{"name":"Galileo Galilei biography"}},"end":{"id":"35","labels":["Employee"],"properties":{"name":"Tyson","likes":["Historical Fiction Novels","Biking","Parakeets"]}}}
+{"type":"relationship","id":"95","label":"GIFT_FOR","start":{"id":"40","labels":["Gift"],"properties":{"name":"Fishing reel"}},"end":{"id":"27","labels":["Employee"],"properties":{"name":"Harry","likes":["Fishing","Camping","Wine"]}}}

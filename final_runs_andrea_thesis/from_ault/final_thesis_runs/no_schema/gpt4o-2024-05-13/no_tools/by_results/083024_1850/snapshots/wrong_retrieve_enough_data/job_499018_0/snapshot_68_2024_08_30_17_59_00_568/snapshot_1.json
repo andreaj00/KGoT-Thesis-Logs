@@ -1,0 +1,8 @@
+{"type":"node","id":"44","labels":["Location"],"properties":{"name":"Mariana Trench"}}
+{"type":"node","id":"45","labels":["Condition"],"properties":{"unit":"bars","type":"Pressure","value":1086}}
+{"type":"node","id":"46","labels":["Condition"],"properties":{"min_value":1,"unit":"Celsius","type":"Temperature","max_value":4}}
+{"type":"node","id":"47","labels":["Substance"],"properties":{"name":"Freon-12"}}
+{"type":"node","id":"48","labels":["Density"],"properties":{"min_value":1.5,"unit":"g/cm³","max_value":1.6}}
+{"type":"relationship","id":"34","label":"HAS_CONDITION","start":{"id":"44","labels":["Location"],"properties":{"name":"Mariana Trench"}},"end":{"id":"45","labels":["Condition"],"properties":{"unit":"bars","type":"Pressure","value":1086}}}
+{"type":"relationship","id":"35","label":"HAS_CONDITION","start":{"id":"44","labels":["Location"],"properties":{"name":"Mariana Trench"}},"end":{"id":"46","labels":["Condition"],"properties":{"min_value":1,"unit":"Celsius","type":"Temperature","max_value":4}}}
+{"type":"relationship","id":"36","label":"HAS_PROPERTY","start":{"id":"47","labels":["Substance"],"properties":{"name":"Freon-12"}},"end":{"id":"48","labels":["Density"],"properties":{"min_value":1.5,"unit":"g/cm³","max_value":1.6}}}

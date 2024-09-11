@@ -1,0 +1,3 @@
+{"type":"node","id":"57","labels":["YolaWord"],"properties":{"name":"gimlie"}}
+{"type":"node","id":"58","labels":["LatinRoot"],"properties":{"meaning":"twin","name":"gemellus"}}
+{"type":"relationship","id":"133","label":"DERIVED_FROM","start":{"id":"57","labels":["YolaWord"],"properties":{"name":"gimlie"}},"end":{"id":"58","labels":["LatinRoot"],"properties":{"meaning":"twin","name":"gemellus"}}}

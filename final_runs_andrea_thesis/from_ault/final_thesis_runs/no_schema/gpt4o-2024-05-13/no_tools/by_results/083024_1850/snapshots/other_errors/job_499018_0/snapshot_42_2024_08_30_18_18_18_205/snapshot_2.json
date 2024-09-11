@@ -1,0 +1,10 @@
+{"type":"node","id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"45","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}
+{"type":"node","id":"46","labels":["Album"],"properties":{"release_year":1999,"title":"When the Pawn..."}}
+{"type":"node","id":"47","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}}
+{"type":"node","id":"48","labels":["Album"],"properties":{"release_year":1994,"title":"Harbinger"}}
+{"type":"node","id":"49","labels":["Album"],"properties":{"release_year":1996,"title":"This Fire"}}
+{"type":"relationship","id":"72","label":"RELEASED","start":{"id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"45","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}}
+{"type":"relationship","id":"73","label":"RELEASED","start":{"id":"44","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"46","labels":["Album"],"properties":{"release_year":1999,"title":"When the Pawn..."}}}
+{"type":"relationship","id":"74","label":"RELEASED","start":{"id":"47","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"48","labels":["Album"],"properties":{"release_year":1994,"title":"Harbinger"}}}
+{"type":"relationship","id":"75","label":"RELEASED","start":{"id":"47","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"49","labels":["Album"],"properties":{"release_year":1996,"title":"This Fire"}}}

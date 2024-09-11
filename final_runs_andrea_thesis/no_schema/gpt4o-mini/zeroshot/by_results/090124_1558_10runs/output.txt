@@ -1,0 +1,576 @@
+andrea@GoT:/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts$ ./run_multiple_gaia.sh
+Iteration: 1/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:48<00:00,  2.23s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:16<00:00,  2.82s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:28<00:00,  2.04s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:25<00:00, 51.35s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.99s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:41<00:00,  2.95s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [03:28<00:00, 14.86s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:05<00:00,  2.64it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.21it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:31<00:00,  1.41s/it]
+Iteration: 2/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:55<00:00,  2.50s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:14<00:00,  2.35s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:27<00:00,  2.00s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:14<00:00,  3.74s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.85s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:42<00:00,  3.04s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:57<00:00, 12.66s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  3.28it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.17it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:22<00:00,  1.27s/it]
+Iteration: 3/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:43<00:00,  1.97s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:11<00:00,  1.96s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:26<00:00,  1.86s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:39<00:00, 54.87s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:06<00:00,  1.72s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:47<00:00,  3.36s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [03:00<00:00, 12.92s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  3.07it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.19it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:18<00:00,  1.21s/it]
+Iteration: 4/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:47<00:00,  2.14s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:12<00:00,  2.03s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:24<00:00,  1.77s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:12<00:00,  3.17s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.76s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:49<00:00,  3.54s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:43<00:00, 11.68s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  2.94it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:07<00:00,  1.07it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:24<00:00,  1.30s/it]
+Iteration: 5/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:48<00:00,  2.20s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:13<00:00,  2.24s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:28<00:00,  2.03s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:38<00:00, 54.57s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:10<00:00,  2.50s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:39<00:00,  2.79s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [03:19<00:00, 14.24s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:06<00:00,  2.29it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:07<00:00,  1.14it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:27<00:00,  1.34s/it]
+Iteration: 6/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:51<00:00,  2.35s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:14<00:00,  2.36s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:26<00:00,  1.87s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:13<00:00,  3.35s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:08<00:00,  2.13s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:40<00:00,  2.92s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:38<00:00,  2.77s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  2.89it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:08<00:00,  1.07s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:24<00:00,  1.30s/it]
+Iteration: 7/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:53<00:00,  2.44s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:16<00:00,  2.67s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:19<00:00,  9.96s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:14<00:00,  3.70s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:08<00:00,  2.15s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:44<00:00,  3.20s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:53<00:00,  3.82s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  2.96it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:09<00:00,  1.24s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:54<00:00,  1.76s/it]
+Iteration: 8/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [01:03<00:00,  2.87s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:17<00:00,  2.89s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:39<00:00,  2.82s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [03:28<00:00, 52.09s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:09<00:00,  2.49s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:47<00:00,  3.40s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:58<00:00, 12.73s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:06<00:00,  2.29it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.16it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:19<00:00,  1.23s/it]
+Iteration: 9/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:49<00:00,  2.23s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:14<00:00,  2.43s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:26<00:00,  1.92s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:11<00:00,  2.75s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:07<00:00,  1.98s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:39<00:00,  2.82s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:28<00:00,  2.06s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:05<00:00,  2.54it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.28it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:27<00:00,  1.35s/it]
+Iteration: 10/10
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/correct.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct and it is the [0-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:50<00:00,  2.32s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_parsing.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing and it is the [1-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:13<00:00,  2.24s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data and it is the [2-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:02<00:00,  8.72s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_retrieve_not_enough_data.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data and it is the [3-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:10<00:00,  2.73s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/other_errors.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors and it is the [4-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:06<00:00,  1.74s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/wrong_tool_choice.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice and it is the [5-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:42<00:00,  3.02s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/ineffective_tool.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool and it is the [6-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [02:41<00:00, 11.57s/it]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_image.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image and it is the [7-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14/14 [00:04<00:00,  2.98it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/video.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video and it is the [8-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:06<00:00,  1.19it/s]
+Running with GAIA file: GAIA/dataset/validation_subsets/by_results/need_web.json and log folder: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web and it is the [9-th/10] elements
+Output will be saved into the log folder in the cmd_log.log file
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 65/65 [01:21<00:00,  1.25s/it]
+Aggregating results from category: correct
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_15-58-17-906/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-11-13-663/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-20-16-844/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-32-33-148/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-41-31-675/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-54-28-010/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-01-25-528/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-12-05-678/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-27-52-556/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-34-27-485/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: wrong_parsing
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_15-59-20-633/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-12-19-674/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-21-10-940/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-33-34-207/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-42-33-195/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-55-33-306/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-02-31-712/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-13-46-877/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-28-53-817/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-35-30-242/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: wrong_retrieve_enough_data
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_15-59-50-510/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-12-44-471/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-21-32-761/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-33-57-411/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-42-58-030/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-55-59-816/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-03-01-179/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-14-44-810/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-29-19-443/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-35-54-834/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: wrong_retrieve_not_enough_data
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-00-30-495/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-13-23-860/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-22-11-228/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-34-35-704/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-43-36-947/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-56-40-134/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-05-33-838/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-15-59-776/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-29-58-698/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-38-07-616/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: other_errors
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-04-06-137/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-13-49-259/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-26-01-706/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-34-59-718/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-47-27-097/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-57-05-504/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-06-01-867/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-20-14-043/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-30-20-532/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-38-29-757/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: wrong_tool_choice
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-04-24-525/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-14-06-988/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-26-18-832/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-35-18-279/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-47-48-263/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-57-25-163/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-06-21-906/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-21-06-937/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-30-40-864/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-38-47-702/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: ineffective_tool
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-05-16-250/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-15-00-494/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-27-16-892/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-36-19-884/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-48-39-753/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-58-18-731/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-07-19-108/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-22-35-230/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-31-32-039/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-39-41-590/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: need_image
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-08-55-890/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-18-09-287/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-30-29-048/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-39-17-225/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-52-10-837/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-59-09-641/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-08-27-004/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-25-46-784/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-32-12-456/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-42-34-874/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: video
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-09-12-840/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-18-24-776/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-30-44-455/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-39-34-046/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-52-29-570/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-59-27-013/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-08-49-856/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-26-04-138/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-32-29-464/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-42-50-875/correct_stats_zero_shot.json, Run iteration: 9
+Aggregating results from category: need_web
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-09-29-969/correct_stats_zero_shot.json, Run iteration: 0
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-18-42-424/correct_stats_zero_shot.json, Run iteration: 1
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-31-01-954/correct_stats_zero_shot.json, Run iteration: 2
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-39-53-872/correct_stats_zero_shot.json, Run iteration: 3
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-52-48-205/correct_stats_zero_shot.json, Run iteration: 4
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-59-47-931/correct_stats_zero_shot.json, Run iteration: 5
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-09-32-724/correct_stats_zero_shot.json, Run iteration: 6
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-26-21-561/correct_stats_zero_shot.json, Run iteration: 7
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-32-47-886/correct_stats_zero_shot.json, Run iteration: 8
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-43-08-458/correct_stats_zero_shot.json, Run iteration: 9
+levels: defaultdict(<function aggregate_results_all_categories.<locals>.<lambda> at 0x7ea4837fc3a0>, {'2': {'total_questions': [86, 86, 86, 86, 86, 86, 86, 86, 86, 86], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], 'wrongs': [76, 76, 76, 76, 76, 76, 76, 76, 76, 76]}, '1': {'total_questions': [53, 53, 53, 53, 53, 53, 53, 53, 53, 53], 'correct': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'wrongs': [48, 48, 48, 48, 48, 48, 48, 48, 48, 48]}, '3': {'total_questions': [26, 26, 26, 26, 26, 26, 26, 26, 26, 26], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'wrongs': [24, 24, 24, 24, 24, 24, 24, 24, 24, 24]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 1.89%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_15-58-17-906/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-11-13-663/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-20-16-844/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-32-33-148/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-41-31-675/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_16-54-28-010/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-01-25-528/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-12-05-678/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-27-52-556/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/correct/2024-09-01_17-34-27-485/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea480845630>, {'2': {'total_questions': [10, 10, 10, 10, 10, 10, 10, 10, 10, 10], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'wrongs': [9, 9, 9, 9, 9, 9, 9, 9, 9, 9]}, '1': {'total_questions': [11, 11, 11, 11, 11, 11, 11, 11, 11, 11], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'wrongs': [9, 9, 9, 9, 9, 9, 9, 9, 9, 9]}, '3': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_15-59-20-633/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-12-19-674/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-21-10-940/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-33-34-207/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-42-33-195/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_16-55-33-306/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-02-31-712/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-13-46-877/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-28-53-817/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_parsing/2024-09-01_17-35-30-242/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea4808152d0>, {'2': {'total_questions': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]}, '1': {'total_questions': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'correct': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 50.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_15-59-50-510/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-12-44-471/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-21-32-761/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-33-57-411/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-42-58-030/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_16-55-59-816/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-03-01-179/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-14-44-810/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-29-19-443/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_enough_data/2024-09-01_17-35-54-834/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea480115000>, {'2': {'total_questions': [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [7, 7, 7, 7, 7, 7, 7, 7, 7, 7]}, '1': {'total_questions': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]}, '3': {'total_questions': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'wrongs': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-00-30-495/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-13-23-860/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-22-11-228/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-34-35-704/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-43-36-947/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_16-56-40-134/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-05-33-838/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-15-59-776/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-29-58-698/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_retrieve_not_enough_data/2024-09-01_17-38-07-616/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea480068790>, {'1': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}, '2': {'total_questions': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}, '3': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-04-06-137/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-13-49-259/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-26-01-706/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-34-59-718/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-47-27-097/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-57-05-504/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-06-01-867/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-20-14-043/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-30-20-532/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_17-38-29-757/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea47bfa9360>, {'2': {'total_questions': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]}, '1': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-04-24-525/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-14-06-988/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-26-18-832/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-35-18-279/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-47-48-263/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_16-57-25-163/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-06-21-906/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-21-06-937/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-30-40-864/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/wrong_tool_choice/2024-09-01_17-38-47-702/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea47b5c6a70>, {'1': {'total_questions': [8, 8, 8, 8, 8, 8, 8, 8, 8, 8], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [8, 8, 8, 8, 8, 8, 8, 8, 8, 8]}, '3': {'total_questions': [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]}, '2': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-05-16-250/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-15-00-494/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-27-16-892/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-36-19-884/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-48-39-753/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_16-58-18-731/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-07-19-108/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-22-35-230/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-31-32-039/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/ineffective_tool/2024-09-01_17-39-41-590/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea47abfb9a0>, {'2': {'total_questions': [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'wrongs': [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]}, '1': {'total_questions': [6, 6, 6, 6, 6, 6, 6, 6, 6, 6], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [6, 6, 6, 6, 6, 6, 6, 6, 6, 6]}, '3': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-08-55-890/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-18-09-287/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-30-29-048/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-39-17-225/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-52-10-837/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_16-59-09-641/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-08-27-004/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-25-46-784/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-32-12-456/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_image/2024-09-01_17-42-34-874/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea4797745e0>, {'1': {'total_questions': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'wrongs': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]}, '2': {'total_questions': [8, 8, 8, 8, 8, 8, 8, 8, 8, 8], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [6, 6, 6, 6, 6, 6, 6, 6, 6, 6], 'wrongs': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]}, '3': {'total_questions': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-09-12-840/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-18-24-776/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-30-44-455/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-39-34-046/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-52-29-570/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_16-59-27-013/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-08-49-856/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-26-04-138/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-32-29-464/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/video/2024-09-01_17-42-50-875/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea479687910>, {'1': {'total_questions': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]}, '2': {'total_questions': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]}, '3': {'total_questions': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}})
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Aggregating results from directory: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-09-29-969/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-18-42-424/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-31-01-954/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-39-53-872/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-52-48-205/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_16-59-47-931/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-09-32-724/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-26-21-561/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-32-47-886/correct_stats_zero_shot.json
+Processing file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/need_web/2024-09-01_17-43-08-458/correct_stats_zero_shot.json
+levels: defaultdict(<function aggregate_results_single_category_folder.<locals>.<lambda> at 0x7ea4796b51b0>, {'2': {'total_questions': [40, 40, 40, 40, 40, 40, 40, 40, 40, 40], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [40, 40, 40, 40, 40, 40, 40, 40, 40, 40]}, '3': {'total_questions': [12, 12, 12, 12, 12, 12, 12, 12, 12, 12], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [12, 12, 12, 12, 12, 12, 12, 12, 12, 12]}, '1': {'total_questions': [13, 13, 13, 13, 13, 13, 13, 13, 13, 13], 'correct': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'no_answer': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'error_500': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'other_error': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'wrongs': [13, 13, 13, 13, 13, 13, 13, 13, 13, 13]}})
+Level 2: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 3: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+Level 1: Mean Success Rate: 0.00%, Std Success Rate: 0.00%
+/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/plot_maker.py:147: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(figsize=(12, 6))
+mv: cannot stat 'docker_instances/neo4j_docker/snapshots/kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558': No such file or directory

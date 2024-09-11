@@ -1,0 +1,4 @@
+{"type":"node","id":"3","labels":["ShortFilm"],"properties":{"release_date":"2018-12-17","description":"The film tells the story of a woman named Katie Stubblefield, who underwent a face transplant after a severe injury. The film explores her journey and the medical and emotional challenges she faced.","title":"The Story of a Face"}}
+{"type":"node","id":"4","labels":["Website"],"properties":{"name":"Monterey Bay Aquarium"}}
+{"type":"node","id":"5","labels":["Species"],"properties":{"max_length_meters":9,"name":"Giant Pacific Octopus"}}
+{"type":"relationship","id":"78","label":"PROVIDES_INFORMATION_ON","start":{"id":"4","labels":["Website"],"properties":{"name":"Monterey Bay Aquarium"}},"end":{"id":"5","labels":["Species"],"properties":{"max_length_meters":9,"name":"Giant Pacific Octopus"}}}

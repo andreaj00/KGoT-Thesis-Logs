@@ -1,0 +1,9 @@
+{"type":"node","id":"18","labels":["Article"],"properties":{"title":"Influence of electric current pulses on the solidification of Cu-Bi-Sn immiscible alloys","url":"/articles/srep12680"}}
+{"type":"node","id":"37","labels":["Author"],"properties":{"name":"Jiang Hongxiang"}}
+{"type":"node","id":"38","labels":["Author"],"properties":{"name":"He Jie"}}
+{"type":"node","id":"39","labels":["Author"],"properties":{"name":"Zhao Jiuzhou"}}
+{"type":"node","id":"40","labels":["Compound"],"properties":{"name":"Cu-Bi-Sn"}}
+{"type":"relationship","id":"65","label":"AUTHORED_BY","start":{"id":"18","labels":["Article"],"properties":{"title":"Influence of electric current pulses on the solidification of Cu-Bi-Sn immiscible alloys","url":"/articles/srep12680"}},"end":{"id":"37","labels":["Author"],"properties":{"name":"Jiang Hongxiang"}}}
+{"type":"relationship","id":"66","label":"AUTHORED_BY","start":{"id":"18","labels":["Article"],"properties":{"title":"Influence of electric current pulses on the solidification of Cu-Bi-Sn immiscible alloys","url":"/articles/srep12680"}},"end":{"id":"38","labels":["Author"],"properties":{"name":"He Jie"}}}
+{"type":"relationship","id":"67","label":"AUTHORED_BY","start":{"id":"18","labels":["Article"],"properties":{"title":"Influence of electric current pulses on the solidification of Cu-Bi-Sn immiscible alloys","url":"/articles/srep12680"}},"end":{"id":"39","labels":["Author"],"properties":{"name":"Zhao Jiuzhou"}}}
+{"type":"relationship","id":"68","label":"STUDIES","start":{"id":"18","labels":["Article"],"properties":{"title":"Influence of electric current pulses on the solidification of Cu-Bi-Sn immiscible alloys","url":"/articles/srep12680"}},"end":{"id":"40","labels":["Compound"],"properties":{"name":"Cu-Bi-Sn"}}}

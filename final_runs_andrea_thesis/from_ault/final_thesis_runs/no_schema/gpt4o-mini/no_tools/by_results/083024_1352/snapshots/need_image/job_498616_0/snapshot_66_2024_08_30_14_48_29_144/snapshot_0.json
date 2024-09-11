@@ -1,0 +1,3 @@
+{"type":"node","id":"61","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/9318445f-fe6a-4e1b-acbf-c68228c9906a.png"}}
+{"type":"node","id":"62","labels":["ToolCall"],"properties":{"name":"load_documents","id":"call_LmXunnusmgih01e2Hv8spPf5","type":"tool_call"}}
+{"type":"relationship","id":"25","label":"LOADS","start":{"id":"62","labels":["ToolCall"],"properties":{"name":"load_documents","id":"call_LmXunnusmgih01e2Hv8spPf5","type":"tool_call"}},"end":{"id":"61","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/9318445f-fe6a-4e1b-acbf-c68228c9906a.png"}}}

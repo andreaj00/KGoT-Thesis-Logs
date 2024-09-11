@@ -1,0 +1,3 @@
+{"type":"node","id":"28","labels":["WhitneyMuseum"],"properties":{"name":"Whitney Museum of American Art"}}
+{"type":"node","id":"29","labels":["Artwork"],"properties":{"accession_number":"2022.128","description":"Photograph showing a person holding a book"}}
+{"type":"relationship","id":"90","label":"HAS_ARTWORK","start":{"id":"28","labels":["WhitneyMuseum"],"properties":{"name":"Whitney Museum of American Art"}},"end":{"id":"29","labels":["Artwork"],"properties":{"accession_number":"2022.128","description":"Photograph showing a person holding a book"}}}

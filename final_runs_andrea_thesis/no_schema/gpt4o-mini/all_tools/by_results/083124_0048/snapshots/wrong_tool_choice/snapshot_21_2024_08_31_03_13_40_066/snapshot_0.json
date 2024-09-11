@@ -1,0 +1,4 @@
+{"type":"node","id":"4","labels":["Scientist"],"properties":{"name":"Herbert Simon"}}
+{"type":"node","id":"5","labels":["Scientist"],"properties":{"name":"Marvin Minsky"}}
+{"type":"relationship","id":"10","label":"PREDICTED","properties":{"year":1965,"prediction":"machines will be capable, within twenty years, of doing any work a man can do."},"start":{"id":"4","labels":["Scientist"],"properties":{"name":"Herbert Simon"}},"end":{"id":"5","labels":["Scientist"],"properties":{"name":"Marvin Minsky"}}}
+{"type":"relationship","id":"11","label":"PREDICTED","properties":{"year":1967,"prediction":"Within a generation ... the problem of creating artificial intelligence will substantially be solved."},"start":{"id":"5","labels":["Scientist"],"properties":{"name":"Marvin Minsky"}},"end":{"id":"4","labels":["Scientist"],"properties":{"name":"Herbert Simon"}}}

@@ -1,0 +1,3 @@
+{"type":"node","id":"66","labels":["FeaturedArticle"],"properties":{"title":"Therizinosaurus"}}
+{"type":"node","id":"67","labels":["User"],"properties":{"username":"DinoGamer"}}
+{"type":"relationship","id":"16","label":"NOMINATED","start":{"id":"67","labels":["User"],"properties":{"username":"DinoGamer"}},"end":{"id":"66","labels":["FeaturedArticle"],"properties":{"title":"Therizinosaurus"}}}

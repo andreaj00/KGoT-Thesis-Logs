@@ -1,0 +1,3 @@
+{"type":"node","id":"41","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg"}}
+{"type":"node","id":"42","labels":["ToolCall"],"properties":{"name":"load_documents","id":"call_2om5WVyMSsE3N0DXKSTgFSeG","type":"tool_call"}}
+{"type":"relationship","id":"12","label":"RETURNED","start":{"id":"42","labels":["ToolCall"],"properties":{"name":"load_documents","id":"call_2om5WVyMSsE3N0DXKSTgFSeG","type":"tool_call"}},"end":{"id":"41","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg"}}}

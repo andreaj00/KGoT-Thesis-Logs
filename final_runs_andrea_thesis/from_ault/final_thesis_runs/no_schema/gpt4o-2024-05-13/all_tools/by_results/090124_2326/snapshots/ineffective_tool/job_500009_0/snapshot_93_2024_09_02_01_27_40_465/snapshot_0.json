@@ -1,0 +1,9 @@
+{"type":"node","id":"42","labels":["Person"],"properties":{"name":"Deidre LaCarte"}}
+{"type":"node","id":"43","labels":["Person"],"properties":{"name":"Roger Miller"}}
+{"type":"node","id":"44","labels":["Song"],"properties":{"title":"Whistle Stop"}}
+{"type":"node","id":"45","labels":["Song"],"properties":{"title":"The Hampsterdance Song"}}
+{"type":"node","id":"46","labels":["Band"],"properties":{"name":"Hampton the Hampster"}}
+{"type":"relationship","id":"64","label":"SAMPLES","start":{"id":"45","labels":["Song"],"properties":{"title":"The Hampsterdance Song"}},"end":{"id":"44","labels":["Song"],"properties":{"title":"Whistle Stop"}}}
+{"type":"relationship","id":"65","label":"RELEASED","start":{"id":"46","labels":["Band"],"properties":{"name":"Hampton the Hampster"}},"end":{"id":"45","labels":["Song"],"properties":{"title":"The Hampsterdance Song"}}}
+{"type":"relationship","id":"9","label":"COMPOSED","start":{"id":"43","labels":["Person"],"properties":{"name":"Roger Miller"}},"end":{"id":"44","labels":["Song"],"properties":{"title":"Whistle Stop"}}}
+{"type":"relationship","id":"63","label":"CREATED","start":{"id":"42","labels":["Person"],"properties":{"name":"Deidre LaCarte"}},"end":{"id":"45","labels":["Song"],"properties":{"title":"The Hampsterdance Song"}}}

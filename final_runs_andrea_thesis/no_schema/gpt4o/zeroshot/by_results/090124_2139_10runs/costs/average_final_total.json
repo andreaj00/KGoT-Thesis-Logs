@@ -1,0 +1,14 @@
+{
+    "AverageFinalTotal": {
+        "TotalPromptTokens": 38216.0,
+        "TotalCompletionTokens": 39710.8,
+        "TotalCost": 0.786742,
+        "TotalDuration": 474.6047065019608
+    },
+    "StandardDeviationFinalTotal": {
+        "TotalPromptTokens": 0.0,
+        "TotalCompletionTokens": 2475.984079108749,
+        "TotalCost": 0.03713976118663122,
+        "TotalDuration": 24.15181509883085
+    }
+}

@@ -1,0 +1,5 @@
+{"type":"node","id":"60","labels":["Class"],"properties":{"name":"Priest"}}
+{"type":"node","id":"61","labels":["Class"],"properties":{"name":"Paladin"}}
+{"type":"node","id":"62","labels":["Spell"],"properties":{"type":"holy"}}
+{"type":"relationship","id":"2","label":"CAN_CAST","properties":{"spell_type":"holy"},"start":{"id":"60","labels":["Class"],"properties":{"name":"Priest"}},"end":{"id":"62","labels":["Spell"],"properties":{"type":"holy"}}}
+{"type":"relationship","id":"3","label":"CAN_CAST","properties":{"spell_type":"holy"},"start":{"id":"61","labels":["Class"],"properties":{"name":"Paladin"}},"end":{"id":"62","labels":["Spell"],"properties":{"type":"holy"}}}

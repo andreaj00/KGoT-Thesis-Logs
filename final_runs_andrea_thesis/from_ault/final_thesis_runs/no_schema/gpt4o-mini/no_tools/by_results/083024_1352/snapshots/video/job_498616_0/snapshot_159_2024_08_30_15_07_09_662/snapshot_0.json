@@ -1,0 +1,5 @@
+{"type":"node","id":"45","labels":["Video"],"properties":{"date":"March 2018","title":"The Ultimate 360° Dinosaur Experience"}}
+{"type":"node","id":"46","labels":["Narrator"],"properties":{"name":"Andy Serkis"}}
+{"type":"node","id":"47","labels":["Dinosaur"],"properties":{"context":"extinction event","time_period":"65 million years ago"}}
+{"type":"relationship","id":"10","label":"NARRATES","start":{"id":"46","labels":["Narrator"],"properties":{"name":"Andy Serkis"}},"end":{"id":"45","labels":["Video"],"properties":{"date":"March 2018","title":"The Ultimate 360° Dinosaur Experience"}}}
+{"type":"relationship","id":"11","label":"SHOWS","start":{"id":"45","labels":["Video"],"properties":{"date":"March 2018","title":"The Ultimate 360° Dinosaur Experience"}},"end":{"id":"47","labels":["Dinosaur"],"properties":{"context":"extinction event","time_period":"65 million years ago"}}}

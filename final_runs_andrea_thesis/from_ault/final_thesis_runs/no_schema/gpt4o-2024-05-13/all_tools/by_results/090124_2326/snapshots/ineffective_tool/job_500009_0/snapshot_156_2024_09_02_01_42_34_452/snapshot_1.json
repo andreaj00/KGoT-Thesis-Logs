@@ -1,0 +1,41 @@
+{"type":"node","id":"5","labels":["Pitcher"],"properties":{"last_name":"Nemoto","jersey_number":59}}
+{"type":"node","id":"6","labels":["Pitcher"],"properties":{"last_name":"Rodriguez","jersey_number":41}}
+{"type":"node","id":"7","labels":["Pitcher"],"properties":{"last_name":"Sugiura","jersey_number":22}}
+{"type":"node","id":"8","labels":["Pitcher"],"properties":{"last_name":"Suzuki","jersey_number":47}}
+{"type":"node","id":"9","labels":["Pitcher"],"properties":{"last_name":"Tanaka","jersey_number":93}}
+{"type":"node","id":"10","labels":["Pitcher"],"properties":{"last_name":"Tanaka","jersey_number":26}}
+{"type":"node","id":"11","labels":["Pitcher"],"properties":{"last_name":"Tatsu","jersey_number":16}}
+{"type":"node","id":"12","labels":["Pitcher"],"properties":{"last_name":"Uehara","jersey_number":20}}
+{"type":"node","id":"13","labels":["Pitcher"],"properties":{"last_name":"VerHagen","jersey_number":45}}
+{"type":"node","id":"14","labels":["Pitcher"],"properties":{"last_name":"Yamamoto","jersey_number":67}}
+{"type":"node","id":"15","labels":["Pitcher"],"properties":{"last_name":"Yamasaki","jersey_number":18}}
+{"type":"node","id":"16","labels":["Pitcher"],"properties":{"last_name":"Yanagawa","jersey_number":95}}
+{"type":"node","id":"17","labels":["Pitcher"],"properties":{"last_name":"Yazawa","jersey_number":12}}
+{"type":"node","id":"18","labels":["Pitcher"],"properties":{"last_name":"Zabala","jersey_number":42}}
+{"type":"node","id":"82","labels":["Pitcher"],"properties":{"last_name":"Tamai","jersey_number":19,"first_name":"Taishō"}}
+{"type":"node","id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}}
+{"type":"node","id":"84","labels":["League"],"properties":{"division":"Pacific League","name":"NPB"}}
+{"type":"node","id":"85","labels":["Pitcher"],"properties":{"last_name":"Anzai","jersey_number":54}}
+{"type":"node","id":"86","labels":["Pitcher"],"properties":{"last_name":"Fukuda","jersey_number":40}}
+{"type":"node","id":"87","labels":["Pitcher"],"properties":{"last_name":"Fukushima","jersey_number":94}}
+{"type":"node","id":"88","labels":["Pitcher"],"properties":{"last_name":"Hori","jersey_number":34}}
+{"type":"node","id":"89","labels":["Pitcher"],"properties":{"last_name":"Hosono","jersey_number":29}}
+{"type":"node","id":"90","labels":["Pitcher"],"properties":{"last_name":"Ikeda","jersey_number":52}}
+{"type":"node","id":"91","labels":["Pitcher"],"properties":{"last_name":"Ishikawa","jersey_number":51}}
+{"type":"node","id":"92","labels":["Pitcher"],"properties":{"last_name":"Itoh","jersey_number":17}}
+{"type":"node","id":"93","labels":["Pitcher"],"properties":{"last_name":"Kagiya","jersey_number":60}}
+{"type":"node","id":"94","labels":["Pitcher"],"properties":{"last_name":"Kanemura","jersey_number":24}}
+{"type":"node","id":"95","labels":["Pitcher"],"properties":{"last_name":"Katoh","jersey_number":14}}
+{"type":"node","id":"96","labels":["Pitcher"],"properties":{"last_name":"Kawano","jersey_number":28}}
+{"type":"node","id":"97","labels":["Pitcher"],"properties":{"last_name":"Kitaura","jersey_number":63}}
+{"type":"node","id":"98","labels":["Pitcher"],"properties":{"last_name":"Kitayama","jersey_number":57}}
+{"type":"node","id":"99","labels":["Pitcher"],"properties":{"last_name":"Kuroki","jersey_number":32}}
+{"type":"node","id":"100","labels":["Pitcher"],"properties":{"last_name":"Kuroyanagi","jersey_number":46}}
+{"type":"node","id":"101","labels":["Pitcher"],"properties":{"last_name":"Matsuura","jersey_number":55}}
+{"type":"node","id":"102","labels":["Pitcher"],"properties":{"last_name":"Miyanishi","jersey_number":25}}
+{"type":"node","id":"103","labels":["Pitcher"],"properties":{"last_name":"Miyauchi","jersey_number":62}}
+{"type":"node","id":"104","labels":["Pitcher"],"properties":{"last_name":"Murphy","jersey_number":31}}
+{"type":"node","id":"105","labels":["Pitcher"],"properties":{"last_name":"Nabatame","jersey_number":13}}
+{"type":"node","id":"106","labels":["Pitcher"],"properties":{"last_name":"Saito","jersey_number":48}}
+{"type":"relationship","id":"22","label":"PLAYS_FOR","start":{"id":"82","labels":["Pitcher"],"properties":{"last_name":"Tamai","jersey_number":19,"first_name":"Taishō"}},"end":{"id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}}}
+{"type":"relationship","id":"23","label":"PART_OF","start":{"id":"83","labels":["Team"],"properties":{"name":"Hokkaido Nippon-Ham Fighters"}},"end":{"id":"84","labels":["League"],"properties":{"division":"Pacific League","name":"NPB"}}}

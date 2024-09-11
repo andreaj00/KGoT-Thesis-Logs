@@ -1,0 +1,5 @@
+{"type":"node","id":"48","labels":["Film"],"properties":{"title":"Goldfinger"}}
+{"type":"node","id":"49","labels":["Color"],"properties":{"name":"black"}}
+{"type":"node","id":"50","labels":["Color"],"properties":{"name":"yellow"}}
+{"type":"relationship","id":"12","label":"CONTAINS","start":{"id":"48","labels":["Film"],"properties":{"title":"Goldfinger"}},"end":{"id":"49","labels":["Color"],"properties":{"name":"black"}}}
+{"type":"relationship","id":"13","label":"CONTAINS","start":{"id":"48","labels":["Film"],"properties":{"title":"Goldfinger"}},"end":{"id":"50","labels":["Color"],"properties":{"name":"yellow"}}}

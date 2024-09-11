@@ -1,0 +1,12 @@
+{"type":"node","id":"39","labels":["Set"],"properties":{"name":"S"}}
+{"type":"node","id":"40","labels":["Element"],"properties":{"value":"a"}}
+{"type":"node","id":"41","labels":["Element"],"properties":{"counter":1,"value":"b"}}
+{"type":"node","id":"42","labels":["Element"],"properties":{"value":"c"}}
+{"type":"node","id":"43","labels":["Element"],"properties":{"value":"d"}}
+{"type":"node","id":"44","labels":["Element"],"properties":{"counter":1,"value":"e"}}
+{"type":"relationship","id":"16","label":"IN_SET","start":{"id":"41","labels":["Element"],"properties":{"counter":1,"value":"b"}},"end":{"id":"39","labels":["Set"],"properties":{"name":"S"}}}
+{"type":"relationship","id":"17","label":"IN_SET","start":{"id":"42","labels":["Element"],"properties":{"value":"c"}},"end":{"id":"39","labels":["Set"],"properties":{"name":"S"}}}
+{"type":"relationship","id":"18","label":"IN_SET","start":{"id":"43","labels":["Element"],"properties":{"value":"d"}},"end":{"id":"39","labels":["Set"],"properties":{"name":"S"}}}
+{"type":"relationship","id":"19","label":"IN_SET","start":{"id":"44","labels":["Element"],"properties":{"counter":1,"value":"e"}},"end":{"id":"39","labels":["Set"],"properties":{"name":"S"}}}
+{"type":"relationship","id":"20","label":"COUNTER_EXAMPLE","start":{"id":"41","labels":["Element"],"properties":{"counter":1,"value":"b"}},"end":{"id":"44","labels":["Element"],"properties":{"counter":1,"value":"e"}}}
+{"type":"relationship","id":"15","label":"IN_SET","start":{"id":"40","labels":["Element"],"properties":{"value":"a"}},"end":{"id":"39","labels":["Set"],"properties":{"name":"S"}}}

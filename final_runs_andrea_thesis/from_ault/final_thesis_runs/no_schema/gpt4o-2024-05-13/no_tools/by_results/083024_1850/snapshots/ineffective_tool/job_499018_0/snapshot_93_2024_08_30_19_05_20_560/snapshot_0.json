@@ -1,0 +1,3 @@
+{"type":"node","id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}
+{"type":"node","id":"25","labels":["Composer"],"properties":{"last_name":"Miller","first_name":"Roger"}}
+{"type":"relationship","id":"95","label":"COMPOSED","start":{"id":"25","labels":["Composer"],"properties":{"last_name":"Miller","first_name":"Roger"}},"end":{"id":"24","labels":["Song"],"properties":{"title":"The Hamsterdance Song"}}}

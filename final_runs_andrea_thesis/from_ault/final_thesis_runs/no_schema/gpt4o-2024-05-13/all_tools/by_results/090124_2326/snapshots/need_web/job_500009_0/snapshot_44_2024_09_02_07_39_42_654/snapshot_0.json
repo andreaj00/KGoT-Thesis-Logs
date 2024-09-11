@@ -1,0 +1,7 @@
+{"type":"node","id":"102","labels":["BlogPost"],"properties":{"title":"2018 VSCode blog post","url":"https://replit.com"}}
+{"type":"node","id":"103","labels":["Video"],"properties":{"description":"last video"}}
+{"type":"node","id":"104","labels":["Command"],"properties":{"name":"Trim Trailing Whitespace"}}
+{"type":"node","id":"105","labels":["Command"],"properties":{"name":"Find and Replace with Regular Expressions"}}
+{"type":"relationship","id":"4","label":"CONTAINS","start":{"id":"102","labels":["BlogPost"],"properties":{"title":"2018 VSCode blog post","url":"https://replit.com"}},"end":{"id":"103","labels":["Video"],"properties":{"description":"last video"}}}
+{"type":"relationship","id":"5","label":"FEATURED_COMMAND","start":{"id":"103","labels":["Video"],"properties":{"description":"last video"}},"end":{"id":"104","labels":["Command"],"properties":{"name":"Trim Trailing Whitespace"}}}
+{"type":"relationship","id":"6","label":"FEATURED_COMMAND","start":{"id":"103","labels":["Video"],"properties":{"description":"last video"}},"end":{"id":"105","labels":["Command"],"properties":{"name":"Find and Replace with Regular Expressions"}}}

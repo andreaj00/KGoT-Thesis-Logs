@@ -1,0 +1,3 @@
+{"type":"node","id":"103","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"104","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}
+{"type":"relationship","id":"97","label":"RELEASED","start":{"id":"103","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"104","labels":["Album"],"properties":{"release_year":1996,"title":"Tidal"}}}

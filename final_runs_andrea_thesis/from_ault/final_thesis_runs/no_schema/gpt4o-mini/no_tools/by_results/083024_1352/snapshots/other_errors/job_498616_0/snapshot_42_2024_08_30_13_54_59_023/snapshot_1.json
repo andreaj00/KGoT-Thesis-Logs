@@ -1,0 +1,8 @@
+{"type":"node","id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"1","labels":["Tidal"],"properties":{"release_year":1996}}
+{"type":"node","id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}}
+{"type":"node","id":"3","labels":["Harbinger"],"properties":{"release_year":1994}}
+{"type":"node","id":"4","labels":["ThisFire"],"properties":{"release_year":1996}}
+{"type":"relationship","id":"50","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"1","labels":["Tidal"],"properties":{"release_year":1996}}}
+{"type":"relationship","id":"51","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"3","labels":["Harbinger"],"properties":{"release_year":1994}}}
+{"type":"relationship","id":"52","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"4","labels":["ThisFire"],"properties":{"release_year":1996}}}

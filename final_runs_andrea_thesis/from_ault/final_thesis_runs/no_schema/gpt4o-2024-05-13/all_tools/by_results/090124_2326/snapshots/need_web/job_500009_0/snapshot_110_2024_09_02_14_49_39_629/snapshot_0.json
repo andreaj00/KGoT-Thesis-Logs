@@ -1,0 +1,29 @@
+{"type":"node","id":"3","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.Perceptron"}}
+{"type":"node","id":"4","labels":["PredictorBaseCommand"],"properties":{"name":"eli5.explain_weights"}}
+{"type":"node","id":"5","labels":["PredictorBaseCommand"],"properties":{"name":"eli5.explain_prediction"}}
+{"type":"node","id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}}
+{"type":"node","id":"95","labels":["PredictorBaseCommand"],"properties":{"name":"metrics.matthews_corrcoef"}}
+{"type":"node","id":"96","labels":["PredictorBaseCommand"],"properties":{"name":"preprocessing.LabelEncoder"}}
+{"type":"node","id":"97","labels":["PredictorBaseCommand"],"properties":{"name":"manifold.TSNE"}}
+{"type":"node","id":"98","labels":["PredictorBaseCommand"],"properties":{"name":"model_selection.cross_val_predict"}}
+{"type":"node","id":"99","labels":["PredictorBaseCommand"],"properties":{"name":"datasets.make_classification"}}
+{"type":"node","id":"100","labels":["PredictorBaseCommand"],"properties":{"name":"model_selection.StratifiedShuffleSplit"}}
+{"type":"node","id":"101","labels":["PredictorBaseCommand"],"properties":{"name":"pipeline.Pipeline"}}
+{"type":"node","id":"102","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.SGDClassifier"}}
+{"type":"node","id":"103","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.SGDRegressor"}}
+{"type":"node","id":"104","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.PassiveAggressiveClassifier"}}
+{"type":"node","id":"105","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.PassiveAggressiveRegressor"}}
+{"type":"relationship","id":"128","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"4","labels":["PredictorBaseCommand"],"properties":{"name":"eli5.explain_weights"}}}
+{"type":"relationship","id":"129","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"5","labels":["PredictorBaseCommand"],"properties":{"name":"eli5.explain_prediction"}}}
+{"type":"relationship","id":"116","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"95","labels":["PredictorBaseCommand"],"properties":{"name":"metrics.matthews_corrcoef"}}}
+{"type":"relationship","id":"117","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"96","labels":["PredictorBaseCommand"],"properties":{"name":"preprocessing.LabelEncoder"}}}
+{"type":"relationship","id":"118","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"97","labels":["PredictorBaseCommand"],"properties":{"name":"manifold.TSNE"}}}
+{"type":"relationship","id":"119","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"98","labels":["PredictorBaseCommand"],"properties":{"name":"model_selection.cross_val_predict"}}}
+{"type":"relationship","id":"120","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"99","labels":["PredictorBaseCommand"],"properties":{"name":"datasets.make_classification"}}}
+{"type":"relationship","id":"121","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"100","labels":["PredictorBaseCommand"],"properties":{"name":"model_selection.StratifiedShuffleSplit"}}}
+{"type":"relationship","id":"122","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"101","labels":["PredictorBaseCommand"],"properties":{"name":"pipeline.Pipeline"}}}
+{"type":"relationship","id":"123","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"102","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.SGDClassifier"}}}
+{"type":"relationship","id":"124","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"103","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.SGDRegressor"}}}
+{"type":"relationship","id":"125","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"104","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.PassiveAggressiveClassifier"}}}
+{"type":"relationship","id":"126","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"105","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.PassiveAggressiveRegressor"}}}
+{"type":"relationship","id":"127","label":"INCLUDES","start":{"id":"94","labels":["Changelog"],"properties":{"date":"July 2017","version":"0.19.1"}},"end":{"id":"3","labels":["PredictorBaseCommand"],"properties":{"name":"linear_model.Perceptron"}}}

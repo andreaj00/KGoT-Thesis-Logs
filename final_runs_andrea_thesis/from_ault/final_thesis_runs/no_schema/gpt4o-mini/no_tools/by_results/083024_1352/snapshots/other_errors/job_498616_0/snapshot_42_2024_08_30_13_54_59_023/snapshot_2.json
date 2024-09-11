@@ -1,0 +1,19 @@
+{"type":"node","id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}}
+{"type":"node","id":"1","labels":["Tidal"],"properties":{"release_year":1996}}
+{"type":"node","id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}}
+{"type":"node","id":"3","labels":["Harbinger"],"properties":{"release_year":1994}}
+{"type":"node","id":"4","labels":["ThisFire"],"properties":{"release_year":1996}}
+{"type":"node","id":"5","labels":["WhenThePawn"],"properties":{"release_year":1999}}
+{"type":"node","id":"6","labels":["ExtraordinaryMachine"],"properties":{"release_year":2005}}
+{"type":"node","id":"7","labels":["TheIdlerWheel"],"properties":{"release_year":2012}}
+{"type":"node","id":"8","labels":["Amen"],"properties":{"release_year":1999}}
+{"type":"relationship","id":"50","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"1","labels":["Tidal"],"properties":{"release_year":1996}}}
+{"type":"relationship","id":"51","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"3","labels":["Harbinger"],"properties":{"release_year":1994}}}
+{"type":"relationship","id":"52","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"4","labels":["ThisFire"],"properties":{"release_year":1996}}}
+{"type":"relationship","id":"53","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"1","labels":["Tidal"],"properties":{"release_year":1996}}}
+{"type":"relationship","id":"54","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"5","labels":["WhenThePawn"],"properties":{"release_year":1999}}}
+{"type":"relationship","id":"55","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"6","labels":["ExtraordinaryMachine"],"properties":{"release_year":2005}}}
+{"type":"relationship","id":"56","label":"RELEASED","start":{"id":"0","labels":["FionaApple"],"properties":{"name":"Fiona Apple"}},"end":{"id":"7","labels":["TheIdlerWheel"],"properties":{"release_year":2012}}}
+{"type":"relationship","id":"57","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"3","labels":["Harbinger"],"properties":{"release_year":1994}}}
+{"type":"relationship","id":"58","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"4","labels":["ThisFire"],"properties":{"release_year":1996}}}
+{"type":"relationship","id":"59","label":"RELEASED","start":{"id":"2","labels":["PaulaCole"],"properties":{"name":"Paula Cole"}},"end":{"id":"8","labels":["Amen"],"properties":{"release_year":1999}}}

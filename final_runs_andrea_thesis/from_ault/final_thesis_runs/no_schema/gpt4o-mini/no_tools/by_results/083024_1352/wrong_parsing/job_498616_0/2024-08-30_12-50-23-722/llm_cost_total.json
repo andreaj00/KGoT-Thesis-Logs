@@ -1,0 +1,92 @@
+{
+    "define_next_step": {
+        "TotalPromptTokens": 196565,
+        "TotalCompletionTokens": 3538,
+        "TotalCost": 0.03160099999999998,
+        "TotalDuration": 107.890709400177
+    },
+    "merge_reasons_to_insert": {
+        "TotalPromptTokens": 5820,
+        "TotalCompletionTokens": 432,
+        "TotalCost": 0.001131,
+        "TotalDuration": 11.451405048370361
+    },
+    "define_tool_calls": {
+        "TotalPromptTokens": 31812,
+        "TotalCompletionTokens": 945,
+        "TotalCost": 0.005339,
+        "TotalDuration": 18.33334755897522
+    },
+    "LLMTool._run": {
+        "TotalPromptTokens": 625,
+        "TotalCompletionTokens": 9592,
+        "TotalCost": 0.005847,
+        "TotalDuration": 134.60855770111084
+    },
+    "llm_query_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 134.61975574493408
+    },
+    "define_cypher_query_given_new_information": {
+        "TotalPromptTokens": 44977,
+        "TotalCompletionTokens": 11709,
+        "TotalCost": 0.013770999999999999,
+        "TotalDuration": 153.50422048568726
+    },
+    "fix_cypher": {
+        "TotalPromptTokens": 16098,
+        "TotalCompletionTokens": 5889,
+        "TotalCost": 0.005947000000000001,
+        "TotalDuration": 91.08842515945435
+    },
+    "define_retrieve_query": {
+        "TotalPromptTokens": 3830,
+        "TotalCompletionTokens": 459,
+        "TotalCost": 0.0008489999999999999,
+        "TotalDuration": 5.6488940715789795
+    },
+    "define_need_for_math_before_parsing": {
+        "TotalPromptTokens": 22251,
+        "TotalCompletionTokens": 204,
+        "TotalCost": 0.0034599999999999995,
+        "TotalDuration": 14.432791948318481
+    },
+    "WolframAlphaTool._run": {
+        "TotalPromptTokens": 108608,
+        "TotalCompletionTokens": 12313,
+        "TotalCost": 0.29868000000000006,
+        "TotalDuration": 237.421124458313
+    },
+    "parse_solution_with_llm": {
+        "TotalPromptTokens": 57372,
+        "TotalCompletionTokens": 3945,
+        "TotalCost": 0.010972999999999986,
+        "TotalDuration": 100.87108278274536
+    },
+    "define_final_solution": {
+        "TotalPromptTokens": 8597,
+        "TotalCompletionTokens": 153,
+        "TotalCost": 0.001382,
+        "TotalDuration": 4.637113094329834
+    },
+    "load_documents_COMPLETE_TOOL_CALL_COST_NOT_LOGGED": {
+        "TotalPromptTokens": 0,
+        "TotalCompletionTokens": 0,
+        "TotalCost": 0.0,
+        "TotalDuration": 7.498206615447998
+    },
+    "fix_json": {
+        "TotalPromptTokens": 43334,
+        "TotalCompletionTokens": 20498,
+        "TotalCost": 0.018799000000000003,
+        "TotalDuration": 334.68385076522827
+    },
+    "FinalTotal": {
+        "TotalPromptTokens": 539889,
+        "TotalCompletionTokens": 69677,
+        "TotalCost": 0.3977790000000003,
+        "TotalDuration": 1356.689484834671
+    }
+}

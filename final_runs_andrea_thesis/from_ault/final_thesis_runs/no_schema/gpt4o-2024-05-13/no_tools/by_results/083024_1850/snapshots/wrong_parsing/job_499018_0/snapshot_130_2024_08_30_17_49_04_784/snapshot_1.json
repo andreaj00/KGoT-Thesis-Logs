@@ -1,0 +1,6 @@
+{"type":"node","id":"13","labels":["City"],"properties":{"name":"Westmoreland County","state":"Virginia"}}
+{"type":"node","id":"14","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"15","labels":["City"],"properties":{"name":"Quincy","state":"Massachusetts"}}
+{"type":"node","id":"16","labels":["President"],"properties":{"name":"John Adams"}}
+{"type":"relationship","id":"84","label":"BORN_IN","start":{"id":"14","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"13","labels":["City"],"properties":{"name":"Westmoreland County","state":"Virginia"}}}
+{"type":"relationship","id":"85","label":"BORN_IN","start":{"id":"16","labels":["President"],"properties":{"name":"John Adams"}},"end":{"id":"15","labels":["City"],"properties":{"name":"Quincy","state":"Massachusetts"}}}

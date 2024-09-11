@@ -1,0 +1,3 @@
+{"type":"node","id":"43","labels":["Show"],"properties":{"name":"Survivor","unique_winners":44,"type":"Reality Competition"}}
+{"type":"node","id":"44","labels":["Show"],"properties":{"name":"American Idol","unique_winners":20,"type":"Reality Competition"}}
+{"type":"relationship","id":"44","label":"HAS_WINNER","start":{"id":"43","labels":["Show"],"properties":{"name":"Survivor","unique_winners":44,"type":"Reality Competition"}},"end":{"id":"44","labels":["Show"],"properties":{"name":"American Idol","unique_winners":20,"type":"Reality Competition"}}}

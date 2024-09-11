@@ -1,0 +1,5 @@
+{"type":"node","id":"100","labels":["Book"],"properties":{"title":"The Lord of the Rings"}}
+{"type":"node","id":"101","labels":["BookSeries"],"properties":{"title":"A Song of Ice and Fire"}}
+{"type":"node","id":"102","labels":["Genre"],"properties":{"name":"Fantasy literature"}}
+{"type":"relationship","id":"119","label":"LINKS_TO","start":{"id":"100","labels":["Book"],"properties":{"title":"The Lord of the Rings"}},"end":{"id":"102","labels":["Genre"],"properties":{"name":"Fantasy literature"}}}
+{"type":"relationship","id":"120","label":"LINKS_TO","start":{"id":"102","labels":["Genre"],"properties":{"name":"Fantasy literature"}},"end":{"id":"101","labels":["BookSeries"],"properties":{"title":"A Song of Ice and Fire"}}}

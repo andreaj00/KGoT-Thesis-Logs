@@ -1,0 +1,11 @@
+{"type":"node","id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}
+{"type":"node","id":"40","labels":["Author"],"properties":{"name":"Filipe Carreira da Silva"}}
+{"type":"node","id":"61","labels":["Author"],"properties":{"name":"Mónica Brito Vieira"}}
+{"type":"node","id":"62","labels":["Chapter"],"properties":{"number":2,"title":"Chapter 2"}}
+{"type":"node","id":"63","labels":["Neurologist"],"properties":{"name":"Unknown"}}
+{"type":"node","id":"64","labels":["Author"],"properties":{"lastName":"Jung"}}
+{"type":"relationship","id":"16","label":"HAS_CHAPTER","start":{"id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}},"end":{"id":"62","labels":["Chapter"],"properties":{"number":2,"title":"Chapter 2"}}}
+{"type":"relationship","id":"17","label":"INFLUENCED_BY","start":{"id":"63","labels":["Neurologist"],"properties":{"name":"Unknown"}},"end":{"id":"64","labels":["Author"],"properties":{"lastName":"Jung"}}}
+{"type":"relationship","id":"18","label":"MENTIONS","start":{"id":"62","labels":["Chapter"],"properties":{"number":2,"title":"Chapter 2"}},"end":{"id":"63","labels":["Neurologist"],"properties":{"name":"Unknown"}}}
+{"type":"relationship","id":"14","label":"CO_AUTHOR","start":{"id":"40","labels":["Author"],"properties":{"name":"Filipe Carreira da Silva"}},"end":{"id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}}
+{"type":"relationship","id":"15","label":"CO_AUTHOR","start":{"id":"61","labels":["Author"],"properties":{"name":"Mónica Brito Vieira"}},"end":{"id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}}

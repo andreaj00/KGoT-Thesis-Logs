@@ -1,0 +1,3 @@
+{"type":"node","id":"27","labels":["City"],"properties":{"latitude":21.3069,"name":"Honolulu","state":"Hawaii","longitude":-157.8583}}
+{"type":"node","id":"28","labels":["City"],"properties":{"latitude":42.207,"name":"Braintree","state":"Massachusetts","longitude":-70.999}}
+{"type":"relationship","id":"1","label":"FARTHEST_APART","start":{"id":"27","labels":["City"],"properties":{"latitude":21.3069,"name":"Honolulu","state":"Hawaii","longitude":-157.8583}},"end":{"id":"28","labels":["City"],"properties":{"latitude":42.207,"name":"Braintree","state":"Massachusetts","longitude":-70.999}}}

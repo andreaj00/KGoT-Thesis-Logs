@@ -1,0 +1,19 @@
+{"type":"node","id":"14","labels":["Chemical"],"properties":{"name":"dNTPs"}}
+{"type":"node","id":"15","labels":["Chemical"],"properties":{"name":"Ethidium Bromide"}}
+{"type":"node","id":"16","labels":["Chemical"],"properties":{"name":"Extraction Buffers"}}
+{"type":"node","id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}}
+{"type":"node","id":"92","labels":["Virus"],"properties":{"name":"Sweet Potato Feathery Mottle Virus","abbreviation":"SPFMV"}}
+{"type":"node","id":"93","labels":["Virus"],"properties":{"name":"Sweet Potato Chlorotic Stunt Virus","abbreviation":"SPCSV"}}
+{"type":"node","id":"94","labels":["Chemical"],"properties":{"name":"Agarose Gel"}}
+{"type":"node","id":"95","labels":["Chemical"],"properties":{"name":"DNA Polymerase"}}
+{"type":"node","id":"96","labels":["Chemical"],"properties":{"name":"Reverse Transcriptase Enzyme"}}
+{"type":"node","id":"97","labels":["Chemical"],"properties":{"name":"Specific Primers"}}
+{"type":"relationship","id":"16","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"15","labels":["Chemical"],"properties":{"name":"Ethidium Bromide"}}}
+{"type":"relationship","id":"17","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"16","labels":["Chemical"],"properties":{"name":"Extraction Buffers"}}}
+{"type":"relationship","id":"18","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"94","labels":["Chemical"],"properties":{"name":"Agarose Gel"}}}
+{"type":"relationship","id":"19","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"95","labels":["Chemical"],"properties":{"name":"DNA Polymerase"}}}
+{"type":"relationship","id":"20","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"96","labels":["Chemical"],"properties":{"name":"Reverse Transcriptase Enzyme"}}}
+{"type":"relationship","id":"21","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"97","labels":["Chemical"],"properties":{"name":"Specific Primers"}}}
+{"type":"relationship","id":"13","label":"INVESTIGATES","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"92","labels":["Virus"],"properties":{"name":"Sweet Potato Feathery Mottle Virus","abbreviation":"SPFMV"}}}
+{"type":"relationship","id":"14","label":"INVESTIGATES","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"93","labels":["Virus"],"properties":{"name":"Sweet Potato Chlorotic Stunt Virus","abbreviation":"SPCSV"}}}
+{"type":"relationship","id":"15","label":"USES_CHEMICAL","start":{"id":"91","labels":["Paper"],"properties":{"title":"2016 paper about SPFMV and SPCSV in the Pearl Of Africa"}},"end":{"id":"14","labels":["Chemical"],"properties":{"name":"dNTPs"}}}

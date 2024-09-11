@@ -1,0 +1,9 @@
+{"type":"node","id":"17","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","wheel_configuration":"0-4-0","type":"Steam"}}
+{"type":"node","id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}
+{"type":"node","id":"19","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","wheel_configuration":"0-4-0","type":"Steam"}}
+{"type":"node","id":"20","labels":["Location"],"properties":{"name":"Main Lawn"}}
+{"type":"node","id":"21","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","wheel_configuration":"4-4-0","type":"Steam"}}
+{"type":"node","id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}
+{"type":"relationship","id":"60","label":"HEADS","start":{"id":"17","labels":["Locomotive"],"properties":{"number":"1060","operating_status":"Operational","wheel_configuration":"0-4-0","type":"Steam"}},"end":{"id":"18","labels":["Excursion"],"properties":{"name":"Sunset Picnic Trip"}}}
+{"type":"relationship","id":"61","label":"LOCATED_AT","start":{"id":"19","labels":["Locomotive"],"properties":{"number":"31","operating_status":"Static Display","wheel_configuration":"0-4-0","type":"Steam"}},"end":{"id":"20","labels":["Location"],"properties":{"name":"Main Lawn"}}}
+{"type":"relationship","id":"62","label":"LOCATED_AT","start":{"id":"21","labels":["Locomotive"],"properties":{"number":"18","operating_status":"Static Display","wheel_configuration":"4-4-0","type":"Steam"}},"end":{"id":"22","labels":["Location"],"properties":{"name":"Display Hall"}}}

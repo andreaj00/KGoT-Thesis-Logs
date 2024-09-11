@@ -1,0 +1,23 @@
+{"type":"node","id":"0","labels":["Country"],"properties":{"ioc_code":"CAN","name":"Canada"}}
+{"type":"node","id":"1","labels":["Country"],"properties":{"ioc_code":"CHI","name":"Chile"}}
+{"type":"node","id":"2","labels":["Country"],"properties":{"ioc_code":"CHN","name":"China"}}
+{"type":"node","id":"3","labels":["Country"],"properties":{"ioc_code":"TCH","name":"Czechoslovakia"}}
+{"type":"node","id":"4","labels":["Country"],"properties":{"ioc_code":"DEN","name":"Denmark"}}
+{"type":"node","id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}
+{"type":"node","id":"17","labels":["Country"],"properties":{"ioc_code":"ARG","name":"Argentina"}}
+{"type":"node","id":"35","labels":["Country"],"properties":{"ioc_code":"AUS","name":"Australia"}}
+{"type":"node","id":"36","labels":["Country"],"properties":{"ioc_code":"AUT","name":"Austria"}}
+{"type":"node","id":"37","labels":["Country"],"properties":{"ioc_code":"BEL","name":"Belgium"}}
+{"type":"node","id":"38","labels":["Country"],"properties":{"ioc_code":"BRA","name":"Brazil"}}
+{"type":"node","id":"39","labels":["Country"],"properties":{"ioc_code":"BUL","name":"Bulgaria"}}
+{"type":"relationship","id":"84","label":"PARTICIPATED_IN","properties":{"athletes":81},"start":{"id":"17","labels":["Country"],"properties":{"ioc_code":"ARG","name":"Argentina"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"85","label":"PARTICIPATED_IN","properties":{"athletes":18},"start":{"id":"35","labels":["Country"],"properties":{"ioc_code":"AUS","name":"Australia"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"86","label":"PARTICIPATED_IN","properties":{"athletes":73},"start":{"id":"36","labels":["Country"],"properties":{"ioc_code":"AUT","name":"Austria"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"87","label":"PARTICIPATED_IN","properties":{"athletes":187},"start":{"id":"37","labels":["Country"],"properties":{"ioc_code":"BEL","name":"Belgium"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"88","label":"PARTICIPATED_IN","properties":{"athletes":82},"start":{"id":"38","labels":["Country"],"properties":{"ioc_code":"BRA","name":"Brazil"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"89","label":"PARTICIPATED_IN","properties":{"athletes":21},"start":{"id":"39","labels":["Country"],"properties":{"ioc_code":"BUL","name":"Bulgaria"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"90","label":"PARTICIPATED_IN","properties":{"athletes":69},"start":{"id":"0","labels":["Country"],"properties":{"ioc_code":"CAN","name":"Canada"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"91","label":"PARTICIPATED_IN","properties":{"athletes":38},"start":{"id":"1","labels":["Country"],"properties":{"ioc_code":"CHI","name":"Chile"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"92","label":"PARTICIPATED_IN","properties":{"athletes":1},"start":{"id":"2","labels":["Country"],"properties":{"ioc_code":"CHN","name":"China"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"93","label":"PARTICIPATED_IN","properties":{"athletes":69},"start":{"id":"3","labels":["Country"],"properties":{"ioc_code":"TCH","name":"Czechoslovakia"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}
+{"type":"relationship","id":"94","label":"PARTICIPATED_IN","properties":{"athletes":91},"start":{"id":"4","labels":["Country"],"properties":{"ioc_code":"DEN","name":"Denmark"}},"end":{"id":"16","labels":["Olympics"],"properties":{"country":"Netherlands","city":"Amsterdam","year":1928,"name":"1928 Summer Olympics"}}}

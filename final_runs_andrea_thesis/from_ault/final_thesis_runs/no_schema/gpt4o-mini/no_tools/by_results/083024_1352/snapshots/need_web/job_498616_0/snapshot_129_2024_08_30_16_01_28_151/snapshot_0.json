@@ -1,0 +1,5 @@
+{"type":"node","id":"10","labels":["Species"],"properties":{"name":"American Alligator"}}
+{"type":"node","id":"11","labels":["Location"],"properties":{"name":"West of Texas"}}
+{"type":"node","id":"12","labels":["Event"],"properties":{"year":1970}}
+{"type":"relationship","id":"33","label":"FIRST_FOUND","start":{"id":"10","labels":["Species"],"properties":{"name":"American Alligator"}},"end":{"id":"12","labels":["Event"],"properties":{"year":1970}}}
+{"type":"relationship","id":"14","label":"FOUND_IN","start":{"id":"10","labels":["Species"],"properties":{"name":"American Alligator"}},"end":{"id":"11","labels":["Location"],"properties":{"name":"West of Texas"}}}

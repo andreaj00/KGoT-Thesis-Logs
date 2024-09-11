@@ -1,0 +1,8 @@
+{"type":"node","id":"39","labels":["Book"],"properties":{"publication_year":2009,"publisher":"Leuven University Press","title":"A Dark Trace","doi":"10.1353/book.24372"}}
+{"type":"node","id":"40","labels":["Neurologist"],"properties":{"name":"Sigmund Freud"}}
+{"type":"node","id":"41","labels":["Chapter"],"properties":{"number":2,"title":"Dark Traces"}}
+{"type":"node","id":"42","labels":["Author"],"properties":{"last_name":"Westerink"}}
+{"type":"relationship","id":"7","label":"CONCERNS","start":{"id":"39","labels":["Book"],"properties":{"publication_year":2009,"publisher":"Leuven University Press","title":"A Dark Trace","doi":"10.1353/book.24372"}},"end":{"id":"40","labels":["Neurologist"],"properties":{"name":"Sigmund Freud"}}}
+{"type":"relationship","id":"8","label":"HAS_CHAPTER","start":{"id":"39","labels":["Book"],"properties":{"publication_year":2009,"publisher":"Leuven University Press","title":"A Dark Trace","doi":"10.1353/book.24372"}},"end":{"id":"41","labels":["Chapter"],"properties":{"number":2,"title":"Dark Traces"}}}
+{"type":"relationship","id":"9","label":"INFLUENCED_BY","start":{"id":"41","labels":["Chapter"],"properties":{"number":2,"title":"Dark Traces"}},"end":{"id":"42","labels":["Author"],"properties":{"last_name":"Westerink"}}}
+{"type":"relationship","id":"10","label":"INFLUENCED","start":{"id":"42","labels":["Author"],"properties":{"last_name":"Westerink"}},"end":{"id":"40","labels":["Neurologist"],"properties":{"name":"Sigmund Freud"}}}

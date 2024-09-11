@@ -1,0 +1,3 @@
+{"type":"node","id":"96","labels":["Object"],"properties":{"museum_number":"2012,5015.17","collection":"British Museum","type":"shell"}}
+{"type":"node","id":"97","labels":["Source"],"properties":{"url":"https://www.britishmuseum.org/collection/object/G_2012-5015-17"}}
+{"type":"relationship","id":"53","label":"HAS_SOURCE","start":{"id":"96","labels":["Object"],"properties":{"museum_number":"2012,5015.17","collection":"British Museum","type":"shell"}},"end":{"id":"97","labels":["Source"],"properties":{"url":"https://www.britishmuseum.org/collection/object/G_2012-5015-17"}}}

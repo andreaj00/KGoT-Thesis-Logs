@@ -1,0 +1,7 @@
+{"type":"node","id":"49","labels":["Country"],"properties":{"name":"Indonesia"}}
+{"type":"node","id":"50","labels":["Country"],"properties":{"name":"Vietnam"}}
+{"type":"node","id":"51","labels":["Capital"],"properties":{"name":"Jakarta"}}
+{"type":"node","id":"52","labels":["Capital"],"properties":{"name":"Hanoi"}}
+{"type":"relationship","id":"27","label":"HAS_CAPITAL","start":{"id":"49","labels":["Country"],"properties":{"name":"Indonesia"}},"end":{"id":"51","labels":["Capital"],"properties":{"name":"Jakarta"}}}
+{"type":"relationship","id":"28","label":"HAS_CAPITAL","start":{"id":"50","labels":["Country"],"properties":{"name":"Vietnam"}},"end":{"id":"52","labels":["Capital"],"properties":{"name":"Hanoi"}}}
+{"type":"relationship","id":"29","label":"DISTANCE","properties":{"kilometers":2600,"to":"Hanoi"},"start":{"id":"51","labels":["Capital"],"properties":{"name":"Jakarta"}},"end":{"id":"52","labels":["Capital"],"properties":{"name":"Hanoi"}}}

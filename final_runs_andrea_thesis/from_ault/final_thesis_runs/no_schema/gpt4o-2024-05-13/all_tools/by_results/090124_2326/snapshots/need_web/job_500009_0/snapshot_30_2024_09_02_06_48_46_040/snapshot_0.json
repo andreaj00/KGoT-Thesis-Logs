@@ -1,0 +1,13 @@
+{"type":"node","id":"75","labels":["Function"],"properties":{"name":"web_crawler"}}
+{"type":"node","id":"76","labels":["Argument"],"properties":{"name":"search_string","value":"Manash Pratim Kashyap customer retention studies 2018-2019"}}
+{"type":"node","id":"77","labels":["Argument"],"properties":{"name":"information_to_retrieve","value":"Details of the studies, including the type of models used."}}
+{"type":"node","id":"78","labels":["Result"],"properties":{"id":"call_M0iobsut4m7TnhxObBXKHe20"}}
+{"type":"node","id":"79","labels":["Source"],"properties":{"url":"https://nid.edu/download/AnnualReport/NIDAnnualReport_201819English.pdf"}}
+{"type":"node","id":"80","labels":["Source"],"properties":{"url":"https://www.iitbhu.ac.in/sites/default/files/institute/dean/doaa/doc/annual_report_english_2019-20.pdf"}}
+{"type":"node","id":"81","labels":["Source"],"properties":{"url":"https://www.curaj.ac.in/sites/default/files/Final%20Annual%20Report%202018-19%20English.pdf"}}
+{"type":"relationship","id":"4","label":"RETURNED","start":{"id":"75","labels":["Function"],"properties":{"name":"web_crawler"}},"end":{"id":"78","labels":["Result"],"properties":{"id":"call_M0iobsut4m7TnhxObBXKHe20"}}}
+{"type":"relationship","id":"5","label":"HAS_SOURCE","start":{"id":"78","labels":["Result"],"properties":{"id":"call_M0iobsut4m7TnhxObBXKHe20"}},"end":{"id":"79","labels":["Source"],"properties":{"url":"https://nid.edu/download/AnnualReport/NIDAnnualReport_201819English.pdf"}}}
+{"type":"relationship","id":"6","label":"HAS_SOURCE","start":{"id":"78","labels":["Result"],"properties":{"id":"call_M0iobsut4m7TnhxObBXKHe20"}},"end":{"id":"80","labels":["Source"],"properties":{"url":"https://www.iitbhu.ac.in/sites/default/files/institute/dean/doaa/doc/annual_report_english_2019-20.pdf"}}}
+{"type":"relationship","id":"7","label":"HAS_SOURCE","start":{"id":"78","labels":["Result"],"properties":{"id":"call_M0iobsut4m7TnhxObBXKHe20"}},"end":{"id":"81","labels":["Source"],"properties":{"url":"https://www.curaj.ac.in/sites/default/files/Final%20Annual%20Report%202018-19%20English.pdf"}}}
+{"type":"relationship","id":"154","label":"HAS_ARGUMENT","start":{"id":"75","labels":["Function"],"properties":{"name":"web_crawler"}},"end":{"id":"76","labels":["Argument"],"properties":{"name":"search_string","value":"Manash Pratim Kashyap customer retention studies 2018-2019"}}}
+{"type":"relationship","id":"155","label":"HAS_ARGUMENT","start":{"id":"75","labels":["Function"],"properties":{"name":"web_crawler"}},"end":{"id":"77","labels":["Argument"],"properties":{"name":"information_to_retrieve","value":"Details of the studies, including the type of models used."}}}

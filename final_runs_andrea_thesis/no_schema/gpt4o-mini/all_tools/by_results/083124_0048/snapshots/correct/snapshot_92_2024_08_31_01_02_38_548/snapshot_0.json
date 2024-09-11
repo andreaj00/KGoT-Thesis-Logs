@@ -1,0 +1,4 @@
+{"type":"node","id":"12","labels":["City"],"properties":{"name":"Wharvton"}}
+{"type":"node","id":"13","labels":["City"],"properties":{"name":"Algrimand"}}
+{"type":"relationship","id":"35","label":"SOLD","properties":{"hot_dogs":2008,"salads":2014,"fries":2015,"counter":1,"soda":2018,"ice_cream":2017,"burgers":1983},"start":{"id":"12","labels":["City"],"properties":{"name":"Wharvton"}},"end":{"id":"13","labels":["City"],"properties":{"name":"Algrimand"}}}
+{"type":"relationship","id":"36","label":"SOLD","properties":{"hot_dogs":1971,"salads":1982,"fries":1989,"counter":1,"soda":2009,"ice_cream":1998,"burgers":1958},"start":{"id":"13","labels":["City"],"properties":{"name":"Algrimand"}},"end":{"id":"12","labels":["City"],"properties":{"name":"Wharvton"}}}

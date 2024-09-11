@@ -1,0 +1,5 @@
+{"type":"node","id":"3","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"Dietary specialization in the Harlequin Shrimp, Hymenocera picta (Decapoda, Gnathophyllidae)"}}
+{"type":"node","id":"4","labels":["SeaStar"],"properties":{"length_cm":2}}
+{"type":"node","id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}}
+{"type":"relationship","id":"74","label":"FED_ON","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"4","labels":["SeaStar"],"properties":{"length_cm":2}}}
+{"type":"relationship","id":"75","label":"STUDIED_IN","start":{"id":"5","labels":["HarlequinShrimp"],"properties":{"species":"Hymenocera picta"}},"end":{"id":"3","labels":["Paper"],"properties":{"year":2002,"author":"G. Curt Fiedler","title":"Dietary specialization in the Harlequin Shrimp, Hymenocera picta (Decapoda, Gnathophyllidae)"}}}

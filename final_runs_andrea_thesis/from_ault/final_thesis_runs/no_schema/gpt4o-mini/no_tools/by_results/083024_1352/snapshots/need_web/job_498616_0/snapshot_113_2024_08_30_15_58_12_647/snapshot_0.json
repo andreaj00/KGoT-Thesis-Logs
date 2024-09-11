@@ -1,0 +1,3 @@
+{"type":"node","id":"75","labels":["Person"],"properties":{"name":"Carl Nebel"}}
+{"type":"node","id":"76","labels":["WebPage"],"properties":{"url":"https://en.wikipedia.org/wiki/Carl_Nebel"}}
+{"type":"relationship","id":"6","label":"HAS_PAGE","start":{"id":"75","labels":["Person"],"properties":{"name":"Carl Nebel"}},"end":{"id":"76","labels":["WebPage"],"properties":{"url":"https://en.wikipedia.org/wiki/Carl_Nebel"}}}

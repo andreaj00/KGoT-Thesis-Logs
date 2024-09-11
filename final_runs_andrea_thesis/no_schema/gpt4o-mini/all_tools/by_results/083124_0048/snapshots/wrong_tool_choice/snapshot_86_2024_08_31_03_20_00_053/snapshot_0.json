@@ -1,0 +1,5 @@
+{"type":"node","id":"27","labels":["Village"],"properties":{"name":"Șirnea"}}
+{"type":"node","id":"28","labels":["Resident"],"properties":{"counter":99,"status":"human"}}
+{"type":"node","id":"29","labels":["Resident"],"properties":{"counter":1,"status":"vampire"}}
+{"type":"relationship","id":"30","label":"HAS_RESIDENT","start":{"id":"27","labels":["Village"],"properties":{"name":"Șirnea"}},"end":{"id":"28","labels":["Resident"],"properties":{"counter":99,"status":"human"}}}
+{"type":"relationship","id":"31","label":"HAS_RESIDENT","start":{"id":"27","labels":["Village"],"properties":{"name":"Șirnea"}},"end":{"id":"29","labels":["Resident"],"properties":{"counter":1,"status":"vampire"}}}

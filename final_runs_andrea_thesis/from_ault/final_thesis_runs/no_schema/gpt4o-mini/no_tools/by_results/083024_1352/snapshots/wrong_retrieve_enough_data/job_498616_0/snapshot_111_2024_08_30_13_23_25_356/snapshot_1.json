@@ -1,0 +1,13 @@
+{"type":"node","id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","counter":1,"average_refund":0.05}}
+{"type":"node","id":"11","labels":["State"],"properties":{"name":"California"}}
+{"type":"node","id":"12","labels":["State"],"properties":{"name":"Maine"}}
+{"type":"node","id":"13","labels":["Distance"],"properties":{"value":3000}}
+{"type":"node","id":"14","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}}
+{"type":"node","id":"15","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}
+{"type":"node","id":"16","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}}
+{"type":"relationship","id":"26","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"11","labels":["State"],"properties":{"name":"California"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","counter":1,"average_refund":0.05}}}
+{"type":"relationship","id":"27","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"12","labels":["State"],"properties":{"name":"Maine"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","counter":1,"average_refund":0.05}}}
+{"type":"relationship","id":"28","label":"TRAVELS_TO","properties":{"distance":2000},"start":{"id":"14","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}},"end":{"id":"15","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}}
+{"type":"relationship","id":"29","label":"TRAVELS_TO","properties":{"distance":1000},"start":{"id":"15","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}},"end":{"id":"16","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}}}
+{"type":"relationship","id":"30","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"14","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","counter":1,"average_refund":0.05}}}
+{"type":"relationship","id":"31","label":"HAS_BOTTLE_DEPOSIT","start":{"id":"16","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}},"end":{"id":"10","labels":["PlasticWaterBottle"],"properties":{"size":"12 ounces","counter":1,"average_refund":0.05}}}

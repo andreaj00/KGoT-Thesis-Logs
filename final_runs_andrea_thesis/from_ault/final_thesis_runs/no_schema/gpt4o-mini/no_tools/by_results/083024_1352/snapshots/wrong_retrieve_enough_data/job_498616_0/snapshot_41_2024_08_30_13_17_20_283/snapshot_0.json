@@ -1,0 +1,6 @@
+{"type":"node","id":"50","labels":["Article"],"properties":{"publication_date":"2014-06","title":"Emily Midkiff's June 2014 article"}}
+{"type":"node","id":"51","labels":["Journal"],"properties":{"name":"Fafnir"}}
+{"type":"node","id":"52","labels":["Word"],"properties":{"value":"greedy"}}
+{"type":"relationship","id":"10","label":"PUBLISHED_IN","start":{"id":"50","labels":["Article"],"properties":{"publication_date":"2014-06","title":"Emily Midkiff's June 2014 article"}},"end":{"id":"51","labels":["Journal"],"properties":{"name":"Fafnir"}}}
+{"type":"relationship","id":"11","label":"QUOTES","start":{"id":"50","labels":["Article"],"properties":{"publication_date":"2014-06","title":"Emily Midkiff's June 2014 article"}},"end":{"id":"52","labels":["Word"],"properties":{"value":"greedy"}}}
+{"type":"relationship","id":"12","label":"QUOTED_BY","properties":{"author":"unknown","count":2},"start":{"id":"50","labels":["Article"],"properties":{"publication_date":"2014-06","title":"Emily Midkiff's June 2014 article"}},"end":{"id":"52","labels":["Word"],"properties":{"value":"greedy"}}}

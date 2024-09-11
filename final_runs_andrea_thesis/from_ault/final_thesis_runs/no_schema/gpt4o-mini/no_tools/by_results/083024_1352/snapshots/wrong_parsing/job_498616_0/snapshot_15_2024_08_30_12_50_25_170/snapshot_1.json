@@ -1,0 +1,4 @@
+{"type":"node","id":"27","labels":["Substance"],"properties":{"name":"Honey","temperature":25,"density_max":1.45,"density_min":1.4}}
+{"type":"node","id":"28","labels":["Substance"],"properties":{"density":0.95,"name":"Mayonnaise","temperature":25}}
+{"type":"relationship","id":"12","label":"COMPARED_TO","start":{"id":"27","labels":["Substance"],"properties":{"name":"Honey","temperature":25,"density_max":1.45,"density_min":1.4}},"end":{"id":"28","labels":["Substance"],"properties":{"density":0.95,"name":"Mayonnaise","temperature":25}}}
+{"type":"relationship","id":"13","label":"COMPARED_TO","start":{"id":"27","labels":["Substance"],"properties":{"name":"Honey","temperature":25,"density_max":1.45,"density_min":1.4}},"end":{"id":"28","labels":["Substance"],"properties":{"density":0.95,"name":"Mayonnaise","temperature":25}}}

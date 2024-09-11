@@ -1,0 +1,5 @@
+{"type":"node","id":"33","labels":["Changelog"],"properties":{"month":"July","year":2017}}
+{"type":"node","id":"34","labels":["PredictorBaseCommand"],"properties":{"name":"fit"}}
+{"type":"node","id":"35","labels":["PredictorBaseCommand"],"properties":{"name":"predict"}}
+{"type":"relationship","id":"135","label":"RECEIVED_BUG_FIX","start":{"id":"33","labels":["Changelog"],"properties":{"month":"July","year":2017}},"end":{"id":"34","labels":["PredictorBaseCommand"],"properties":{"name":"fit"}}}
+{"type":"relationship","id":"136","label":"RECEIVED_BUG_FIX","start":{"id":"33","labels":["Changelog"],"properties":{"month":"July","year":2017}},"end":{"id":"35","labels":["PredictorBaseCommand"],"properties":{"name":"predict"}}}

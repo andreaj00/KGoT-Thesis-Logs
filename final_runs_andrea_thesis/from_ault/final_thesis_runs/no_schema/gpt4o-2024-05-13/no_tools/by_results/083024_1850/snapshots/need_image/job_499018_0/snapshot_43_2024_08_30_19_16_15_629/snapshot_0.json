@@ -1,0 +1,8 @@
+{"type":"node","id":"67","labels":["DDC"],"properties":{"code":"633"}}
+{"type":"node","id":"68","labels":["Library"],"properties":{"name":"Bielefeld University Library"}}
+{"type":"node","id":"69","labels":["Article"],"properties":{"year":2020,"language":"unknown"}}
+{"type":"node","id":"70","labels":["Country"],"properties":{"name":"Ethiopia"}}
+{"type":"relationship","id":"19","label":"HAS_DDC","start":{"id":"68","labels":["Library"],"properties":{"name":"Bielefeld University Library"}},"end":{"id":"67","labels":["DDC"],"properties":{"code":"633"}}}
+{"type":"relationship","id":"20","label":"PUBLISHED_IN","start":{"id":"69","labels":["Article"],"properties":{"year":2020,"language":"unknown"}},"end":{"id":"70","labels":["Country"],"properties":{"name":"Ethiopia"}}}
+{"type":"relationship","id":"21","label":"CONTAINS","start":{"id":"67","labels":["DDC"],"properties":{"code":"633"}},"end":{"id":"69","labels":["Article"],"properties":{"year":2020,"language":"unknown"}}}
+{"type":"relationship","id":"22","label":"HAS_ARTICLE","start":{"id":"68","labels":["Library"],"properties":{"name":"Bielefeld University Library"}},"end":{"id":"69","labels":["Article"],"properties":{"year":2020,"language":"unknown"}}}

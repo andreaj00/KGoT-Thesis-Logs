@@ -1,0 +1,62 @@
+[
+    {
+        "question_number": 15,
+        "correct_answer": "6",
+        "returned_answer": "To determine how many cups of honey you need to remove for the weight of the honey to be less than the weight of the mayonnaise, we first need to know the densities of honey and mayonnaise.\n\n1. **Density of Honey**: The density of honey is approximately 1.42 g/cm\u00b3.\n2. **Density of Mayonnaise**: The density of mayonnaise is approximately 0.94 g/cm\u00b3.\n\nNext, we need to convert the volumes into weights. \n\n### Step 1: Convert Gallons to Cups\n1 gallon = 16 cups. Therefore, you have:\n- 1 gallon of honey = 16 cups of honey\n- 1 gallon of mayonnaise = 16 cups of mayonnaise\n\n### Step 2: Calculate the Weight of Each\n1. **Weight of Honey**:\n   - Volume of honey = 1 gallon = 3,785.41 cm\u00b3 (since 1 gallon = 3,785.41 mL and 1 mL = 1 cm\u00b3)\n   - Weight of honey = Volume \u00d7 Density = 3,785.41 cm\u00b3 \u00d7 1.42 g/cm\u00b3 \u2248 5,375.69 g\n\n2. **Weight of Mayonnaise**:\n   - Volume of mayonnaise = 1 gallon = 3,785.41 cm\u00b3\n   - Weight of mayonnaise = Volume \u00d7 Density = 3,785.41 cm\u00b3 \u00d7 0.94 g/cm\u00b3 \u2248 3,548.68 g\n\n### Step 3: Determine the Weight of Honey After Removing Cups\nEach cup of honey weighs:\n- Weight of 1 cup of honey = (1 cup in cm\u00b3) \u00d7 (density of honey)\n- 1 cup = 236.59 cm\u00b3\n- Weight of 1 cup of honey = 236.59 cm\u00b3 \u00d7 1.42 g/cm\u00b3 \u2248 336.78 g\n\n### Step 4: Set Up the Inequality\nLet \\( n \\) be the number of cups of honey removed. The weight of the remaining honey after removing \\( n \\) cups is:\n\\[ \\text{Weight of remaining honey} = 5,375.69 g - n \\times 336.78 g \\]\n\nWe want this weight to be less than the weight of the mayonnaise:\n\\[ 5,375.69 g - n \\times 336.78 g < 3,548.68 g \\]\n\n### Step 5: Solve the Inequality\nRearranging the inequality:\n\\[ 5,375.69 g - 3,548.68 g < n \\times 336.78 g \\]\n\\[ 1,827.01 g < n \\times 336.78 g \\]\n\\[ n > \\frac{1,827.01 g}{336.78 g} \\]\n\\[ n > 5.43 \\]\n\nSince \\( n \\) must be a whole number, you will need to remove at least 6 cups of honey for its weight to be less than the weight of the mayonnaise.\n\n### Conclusion\nYou will need to remove **6 cups of honey** for the weight of the honey to be less than the weight of the mayonnaise.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 74,
+        "correct_answer": "Shelley's place",
+        "returned_answer": "Based on the information provided, the best available place for a family that enjoys swimming and wants a full house would be **Shelley's Place**. \n\nHere are the reasons:\n\n1. **Rating**: It has a rating of 4 out of 5, indicating a good level of quality.\n2. **Vacancy**: It has availability, which is essential for your stay.\n3. **Pool**: It has a pool, which aligns with the family's interest in swimming.\n4. **Full House**: As a rental house, it provides the space and amenities of a full house, which is ideal for a family.\n\nOther options like **Ocean and Main** and **4th Street Cottage** also have high ratings, but they do not have a pool, which is a key requirement for the family.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. PDF viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 78,
+        "correct_answer": "Guava",
+        "returned_answer": "Guava",
+        "successful": true,
+        "level": "1",
+        "num_steps": "1",
+        "tools": "None",
+        "num_tools": ""
+    },
+    {
+        "question_number": 108,
+        "correct_answer": "Hotels",
+        "returned_answer": "To determine which type of accommodation has a higher average rating in Seahorse Island, we can calculate the average rating for each category: Hotels, Motels, Rental Houses, and Campgrounds.\n\n**1. Hotels:**\n- Neptune's Palace: 5\n- Admiral Sturgeon: 5\n- Currents: 4\n- The Laughing Gull: 3\n- Loach Towers: 2\n\nAverage rating for Hotels = (5 + 5 + 4 + 3 + 2) / 5 = 3.8\n\n**2. Motels:**\n- Sea Escape Inn: 5\n- Wash Inn: 3\n- Boulevard Motel: 2\n- Good Motel: 1\n- Sea Larva Motel: 0\n\nAverage rating for Motels = (5 + 3 + 2 + 1 + 0) / 5 = 2.2\n\n**3. Rental Houses:**\n- Cape Super: 4\n- Bleek Island: 3\n- Pinedrift Avenue: 4\n- Ocean and Main: 5\n- 4th Street Cottage: 5\n- Shelley's Place: 4\n- Creakwood Creek: 3\n- Headrush Beach: 3\n- Shiplap Cabin: 3\n- Haddonfield House: 1\n\nAverage rating for Rental Houses = (4 + 3 + 4 + 5 + 5 + 4 + 3 + 3 + 3 + 1) / 10 = 3.4\n\n**4. Campgrounds:**\n- The Glampground: 4\n- Gull Crest: 5\n- Barnacle Isle: 3\n- Cozy Wood: 4\n- Gravel Lot Campground: 1\n\nAverage rating for Campgrounds = (4 + 5 + 3 + 4 + 1) / 5 = 3.4\n\n**Summary of Average Ratings:**\n- Hotels: 3.8\n- Motels: 2.2\n- Rental Houses: 3.4\n- Campgrounds: 3.4\n\n**Conclusion:**\nHotels have the highest average rating at 3.8, making them the best-rated type of accommodation in Seahorse Island.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. PDF viewer\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 118,
+        "correct_answer": "56000",
+        "returned_answer": "The longest-lived vertebrate is the Greenland shark, which is named after Greenland. According to Wikipedia, the estimated population of Greenland in 2020 was approximately 56,000. Therefore, the 2020 estimated population of Greenland, to the nearest thousand, is 56,000.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to Wikipedia\n4. Natural language processor",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 130,
+        "correct_answer": "Braintree, Honolulu",
+        "returned_answer": "Honolulu, New York City",
+        "successful": false,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "3"
+    }
+]

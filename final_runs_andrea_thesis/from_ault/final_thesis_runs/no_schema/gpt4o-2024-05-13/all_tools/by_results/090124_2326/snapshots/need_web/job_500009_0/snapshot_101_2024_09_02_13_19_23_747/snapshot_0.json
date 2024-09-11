@@ -1,0 +1,6 @@
+{"type":"node","id":"71","labels":["Domain"],"properties":{"name":"Life Sciences"}}
+{"type":"node","id":"72","labels":["Domain"],"properties":{"name":"Health Sciences"}}
+{"type":"node","id":"73","labels":["ReferenceWorks"],"properties":{"year":2022,"count":53}}
+{"type":"node","id":"74","labels":["ReferenceWorks"],"properties":{"year":2022,"count":52}}
+{"type":"relationship","id":"158","label":"HAS_REFERENCE_WORKS","start":{"id":"71","labels":["Domain"],"properties":{"name":"Life Sciences"}},"end":{"id":"73","labels":["ReferenceWorks"],"properties":{"year":2022,"count":53}}}
+{"type":"relationship","id":"159","label":"HAS_REFERENCE_WORKS","start":{"id":"72","labels":["Domain"],"properties":{"name":"Health Sciences"}},"end":{"id":"74","labels":["ReferenceWorks"],"properties":{"year":2022,"count":52}}}

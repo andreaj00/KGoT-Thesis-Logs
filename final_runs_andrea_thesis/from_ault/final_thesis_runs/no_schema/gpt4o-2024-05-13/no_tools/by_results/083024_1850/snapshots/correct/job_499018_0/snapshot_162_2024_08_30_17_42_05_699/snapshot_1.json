@@ -1,0 +1,5 @@
+{"type":"node","id":"7","labels":["Station"],"properties":{"name":"South Station"}}
+{"type":"node","id":"8","labels":["Station"],"properties":{"name":"Back Bay"}}
+{"type":"node","id":"9","labels":["Station"],"properties":{"name":"Ruggles"}}
+{"type":"relationship","id":"45","label":"NEXT_STOP","start":{"id":"7","labels":["Station"],"properties":{"name":"South Station"}},"end":{"id":"8","labels":["Station"],"properties":{"name":"Back Bay"}}}
+{"type":"relationship","id":"46","label":"NEXT_STOP","start":{"id":"8","labels":["Station"],"properties":{"name":"Back Bay"}},"end":{"id":"9","labels":["Station"],"properties":{"name":"Ruggles"}}}

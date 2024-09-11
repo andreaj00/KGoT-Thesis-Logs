@@ -1,0 +1,9 @@
+{"type":"node","id":"4","labels":["Version"],"properties":{"number":"4.1.2"}}
+{"type":"node","id":"5","labels":["Contributor"],"properties":{"name":"Alexander Alekhin"}}
+{"type":"node","id":"6","labels":["Contributor"],"properties":{"name":"Dmitry Kurtaev"}}
+{"type":"node","id":"7","labels":["Contributor"],"properties":{"name":"Vadim Pisarevsky"}}
+{"type":"node","id":"8","labels":["Contributor"],"properties":{"name":"Philipp Wagner"}}
+{"type":"relationship","id":"3","label":"CONTRIBUTED_TO","start":{"id":"5","labels":["Contributor"],"properties":{"name":"Alexander Alekhin"}},"end":{"id":"4","labels":["Version"],"properties":{"number":"4.1.2"}}}
+{"type":"relationship","id":"4","label":"CONTRIBUTED_TO","start":{"id":"6","labels":["Contributor"],"properties":{"name":"Dmitry Kurtaev"}},"end":{"id":"4","labels":["Version"],"properties":{"number":"4.1.2"}}}
+{"type":"relationship","id":"5","label":"CONTRIBUTED_TO","start":{"id":"7","labels":["Contributor"],"properties":{"name":"Vadim Pisarevsky"}},"end":{"id":"4","labels":["Version"],"properties":{"number":"4.1.2"}}}
+{"type":"relationship","id":"6","label":"CONTRIBUTED_TO","start":{"id":"8","labels":["Contributor"],"properties":{"name":"Philipp Wagner"}},"end":{"id":"4","labels":["Version"],"properties":{"number":"4.1.2"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"34","labels":["Symbol"],"properties":{"cuneiform":"𒁹","value":1}}
+{"type":"node","id":"35","labels":["Symbol"],"properties":{"cuneiform":"𒐕","value":10}}
+{"type":"node","id":"36","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian","base":60}}
+{"type":"relationship","id":"116","label":"USED_IN","start":{"id":"34","labels":["Symbol"],"properties":{"cuneiform":"𒁹","value":1}},"end":{"id":"36","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian","base":60}}}
+{"type":"relationship","id":"117","label":"USED_IN","start":{"id":"35","labels":["Symbol"],"properties":{"cuneiform":"𒐕","value":10}},"end":{"id":"36","labels":["NumberSystem"],"properties":{"name":"Mesopotamian/Babylonian","base":60}}}

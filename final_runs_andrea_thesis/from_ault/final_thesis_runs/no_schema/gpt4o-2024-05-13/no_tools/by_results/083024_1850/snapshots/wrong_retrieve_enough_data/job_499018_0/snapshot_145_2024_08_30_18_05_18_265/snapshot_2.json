@@ -1,0 +1,10 @@
+{"type":"node","id":"72","labels":["Class"],"properties":{"name":"Priest"}}
+{"type":"node","id":"73","labels":["Class"],"properties":{"name":"Paladin"}}
+{"type":"node","id":"74","labels":["Class"],"properties":{"name":"Monk"}}
+{"type":"node","id":"75","labels":["Spell"],"properties":{"type":"Holy"}}
+{"type":"node","id":"76","labels":["Spell"],"properties":{"type":"Holy"}}
+{"type":"node","id":"77","labels":["Spell"],"properties":{"type":"Holy"}}
+{"type":"node","id":"78","labels":["Class"],"properties":{"name":"Warrior"}}
+{"type":"relationship","id":"130","label":"CAN_CAST","properties":{"spell_type":"Holy"},"start":{"id":"72","labels":["Class"],"properties":{"name":"Priest"}},"end":{"id":"75","labels":["Spell"],"properties":{"type":"Holy"}}}
+{"type":"relationship","id":"131","label":"CAN_CAST","properties":{"spell_type":"Holy"},"start":{"id":"73","labels":["Class"],"properties":{"name":"Paladin"}},"end":{"id":"76","labels":["Spell"],"properties":{"type":"Holy"}}}
+{"type":"relationship","id":"132","label":"CAN_CAST","properties":{"spell_type":"Holy"},"start":{"id":"74","labels":["Class"],"properties":{"name":"Monk"}},"end":{"id":"77","labels":["Spell"],"properties":{"type":"Holy"}}}

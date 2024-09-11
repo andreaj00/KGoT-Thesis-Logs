@@ -1,0 +1,7 @@
+{"type":"node","id":"54","labels":["Animal"],"properties":{"name":"American Alligator"}}
+{"type":"node","id":"55","labels":["Location"],"properties":{"name":"West of Texas"}}
+{"type":"node","id":"56","labels":["Year"],"properties":{"value":"cur"}}
+{"type":"node","id":"57","labels":["Year"],"properties":{"value":"2024"}}
+{"type":"relationship","id":"161","label":"DISCOVERED_IN","properties":{"source":"USGS"},"start":{"id":"54","labels":["Animal"],"properties":{"name":"American Alligator"}},"end":{"id":"57","labels":["Year"],"properties":{"value":"2024"}}}
+{"type":"relationship","id":"102","label":"FOUND_IN","start":{"id":"54","labels":["Animal"],"properties":{"name":"American Alligator"}},"end":{"id":"55","labels":["Location"],"properties":{"name":"West of Texas"}}}
+{"type":"relationship","id":"103","label":"DISCOVERED_IN","properties":{"source":"USGS"},"start":{"id":"54","labels":["Animal"],"properties":{"name":"American Alligator"}},"end":{"id":"56","labels":["Year"],"properties":{"value":"cur"}}}

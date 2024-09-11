@@ -1,0 +1,3 @@
+{"type":"node","id":"47","labels":["Moon"],"properties":{"minimum_perigee":362600}}
+{"type":"node","id":"48","labels":["EliudKipchoge"],"properties":{"marathon_pace":4.38,"counter":1,"marathon_time":"2:01:00"}}
+{"type":"relationship","id":"26","label":"RUNS_TO","start":{"id":"48","labels":["EliudKipchoge"],"properties":{"marathon_pace":4.38,"counter":1,"marathon_time":"2:01:00"}},"end":{"id":"47","labels":["Moon"],"properties":{"minimum_perigee":362600}}}

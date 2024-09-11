@@ -1,0 +1,8 @@
+{"type":"node","id":"53","labels":["Person"],"properties":{"name":"James"}}
+{"type":"node","id":"54","labels":["Season"],"properties":{"number":4}}
+{"type":"node","id":"55","labels":["Product"],"properties":{"name":"Cheater","cfm":155}}
+{"type":"node","id":"56","labels":["Product"],"properties":{"name":"Cheater Beater","cfm":149}}
+{"type":"relationship","id":"129","label":"TESTED_IN","properties":{"cfm":155},"start":{"id":"53","labels":["Person"],"properties":{"name":"James"}},"end":{"id":"55","labels":["Product"],"properties":{"name":"Cheater","cfm":155}}}
+{"type":"relationship","id":"130","label":"IN_SEASON","start":{"id":"55","labels":["Product"],"properties":{"name":"Cheater","cfm":155}},"end":{"id":"54","labels":["Season"],"properties":{"number":4}}}
+{"type":"relationship","id":"131","label":"TESTED_IN","properties":{"cfm":149},"start":{"id":"53","labels":["Person"],"properties":{"name":"James"}},"end":{"id":"56","labels":["Product"],"properties":{"name":"Cheater Beater","cfm":149}}}
+{"type":"relationship","id":"132","label":"IN_SEASON","start":{"id":"56","labels":["Product"],"properties":{"name":"Cheater Beater","cfm":149}},"end":{"id":"54","labels":["Season"],"properties":{"number":4}}}

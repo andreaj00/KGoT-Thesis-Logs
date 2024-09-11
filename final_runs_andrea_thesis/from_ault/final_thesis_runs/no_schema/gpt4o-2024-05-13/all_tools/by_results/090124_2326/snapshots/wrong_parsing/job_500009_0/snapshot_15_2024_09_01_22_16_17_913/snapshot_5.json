@@ -1,0 +1,3 @@
+{"type":"node","id":"1","labels":["Substance"],"properties":{"weight_cup_g":336.54,"name":"Honey","weight_gallon_kg":5.37527,"density_25C":1.42}}
+{"type":"node","id":"2","labels":["Substance"],"properties":{"name":"Mayonnaise","weight_gallon_kg":3.44472,"density_25C":0.91}}
+{"type":"relationship","id":"156","label":"MEASURED_IN","properties":{"volume_gallon":16,"unit":"cup"},"start":{"id":"1","labels":["Substance"],"properties":{"weight_cup_g":336.54,"name":"Honey","weight_gallon_kg":5.37527,"density_25C":1.42}},"end":{"id":"2","labels":["Substance"],"properties":{"name":"Mayonnaise","weight_gallon_kg":3.44472,"density_25C":0.91}}}

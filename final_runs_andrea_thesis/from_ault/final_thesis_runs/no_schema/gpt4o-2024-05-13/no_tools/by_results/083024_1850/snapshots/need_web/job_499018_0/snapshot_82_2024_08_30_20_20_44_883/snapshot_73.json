@@ -1,0 +1,117 @@
+{"type":"node","id":"0","labels":["County"],"properties":{"name":"Lincoln County"}}
+{"type":"node","id":"1","labels":["CountySeat"],"properties":{"name":"Davenport","land_area":1.7}}
+{"type":"node","id":"2","labels":["County"],"properties":{"name":"Mason County"}}
+{"type":"node","id":"3","labels":["CountySeat"],"properties":{"name":"Walla Walla"}}
+{"type":"node","id":"4","labels":["County"],"properties":{"name":"Whatcom County"}}
+{"type":"node","id":"5","labels":["County"],"properties":{"name":"Whitman County"}}
+{"type":"node","id":"6","labels":["CountySeat"],"properties":{"name":"Colfax"}}
+{"type":"node","id":"7","labels":["County"],"properties":{"name":"Yakima County"}}
+{"type":"node","id":"8","labels":["CountySeat"],"properties":{"name":"Yakima"}}
+{"type":"node","id":"17","labels":["CountySeat"],"properties":{"name":"Shelton","land_area":6.0}}
+{"type":"node","id":"18","labels":["County"],"properties":{"name":"Okanogan County"}}
+{"type":"node","id":"19","labels":["CountySeat"],"properties":{"name":"Okanogan","land_area":2.0}}
+{"type":"node","id":"20","labels":["County"],"properties":{"name":"Pacific County"}}
+{"type":"node","id":"21","labels":["CountySeat"],"properties":{"name":"South Bend","land_area":2.0}}
+{"type":"node","id":"22","labels":["County"],"properties":{"name":"Pend Oreille County"}}
+{"type":"node","id":"23","labels":["CountySeat"],"properties":{"name":"Newport","land_area":1.1}}
+{"type":"node","id":"24","labels":["County"],"properties":{"name":"Pierce County"}}
+{"type":"node","id":"25","labels":["CountySeat"],"properties":{"name":"Tacoma","land_area":62.3}}
+{"type":"node","id":"26","labels":["County"],"properties":{"name":"San Juan County"}}
+{"type":"node","id":"27","labels":["CountySeat"],"properties":{"name":"Mount Vernon","land_area":12.6}}
+{"type":"node","id":"28","labels":["County"],"properties":{"name":"Skamania County"}}
+{"type":"node","id":"29","labels":["CountySeat"],"properties":{"name":"Stevenson","land_area":1.8}}
+{"type":"node","id":"30","labels":["County"],"properties":{"name":"Snohomish County"}}
+{"type":"node","id":"31","labels":["CountySeat"],"properties":{"name":"Everett","land_area":48.5}}
+{"type":"node","id":"32","labels":["County"],"properties":{"name":"Spokane County"}}
+{"type":"node","id":"33","labels":["CountySeat"],"properties":{"name":"Spokane","land_area":69.5}}
+{"type":"node","id":"34","labels":["County"],"properties":{"name":"Stevens County"}}
+{"type":"node","id":"35","labels":["CountySeat"],"properties":{"name":"Colville","land_area":2.1}}
+{"type":"node","id":"36","labels":["County"],"properties":{"name":"Thurston County"}}
+{"type":"node","id":"37","labels":["County"],"properties":{"name":"Wahkiakum County"}}
+{"type":"node","id":"38","labels":["CountySeat"],"properties":{"name":"Cathlamet","land_area":0.5}}
+{"type":"node","id":"39","labels":["County"],"properties":{"name":"Walla Walla County"}}
+{"type":"node","id":"40","labels":["CountySeat"],"properties":{"name":"Bellingham"}}
+{"type":"node","id":"61","labels":["County"],"properties":{"name":"Adams County"}}
+{"type":"node","id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville","land_area":1.7}}
+{"type":"node","id":"63","labels":["County"],"properties":{"name":"Asotin County"}}
+{"type":"node","id":"64","labels":["CountySeat"],"properties":{"name":"Asotin","land_area":1.3}}
+{"type":"node","id":"65","labels":["County"],"properties":{"name":"Benton County"}}
+{"type":"node","id":"66","labels":["CountySeat"],"properties":{"name":"Prosser","land_area":4.4}}
+{"type":"node","id":"67","labels":["County"],"properties":{"name":"Chelan County"}}
+{"type":"node","id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee","land_area":8.0}}
+{"type":"node","id":"69","labels":["County"],"properties":{"name":"Clallam County"}}
+{"type":"node","id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles","land_area":10.7}}
+{"type":"node","id":"71","labels":["County"],"properties":{"name":"Clark County"}}
+{"type":"node","id":"72","labels":["CountySeat"],"properties":{"name":"Vancouver","land_area":49.8}}
+{"type":"node","id":"73","labels":["County"],"properties":{"name":"Columbia County"}}
+{"type":"node","id":"74","labels":["CountySeat"],"properties":{"name":"Dayton","land_area":1.5}}
+{"type":"node","id":"75","labels":["County"],"properties":{"name":"Cowlitz County"}}
+{"type":"node","id":"76","labels":["CountySeat"],"properties":{"name":"Kelso","land_area":8.5}}
+{"type":"node","id":"77","labels":["County"],"properties":{"name":"Douglas County"}}
+{"type":"node","id":"78","labels":["CountySeat"],"properties":{"name":"Waterville","land_area":1.3}}
+{"type":"node","id":"79","labels":["County"],"properties":{"name":"Ferry County"}}
+{"type":"node","id":"80","labels":["CountySeat"],"properties":{"name":"Republic","land_area":1.6}}
+{"type":"node","id":"81","labels":["County"],"properties":{"name":"Franklin County"}}
+{"type":"node","id":"82","labels":["CountySeat"],"properties":{"name":"Pasco","land_area":34.1}}
+{"type":"node","id":"83","labels":["County"],"properties":{"name":"Garfield County"}}
+{"type":"node","id":"84","labels":["CountySeat"],"properties":{"name":"Pomeroy","land_area":1.7}}
+{"type":"node","id":"85","labels":["County"],"properties":{"name":"Grant County"}}
+{"type":"node","id":"86","labels":["CountySeat"],"properties":{"name":"Ephrata","land_area":10.0}}
+{"type":"node","id":"87","labels":["County"],"properties":{"name":"Grays Harbor County"}}
+{"type":"node","id":"88","labels":["CountySeat"],"properties":{"name":"Montesano","land_area":10.6}}
+{"type":"node","id":"89","labels":["County"],"properties":{"name":"Island County"}}
+{"type":"node","id":"90","labels":["CountySeat"],"properties":{"name":"Coupeville","land_area":1.3}}
+{"type":"node","id":"91","labels":["County"],"properties":{"name":"Jefferson County"}}
+{"type":"node","id":"92","labels":["CountySeat"],"properties":{"name":"Port Townsend","land_area":9.5}}
+{"type":"node","id":"93","labels":["County"],"properties":{"name":"King County"}}
+{"type":"node","id":"94","labels":["CountySeat"],"properties":{"name":"Seattle","land_area":83.9}}
+{"type":"node","id":"95","labels":["County"],"properties":{"name":"Kitsap County"}}
+{"type":"node","id":"96","labels":["CountySeat"],"properties":{"name":"Port Orchard","land_area":8.5}}
+{"type":"node","id":"97","labels":["County"],"properties":{"name":"Kittitas County"}}
+{"type":"node","id":"98","labels":["CountySeat"],"properties":{"name":"Ellensburg","land_area":7.6}}
+{"type":"node","id":"99","labels":["County"],"properties":{"name":"Klickitat County"}}
+{"type":"node","id":"100","labels":["CountySeat"],"properties":{"name":"Goldendale","land_area":2.5}}
+{"type":"node","id":"101","labels":["County"],"properties":{"name":"Lewis County"}}
+{"type":"node","id":"102","labels":["CountySeat"],"properties":{"name":"Chehalis","land_area":5.5}}
+{"type":"node","id":"103","labels":["CountySeat"],"properties":{"name":"Friday Harbor","land_area":2.2}}
+{"type":"node","id":"104","labels":["County"],"properties":{"name":"Skagit County"}}
+{"type":"node","id":"105","labels":["CountySeat"],"properties":{"name":"Olympia","land_area":20.0}}
+{"type":"relationship","id":"0","label":"SEAT_OF","start":{"id":"25","labels":["CountySeat"],"properties":{"name":"Tacoma","land_area":62.3}},"end":{"id":"24","labels":["County"],"properties":{"name":"Pierce County"}}}
+{"type":"relationship","id":"64","label":"SEAT_OF","start":{"id":"66","labels":["CountySeat"],"properties":{"name":"Prosser","land_area":4.4}},"end":{"id":"65","labels":["County"],"properties":{"name":"Benton County"}}}
+{"type":"relationship","id":"128","label":"SEAT_OF","start":{"id":"100","labels":["CountySeat"],"properties":{"name":"Goldendale","land_area":2.5}},"end":{"id":"99","labels":["County"],"properties":{"name":"Klickitat County"}}}
+{"type":"relationship","id":"1","label":"SEAT_OF","start":{"id":"103","labels":["CountySeat"],"properties":{"name":"Friday Harbor","land_area":2.2}},"end":{"id":"26","labels":["County"],"properties":{"name":"San Juan County"}}}
+{"type":"relationship","id":"65","label":"SEAT_OF","start":{"id":"68","labels":["CountySeat"],"properties":{"name":"Wenatchee","land_area":8.0}},"end":{"id":"67","labels":["County"],"properties":{"name":"Chelan County"}}}
+{"type":"relationship","id":"129","label":"SEAT_OF","start":{"id":"102","labels":["CountySeat"],"properties":{"name":"Chehalis","land_area":5.5}},"end":{"id":"101","labels":["County"],"properties":{"name":"Lewis County"}}}
+{"type":"relationship","id":"2","label":"SEAT_OF","start":{"id":"27","labels":["CountySeat"],"properties":{"name":"Mount Vernon","land_area":12.6}},"end":{"id":"104","labels":["County"],"properties":{"name":"Skagit County"}}}
+{"type":"relationship","id":"66","label":"SEAT_OF","start":{"id":"70","labels":["CountySeat"],"properties":{"name":"Port Angeles","land_area":10.7}},"end":{"id":"69","labels":["County"],"properties":{"name":"Clallam County"}}}
+{"type":"relationship","id":"130","label":"SEAT_OF","start":{"id":"1","labels":["CountySeat"],"properties":{"name":"Davenport","land_area":1.7}},"end":{"id":"0","labels":["County"],"properties":{"name":"Lincoln County"}}}
+{"type":"relationship","id":"3","label":"SEAT_OF","start":{"id":"29","labels":["CountySeat"],"properties":{"name":"Stevenson","land_area":1.8}},"end":{"id":"28","labels":["County"],"properties":{"name":"Skamania County"}}}
+{"type":"relationship","id":"67","label":"SEAT_OF","start":{"id":"72","labels":["CountySeat"],"properties":{"name":"Vancouver","land_area":49.8}},"end":{"id":"71","labels":["County"],"properties":{"name":"Clark County"}}}
+{"type":"relationship","id":"4","label":"SEAT_OF","start":{"id":"31","labels":["CountySeat"],"properties":{"name":"Everett","land_area":48.5}},"end":{"id":"30","labels":["County"],"properties":{"name":"Snohomish County"}}}
+{"type":"relationship","id":"68","label":"SEAT_OF","start":{"id":"74","labels":["CountySeat"],"properties":{"name":"Dayton","land_area":1.5}},"end":{"id":"73","labels":["County"],"properties":{"name":"Columbia County"}}}
+{"type":"relationship","id":"5","label":"SEAT_OF","start":{"id":"33","labels":["CountySeat"],"properties":{"name":"Spokane","land_area":69.5}},"end":{"id":"32","labels":["County"],"properties":{"name":"Spokane County"}}}
+{"type":"relationship","id":"69","label":"SEAT_OF","start":{"id":"76","labels":["CountySeat"],"properties":{"name":"Kelso","land_area":8.5}},"end":{"id":"75","labels":["County"],"properties":{"name":"Cowlitz County"}}}
+{"type":"relationship","id":"6","label":"SEAT_OF","start":{"id":"35","labels":["CountySeat"],"properties":{"name":"Colville","land_area":2.1}},"end":{"id":"34","labels":["County"],"properties":{"name":"Stevens County"}}}
+{"type":"relationship","id":"70","label":"SEAT_OF","start":{"id":"78","labels":["CountySeat"],"properties":{"name":"Waterville","land_area":1.3}},"end":{"id":"77","labels":["County"],"properties":{"name":"Douglas County"}}}
+{"type":"relationship","id":"7","label":"SEAT_OF","start":{"id":"105","labels":["CountySeat"],"properties":{"name":"Olympia","land_area":20.0}},"end":{"id":"36","labels":["County"],"properties":{"name":"Thurston County"}}}
+{"type":"relationship","id":"71","label":"SEAT_OF","start":{"id":"80","labels":["CountySeat"],"properties":{"name":"Republic","land_area":1.6}},"end":{"id":"79","labels":["County"],"properties":{"name":"Ferry County"}}}
+{"type":"relationship","id":"8","label":"SEAT_OF","start":{"id":"38","labels":["CountySeat"],"properties":{"name":"Cathlamet","land_area":0.5}},"end":{"id":"37","labels":["County"],"properties":{"name":"Wahkiakum County"}}}
+{"type":"relationship","id":"72","label":"SEAT_OF","start":{"id":"82","labels":["CountySeat"],"properties":{"name":"Pasco","land_area":34.1}},"end":{"id":"81","labels":["County"],"properties":{"name":"Franklin County"}}}
+{"type":"relationship","id":"9","label":"SEAT_OF","start":{"id":"3","labels":["CountySeat"],"properties":{"name":"Walla Walla"}},"end":{"id":"39","labels":["County"],"properties":{"name":"Walla Walla County"}}}
+{"type":"relationship","id":"73","label":"SEAT_OF","start":{"id":"84","labels":["CountySeat"],"properties":{"name":"Pomeroy","land_area":1.7}},"end":{"id":"83","labels":["County"],"properties":{"name":"Garfield County"}}}
+{"type":"relationship","id":"10","label":"SEAT_OF","start":{"id":"40","labels":["CountySeat"],"properties":{"name":"Bellingham"}},"end":{"id":"4","labels":["County"],"properties":{"name":"Whatcom County"}}}
+{"type":"relationship","id":"74","label":"SEAT_OF","start":{"id":"86","labels":["CountySeat"],"properties":{"name":"Ephrata","land_area":10.0}},"end":{"id":"85","labels":["County"],"properties":{"name":"Grant County"}}}
+{"type":"relationship","id":"11","label":"SEAT_OF","start":{"id":"6","labels":["CountySeat"],"properties":{"name":"Colfax"}},"end":{"id":"5","labels":["County"],"properties":{"name":"Whitman County"}}}
+{"type":"relationship","id":"75","label":"SEAT_OF","start":{"id":"88","labels":["CountySeat"],"properties":{"name":"Montesano","land_area":10.6}},"end":{"id":"87","labels":["County"],"properties":{"name":"Grays Harbor County"}}}
+{"type":"relationship","id":"12","label":"SEAT_OF","start":{"id":"8","labels":["CountySeat"],"properties":{"name":"Yakima"}},"end":{"id":"7","labels":["County"],"properties":{"name":"Yakima County"}}}
+{"type":"relationship","id":"44","label":"SEAT_OF","start":{"id":"94","labels":["CountySeat"],"properties":{"name":"Seattle","land_area":83.9}},"end":{"id":"93","labels":["County"],"properties":{"name":"King County"}}}
+{"type":"relationship","id":"45","label":"SEAT_OF","start":{"id":"17","labels":["CountySeat"],"properties":{"name":"Shelton","land_area":6.0}},"end":{"id":"2","labels":["County"],"properties":{"name":"Mason County"}}}
+{"type":"relationship","id":"46","label":"SEAT_OF","start":{"id":"19","labels":["CountySeat"],"properties":{"name":"Okanogan","land_area":2.0}},"end":{"id":"18","labels":["County"],"properties":{"name":"Okanogan County"}}}
+{"type":"relationship","id":"47","label":"SEAT_OF","start":{"id":"21","labels":["CountySeat"],"properties":{"name":"South Bend","land_area":2.0}},"end":{"id":"20","labels":["County"],"properties":{"name":"Pacific County"}}}
+{"type":"relationship","id":"48","label":"SEAT_OF","start":{"id":"23","labels":["CountySeat"],"properties":{"name":"Newport","land_area":1.1}},"end":{"id":"22","labels":["County"],"properties":{"name":"Pend Oreille County"}}}
+{"type":"relationship","id":"124","label":"SEAT_OF","start":{"id":"90","labels":["CountySeat"],"properties":{"name":"Coupeville","land_area":1.3}},"end":{"id":"89","labels":["County"],"properties":{"name":"Island County"}}}
+{"type":"relationship","id":"125","label":"SEAT_OF","start":{"id":"92","labels":["CountySeat"],"properties":{"name":"Port Townsend","land_area":9.5}},"end":{"id":"91","labels":["County"],"properties":{"name":"Jefferson County"}}}
+{"type":"relationship","id":"62","label":"SEAT_OF","start":{"id":"62","labels":["CountySeat"],"properties":{"name":"Ritzville","land_area":1.7}},"end":{"id":"61","labels":["County"],"properties":{"name":"Adams County"}}}
+{"type":"relationship","id":"126","label":"SEAT_OF","start":{"id":"96","labels":["CountySeat"],"properties":{"name":"Port Orchard","land_area":8.5}},"end":{"id":"95","labels":["County"],"properties":{"name":"Kitsap County"}}}
+{"type":"relationship","id":"63","label":"SEAT_OF","start":{"id":"64","labels":["CountySeat"],"properties":{"name":"Asotin","land_area":1.3}},"end":{"id":"63","labels":["County"],"properties":{"name":"Asotin County"}}}
+{"type":"relationship","id":"127","label":"SEAT_OF","start":{"id":"98","labels":["CountySeat"],"properties":{"name":"Ellensburg","land_area":7.6}},"end":{"id":"97","labels":["County"],"properties":{"name":"Kittitas County"}}}

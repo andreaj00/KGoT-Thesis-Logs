@@ -1,0 +1,17 @@
+{"type":"node","id":"7","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}}
+{"type":"node","id":"8","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}
+{"type":"node","id":"9","labels":["InitialGuess"],"properties":{"value":-5}}
+{"type":"node","id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}}
+{"type":"node","id":"11","labels":["Iteration"],"properties":{"number":0,"fx":-2,"x":-5,"fpx":32}}
+{"type":"node","id":"12","labels":["Iteration"],"properties":{"number":1,"fx":0.131,"x":-4.9375,"fpx":31.0352}}
+{"type":"node","id":"13","labels":["Iteration"],"properties":{"number":2,"fx":-0.241,"x":-4.9417,"fpx":31.001}}
+{"type":"node","id":"14","labels":["Iteration"],"properties":{"number":3,"fx":0.131,"x":-4.9339,"fpx":31.035}}
+{"type":"node","id":"15","labels":["Iteration"],"properties":{"number":4,"x":-4.9381}}
+{"type":"relationship","id":"147","label":"HAS_DERIVATIVE","start":{"id":"7","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}},"end":{"id":"8","labels":["Derivative"],"properties":{"expression":"3x^2 + 8x - 3","name":"f'(x)"}}}
+{"type":"relationship","id":"148","label":"HAS_INITIAL_GUESS","start":{"id":"7","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}},"end":{"id":"9","labels":["InitialGuess"],"properties":{"value":-5}}}
+{"type":"relationship","id":"149","label":"SOLVED_BY","start":{"id":"7","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f(x)"}},"end":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}}}
+{"type":"relationship","id":"150","label":"HAS_ITERATION","start":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}},"end":{"id":"11","labels":["Iteration"],"properties":{"number":0,"fx":-2,"x":-5,"fpx":32}}}
+{"type":"relationship","id":"151","label":"HAS_ITERATION","start":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}},"end":{"id":"12","labels":["Iteration"],"properties":{"number":1,"fx":0.131,"x":-4.9375,"fpx":31.0352}}}
+{"type":"relationship","id":"152","label":"HAS_ITERATION","start":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}},"end":{"id":"13","labels":["Iteration"],"properties":{"number":2,"fx":-0.241,"x":-4.9417,"fpx":31.001}}}
+{"type":"relationship","id":"153","label":"HAS_ITERATION","start":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}},"end":{"id":"14","labels":["Iteration"],"properties":{"number":3,"fx":0.131,"x":-4.9339,"fpx":31.035}}}
+{"type":"relationship","id":"154","label":"HAS_ITERATION","start":{"id":"10","labels":["NewtonMethod"],"properties":{"tolerance":1.0E-4}},"end":{"id":"15","labels":["Iteration"],"properties":{"number":4,"x":-4.9381}}}

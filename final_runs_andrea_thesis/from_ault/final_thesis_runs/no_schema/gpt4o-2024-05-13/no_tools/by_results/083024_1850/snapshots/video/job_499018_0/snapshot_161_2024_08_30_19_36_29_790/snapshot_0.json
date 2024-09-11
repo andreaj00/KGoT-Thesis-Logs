@@ -1,0 +1,11 @@
+{"type":"node","id":"13","labels":["Film"],"properties":{"title":"Goldfinger"}}
+{"type":"node","id":"44","labels":["Character"],"properties":{"name":"James Bond"}}
+{"type":"node","id":"45","labels":["Character"],"properties":{"name":"Pussy Galore"}}
+{"type":"node","id":"46","labels":["Scene"],"properties":{"description":"James Bond and Pussy Galore conceal themselves under a parachute at the end of the film"}}
+{"type":"node","id":"47","labels":["Object"],"properties":{"color":"gold","type":"parachute"}}
+{"type":"relationship","id":"87","label":"HAS_SCENE","start":{"id":"13","labels":["Film"],"properties":{"title":"Goldfinger"}},"end":{"id":"46","labels":["Scene"],"properties":{"description":"James Bond and Pussy Galore conceal themselves under a parachute at the end of the film"}}}
+{"type":"relationship","id":"88","label":"APPEARS_IN","start":{"id":"44","labels":["Character"],"properties":{"name":"James Bond"}},"end":{"id":"13","labels":["Film"],"properties":{"title":"Goldfinger"}}}
+{"type":"relationship","id":"89","label":"APPEARS_IN","start":{"id":"45","labels":["Character"],"properties":{"name":"Pussy Galore"}},"end":{"id":"13","labels":["Film"],"properties":{"title":"Goldfinger"}}}
+{"type":"relationship","id":"90","label":"PARTICIPATES_IN","start":{"id":"44","labels":["Character"],"properties":{"name":"James Bond"}},"end":{"id":"46","labels":["Scene"],"properties":{"description":"James Bond and Pussy Galore conceal themselves under a parachute at the end of the film"}}}
+{"type":"relationship","id":"91","label":"PARTICIPATES_IN","start":{"id":"45","labels":["Character"],"properties":{"name":"Pussy Galore"}},"end":{"id":"46","labels":["Scene"],"properties":{"description":"James Bond and Pussy Galore conceal themselves under a parachute at the end of the film"}}}
+{"type":"relationship","id":"92","label":"CONTAINS_OBJECT","start":{"id":"46","labels":["Scene"],"properties":{"description":"James Bond and Pussy Galore conceal themselves under a parachute at the end of the film"}},"end":{"id":"47","labels":["Object"],"properties":{"color":"gold","type":"parachute"}}}

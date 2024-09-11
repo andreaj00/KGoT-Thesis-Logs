@@ -1,0 +1,5 @@
+{"type":"node","id":"47","labels":["Author"],"properties":{"name":"M. A. (Megan) H. H. (Hannah)"}}
+{"type":"node","id":"48","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}
+{"type":"node","id":"49","labels":["Paper"],"properties":{"year":"Unknown Year","title":"Unknown Title"}}
+{"type":"relationship","id":"16","label":"AUTHORED","start":{"id":"47","labels":["Author"],"properties":{"name":"M. A. (Megan) H. H. (Hannah)"}},"end":{"id":"49","labels":["Paper"],"properties":{"year":"Unknown Year","title":"Unknown Title"}}}
+{"type":"relationship","id":"15","label":"AUTHORED","start":{"id":"47","labels":["Author"],"properties":{"name":"M. A. (Megan) H. H. (Hannah)"}},"end":{"id":"48","labels":["Paper"],"properties":{"year":2015,"title":"Pie Menus or Linear Menus, Which Is Better?"}}}

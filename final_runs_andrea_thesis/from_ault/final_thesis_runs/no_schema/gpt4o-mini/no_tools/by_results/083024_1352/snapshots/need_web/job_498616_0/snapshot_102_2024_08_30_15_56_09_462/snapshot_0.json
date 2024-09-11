@@ -1,0 +1,5 @@
+{"type":"node","id":"58","labels":["Album"],"properties":{"artist":"Michael Jackson","release_year":1982,"title":"Thriller"}}
+{"type":"node","id":"59","labels":["Single"],"properties":{"last_word_before_second_chorus":"fight","release_order":5,"title":"Beat It"}}
+{"type":"node","id":"60","labels":["Feature"],"properties":{"artist":"Paul McCartney"}}
+{"type":"relationship","id":"16","label":"FEATURES","start":{"id":"59","labels":["Single"],"properties":{"last_word_before_second_chorus":"fight","release_order":5,"title":"Beat It"}},"end":{"id":"60","labels":["Feature"],"properties":{"artist":"Paul McCartney"}}}
+{"type":"relationship","id":"15","label":"HAS_SINGLE","start":{"id":"58","labels":["Album"],"properties":{"artist":"Michael Jackson","release_year":1982,"title":"Thriller"}},"end":{"id":"59","labels":["Single"],"properties":{"last_word_before_second_chorus":"fight","release_order":5,"title":"Beat It"}}}

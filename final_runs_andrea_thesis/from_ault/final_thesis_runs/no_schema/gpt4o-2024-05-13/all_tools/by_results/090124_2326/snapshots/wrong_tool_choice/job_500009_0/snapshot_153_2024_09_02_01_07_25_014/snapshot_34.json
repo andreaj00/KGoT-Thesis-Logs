@@ -1,0 +1,70 @@
+{"type":"node","id":"72","labels":["Color"],"properties":{"name":"White"}}
+{"type":"node","id":"73","labels":["Color"],"properties":{"name":"Yellow"}}
+{"type":"node","id":"74","labels":["Color"],"properties":{"name":"Red"}}
+{"type":"node","id":"75","labels":["Color"],"properties":{"name":"Orange"}}
+{"type":"node","id":"76","labels":["Color"],"properties":{"name":"Blue"}}
+{"type":"node","id":"77","labels":["Color"],"properties":{"name":"Green"}}
+{"type":"node","id":"78","labels":["Color"],"properties":{"name":"Center"}}
+{"type":"node","id":"79","labels":["Color"],"properties":{"name":"Edge"}}
+{"type":"node","id":"80","labels":["Color"],"properties":{"name":"Corner"}}
+{"type":"relationship","id":"10","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"11","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"12","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"13","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"14","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"15","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"16","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"17","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"18","label":"OPPOSITE","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"19","label":"OPPOSITE","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"20","label":"OPPOSITE","start":{"id":"74","labels":["Color"],"properties":{"name":"Red"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"21","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"22","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"23","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"24","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"25","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"26","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"27","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"28","label":"ADJACENT","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"29","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"30","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"31","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"159","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"32","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"160","label":"ADJACENT","start":{"id":"77","labels":["Color"],"properties":{"name":"Green"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"33","label":"REMOVED_CUBE","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"161","label":"OPPOSITE","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"34","label":"REMOVED_CUBE","start":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"162","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"72","labels":["Color"],"properties":{"name":"White"}}}
+{"type":"relationship","id":"35","label":"POSITION","properties":{"type":"Center Piece"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"78","labels":["Color"],"properties":{"name":"Center"}}}
+{"type":"relationship","id":"163","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"36","label":"POSITION","properties":{"type":"Top Edge"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"37","label":"POSITION","properties":{"type":"Bottom Edge"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"38","label":"POSITION","properties":{"type":"Left Edge"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"39","label":"POSITION","properties":{"type":"Right Edge"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"40","label":"POSITION","properties":{"type":"Top-Left Corner"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"41","label":"POSITION","properties":{"type":"Top-Right Corner"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"42","label":"POSITION","properties":{"type":"Bottom-Left Corner"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"43","label":"POSITION","properties":{"type":"Bottom-Right Corner"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"44","label":"POSITION","properties":{"type":"Top Edge (shared with top face)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"45","label":"POSITION","properties":{"type":"Bottom Edge (shared with bottom face)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"46","label":"POSITION","properties":{"type":"Left Edge (shared with left face)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"47","label":"POSITION","properties":{"type":"Right Edge (shared with right face)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"79","labels":["Color"],"properties":{"name":"Edge"}}}
+{"type":"relationship","id":"48","label":"POSITION","properties":{"type":"Top-Left Corner (shared with top and left faces)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"49","label":"POSITION","properties":{"type":"Top-Right Corner (shared with top and right faces)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"50","label":"POSITION","properties":{"type":"Bottom-Left Corner (shared with bottom and left faces)"},"start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"80","labels":["Color"],"properties":{"name":"Corner"}}}
+{"type":"relationship","id":"88","label":"OPPOSITE","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}}}
+{"type":"relationship","id":"89","label":"OPPOSITE","start":{"id":"74","labels":["Color"],"properties":{"name":"Red"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"90","label":"OPPOSITE","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"91","label":"ADJACENT","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"92","label":"ADJACENT","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"93","label":"ADJACENT","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"94","label":"ADJACENT","start":{"id":"72","labels":["Color"],"properties":{"name":"White"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"95","label":"ADJACENT","start":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}},"end":{"id":"74","labels":["Color"],"properties":{"name":"Red"}}}
+{"type":"relationship","id":"96","label":"ADJACENT","start":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}},"end":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"97","label":"ADJACENT","start":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"98","label":"ADJACENT","start":{"id":"73","labels":["Color"],"properties":{"name":"Yellow"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"99","label":"ADJACENT","start":{"id":"74","labels":["Color"],"properties":{"name":"Red"}},"end":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}}}
+{"type":"relationship","id":"100","label":"ADJACENT","start":{"id":"74","labels":["Color"],"properties":{"name":"Red"}},"end":{"id":"77","labels":["Color"],"properties":{"name":"Green"}}}
+{"type":"relationship","id":"101","label":"ADJACENT","start":{"id":"74","labels":["Color"],"properties":{"name":"Red"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}
+{"type":"relationship","id":"102","label":"ADJACENT","start":{"id":"76","labels":["Color"],"properties":{"name":"Blue"}},"end":{"id":"75","labels":["Color"],"properties":{"name":"Orange"}}}

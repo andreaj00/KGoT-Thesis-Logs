@@ -1,0 +1,3 @@
+{"type":"node","id":"41","labels":["President"],"properties":{"name":"George Washington"}}
+{"type":"node","id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}
+{"type":"relationship","id":"21","label":"BORN_IN","start":{"id":"41","labels":["President"],"properties":{"name":"George Washington"}},"end":{"id":"42","labels":["City"],"properties":{"name":"Popes Creek","state":"Virginia"}}}

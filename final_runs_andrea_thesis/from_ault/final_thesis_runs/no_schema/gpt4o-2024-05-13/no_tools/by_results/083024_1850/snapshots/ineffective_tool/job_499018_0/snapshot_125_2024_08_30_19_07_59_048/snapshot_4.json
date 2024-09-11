@@ -1,0 +1,14 @@
+{"type":"node","id":"0","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2013,"name":"Jeh Johnson","end_year":2017}}
+{"type":"node","id":"1","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2017,"name":"John F. Kelly","end_year":2017}}
+{"type":"node","id":"2","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2017,"name":"Kirstjen Nielsen","end_year":2019}}
+{"type":"node","id":"3","labels":["University"],"properties":{"name":"Morehouse College"}}
+{"type":"node","id":"4","labels":["University"],"properties":{"name":"University of Massachusetts Boston"}}
+{"type":"node","id":"5","labels":["University"],"properties":{"name":"Georgetown University"}}
+{"type":"node","id":"6","labels":["University"],"properties":{"name":"Harvard University"}}
+{"type":"node","id":"41","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2003,"name":"Tom Ridge","end_year":2005}}
+{"type":"node","id":"42","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2005,"name":"Michael Chertoff","end_year":2009}}
+{"type":"node","id":"43","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2009,"name":"Janet Napolitano","end_year":2013}}
+{"type":"relationship","id":"112","label":"HAS_DEGREE_FROM","start":{"id":"2","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2017,"name":"Kirstjen Nielsen","end_year":2019}},"end":{"id":"5","labels":["University"],"properties":{"name":"Georgetown University"}}}
+{"type":"relationship","id":"113","label":"HAS_DEGREE_FROM","start":{"id":"41","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2003,"name":"Tom Ridge","end_year":2005}},"end":{"id":"6","labels":["University"],"properties":{"name":"Harvard University"}}}
+{"type":"relationship","id":"110","label":"HAS_DEGREE_FROM","start":{"id":"0","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2013,"name":"Jeh Johnson","end_year":2017}},"end":{"id":"3","labels":["University"],"properties":{"name":"Morehouse College"}}}
+{"type":"relationship","id":"111","label":"HAS_DEGREE_FROM","start":{"id":"1","labels":["Person","SecretaryOfHomelandSecurity"],"properties":{"start_year":2017,"name":"John F. Kelly","end_year":2017}},"end":{"id":"4","labels":["University"],"properties":{"name":"University of Massachusetts Boston"}}}

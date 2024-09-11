@@ -1,0 +1,31 @@
+{
+    "correct_rows": [
+        64,
+        2,
+        130,
+        6,
+        39,
+        40,
+        105,
+        73,
+        138,
+        140,
+        15,
+        49,
+        115,
+        23,
+        119,
+        122,
+        60
+    ],
+    "category_counters": {
+        "search_information_tools": 11,
+        "no_tools": 1,
+        "pdf_tools": 3,
+        "text_processing_analysis_tools": 1,
+        "audio_tools": 1,
+        "calculator": 4,
+        "spreadsheet_tools": 3,
+        "programming_code_tools": 1
+    }
+}

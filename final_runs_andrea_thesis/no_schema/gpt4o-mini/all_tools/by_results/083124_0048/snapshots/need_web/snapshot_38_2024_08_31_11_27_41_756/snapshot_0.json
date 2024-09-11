@@ -1,0 +1,23 @@
+{"type":"node","id":"0","labels":["MainCourse"],"properties":{"price":29,"name":"Half Chicken"}}
+{"type":"node","id":"1","labels":["MainCourse"],"properties":{"price":34,"name":"Salmon"}}
+{"type":"node","id":"2","labels":["MainCourse"],"properties":{"price":42,"name":"Short Rib"}}
+{"type":"node","id":"3","labels":["MainCourse"],"properties":{"price":40,"name":"Lamb Loin"}}
+{"type":"node","id":"4","labels":["MainCourse"],"properties":{"price":32,"name":"Striped Bass"}}
+{"type":"node","id":"5","labels":["MainCourse"],"properties":{"price":28,"name":"Blackened Catfish"}}
+{"type":"node","id":"48","labels":["Restaurant"],"properties":{"name":"Virtue restaurant & bar","location":"Chicago"}}
+{"type":"node","id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}}
+{"type":"node","id":"50","labels":["MainCourse"],"properties":{"price":25,"name":"Cauliflower"}}
+{"type":"node","id":"51","labels":["MainCourse"],"properties":{"price":32,"name":"Fish & Grits"}}
+{"type":"node","id":"52","labels":["Menu"],"properties":{"date":"2021-04-21"}}
+{"type":"node","id":"53"}
+{"type":"relationship","id":"32","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"5","labels":["MainCourse"],"properties":{"price":28,"name":"Blackened Catfish"}}}
+{"type":"relationship","id":"33","label":"HAS_MENU","start":{"id":"48","labels":["Restaurant"],"properties":{"name":"Virtue restaurant & bar","location":"Chicago"}},"end":{"id":"52","labels":["Menu"],"properties":{"date":"2021-04-21"}}}
+{"type":"relationship","id":"34","label":"WAS_AVAILABLE_ON","start":{"id":"53"},"end":{"id":"52","labels":["Menu"],"properties":{"date":"2021-04-21"}}}
+{"type":"relationship","id":"24","label":"HAS_MENU","start":{"id":"48","labels":["Restaurant"],"properties":{"name":"Virtue restaurant & bar","location":"Chicago"}},"end":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}}}
+{"type":"relationship","id":"25","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"50","labels":["MainCourse"],"properties":{"price":25,"name":"Cauliflower"}}}
+{"type":"relationship","id":"26","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"51","labels":["MainCourse"],"properties":{"price":32,"name":"Fish & Grits"}}}
+{"type":"relationship","id":"27","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"0","labels":["MainCourse"],"properties":{"price":29,"name":"Half Chicken"}}}
+{"type":"relationship","id":"28","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"1","labels":["MainCourse"],"properties":{"price":34,"name":"Salmon"}}}
+{"type":"relationship","id":"29","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"2","labels":["MainCourse"],"properties":{"price":42,"name":"Short Rib"}}}
+{"type":"relationship","id":"30","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"3","labels":["MainCourse"],"properties":{"price":40,"name":"Lamb Loin"}}}
+{"type":"relationship","id":"31","label":"INCLUDES","start":{"id":"49","labels":["Menu"],"properties":{"date":"2021-03-22"}},"end":{"id":"4","labels":["MainCourse"],"properties":{"price":32,"name":"Striped Bass"}}}

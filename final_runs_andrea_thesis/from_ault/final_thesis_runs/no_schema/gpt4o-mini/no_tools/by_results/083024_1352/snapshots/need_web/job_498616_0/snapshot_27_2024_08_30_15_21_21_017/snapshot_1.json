@@ -1,0 +1,5 @@
+{"type":"node","id":"46","labels":["Hymenocera"],"properties":{"name":"Hymenocera picta"}}
+{"type":"node","id":"47","labels":["Echinaster"],"properties":{"name":"Echinaster sepositus","length_cm":10}}
+{"type":"node","id":"48","labels":["Hymenocera"],"properties":{"total_length_cm":4.5,"name":"Hymenocera picta"}}
+{"type":"relationship","id":"3","label":"FED","start":{"id":"46","labels":["Hymenocera"],"properties":{"name":"Hymenocera picta"}},"end":{"id":"47","labels":["Echinaster"],"properties":{"name":"Echinaster sepositus","length_cm":10}}}
+{"type":"relationship","id":"4","label":"FED","start":{"id":"48","labels":["Hymenocera"],"properties":{"total_length_cm":4.5,"name":"Hymenocera picta"}},"end":{"id":"47","labels":["Echinaster"],"properties":{"name":"Echinaster sepositus","length_cm":10}}}

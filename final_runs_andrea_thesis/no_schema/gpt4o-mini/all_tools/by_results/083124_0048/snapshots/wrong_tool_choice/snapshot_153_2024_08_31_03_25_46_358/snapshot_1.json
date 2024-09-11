@@ -1,0 +1,13 @@
+{"type":"node","id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}}
+{"type":"node","id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}
+{"type":"node","id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}
+{"type":"node","id":"14"}
+{"type":"node","id":"15","labels":["CubeType"],"properties":{"colored_faces":2,"count":15,"type":"Removed"}}
+{"type":"node","id":"16"}
+{"type":"relationship","id":"39","label":"CONNECTED_TO","start":{"id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"40","label":"CONNECTED_TO","start":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}},"end":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}}
+{"type":"relationship","id":"41","label":"DETERMINES_COLOR","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}}}
+{"type":"relationship","id":"42","label":"DETERMINES_COLOR","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"43","label":"CONNECTED_TO","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"44","label":"DETERMINES_COLOR","start":{"id":"14"},"end":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}}
+{"type":"relationship","id":"45","label":"CONNECTED_TO","start":{"id":"15","labels":["CubeType"],"properties":{"colored_faces":2,"count":15,"type":"Removed"}},"end":{"id":"16"}}

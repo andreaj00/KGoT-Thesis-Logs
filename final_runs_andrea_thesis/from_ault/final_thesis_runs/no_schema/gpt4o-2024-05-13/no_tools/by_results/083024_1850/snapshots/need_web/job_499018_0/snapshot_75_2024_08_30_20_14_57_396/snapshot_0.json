@@ -1,0 +1,3 @@
+{"type":"node","id":"47","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx"}}
+{"type":"node","id":"48","labels":["Reaction"],"properties":{"number":7,"substrate_concentration":72.3,"menten_constant":0.052,"observation_notes":"Appendix C2.1","catalytic_constant":0.0429}}
+{"type":"relationship","id":"49","label":"CONTAINS","start":{"id":"47","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx"}},"end":{"id":"48","labels":["Reaction"],"properties":{"number":7,"substrate_concentration":72.3,"menten_constant":0.052,"observation_notes":"Appendix C2.1","catalytic_constant":0.0429}}}

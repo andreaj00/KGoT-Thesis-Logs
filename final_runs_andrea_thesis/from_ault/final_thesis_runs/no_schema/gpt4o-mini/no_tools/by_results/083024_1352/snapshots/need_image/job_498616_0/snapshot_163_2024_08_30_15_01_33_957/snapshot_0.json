@@ -1,0 +1,28 @@
+{"type":"node","id":"28","labels":["Exhibition"],"properties":{"year":2015,"location":"Metropolitan Museum of Art","title":"The Year of the Ram"}}
+{"type":"node","id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}}
+{"type":"node","id":"30","labels":["Artwork"],"properties":{"description":"A range of pieces depicting the twelve zodiac animals","type":"paintings"}}
+{"type":"node","id":"31","labels":["Animal"],"properties":{"name":"Rat","has_visible_hand":false}}
+{"type":"node","id":"32","labels":["Animal"],"properties":{"name":"Ox","has_visible_hand":false}}
+{"type":"node","id":"33","labels":["Animal"],"properties":{"name":"Tiger","has_visible_hand":false}}
+{"type":"node","id":"34","labels":["Animal"],"properties":{"name":"Rabbit","has_visible_hand":false}}
+{"type":"node","id":"35","labels":["Animal"],"properties":{"name":"Dragon","has_visible_hand":false}}
+{"type":"node","id":"36","labels":["Animal"],"properties":{"name":"Snake","has_visible_hand":false}}
+{"type":"node","id":"37","labels":["Animal"],"properties":{"name":"Horse","has_visible_hand":false}}
+{"type":"node","id":"38","labels":["Animal"],"properties":{"name":"Goat","has_visible_hand":false}}
+{"type":"node","id":"39","labels":["Animal"],"properties":{"name":"Monkey","has_visible_hand":true}}
+{"type":"node","id":"40","labels":["Animal"],"properties":{"name":"Rooster","has_visible_hand":false}}
+{"type":"node","id":"41","labels":["Animal"],"properties":{"name":"Dog","has_visible_hand":true}}
+{"type":"node","id":"42","labels":["Animal"],"properties":{"name":"Pig","has_visible_hand":false}}
+{"type":"relationship","id":"0","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"32","labels":["Animal"],"properties":{"name":"Ox","has_visible_hand":false}}}
+{"type":"relationship","id":"1","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"33","labels":["Animal"],"properties":{"name":"Tiger","has_visible_hand":false}}}
+{"type":"relationship","id":"2","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"34","labels":["Animal"],"properties":{"name":"Rabbit","has_visible_hand":false}}}
+{"type":"relationship","id":"3","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"36","labels":["Animal"],"properties":{"name":"Snake","has_visible_hand":false}}}
+{"type":"relationship","id":"4","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"37","labels":["Animal"],"properties":{"name":"Horse","has_visible_hand":false}}}
+{"type":"relationship","id":"5","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"38","labels":["Animal"],"properties":{"name":"Goat","has_visible_hand":false}}}
+{"type":"relationship","id":"6","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"40","labels":["Animal"],"properties":{"name":"Rooster","has_visible_hand":false}}}
+{"type":"relationship","id":"7","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"41","labels":["Animal"],"properties":{"name":"Dog","has_visible_hand":true}}}
+{"type":"relationship","id":"8","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"42","labels":["Animal"],"properties":{"name":"Pig","has_visible_hand":false}}}
+{"type":"relationship","id":"60","label":"FEATURES","start":{"id":"28","labels":["Exhibition"],"properties":{"year":2015,"location":"Metropolitan Museum of Art","title":"The Year of the Ram"}},"end":{"id":"30","labels":["Artwork"],"properties":{"description":"A range of pieces depicting the twelve zodiac animals","type":"paintings"}}}
+{"type":"relationship","id":"61","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"31","labels":["Animal"],"properties":{"name":"Rat","has_visible_hand":false}}}
+{"type":"relationship","id":"62","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"35","labels":["Animal"],"properties":{"name":"Dragon","has_visible_hand":false}}}
+{"type":"relationship","id":"63","label":"INCLUDES","start":{"id":"29","labels":["Zodiac"],"properties":{"name":"Chinese Zodiac","total_animals":12}},"end":{"id":"39","labels":["Animal"],"properties":{"name":"Monkey","has_visible_hand":true}}}

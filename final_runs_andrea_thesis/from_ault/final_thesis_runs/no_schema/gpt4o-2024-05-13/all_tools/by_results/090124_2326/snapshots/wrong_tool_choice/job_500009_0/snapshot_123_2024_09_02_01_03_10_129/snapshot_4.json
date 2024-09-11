@@ -1,0 +1,15 @@
+{"type":"node","id":"33","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"34","labels":["Event"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"35","labels":["Round"],"properties":{"name":"Final Round"}}
+{"type":"node","id":"36","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"37","labels":["Item"],"properties":{"name":"Shiny Prop Coin","value":1000}}
+{"type":"node","id":"38","labels":["Box"],"properties":{"name":"Box 1"}}
+{"type":"node","id":"39","labels":["Box"],"properties":{"name":"Box 2"}}
+{"type":"node","id":"40","labels":["Box"],"properties":{"name":"Box 3"}}
+{"type":"relationship","id":"0","label":"PARTICIPATED_IN","start":{"id":"33","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"1","label":"PART_OF","start":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}},"end":{"id":"34","labels":["Event"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"2","label":"HOSTED","start":{"id":"36","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"3","label":"USED_IN","start":{"id":"37","labels":["Item"],"properties":{"name":"Shiny Prop Coin","value":1000}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"4","label":"PART_OF","start":{"id":"38","labels":["Box"],"properties":{"name":"Box 1"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"5","label":"PART_OF","start":{"id":"39","labels":["Box"],"properties":{"name":"Box 2"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}
+{"type":"relationship","id":"6","label":"PART_OF","start":{"id":"40","labels":["Box"],"properties":{"name":"Box 3"}},"end":{"id":"35","labels":["Round"],"properties":{"name":"Final Round"}}}

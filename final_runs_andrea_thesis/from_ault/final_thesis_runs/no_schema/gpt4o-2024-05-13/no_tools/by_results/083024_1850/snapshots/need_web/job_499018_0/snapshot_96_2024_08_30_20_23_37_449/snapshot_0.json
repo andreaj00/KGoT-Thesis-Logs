@@ -1,0 +1,9 @@
+{"type":"node","id":"9","labels":["Material"],"properties":{"compiled_date":"2023-08-21","title":"Introductory Chemistry"}}
+{"type":"node","id":"10","labels":["Veterinarian"],"properties":{"surname":"Smith"}}
+{"type":"node","id":"41","labels":["Author"],"properties":{"name":"Marisa Alviar-Agnew"}}
+{"type":"node","id":"42","labels":["Author"],"properties":{"name":"Henry Agnew"}}
+{"type":"node","id":"43","labels":["Exercise"],"properties":{"section":"1.E"}}
+{"type":"relationship","id":"76","label":"LICENSED_BY","properties":{"license":"CK-12"},"start":{"id":"9","labels":["Material"],"properties":{"compiled_date":"2023-08-21","title":"Introductory Chemistry"}},"end":{"id":"41","labels":["Author"],"properties":{"name":"Marisa Alviar-Agnew"}}}
+{"type":"relationship","id":"77","label":"LICENSED_BY","properties":{"license":"CK-12"},"start":{"id":"9","labels":["Material"],"properties":{"compiled_date":"2023-08-21","title":"Introductory Chemistry"}},"end":{"id":"42","labels":["Author"],"properties":{"name":"Henry Agnew"}}}
+{"type":"relationship","id":"78","label":"CONTAINS","start":{"id":"9","labels":["Material"],"properties":{"compiled_date":"2023-08-21","title":"Introductory Chemistry"}},"end":{"id":"43","labels":["Exercise"],"properties":{"section":"1.E"}}}
+{"type":"relationship","id":"79","label":"MENTIONS","start":{"id":"43","labels":["Exercise"],"properties":{"section":"1.E"}},"end":{"id":"10","labels":["Veterinarian"],"properties":{"surname":"Smith"}}}

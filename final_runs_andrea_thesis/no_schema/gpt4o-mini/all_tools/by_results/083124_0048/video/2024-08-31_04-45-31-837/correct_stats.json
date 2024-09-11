@@ -1,0 +1,82 @@
+[
+    {
+        "question_number": 18,
+        "correct_answer": "3",
+        "returned_answer": "70",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video parsing",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 29,
+        "correct_answer": "1.8",
+        "returned_answer": "NA",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 87,
+        "correct_answer": "Extremely",
+        "returned_answer": "error during execution, skipped. Invalid json output: {\"cypher\":\"MERGE (t:Character {name: 'Teal'c'}) WITH t MERGE (s:Show {title: 'Stargate SG-1'}) WITH t, s MERGE (e:Episode {title: 'S8E2'}) WITH t, s, e CREATE (t)-[:APPEARS_IN]->(s) CREATE (t)-[:SPEAKS_IN]->(e) CREATE (e)-[:PART_OF]->(s) CREATE (t)-[:RESPONDS_TO {question: 'Isn\\'t that hot?', response: 'Extremely.'}]->(e)\"}\nTraceback (most recent call last):\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 84, in parse_result\n    return parse_json_markdown(text)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 147, in parse_json_markdown\n    return _parse_json(json_str, parser=parser)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 163, in _parse_json\n    return parser(json_str)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 118, in parse_partial_json\n    return json.loads(s, strict=strict)\n  File \"/usr/lib/python3.10/json/__init__.py\", line 359, in loads\n    return cls(**kw).decode(s)\n  File \"/usr/lib/python3.10/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/lib/python3.10/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\njson.decoder.JSONDecodeError: Invalid \\escape: line 1 column 43 (char 42)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/llm_utils.py\", line 565, in fix_cypher\n    response = output_parser.parse(response)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 98, in parse\n    return self.parse_result([Generation(text=text)])\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 87, in parse_result\n    raise OutputParserException(msg, llm_output=text) from e\nlangchain_core.exceptions.OutputParserException: Invalid json output: {\"cypher\":\"MERGE (t:Character {name: 'Teal\\'c'}) WITH t MERGE (s:Show {title: 'Stargate SG-1'}) WITH t, s MERGE (e:Episode {title: 'S8E2'}) WITH t, s, e CREATE (t)-[:APPEARS_IN]->(s) CREATE (t)-[:SPEAKS_IN]->(e) CREATE (e)-[:PART_OF]->(s) CREATE (t)-[:RESPONDS_TO {question: 'Isn\\\\'t that hot?', response: 'Extremely.'}]->(e)\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 84, in parse_result\n    return parse_json_markdown(text)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 147, in parse_json_markdown\n    return _parse_json(json_str, parser=parser)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 163, in _parse_json\n    return parser(json_str)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/utils/json.py\", line 118, in parse_partial_json\n    return json.loads(s, strict=strict)\n  File \"/usr/lib/python3.10/json/__init__.py\", line 359, in loads\n    return cls(**kw).decode(s)\n  File \"/usr/lib/python3.10/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"/usr/lib/python3.10/json/decoder.py\", line 353, in raw_decode\n    obj, end = self.scan_once(s, idx)\njson.decoder.JSONDecodeError: Invalid \\escape: line 1 column 279 (char 278)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/GAIA/gaia.py\", line 56, in check_answers\n    returned_answer = solver_function(question,\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 140, in run\n    solution = self._solve_problem_iterative_knowledge_graph(problem)\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/controller.py\", line 278, in _solve_problem_iterative_knowledge_graph\n    single_query = fix_cypher(self.llm_planning, single_query, write_response[1],\n  File \"/media/sf_VM_Shared_Folder/Knowledge-Graph-of-Thoughts/kgot/controller/llm_utils.py\", line 572, in fix_cypher\n    response = output_parser.parse(encoded_response)\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 98, in parse\n    return self.parse_result([Generation(text=text)])\n  File \"/home/andrea/.local/lib/python3.10/site-packages/langchain_core/output_parsers/json.py\", line 87, in parse_result\n    raise OutputParserException(msg, llm_output=text) from e\nlangchain_core.exceptions.OutputParserException: Invalid json output: {\"cypher\":\"MERGE (t:Character {name: 'Teal'c'}) WITH t MERGE (s:Show {title: 'Stargate SG-1'}) WITH t, s MERGE (e:Episode {title: 'S8E2'}) WITH t, s, e CREATE (t)-[:APPEARS_IN]->(s) CREATE (t)-[:SPEAKS_IN]->(e) CREATE (e)-[:PART_OF]->(s) CREATE (t)-[:RESPONDS_TO {question: 'Isn\\'t that hot?', response: 'Extremely.'}]->(e)\"}\n",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 114,
+        "correct_answer": "4",
+        "returned_answer": "2",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 116,
+        "correct_answer": "Rockhopper penguin",
+        "returned_answer": "The video features various species of birds, including parrots, penguins, and ostriches.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 159,
+        "correct_answer": "100000000",
+        "returned_answer": "The number mentioned by the narrator directly after dinosaurs were first shown in the video is 65 million.",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Audio capability\n4. Video capability",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 161,
+        "correct_answer": "orange, white",
+        "returned_answer": "yellow",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "A web browser\nA search engine\nImage recognition software",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 164,
+        "correct_answer": "1:41.614",
+        "returned_answer": "1:30.000",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. YouTube\n4. OCR",
+        "num_tools": "4"
+    }
+]

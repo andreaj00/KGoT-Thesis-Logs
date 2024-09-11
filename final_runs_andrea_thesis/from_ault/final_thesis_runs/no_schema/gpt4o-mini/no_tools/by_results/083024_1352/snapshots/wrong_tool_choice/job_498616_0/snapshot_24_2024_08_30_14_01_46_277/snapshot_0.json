@@ -1,0 +1,9 @@
+{"type":"node","id":"50","labels":["Compound"],"properties":{"complexity":10,"heavy_atoms":6,"molecular_weight":100,"hydrogen_bond_acceptors":1}}
+{"type":"node","id":"51","labels":["EnzymeTransformation"],"properties":{"name":"Transformation1"}}
+{"type":"node","id":"52","labels":["Gene"],"properties":{"name":"Gene1"}}
+{"type":"node","id":"53","labels":["EnzymeTransformation"],"properties":{"name":"Transformation2"}}
+{"type":"node","id":"54","labels":["Gene"],"properties":{"name":"Gene2"}}
+{"type":"relationship","id":"4","label":"HAS_ENZYME_TRANSFORMATION","start":{"id":"50","labels":["Compound"],"properties":{"complexity":10,"heavy_atoms":6,"molecular_weight":100,"hydrogen_bond_acceptors":1}},"end":{"id":"51","labels":["EnzymeTransformation"],"properties":{"name":"Transformation1"}}}
+{"type":"relationship","id":"5","label":"ASSOCIATED_WITH","start":{"id":"51","labels":["EnzymeTransformation"],"properties":{"name":"Transformation1"}},"end":{"id":"52","labels":["Gene"],"properties":{"name":"Gene1"}}}
+{"type":"relationship","id":"6","label":"HAS_ENZYME_TRANSFORMATION","start":{"id":"50","labels":["Compound"],"properties":{"complexity":10,"heavy_atoms":6,"molecular_weight":100,"hydrogen_bond_acceptors":1}},"end":{"id":"53","labels":["EnzymeTransformation"],"properties":{"name":"Transformation2"}}}
+{"type":"relationship","id":"7","label":"ASSOCIATED_WITH","start":{"id":"53","labels":["EnzymeTransformation"],"properties":{"name":"Transformation2"}},"end":{"id":"54","labels":["Gene"],"properties":{"name":"Gene2"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"50","labels":["Model"],"properties":{"name":"Customer Lifetime"}}
+{"type":"node","id":"51","labels":["Study"],"properties":{"researcher":"Manash Pratim Kashyap","year":2018}}
+{"type":"node","id":"52","labels":["Study"],"properties":{"researcher":"PS Fader","year":2019}}
+{"type":"relationship","id":"6","label":"USES","start":{"id":"51","labels":["Study"],"properties":{"researcher":"Manash Pratim Kashyap","year":2018}},"end":{"id":"50","labels":["Model"],"properties":{"name":"Customer Lifetime"}}}
+{"type":"relationship","id":"7","label":"USES","start":{"id":"52","labels":["Study"],"properties":{"researcher":"PS Fader","year":2019}},"end":{"id":"50","labels":["Model"],"properties":{"name":"Customer Lifetime"}}}

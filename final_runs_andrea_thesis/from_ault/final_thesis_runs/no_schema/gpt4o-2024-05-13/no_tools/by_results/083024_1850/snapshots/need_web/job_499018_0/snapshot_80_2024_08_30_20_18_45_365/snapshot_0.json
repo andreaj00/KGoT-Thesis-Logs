@@ -1,0 +1,9 @@
+{"type":"node","id":"53","labels":["Source"],"properties":{"name":"USGS Nonindigenous Aquatic Species database"}}
+{"type":"node","id":"54","labels":["Location"],"properties":{"name":"Florida"}}
+{"type":"node","id":"55","labels":["Species"],"properties":{"name":"Crocodile","type":"Nonindigenous"}}
+{"type":"node","id":"56","labels":["Period"],"properties":{"start_year":2000,"end_year":2020}}
+{"type":"node","id":"57","labels":["Data"],"properties":{"count":10}}
+{"type":"relationship","id":"56","label":"RECORDED_IN","start":{"id":"57","labels":["Data"],"properties":{"count":10}},"end":{"id":"53","labels":["Source"],"properties":{"name":"USGS Nonindigenous Aquatic Species database"}}}
+{"type":"relationship","id":"57","label":"FOUND_IN","start":{"id":"57","labels":["Data"],"properties":{"count":10}},"end":{"id":"54","labels":["Location"],"properties":{"name":"Florida"}}}
+{"type":"relationship","id":"58","label":"SPECIFIES","start":{"id":"57","labels":["Data"],"properties":{"count":10}},"end":{"id":"55","labels":["Species"],"properties":{"name":"Crocodile","type":"Nonindigenous"}}}
+{"type":"relationship","id":"59","label":"DURING","start":{"id":"57","labels":["Data"],"properties":{"count":10}},"end":{"id":"56","labels":["Period"],"properties":{"start_year":2000,"end_year":2020}}}

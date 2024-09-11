@@ -1,0 +1,5 @@
+{"type":"node","id":"33","labels":["EducationCensus"],"properties":{"country":"Bulgaria","year":2011}}
+{"type":"node","id":"34","labels":["Gender"],"properties":{"count":1074000,"type":"Men"}}
+{"type":"node","id":"35","labels":["Gender"],"properties":{"count":1174000,"type":"Women"}}
+{"type":"relationship","id":"48","label":"COMPLETED_TERTIARY_EDUCATION","start":{"id":"33","labels":["EducationCensus"],"properties":{"country":"Bulgaria","year":2011}},"end":{"id":"34","labels":["Gender"],"properties":{"count":1074000,"type":"Men"}}}
+{"type":"relationship","id":"49","label":"COMPLETED_TERTIARY_EDUCATION","start":{"id":"33","labels":["EducationCensus"],"properties":{"country":"Bulgaria","year":2011}},"end":{"id":"35","labels":["Gender"],"properties":{"count":1174000,"type":"Women"}}}

@@ -1,0 +1,15 @@
+{"type":"node","id":"49","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}}
+{"type":"node","id":"50","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}
+{"type":"node","id":"51","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}}
+{"type":"node","id":"52","labels":["Trip"],"properties":{"start":"May 2023"}}
+{"type":"node","id":"53","labels":["RecyclingRate"],"properties":{"rate":29,"type":"PET"}}
+{"type":"node","id":"54","labels":["MonetaryValue"],"properties":{"type":"Bottle","value":0.05}}
+{"type":"node","id":"55"}
+{"type":"node","id":"56"}
+{"type":"relationship","id":"38","label":"ROUTE","properties":{"distance_miles":2200,"highway":"I-40"},"start":{"id":"49","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}},"end":{"id":"50","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}}
+{"type":"relationship","id":"39","label":"ROUTE","properties":{"distance_miles":900,"highway":"I-90"},"start":{"id":"50","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}},"end":{"id":"51","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}}}
+{"type":"relationship","id":"40","label":"STARTS_IN","start":{"id":"52","labels":["Trip"],"properties":{"start":"May 2023"}},"end":{"id":"49","labels":["City"],"properties":{"name":"Los Angeles","state":"California"}}}
+{"type":"relationship","id":"41","label":"ENDS_IN","start":{"id":"52","labels":["Trip"],"properties":{"start":"May 2023"}},"end":{"id":"51","labels":["City"],"properties":{"name":"Augusta","state":"Maine"}}}
+{"type":"relationship","id":"42","label":"STOPS_AT","start":{"id":"52","labels":["Trip"],"properties":{"start":"May 2023"}},"end":{"id":"50","labels":["City"],"properties":{"name":"Cincinnati","state":"Ohio"}}}
+{"type":"relationship","id":"43","label":"HAS_RECYCLING_RATE","start":{"id":"52","labels":["Trip"],"properties":{"start":"May 2023"}},"end":{"id":"55"}}
+{"type":"relationship","id":"44","label":"HAS_MONETARY_VALUE","start":{"id":"52","labels":["Trip"],"properties":{"start":"May 2023"}},"end":{"id":"56"}}

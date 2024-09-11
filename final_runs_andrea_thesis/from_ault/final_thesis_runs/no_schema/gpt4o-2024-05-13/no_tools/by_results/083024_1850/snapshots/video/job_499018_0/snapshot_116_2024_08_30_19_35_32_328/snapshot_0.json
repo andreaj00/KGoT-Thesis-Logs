@@ -1,0 +1,3 @@
+{"type":"node","id":"8","labels":["Bird"],"properties":{"species":"kakapo","description":"The kakapo is a large, flightless parrot native to New Zealand, known for its distinctive green and yellow plumage and its nocturnal habits."}}
+{"type":"node","id":"43","labels":["Video"],"properties":{"channel":"BBC Earth","title":"Top 5 Silliest Animal Moments"}}
+{"type":"relationship","id":"83","label":"FEATURES","start":{"id":"43","labels":["Video"],"properties":{"channel":"BBC Earth","title":"Top 5 Silliest Animal Moments"}},"end":{"id":"8","labels":["Bird"],"properties":{"species":"kakapo","description":"The kakapo is a large, flightless parrot native to New Zealand, known for its distinctive green and yellow plumage and its nocturnal habits."}}}

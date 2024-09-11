@@ -1,0 +1,12 @@
+{"type":"node","id":"0","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}}
+{"type":"node","id":"1","labels":["Function"],"properties":{"expression":"3x^2 + 8x - 3","name":"f_prime"}}
+{"type":"node","id":"2","labels":["InitialGuess"],"properties":{"value":-5}}
+{"type":"node","id":"3","labels":["Step"],"properties":{"iteration":0,"x_next":-4.9375,"f_prime_value":32,"f_value":-2,"x_value":-5}}
+{"type":"node","id":"4"}
+{"type":"node","id":"5","labels":["Step"],"properties":{"iteration":1,"x_next":-4.874,"f_prime_value":31.5,"f_value":-1.9995,"x_value":-4.9375}}
+{"type":"node","id":"6"}
+{"type":"relationship","id":"57","label":"USES","start":{"id":"2","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"0","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}}}
+{"type":"relationship","id":"58","label":"DERIVES","start":{"id":"2","labels":["InitialGuess"],"properties":{"value":-5}},"end":{"id":"1","labels":["Function"],"properties":{"expression":"3x^2 + 8x - 3","name":"f_prime"}}}
+{"type":"relationship","id":"59","label":"APPLIES","start":{"id":"4"},"end":{"id":"0","labels":["Function"],"properties":{"expression":"x^3 + 4x^2 - 3x + 8","name":"f"}}}
+{"type":"relationship","id":"60","label":"APPLIES","start":{"id":"4"},"end":{"id":"1","labels":["Function"],"properties":{"expression":"3x^2 + 8x - 3","name":"f_prime"}}}
+{"type":"relationship","id":"61","label":"NEXT","start":{"id":"4"},"end":{"id":"6"}}

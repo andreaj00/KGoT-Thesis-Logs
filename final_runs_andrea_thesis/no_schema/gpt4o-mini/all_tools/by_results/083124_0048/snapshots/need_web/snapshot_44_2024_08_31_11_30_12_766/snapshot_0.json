@@ -1,0 +1,7 @@
+{"type":"node","id":"6","labels":["BlogPost"],"properties":{"source":"https://blog.replit.com/","title":"2018 VSCode blog post"}}
+{"type":"node","id":"7","labels":["Command"],"properties":{"description":"command to remove extra lines"}}
+{"type":"node","id":"8","labels":["Source"],"properties":{"url":"https://blog.replit.com/intel"}}
+{"type":"node","id":"40","labels":["Source"],"properties":{"url":"https://blog.replit.com/code-editors"}}
+{"type":"relationship","id":"35","label":"MENTIONS","start":{"id":"6","labels":["BlogPost"],"properties":{"source":"https://blog.replit.com/","title":"2018 VSCode blog post"}},"end":{"id":"7","labels":["Command"],"properties":{"description":"command to remove extra lines"}}}
+{"type":"relationship","id":"36","label":"REFERENCES","start":{"id":"6","labels":["BlogPost"],"properties":{"source":"https://blog.replit.com/","title":"2018 VSCode blog post"}},"end":{"id":"8","labels":["Source"],"properties":{"url":"https://blog.replit.com/intel"}}}
+{"type":"relationship","id":"37","label":"REFERENCES","start":{"id":"6","labels":["BlogPost"],"properties":{"source":"https://blog.replit.com/","title":"2018 VSCode blog post"}},"end":{"id":"40","labels":["Source"],"properties":{"url":"https://blog.replit.com/code-editors"}}}

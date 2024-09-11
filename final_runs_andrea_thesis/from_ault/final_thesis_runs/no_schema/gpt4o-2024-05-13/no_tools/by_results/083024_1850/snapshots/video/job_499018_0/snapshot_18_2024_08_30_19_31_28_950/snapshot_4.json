@@ -1,0 +1,11 @@
+{"type":"node","id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}}
+{"type":"node","id":"31","labels":["Step"],"properties":{"number":1,"description":"Select the Video"}}
+{"type":"node","id":"32","labels":["Step"],"properties":{"number":2,"description":"Watch the Video Carefully"}}
+{"type":"node","id":"33","labels":["Step"],"properties":{"number":3,"description":"Pause and Screenshot"}}
+{"type":"node","id":"34","labels":["Step"],"properties":{"number":4,"description":"Identify the Species"}}
+{"type":"node","id":"35","labels":["Step"],"properties":{"number":5,"description":"Count the Species"}}
+{"type":"relationship","id":"131","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"31","labels":["Step"],"properties":{"number":1,"description":"Select the Video"}}}
+{"type":"relationship","id":"132","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"32","labels":["Step"],"properties":{"number":2,"description":"Watch the Video Carefully"}}}
+{"type":"relationship","id":"133","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"33","labels":["Step"],"properties":{"number":3,"description":"Pause and Screenshot"}}}
+{"type":"relationship","id":"134","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"34","labels":["Step"],"properties":{"number":4,"description":"Identify the Species"}}}
+{"type":"relationship","id":"135","label":"HAS_STEP","start":{"id":"30","labels":["Video"],"properties":{"url":"https://www.youtube.com/watch?v=L1vXCYZAYYM"}},"end":{"id":"35","labels":["Step"],"properties":{"number":5,"description":"Count the Species"}}}

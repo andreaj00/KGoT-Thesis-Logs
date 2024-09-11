@@ -1,0 +1,12 @@
+{"type":"node","id":"7","labels":["Colony"],"properties":{"count":40}}
+{"type":"node","id":"8","labels":["Study"],"properties":{"date":"01-2009","findings":"Emperor Penguins could be pushed to the brink of extinction by the year 2100 due to global climate change.","name":"Woods Hole Oceanographic Institution"}}
+{"type":"node","id":"9"}
+{"type":"node","id":"10"}
+{"type":"node","id":"11","labels":["BreedingPairs"],"properties":{"current":"238000","colonies":"46"}}
+{"type":"node","id":"12"}
+{"type":"node","id":"19","labels":["Model"],"properties":{"current_population":"3000 breeding pairs","description":"Mathematical models predicting population decline","forecast":"87% decline by the end of the century","future_population":"400 breeding pairs"}}
+{"type":"node","id":"53","labels":["Species"],"properties":{"population_estimate":"400000-450000","date":"12-31-2012","name":"Emperor penguin","status":"near threatened"}}
+{"type":"relationship","id":"32","label":"PREDICTS","start":{"id":"10"},"end":{"id":"53","labels":["Species"],"properties":{"population_estimate":"400000-450000","date":"12-31-2012","name":"Emperor penguin","status":"near threatened"}}}
+{"type":"relationship","id":"33","label":"HAS_BREEDING_PAIRS","start":{"id":"53","labels":["Species"],"properties":{"population_estimate":"400000-450000","date":"12-31-2012","name":"Emperor penguin","status":"near threatened"}},"end":{"id":"12"}}
+{"type":"relationship","id":"30","label":"HAS_COLONY","start":{"id":"53","labels":["Species"],"properties":{"population_estimate":"400000-450000","date":"12-31-2012","name":"Emperor penguin","status":"near threatened"}},"end":{"id":"7","labels":["Colony"],"properties":{"count":40}}}
+{"type":"relationship","id":"31","label":"STUDIES","start":{"id":"9"},"end":{"id":"53","labels":["Species"],"properties":{"population_estimate":"400000-450000","date":"12-31-2012","name":"Emperor penguin","status":"near threatened"}}}

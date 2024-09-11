@@ -1,0 +1,30 @@
+{"type":"node","id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}}
+{"type":"node","id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}
+{"type":"node","id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}
+{"type":"node","id":"14"}
+{"type":"node","id":"15","labels":["CubeType"],"properties":{"colored_faces":2,"count":15,"type":"Removed"}}
+{"type":"node","id":"16"}
+{"type":"node","id":"17","labels":["CubeType"],"properties":{"colored_faces":2,"count":1,"type":"Removed"}}
+{"type":"node","id":"18","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"White and Red"}}
+{"type":"node","id":"19","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"White and Orange"}}
+{"type":"node","id":"20","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"White and Blue"}}
+{"type":"node","id":"21","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"White and Green"}}
+{"type":"node","id":"22","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Yellow and Red"}}
+{"type":"node","id":"23","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Yellow and Orange"}}
+{"type":"node","id":"24","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Yellow and Blue"}}
+{"type":"node","id":"25","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Yellow and Green"}}
+{"type":"node","id":"26","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Red and Blue"}}
+{"type":"node","id":"31","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Red and Green"}}
+{"type":"node","id":"32","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Orange and Blue"}}
+{"type":"node","id":"33","labels":["ColorCombination"],"properties":{"adjacency":"Adjacent","combination":"Orange and Green"}}
+{"type":"node","id":"34","labels":["ColorCombination"],"properties":{"adjacency":"Opposite","combination":"White and Yellow"}}
+{"type":"node","id":"35","labels":["ColorCombination"],"properties":{"adjacency":"Opposite","combination":"Red and Orange"}}
+{"type":"node","id":"36","labels":["ColorCombination"],"properties":{"adjacency":"Opposite","combination":"Blue and Green"}}
+{"type":"relationship","id":"39","label":"CONNECTED_TO","start":{"id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"40","label":"CONNECTED_TO","start":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}},"end":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}}
+{"type":"relationship","id":"41","label":"DETERMINES_COLOR","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"11","labels":["CubeType"],"properties":{"colored_faces":3,"count":8,"type":"Corner"}}}
+{"type":"relationship","id":"42","label":"DETERMINES_COLOR","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"43","label":"CONNECTED_TO","start":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}},"end":{"id":"12","labels":["CubeType"],"properties":{"colored_faces":2,"count":12,"type":"Edge"}}}
+{"type":"relationship","id":"44","label":"DETERMINES_COLOR","start":{"id":"14"},"end":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}}
+{"type":"relationship","id":"45","label":"CONNECTED_TO","start":{"id":"15","labels":["CubeType"],"properties":{"colored_faces":2,"count":15,"type":"Removed"}},"end":{"id":"16"}}
+{"type":"relationship","id":"46","label":"DETERMINES_COLOR","start":{"id":"17","labels":["CubeType"],"properties":{"colored_faces":2,"count":1,"type":"Removed"}},"end":{"id":"13","labels":["CubeType"],"properties":{"colored_faces":1,"count":6,"type":"Center"}}}

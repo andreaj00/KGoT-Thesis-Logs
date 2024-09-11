@@ -1,0 +1,12 @@
+{"type":"node","id":"22","labels":["Flavor"],"properties":{"created":1986,"name":"Fresh Georgia Peach"}}
+{"type":"node","id":"23","labels":["Headstone"],"properties":{"flavor_name":"Fresh Georgia Peach"}}
+{"type":"node","id":"24","labels":["Flavor"],"properties":{"created":1948,"name":"Ethan Almond"}}
+{"type":"node","id":"25","labels":["Headstone"],"properties":{"last_line":"In memory of him and Gleno Mountain Boys, their memory lives on. The time will tell these years.","flavor_name":"Ethan Almond"}}
+{"type":"node","id":"26","labels":["Flavor"],"properties":{"created":2004,"name":"Dublin Mudslide"}}
+{"type":"node","id":"27","labels":["Headstone"],"properties":{"last_line":"The bottle is empty, The cup & the glass. Mud with Irish cream Was not meant to last.","flavor_name":"Dublin Mudslide"}}
+{"type":"node","id":"28","labels":["Flavor"],"properties":{"name":"Cherry Garcia"}}
+{"type":"node","id":"29","labels":["Headstone"],"properties":{"flavor_name":"Cherry Garcia"}}
+{"type":"relationship","id":"56","label":"COMMEMORATES","start":{"id":"23","labels":["Headstone"],"properties":{"flavor_name":"Fresh Georgia Peach"}},"end":{"id":"22","labels":["Flavor"],"properties":{"created":1986,"name":"Fresh Georgia Peach"}}}
+{"type":"relationship","id":"57","label":"COMMEMORATES","start":{"id":"25","labels":["Headstone"],"properties":{"last_line":"In memory of him and Gleno Mountain Boys, their memory lives on. The time will tell these years.","flavor_name":"Ethan Almond"}},"end":{"id":"24","labels":["Flavor"],"properties":{"created":1948,"name":"Ethan Almond"}}}
+{"type":"relationship","id":"58","label":"COMMEMORATES","start":{"id":"27","labels":["Headstone"],"properties":{"last_line":"The bottle is empty, The cup & the glass. Mud with Irish cream Was not meant to last.","flavor_name":"Dublin Mudslide"}},"end":{"id":"26","labels":["Flavor"],"properties":{"created":2004,"name":"Dublin Mudslide"}}}
+{"type":"relationship","id":"59","label":"COMMEMORATES","start":{"id":"29","labels":["Headstone"],"properties":{"flavor_name":"Cherry Garcia"}},"end":{"id":"28","labels":["Flavor"],"properties":{"name":"Cherry Garcia"}}}

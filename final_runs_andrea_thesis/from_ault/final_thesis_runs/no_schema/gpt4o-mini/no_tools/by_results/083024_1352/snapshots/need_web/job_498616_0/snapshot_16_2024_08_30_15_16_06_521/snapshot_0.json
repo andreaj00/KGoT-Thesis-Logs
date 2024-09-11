@@ -1,0 +1,3 @@
+{"type":"node","id":"32","labels":["Paper"],"properties":{"institution":"University of Leicester","title":"Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?"}}
+{"type":"node","id":"33","labels":["Volume"],"properties":{"unit":"m³","value":3.5}}
+{"type":"relationship","id":"52","label":"HAS_VOLUME","start":{"id":"32","labels":["Paper"],"properties":{"institution":"University of Leicester","title":"Can Hiccup Supply Enough Fish to Maintain a Dragon’s Diet?"}},"end":{"id":"33","labels":["Volume"],"properties":{"unit":"m³","value":3.5}}}

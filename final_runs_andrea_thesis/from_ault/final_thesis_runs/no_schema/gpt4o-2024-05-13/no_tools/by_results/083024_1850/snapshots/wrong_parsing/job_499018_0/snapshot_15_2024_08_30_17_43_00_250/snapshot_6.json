@@ -1,0 +1,7 @@
+{"type":"node","id":"18","labels":["Substance"],"properties":{"unit":"g/cm³","density":1.36,"name":"Honey","weight":5146.15}}
+{"type":"node","id":"19","labels":["Substance"],"properties":{"unit":"g/cm³","density":0.95,"name":"Mayonnaise"}}
+{"type":"node","id":"20","labels":["Volume"],"properties":{"unit":"cm³","name":"US Gallon","value":3785.41}}
+{"type":"node","id":"21","labels":["Volume"],"properties":{"unit":"cm³","name":"UK Gallon","value":4546.09}}
+{"type":"node","id":"22","labels":["Volume"],"properties":{"unit":"cm³","name":"Cup","value":240}}
+{"type":"relationship","id":"55","label":"HAS_VOLUME","start":{"id":"18","labels":["Substance"],"properties":{"unit":"g/cm³","density":1.36,"name":"Honey","weight":5146.15}},"end":{"id":"20","labels":["Volume"],"properties":{"unit":"cm³","name":"US Gallon","value":3785.41}}}
+{"type":"relationship","id":"56","label":"HAS_VOLUME","start":{"id":"19","labels":["Substance"],"properties":{"unit":"g/cm³","density":0.95,"name":"Mayonnaise"}},"end":{"id":"20","labels":["Volume"],"properties":{"unit":"cm³","name":"US Gallon","value":3785.41}}}

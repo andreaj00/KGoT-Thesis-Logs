@@ -1,0 +1,5 @@
+{"type":"node","id":"36","labels":["Pitcher"],"properties":{"number":18,"name":"Yoshida"}}
+{"type":"node","id":"37","labels":["Pitcher"],"properties":{"number":20,"name":"Kiyomiya"}}
+{"type":"node","id":"38","labels":["Pitcher"],"properties":{"number":19,"name":"Tamai"}}
+{"type":"relationship","id":"33","label":"NEXT","start":{"id":"36","labels":["Pitcher"],"properties":{"number":18,"name":"Yoshida"}},"end":{"id":"38","labels":["Pitcher"],"properties":{"number":19,"name":"Tamai"}}}
+{"type":"relationship","id":"34","label":"NEXT","start":{"id":"38","labels":["Pitcher"],"properties":{"number":19,"name":"Tamai"}},"end":{"id":"37","labels":["Pitcher"],"properties":{"number":20,"name":"Kiyomiya"}}}

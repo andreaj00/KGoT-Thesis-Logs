@@ -1,0 +1,62 @@
+[
+    {
+        "question_number": 15,
+        "correct_answer": "6",
+        "returned_answer": "6",
+        "successful": true,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Search engine\n2. Web browser\n3. Calculator",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 74,
+        "correct_answer": "Shelley's place",
+        "returned_answer": "Shelley's Place is the better available place to stay for a family that enjoys swimming and wants a full house, with a rental rating of 4. Although it has a negative review about the floorboards, it is rated higher than Creakwood Creek, which has a rating of 3.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. PDF viewer",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 78,
+        "correct_answer": "Guava",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "1",
+        "tools": "None",
+        "num_tools": ""
+    },
+    {
+        "question_number": 108,
+        "correct_answer": "Hotels",
+        "returned_answer": "Hotel has a higher average rating in Seahorse Island with an average rating of 3.8, compared to Rental House (3.5), Campground (3.4), and Motel (2.2).",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. PDF viewer\n2. Calculator",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 118,
+        "correct_answer": "56000",
+        "returned_answer": "56",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Access to Wikipedia\n4. Natural language processor",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 130,
+        "correct_answer": "Braintree, Honolulu",
+        "returned_answer": "Braintree, Honolulu",
+        "successful": true,
+        "level": "1",
+        "num_steps": "4",
+        "tools": "1. Search engine\n2. Web browser",
+        "num_tools": "3"
+    }
+]

@@ -1,0 +1,27 @@
+{"type":"node","id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}}
+{"type":"node","id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}
+{"type":"node","id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}
+{"type":"node","id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}}
+{"type":"node","id":"13","labels":["CakileMaritima"],"properties":{"name":"Cakile maritima"}}
+{"type":"node","id":"14","labels":["MatthiolaTricuspidata"],"properties":{"name":"Matthiola tricuspidata"}}
+{"type":"node","id":"15","labels":["CrithmumMaritimum"],"properties":{"name":"Crithmum maritimum"}}
+{"type":"node","id":"16","labels":["OlgaTapia"],"properties":{"paper_url":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9457839/","name":"Olga Tapia"}}
+{"type":"node","id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}}
+{"type":"node","id":"18","labels":["Mammals"],"properties":{"type":"mammals"}}
+{"type":"node","id":"19","labels":["Fish"],"properties":{"type":"fish"}}
+{"type":"node","id":"20","labels":["Birds"],"properties":{"type":"birds"}}
+{"type":"node","id":"21","labels":["Insects"],"properties":{"type":"insects"}}
+{"type":"node","id":"22"}
+{"type":"node","id":"23"}
+{"type":"node","id":"24"}
+{"type":"node","id":"25"}
+{"type":"relationship","id":"80","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"11","labels":["Mouse"],"properties":{"type":"high-fat diet-fed obese and overweight mice"}}}
+{"type":"relationship","id":"81","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"13","labels":["CakileMaritima"],"properties":{"name":"Cakile maritima"}}}
+{"type":"relationship","id":"82","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"14","labels":["MatthiolaTricuspidata"],"properties":{"name":"Matthiola tricuspidata"}}}
+{"type":"relationship","id":"83","label":"MENTIONED_ANIMAL","start":{"id":"12","labels":["IliasLagkouvardos"],"properties":{"paper_url":"https://www.mdpi.com/2076-2607/11/1/123","name":"Ilias Lagkouvardos"}},"end":{"id":"15","labels":["CrithmumMaritimum"],"properties":{"name":"Crithmum maritimum"}}}
+{"type":"relationship","id":"84","label":"MENTIONED_IN","start":{"id":"16","labels":["OlgaTapia"],"properties":{"paper_url":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9457839/","name":"Olga Tapia"}},"end":{"id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}}}
+{"type":"relationship","id":"85","label":"MENTIONED_ANIMAL","start":{"id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}},"end":{"id":"22"}}
+{"type":"relationship","id":"86","label":"MENTIONED_ANIMAL","start":{"id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}},"end":{"id":"23"}}
+{"type":"relationship","id":"87","label":"MENTIONED_ANIMAL","start":{"id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}},"end":{"id":"24"}}
+{"type":"relationship","id":"88","label":"MENTIONED_ANIMAL","start":{"id":"17","labels":["Hafnia"],"properties":{"name":"Hafnia alvei"}},"end":{"id":"25"}}
+{"type":"relationship","id":"79","label":"MENTIONED_IN","start":{"id":"9","labels":["Hafnia"],"properties":{"name":"Hafnia (bacterium)"}},"end":{"id":"10","labels":["Mouse"],"properties":{"type":"ob/ob mice"}}}

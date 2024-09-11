@@ -1,0 +1,13 @@
+{"type":"node","id":"88","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}}
+{"type":"node","id":"89","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A1"}}
+{"type":"node","id":"90","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A2"}}
+{"type":"node","id":"91","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B1"}}
+{"type":"node","id":"92","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B2"}}
+{"type":"relationship","id":"48","label":"CONNECTED_TO","start":{"id":"89","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A1"}},"end":{"id":"90","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A2"}}}
+{"type":"relationship","id":"44","label":"CONTAINS","start":{"id":"88","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}},"end":{"id":"89","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A1"}}}
+{"type":"relationship","id":"76","label":"CONNECTED_TO","start":{"id":"89","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A1"}},"end":{"id":"91","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B1"}}}
+{"type":"relationship","id":"45","label":"CONTAINS","start":{"id":"88","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}},"end":{"id":"90","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A2"}}}
+{"type":"relationship","id":"77","label":"CONNECTED_TO","start":{"id":"90","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"A2"}},"end":{"id":"92","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B2"}}}
+{"type":"relationship","id":"46","label":"CONTAINS","start":{"id":"88","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}},"end":{"id":"91","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B1"}}}
+{"type":"relationship","id":"78","label":"CONNECTED_TO","start":{"id":"91","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B1"}},"end":{"id":"92","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B2"}}}
+{"type":"relationship","id":"47","label":"CONTAINS","start":{"id":"88","labels":["Document"],"properties":{"source":"GAIA/dataset/attachments/validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx"}},"end":{"id":"92","labels":["Plot"],"properties":{"owner":"Earl Smith","id":"B2"}}}

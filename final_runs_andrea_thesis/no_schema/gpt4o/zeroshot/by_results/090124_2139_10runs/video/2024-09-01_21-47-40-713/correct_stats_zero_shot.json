@@ -1,0 +1,82 @@
+[
+    {
+        "question_number": 18,
+        "correct_answer": "3",
+        "returned_answer": "I'm sorry, but I can't directly access or view content from YouTube or any other external websites. However, I can help you analyze the video if you provide a detailed description or key timestamps where you think the highest number of bird species might be visible. You can also describe the birds you see, and I can help you identify them.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video parsing",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 29,
+        "correct_answer": "1.8",
+        "returned_answer": "14",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 87,
+        "correct_answer": "Extremely",
+        "returned_answer": "I'm unable to directly view or analyze content from external links, including YouTube videos. However, if you provide a transcript or describe the scene, I can help you understand or analyze the dialogue.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 114,
+        "correct_answer": "4",
+        "returned_answer": "The phrase that appears thirty seconds into the first episode of the Game Grumps' Let's Play of Sonic the Hedgehog (2006) is \"THIS IS A NIGHTMARE.\"\n\nTo determine how many times the letter \"E\" appears in this phrase, let's count:\n\n- \"THIS\" has no \"E\".\n- \"IS\" has no \"E\".\n- \"A\" has no \"E\".\n- \"NIGHTMARE\" has one \"E\".\n\nSo, the letter \"E\" appears **once** in the phrase \"THIS IS A NIGHTMARE.\"",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 116,
+        "correct_answer": "Rockhopper penguin",
+        "returned_answer": "I'm sorry, but I can't view or access external content such as YouTube videos or attached documents. However, I can help you identify the bird if you provide a description or some details about its appearance and behavior in the video. Alternatively, you can check the video description or comments section, as they often contain information about the featured animals.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 159,
+        "correct_answer": "100000000",
+        "returned_answer": "I'm sorry, but I can't directly access or view the content of the attached documents. However, I can help you with general information or guide you on how to find the specific detail you're looking for. If you can provide more context or details from the document, I might be able to assist you better.",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Audio capability\n4. Video capability",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 161,
+        "correct_answer": "orange, white",
+        "returned_answer": "In the film \"Goldfinger,\" James Bond and his companion Pussy Galore conceal themselves under a parachute at the end of the film. The parachute is white.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "A web browser\nA search engine\nImage recognition software",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 164,
+        "correct_answer": "1:41.614",
+        "returned_answer": "To provide the world record time for the specific track in Mario Kart 8 Deluxe's 150cc mode as of June 7, 2023, I would need to know the exact racetrack the GameGrumps were competing on at the two-minute mark of their video uploaded on May 14, 2017. Since I don't have access to the video or the specific track information, I can't give you the exact world record time.\n\nHowever, you can find the most up-to-date world record times for each track in Mario Kart 8 Deluxe by visiting dedicated speedrunning websites or leaderboards such as those on the Mario Kart 8 Deluxe section of the \"Mario Kart World Records\" website or the \"Speedrun.com\" website. These platforms maintain current records and can provide the precise times for each track.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. YouTube\n4. OCR",
+        "num_tools": "4"
+    }
+]

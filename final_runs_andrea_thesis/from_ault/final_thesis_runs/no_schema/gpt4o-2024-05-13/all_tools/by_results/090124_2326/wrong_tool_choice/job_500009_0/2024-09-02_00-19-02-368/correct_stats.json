@@ -1,0 +1,142 @@
+[
+    {
+        "question_number": 9,
+        "correct_answer": "3",
+        "returned_answer": "1",
+        "successful": false,
+        "level": "1",
+        "num_steps": "9",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 21,
+        "correct_answer": "Claude Shannon",
+        "returned_answer": "Oliver Selfridge",
+        "successful": false,
+        "level": "3",
+        "num_steps": "5",
+        "tools": "1. web browser\n2. video recognition tools",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 24,
+        "correct_answer": "4192",
+        "returned_answer": "",
+        "successful": false,
+        "level": "3",
+        "num_steps": "14",
+        "tools": "1. Web browser\n2. Search engine",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 40,
+        "correct_answer": "2",
+        "returned_answer": "2",
+        "successful": true,
+        "level": "1",
+        "num_steps": "9",
+        "tools": "1. Calculator",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 50,
+        "correct_answer": "Maktay mato apple",
+        "returned_answer": "Maktay Zapple Mato",
+        "successful": false,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 62,
+        "correct_answer": "7, 9",
+        "returned_answer": "",
+        "successful": false,
+        "level": "3",
+        "num_steps": "32",
+        "tools": "1. a calculator",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 86,
+        "correct_answer": "100",
+        "returned_answer": "99 residents of \u0218irnea have been turned into vampires.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "8",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 95,
+        "correct_answer": "Briniest",
+        "returned_answer": "",
+        "successful": false,
+        "level": "3",
+        "num_steps": "12",
+        "tools": "1. A file interface\n2. A Python IDE\n3. A web browser\n4. A search engine",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 109,
+        "correct_answer": "8",
+        "returned_answer": "8",
+        "successful": true,
+        "level": "3",
+        "num_steps": "20",
+        "tools": "1. Web Browser\n2. Search Engine\n3. Access to Google Maps\n4. Image recognition tools",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 123,
+        "correct_answer": "16000",
+        "returned_answer": "2000",
+        "successful": false,
+        "level": "1",
+        "num_steps": "8",
+        "tools": "1. A calculator",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 124,
+        "correct_answer": "The seagull glided peacefully to my chair.",
+        "returned_answer": "THESEAGULLGLIDEDPEACEFULLYTOMYCHAIR",
+        "successful": false,
+        "level": "1",
+        "num_steps": "8",
+        "tools": "None",
+        "num_tools": "0"
+    },
+    {
+        "question_number": 127,
+        "correct_answer": "536",
+        "returned_answer": "3611",
+        "successful": false,
+        "level": "2",
+        "num_steps": "4",
+        "tools": "1. Bablyonian cuniform -> arabic legend",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 152,
+        "correct_answer": "Saint Petersburg",
+        "returned_answer": "St. Petersburg",
+        "successful": false,
+        "level": "1",
+        "num_steps": "2",
+        "tools": "1. search engine",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 153,
+        "correct_answer": "green, white",
+        "returned_answer": "",
+        "successful": false,
+        "level": "1",
+        "num_steps": "6",
+        "tools": "1. Rubik's cube model",
+        "num_tools": "1"
+    }
+]

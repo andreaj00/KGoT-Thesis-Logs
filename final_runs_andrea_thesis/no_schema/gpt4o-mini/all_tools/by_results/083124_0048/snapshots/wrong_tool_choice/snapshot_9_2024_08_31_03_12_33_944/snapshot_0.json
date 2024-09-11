@@ -1,0 +1,21 @@
+{"type":"node","id":"0","labels":["Rule"],"properties":{"description":"If the second piston ejects the second ball, the first ball rolls away, the third ball advances two spaces, and two new balls come in."}}
+{"type":"node","id":"1"}
+{"type":"node","id":"2","labels":["Strategy"],"properties":{"best_choice":"2","reasoning":"The second ball has a higher chance of remaining in play longer than the first ball and has the potential to advance."}}
+{"type":"node","id":"3"}
+{"type":"node","id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}}
+{"type":"node","id":"9","labels":["PingPongBall"],"properties":{"number":1}}
+{"type":"node","id":"10","labels":["PingPongBall"],"properties":{"number":2}}
+{"type":"node","id":"11","labels":["PingPongBall"],"properties":{"number":3}}
+{"type":"node","id":"12","labels":["Mechanism"],"properties":{"description":"Three pistons control the ejection of balls","type":"piston"}}
+{"type":"node","id":"13"}
+{"type":"node","id":"14","labels":["Rule"],"properties":{"description":"If the third piston ejects the third ball, the first ball rolls away, the second ball advances one space, and two new balls come in."}}
+{"type":"node","id":"19","labels":["Rule"],"properties":{"description":"If the first piston ejects the first ball, the second and third balls advance one space, and a new ball comes in."}}
+{"type":"node","id":"53"}
+{"type":"relationship","id":"2","label":"HAS_BALL","start":{"id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}},"end":{"id":"9","labels":["PingPongBall"],"properties":{"number":1}}}
+{"type":"relationship","id":"3","label":"HAS_BALL","start":{"id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}},"end":{"id":"10","labels":["PingPongBall"],"properties":{"number":2}}}
+{"type":"relationship","id":"4","label":"HAS_BALL","start":{"id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}},"end":{"id":"11","labels":["PingPongBall"],"properties":{"number":3}}}
+{"type":"relationship","id":"5","label":"USES","start":{"id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}},"end":{"id":"12","labels":["Mechanism"],"properties":{"description":"Three pistons control the ejection of balls","type":"piston"}}}
+{"type":"relationship","id":"6","label":"HAS_RULE","start":{"id":"12","labels":["Mechanism"],"properties":{"description":"Three pistons control the ejection of balls","type":"piston"}},"end":{"id":"53"}}
+{"type":"relationship","id":"7","label":"HAS_RULE","start":{"id":"12","labels":["Mechanism"],"properties":{"description":"Three pistons control the ejection of balls","type":"piston"}},"end":{"id":"13"}}
+{"type":"relationship","id":"8","label":"HAS_RULE","start":{"id":"12","labels":["Mechanism"],"properties":{"description":"Three pistons control the ejection of balls","type":"piston"}},"end":{"id":"1"}}
+{"type":"relationship","id":"9","label":"HAS_STRATEGY","start":{"id":"8","labels":["Game"],"properties":{"name":"Pick That Ping-Pong","prize":10000}},"end":{"id":"3"}}

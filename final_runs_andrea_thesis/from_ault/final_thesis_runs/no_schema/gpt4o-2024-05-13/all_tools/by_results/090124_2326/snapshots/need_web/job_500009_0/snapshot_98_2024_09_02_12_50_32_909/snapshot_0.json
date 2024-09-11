@@ -1,0 +1,5 @@
+{"type":"node","id":"67","labels":["City"],"properties":{"island":"Oahu","name":"Pearl City","state":"Hawaii"}}
+{"type":"node","id":"68","labels":["Home"],"properties":{"address":"2072 Akaikai Loop","city":"Pearl City","island":"Oahu","state":"Hawaii","sale_price_2022":1190000}}
+{"type":"node","id":"69","labels":["Home"],"properties":{"address":"2017 Komo Mai Drive","city":"Pearl City","island":"Oahu","state":"Hawaii","sale_price_2022":1190000}}
+{"type":"relationship","id":"156","label":"LOCATED_IN","start":{"id":"68","labels":["Home"],"properties":{"address":"2072 Akaikai Loop","city":"Pearl City","island":"Oahu","state":"Hawaii","sale_price_2022":1190000}},"end":{"id":"67","labels":["City"],"properties":{"island":"Oahu","name":"Pearl City","state":"Hawaii"}}}
+{"type":"relationship","id":"157","label":"LOCATED_IN","start":{"id":"69","labels":["Home"],"properties":{"address":"2017 Komo Mai Drive","city":"Pearl City","island":"Oahu","state":"Hawaii","sale_price_2022":1190000}},"end":{"id":"67","labels":["City"],"properties":{"island":"Oahu","name":"Pearl City","state":"Hawaii"}}}

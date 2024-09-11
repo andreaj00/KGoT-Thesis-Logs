@@ -1,0 +1,9 @@
+{"type":"node","id":"81","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"}}
+{"type":"node","id":"82","labels":["Problem"],"properties":{"counter":1,"type":"add_or_subtract_fractions"}}
+{"type":"node","id":"83","labels":["Problem"],"properties":{"counter":1,"type":"multiply_or_divide_fractions"}}
+{"type":"node","id":"84","labels":["Problem"],"properties":{"counter":1,"type":"form_improper_fraction"}}
+{"type":"node","id":"85","labels":["Problem"],"properties":{"counter":1,"type":"form_mixed_number"}}
+{"type":"relationship","id":"32","label":"CONTAINS","start":{"id":"81","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"}},"end":{"id":"84","labels":["Problem"],"properties":{"counter":1,"type":"form_improper_fraction"}}}
+{"type":"relationship","id":"33","label":"CONTAINS","start":{"id":"81","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"}},"end":{"id":"85","labels":["Problem"],"properties":{"counter":1,"type":"form_mixed_number"}}}
+{"type":"relationship","id":"30","label":"CONTAINS","start":{"id":"81","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"}},"end":{"id":"82","labels":["Problem"],"properties":{"counter":1,"type":"add_or_subtract_fractions"}}}
+{"type":"relationship","id":"31","label":"CONTAINS","start":{"id":"81","labels":["File"],"properties":{"file_path":"GAIA/dataset/attachments/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"}},"end":{"id":"83","labels":["Problem"],"properties":{"counter":1,"type":"multiply_or_divide_fractions"}}}

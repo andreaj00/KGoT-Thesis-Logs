@@ -1,0 +1,11 @@
+{"type":"node","id":"39","labels":["Writer"],"properties":{"name":"Annie Levin"}}
+{"type":"node","id":"40","labels":["Writer"],"properties":{"name":"David Liittschwager"}}
+{"type":"node","id":"41","labels":["Word"],"properties":{"term":"cardinal"}}
+{"type":"node","id":"42","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"}}
+{"type":"node","id":"43","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/calendar"}}
+{"type":"node","id":"44","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/cleave-2023-02-19"}}
+{"type":"relationship","id":"0","label":"QUOTED_FOR","start":{"id":"40","labels":["Writer"],"properties":{"name":"David Liittschwager"}},"end":{"id":"41","labels":["Word"],"properties":{"term":"cardinal"}}}
+{"type":"relationship","id":"1","label":"CONTAINS","start":{"id":"42","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/jingoism-2022-06-27"}},"end":{"id":"39","labels":["Writer"],"properties":{"name":"Annie Levin"}}}
+{"type":"relationship","id":"49","label":"QUOTED_FOR","start":{"id":"39","labels":["Writer"],"properties":{"name":"Annie Levin"}},"end":{"id":"41","labels":["Word"],"properties":{"term":"cardinal"}}}
+{"type":"relationship","id":"50","label":"CONTAINS","start":{"id":"43","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/calendar"}},"end":{"id":"41","labels":["Word"],"properties":{"term":"cardinal"}}}
+{"type":"relationship","id":"51","label":"CONTAINS","start":{"id":"44","labels":["Source"],"properties":{"url":"https://www.merriam-webster.com/word-of-the-day/cleave-2023-02-19"}},"end":{"id":"40","labels":["Writer"],"properties":{"name":"David Liittschwager"}}}

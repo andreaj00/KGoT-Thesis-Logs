@@ -1,0 +1,9 @@
+{"type":"node","id":"0","labels":["YolaWord"],"properties":{"word":"gimlie"}}
+{"type":"node","id":"1","labels":["LatinRoot"],"properties":{"root":"gimlie"}}
+{"type":"node","id":"2","labels":["SpanishWord"],"properties":{"word":"gimlie"}}
+{"type":"node","id":"3","labels":["Revitalization"],"properties":{"description":"The Yola language revival movement has cultivated in Wexford in recent years, and the “Gabble Ing Yola” resource center for Yola materials claims there are around 140 speakers of the Yola language today."}}
+{"type":"node","id":"4","labels":["Translation"],"properties":{"title":"The World of the Twenty First Century"}}
+{"type":"relationship","id":"73","label":"HAS_LATIN_ROOT","start":{"id":"0","labels":["YolaWord"],"properties":{"word":"gimlie"}},"end":{"id":"1","labels":["LatinRoot"],"properties":{"root":"gimlie"}}}
+{"type":"relationship","id":"74","label":"HAS_SPANISH_WORD","start":{"id":"0","labels":["YolaWord"],"properties":{"word":"gimlie"}},"end":{"id":"2","labels":["SpanishWord"],"properties":{"word":"gimlie"}}}
+{"type":"relationship","id":"75","label":"PART_OF_REVITALIZATION","start":{"id":"0","labels":["YolaWord"],"properties":{"word":"gimlie"}},"end":{"id":"3","labels":["Revitalization"],"properties":{"description":"The Yola language revival movement has cultivated in Wexford in recent years, and the “Gabble Ing Yola” resource center for Yola materials claims there are around 140 speakers of the Yola language today."}}}
+{"type":"relationship","id":"76","label":"HAS_TRANSLATION","start":{"id":"0","labels":["YolaWord"],"properties":{"word":"gimlie"}},"end":{"id":"4","labels":["Translation"],"properties":{"title":"The World of the Twenty First Century"}}}

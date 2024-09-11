@@ -1,0 +1,5 @@
+{"type":"node","id":"49","labels":["CuneiformSymbol"],"properties":{"symbol":"𒐜","value":10}}
+{"type":"node","id":"50","labels":["CuneiformSymbol"],"properties":{"symbol":"𒐐𒐚","value":20}}
+{"type":"node","id":"51","labels":["CombinedValue"],"properties":{"decimal":30}}
+{"type":"relationship","id":"49","label":"REPRESENTS","start":{"id":"49","labels":["CuneiformSymbol"],"properties":{"symbol":"𒐜","value":10}},"end":{"id":"51","labels":["CombinedValue"],"properties":{"decimal":30}}}
+{"type":"relationship","id":"50","label":"REPRESENTS","start":{"id":"50","labels":["CuneiformSymbol"],"properties":{"symbol":"𒐐𒐚","value":20}},"end":{"id":"51","labels":["CombinedValue"],"properties":{"decimal":30}}}

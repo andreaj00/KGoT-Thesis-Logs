@@ -1,0 +1,70 @@
+{"type":"node","id":"5","labels":["University"],"properties":{"country":"United States of America","name":"San Jose State University"}}
+{"type":"node","id":"6"}
+{"type":"node","id":"7","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Central Lancashire"}}
+{"type":"node","id":"8"}
+{"type":"node","id":"9","labels":["Article"],"properties":{"publication_year":2019,"journal":"Lancet Neurol","title":"Global, regional, and national burden of epilepsy, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016"}}
+{"type":"node","id":"10","labels":["Author"],"properties":{"name":"Ettore Beghi"}}
+{"type":"node","id":"11","labels":["University"],"properties":{"country":"Italy","name":"IRCCS-Istituto di Ricerche Farmacologiche Mario Negri"}}
+{"type":"node","id":"12"}
+{"type":"node","id":"13","labels":["Article"],"properties":{"publication_year":2013,"journal":"Frontiers in Behavioral Neuroscience","title":"The Pivotal Role of Semantic Memory in Remembering the Past and Imagining the Future"}}
+{"type":"node","id":"14","labels":["Author"],"properties":{"name":"Muireann Irish"}}
+{"type":"node","id":"15","labels":["Author"],"properties":{"name":"Olivier Piguet"}}
+{"type":"node","id":"16","labels":["University"],"properties":{"country":"Australia","name":"University of New South Wales"}}
+{"type":"node","id":"17"}
+{"type":"node","id":"18","labels":["University"],"properties":{"country":"Australia","name":"Neuroscience Research Australia"}}
+{"type":"node","id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}}
+{"type":"node","id":"62","labels":["Author"],"properties":{"name":"Katharina Sielemann"}}
+{"type":"node","id":"63","labels":["Author"],"properties":{"name":"Alenka Hafner"}}
+{"type":"node","id":"64","labels":["Author"],"properties":{"name":"Boas Pucker"}}
+{"type":"node","id":"65","labels":["University"],"properties":{"country":"Germany","name":"Bielefeld University"}}
+{"type":"node","id":"66"}
+{"type":"node","id":"67","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Cambridge"}}
+{"type":"node","id":"68"}
+{"type":"node","id":"69","labels":["University"],"properties":{"country":"United States of America","name":"Penn State University"}}
+{"type":"node","id":"70"}
+{"type":"node","id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}}
+{"type":"node","id":"72","labels":["Author"],"properties":{"name":"Friederike Hendriks"}}
+{"type":"node","id":"73","labels":["Author"],"properties":{"name":"Elisabeth Mayweg-Paus"}}
+{"type":"node","id":"74","labels":["Author"],"properties":{"name":"Mark Felton"}}
+{"type":"node","id":"75","labels":["Author"],"properties":{"name":"Kalypso Iordanou"}}
+{"type":"node","id":"76","labels":["Author"],"properties":{"name":"Regina Jucks"}}
+{"type":"node","id":"77","labels":["Author"],"properties":{"name":"Maria Zimmermann"}}
+{"type":"node","id":"78","labels":["University"],"properties":{"country":"Germany","name":"University of Münster"}}
+{"type":"node","id":"79"}
+{"type":"node","id":"80","labels":["University"],"properties":{"country":"Germany","name":"Humboldt University of Berlin"}}
+{"type":"node","id":"81"}
+{"type":"node","id":"82"}
+{"type":"node","id":"83","labels":["University"],"properties":{"country":"Australia","name":"Australian Research Council Centre of Excellence in Cognition and its Disorders"}}
+{"type":"node","id":"84"}
+{"type":"node","id":"85","labels":["Article"],"properties":{"publication_year":2021,"journal":"BMC Public Health","title":"Embracing challenging complexity: exploring handwashing behavior from a combined socioecological and intersectional perspective in Sierra Leone"}}
+{"type":"node","id":"86","labels":["Author"],"properties":{"name":"Hanna Luetke Lanfer"}}
+{"type":"node","id":"87","labels":["Author"],"properties":{"name":"Doreen Reifegerste"}}
+{"type":"node","id":"88","labels":["Article"],"properties":{"publication_year":2020,"title":"Unknown Language Article"}}
+{"type":"node","id":"89","labels":["Country"],"properties":{"name":"Iran"}}
+{"type":"relationship","id":"64","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"76","labels":["Author"],"properties":{"name":"Regina Jucks"}}}
+{"type":"relationship","id":"65","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"77","labels":["Author"],"properties":{"name":"Maria Zimmermann"}}}
+{"type":"relationship","id":"66","label":"AFFILIATED_WITH","start":{"id":"79"},"end":{"id":"78","labels":["University"],"properties":{"country":"Germany","name":"University of Münster"}}}
+{"type":"relationship","id":"67","label":"AFFILIATED_WITH","start":{"id":"81"},"end":{"id":"80","labels":["University"],"properties":{"country":"Germany","name":"Humboldt University of Berlin"}}}
+{"type":"relationship","id":"4","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"62","labels":["Author"],"properties":{"name":"Katharina Sielemann"}}}
+{"type":"relationship","id":"68","label":"AFFILIATED_WITH","start":{"id":"6"},"end":{"id":"5","labels":["University"],"properties":{"country":"United States of America","name":"San Jose State University"}}}
+{"type":"relationship","id":"5","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"63","labels":["Author"],"properties":{"name":"Alenka Hafner"}}}
+{"type":"relationship","id":"69","label":"AFFILIATED_WITH","start":{"id":"8"},"end":{"id":"7","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Central Lancashire"}}}
+{"type":"relationship","id":"6","label":"AUTHORED_BY","start":{"id":"61","labels":["Article"],"properties":{"publication_year":2020,"journal":"PeerJ","title":"The reuse of public datasets in the life sciences: potential risks and rewards"}},"end":{"id":"64","labels":["Author"],"properties":{"name":"Boas Pucker"}}}
+{"type":"relationship","id":"70","label":"AUTHORED_BY","start":{"id":"9","labels":["Article"],"properties":{"publication_year":2019,"journal":"Lancet Neurol","title":"Global, regional, and national burden of epilepsy, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016"}},"end":{"id":"10","labels":["Author"],"properties":{"name":"Ettore Beghi"}}}
+{"type":"relationship","id":"7","label":"AFFILIATED_WITH","start":{"id":"66"},"end":{"id":"65","labels":["University"],"properties":{"country":"Germany","name":"Bielefeld University"}}}
+{"type":"relationship","id":"71","label":"AFFILIATED_WITH","start":{"id":"12"},"end":{"id":"11","labels":["University"],"properties":{"country":"Italy","name":"IRCCS-Istituto di Ricerche Farmacologiche Mario Negri"}}}
+{"type":"relationship","id":"8","label":"AFFILIATED_WITH","start":{"id":"68"},"end":{"id":"67","labels":["University"],"properties":{"country":"United Kingdom","name":"University of Cambridge"}}}
+{"type":"relationship","id":"72","label":"AUTHORED_BY","start":{"id":"13","labels":["Article"],"properties":{"publication_year":2013,"journal":"Frontiers in Behavioral Neuroscience","title":"The Pivotal Role of Semantic Memory in Remembering the Past and Imagining the Future"}},"end":{"id":"14","labels":["Author"],"properties":{"name":"Muireann Irish"}}}
+{"type":"relationship","id":"9","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"74","labels":["Author"],"properties":{"name":"Mark Felton"}}}
+{"type":"relationship","id":"73","label":"AUTHORED_BY","start":{"id":"13","labels":["Article"],"properties":{"publication_year":2013,"journal":"Frontiers in Behavioral Neuroscience","title":"The Pivotal Role of Semantic Memory in Remembering the Past and Imagining the Future"}},"end":{"id":"15","labels":["Author"],"properties":{"name":"Olivier Piguet"}}}
+{"type":"relationship","id":"10","label":"AUTHORED_BY","start":{"id":"85","labels":["Article"],"properties":{"publication_year":2021,"journal":"BMC Public Health","title":"Embracing challenging complexity: exploring handwashing behavior from a combined socioecological and intersectional perspective in Sierra Leone"}},"end":{"id":"86","labels":["Author"],"properties":{"name":"Hanna Luetke Lanfer"}}}
+{"type":"relationship","id":"74","label":"AFFILIATED_WITH","start":{"id":"17"},"end":{"id":"16","labels":["University"],"properties":{"country":"Australia","name":"University of New South Wales"}}}
+{"type":"relationship","id":"11","label":"AUTHORED_BY","start":{"id":"85","labels":["Article"],"properties":{"publication_year":2021,"journal":"BMC Public Health","title":"Embracing challenging complexity: exploring handwashing behavior from a combined socioecological and intersectional perspective in Sierra Leone"}},"end":{"id":"87","labels":["Author"],"properties":{"name":"Doreen Reifegerste"}}}
+{"type":"relationship","id":"75","label":"AFFILIATED_WITH","start":{"id":"82"},"end":{"id":"18","labels":["University"],"properties":{"country":"Australia","name":"Neuroscience Research Australia"}}}
+{"type":"relationship","id":"12","label":"PUBLISHED_BY","start":{"id":"88","labels":["Article"],"properties":{"publication_year":2020,"title":"Unknown Language Article"}},"end":{"id":"65","labels":["University"],"properties":{"country":"Germany","name":"Bielefeld University"}}}
+{"type":"relationship","id":"76","label":"AFFILIATED_WITH","start":{"id":"84"},"end":{"id":"83","labels":["University"],"properties":{"country":"Australia","name":"Australian Research Council Centre of Excellence in Cognition and its Disorders"}}}
+{"type":"relationship","id":"13","label":"ORIGINATED_FROM","start":{"id":"88","labels":["Article"],"properties":{"publication_year":2020,"title":"Unknown Language Article"}},"end":{"id":"89","labels":["Country"],"properties":{"name":"Iran"}}}
+{"type":"relationship","id":"156","label":"AFFILIATED_WITH","start":{"id":"70"},"end":{"id":"69","labels":["University"],"properties":{"country":"United States of America","name":"Penn State University"}}}
+{"type":"relationship","id":"157","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"72","labels":["Author"],"properties":{"name":"Friederike Hendriks"}}}
+{"type":"relationship","id":"158","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"73","labels":["Author"],"properties":{"name":"Elisabeth Mayweg-Paus"}}}
+{"type":"relationship","id":"63","label":"AUTHORED_BY","start":{"id":"71","labels":["Article"],"properties":{"publication_year":2020,"journal":"Frontiers in Psychology","title":"Constraints and Affordances of Online Engagement With Scientific Information—A Literature Review"}},"end":{"id":"75","labels":["Author"],"properties":{"name":"Kalypso Iordanou"}}}

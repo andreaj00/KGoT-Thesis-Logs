@@ -1,0 +1,7 @@
+{"type":"node","id":"39","labels":["Astronaut"],"properties":{"last_name":"Cassidy","total_time_in_space":378}}
+{"type":"node","id":"40","labels":["Astronaut"],"properties":{"last_name":"Cristoforetti","total_time_in_space":199}}
+{"type":"node","id":"41","labels":["Astronaut"],"properties":{"last_name":"Acaba","total_time_in_space":305}}
+{"type":"node","id":"42","labels":["Group"],"properties":{"name":"2006 Astronaut Class"}}
+{"type":"relationship","id":"52","label":"INCLUDES","start":{"id":"42","labels":["Group"],"properties":{"name":"2006 Astronaut Class"}},"end":{"id":"39","labels":["Astronaut"],"properties":{"last_name":"Cassidy","total_time_in_space":378}}}
+{"type":"relationship","id":"53","label":"INCLUDES","start":{"id":"42","labels":["Group"],"properties":{"name":"2006 Astronaut Class"}},"end":{"id":"40","labels":["Astronaut"],"properties":{"last_name":"Cristoforetti","total_time_in_space":199}}}
+{"type":"relationship","id":"54","label":"INCLUDES","start":{"id":"42","labels":["Group"],"properties":{"name":"2006 Astronaut Class"}},"end":{"id":"41","labels":["Astronaut"],"properties":{"last_name":"Acaba","total_time_in_space":305}}}

@@ -1,0 +1,45 @@
+{"type":"node","id":"66","labels":["Standard"],"properties":{"name":"United States standards for grades of processed fruits, vegetables, and certain other products"}}
+{"type":"node","id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}}
+{"type":"node","id":"68","labels":["Item"],"properties":{"name":"Dried Apples"}}
+{"type":"node","id":"69","labels":["Item"],"properties":{"name":"Dried Apricots"}}
+{"type":"node","id":"70","labels":["Item"],"properties":{"name":"Dried Pears"}}
+{"type":"node","id":"71","labels":["Item"],"properties":{"name":"Dried Prunes"}}
+{"type":"node","id":"72","labels":["Item"],"properties":{"name":"Raisins"}}
+{"type":"node","id":"73","labels":["Item"],"properties":{"name":"Dehydrated Carrots"}}
+{"type":"node","id":"74","labels":["Item"],"properties":{"name":"Dehydrated Celery"}}
+{"type":"node","id":"75","labels":["Item"],"properties":{"name":"Dehydrated Chives"}}
+{"type":"node","id":"76","labels":["Item"],"properties":{"name":"Dehydrated Onions"}}
+{"type":"node","id":"77","labels":["Item"],"properties":{"name":"Dehydrated Parsley"}}
+{"type":"node","id":"78","labels":["Item"],"properties":{"name":"Dehydrated Potatoes"}}
+{"type":"node","id":"79","labels":["Item"],"properties":{"name":"Dehydrated Sweet Potatoes"}}
+{"type":"node","id":"80","labels":["Item"],"properties":{"name":"Dehydrated Spinach"}}
+{"type":"node","id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}}
+{"type":"node","id":"82","labels":["Item"],"properties":{"name":"Dehydrated Apples"}}
+{"type":"node","id":"83","labels":["Item"],"properties":{"name":"Dehydrated Apricots"}}
+{"type":"node","id":"84","labels":["Item"],"properties":{"name":"Dehydrated Cherries"}}
+{"type":"node","id":"85","labels":["Item"],"properties":{"name":"Dehydrated Garlic"}}
+{"type":"node","id":"86","labels":["Item"],"properties":{"name":"Dehydrated Peaches"}}
+{"type":"relationship","id":"0","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"82","labels":["Item"],"properties":{"name":"Dehydrated Apples"}}}
+{"type":"relationship","id":"1","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"83","labels":["Item"],"properties":{"name":"Dehydrated Apricots"}}}
+{"type":"relationship","id":"2","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"73","labels":["Item"],"properties":{"name":"Dehydrated Carrots"}}}
+{"type":"relationship","id":"3","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"74","labels":["Item"],"properties":{"name":"Dehydrated Celery"}}}
+{"type":"relationship","id":"4","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"84","labels":["Item"],"properties":{"name":"Dehydrated Cherries"}}}
+{"type":"relationship","id":"5","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"85","labels":["Item"],"properties":{"name":"Dehydrated Garlic"}}}
+{"type":"relationship","id":"6","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"76","labels":["Item"],"properties":{"name":"Dehydrated Onions"}}}
+{"type":"relationship","id":"7","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"77","labels":["Item"],"properties":{"name":"Dehydrated Parsley"}}}
+{"type":"relationship","id":"8","label":"CONTAINS","start":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}},"end":{"id":"86","labels":["Item"],"properties":{"name":"Dehydrated Peaches"}}}
+{"type":"relationship","id":"106","label":"INCLUDES","start":{"id":"66","labels":["Standard"],"properties":{"name":"United States standards for grades of processed fruits, vegetables, and certain other products"}},"end":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}}}
+{"type":"relationship","id":"107","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"68","labels":["Item"],"properties":{"name":"Dried Apples"}}}
+{"type":"relationship","id":"108","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"69","labels":["Item"],"properties":{"name":"Dried Apricots"}}}
+{"type":"relationship","id":"109","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"70","labels":["Item"],"properties":{"name":"Dried Pears"}}}
+{"type":"relationship","id":"110","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"71","labels":["Item"],"properties":{"name":"Dried Prunes"}}}
+{"type":"relationship","id":"111","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"72","labels":["Item"],"properties":{"name":"Raisins"}}}
+{"type":"relationship","id":"112","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"73","labels":["Item"],"properties":{"name":"Dehydrated Carrots"}}}
+{"type":"relationship","id":"113","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"74","labels":["Item"],"properties":{"name":"Dehydrated Celery"}}}
+{"type":"relationship","id":"114","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"75","labels":["Item"],"properties":{"name":"Dehydrated Chives"}}}
+{"type":"relationship","id":"115","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"76","labels":["Item"],"properties":{"name":"Dehydrated Onions"}}}
+{"type":"relationship","id":"116","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"77","labels":["Item"],"properties":{"name":"Dehydrated Parsley"}}}
+{"type":"relationship","id":"117","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"78","labels":["Item"],"properties":{"name":"Dehydrated Potatoes"}}}
+{"type":"relationship","id":"118","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"79","labels":["Item"],"properties":{"name":"Dehydrated Sweet Potatoes"}}}
+{"type":"relationship","id":"119","label":"CONTAINS","start":{"id":"67","labels":["DehydratedSection"],"properties":{"date":"1959-07-02","name":"dried and dehydrated section"}},"end":{"id":"80","labels":["Item"],"properties":{"name":"Dehydrated Spinach"}}}
+{"type":"relationship","id":"120","label":"INCLUDES","start":{"id":"66","labels":["Standard"],"properties":{"name":"United States standards for grades of processed fruits, vegetables, and certain other products"}},"end":{"id":"81","labels":["FrozenChilledSection"],"properties":{"date":"1959-07-02","name":"Frozen/Chilled section"}}}

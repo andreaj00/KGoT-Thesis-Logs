@@ -1,0 +1,3 @@
+{"type":"node","id":"51","labels":["Article"],"properties":{"submission_date":"2016-08-11","author":"Serge Galam","category":"Physics and Society","title":"The Autocratic Electorate: An Alternative Theory of Political Representation"}}
+{"type":"node","id":"52","labels":["SocietyType"],"properties":{"name":"autocratic electorate"}}
+{"type":"relationship","id":"95","label":"DESCRIBES","start":{"id":"51","labels":["Article"],"properties":{"submission_date":"2016-08-11","author":"Serge Galam","category":"Physics and Society","title":"The Autocratic Electorate: An Alternative Theory of Political Representation"}},"end":{"id":"52","labels":["SocietyType"],"properties":{"name":"autocratic electorate"}}}

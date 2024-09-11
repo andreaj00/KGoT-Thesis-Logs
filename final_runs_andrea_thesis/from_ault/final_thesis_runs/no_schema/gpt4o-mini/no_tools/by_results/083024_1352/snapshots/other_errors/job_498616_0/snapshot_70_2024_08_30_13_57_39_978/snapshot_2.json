@@ -1,0 +1,6 @@
+{"type":"node","id":"35","labels":["VenezuelanDeclaration"],"properties":{"lastTwoDigits":11,"year":1811}}
+{"type":"node","id":"36","labels":["Color"],"properties":{"name":"TikTok","numberOfColors":2}}
+{"type":"node","id":"37","labels":["Height"],"properties":{"averageHeight":153}}
+{"type":"relationship","id":"60","label":"HAS_COLOR","start":{"id":"35","labels":["VenezuelanDeclaration"],"properties":{"lastTwoDigits":11,"year":1811}},"end":{"id":"36","labels":["Color"],"properties":{"name":"TikTok","numberOfColors":2}}}
+{"type":"relationship","id":"61","label":"HAS_COLOR","start":{"id":"35","labels":["VenezuelanDeclaration"],"properties":{"lastTwoDigits":11,"year":1811}},"end":{"id":"36","labels":["Color"],"properties":{"name":"TikTok","numberOfColors":2}}}
+{"type":"relationship","id":"62","label":"HAS_HEIGHT","start":{"id":"35","labels":["VenezuelanDeclaration"],"properties":{"lastTwoDigits":11,"year":1811}},"end":{"id":"37","labels":["Height"],"properties":{"averageHeight":153}}}

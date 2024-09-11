@@ -1,0 +1,82 @@
+[
+    {
+        "question_number": 18,
+        "correct_answer": "3",
+        "returned_answer": "I'm unable to directly view or analyze videos, including the one you mentioned. However, you can determine the highest number of bird species on camera simultaneously by watching the video and noting the different species present at any given time. Look for distinct features such as size, color, beak shape, and behavior to differentiate between species. If you need further assistance with identifying specific bird species, you might consider pausing the video at key moments and using a bird identification guide or app.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video parsing",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 29,
+        "correct_answer": "1.8",
+        "returned_answer": "18.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 87,
+        "correct_answer": "Extremely",
+        "returned_answer": "I'm unable to directly view or analyze content from external links, including YouTube videos. However, if you provide a transcript or describe the scene, I can help you understand or analyze the dialogue.",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 114,
+        "correct_answer": "4",
+        "returned_answer": "The phrase that appears thirty seconds into the first episode of the Game Grumps' Let's Play of Sonic the Hedgehog (2006) is \"THIS GAME SUCKS.\" \n\nTo determine how many times the letter \"E\" appears in this phrase, let's examine it closely:\n\n\"THIS GAME SUCKS\"\n\nBreaking it down:\n- T\n- H\n- I\n- S\n- G\n- A\n- M\n- E\n- S\n- U\n- C\n- K\n- S\n\nThe letter \"E\" appears once in the phrase \"THIS GAME SUCKS.\"\n\nTherefore, the letter \"E\" appears **1** time in the phrase.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 116,
+        "correct_answer": "Rockhopper penguin",
+        "returned_answer": "I'm sorry, but I can't view or access external content such as YouTube videos or attached documents. However, I can help you with general information about birds or specific questions you might have. If you describe the bird or the scene, I might be able to identify it for you!",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 159,
+        "correct_answer": "100000000",
+        "returned_answer": "I'm sorry, but I can't directly access or view external documents or videos. However, I can help you with information or answer questions based on the text you provide. If you can share the relevant text or details from the video, I'd be happy to assist you further!",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Audio capability\n4. Video capability",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 161,
+        "correct_answer": "orange, white",
+        "returned_answer": "In the film \"Goldfinger,\" James Bond and Pussy Galore conceal themselves under a **yellow** parachute at the end of the film.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "A web browser\nA search engine\nImage recognition software",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 164,
+        "correct_answer": "1:41.614",
+        "returned_answer": "To find the world record time for the specific track in Mario Kart 8 Deluxe's 150cc mode as of June 7, 2023, you would typically need to refer to a reliable source such as the official Mario Kart 8 Deluxe leaderboards or a dedicated speedrunning community like those on Speedrun.com.\n\nHowever, since I don't have access to external databases or the ability to browse the internet in real-time, I can't provide the exact world record time. Instead, I can guide you on how to find this information:\n\n1. **Visit Speedrun.com**: This is a popular website for tracking speedrun records across various games, including Mario Kart 8 Deluxe.\n2. **Search for Mario Kart 8 Deluxe**: Use the search function to find the game.\n3. **Navigate to the 150cc Category**: Look for the specific category that includes 150cc races.\n4. **Find the Track**: Locate the specific track you are interested in. The track name should be mentioned in the GameGrumps video or you can identify it based on the visual cues from the video.\n5. **Check the Leaderboard**: The leaderboard will display the world record times for each track.\n\nIf you follow these steps, you should be able to find the most up-to-date world record time for the track in question.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. YouTube\n4. OCR",
+        "num_tools": "4"
+    }
+]

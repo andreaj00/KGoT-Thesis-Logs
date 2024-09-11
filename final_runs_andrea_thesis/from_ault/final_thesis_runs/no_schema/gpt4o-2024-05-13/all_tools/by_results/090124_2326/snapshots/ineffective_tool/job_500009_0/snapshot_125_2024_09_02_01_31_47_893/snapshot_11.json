@@ -1,0 +1,44 @@
+{"type":"node","id":"0","labels":["University"],"properties":{"name":"Harvard College"}}
+{"type":"node","id":"1","labels":["University"],"properties":{"name":"Santa Clara University"}}
+{"type":"node","id":"2","labels":["City"],"properties":{"name":"Santa Clara","state":"California"}}
+{"type":"node","id":"3","labels":["University"],"properties":{"name":"Morehouse College"}}
+{"type":"node","id":"4","labels":["City"],"properties":{"name":"Atlanta","state":"Georgia"}}
+{"type":"node","id":"60","labels":["Person"],"properties":{"name":"Tom Ridge"}}
+{"type":"node","id":"61","labels":["Person"],"properties":{"name":"Michael Chertoff"}}
+{"type":"node","id":"62","labels":["Person"],"properties":{"name":"Janet Napolitano"}}
+{"type":"node","id":"63","labels":["Person"],"properties":{"name":"Jeh Johnson"}}
+{"type":"node","id":"64","labels":["Person"],"properties":{"name":"John F. Kelly"}}
+{"type":"node","id":"65","labels":["Person"],"properties":{"name":"Kirstjen Nielsen"}}
+{"type":"node","id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}
+{"type":"node","id":"67","labels":["University"],"properties":{"name":"Harvard University"}}
+{"type":"node","id":"68","labels":["City"],"properties":{"name":"Cambridge","state":"Massachusetts"}}
+{"type":"node","id":"69","labels":["Person"],"properties":{"name":"Alejandro Mayorkas"}}
+{"type":"node","id":"70","labels":["University"],"properties":{"name":"University of California, Berkeley"}}
+{"type":"node","id":"71","labels":["City"],"properties":{"name":"Berkeley","state":"California"}}
+{"type":"node","id":"72","labels":["University"],"properties":{"name":"University of Massachusetts Boston"}}
+{"type":"node","id":"73","labels":["City"],"properties":{"name":"Boston","state":"Massachusetts"}}
+{"type":"node","id":"74","labels":["University"],"properties":{"name":"University of Wisconsin–Whitewater"}}
+{"type":"node","id":"75","labels":["City"],"properties":{"name":"Whitewater","state":"Wisconsin"}}
+{"type":"node","id":"76","labels":["University"],"properties":{"name":"Georgetown School of Foreign Service"}}
+{"type":"node","id":"77","labels":["City"],"properties":{"name":"Washington","state":"D.C."}}
+{"type":"relationship","id":"10","label":"LOCATED_IN","start":{"id":"0","labels":["University"],"properties":{"name":"Harvard College"}},"end":{"id":"68","labels":["City"],"properties":{"name":"Cambridge","state":"Massachusetts"}}}
+{"type":"relationship","id":"11","label":"LOCATED_IN","start":{"id":"1","labels":["University"],"properties":{"name":"Santa Clara University"}},"end":{"id":"2","labels":["City"],"properties":{"name":"Santa Clara","state":"California"}}}
+{"type":"relationship","id":"12","label":"ATTENDED","start":{"id":"62","labels":["Person"],"properties":{"name":"Janet Napolitano"}},"end":{"id":"1","labels":["University"],"properties":{"name":"Santa Clara University"}}}
+{"type":"relationship","id":"13","label":"LOCATED_IN","start":{"id":"3","labels":["University"],"properties":{"name":"Morehouse College"}},"end":{"id":"4","labels":["City"],"properties":{"name":"Atlanta","state":"Georgia"}}}
+{"type":"relationship","id":"77","label":"HELD_POSITION","properties":{"end_date":"2005-02-01","start_date":"2003-01-24"},"start":{"id":"60","labels":["Person"],"properties":{"name":"Tom Ridge"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"14","label":"ATTENDED","start":{"id":"63","labels":["Person"],"properties":{"name":"Jeh Johnson"}},"end":{"id":"3","labels":["University"],"properties":{"name":"Morehouse College"}}}
+{"type":"relationship","id":"78","label":"HELD_POSITION","properties":{"end_date":"2009-01-21","start_date":"2005-02-15"},"start":{"id":"61","labels":["Person"],"properties":{"name":"Michael Chertoff"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"15","label":"LOCATED_IN","start":{"id":"72","labels":["University"],"properties":{"name":"University of Massachusetts Boston"}},"end":{"id":"73","labels":["City"],"properties":{"name":"Boston","state":"Massachusetts"}}}
+{"type":"relationship","id":"79","label":"HELD_POSITION","properties":{"end_date":"2013-09-06","start_date":"2009-01-21"},"start":{"id":"62","labels":["Person"],"properties":{"name":"Janet Napolitano"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"16","label":"ATTENDED","start":{"id":"64","labels":["Person"],"properties":{"name":"John F. Kelly"}},"end":{"id":"72","labels":["University"],"properties":{"name":"University of Massachusetts Boston"}}}
+{"type":"relationship","id":"80","label":"HELD_POSITION","properties":{"end_date":"2017-01-20","start_date":"2013-12-23"},"start":{"id":"63","labels":["Person"],"properties":{"name":"Jeh Johnson"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"17","label":"LOCATED_IN","start":{"id":"74","labels":["University"],"properties":{"name":"University of Wisconsin–Whitewater"}},"end":{"id":"75","labels":["City"],"properties":{"name":"Whitewater","state":"Wisconsin"}}}
+{"type":"relationship","id":"81","label":"HELD_POSITION","properties":{"end_date":"2017-07-31","start_date":"2017-01-20"},"start":{"id":"64","labels":["Person"],"properties":{"name":"John F. Kelly"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"18","label":"LOCATED_IN","start":{"id":"76","labels":["University"],"properties":{"name":"Georgetown School of Foreign Service"}},"end":{"id":"77","labels":["City"],"properties":{"name":"Washington","state":"D.C."}}}
+{"type":"relationship","id":"82","label":"HELD_POSITION","properties":{"end_date":"2019-04-01","start_date":"2017-12-06"},"start":{"id":"65","labels":["Person"],"properties":{"name":"Kirstjen Nielsen"}},"end":{"id":"66","labels":["Position"],"properties":{"title":"United States Secretary of Homeland Security"}}}
+{"type":"relationship","id":"19","label":"ATTENDED","start":{"id":"65","labels":["Person"],"properties":{"name":"Kirstjen Nielsen"}},"end":{"id":"76","labels":["University"],"properties":{"name":"Georgetown School of Foreign Service"}}}
+{"type":"relationship","id":"83","label":"ATTENDED","start":{"id":"60","labels":["Person"],"properties":{"name":"Tom Ridge"}},"end":{"id":"67","labels":["University"],"properties":{"name":"Harvard University"}}}
+{"type":"relationship","id":"84","label":"LOCATED_IN","start":{"id":"67","labels":["University"],"properties":{"name":"Harvard University"}},"end":{"id":"68","labels":["City"],"properties":{"name":"Cambridge","state":"Massachusetts"}}}
+{"type":"relationship","id":"85","label":"ATTENDED","start":{"id":"69","labels":["Person"],"properties":{"name":"Alejandro Mayorkas"}},"end":{"id":"70","labels":["University"],"properties":{"name":"University of California, Berkeley"}}}
+{"type":"relationship","id":"86","label":"LOCATED_IN","start":{"id":"70","labels":["University"],"properties":{"name":"University of California, Berkeley"}},"end":{"id":"71","labels":["City"],"properties":{"name":"Berkeley","state":"California"}}}
+{"type":"relationship","id":"87","label":"ATTENDED","start":{"id":"61","labels":["Person"],"properties":{"name":"Michael Chertoff"}},"end":{"id":"0","labels":["University"],"properties":{"name":"Harvard College"}}}

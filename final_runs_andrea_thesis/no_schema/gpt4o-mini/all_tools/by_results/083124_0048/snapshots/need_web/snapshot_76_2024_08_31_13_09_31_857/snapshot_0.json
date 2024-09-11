@@ -1,0 +1,3 @@
+{"type":"node","id":"52","labels":["Article"],"properties":{"name":"Antidisestablishmentarianism"}}
+{"type":"node","id":"53","labels":["Edit"],"properties":{"date":"2023-06-01","total_edits":0}}
+{"type":"relationship","id":"80","label":"HAS_EDIT","start":{"id":"52","labels":["Article"],"properties":{"name":"Antidisestablishmentarianism"}},"end":{"id":"53","labels":["Edit"],"properties":{"date":"2023-06-01","total_edits":0}}}

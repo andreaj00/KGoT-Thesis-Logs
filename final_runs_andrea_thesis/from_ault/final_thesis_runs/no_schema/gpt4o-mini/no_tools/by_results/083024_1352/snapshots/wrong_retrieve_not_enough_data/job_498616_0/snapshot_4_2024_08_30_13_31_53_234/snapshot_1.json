@@ -1,0 +1,3 @@
+{"type":"node","id":"46","labels":["Distance"],"properties":{"unit":"kilometers","value":363300}}
+{"type":"node","id":"47","labels":["EliudKipchoge"],"properties":{"marathon_pace":20.82}}
+{"type":"relationship","id":"46","label":"HAS_PACE","start":{"id":"46","labels":["Distance"],"properties":{"unit":"kilometers","value":363300}},"end":{"id":"47","labels":["EliudKipchoge"],"properties":{"marathon_pace":20.82}}}

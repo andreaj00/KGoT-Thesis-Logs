@@ -1,0 +1,82 @@
+[
+    {
+        "question_number": 18,
+        "correct_answer": "3",
+        "returned_answer": "I'm unable to access external content such as YouTube videos directly. However, if you provide me with details or a summary of the video, I can help answer your question or provide relevant information!",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video parsing",
+        "num_tools": "2"
+    },
+    {
+        "question_number": 29,
+        "correct_answer": "1.8",
+        "returned_answer": "I'm sorry, but I cannot access external documents or websites, including the Monterey Bay Aquarium website or YouTube. However, if you provide me with the specific information or context, I would be happy to help you with your question!",
+        "successful": false,
+        "level": "2",
+        "num_steps": "6",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 87,
+        "correct_answer": "Extremely",
+        "returned_answer": "I'm unable to access external content, including videos from YouTube. However, if you provide me with a transcript or a summary of the scene, I can help analyze it or provide more context about the character Teal'c from the show \"Stargate SG-1.\"",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+        "num_tools": "1"
+    },
+    {
+        "question_number": 114,
+        "correct_answer": "4",
+        "returned_answer": "I'm sorry, but I cannot view or access attached documents. However, if you can provide the phrase shown on the screen, I can help you count the number of times the letter \"E\" appears in it.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "5",
+        "tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 116,
+        "correct_answer": "Rockhopper penguin",
+        "returned_answer": "I'm unable to view or access external content, including YouTube videos. However, if you provide me with details or descriptions from the video, I can help you identify the species of bird featured or provide more information about it!",
+        "successful": false,
+        "level": "1",
+        "num_steps": "3",
+        "tools": "1. Web browser\n2. Search engine\n3. Video recognition tools",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 159,
+        "correct_answer": "100000000",
+        "returned_answer": "I'm sorry, but I can't access external documents or videos, including YouTube content. However, if you provide me with more context or details about the video, I might be able to help you with related information or answer questions based on what I know.",
+        "successful": false,
+        "level": "3",
+        "num_steps": "7",
+        "tools": "1. Search engine\n2. Web browser\n3. Audio capability\n4. Video capability",
+        "num_tools": "4"
+    },
+    {
+        "question_number": 161,
+        "correct_answer": "orange, white",
+        "returned_answer": "In the film Goldfinger, James Bond concealed himself and his companion Pussy Galore in a yellow object.",
+        "successful": false,
+        "level": "2",
+        "num_steps": "12",
+        "tools": "A web browser\nA search engine\nImage recognition software",
+        "num_tools": "3"
+    },
+    {
+        "question_number": 164,
+        "correct_answer": "1:41.614",
+        "returned_answer": "I'm unable to access external content, including YouTube videos or specific documents. However, you can find the world record time for a specific track in Mario Kart 8 Deluxe by checking leaderboards on websites like Mario Kart Central or by searching for the track's record on speedrunning communities. If you provide me with the name of the track, I can help you find general information or tips related to it!",
+        "successful": false,
+        "level": "2",
+        "num_steps": "8",
+        "tools": "1. Search engine\n2. Web browser\n3. YouTube\n4. OCR",
+        "num_tools": "4"
+    }
+]

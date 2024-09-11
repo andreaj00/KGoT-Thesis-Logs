@@ -1,0 +1,6 @@
+{"type":"node","id":"43","labels":["Author"],"properties":{"name":"David Greetham"}}
+{"type":"node","id":"44","labels":["Journal"],"properties":{"volume":3,"number":1,"year":2008,"name":"Textual Cultures"}}
+{"type":"node","id":"45","labels":["Paper"],"properties":{"pages":"45-46","title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}}
+{"type":"relationship","id":"0","label":"PUBLISHED_IN","start":{"id":"43","labels":["Author"],"properties":{"name":"David Greetham"}},"end":{"id":"44","labels":["Journal"],"properties":{"volume":3,"number":1,"year":2008,"name":"Textual Cultures"}}}
+{"type":"relationship","id":"1","label":"CONTAINS","start":{"id":"44","labels":["Journal"],"properties":{"volume":3,"number":1,"year":2008,"name":"Textual Cultures"}},"end":{"id":"45","labels":["Paper"],"properties":{"pages":"45-46","title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}}}
+{"type":"relationship","id":"2","label":"AUTHORED","start":{"id":"43","labels":["Author"],"properties":{"name":"David Greetham"}},"end":{"id":"45","labels":["Paper"],"properties":{"pages":"45-46","title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}}}

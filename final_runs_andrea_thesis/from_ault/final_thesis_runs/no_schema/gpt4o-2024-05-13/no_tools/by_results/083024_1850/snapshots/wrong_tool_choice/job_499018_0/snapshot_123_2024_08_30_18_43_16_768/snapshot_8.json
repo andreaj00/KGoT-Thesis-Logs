@@ -1,0 +1,14 @@
+{"type":"node","id":"14","labels":["Person"],"properties":{"name":"Bob"}}
+{"type":"node","id":"15","labels":["Person"],"properties":{"name":"Host"}}
+{"type":"node","id":"16","labels":["Game"],"properties":{"name":"Game Show"}}
+{"type":"node","id":"17","labels":["Box"],"properties":{"coins":9,"total_coins":30,"name":"Box 1","min_coins":2}}
+{"type":"node","id":"18","labels":["Box"],"properties":{"coins":3,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}
+{"type":"node","id":"19","labels":["Box"],"properties":{"coins":20,"total_coins":30,"name":"Box 3"}}
+{"type":"relationship","id":"112","label":"GUESSES","properties":{"coins":12},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"18","labels":["Box"],"properties":{"coins":3,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}}
+{"type":"relationship","id":"113","label":"GUESSES","properties":{"coins":12},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"19","labels":["Box"],"properties":{"coins":20,"total_coins":30,"name":"Box 3"}}}
+{"type":"relationship","id":"106","label":"PARTICIPATES_IN","start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"107","label":"HOSTS","start":{"id":"15","labels":["Person"],"properties":{"name":"Host"}},"end":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}}}
+{"type":"relationship","id":"108","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"17","labels":["Box"],"properties":{"coins":9,"total_coins":30,"name":"Box 1","min_coins":2}}}
+{"type":"relationship","id":"109","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"18","labels":["Box"],"properties":{"coins":3,"coins_more_than":6,"total_coins":30,"name":"Box 2"}}}
+{"type":"relationship","id":"110","label":"CONTAINS","start":{"id":"16","labels":["Game"],"properties":{"name":"Game Show"}},"end":{"id":"19","labels":["Box"],"properties":{"coins":20,"total_coins":30,"name":"Box 3"}}}
+{"type":"relationship","id":"111","label":"GUESSES","properties":{"coins":6},"start":{"id":"14","labels":["Person"],"properties":{"name":"Bob"}},"end":{"id":"17","labels":["Box"],"properties":{"coins":9,"total_coins":30,"name":"Box 1","min_coins":2}}}

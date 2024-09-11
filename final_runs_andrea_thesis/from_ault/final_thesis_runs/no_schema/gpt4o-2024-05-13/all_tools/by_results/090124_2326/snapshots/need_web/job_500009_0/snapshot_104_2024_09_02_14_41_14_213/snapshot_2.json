@@ -1,0 +1,20 @@
+{"type":"node","id":"86","labels":["Painting"],"properties":{"year":2008,"title":"Embroidery from Uzbekistan"}}
+{"type":"node","id":"87","labels":["Film"],"properties":{"release_year":1960,"title":"The Last Voyage"}}
+{"type":"node","id":"88","labels":["Ship"],"properties":{"service_end_year":1959,"name":"SS Ile de France","service_start_year":1927}}
+{"type":"node","id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}}
+{"type":"node","id":"90","labels":["Fruit"],"properties":{"name":"Bananas"}}
+{"type":"node","id":"91","labels":["Fruit"],"properties":{"name":"Lemons"}}
+{"type":"node","id":"92","labels":["Fruit"],"properties":{"name":"Watermelon"}}
+{"type":"node","id":"93","labels":["Fruit"],"properties":{"name":"Pears"}}
+{"type":"relationship","id":"104","label":"FEATURED_IN","start":{"id":"88","labels":["Ship"],"properties":{"service_end_year":1959,"name":"SS Ile de France","service_start_year":1927}},"end":{"id":"87","labels":["Film"],"properties":{"release_year":1960,"title":"The Last Voyage"}}}
+{"type":"relationship","id":"105","label":"SERVED","start":{"id":"88","labels":["Ship"],"properties":{"service_end_year":1959,"name":"SS Ile de France","service_start_year":1927}},"end":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}}}
+{"type":"relationship","id":"106","label":"USED_AS_PROP","start":{"id":"87","labels":["Film"],"properties":{"release_year":1960,"title":"The Last Voyage"}},"end":{"id":"88","labels":["Ship"],"properties":{"service_end_year":1959,"name":"SS Ile de France","service_start_year":1927}}}
+{"type":"relationship","id":"107","label":"DEPICTS","properties":{"position":1},"start":{"id":"86","labels":["Painting"],"properties":{"year":2008,"title":"Embroidery from Uzbekistan"}},"end":{"id":"90","labels":["Fruit"],"properties":{"name":"Bananas"}}}
+{"type":"relationship","id":"108","label":"DEPICTS","properties":{"position":2},"start":{"id":"86","labels":["Painting"],"properties":{"year":2008,"title":"Embroidery from Uzbekistan"}},"end":{"id":"91","labels":["Fruit"],"properties":{"name":"Lemons"}}}
+{"type":"relationship","id":"109","label":"DEPICTS","properties":{"position":3},"start":{"id":"86","labels":["Painting"],"properties":{"year":2008,"title":"Embroidery from Uzbekistan"}},"end":{"id":"92","labels":["Fruit"],"properties":{"name":"Watermelon"}}}
+{"type":"relationship","id":"110","label":"DEPICTS","properties":{"position":4},"start":{"id":"86","labels":["Painting"],"properties":{"year":2008,"title":"Embroidery from Uzbekistan"}},"end":{"id":"93","labels":["Fruit"],"properties":{"name":"Pears"}}}
+{"type":"relationship","id":"111","label":"SERVED","start":{"id":"88","labels":["Ship"],"properties":{"service_end_year":1959,"name":"SS Ile de France","service_start_year":1927}},"end":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}}}
+{"type":"relationship","id":"112","label":"INCLUDES","start":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}},"end":{"id":"90","labels":["Fruit"],"properties":{"name":"Bananas"}}}
+{"type":"relationship","id":"113","label":"INCLUDES","start":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}},"end":{"id":"91","labels":["Fruit"],"properties":{"name":"Lemons"}}}
+{"type":"relationship","id":"114","label":"INCLUDES","start":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}},"end":{"id":"92","labels":["Fruit"],"properties":{"name":"Watermelon"}}}
+{"type":"relationship","id":"115","label":"INCLUDES","start":{"id":"89","labels":["Menu"],"properties":{"date":"October 1949","meal":"breakfast"}},"end":{"id":"93","labels":["Fruit"],"properties":{"name":"Pears"}}}

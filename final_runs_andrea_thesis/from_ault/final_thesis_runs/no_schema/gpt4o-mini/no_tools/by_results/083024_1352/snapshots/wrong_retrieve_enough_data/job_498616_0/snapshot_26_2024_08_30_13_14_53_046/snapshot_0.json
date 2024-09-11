@@ -1,0 +1,3 @@
+{"type":"node","id":"34","labels":["Version"],"properties":{"number":"4.5.0","release_date":"December 2020"}}
+{"type":"node","id":"35","labels":["Contributor"],"properties":{"name":"Zhou Enlai"}}
+{"type":"relationship","id":"7","label":"CONTRIBUTED_BY","start":{"id":"34","labels":["Version"],"properties":{"number":"4.5.0","release_date":"December 2020"}},"end":{"id":"35","labels":["Contributor"],"properties":{"name":"Zhou Enlai"}}}

@@ -1,0 +1,25 @@
+{"type":"node","id":"0","labels":["State"],"properties":{"applies_to":"most beverage containers","name":"Oregon","bottle_deposit":0.1}}
+{"type":"node","id":"1","labels":["State"],"properties":{"applies_to":"most containers","name":"Vermont","bottle_deposit":0.05,"bottle_deposit_liquor":0.15}}
+{"type":"node","id":"2","labels":["Route"],"properties":{"distance_miles":2556.61,"name":"I-40"}}
+{"type":"node","id":"3","labels":["Route"],"properties":{"distance_miles":1000,"name":"I-90"}}
+{"type":"node","id":"4","labels":["City"],"properties":{"name":"Los Angeles"}}
+{"type":"node","id":"5","labels":["City"],"properties":{"name":"Cincinnati"}}
+{"type":"node","id":"6","labels":["City"],"properties":{"name":"Augusta"}}
+{"type":"node","id":"7","labels":["State"],"properties":{"applies_to":"beer, malt beverages, and soft drinks","name":"Ohio","bottle_deposit":0.05}}
+{"type":"node","id":"80","labels":["State"],"properties":{"deposit_label":"California Redemption Value","bottle_deposit_water":0.05,"name":"California","bottle_deposit_under_24oz":0.05,"bottle_deposit_24oz_or_greater":0.1,"deposit_abbreviation":"CRV"}}
+{"type":"node","id":"81","labels":["State"],"properties":{"applies_to":"beer, carbonated soft drinks, and non-carbonated beverages","name":"Connecticut","bottle_deposit":0.05}}
+{"type":"node","id":"82","labels":["State"],"properties":{"name":"Hawaii","nonrefundable_fee":0.01,"bottle_deposit":0.05}}
+{"type":"node","id":"83","labels":["State"],"properties":{"applies_to":"carbonated beverages","name":"Iowa","bottle_deposit":0.05}}
+{"type":"node","id":"84","labels":["State"],"properties":{"bottle_deposit_liquor_wine":0.15,"bottle_deposit_water":0.05,"applies_to":"fruit juice, soda, beer, and bottled water","name":"Maine"}}
+{"type":"node","id":"85","labels":["State"],"properties":{"applies_to":"carbonated beverages","name":"Massachusetts","bottle_deposit":0.05}}
+{"type":"node","id":"86","labels":["State"],"properties":{"applies_to":"non-refillable and refillable containers","name":"Michigan","bottle_deposit":0.1}}
+{"type":"node","id":"87","labels":["State"],"properties":{"applies_to":"containers under one gallon that held carbonated beverages or water","name":"New York","bottle_deposit":0.05}}
+{"type":"relationship","id":"131","label":"LOCATED_IN","start":{"id":"4","labels":["City"],"properties":{"name":"Los Angeles"}},"end":{"id":"80","labels":["State"],"properties":{"deposit_label":"California Redemption Value","bottle_deposit_water":0.05,"name":"California","bottle_deposit_under_24oz":0.05,"bottle_deposit_24oz_or_greater":0.1,"deposit_abbreviation":"CRV"}}}
+{"type":"relationship","id":"132","label":"LOCATED_IN","start":{"id":"5","labels":["City"],"properties":{"name":"Cincinnati"}},"end":{"id":"84","labels":["State"],"properties":{"bottle_deposit_liquor_wine":0.15,"bottle_deposit_water":0.05,"applies_to":"fruit juice, soda, beer, and bottled water","name":"Maine"}}}
+{"type":"relationship","id":"133","label":"LOCATED_IN","start":{"id":"6","labels":["City"],"properties":{"name":"Augusta"}},"end":{"id":"84","labels":["State"],"properties":{"bottle_deposit_liquor_wine":0.15,"bottle_deposit_water":0.05,"applies_to":"fruit juice, soda, beer, and bottled water","name":"Maine"}}}
+{"type":"relationship","id":"134","label":"START_OF","start":{"id":"4","labels":["City"],"properties":{"name":"Los Angeles"}},"end":{"id":"2","labels":["Route"],"properties":{"distance_miles":2556.61,"name":"I-40"}}}
+{"type":"relationship","id":"135","label":"END_OF","start":{"id":"5","labels":["City"],"properties":{"name":"Cincinnati"}},"end":{"id":"2","labels":["Route"],"properties":{"distance_miles":2556.61,"name":"I-40"}}}
+{"type":"relationship","id":"136","label":"START_OF","start":{"id":"5","labels":["City"],"properties":{"name":"Cincinnati"}},"end":{"id":"3","labels":["Route"],"properties":{"distance_miles":1000,"name":"I-90"}}}
+{"type":"relationship","id":"137","label":"END_OF","start":{"id":"6","labels":["City"],"properties":{"name":"Augusta"}},"end":{"id":"3","labels":["Route"],"properties":{"distance_miles":1000,"name":"I-90"}}}
+{"type":"relationship","id":"138","label":"LOCATED_IN","start":{"id":"5","labels":["City"],"properties":{"name":"Cincinnati"}},"end":{"id":"7","labels":["State"],"properties":{"applies_to":"beer, malt beverages, and soft drinks","name":"Ohio","bottle_deposit":0.05}}}
+{"type":"relationship","id":"139","label":"LOCATED_IN","start":{"id":"6","labels":["City"],"properties":{"name":"Augusta"}},"end":{"id":"7","labels":["State"],"properties":{"applies_to":"beer, malt beverages, and soft drinks","name":"Ohio","bottle_deposit":0.05}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"78","labels":["PenguinSpecies"],"properties":{"name":"Chinstrap Penguin"}}
+{"type":"node","id":"79","labels":["Source"],"properties":{"date":"2018-12-31","name":"Wikipedia"}}
+{"type":"node","id":"80","labels":["Source"],"properties":{"date":"2020","name":"Nature.com"}}
+{"type":"relationship","id":"97","label":"HAS_POPULATION","properties":{"count":8000000},"start":{"id":"78","labels":["PenguinSpecies"],"properties":{"name":"Chinstrap Penguin"}},"end":{"id":"79","labels":["Source"],"properties":{"date":"2018-12-31","name":"Wikipedia"}}}
+{"type":"relationship","id":"98","label":"HAS_POPULATION","properties":{"count":6840000},"start":{"id":"78","labels":["PenguinSpecies"],"properties":{"name":"Chinstrap Penguin"}},"end":{"id":"80","labels":["Source"],"properties":{"date":"2020","name":"Nature.com"}}}

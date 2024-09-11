@@ -1,0 +1,3 @@
+{"type":"node","id":"22","labels":["Crocodile"],"properties":{"species":"Crocodylus niloticus","status":"nonindigenous"}}
+{"type":"node","id":"23","labels":["Location"],"properties":{"name":"Florida"}}
+{"type":"relationship","id":"25","label":"FOUND_IN","properties":{"occurrences":0,"year_range":"2000-2020"},"start":{"id":"22","labels":["Crocodile"],"properties":{"species":"Crocodylus niloticus","status":"nonindigenous"}},"end":{"id":"23","labels":["Location"],"properties":{"name":"Florida"}}}

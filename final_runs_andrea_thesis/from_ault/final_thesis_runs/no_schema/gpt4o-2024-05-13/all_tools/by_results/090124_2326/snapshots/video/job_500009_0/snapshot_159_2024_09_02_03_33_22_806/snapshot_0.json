@@ -1,0 +1,7 @@
+{"type":"node","id":"55","labels":["Video"],"properties":{"date":"March 2018","title":"YouTube 360 VR video"}}
+{"type":"node","id":"56","labels":["Person"],"properties":{"role":"voice actor of Gollum from The Lord of the Rings","name":"Andy Serkis"}}
+{"type":"node","id":"57","labels":["Event"],"properties":{"description":"dinosaurs first shown"}}
+{"type":"node","id":"58","labels":["Number"],"properties":{"description":"mentioned directly after dinosaurs were first shown","value":"65 million"}}
+{"type":"relationship","id":"20","label":"NARRATED_BY","start":{"id":"55","labels":["Video"],"properties":{"date":"March 2018","title":"YouTube 360 VR video"}},"end":{"id":"56","labels":["Person"],"properties":{"role":"voice actor of Gollum from The Lord of the Rings","name":"Andy Serkis"}}}
+{"type":"relationship","id":"77","label":"CONTAINS_EVENT","start":{"id":"55","labels":["Video"],"properties":{"date":"March 2018","title":"YouTube 360 VR video"}},"end":{"id":"57","labels":["Event"],"properties":{"description":"dinosaurs first shown"}}}
+{"type":"relationship","id":"78","label":"MENTIONED","start":{"id":"57","labels":["Event"],"properties":{"description":"dinosaurs first shown"}},"end":{"id":"58","labels":["Number"],"properties":{"description":"mentioned directly after dinosaurs were first shown","value":"65 million"}}}

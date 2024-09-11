@@ -1,0 +1,29 @@
+{"type":"node","id":"4","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Human"}}
+{"type":"node","id":"25","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Bird"}}
+{"type":"node","id":"26","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Horse"}}
+{"type":"node","id":"27","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Tiger"}}
+{"type":"node","id":"28","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Monkey"}}
+{"type":"node","id":"29","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Dog"}}
+{"type":"node","id":"99","labels":["Exhibition"],"properties":{"year":2015,"location":"The Met Fifth Avenue","title":"China: Through the Looking Glass"}}
+{"type":"node","id":"100","labels":["Gallery"],"properties":{"name":"Gallery 207"}}
+{"type":"node","id":"101","labels":["Collection"],"properties":{"name":"Heber R. Bishop Collection"}}
+{"type":"node","id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}}
+{"type":"node","id":"103","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Ox"}}
+{"type":"node","id":"104","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Goat"}}
+{"type":"node","id":"105","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Bear"}}
+{"type":"node","id":"106","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Rabbit"}}
+{"type":"relationship","id":"141","label":"FEATURES","start":{"id":"99","labels":["Exhibition"],"properties":{"year":2015,"location":"The Met Fifth Avenue","title":"China: Through the Looking Glass"}},"end":{"id":"100","labels":["Gallery"],"properties":{"name":"Gallery 207"}}}
+{"type":"relationship","id":"142","label":"DISPLAYS","start":{"id":"100","labels":["Gallery"],"properties":{"name":"Gallery 207"}},"end":{"id":"101","labels":["Collection"],"properties":{"name":"Heber R. Bishop Collection"}}}
+{"type":"relationship","id":"143","label":"CONTAINS","start":{"id":"101","labels":["Collection"],"properties":{"name":"Heber R. Bishop Collection"}},"end":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}}}
+{"type":"relationship","id":"144","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"103","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Ox"}}}
+{"type":"relationship","id":"145","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"104","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Goat"}}}
+{"type":"relationship","id":"146","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"105","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Bear"}}}
+{"type":"relationship","id":"147","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"106","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Rabbit"}}}
+{"type":"relationship","id":"148","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"4","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Human"}}}
+{"type":"relationship","id":"149","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"25","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Bird"}}}
+{"type":"relationship","id":"150","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"26","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Horse"}}}
+{"type":"relationship","id":"151","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"104","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Goat"}}}
+{"type":"relationship","id":"152","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"27","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Tiger"}}}
+{"type":"relationship","id":"153","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"25","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Bird"}}}
+{"type":"relationship","id":"154","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"28","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Monkey"}}}
+{"type":"relationship","id":"155","label":"INCLUDES","start":{"id":"102","labels":["Material"],"properties":{"type":"Jade (nephrite)"}},"end":{"id":"29","labels":["ZodiacAnimal"],"properties":{"visible_hand":true,"name":"Dog"}}}

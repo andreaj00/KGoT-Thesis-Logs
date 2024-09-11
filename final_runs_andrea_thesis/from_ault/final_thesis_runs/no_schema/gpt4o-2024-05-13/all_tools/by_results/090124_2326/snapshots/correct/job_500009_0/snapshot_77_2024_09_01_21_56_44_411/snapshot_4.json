@@ -1,0 +1,17 @@
+{"type":"node","id":"13","labels":["Road"],"properties":{"name":"Main Road"}}
+{"type":"node","id":"14","labels":["MileMarker"],"properties":{"mile":1}}
+{"type":"node","id":"15","labels":["House"],"properties":{"position":"above"}}
+{"type":"node","id":"16","labels":["MileMarker"],"properties":{"mile":2}}
+{"type":"node","id":"17","labels":["MileMarker"],"properties":{"mile":3}}
+{"type":"node","id":"18","labels":["MileMarker"],"properties":{"mile":4}}
+{"type":"node","id":"19","labels":["MileMarker"],"properties":{"mile":5}}
+{"type":"node","id":"20","labels":["House"],"properties":{"position":"below"}}
+{"type":"relationship","id":"7","label":"HAS_MILE_MARKER","start":{"id":"13","labels":["Road"],"properties":{"name":"Main Road"}},"end":{"id":"14","labels":["MileMarker"],"properties":{"mile":1}}}
+{"type":"relationship","id":"8","label":"HAS_HOUSE","start":{"id":"14","labels":["MileMarker"],"properties":{"mile":1}},"end":{"id":"15","labels":["House"],"properties":{"position":"above"}}}
+{"type":"relationship","id":"9","label":"HAS_MILE_MARKER","start":{"id":"13","labels":["Road"],"properties":{"name":"Main Road"}},"end":{"id":"16","labels":["MileMarker"],"properties":{"mile":2}}}
+{"type":"relationship","id":"10","label":"HAS_HOUSE","start":{"id":"16","labels":["MileMarker"],"properties":{"mile":2}},"end":{"id":"15","labels":["House"],"properties":{"position":"above"}}}
+{"type":"relationship","id":"11","label":"HAS_MILE_MARKER","start":{"id":"13","labels":["Road"],"properties":{"name":"Main Road"}},"end":{"id":"17","labels":["MileMarker"],"properties":{"mile":3}}}
+{"type":"relationship","id":"12","label":"HAS_HOUSE","start":{"id":"17","labels":["MileMarker"],"properties":{"mile":3}},"end":{"id":"15","labels":["House"],"properties":{"position":"above"}}}
+{"type":"relationship","id":"13","label":"HAS_MILE_MARKER","start":{"id":"13","labels":["Road"],"properties":{"name":"Main Road"}},"end":{"id":"18","labels":["MileMarker"],"properties":{"mile":4}}}
+{"type":"relationship","id":"14","label":"HAS_MILE_MARKER","start":{"id":"13","labels":["Road"],"properties":{"name":"Main Road"}},"end":{"id":"19","labels":["MileMarker"],"properties":{"mile":5}}}
+{"type":"relationship","id":"15","label":"HAS_HOUSE","start":{"id":"19","labels":["MileMarker"],"properties":{"mile":5}},"end":{"id":"20","labels":["House"],"properties":{"position":"below"}}}

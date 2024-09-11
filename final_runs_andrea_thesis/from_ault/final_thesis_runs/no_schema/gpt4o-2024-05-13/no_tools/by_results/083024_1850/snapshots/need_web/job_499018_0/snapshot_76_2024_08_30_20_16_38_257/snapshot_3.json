@@ -1,0 +1,10 @@
+{"type":"node","id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}}
+{"type":"node","id":"50","labels":["Source"],"properties":{"name":"Wikipedia"}}
+{"type":"node","id":"51","labels":["Tool"],"properties":{"name":"Revision history statistics","url":"https://en.wikipedia.org/wiki/Antidisestablishmentarianism?action=info"}}
+{"type":"node","id":"52","labels":["ExternalTool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}
+{"type":"relationship","id":"50","label":"HOSTED_ON","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"50","labels":["Source"],"properties":{"name":"Wikipedia"}}}
+{"type":"relationship","id":"51","label":"ANALYZED_BY","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"51","labels":["Tool"],"properties":{"name":"Revision history statistics","url":"https://en.wikipedia.org/wiki/Antidisestablishmentarianism?action=info"}}}
+{"type":"relationship","id":"52","label":"ANALYZED_BY","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"52","labels":["ExternalTool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}}
+{"type":"relationship","id":"53","label":"ANALYZED_BY","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"52","labels":["ExternalTool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}}
+{"type":"relationship","id":"54","label":"ANALYZED_BY","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"51","labels":["Tool"],"properties":{"name":"Revision history statistics","url":"https://en.wikipedia.org/wiki/Antidisestablishmentarianism?action=info"}}}
+{"type":"relationship","id":"55","label":"ANALYZED_BY","start":{"id":"49","labels":["WikipediaPage"],"properties":{"title":"Antidisestablishmentarianism"}},"end":{"id":"52","labels":["ExternalTool"],"properties":{"name":"XTools","url":"https://xtools.wmflabs.org/"}}}

@@ -1,0 +1,4 @@
+{"type":"node","id":"23","labels":["BERT"],"properties":{"hidden_units":768,"name":"BERT base","layers":12,"attention_heads":12}}
+{"type":"node","id":"24","labels":["TransformerArchitecture"],"properties":{"layers":6,"name":"Attention is All You Need"}}
+{"type":"relationship","id":"10","label":"HAS_MORE_BLOCKS","properties":{"difference":6},"start":{"id":"23","labels":["BERT"],"properties":{"hidden_units":768,"name":"BERT base","layers":12,"attention_heads":12}},"end":{"id":"24","labels":["TransformerArchitecture"],"properties":{"layers":6,"name":"Attention is All You Need"}}}
+{"type":"relationship","id":"11","label":"HAS_MORE_BLOCKS","properties":{"difference":6},"start":{"id":"23","labels":["BERT"],"properties":{"hidden_units":768,"name":"BERT base","layers":12,"attention_heads":12}},"end":{"id":"24","labels":["TransformerArchitecture"],"properties":{"layers":6,"name":"Attention is All You Need"}}}

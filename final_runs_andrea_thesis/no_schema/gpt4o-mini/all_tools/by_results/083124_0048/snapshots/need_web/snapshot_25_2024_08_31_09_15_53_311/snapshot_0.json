@@ -1,0 +1,7 @@
+{"type":"node","id":"48","labels":["Author"],"properties":{"birth_date":"1941-10-21","name":"David Greetham","death_date":"2020-03-24"}}
+{"type":"node","id":"49","labels":["Work"],"properties":{"volume":3,"number":1,"pages":"45-46","year":2008,"title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}}
+{"type":"node","id":"50","labels":["Field"],"properties":{"name":"Textual Scholarship"}}
+{"type":"node","id":"51","labels":["Society"],"properties":{"name":"Society for Textual Scholarship","founded":1979}}
+{"type":"relationship","id":"1","label":"WROTE","start":{"id":"48","labels":["Author"],"properties":{"birth_date":"1941-10-21","name":"David Greetham","death_date":"2020-03-24"}},"end":{"id":"49","labels":["Work"],"properties":{"volume":3,"number":1,"pages":"45-46","year":2008,"title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}}}
+{"type":"relationship","id":"2","label":"BELONGS_TO","start":{"id":"49","labels":["Work"],"properties":{"volume":3,"number":1,"pages":"45-46","year":2008,"title":"Uncoupled: OR, How I Lost My Author(s)","doi":"10.2979/tex.2008.3.1.44"}},"end":{"id":"50","labels":["Field"],"properties":{"name":"Textual Scholarship"}}}
+{"type":"relationship","id":"3","label":"FOUNDED_BY","start":{"id":"51","labels":["Society"],"properties":{"name":"Society for Textual Scholarship","founded":1979}},"end":{"id":"48","labels":["Author"],"properties":{"birth_date":"1941-10-21","name":"David Greetham","death_date":"2020-03-24"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}
+{"type":"node","id":"40","labels":["Author"],"properties":{"name":"Filipe Carreira da Silva"}}
+{"type":"node","id":"61","labels":["Author"],"properties":{"name":"Mónica Brito Vieira"}}
+{"type":"relationship","id":"14","label":"CO_AUTHOR","start":{"id":"40","labels":["Author"],"properties":{"name":"Filipe Carreira da Silva"}},"end":{"id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}}
+{"type":"relationship","id":"15","label":"CO_AUTHOR","start":{"id":"61","labels":["Author"],"properties":{"name":"Mónica Brito Vieira"}},"end":{"id":"39","labels":["Book"],"properties":{"title":"The Politics of the Book: A Study on the Materiality of Ideas","doi":"10.1353/book.24372"}}}

@@ -1,0 +1,5 @@
+{"type":"node","id":"52","labels":["Video"],"properties":{"source":"BBC Earth YouTube","title":"Top 5 Silliest Animal Moments"}}
+{"type":"node","id":"53","labels":["Bird"],"properties":{"species":"Buller's Mollymawk","family":"Albatross"}}
+{"type":"node","id":"54","labels":["Bird"],"properties":{"species":"Snares Penguin"}}
+{"type":"relationship","id":"18","label":"FEATURES","start":{"id":"52","labels":["Video"],"properties":{"source":"BBC Earth YouTube","title":"Top 5 Silliest Animal Moments"}},"end":{"id":"53","labels":["Bird"],"properties":{"species":"Buller's Mollymawk","family":"Albatross"}}}
+{"type":"relationship","id":"19","label":"FEATURES","start":{"id":"52","labels":["Video"],"properties":{"source":"BBC Earth YouTube","title":"Top 5 Silliest Animal Moments"}},"end":{"id":"54","labels":["Bird"],"properties":{"species":"Snares Penguin"}}}

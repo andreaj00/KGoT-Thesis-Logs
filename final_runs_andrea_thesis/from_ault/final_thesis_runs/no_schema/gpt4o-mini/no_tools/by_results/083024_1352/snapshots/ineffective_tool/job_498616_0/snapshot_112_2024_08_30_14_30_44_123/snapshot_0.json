@@ -1,0 +1,8 @@
+{"type":"node","id":"24","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}}
+{"type":"node","id":"25","labels":["Show"],"properties":{"language":"Polish","title":"Everybody Loves Raymond"}}
+{"type":"node","id":"26","labels":["Film"],"properties":{"title":"Magda M."}}
+{"type":"node","id":"27","labels":["Character"],"properties":{"name":"Marek"}}
+{"type":"relationship","id":"3","label":"PORTRAYED","start":{"id":"24","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}},"end":{"id":"26","labels":["Film"],"properties":{"title":"Magda M."}}}
+{"type":"relationship","id":"4","label":"PLAYED_CHARACTER","start":{"id":"24","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}},"end":{"id":"27","labels":["Character"],"properties":{"name":"Marek"}}}
+{"type":"relationship","id":"5","label":"FEATURES_CHARACTER","start":{"id":"26","labels":["Film"],"properties":{"title":"Magda M."}},"end":{"id":"27","labels":["Character"],"properties":{"name":"Marek"}}}
+{"type":"relationship","id":"63","label":"PLAYED","start":{"id":"24","labels":["Actor"],"properties":{"name":"Tomasz Karolak"}},"end":{"id":"25","labels":["Show"],"properties":{"language":"Polish","title":"Everybody Loves Raymond"}}}

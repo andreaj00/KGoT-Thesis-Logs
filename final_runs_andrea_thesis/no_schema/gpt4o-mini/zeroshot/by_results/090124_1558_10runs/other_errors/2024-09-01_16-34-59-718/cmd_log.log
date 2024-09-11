@@ -1,0 +1,148 @@
+#####################################
+######### Doing Zero Shot ###########
+#####################################
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-34-59-718/output_zero_shot.log
+logs_file: kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-34-59-718/llm_cost_zero_shot.json
+
+
+
+Solving question 42:
+Query: It is 1999. Before you party like it is 1999, please assist me in settling a bet.
+
+Fiona Apple and Paula Cole released albums prior to 1999. Of these albums, which didn't receive a letter grade from Robert Christgau? Provide your answer as a comma delimited list of album titles, sorted alphabetically.
+Docs: []
+Query with Attached Docs: It is 1999. Before you party like it is 1999, please assist me in settling a bet.
+
+Fiona Apple and Paula Cole released albums prior to 1999. Of these albums, which didn't receive a letter grade from Robert Christgau? Provide your answer as a comma delimited list of album titles, sorted alphabetically.
+<attached_docs>
+
+</attached_docs>
+Row 42: Incorrect (Expected: Harbinger, Tidal, Got: To determine which albums by Fiona Apple and Paula Cole did not receive a letter grade from Robert Christgau, we need to look at their discographies prior to 1999.
+
+Fiona Apple's albums prior to 1999:
+1. Tidal (1996)
+
+Paula Cole's albums prior to 1999:
+1. Harbinger (1997)
+2. This Fire (1999)
+
+Now, we check if Robert Christgau assigned letter grades to these albums:
+
+- **Tidal** by Fiona Apple received a letter grade.
+- **Harbinger** by Paula Cole did not receive a letter grade.
+- **This Fire** by Paula Cole received a letter grade.
+
+Based on this information, the album that did not receive a letter grade from Robert Christgau is:
+
+**Harbinger**
+
+Thus, the answer is:
+
+Harbinger)
+
+
+
+Solving question 56:
+Query: According to Box Office Mojo's 2020 Worldwide Box Office list, how many of the top 10 highest-grossing worldwide movies are also on the top 10 highest-grossing domestic movies? Your answer should be a numerical integer value.
+Docs: []
+Query with Attached Docs: According to Box Office Mojo's 2020 Worldwide Box Office list, how many of the top 10 highest-grossing worldwide movies are also on the top 10 highest-grossing domestic movies? Your answer should be a numerical integer value.
+<attached_docs>
+
+</attached_docs>
+Row 56: Incorrect (Expected: 6, Got: To determine how many of the top 10 highest-grossing worldwide movies in 2020 are also on the top 10 highest-grossing domestic movies, I would need to compare the two lists. However, since I don't have access to the attached documents or the specific lists, I can't provide a numerical integer value.
+
+If you can provide the lists or the relevant data, I would be happy to help you analyze it!)
+
+
+
+Solving question 70:
+Query: Find the value of x to the nearest tenth: Lx = (d/dx * (A * x-squared)) + 4-thousand'n'ninety-7 minus C
+Where L is the last two digits of the year of the Venezuelan Declaration of Independence,
+A is the number of colors in the TikTok logo as of July 2023, excluding black and white,
+and C is the height of the average woman in the Philippines according to a July 2023 Business Insider article, rounded to the nearest whole centimeter
+Docs: []
+Query with Attached Docs: Find the value of x to the nearest tenth: Lx = (d/dx * (A * x-squared)) + 4-thousand'n'ninety-7 minus C
+Where L is the last two digits of the year of the Venezuelan Declaration of Independence,
+A is the number of colors in the TikTok logo as of July 2023, excluding black and white,
+and C is the height of the average woman in the Philippines according to a July 2023 Business Insider article, rounded to the nearest whole centimeter
+<attached_docs>
+
+</attached_docs>
+Row 70: Incorrect (Expected: 563.9, Got: To solve for \( x \) in the equation \( Lx = \left( \frac{d}{dx} (A \cdot x^2) \right) + 4097 - C \), we need to determine the values of \( L \), \( A \), and \( C \) based on the information provided.
+
+1. **Finding \( L \)**:
+   The Venezuelan Declaration of Independence was declared in 1811. The last two digits of the year 1811 are **11**. Therefore, \( L = 11 \).
+
+2. **Finding \( A \)**:
+   As of July 2023, the TikTok logo consists of **3 colors**: red, green, and white (excluding black and white). Therefore, \( A = 3 \).
+
+3. **Finding \( C \)**:
+   According to a July 2023 Business Insider article, the average height of a woman in the Philippines is approximately **152 cm**. Therefore, \( C = 152 \).
+
+Now we can substitute these values into the equation:
+
+\[
+Lx = \left( \frac{d}{dx} (A \cdot x^2) \right) + 4097 - C
+\]
+
+Calculating the derivative:
+
+\[
+\frac{d}{dx} (A \cdot x^2) = \frac{d}{dx} (3 \cdot x^2) = 6x
+\]
+
+Now substituting \( L \), \( A \), and \( C \) into the equation:
+
+\[
+11x = 6x + 4097 - 152
+\]
+
+Simplifying the right side:
+
+\[
+11x = 6x + 3945
+\]
+
+Now, isolate \( x \):
+
+\[
+11x - 6x = 3945
+\]
+\[
+5x = 3945
+\]
+\[
+x = \frac{3945}{5} = 789
+\]
+
+Thus, the value of \( x \) to the nearest tenth is:
+
+\[
+\boxed{789.0}
+\])
+
+
+
+Solving question 99:
+Query: I'm making a grocery list for my mom, but she's a professor of botany and she's a real stickler when it comes to categorizing things. I need to add different foods to different categories on the grocery list, but if I make a mistake, she won't buy anything inserted in the wrong category. Here's the list I have so far:
+
+milk, eggs, flour, whole bean coffee, Oreos, sweet potatoes, fresh basil, plums, green beans, rice, corn, bell pepper, whole allspice, acorns, broccoli, celery, zucchini, lettuce, peanuts
+
+I need to make headings for the fruits and vegetables. Could you please create a list of just the vegetables from my list? If you could do that, then I can figure out how to categorize the rest of the list into the appropriate categories. But remember that my mom is a real stickler, so make sure that no botanical fruits end up on the vegetable list, or she won't get them when she's at the store. Please alphabetize the list of vegetables, and place each item in a comma separated list.
+Docs: []
+Query with Attached Docs: I'm making a grocery list for my mom, but she's a professor of botany and she's a real stickler when it comes to categorizing things. I need to add different foods to different categories on the grocery list, but if I make a mistake, she won't buy anything inserted in the wrong category. Here's the list I have so far:
+
+milk, eggs, flour, whole bean coffee, Oreos, sweet potatoes, fresh basil, plums, green beans, rice, corn, bell pepper, whole allspice, acorns, broccoli, celery, zucchini, lettuce, peanuts
+
+I need to make headings for the fruits and vegetables. Could you please create a list of just the vegetables from my list? If you could do that, then I can figure out how to categorize the rest of the list into the appropriate categories. But remember that my mom is a real stickler, so make sure that no botanical fruits end up on the vegetable list, or she won't get them when she's at the store. Please alphabetize the list of vegetables, and place each item in a comma separated list.
+<attached_docs>
+
+</attached_docs>
+Row 99: Incorrect (Expected: broccoli, celery, fresh basil, lettuce, sweet potatoes, Got: Sure! Here’s the list of vegetables from your grocery list, alphabetized and formatted as requested:
+
+acorns, bell pepper, broccoli, celery, corn, green beans, lettuce, sweet potatoes, zucchini)
+
+Total questions: 4
+Correct answers: 0
+Percentage correct: 0.00%
+Totals have been written to kgot/controller/final_thesis_runs/no_schema/gpt4o-mini/zeroshot/by_results/090124_1558/other_errors/2024-09-01_16-34-59-718/llm_cost_zero_shot_total.json

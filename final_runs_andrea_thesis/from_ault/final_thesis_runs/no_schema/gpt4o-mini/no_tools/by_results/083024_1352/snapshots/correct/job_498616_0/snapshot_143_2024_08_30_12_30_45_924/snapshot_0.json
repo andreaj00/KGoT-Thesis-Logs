@@ -1,0 +1,11 @@
+{"type":"node","id":"0","labels":["Page"],"properties":{"number":133}}
+{"type":"node","id":"1","labels":["Page"],"properties":{"number":134}}
+{"type":"node","id":"2","labels":["Page"],"properties":{"number":197}}
+{"type":"node","id":"3","labels":["Page"],"properties":{"number":245}}
+{"type":"node","id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}}
+{"type":"node","id":"6","labels":["Page"],"properties":{"number":132}}
+{"type":"relationship","id":"3","label":"REFERENCES","start":{"id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}},"end":{"id":"6","labels":["Page"],"properties":{"number":132}}}
+{"type":"relationship","id":"4","label":"REFERENCES","start":{"id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}},"end":{"id":"0","labels":["Page"],"properties":{"number":133}}}
+{"type":"relationship","id":"23","label":"REFERENCES","start":{"id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}},"end":{"id":"1","labels":["Page"],"properties":{"number":134}}}
+{"type":"relationship","id":"24","label":"REFERENCES","start":{"id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}},"end":{"id":"2","labels":["Page"],"properties":{"number":197}}}
+{"type":"relationship","id":"25","label":"REFERENCES","start":{"id":"5","labels":["File"],"properties":{"path":"GAIA/dataset/attachments/validation/1f975693-876d-457b-a649-393859e79bf3.mp3","name":"Homework.mp3"}},"end":{"id":"3","labels":["Page"],"properties":{"number":245}}}
